@@ -1,0 +1,123 @@
+import { getSiteUrl } from "@/lib/site";
+import Link from "next/link"
+import { notFound } from "next/navigation"
+import type { Metadata } from "next"
+import { getAllBonusGameSlugs, getBonusGameBySlug } from "@/lib/bonusCodes"
+
+type PageProps = {
+  params: Promise<{
+    game: string
+  }>
+}
+
+export function generateStaticParams() {
+  return getAllBonusGameSlugs().map((game) => ({ game }))
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { game } = await params
+  const g = getBonusGameBySlug(game)
+
+  if (!g) {
+    return {
+      title: "Codes bonus non trouvés | PrixMalin",
+      description: "Cette page de codes bonus n’existe pas ou a été retirée.",
+      robots: { index: false, follow: false },
+    }
+  }
+
+  const title = `Codes bonus ${g.game} gratuits | PrixMalin`
+  const description = `Codes bonus gratuits pour ${g.game} : récompenses et instructions d’activation.`
+  const canonical = `${getSiteUrl()}/codes-bonus/${g.slug}`;
+
+
+  return {
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      siteName: "PrixMalin",
+      locale: "fr_CA",
+      type: "article",
+    },
+  }
+}
+
+export default async function BonusGamePage({ params }: PageProps) {
+  const { game } = await params
+  const g = getBonusGameBySlug(game)
+  if (!g) return notFound()
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `Codes bonus ${g.game}`,
+    itemListElement: g.codes.map((c, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      name: c.code,
+      description: c.rewards,
+    })),
+  }
+
+  return (
+    <main className="mx-auto max-w-5xl px-4 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      <nav className="text-sm text-neutral-600">
+        <Link href="/" className="hover:text-green-700">
+          Accueil
+        </Link>
+        <span> {" > "} </span>
+        <Link href="/codes-bonus" className="hover:text-green-700">
+          Codes Bonus
+        </Link>
+        <span> {" > "} </span>
+        <span className="font-semibold text-neutral-900">{g.game}</span>
+      </nav>
+
+      <h1 className="mt-4 text-2xl font-semibold">Codes bonus {g.game} gratuits</h1>
+
+      <p className="mt-2 text-sm text-gray-600">
+        Liste de codes bonus avec récompenses et instructions d’activation.
+      </p>
+
+      <section className="mt-6 rounded-2xl border bg-white p-5">
+        <h2 className="text-lg font-bold">Codes</h2>
+
+        <ul className="mt-4 space-y-3">
+          {g.codes.map((c) => (
+            <li key={c.code} className="rounded-xl border p-4">
+              <p className="font-extrabold">{c.code}</p>
+              <p className="mt-1 text-sm text-neutral-700">{c.rewards}</p>
+              {c.expires ? (
+                <p className="mt-2 text-xs text-neutral-500">Expire : {c.expires}</p>
+              ) : (
+                <p className="mt-2 text-xs text-neutral-500">Expiration : inconnue / variable</p>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mt-6 rounded-2xl border bg-white p-5">
+        <h2 className="text-lg font-bold">Comment activer</h2>
+        <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm text-neutral-700">
+          {g.howTo.map((step, i) => (
+            <li key={i}>{step}</li>
+          ))}
+        </ol>
+      </section>
+
+      <p className="mt-8 text-xs text-neutral-500">
+        Les codes peuvent expirer sans préavis. Si un code ne fonctionne plus, il a probablement expiré.
+      </p>
+    </main>
+  )
+}

@@ -1,0 +1,38 @@
+{
+  "updatedAt": "2026-02-15",
+  "items": [
+    {
+      "game": "World of Tanks",
+      "slug": "world-of-tanks",
+      "howTo": [
+        "Connecte-toi à ton compte.",
+        "Va dans la section “Redeem / Activer un code”.",
+        "Entre le code et valide.",
+        "Redémarre le jeu si nécessaire."
+      ],
+      "codes": [
+        {
+          "code": "WOTFREE2026",
+          "rewards": "Bonus aléatoire (consommables / XP / crédits)",
+          "expires": null
+        }
+      ]
+    },
+    {
+      "game": "Fortnite",
+      "slug": "fortnite",
+      "howTo": [
+        "Connecte-toi sur le site Epic Games.",
+        "Va dans “Redeem Code / Utiliser un code”.",
+        "Entre le code, confirme, puis relance le jeu."
+      ],
+      "codes": [
+        {
+          "code": "FORTNITE-GIFT-2026",
+          "rewards": "Récompense promo (selon disponibilité)",
+          "expires": null
+        }
+      ]
+    }
+  ]
+}
