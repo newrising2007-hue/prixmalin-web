@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+
 import {
   getAllIntentPages,
   getIntentPageBySlug,
@@ -7,11 +8,14 @@ import {
   type Deal,
 } from "@/lib/intent";
 
+import { getSiteUrl } from "@/lib/site";
+
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-import { getSiteUrl } from "@/lib/site";
+
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? getSiteUrl() ?? "https://prixmalin.ca";
 
 function formatPrice(price?: number, currency = "CAD") {
   if (!price || !Number.isFinite(price)) return null;
