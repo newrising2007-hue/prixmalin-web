@@ -5,7 +5,6 @@
     "country": "CA",
     "currency": "CAD"
   },
-  
   "subscriptions": [
     {
       "id": "xbox-gamepass-ultimate-3m",
@@ -16,13 +15,13 @@
       "regularPrice": 49.99,
       "dealPrice": 29.99,
       "discount": 40,
-      "savings": 20.00,
+      "savings": 20.0,
       "description": "Accès à 100+ jeux + Xbox Live Gold + EA Play inclus",
       "retailers": [
         {
           "name": "Amazon.ca",
           "stock": true,
-      "affiliateLink": "https://www.amazon.ca/-/fr/Microsoft-snow-chains/dp/B08M8WSRX9?tag=prixmalin-20&linkCode=ll2&linkId=ec68630135bda231d437500c61e37e36",
+          "affiliateLink": "https://www.amazon.ca/-/fr/Microsoft-snow-chains/dp/B08M8WSRX9?tag=prixmalin-20&linkCode=ll2&linkId=ec68630135bda231d437500c61e37e36",
           "type": "online"
         },
         {
@@ -34,7 +33,11 @@
       ],
       "expires": "2026-02-28",
       "featured": true,
-      "tags": ["deal-chaud", "xbox", "subscription"]
+      "tags": [
+        "deal-chaud",
+        "xbox",
+        "subscription"
+      ]
     },
     {
       "id": "ps-plus-premium-12m",
@@ -45,7 +48,7 @@
       "regularPrice": 119.99,
       "dealPrice": 79.99,
       "discount": 33,
-      "savings": 40.00,
+      "savings": 40.0,
       "description": "Catalogue de jeux + essais + classiques PS1/PS2",
       "retailers": [
         {
@@ -57,13 +60,17 @@
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B09TQMH95N?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         }
       ],
       "expires": "2026-03-15",
       "featured": true,
-      "tags": ["deal-chaud", "playstation", "subscription"]
+      "tags": [
+        "deal-chaud",
+        "playstation",
+        "subscription"
+      ]
     },
     {
       "id": "nintendo-online-family-12m",
@@ -74,7 +81,7 @@
       "regularPrice": 64.99,
       "dealPrice": 49.99,
       "discount": 23,
-      "savings": 15.00,
+      "savings": 15.0,
       "description": "Jusqu'à 8 comptes + N64 & Sega Genesis inclus",
       "retailers": [
         {
@@ -86,13 +93,17 @@
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B0BCWHHX2K?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         }
       ],
       "expires": "2026-02-20",
       "featured": false,
-      "tags": ["nintendo", "subscription", "famille"]
+      "tags": [
+        "nintendo",
+        "subscription",
+        "famille"
+      ]
     },
     {
       "id": "ea-play-12m",
@@ -103,13 +114,13 @@
       "regularPrice": 39.99,
       "dealPrice": 19.99,
       "discount": 50,
-      "savings": 20.00,
+      "savings": 20.0,
       "description": "FIFA, Madden, Battlefield + essais anticipés",
       "retailers": [
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B08GD8YNFN?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         },
         {
@@ -121,7 +132,11 @@
       ],
       "expires": "2026-02-25",
       "featured": true,
-      "tags": ["deal-chaud", "ea", "subscription"]
+      "tags": [
+        "deal-chaud",
+        "ea",
+        "subscription"
+      ]
     },
     {
       "id": "ubisoft-plus-1m",
@@ -130,7 +145,7 @@
       "platform": "PC",
       "duration": "1 mois",
       "regularPrice": 19.99,
-      "dealPrice": 0.00,
+      "dealPrice": 0.0,
       "discount": 100,
       "savings": 19.99,
       "description": "Essai gratuit - Tous les jeux Ubisoft inclus",
@@ -144,18 +159,21 @@
       ],
       "expires": "2026-12-31",
       "featured": false,
-      "tags": ["gratuit", "ubisoft", "pc"]
+      "tags": [
+        "gratuit",
+        "ubisoft",
+        "pc"
+      ]
     }
   ],
-
   "giftCards": [
     {
       "id": "steam-wallet-50",
       "name": "Carte Steam Wallet 50$",
       "category": "giftcard",
       "platform": "PC Steam",
-      "value": 50.00,
-      "regularPrice": 50.00,
+      "value": 50.0,
+      "regularPrice": 50.0,
       "dealPrice": 44.99,
       "discount": 10,
       "savings": 5.01,
@@ -176,18 +194,22 @@
       ],
       "expires": "2026-03-01",
       "featured": true,
-      "tags": ["steam", "carte-cadeau", "pc"]
+      "tags": [
+        "steam",
+        "carte-cadeau",
+        "pc"
+      ]
     },
     {
       "id": "psn-100",
       "name": "Carte PlayStation Network 100$",
       "category": "giftcard",
       "platform": "PlayStation",
-      "value": 100.00,
-      "regularPrice": 100.00,
-      "dealPrice": 85.00,
+      "value": 100.0,
+      "regularPrice": 100.0,
+      "dealPrice": 85.0,
       "discount": 15,
-      "savings": 15.00,
+      "savings": 15.0,
       "description": "Crédit PSN pour jeux et contenu PlayStation",
       "retailers": [
         {
@@ -205,18 +227,22 @@
       ],
       "expires": "2026-02-28",
       "featured": true,
-      "tags": ["deal-chaud", "playstation", "carte-cadeau"]
+      "tags": [
+        "deal-chaud",
+        "playstation",
+        "carte-cadeau"
+      ]
     },
     {
       "id": "xbox-live-50",
       "name": "Carte Xbox Live 50$",
       "category": "giftcard",
       "platform": "Xbox",
-      "value": 50.00,
-      "regularPrice": 50.00,
-      "dealPrice": 45.00,
+      "value": 50.0,
+      "regularPrice": 50.0,
+      "dealPrice": 45.0,
       "discount": 10,
-      "savings": 5.00,
+      "savings": 5.0,
       "description": "Crédit Xbox pour jeux, apps et contenu",
       "retailers": [
         {
@@ -228,24 +254,27 @@
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B00F4CEHNK?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         }
       ],
       "expires": "2026-03-10",
       "featured": false,
-      "tags": ["xbox", "carte-cadeau"]
+      "tags": [
+        "xbox",
+        "carte-cadeau"
+      ]
     },
     {
       "id": "nintendo-eshop-50",
       "name": "Carte Nintendo eShop 50$",
       "category": "giftcard",
       "platform": "Nintendo Switch",
-      "value": 50.00,
-      "regularPrice": 50.00,
-      "dealPrice": 46.00,
+      "value": 50.0,
+      "regularPrice": 50.0,
+      "dealPrice": 46.0,
       "discount": 8,
-      "savings": 4.00,
+      "savings": 4.0,
       "description": "Crédit eShop pour jeux Nintendo Switch",
       "retailers": [
         {
@@ -257,21 +286,24 @@
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B01LYOCVZF?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         }
       ],
       "expires": "2026-02-25",
       "featured": false,
-      "tags": ["nintendo", "carte-cadeau"]
+      "tags": [
+        "nintendo",
+        "carte-cadeau"
+      ]
     },
     {
       "id": "roblox-25",
       "name": "Carte-Cadeau Roblox 25$",
       "category": "giftcard",
       "platform": "Roblox",
-      "value": 25.00,
-      "regularPrice": 25.00,
+      "value": 25.0,
+      "regularPrice": 25.0,
       "dealPrice": 23.75,
       "discount": 5,
       "savings": 1.25,
@@ -286,16 +318,19 @@
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B07DLCS8TN?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         }
       ],
       "expires": "2026-03-15",
       "featured": false,
-      "tags": ["roblox", "enfants", "carte-cadeau"]
+      "tags": [
+        "roblox",
+        "enfants",
+        "carte-cadeau"
+      ]
     }
   ],
-
   "virtualCurrency": [
     {
       "id": "fortnite-1000-vbucks",
@@ -306,7 +341,7 @@
       "regularPrice": 12.99,
       "dealPrice": 12.99,
       "discount": 0,
-      "savings": 0.00,
+      "savings": 0.0,
       "bonus": "+300 V-Bucks bonus (promo saisonnière)",
       "description": "Monnaie Fortnite pour skins, passes de combat",
       "retailers": [
@@ -319,13 +354,17 @@
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B07D3LD7L9?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         }
       ],
       "expires": "2026-02-20",
       "featured": true,
-      "tags": ["fortnite", "vbucks", "promo"]
+      "tags": [
+        "fortnite",
+        "vbucks",
+        "promo"
+      ]
     },
     {
       "id": "apex-1000-coins",
@@ -336,7 +375,7 @@
       "regularPrice": 12.99,
       "dealPrice": 12.99,
       "discount": 0,
-      "savings": 0.00,
+      "savings": 0.0,
       "bonus": "Double coins pendant événement",
       "description": "Monnaie Apex pour skins et legends",
       "retailers": [
@@ -349,7 +388,10 @@
       ],
       "expires": "2026-03-01",
       "featured": false,
-      "tags": ["apex", "ea"]
+      "tags": [
+        "apex",
+        "ea"
+      ]
     },
     {
       "id": "valorant-1375-vp",
@@ -360,7 +402,7 @@
       "regularPrice": 14.99,
       "dealPrice": 14.99,
       "discount": 0,
-      "savings": 0.00,
+      "savings": 0.0,
       "bonus": "Bundle skin limité disponible",
       "description": "Points Valorant pour skins d'armes",
       "retailers": [
@@ -373,7 +415,10 @@
       ],
       "expires": "2026-02-28",
       "featured": false,
-      "tags": ["valorant", "riot"]
+      "tags": [
+        "valorant",
+        "riot"
+      ]
     },
     {
       "id": "genshin-3280-crystals",
@@ -384,7 +429,7 @@
       "regularPrice": 69.99,
       "dealPrice": 69.99,
       "discount": 0,
-      "savings": 0.00,
+      "savings": 0.0,
       "bonus": "Premier achat 2x (6560 crystals)",
       "description": "Crystals pour wishes et personnages",
       "retailers": [
@@ -397,7 +442,10 @@
       ],
       "expires": "2026-12-31",
       "featured": false,
-      "tags": ["genshin", "gacha"]
+      "tags": [
+        "genshin",
+        "gacha"
+      ]
     },
     {
       "id": "minecraft-1720-coins",
@@ -408,7 +456,7 @@
       "regularPrice": 14.99,
       "dealPrice": 14.99,
       "discount": 0,
-      "savings": 0.00,
+      "savings": 0.0,
       "bonus": "Packs saisonniers inclus",
       "description": "Minecoins pour skins, maps, textures",
       "retailers": [
@@ -421,10 +469,12 @@
       ],
       "expires": "2026-03-31",
       "featured": false,
-      "tags": ["minecraft", "enfants"]
+      "tags": [
+        "minecraft",
+        "enfants"
+      ]
     }
   ],
-
   "games": [
     {
       "id": "fifa-26",
@@ -434,7 +484,7 @@
       "regularPrice": 89.99,
       "dealPrice": 69.99,
       "discount": 22,
-      "savings": 20.00,
+      "savings": 20.0,
       "description": "Édition standard - Précommande",
       "retailers": [
         {
@@ -452,7 +502,11 @@
       ],
       "expires": "2026-09-30",
       "featured": true,
-      "tags": ["deal-chaud", "sports", "nouveauté"]
+      "tags": [
+        "deal-chaud",
+        "sports",
+        "nouveauté"
+      ]
     },
     {
       "id": "zelda-totk",
@@ -462,7 +516,7 @@
       "regularPrice": 79.99,
       "dealPrice": 59.99,
       "discount": 25,
-      "savings": 20.00,
+      "savings": 20.0,
       "description": "Aventure épique - AAA Nintendo",
       "retailers": [
         {
@@ -474,13 +528,17 @@
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B0BVL45TY9?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         }
       ],
       "expires": "2026-02-28",
       "featured": true,
-      "tags": ["deal-chaud", "zelda", "nintendo"]
+      "tags": [
+        "deal-chaud",
+        "zelda",
+        "nintendo"
+      ]
     },
     {
       "id": "cod-mw3",
@@ -490,7 +548,7 @@
       "regularPrice": 89.99,
       "dealPrice": 74.99,
       "discount": 17,
-      "savings": 15.00,
+      "savings": 15.0,
       "description": "FPS multijoueur - Edition bundle",
       "retailers": [
         {
@@ -508,7 +566,11 @@
       ],
       "expires": "2026-03-01",
       "featured": false,
-      "tags": ["cod", "fps", "activision"]
+      "tags": [
+        "cod",
+        "fps",
+        "activision"
+      ]
     },
     {
       "id": "hogwarts-legacy",
@@ -518,13 +580,13 @@
       "regularPrice": 79.99,
       "dealPrice": 49.99,
       "discount": 38,
-      "savings": 30.00,
+      "savings": 30.0,
       "description": "RPG monde ouvert Harry Potter",
       "retailers": [
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B0B1M91BFY?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         },
         {
@@ -536,7 +598,11 @@
       ],
       "expires": "2026-02-25",
       "featured": true,
-      "tags": ["deal-chaud", "rpg", "harry-potter"]
+      "tags": [
+        "deal-chaud",
+        "rpg",
+        "harry-potter"
+      ]
     },
     {
       "id": "baldurs-gate-3",
@@ -546,7 +612,7 @@
       "regularPrice": 79.99,
       "dealPrice": 59.99,
       "discount": 25,
-      "savings": 20.00,
+      "savings": 20.0,
       "description": "RPG Game of the Year 2023",
       "retailers": [
         {
@@ -564,10 +630,13 @@
       ],
       "expires": "2026-03-15",
       "featured": true,
-      "tags": ["deal-chaud", "rpg", "goty"]
+      "tags": [
+        "deal-chaud",
+        "rpg",
+        "goty"
+      ]
     }
   ],
-
   "hardware": [
     {
       "id": "xbox-series-s",
@@ -577,7 +646,7 @@
       "regularPrice": 379.99,
       "dealPrice": 299.99,
       "discount": 21,
-      "savings": 80.00,
+      "savings": 80.0,
       "description": "Console next-gen compacte 512GB",
       "retailers": [
         {
@@ -595,7 +664,11 @@
       ],
       "expires": "2026-02-28",
       "featured": true,
-      "tags": ["deal-chaud", "console", "xbox"]
+      "tags": [
+        "deal-chaud",
+        "console",
+        "xbox"
+      ]
     },
     {
       "id": "ps5-slim",
@@ -605,7 +678,7 @@
       "regularPrice": 649.99,
       "dealPrice": 599.99,
       "discount": 8,
-      "savings": 50.00,
+      "savings": 50.0,
       "description": "Bundle avec Spider-Man 2",
       "retailers": [
         {
@@ -623,7 +696,11 @@
       ],
       "expires": "2026-03-10",
       "featured": true,
-      "tags": ["deal-chaud", "console", "playstation"]
+      "tags": [
+        "deal-chaud",
+        "console",
+        "playstation"
+      ]
     },
     {
       "id": "switch-oled",
@@ -633,7 +710,7 @@
       "regularPrice": 449.99,
       "dealPrice": 399.99,
       "discount": 11,
-      "savings": 50.00,
+      "savings": 50.0,
       "description": "Écran OLED 7 pouces",
       "retailers": [
         {
@@ -651,7 +728,11 @@
       ],
       "expires": "2026-02-20",
       "featured": false,
-      "tags": ["console", "nintendo", "oled"]
+      "tags": [
+        "console",
+        "nintendo",
+        "oled"
+      ]
     },
     {
       "id": "xbox-elite-controller",
@@ -661,7 +742,7 @@
       "regularPrice": 219.99,
       "dealPrice": 169.99,
       "discount": 23,
-      "savings": 50.00,
+      "savings": 50.0,
       "description": "Manette pro avec paddles",
       "retailers": [
         {
@@ -679,7 +760,11 @@
       ],
       "expires": "2026-02-28",
       "featured": true,
-      "tags": ["deal-chaud", "accessoire", "xbox"]
+      "tags": [
+        "deal-chaud",
+        "accessoire",
+        "xbox"
+      ]
     },
     {
       "id": "steelseries-arctis-7",
@@ -689,13 +774,13 @@
       "regularPrice": 229.99,
       "dealPrice": 149.99,
       "discount": 35,
-      "savings": 80.00,
+      "savings": 80.0,
       "description": "Casque gaming sans fil 30h autonomie",
       "retailers": [
         {
           "name": "Amazon.ca",
           "stock": true,
-          "affiliateLink": "https://www.amazon.ca/dp/B09ZMQNL7S?tag=prixmalin-20",
+          "affiliateLink": "https://www.amazon.ca/s?k=Amazon.ca&tag=prixmalin-20",
           "type": "online"
         },
         {
@@ -707,7 +792,11 @@
       ],
       "expires": "2026-03-01",
       "featured": true,
-      "tags": ["deal-chaud", "casque", "wireless"]
+      "tags": [
+        "deal-chaud",
+        "casque",
+        "wireless"
+      ]
     },
     {
       "id": "logitech-g502",
@@ -717,7 +806,7 @@
       "regularPrice": 99.99,
       "dealPrice": 59.99,
       "discount": 40,
-      "savings": 40.00,
+      "savings": 40.0,
       "description": "Souris gaming 25K DPI",
       "retailers": [
         {
@@ -735,10 +824,13 @@
       ],
       "expires": "2026-02-25",
       "featured": true,
-      "tags": ["deal-chaud", "souris", "logitech"]
+      "tags": [
+        "deal-chaud",
+        "souris",
+        "logitech"
+      ]
     }
   ],
-
   "featured_deals": [
     "xbox-gamepass-ultimate-3m",
     "ps-plus-premium-12m",
