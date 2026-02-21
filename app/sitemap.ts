@@ -1,40 +1,47 @@
-// app/sitemap.ts
-import type { MetadataRoute } from "next";
-import { getAllDeals } from "@/lib/deals";
+import { MetadataRoute } from "next";
+import data from "@/data/gaming-codes.v2.json";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://prixmalin.ca";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://prixmalin.ca";
+  const now = new Date();
 
-  const staticPages = [
-    "",
-    "/deals",
-    "/codes-bonus",
-
-    // Guides principaux
-    "/abonnements-gaming",
-    "/playstation-plus-prix-canada",
-    "/xbox-game-pass-prix-canada",
-    "/nintendo-switch-online-prix-canada",
-    "/carte-psn-canada",
-
-    // Pages pas cher
-    "/playstation-plus-pas-cher-canada",
-    "/xbox-game-pass-pas-cher-canada",
-    "/nintendo-switch-online-pas-cher-canada",
-    "/abonnement-gaming-pas-cher",
+  const staticRoutes: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 1
+    },
+    {
+      url: `${SITE_URL}/codes`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9
+    },
+    {
+      url: `${SITE_URL}/cartes-cadeaux`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8
+    },
+    {
+      url: `${SITE_URL}/abonnements`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8
+    }
   ];
 
-  const deals = getAllDeals();
+  const platformRoutes: MetadataRoute.Sitemap = (data.platforms as any[]).map(
+    (platform) => ({
+      url: `${SITE_URL}/codes/${platform.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8
+    })
+  );
 
-  const dealPages = deals.map((deal) => ({
-    url: `${baseUrl}/deals/${deal.slug}`,
-    lastModified: new Date(),
-  }));
-
-  const staticUrls = staticPages.map((path) => ({
-    url: `${baseUrl}${path}`,
-    lastModified: new Date(),
-  }));
-
-  return [...staticUrls, ...dealPages];
+  return [...staticRoutes, ...platformRoutes];
 }
