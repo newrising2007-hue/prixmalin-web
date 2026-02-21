@@ -166,8 +166,10 @@ export function getAllDeals(): Deal[] {
 
   const flat: unknown[] = [];
 
+  type RawAny = Record<string, unknown>;
+
   for (const key of sections) {
-    const v = raw[key];
+    const v = (raw as RawAny)[key];
     if (Array.isArray(v)) flat.push(...v);
   }
 

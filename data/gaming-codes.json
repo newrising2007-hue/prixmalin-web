@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastUpdate": "2026-02-12",
+    "lastUpdated": "2026-02-12",
     "country": "CA",
     "currency": "CAD"
   },
@@ -11,206 +11,46 @@
       "name": "Xbox Game Pass Ultimate",
       "category": "subscription",
       "platform": "Xbox",
-{
-  "metadata": {
-    "version": "1.0",
-    "lastUpdate": "2026-02-12",
-    "country": "CA",
-    "currency": "CAD"
-  },
-  "subscriptions": [
-    {
-      "id": "xbox-gamepass-ultimate-3m",
-      "name": "Xbox Game Pass Ultimate",
-      "category": "subscription",
-      "platform": "Xbox",
-      "duration": "3 mois",
-      "regularPrice": 49.99,
-      "dealPrice": 29.99,
-      "discount": 40,
-      "savings": 20.0,
-      "description": "Accès à 100+ jeux + Xbox Live Gold + EA Play inclus",
-      "retailers": [
-        {
-          "name": "Amazon.ca",
-          "stock": true,
-          "affiliateLink": "https://www.amazon.ca/s?k=xbox+game+pass+ultimate&tag=prixmalin-20",
-          "type": "online"
-        },
-        {
-          "name": "Microsoft Store",
-          "stock": true,
-          "affiliateLink": "https://www.microsoft.com/store?ref=prixmalin",
-          "type": "online"
-        }
-      ],
-      "expires": "2026-02-28",
-      "featured": true,
-      "tags": ["deal-chaud", "xbox", "subscription"]
+      "duration": "3 months",
+      "price": 54.99,
+      "affiliateUrl": "https://www.amazon.ca/dp/B08F85ZJJY?tag=prixmalin-20",
+      "merchant": "Amazon"
     },
     {
-      "id": "ps-plus-premium-12m",
-      "name": "PlayStation Plus Premium",
+      "id": "playstation-plus-12m",
+      "name": "PlayStation Plus 12 Months",
       "category": "subscription",
       "platform": "PlayStation",
-      "duration": "12 mois",
-      "regularPrice": 119.99,
-      "dealPrice": 79.99,
-      "discount": 33,
-      "savings": 40.0,
-      "description": "Catalogue de jeux + essais + classiques PS1/PS2",
-      "retailers": [
-        {
-          "name": "Costco",
-          "stock": true,
-          "affiliateLink": "https://www.costco.ca/CatalogSearch?keyword=playstation%20plus&ref=prixmalin",
-          "type": "local"
-        },
-        {
-          "name": "Amazon.ca",
-          "stock": true,
-          "affiliateLink": "https://www.amazon.ca/s?k=playstation+plus+premium&tag=prixmalin-20",
-          "type": "online"
-        }
-      ],
-      "expires": "2026-03-15",
-      "featured": true,
-      "tags": ["deal-chaud", "playstation", "subscription"]
-    },
-    {
-      "id": "nintendo-online-family-12m",
-      "name": "Nintendo Switch Online + Expansion Pack",
-      "category": "subscription",
-      "platform": "Nintendo Switch",
-      "duration": "12 mois Famille",
-      "regularPrice": 64.99,
-      "dealPrice": 49.99,
-      "discount": 23,
-      "savings": 15.0,
-      "description": "Jusqu'à 8 comptes + N64 & Sega Genesis inclus",
-      "retailers": [
-        {
-          "name": "Nintendo eShop",
-          "stock": true,
-          "affiliateLink": "https://ec.nintendo.com/CA/en/membership?ref=prixmalin",
-          "type": "online"
-        },
-        {
-          "name": "Amazon.ca",
-          "stock": true,
-          "affiliateLink": "https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack&tag=prixmalin-20",
-          "type": "online"
-        }
-      ],
-      "expires": "2026-02-20",
-      "featured": false,
-      "tags": ["nintendo", "subscription", "famille"]
-    },
-    {
-      "id": "ea-play-12m",
-      "name": "EA Play",
-      "category": "subscription",
-      "platform": "Multi-plateforme",
-      "duration": "12 mois",
-      "regularPrice": 39.99,
-      "dealPrice": 19.99,
-      "discount": 50,
-      "savings": 20.0,
-      "description": "FIFA, Madden, Battlefield + essais anticipés",
-      "retailers": [
-        {
-          "name": "Amazon.ca",
-          "stock": true,
-          "affiliateLink": "https://www.amazon.ca/s?k=ea+play+12+month&tag=prixmalin-20",
-          "type": "online"
-        },
-        {
-          "name": "Origin",
-          "stock": true,
-          "affiliateLink": "https://www.ea.com/ea-play?ref=prixmalin",
-          "type": "online"
-        }
-      ],
-      "expires": "2026-02-25",
-      "featured": true,
-      "tags": ["deal-chaud", "ea", "subscription"]
-    },
-    {
-      "id": "ubisoft-plus-1m",
-      "name": "Ubisoft+ (1 mois gratuit)",
-      "category": "subscription",
-      "platform": "PC",
-      "duration": "1 mois",
-      "regularPrice": 19.99,
-      "dealPrice": 0.0,
-      "discount": 100,
-      "savings": 19.99,
-      "description": "Essai gratuit - Tous les jeux Ubisoft inclus",
-      "retailers": [
-        {
-          "name": "Ubisoft Store",
-          "stock": true,
-          "affiliateLink": "https://store.ubi.com/ca/ubisoft-plus?ref=prixmalin",
-          "type": "online"
-        }
-      ],
-      "expires": "2026-12-31",
-      "featured": false,
-      "tags": ["gratuit", "ubisoft", "pc"]
+      "duration": "12 months",
+      "price": 79.99,
+      "affiliateUrl": "https://www.amazon.ca/dp/B004RMK5QG?tag=prixmalin-20",
+      "merchant": "Amazon"
     }
   ],
   "giftCards": [
     {
-      "id": "steam-wallet-50",
-      "name": "Carte Steam Wallet 50$",
-      "category": "giftcard",
-      "platform": "PC Steam",
-      "value": 50.0,
-      "regularPrice": 50.0,
-      "dealPrice": 44.99,
-      "discount": 10,
-      "savings": 5.01,
-      "description": "Crédit Steam pour jeux, DLC et contenu",
-      "retailers": [
-        {
-          "name": "Amazon.ca",
-          "stock": true,
-          "affiliateLink": "https://www.amazon.ca/s?k=steam+wallet+50+cad&tag=prixmalin-20",
-          "type": "online"
-        }
-      ],
-      "expires": "2026-03-01",
-      "featured": true,
-      "tags": ["steam", "carte-cadeau", "pc"]
+      "id": "steam-50",
+      "name": "Steam Gift Card 50$",
+      "platform": "PC",
+      "price": 50,
+      "affiliateUrl": "https://www.amazon.ca/dp/B00BGA9WK2?tag=prixmalin-20",
+      "merchant": "Amazon"
     },
     {
-      "id": "psn-100",
-      "name": "Carte PlayStation Network 100$",
-      "category": "giftcard",
+      "id": "xbox-50",
+      "name": "Xbox Gift Card 50$",
+      "platform": "Xbox",
+      "price": 50,
+      "affiliateUrl": "https://www.amazon.ca/dp/B00F4CF2YI?tag=prixmalin-20",
+      "merchant": "Amazon"
+    },
+    {
+      "id": "playstation-50",
+      "name": "PlayStation Store Gift Card 50$",
       "platform": "PlayStation",
-      "value": 100.0,
-      "regularPrice": 100.0,
-      "dealPrice": 85.0,
-      "discount": 15,
-      "savings": 15.0,
-      "description": "Crédit PSN pour jeux et contenu PlayStation",
-      "retailers": [
-        {
-          "name": "Amazon.ca",
-          "stock": true,
-          "affiliateLink": "https://www.amazon.ca/s?k=playstation+gift+card+100+cad&tag=prixmalin-20",
-          "type": "online"
-        },
-        {
-          "name": "Costco",
-          "stock": true,
-          "affiliateLink": "https://www.costco.ca/CatalogSearch?keyword=playstation%20gift%20card&ref=prixmalin",
-          "type": "local"
-        }
-      ],
-      "expires": "2026-03-10",
-      "featured": true,
-      "tags": ["playstation", "carte-cadeau"]
+      "price": 50,
+      "affiliateUrl": "https://www.amazon.ca/dp/B004RMK4BC?tag=prixmalin-20",
+      "merchant": "Amazon"
     }
   ]
 }
