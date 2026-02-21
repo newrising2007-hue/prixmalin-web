@@ -1,2 +1,7 @@
-export { generateStaticParams, generateMetadata } from "../../codes/[platform]/page";
-export { default } from "../../codes/[platform]/page";
+import PlatformPage, {
+  generateMetadata,
+  generateStaticParams,
+} from "../../codes/[platform]/page";
+
+export { generateMetadata, generateStaticParams };
+export default PlatformPage;

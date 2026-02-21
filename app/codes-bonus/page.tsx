@@ -1,2 +1,4 @@
-export { metadata } from "../codes/page";
-export { default } from "../codes/page";
+import CodesPage, { metadata } from "../codes/page";
+
+export { metadata };
+export default CodesPage;
