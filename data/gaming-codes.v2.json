@@ -1,129 +1,37 @@
 {
-  "version": 2,
-  "updatedAt": "2026-02-21",
   "platforms": [
     {
       "slug": "pc",
       "name": "PC",
       "short": "PC",
       "seo": {
-        "title": "Codes bonus PC (NA) + Top jeux | PrixMalin",
-        "description": "Codes bonus PC gaming + top jeux populaires en Amérique du Nord. World of Tanks inclus. Trouve les meilleures offres et cartes cadeaux.",
-        "keywords": ["codes bonus PC", "gaming PC", "World of Tanks code", "cartes cadeaux gaming"]
+        "title": "Codes bonus PC | PrixMalin",
+        "description": "Bonus PC, cartes cadeaux et abonnements gaming.",
+        "keywords": ["bonus PC", "codes PC", "gaming PC"]
       },
       "topGames": [
         {
           "slug": "world-of-tanks",
           "name": "World of Tanks",
           "priority": 1,
-          "tags": ["Bonus", "Free-to-play"],
+          "tags": ["Free-to-play", "MMO"],
           "cta": {
-            "label": "Voir bonus World of Tanks",
-            "href": "/codes/pc#deals"
-          }
-        },
-        {
-          "slug": "fortnite",
-          "name": "Fortnite",
-          "priority": 2,
-          "tags": ["Battle Royale"],
-          "cta": {
-            "label": "Cartes cadeaux & V-Bucks",
-            "href": "/cartes-cadeaux?cat=fortnite"
-          }
-        },
-        {
-          "slug": "call-of-duty",
-          "name": "Call of Duty",
-          "priority": 3,
-          "tags": ["FPS"],
-          "cta": {
-            "label": "Abonnements & cartes",
-            "href": "/abonnements?cat=cod"
-          }
-        },
-        {
-          "slug": "minecraft",
-          "name": "Minecraft",
-          "priority": 4,
-          "tags": ["Sandbox"],
-          "cta": {
-            "label": "Cartes cadeaux",
-            "href": "/cartes-cadeaux?cat=minecraft"
-          }
-        },
-        {
-          "slug": "valorant",
-          "name": "VALORANT",
-          "priority": 5,
-          "tags": ["FPS"],
-          "cta": {
-            "label": "Points & cartes cadeaux",
-            "href": "/cartes-cadeaux?cat=valorant"
-          }
-        },
-        {
-          "slug": "league-of-legends",
-          "name": "League of Legends",
-          "priority": 6,
-          "tags": ["MOBA"],
-          "cta": {
-            "label": "RP & cartes cadeaux",
-            "href": "/cartes-cadeaux?cat=lol"
-          }
-        },
-        {
-          "slug": "counter-strike-2",
-          "name": "Counter-Strike 2",
-          "priority": 7,
-          "tags": ["FPS"],
-          "cta": {
-            "label": "Cartes cadeaux Steam",
-            "href": "/cartes-cadeaux?cat=steam"
-          }
-        },
-        {
-          "slug": "apex-legends",
-          "name": "Apex Legends",
-          "priority": 8,
-          "tags": ["Battle Royale"],
-          "cta": {
-            "label": "Cartes cadeaux",
-            "href": "/cartes-cadeaux?cat=apex"
-          }
-        },
-        {
-          "slug": "roblox",
-          "name": "Roblox",
-          "priority": 9,
-          "tags": ["UGC"],
-          "cta": {
-            "label": "Cartes cadeaux Roblox",
-            "href": "/cartes-cadeaux?cat=roblox"
-          }
-        },
-        {
-          "slug": "gta-online",
-          "name": "GTA Online",
-          "priority": 10,
-          "tags": ["Open World"],
-          "cta": {
-            "label": "Cartes cadeaux",
-            "href": "/cartes-cadeaux?cat=gta"
+            "label": "Voir bonus",
+            "href": "/codes-bonus/pc#deals"
           }
         }
       ],
       "deals": [
         {
           "id": "wot-bonus-pack",
-          "title": "World of Tanks — Pack bonus",
-          "platforms": ["pc"],
-          "type": "bonus_code",
+          "title": "World of Tanks Bonus Pack",
+          "description": "Bonus exclusif pour nouveaux joueurs.",
           "badge": "Priorité",
-          "description": "Bonus pour nouveaux joueurs World of Tanks (exemple à remplacer).",
+          "platforms": ["pc"],
+          "type": "bonus",
           "cta": {
-            "label": "Obtenir le bonus",
-            "href": "/produits/world-of-tanks-bonus-pack"
+            "label": "Obtenir bonus",
+            "href": "#"
           }
         }
       ]
@@ -133,22 +41,11 @@
       "name": "PlayStation",
       "short": "PS",
       "seo": {
-        "title": "Codes bonus PlayStation (NA) + Top jeux | PrixMalin",
-        "description": "Codes bonus PlayStation + top jeux populaires Amérique du Nord. Cartes cadeaux et abonnements utiles.",
-        "keywords": ["codes bonus PlayStation", "PS Plus", "cartes cadeaux PlayStation"]
+        "title": "Codes bonus PlayStation | PrixMalin",
+        "description": "Bonus PlayStation et abonnements.",
+        "keywords": ["bonus PlayStation", "PS Plus"]
       },
-      "topGames": [
-        { "slug": "fortnite", "name": "Fortnite", "priority": 1, "tags": ["Battle Royale"], "cta": { "label": "Cartes cadeaux & V-Bucks", "href": "/cartes-cadeaux?cat=fortnite" } },
-        { "slug": "call-of-duty", "name": "Call of Duty", "priority": 2, "tags": ["FPS"], "cta": { "label": "PS Plus & cartes", "href": "/abonnements?cat=psplus" } },
-        { "slug": "ea-sports-fc", "name": "EA SPORTS FC", "priority": 3, "tags": ["Sport"], "cta": { "label": "Cartes cadeaux PlayStation", "href": "/cartes-cadeaux?cat=playstation" } },
-        { "slug": "gta-online", "name": "GTA Online", "priority": 4, "tags": ["Open World"], "cta": { "label": "Cartes cadeaux PlayStation", "href": "/cartes-cadeaux?cat=playstation" } },
-        { "slug": "minecraft", "name": "Minecraft", "priority": 5, "tags": ["Sandbox"], "cta": { "label": "Cartes cadeaux", "href": "/cartes-cadeaux?cat=minecraft" } },
-        { "slug": "roblox", "name": "Roblox", "priority": 6, "tags": ["UGC"], "cta": { "label": "Cartes cadeaux Roblox", "href": "/cartes-cadeaux?cat=roblox" } },
-        { "slug": "apex-legends", "name": "Apex Legends", "priority": 7, "tags": ["Battle Royale"], "cta": { "label": "Cartes cadeaux", "href": "/cartes-cadeaux?cat=playstation" } },
-        { "slug": "genshin-impact", "name": "Genshin Impact", "priority": 8, "tags": ["RPG"], "cta": { "label": "Cartes cadeaux", "href": "/cartes-cadeaux?cat=playstation" } },
-        { "slug": "rocket-league", "name": "Rocket League", "priority": 9, "tags": ["Sport"], "cta": { "label": "Cartes cadeaux PlayStation", "href": "/cartes-cadeaux?cat=playstation" } },
-        { "slug": "destiny-2", "name": "Destiny 2", "priority": 10, "tags": ["Shooter"], "cta": { "label": "PS Plus & abonnements", "href": "/abonnements?cat=playstation" } }
-      ],
+      "topGames": [],
       "deals": []
     },
     {
@@ -156,22 +53,11 @@
       "name": "Xbox",
       "short": "Xbox",
       "seo": {
-        "title": "Codes bonus Xbox (NA) + Top jeux | PrixMalin",
-        "description": "Codes bonus Xbox + top jeux populaires Amérique du Nord. Découvre abonnements et cartes cadeaux.",
-        "keywords": ["codes bonus Xbox", "Game Pass", "cartes cadeaux Xbox"]
+        "title": "Codes bonus Xbox | PrixMalin",
+        "description": "Bonus Xbox et Game Pass.",
+        "keywords": ["bonus Xbox", "Game Pass"]
       },
-      "topGames": [
-        { "slug": "fortnite", "name": "Fortnite", "priority": 1, "tags": ["Battle Royale"], "cta": { "label": "Cartes cadeaux & V-Bucks", "href": "/cartes-cadeaux?cat=fortnite" } },
-        { "slug": "call-of-duty", "name": "Call of Duty", "priority": 2, "tags": ["FPS"], "cta": { "label": "Game Pass & abonnements", "href": "/abonnements?cat=gamepass" } },
-        { "slug": "minecraft", "name": "Minecraft", "priority": 3, "tags": ["Sandbox"], "cta": { "label": "Cartes cadeaux", "href": "/cartes-cadeaux?cat=minecraft" } },
-        { "slug": "roblox", "name": "Roblox", "priority": 4, "tags": ["UGC"], "cta": { "label": "Cartes cadeaux Roblox", "href": "/cartes-cadeaux?cat=roblox" } },
-        { "slug": "rocket-league", "name": "Rocket League", "priority": 5, "tags": ["Sport"], "cta": { "label": "Cartes cadeaux Xbox", "href": "/cartes-cadeaux?cat=xbox" } },
-        { "slug": "gta-online", "name": "GTA Online", "priority": 6, "tags": ["Open World"], "cta": { "label": "Cartes cadeaux Xbox", "href": "/cartes-cadeaux?cat=xbox" } },
-        { "slug": "apex-legends", "name": "Apex Legends", "priority": 7, "tags": ["Battle Royale"], "cta": { "label": "Cartes cadeaux Xbox", "href": "/cartes-cadeaux?cat=xbox" } },
-        { "slug": "ea-sports-fc", "name": "EA SPORTS FC", "priority": 8, "tags": ["Sport"], "cta": { "label": "Cartes cadeaux Xbox", "href": "/cartes-cadeaux?cat=xbox" } },
-        { "slug": "sea-of-thieves", "name": "Sea of Thieves", "priority": 9, "tags": ["Aventure"], "cta": { "label": "Game Pass & abonnements", "href": "/abonnements?cat=gamepass" } },
-        { "slug": "forza-horizon", "name": "Forza Horizon", "priority": 10, "tags": ["Course"], "cta": { "label": "Game Pass & abonnements", "href": "/abonnements?cat=gamepass" } }
-      ],
+      "topGames": [],
       "deals": []
     }
   ]
