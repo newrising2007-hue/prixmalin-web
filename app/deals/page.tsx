@@ -1,118 +1,215 @@
-import Link from "next/link";
+// app/deals/page.tsx
 import type { Metadata } from "next";
-
-import { getSiteUrl } from "@/lib/site";
-import rawData from "@/data/gaming-codes.json";
-
-type SubscriptionDeal = {
-  id: string;
-  name: string;
-  platform?: string;
-  duration?: string;
-  regularPrice?: number;
-  dealPrice?: number;
-  discount?: number;
-  featured?: boolean;
-};
-
-type GamingCodesData = {
-  metadata?: {
-    currency?: string;
-  };
-  subscriptions?: SubscriptionDeal[];
-};
+import Link from "next/link";
+import { getAllDeals } from "@/lib/deals";
 
 export const metadata: Metadata = {
-  title: "Deals Gaming | PrixMalin",
-  description: "Liste des meilleurs deals gaming au Canada (liens affiliés).",
-  alternates: {
-    canonical: `${getSiteUrl()}/deals`,
-  },
+  title: "Deals gaming au Canada | PrixMalin",
+  description:
+    "Sélection de deals gaming et codes au Canada. Liens affiliés traçables. Prix affichés seulement si certains.",
+  alternates: { canonical: "/deals" },
 };
 
-function formatPrice(price?: number, currency = "CAD") {
-  if (typeof price !== "number" || !Number.isFinite(price)) return null;
-  return new Intl.NumberFormat("fr-CA", { style: "currency", currency }).format(price);
-}
+const SEO_LINKS: Array<{ href: string; title: string; desc: string }> = [
+  {
+    href: "/playstation-plus-prix-canada",
+    title: "PlayStation Plus : prix au Canada",
+    desc: "Paliers + options pour payer moins.",
+  },
+  {
+    href: "/xbox-game-pass-prix-canada",
+    title: "Xbox Game Pass : prix au Canada",
+    desc: "Ultimate / PC / Console + meilleures options.",
+  },
+  {
+    href: "/carte-psn-canada",
+    title: "Cartes PSN au Canada",
+    desc: "Où acheter + conseils + taxes.",
+  },
+  {
+    href: "/nintendo-switch-online-prix-canada",
+    title: "Nintendo Switch Online : prix au Canada",
+    desc: "Individuel / Famille + Extension Pack.",
+  },
+];
 
-function getData(): GamingCodesData {
-  return rawData as unknown as GamingCodesData;
+function guideForPlatform(platform: string): { href: string; label: string } | null {
+  const p = platform.toLowerCase();
+
+  // PlayStation
+  if (p.includes("playstation") || p.includes("ps4") || p.includes("ps5") || p.includes("psn")) {
+    if (p.includes("psn")) return { href: "/carte-psn-canada", label: "Guide cartes PSN" };
+    return { href: "/playstation-plus-prix-canada", label: "Guide PS+ (Canada)" };
+  }
+
+  // Xbox
+  if (p.includes("xbox")) {
+    return { href: "/xbox-game-pass-prix-canada", label: "Guide Game Pass (Canada)" };
+  }
+
+  // Nintendo
+  if (p.includes("nintendo") || p.includes("switch")) {
+    return { href: "/nintendo-switch-online-prix-canada", label: "Guide Nintendo Online" };
+  }
+
+  return null;
 }
 
 export default function DealsPage() {
-  const data = getData();
-  const currency = data?.metadata?.currency || "CAD";
+  const deals = getAllDeals();
 
-  const deals = Array.isArray(data.subscriptions) ? data.subscriptions : [];
-
-  const sorted = [...deals].sort((a, b) => {
-    const af = a.featured ? 1 : 0;
-    const bf = b.featured ? 1 : 0;
-    if (af !== bf) return bf - af;
-
-    const ad = typeof a.discount === "number" ? a.discount : 0;
-    const bd = typeof b.discount === "number" ? b.discount : 0;
-    if (ad !== bd) return bd - ad;
-
-    return a.name.localeCompare(b.name, "fr");
-  });
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: deals.slice(0, 50).map((deal, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `https://prixmalin.ca/deals/${deal.slug}`,
+      name: deal.title,
+    })),
+  };
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-10">
-      <header className="space-y-2">
-        <h1 className="text-2xl font-semibold">Deals Gaming</h1>
-        <p className="text-sm text-neutral-600">
-          Tous les deals disponibles (liens affiliés). Cliquez pour voir le détail.
+    <main className="mx-auto max-w-4xl px-4 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+
+      <header className="mb-8 space-y-2">
+        <h1 className="text-3xl font-bold tracking-tight">Deals gaming</h1>
+        <p className="text-base text-gray-600">
+          Liens affiliés traçables. Prix affichés seulement si certains.
         </p>
       </header>
 
-      <ul className="mt-6 grid gap-4 sm:grid-cols-2">
-        {sorted.map((d) => {
-          const promo = formatPrice(d.dealPrice, currency);
-          const regular = formatPrice(d.regularPrice, currency);
+      {/* ✅ Bloc liens internes global + hub */}
+      <section className="mb-8 rounded-2xl border bg-white p-5">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div className="space-y-1">
+            <h2 className="text-lg font-semibold">Guides & prix au Canada</h2>
+            <p className="text-sm text-gray-600">
+              Pages SEO utiles pour comprendre les prix officiels et choisir le meilleur
+              abonnement.
+            </p>
+          </div>
 
-          return (
-            <li key={d.id} className="rounded-xl border p-4">
-              <div className="flex items-start justify-between gap-3">
-                <div className="min-w-0">
-                  <Link
-                    href={`/deals/${d.id}`}
-                    className="font-semibold underline underline-offset-4"
-                  >
-                    {d.name}
-                  </Link>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/abonnements-gaming-prix-canada"
+              className="rounded-xl border px-4 py-2 text-sm font-semibold hover:bg-gray-50"
+            >
+              Guide complet
+            </Link>
+            <Link
+              href="/"
+              className="text-sm font-semibold text-gray-900 underline decoration-gray-300 underline-offset-4 hover:decoration-gray-900"
+            >
+              Accueil
+            </Link>
+          </div>
+        </div>
 
-                  <p className="mt-1 text-xs text-neutral-600">
-                    {d.platform ? <span>{d.platform}</span> : null}
-                    {d.platform && d.duration ? <span> • </span> : null}
-                    {d.duration ? <span>{d.duration}</span> : null}
-                  </p>
-                </div>
+        <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {SEO_LINKS.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              className="rounded-xl border p-4 transition hover:bg-gray-50"
+            >
+              <div className="text-sm font-semibold text-gray-900">{l.title}</div>
+              <div className="mt-1 text-sm text-gray-600">{l.desc}</div>
+            </Link>
+          ))}
 
-                {typeof d.discount === "number" ? (
-                  <span className="shrink-0 rounded-full bg-neutral-100 px-2 py-1 text-xs font-medium text-neutral-700">
-                    -{d.discount}%
-                  </span>
-                ) : null}
-              </div>
+          {/* ✅ Carte hub en plus */}
+          <Link
+            href="/abonnements-gaming-prix-canada"
+            className="rounded-xl border p-4 transition hover:bg-gray-50 sm:col-span-2"
+          >
+            <div className="text-sm font-semibold text-gray-900">
+              Guide complet : abonnements gaming (Canada)
+            </div>
+            <div className="mt-1 text-sm text-gray-600">
+              Compare PS+, Game Pass et Nintendo Online — puis va voir les deals actifs.
+            </div>
+            <div className="mt-3 text-sm font-semibold text-gray-900 underline decoration-gray-300 underline-offset-4">
+              Ouvrir le guide →
+            </div>
+          </Link>
+        </div>
+      </section>
 
-              <div className="mt-3 flex items-baseline gap-3">
-                {promo ? <p className="text-lg font-bold">{promo}</p> : <p className="text-sm text-neutral-600">Prix indisponible</p>}
-                {regular ? <p className="text-sm text-neutral-500 line-through">{regular}</p> : null}
-              </div>
+      {deals.length === 0 ? (
+        <div className="rounded-2xl border p-6">
+          <p className="text-gray-700">Aucun deal disponible pour le moment.</p>
+        </div>
+      ) : (
+        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          {deals.map((deal) => {
+            const guide = guideForPlatform(deal.platform);
 
-              <div className="mt-4">
-                <Link
-                  href={`/deals/${d.id}`}
-                  className="inline-flex w-full items-center justify-center rounded-lg border px-4 py-2 text-sm font-semibold hover:bg-neutral-50"
-                >
-                  Voir le deal
+            return (
+              <li key={deal.slug} className="rounded-2xl border p-4">
+                <Link href={`/deals/${deal.slug}`} className="block">
+                  <img
+                    src={deal.image}
+                    alt={deal.title}
+                    className="mb-3 h-40 w-full rounded-xl object-cover"
+                    loading="lazy"
+                  />
+                  <h2 className="text-lg font-semibold">{deal.title}</h2>
+                  <p className="mt-1 line-clamp-2 text-sm text-gray-600">{deal.description}</p>
+                  <p className="mt-2 text-xs text-gray-500">{deal.platform}</p>
+
+                  {typeof deal.price === "number" && (
+                    <p className="mt-3 text-xl font-semibold">
+                      {deal.price} {deal.currency || "CAD"}
+                    </p>
+                  )}
                 </Link>
-              </div>
-            </li>
-          );
-        })}
-      </ul>
+
+                <div className="mt-4 flex flex-col gap-2">
+                  {guide ? (
+                    <Link
+                      href={guide.href}
+                      className="text-sm font-semibold text-gray-900 underline decoration-gray-300 underline-offset-4 hover:decoration-gray-900"
+                    >
+                      {guide.label}
+                    </Link>
+                  ) : null}
+
+                  <div className="flex gap-2">
+                    <Link
+                      href={`/deals/${deal.slug}`}
+                      className="flex-1 rounded-xl border px-4 py-3 text-center text-sm font-semibold"
+                    >
+                      Détails
+                    </Link>
+
+                    <a
+                      href={deal.affiliateUrl}
+                      target="_blank"
+                      rel="nofollow sponsored noopener"
+                      className="flex-1 rounded-xl bg-green-600 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-green-700"
+                    >
+                      Voir l’offre
+                    </a>
+                  </div>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+
+      <section className="mt-10 rounded-2xl bg-gray-50 p-5">
+        <h2 className="text-lg font-semibold">Comment on sélectionne</h2>
+        <p className="mt-2 text-sm text-gray-700">
+          PrixMalin est une plateforme d’affiliation : on partage des offres et codes gaming via
+          des liens traçables. On affiche un prix uniquement quand il est certain.
+        </p>
+      </section>
     </main>
   );
 }

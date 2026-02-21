@@ -1,132 +1,96 @@
+// app/deals/[slug]/page.tsx
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
+import { getAllDeals, getDealBySlug } from "@/lib/deals";
 
-import AffiliateButton from "@/components/AffiliateButton";
-import AffiliateDisclosure from "@/components/AffiliateDisclosure";
-import { getSiteUrl } from "@/lib/site";
-
-import rawData from "@/data/gaming-codes.json";
-
-type Retailer = {
-  name: string;
-  stock?: boolean;
-  affiliateLink?: string;
+type Props = {
+  params: { slug: string };
 };
 
-type SubscriptionDeal = {
-  id: string;
-  name: string;
-  category?: string;
-  platform?: string;
-  duration?: string;
-  regularPrice?: number;
-  dealPrice?: number;
-  discount?: number;
-  description?: string;
-  retailers?: Retailer[];
-  expires?: string;
-};
-
-type GamingCodesData = {
-  metadata?: {
-    currency?: string;
-  };
-  subscriptions?: SubscriptionDeal[];
-};
-
-type PageProps = {
-  params: Promise<{ slug: string }>;
-};
-
-function formatPrice(price?: number, currency = "CAD") {
-  if (typeof price !== "number") return null;
-  return new Intl.NumberFormat("fr-CA", {
-    style: "currency",
-    currency,
-  }).format(price);
+export async function generateStaticParams() {
+  const deals = getAllDeals();
+  return deals.map((deal) => ({ slug: deal.slug }));
 }
 
-function getData(): GamingCodesData {
-  return rawData as unknown as GamingCodesData;
-}
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const deal = getDealBySlug(params.slug);
+  if (!deal) return {};
 
-function findDeal(slug: string): SubscriptionDeal | null {
-  const data = getData();
-  const deals = data.subscriptions || [];
-  return deals.find((d) => d.id === slug) || null;
-}
-
-function getAffiliateLink(deal: SubscriptionDeal): string | null {
-  const retailers = deal.retailers || [];
-  const r = retailers.find((x) => x.affiliateLink);
-  return r?.affiliateLink || null;
-}
-
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
-  const deal = findDeal(slug);
-
-  if (!deal) {
-    return { title: "Deal introuvable | PrixMalin" };
-  }
-
-  const title = `${deal.name} | PrixMalin`;
+  const title = `${deal.title} | Deal gaming | PrixMalin`;
+  const description = deal.description;
 
   return {
     title,
+    description,
     alternates: {
-      canonical: `${getSiteUrl()}/deals/${slug}`,
+      canonical: `/deals/${deal.slug}`,
+    },
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      images: [
+        {
+          url: deal.image,
+          width: 1200,
+          height: 630,
+          alt: deal.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [deal.image],
     },
   };
 }
 
-export default async function DealPage({ params }: PageProps) {
-  const { slug } = await params;
+export default function DealPage({ params }: Props) {
+  const deal = getDealBySlug(params.slug);
+  if (!deal) return notFound();
 
-  const data = getData();
-  const deal = findDeal(slug);
+  const all = getAllDeals();
+  const related = all.filter((d) => d.slug !== deal.slug).slice(0, 6);
 
-  if (!deal) notFound();
-
-  const currency = data.metadata?.currency || "CAD";
-
-  const promo = formatPrice(deal.dealPrice, currency);
-  const regular = formatPrice(deal.regularPrice, currency);
-
-  const affiliateLink = getAffiliateLink(deal);
-
-  const productJsonLd = {
+  const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: deal.name,
-    category: deal.category || "Gaming",
-    offers: {
-      "@type": "Offer",
-      priceCurrency: currency,
-      price: deal.dealPrice,
-      url: `${getSiteUrl()}/deals/${deal.id}`,
+    name: deal.title,
+    image: [deal.image],
+    description: deal.description,
+    brand: {
+      "@type": "Brand",
+      name: deal.platform,
     },
+    offers: typeof deal.price === "number"
+      ? {
+          "@type": "Offer",
+          price: deal.price,
+          priceCurrency: deal.currency || "CAD",
+          availability: "https://schema.org/InStock",
+          url: deal.affiliateUrl,
+        }
+      : undefined,
   };
 
-  const faqJsonLd = {
+  const breadcrumbSchema = {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
+    "@type": "BreadcrumbList",
+    itemListElement: [
       {
-        "@type": "Question",
-        name: "PrixMalin est-il un comparateur de prix ?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Non. PrixMalin est un site d’affiliation qui présente des offres gaming.",
-        },
+        "@type": "ListItem",
+        position: 1,
+        name: "Deals",
+        item: "https://prixmalin.ca/deals",
       },
       {
-        "@type": "Question",
-        name: "PrixMalin reçoit-il une commission ?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Oui, certains liens sont affiliés. PrixMalin peut recevoir une commission.",
-        },
+        "@type": "ListItem",
+        position: 2,
+        name: deal.title,
+        item: `https://prixmalin.ca/deals/${deal.slug}`,
       },
     ],
   };
@@ -135,43 +99,95 @@ export default async function DealPage({ params }: PageProps) {
     <main className="mx-auto max-w-3xl px-4 py-8">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <h1 className="text-2xl font-semibold">
-        {deal.name} {deal.duration ? `— ${deal.duration}` : ""}
-      </h1>
+      <nav className="mb-5 text-sm text-gray-600">
+        <Link href="/deals" className="hover:underline">
+          Deals
+        </Link>
+        <span className="mx-2">/</span>
+        <span className="text-gray-900">{deal.title}</span>
+      </nav>
 
-      <div className="mt-6 rounded-xl border p-4">
-        <div className="flex items-baseline gap-3">
-          {promo && <p className="text-2xl font-bold">{promo}</p>}
-          {regular && <p className="line-through text-neutral-500">{regular}</p>}
-          {deal.discount && (
-            <span className="rounded bg-neutral-100 px-2 py-1 text-xs">
-              -{deal.discount}%
-            </span>
-          )}
-        </div>
+      <div className="space-y-6">
+        <img
+          src={deal.image}
+          alt={deal.title}
+          className="w-full rounded-2xl shadow-sm"
+          loading="eager"
+        />
 
-        {deal.description && (
-          <p className="mt-2 text-sm text-neutral-700">{deal.description}</p>
+        <header className="space-y-2">
+          <h1 className="text-3xl font-bold tracking-tight">{deal.title}</h1>
+          <p className="text-base text-gray-600">{deal.description}</p>
+        </header>
+
+        {typeof deal.price === "number" ? (
+          <div className="rounded-2xl border p-4">
+            <p className="text-sm text-gray-600">Prix</p>
+            <p className="text-2xl font-semibold">
+              {deal.price} {deal.currency || "CAD"}
+            </p>
+          </div>
+        ) : (
+          <div className="rounded-2xl border p-4">
+            <p className="text-sm text-gray-600">
+              Prix affiché uniquement quand il est certain.
+            </p>
+          </div>
         )}
 
-        <div className="mt-4 space-y-2">
-          {affiliateLink ? (
-            <AffiliateButton href={affiliateLink} />
-          ) : (
-            <p className="text-sm text-neutral-600">
-              Aucun lien disponible pour le moment.
-            </p>
-          )}
+        <a
+          href={deal.affiliateUrl}
+          target="_blank"
+          rel="nofollow sponsored noopener"
+          className="block w-full rounded-2xl bg-green-600 px-6 py-4 text-center text-base font-semibold text-white shadow-sm transition hover:bg-green-700"
+        >
+          Voir l’offre
+        </a>
 
-          <AffiliateDisclosure />
-        </div>
+        <section className="rounded-2xl bg-gray-50 p-4">
+          <h2 className="mb-2 text-lg font-semibold">Détails</h2>
+          <ul className="space-y-1 text-sm text-gray-700">
+            <li>
+              <span className="font-medium">Plateforme :</span> {deal.platform}
+            </li>
+          </ul>
+        </section>
+
+        {related.length > 0 && (
+          <section className="pt-2">
+            <div className="mb-3 flex items-baseline justify-between">
+              <h2 className="text-lg font-semibold">Autres deals</h2>
+              <Link href="/deals" className="text-sm text-gray-600 hover:underline">
+                Voir tout
+              </Link>
+            </div>
+
+            <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+              {related.map((d) => (
+                <li key={d.slug} className="rounded-2xl border p-3">
+                  <Link href={`/deals/${d.slug}`} className="block">
+                    <p className="font-semibold">{d.title}</p>
+                    <p className="mt-1 line-clamp-2 text-sm text-gray-600">
+                      {d.description}
+                    </p>
+                    {typeof d.price === "number" && (
+                      <p className="mt-2 text-sm font-semibold">
+                        {d.price} {d.currency || "CAD"}
+                      </p>
+                    )}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     </main>
   );

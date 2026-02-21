@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "hyperx-cloud",
+    "title": "Casque Gaming HyperX Cloud",
+    "shortDescription": "Confort + bon micro, valeur sûre.",
+    "amazonUrl": "https://www.amazon.ca/dp/B07X6HDSDY",
+    "category": "audio"
+  },
+  {
+    "slug": "clavier-redragon",
+    "title": "Clavier mécanique Redragon",
+    "shortDescription": "Excellent rapport qualité/prix pour débuter en mécanique.",
+    "amazonUrl": "https://www.amazon.ca/dp/B016MAK38U",
+    "category": "claviers"
+  }
+]

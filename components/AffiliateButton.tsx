@@ -1,20 +1,35 @@
-type Props = {
-  href: string;
+"use client";
+
+import React from "react";
+import { buildAmazonLink } from "@/lib/affiliate";
+
+type AffiliateButtonProps = {
+  url: string;
   label?: string;
   className?: string;
 };
 
 export default function AffiliateButton({
-  href,
-  label = "Voir l’offre",
+  url,
+  label = "Voir sur Amazon",
   className = "",
-}: Props) {
+}: AffiliateButtonProps) {
+  const affiliateUrl = buildAmazonLink(url);
+
   return (
     <a
-      href={href}
+      href={affiliateUrl}
       target="_blank"
-      rel="nofollow sponsored"
-      className={`inline-flex items-center justify-center w-full sm:w-auto px-6 py-3 text-base font-semibold text-white bg-green-600 hover:bg-green-700 active:bg-green-800 rounded-lg shadow transition-colors duration-200 ${className}`}
+      rel="nofollow sponsored noopener"
+      className={[
+        "inline-flex items-center justify-center",
+        "w-full sm:w-auto",
+        "px-5 py-3 rounded-xl",
+        "bg-orange-500 hover:bg-orange-600",
+        "text-white font-semibold",
+        "transition-colors",
+        className,
+      ].join(" ")}
     >
       {label}
     </a>
