@@ -1,56 +1,32 @@
-{
-  "metadata": {
-    "version": "1.0",
-    "lastUpdated": "2026-02-12",
-    "country": "CA",
-    "currency": "CAD"
+[
+  {
+    "id": "xbox-50",
+    "title": "Carte Cadeau Xbox 50$",
+    "price": 47.99,
+    "currency": "CAD",
+    "platform": "Xbox",
+    "image": "/images/xbox-card.jpg",
+    "affiliateUrl": "https://www.amazon.ca/dp/B00F4CFB8E?tag=prixmalin-20",
+    "availability": "InStock"
   },
-  "subscriptions": [
-    {
-      "id": "xbox-gamepass-ultimate-3m",
-      "name": "Xbox Game Pass Ultimate",
-      "category": "subscription",
-      "platform": "Xbox",
-      "duration": "3 months",
-      "price": 54.99,
-      "affiliateUrl": "https://www.amazon.ca/dp/B08F85ZJJY?tag=prixmalin-20",
-      "merchant": "Amazon"
-    },
-    {
-      "id": "playstation-plus-12m",
-      "name": "PlayStation Plus 12 Months",
-      "category": "subscription",
-      "platform": "PlayStation",
-      "duration": "12 months",
-      "price": 79.99,
-      "affiliateUrl": "https://www.amazon.ca/dp/B004RMK5QG?tag=prixmalin-20",
-      "merchant": "Amazon"
-    }
-  ],
-  "giftCards": [
-    {
-      "id": "steam-50",
-      "name": "Steam Gift Card 50$",
-      "platform": "PC",
-      "price": 50,
-      "affiliateUrl": "https://www.amazon.ca/dp/B00BGA9WK2?tag=prixmalin-20",
-      "merchant": "Amazon"
-    },
-    {
-      "id": "xbox-50",
-      "name": "Xbox Gift Card 50$",
-      "platform": "Xbox",
-      "price": 50,
-      "affiliateUrl": "https://www.amazon.ca/dp/B00F4CF2YI?tag=prixmalin-20",
-      "merchant": "Amazon"
-    },
-    {
-      "id": "playstation-50",
-      "name": "PlayStation Store Gift Card 50$",
-      "platform": "PlayStation",
-      "price": 50,
-      "affiliateUrl": "https://www.amazon.ca/dp/B004RMK4BC?tag=prixmalin-20",
-      "merchant": "Amazon"
-    }
-  ]
-}
+  {
+    "id": "psn-25",
+    "title": "Carte PlayStation Store 25$",
+    "price": 23.49,
+    "currency": "CAD",
+    "platform": "PlayStation",
+    "image": "/images/psn-card.jpg",
+    "affiliateUrl": "https://www.amazon.ca/dp/B00GAC1D2G?tag=prixmalin-20",
+    "availability": "InStock"
+  },
+  {
+    "id": "nintendo-20",
+    "title": "Carte Nintendo eShop 20$",
+    "price": 18.99,
+    "currency": "CAD",
+    "platform": "Nintendo",
+    "image": "/images/nintendo-card.jpg",
+    "affiliateUrl": "https://www.amazon.ca/s?k=Nintendo+eShop+20+CAD&tag=prixmalin-20",
+    "availability": "InStock"
+  }
+]

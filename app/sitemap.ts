@@ -50,5 +50,59 @@ export default function sitemap(): MetadataRoute.Sitemap {
   changeFrequency: "daily",
   priority: 0.8,
 },
+{
+  url: `${SITE_URL}/codes-bonus/pc/league-of-legends`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.85,
+},
+{
+  url: `${SITE_URL}/codes-bonus/pc/fortnite`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.85,
+},
+{
+  url: `${SITE_URL}/codes-bonus/pc/world-of-tanks`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.85,
+},
+{
+  url: `${SITE_URL}/codes-bonus/pc/valorant`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.85,
+},
+{
+  url: `${SITE_URL}/codes-bonus/pc/minecraft`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.85,
+},
+{
+  url: `${SITE_URL}/codes-bonus/pc/roblox`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.85,
+},
+{
+  url: `${SITE_URL}/codes-bonus/pc/gta-online`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.85,
+},
+{
+  url: `${SITE_URL}/codes-bonus/pc/call-of-duty-warzone`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.85,
+},
+{
+  url: `${SITE_URL}/codes-bonus/pc/counter-strike-2`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.85,
+},
   ]
 }
