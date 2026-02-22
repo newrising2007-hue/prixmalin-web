@@ -1,47 +1,54 @@
-import { MetadataRoute } from "next";
-import data from "@/data/gaming-codes.v2.json";
+import { MetadataRoute } from "next"
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://prixmalin.ca";
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
+  "https://prixmalin.ca"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  const now = new Date()
 
-  const staticRoutes: MetadataRoute.Sitemap = [
+  return [
     {
       url: `${SITE_URL}/`,
       lastModified: now,
       changeFrequency: "weekly",
-      priority: 1
+      priority: 1,
     },
     {
-      url: `${SITE_URL}/codes`,
+      url: `${SITE_URL}/gaming`,
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9
+      changeFrequency: "daily",
+      priority: 0.9,
     },
     {
-      url: `${SITE_URL}/cartes-cadeaux`,
+      url: `${SITE_URL}/codes-bonus`,
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8
+      changeFrequency: "daily",
+      priority: 0.9,
     },
     {
-      url: `${SITE_URL}/abonnements`,
+      url: `${SITE_URL}/codes-bonus/pc`,
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8
-    }
-  ];
-
-  const platformRoutes: MetadataRoute.Sitemap = (data.platforms as any[]).map(
-    (platform) => ({
-      url: `${SITE_URL}/codes/${platform.slug}`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8
-    })
-  );
-
-  return [...staticRoutes, ...platformRoutes];
+      changeFrequency: "daily",
+      priority: 0.9,
+    },
+{
+  url: `${SITE_URL}/codes-bonus/xbox`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.8,
+},
+{
+  url: `${SITE_URL}/codes-bonus/playstation`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.8,
+},
+{
+  url: `${SITE_URL}/codes-bonus/nintendo`,
+  lastModified: now,
+  changeFrequency: "daily",
+  priority: 0.8,
+},
+  ]
 }

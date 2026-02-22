@@ -1,4 +1,5 @@
-import CodesPage, { metadata } from "../codes/page";
+import { redirect } from "next/navigation"
 
-export { metadata };
-export default CodesPage;
+export default function CodesBonusIndexPage() {
+  redirect("/codes-bonus/pc")
+}
