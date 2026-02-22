@@ -120,6 +120,23 @@ export default function CodesBonusPcHubPage() {
     <main className="mx-auto max-w-6xl px-4 py-10">
       <header className="mb-10">
         <h1 className="text-3xl font-bold tracking-tight">Codes bonus PC 🇨🇦</h1>
+
+<div className="mt-4 flex gap-3">
+  <Link
+    href="/codes-bonus/pc/tous-les-codes"
+    className="inline-flex rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800"
+  >
+    Voir tous les codes PC
+  </Link>
+
+  <Link
+    href="/deals"
+    className="inline-flex rounded-lg border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-100"
+  >
+    Voir les deals gaming
+  </Link>
+</div>
+
         <p className="mt-3 max-w-3xl text-gray-600">
           Guides de codes bonus pour les jeux PC populaires : Fortnite, League of
           Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty: Warzone,
