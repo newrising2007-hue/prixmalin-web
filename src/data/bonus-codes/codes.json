@@ -1,0 +1,130 @@
+[
+  {
+    "id": "pc-valorant-vp-method",
+    "gameSlug": "valorant",
+    "platform": "pc",
+    "title": "Recharge VP (méthode fiable)",
+    "description": "Les VP s’obtiennent via achat/recharge légitime (cartes cadeaux). Évite les “générateurs VP” : arnaque.",
+    "method": "gift-card",
+    "code": null,
+    "sourceLabel": "Vendeur légitime",
+    "isActive": true,
+    "expiresAtISO": null
+  },
+  {
+    "id": "pc-valorant-no-free",
+    "gameSlug": "valorant",
+    "platform": "pc",
+    "title": "Pas de “code VP gratuit illimité”",
+    "description": "Les codes gratuits illimités n’existent pas. Les bonus réels viennent d’événements/promos officiels limités.",
+    "method": "event",
+    "code": null,
+    "sourceLabel": "Officiel",
+    "isActive": true,
+    "expiresAtISO": null
+  },
+
+  {
+    "id": "pc-fortnite-vbucks-method",
+    "gameSlug": "fortnite",
+    "platform": "pc",
+    "title": "Recharge V-Bucks (méthode fiable)",
+    "description": "Les V-Bucks s’obtiennent via recharges/cartes cadeaux ou achats officiels. Les “générateurs” sont faux.",
+    "method": "gift-card",
+    "code": null,
+    "sourceLabel": "Vendeur légitime",
+    "isActive": true,
+    "expiresAtISO": null
+  },
+
+  {
+    "id": "pc-league-of-legends-rp-method",
+    "gameSlug": "league-of-legends",
+    "platform": "pc",
+    "title": "Recharge RP (méthode fiable)",
+    "description": "Les RP s’obtiennent via cartes cadeaux et achats légitimes. Méfie-toi des sites qui demandent ton mot de passe Riot.",
+    "method": "gift-card",
+    "code": null,
+    "sourceLabel": "Vendeur légitime",
+    "isActive": true,
+    "expiresAtISO": null
+  },
+
+  {
+    "id": "pc-minecraft-key-method",
+    "gameSlug": "minecraft",
+    "platform": "pc",
+    "title": "Clé / carte cadeau Minecraft (méthode fiable)",
+    "description": "Vérifie l’édition (Java/Bedrock) et la région avant achat. Évite les revendeurs douteux.",
+    "method": "gift-card",
+    "code": null,
+    "sourceLabel": "Vendeur légitime",
+    "isActive": true,
+    "expiresAtISO": null
+  },
+
+  {
+    "id": "pc-roblox-robux-method",
+    "gameSlug": "roblox",
+    "platform": "pc",
+    "title": "Cartes Robux / Gift Card (méthode fiable)",
+    "description": "Les Robux s’obtiennent via cartes cadeaux ou achats officiels. Les générateurs Robux ne fonctionnent pas.",
+    "method": "gift-card",
+    "code": null,
+    "sourceLabel": "Vendeur légitime",
+    "isActive": true,
+    "expiresAtISO": null
+  },
+
+  {
+    "id": "pc-gta-online-no-cash-codes",
+    "gameSlug": "gta-online",
+    "platform": "pc",
+    "title": "Faux “codes cash illimités” (arnaques fréquentes)",
+    "description": "Les codes cash illimités sont des scams. Privilégie uniquement événements/promos et offres officielles.",
+    "method": "event",
+    "code": null,
+    "sourceLabel": "Officiel",
+    "isActive": true,
+    "expiresAtISO": null
+  },
+
+  {
+    "id": "pc-warzone-security",
+    "gameSlug": "call-of-duty-warzone",
+    "platform": "pc",
+    "title": "Promos/bonus : attention au phishing",
+    "description": "Active seulement via flux officiels. Si on te demande ton mot de passe ou d’installer un logiciel : arnaque.",
+    "method": "event",
+    "code": null,
+    "sourceLabel": "Officiel",
+    "isActive": true,
+    "expiresAtISO": null
+  },
+
+  {
+    "id": "pc-cs2-no-free-skins",
+    "gameSlug": "counter-strike-2",
+    "platform": "pc",
+    "title": "“Free skins codes” = arnaque",
+    "description": "Les skins gratuits illimités via code sont une arnaque. Prudence sur les liens d’échange et faux profils.",
+    "method": "event",
+    "code": null,
+    "sourceLabel": "Officiel",
+    "isActive": true,
+    "expiresAtISO": null
+  },
+
+  {
+    "id": "pc-wot-promo-info",
+    "gameSlug": "world-of-tanks",
+    "platform": "pc",
+    "title": "Codes promo WOT : souvent limités",
+    "description": "Les codes promo existent parfois mais sont limités (date/quantité/région). Vérifie toujours les conditions.",
+    "method": "event",
+    "code": null,
+    "sourceLabel": "Officiel",
+    "isActive": true,
+    "expiresAtISO": null
+  }
+]
