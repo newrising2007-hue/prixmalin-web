@@ -167,16 +167,24 @@ git push`}
         </ol>
       </section>
 
-      <section className="mt-8 rounded-2xl border border-gray-200 p-5">
-        <h2 className="text-lg font-bold">Ton lien privé</h2>
-        <p className="mt-2 text-sm text-gray-700">
-          Accès uniquement via :
-        </p>
+<section className="mt-8 rounded-2xl border border-gray-200 p-5">
+  <h2 className="text-lg font-bold">Accès privé</h2>
 
-        <pre className="mt-3 overflow-x-auto rounded-xl border border-gray-200 bg-gray-50 p-4 text-xs">
-{`/codes-bonus/renouveler?key=une-cle-tres-longue-ici-123-ABC`}
-        </pre>
-      </section>
+  <p className="mt-2 text-sm text-gray-700">
+    Cette page est protégée par une clé privée.
+  </p>
+
+  <div className="mt-4 rounded-xl bg-green-50 border border-green-200 p-4">
+    <p className="text-sm font-semibold text-green-800">
+      ✔️ Accès autorisé
+    </p>
+    <p className="mt-1 text-xs text-green-700">
+      Astuce : ajoute cette page dans tes favoris navigateur pour y accéder
+      rapidement chaque mois.
+    </p>
+  </div>
+</section>
+
     </main>
   );
 }
