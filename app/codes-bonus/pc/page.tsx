@@ -3,14 +3,14 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "Codes bonus PC (2026) : Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, World of Tanks | PrixMalin",
+    "Codes bonus PC (2026) : Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, World of Tanks | PrixMalin",
   description:
-    "Codes bonus PC au Canada : Fortnite, League of Legends, Valorant, Minecraft, Roblox, GTA Online et World of Tanks. Guides d’activation + offres.",
+    "Codes bonus PC au Canada : Fortnite, League of Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty Warzone et World of Tanks. Guides d’activation + offres.",
   alternates: { canonical: "/codes-bonus/pc" },
   openGraph: {
     title: "Codes bonus PC | PrixMalin Canada",
     description:
-      "Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online et World of Tanks : bonus PC, activation et offres recommandées.",
+      "Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone et World of Tanks : bonus PC, activation et offres recommandées.",
     url: "/codes-bonus/pc",
     type: "website",
   },
@@ -28,7 +28,7 @@ const games: GameCard[] = [
     title: "World of Tanks",
     href: "/codes-bonus/pc/world-of-tanks",
     description: "Bonus WOT : or, temps premium et crédits.",
-    bullets: ["Or", "Temps premium", "Guide rapide"],
+    bullets: ["Or", "Temps premium", "Activation Wargaming"],
   },
   {
     title: "League of Legends (LoL)",
@@ -66,6 +66,12 @@ const games: GameCard[] = [
     description: "GTA Online : bonus événements et Shark Cards.",
     bullets: ["GTA$", "Bonus", "Activation Rockstar"],
   },
+  {
+    title: "Call of Duty: Warzone",
+    href: "/codes-bonus/pc/call-of-duty-warzone",
+    description: "Warzone : bonus événements, CP et Battle Pass.",
+    bullets: ["CP", "Battle Pass", "Battle.net/Steam"],
+  },
 ]
 
 function buildFaqJsonLd() {
@@ -78,7 +84,7 @@ function buildFaqJsonLd() {
         name: "Où activer un code bonus sur PC ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "L’activation dépend du jeu : Epic Games, Riot, Microsoft, Roblox ou Rockstar. Les étapes sont détaillées sur chaque page.",
+          text: "L’activation dépend du jeu : Epic, Riot, Microsoft, Roblox, Rockstar, Battle.net/Steam ou Wargaming. Les étapes sont détaillées sur chaque page jeu.",
         },
       },
       {
@@ -86,7 +92,15 @@ function buildFaqJsonLd() {
         name: "Les codes PC fonctionnent-ils au Canada ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Oui dans la majorité des cas, mais vérifie toujours la compatibilité région (Canada/NA) avant achat.",
+          text: "Oui dans la majorité des cas, mais vérifie toujours la compatibilité région (Canada/NA) sur la page de l’offre.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "PrixMalin vend-il directement les codes ?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Non. PrixMalin sélectionne des offres et renvoie vers des marchands via des liens affiliés.",
         },
       },
     ],
@@ -99,16 +113,14 @@ export default function CodesBonusPcHubPage() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <header className="mb-10">
-        <h1 className="text-3xl font-bold tracking-tight">
-          Codes bonus PC 🇨🇦
-        </h1>
+        <h1 className="text-3xl font-bold tracking-tight">Codes bonus PC 🇨🇦</h1>
         <p className="mt-3 max-w-3xl text-gray-600">
           Guides de codes bonus pour les jeux PC populaires : Fortnite, League of
-          Legends, Valorant, Minecraft, Roblox, GTA Online et World of Tanks.
+          Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty: Warzone
+          et World of Tanks.
         </p>
       </header>
 
-      {/* JEUX PRINCIPAUX */}
       <section aria-label="Jeux PC populaires" className="mb-10">
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {games.map((g) => (
@@ -133,13 +145,12 @@ export default function CodesBonusPcHubPage() {
         </div>
       </section>
 
-      {/* SEO CONTENT */}
       <section className="prose prose-gray max-w-none">
         <h2>Comment fonctionnent les codes bonus PC ?</h2>
         <p>
-          Les codes bonus PC permettent d’obtenir des monnaies premium ou des
-          bonus en jeu. L’activation se fait généralement via le compte officiel
-          du jeu ou la plateforme correspondante.
+          Les codes bonus PC donnent accès à des monnaies premium (V-Bucks, RP,
+          VP, Minecoins, Robux, GTA$, CP) ou à des bonus liés à des événements.
+          L’activation se fait via le compte officiel du jeu ou la plateforme.
         </p>
 
         <h2>Conseils avant d’acheter</h2>
@@ -151,8 +162,8 @@ export default function CodesBonusPcHubPage() {
       </section>
 
       <p className="mt-10 text-xs text-gray-500">
-        Certains liens sont affiliés. PrixMalin peut recevoir une commission
-        sans coût supplémentaire pour vous.
+        Certains liens sont affiliés. PrixMalin peut recevoir une commission sans
+        coût supplémentaire pour vous.
       </p>
 
       <script
