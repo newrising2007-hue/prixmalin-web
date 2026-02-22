@@ -1,0 +1,276 @@
+// app/codes-bonus/pc/[game]/page.tsx
+import type { Metadata } from "next";
+import Link from "next/link";
+import { getPcGame, getPcGameSlugs } from "@/src/data/codes-bonus/pc-games";
+
+type PageProps = {
+  params: Promise<{ game: string }>;
+};
+
+export function generateStaticParams() {
+  return getPcGameSlugs().map((slug) => ({ game: slug }));
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { game: gameSlug } = await params;
+  const game = getPcGame(gameSlug);
+
+  if (!game) {
+    return {
+      title: "Jeu introuvable — Codes bonus PC | PrixMalin",
+      robots: { index: false, follow: false },
+    };
+  }
+
+  const title = `${game.title} | PrixMalin`;
+
+  return {
+    title,
+    description: game.seoDescription,
+    alternates: {
+      canonical: `/codes-bonus/pc/${game.slug}`,
+    },
+    openGraph: {
+      title,
+      description: game.seoDescription,
+      url: `/codes-bonus/pc/${game.slug}`,
+      type: "article",
+    },
+  };
+}
+
+function buildFaqJsonLd(gameName: string, faq: Array<{ q: string; a: string }>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.a,
+      },
+    })),
+    about: {
+      "@type": "Thing",
+      name: `${gameName} (PC)`,
+    },
+  };
+}
+
+function buildArticleJsonLd(opts: {
+  title: string;
+  description: string;
+  urlPath: string;
+  dateModifiedISO: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: opts.title,
+    description: opts.description,
+    dateModified: opts.dateModifiedISO,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": opts.urlPath,
+    },
+  };
+}
+
+export default async function PcGamePage({ params }: PageProps) {
+  const { game: gameSlug } = await params;
+  const game = getPcGame(gameSlug);
+
+  if (!game) {
+    return (
+      <main className="mx-auto max-w-3xl px-4 py-10">
+        <h1 className="text-2xl font-bold">Page introuvable</h1>
+        <p className="mt-3 text-sm text-gray-600">
+          Ce jeu n’existe pas (ou l’URL est incorrecte).
+        </p>
+        <Link
+          href="/codes-bonus/pc"
+          className="mt-6 inline-flex rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white"
+        >
+          Retour au hub PC
+        </Link>
+      </main>
+    );
+  }
+
+  const urlPath = `/codes-bonus/pc/${game.slug}`;
+
+  const faqJsonLd = buildFaqJsonLd(game.name, game.faq);
+  const articleJsonLd = buildArticleJsonLd({
+    title: game.title,
+    description: game.seoDescription,
+    urlPath,
+    dateModifiedISO: game.updatedAtISO,
+  });
+
+  return (
+    <main className="mx-auto max-w-3xl px-4 py-10">
+      <nav className="text-sm text-gray-600">
+        <Link href="/" className="hover:underline">
+          Accueil
+        </Link>
+        <span className="mx-2">/</span>
+        <Link href="/codes-bonus" className="hover:underline">
+          Codes bonus
+        </Link>
+        <span className="mx-2">/</span>
+        <Link href="/codes-bonus/pc" className="hover:underline">
+          PC
+        </Link>
+        <span className="mx-2">/</span>
+        <span className="text-gray-900">{game.name}</span>
+      </nav>
+
+      <header className="mt-6">
+        <h1 className="text-3xl font-bold tracking-tight">{game.title}</h1>
+        <p className="mt-3 text-base text-gray-700">{game.hero.subtitle}</p>
+
+        <ul className="mt-5 space-y-2">
+          {game.hero.highlights.map((h) => (
+            <li key={h} className="flex items-start gap-2 text-sm text-gray-700">
+              <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-gray-900" />
+              <span>{h}</span>
+            </li>
+          ))}
+        </ul>
+
+        <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+          <Link
+            href="/codes-bonus/pc"
+            className="inline-flex justify-center rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white"
+          >
+            Voir tous les jeux PC
+          </Link>
+
+          <Link
+            href="/deals"
+            className="inline-flex justify-center rounded-lg border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-900"
+          >
+            Voir les deals gaming
+          </Link>
+        </div>
+
+        <p className="mt-4 text-xs text-gray-500">
+          Mise à jour : <time dateTime={game.updatedAtISO}>{game.updatedAtISO}</time>
+        </p>
+      </header>
+
+      <section className="mt-10 space-y-4">
+        {game.intro.map((p) => (
+          <p key={p} className="text-base leading-7 text-gray-800">
+            {p}
+          </p>
+        ))}
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-xl font-bold tracking-tight">Offres recommandées</h2>
+        <p className="mt-2 text-sm text-gray-700">
+          Offres variables. PrixMalin peut recevoir une commission via liens affiliés, sans surcoût pour toi.
+        </p>
+
+        <div className="mt-5 grid gap-4 sm:grid-cols-2">
+          {game.offers.map((offer) => (
+            <a
+              key={offer.id}
+              href={offer.href}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              className="rounded-2xl border border-gray-200 p-5 hover:bg-gray-50"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <h3 className="text-base font-semibold text-gray-900">{offer.title}</h3>
+                <span className="rounded-full bg-gray-100 px-2 py-1 text-xs font-semibold text-gray-700">
+                  {offer.priceLabel}
+                </span>
+              </div>
+
+              {offer.badge ? (
+                <p className="mt-2 inline-flex rounded-full border border-gray-200 px-2 py-1 text-xs font-semibold text-gray-700">
+                  {offer.badge}
+                </p>
+              ) : null}
+
+              <p className="mt-3 text-sm leading-6 text-gray-800">{offer.description}</p>
+
+              <span className="mt-4 inline-flex rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white">
+                {offer.ctaLabel}
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <div className="mt-12 space-y-10">
+        {game.sections.map((s) => (
+          <section key={s.id} id={s.id} className="scroll-mt-24">
+            <h2 className="text-xl font-bold tracking-tight">{s.h2}</h2>
+
+            <div className="mt-3 space-y-3">
+              {s.body.map((p) => (
+                <p key={p} className="text-base leading-7 text-gray-800">
+                  {p}
+                </p>
+              ))}
+            </div>
+
+            {s.bullets && s.bullets.length > 0 ? (
+              <ul className="mt-4 list-disc space-y-2 pl-6 text-sm text-gray-800">
+                {s.bullets.map((b) => (
+                  <li key={b}>{b}</li>
+                ))}
+              </ul>
+            ) : null}
+          </section>
+        ))}
+      </div>
+
+      <section className="mt-14 rounded-2xl border border-gray-200 p-5">
+        <h2 className="text-lg font-bold">FAQ</h2>
+        <div className="mt-4 space-y-4">
+          {game.faq.map((item) => (
+            <details key={item.q} className="rounded-xl border border-gray-200 p-4">
+              <summary className="cursor-pointer text-sm font-semibold text-gray-900">
+                {item.q}
+              </summary>
+              <p className="mt-3 text-sm leading-6 text-gray-800">{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-lg font-bold">Jeux PC similaires</h2>
+        <div className="mt-4 flex flex-wrap gap-2">
+          {game.relatedSlugs.map((slug) => {
+            const related = getPcGame(slug);
+            if (!related) return null;
+            return (
+              <Link
+                key={slug}
+                href={`/codes-bonus/pc/${slug}`}
+                className="rounded-full border border-gray-300 px-3 py-1 text-sm hover:bg-gray-50"
+              >
+                {related.name}
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+    </main>
+  );
+}
