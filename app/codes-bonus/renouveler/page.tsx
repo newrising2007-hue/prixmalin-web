@@ -1,6 +1,53 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
-export default function RenewMemoPage() {
+export const metadata: Metadata = {
+  title: "Mémo — Renouvellement des codes | PrixMalin",
+  description: "Page interne PrixMalin (mémo).",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
+};
+
+type PageProps = {
+  searchParams?: Record<string, string | string[] | undefined>;
+};
+
+function getParam(searchParams: PageProps["searchParams"], key: string) {
+  const v = searchParams?.[key];
+  if (!v) return null;
+  if (Array.isArray(v)) return v[0] ?? null;
+  return v;
+}
+
+export default function RenewMemoPage({ searchParams }: PageProps) {
+  const requiredKey = process.env.RENEW_PAGE_KEY ?? "";
+  const providedKey = getParam(searchParams, "key") ?? "";
+
+  const isAllowed = requiredKey.length > 0 && providedKey === requiredKey;
+
+  if (!isAllowed) {
+    return (
+      <main className="mx-auto max-w-2xl px-4 py-10">
+        <h1 className="text-2xl font-bold">Accès refusé</h1>
+        <p className="mt-3 text-sm text-gray-700">
+          Cette page est interne.
+        </p>
+        <Link
+          href="/"
+          className="mt-6 inline-flex rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white"
+        >
+          Retour à l’accueil
+        </Link>
+      </main>
+    );
+  }
+
   return (
     <main className="mx-auto max-w-3xl px-4 py-10">
       <h1 className="text-3xl font-bold tracking-tight">
@@ -50,26 +97,21 @@ export default function RenewMemoPage() {
         </p>
 
         <div className="mt-3 space-y-2 text-sm">
-          <a
-            className="block underline"
-            href="/api/bonus-codes?platform=pc"
-          >
+          <a className="block underline" href="/api/bonus-codes?platform=pc">
             /api/bonus-codes?platform=pc
           </a>
           <a
             className="block underline"
             href="/api/bonus-codes?platform=pc&gameSlug=world-of-tanks"
           >
-            /api/bonus-codes?platform=pc&gameSlug=world-of-tanks
+            /api/bonus-codes?platform=pc&amp;gameSlug=world-of-tanks
           </a>
         </div>
       </section>
 
       <section className="mt-8 rounded-2xl border border-gray-200 p-5">
         <h2 className="text-lg font-bold">Fichier à modifier (source unique)</h2>
-        <p className="mt-2 text-sm text-gray-700">
-          Chemin dans le projet :
-        </p>
+        <p className="mt-2 text-sm text-gray-700">Chemin dans le projet :</p>
 
         <pre className="mt-3 overflow-x-auto rounded-xl border border-gray-200 bg-gray-50 p-4 text-xs">
 {`src/data/bonus-codes/codes.json`}
@@ -81,8 +123,10 @@ export default function RenewMemoPage() {
 
         <ol className="mt-4 list-decimal space-y-2 pl-6 text-sm text-gray-800">
           <li>
-            Ouvrir le fichier JSON :{" "}
-            <span className="font-mono">nano src/data/bonus-codes/codes.json</span>
+            Ouvrir le fichier :{" "}
+            <span className="font-mono">
+              nano src/data/bonus-codes/codes.json
+            </span>
           </li>
           <li>
             Mettre à jour (ou ajouter) les 3 codes par jeu :{" "}
@@ -90,12 +134,12 @@ export default function RenewMemoPage() {
             <span className="font-mono">code: "XXXX"</span>
           </li>
           <li>
-            Mettre des dates :{" "}
+            Mettre les dates :{" "}
             <span className="font-mono">cycleStartISO</span> et{" "}
             <span className="font-mono">cycleEndISO</span> (15 → 15)
           </li>
           <li>
-            Valider le JSON (zéro erreur) :
+            Valider le JSON :
             <pre className="mt-2 overflow-x-auto rounded-xl border border-gray-200 bg-gray-50 p-3 text-xs">
 {`node -e "JSON.parse(require('fs').readFileSync('src/data/bonus-codes/codes.json','utf8')); console.log('✅ JSON OK');"`}
             </pre>
@@ -124,11 +168,14 @@ git push`}
       </section>
 
       <section className="mt-8 rounded-2xl border border-gray-200 p-5">
-        <h2 className="text-lg font-bold">Rappel</h2>
+        <h2 className="text-lg font-bold">Ton lien privé</h2>
         <p className="mt-2 text-sm text-gray-700">
-          Les codes sont souvent limités (région/quantité/date). Toujours garder
-          des descriptions honnêtes et éviter les promesses “illimité”.
+          Accès uniquement via ce format :
         </p>
+
+        <pre className="mt-3 overflow-x-auto rounded-xl border border-gray-200 bg-gray-50 p-4 text-xs">
+{`/codes-bonus/renouveler?key=TON_SECRET`}
+        </pre>
       </section>
     </main>
   );
