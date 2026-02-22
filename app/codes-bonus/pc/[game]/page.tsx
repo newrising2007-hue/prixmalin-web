@@ -1,7 +1,8 @@
 // app/codes-bonus/pc/[game]/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getPcGame, getPcGameSlugs } from "@/src/data/codes-bonus/pc-games.js";
+import CopyCodeButton from "@/components/CopyCodeButton";
+import { getPcGame, getPcGameSlugs } from "@/src/data/codes-bonus/pc-games";
 import {
   getActiveBonusCodesForGame,
   mergeBonusCodes,
@@ -70,6 +71,41 @@ function buildArticleJsonLd(opts: {
   };
 }
 
+function activationStepsBySlug(slug: string) {
+  // MVP : on met WOT hyper clair + fallback générique
+  if (slug === "world-of-tanks") {
+    return [
+      "1) Connecte-toi à ton compte Wargaming (PC).",
+      "2) Ouvre la page officielle « Activer un code » / « Redeem code ».",
+      "3) Colle le code, puis valide.",
+      "4) Relance World of Tanks et vérifie la section dépôts/cadeaux.",
+    ];
+  }
+
+  return [
+    "1) Connecte-toi à ton compte du jeu (site officiel / launcher).",
+    "2) Trouve la page « Redeem/Activer un code ».",
+    "3) Colle le code et valide.",
+    "4) Relance le jeu si nécessaire.",
+  ];
+}
+
+function expectedRewardsBySlug(slug: string) {
+  if (slug === "world-of-tanks") {
+    return [
+      "Crédits, boosters (XP/Crédits), consommables",
+      "Jours premium (parfois)",
+      "Missions temporaires ou objets (selon promo)",
+      "Les récompenses dépendent de la promotion et peuvent varier",
+    ];
+  }
+
+  return [
+    "Récompenses variables selon la promo (bonus temporaires, items, etc.)",
+    "Toujours vérifier la source et les conditions",
+  ];
+}
+
 export default async function PcGamePage({ params }: PageProps) {
   const { game: gameSlug } = await params;
   const game = getPcGame(gameSlug);
@@ -91,15 +127,13 @@ export default async function PcGamePage({ params }: PageProps) {
     );
   }
 
-  // ✅ Codes automatiques depuis JSON
   const autoCodes = getActiveBonusCodesForGame({
     gameSlug: game.slug,
     platform: "pc",
   });
 
-  // ✅ Fallback si tu as encore "activeCodes" dans pc-games.ts
   const localCodes =
-    "activeCodes" in game && Array.isArray((game as any).activeCodes)
+    "activeCodes" in (game as any) && Array.isArray((game as any).activeCodes)
       ? ((game as any).activeCodes as Array<{
           id: string;
           title: string;
@@ -121,6 +155,8 @@ export default async function PcGamePage({ params }: PageProps) {
     urlPath,
     dateModifiedISO: game.updatedAtISO,
   });
+
+  const hasCopyCodes = mergedCodes.some((c) => c.method === "code" && !!c.code);
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-10">
@@ -219,12 +255,11 @@ export default async function PcGamePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Codes bonus actifs (AUTO) */}
+      {/* Codes bonus actifs */}
       <section className="mt-12">
         <h2 className="text-xl font-bold tracking-tight">Codes bonus actifs</h2>
         <p className="mt-2 text-sm text-gray-700">
-          Affichage automatique (PC) basé sur notre base locale. On liste
-          uniquement des options fiables.
+          Codes et bonus listés. Certains codes sont limités (date/quantité/région).
         </p>
 
         {mergedCodes.length === 0 ? (
@@ -250,12 +285,19 @@ export default async function PcGamePage({ params }: PageProps) {
                   {c.description}
                 </p>
 
-                {c.code ? (
+                {c.method === "code" && c.code ? (
                   <div className="mt-4 rounded-xl border border-gray-200 bg-gray-50 p-4">
-                    <p className="text-xs font-semibold text-gray-700">Code :</p>
-                    <p className="mt-1 font-mono text-sm text-gray-900">
-                      {c.code}
-                    </p>
+                    <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                      <div>
+                        <p className="text-xs font-semibold text-gray-700">
+                          Code à copier :
+                        </p>
+                        <p className="mt-1 font-mono text-sm text-gray-900">
+                          {c.code}
+                        </p>
+                      </div>
+                      <CopyCodeButton code={c.code} />
+                    </div>
                   </div>
                 ) : null}
 
@@ -274,6 +316,40 @@ export default async function PcGamePage({ params }: PageProps) {
           </div>
         )}
       </section>
+
+      {/* Comment activer (seulement si on a des codes à copier) */}
+      {hasCopyCodes ? (
+        <section className="mt-12 rounded-2xl border border-gray-200 p-5">
+          <h2 className="text-lg font-bold">Comment activer un code</h2>
+          <p className="mt-2 text-sm text-gray-700">
+            Étapes rapides (PC). Si le code est expiré ou limité, l’activation
+            peut échouer.
+          </p>
+
+          <ol className="mt-4 list-decimal space-y-2 pl-6 text-sm text-gray-800">
+            {activationStepsBySlug(game.slug).map((s) => (
+              <li key={s}>{s}</li>
+            ))}
+          </ol>
+        </section>
+      ) : null}
+
+      {/* Ce que le code peut donner */}
+      {hasCopyCodes ? (
+        <section className="mt-8 rounded-2xl border border-gray-200 p-5">
+          <h2 className="text-lg font-bold">Ce que le code bonus peut donner</h2>
+          <ul className="mt-4 list-disc space-y-2 pl-6 text-sm text-gray-800">
+            {expectedRewardsBySlug(game.slug).map((s) => (
+              <li key={s}>{s}</li>
+            ))}
+          </ul>
+
+          <p className="mt-4 text-xs text-gray-500">
+            Note : les récompenses exactes dépendent de la promotion, de la région
+            et des conditions du compte.
+          </p>
+        </section>
+      ) : null}
 
       {/* Intro SEO */}
       <section className="mt-10 space-y-4">
