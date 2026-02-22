@@ -237,12 +237,11 @@ export default async function PcGamePage({ params }: PageProps) {
                 </span>
               </div>
 
-              {"badge" in offer && offer.badge ? (
-                <p className="mt-2 inline-flex rounded-full border border-gray-200 px-2 py-1 text-xs font-semibold text-gray-700">
-                  {offer.badge}
-                </p>
-              ) : null}
-
+{typeof (offer as any).badge === "string" && (offer as any).badge.trim().length > 0 ? (
+  <p className="mt-2 inline-flex rounded-full border border-gray-200 px-2 py-1 text-xs font-semibold text-gray-700">
+    {(offer as any).badge}
+  </p>
+) : null}
               <p className="mt-3 text-sm leading-6 text-gray-800">
                 {offer.description}
               </p>
@@ -373,14 +372,14 @@ export default async function PcGamePage({ params }: PageProps) {
                 </p>
               ))}
             </div>
+         {Array.isArray((s as any).bullets) && (s as any).bullets.length > 0 ? (
+  <ul className="mt-4 list-disc space-y-2 pl-6 text-sm text-gray-800">
+    {(s as any).bullets.map((b: string) => (
+      <li key={b}>{b}</li>
+    ))}
+  </ul>
+) : null}   
 
-            {s.bullets && s.bullets.length > 0 ? (
-              <ul className="mt-4 list-disc space-y-2 pl-6 text-sm text-gray-800">
-                {s.bullets.map((b) => (
-                  <li key={b}>{b}</li>
-                ))}
-              </ul>
-            ) : null}
           </section>
         ))}
       </div>
