@@ -104,30 +104,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
   changeFrequency: "daily",
   priority: 0.85,
 },
-
-    {
-      url: `${SITE_URL}/applications`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.6,
-    },
-    {
-      url: `${SITE_URL}/applications/prixmalin`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/en/apps`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.6,
-    },
-    {
-      url: `${SITE_URL}/en/apps/prixmalin`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
   ]
 }
