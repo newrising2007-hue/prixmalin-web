@@ -1,7 +1,7 @@
 // app/codes-bonus/pc/[game]/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getPcGame, getPcGameSlugs } from "@/src/data/codes-bonus/pc-games";
+import { getPcGame, getPcGameSlugs } from "@/src/data/codes-bonus/pc-games.js";
 import {
   getActiveBonusCodesForGame,
   mergeBonusCodes,
