@@ -126,5 +126,18 @@
     "sourceLabel": "Officiel",
     "isActive": true,
     "expiresAtISO": null
-  }
+  },
+
+{
+  "id": "pc-fortnite-event-2026",
+  "gameSlug": "fortnite",
+  "platform": "pc",
+  "title": "Bonus événement Fortnite 2026",
+  "description": "Récompenses disponibles via événements officiels Epic Games.",
+  "method": "event",
+  "code": null,
+  "sourceLabel": "Officiel",
+  "isActive": true,
+  "expiresAtISO": null
+}
 ]
