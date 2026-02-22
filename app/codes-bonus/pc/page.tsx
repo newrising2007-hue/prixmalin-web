@@ -3,14 +3,14 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "Codes bonus PC (2026) : Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, World of Tanks | PrixMalin",
+    "Codes bonus PC (2026) : Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, CS2, World of Tanks | PrixMalin",
   description:
-    "Codes bonus PC au Canada : Fortnite, League of Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty Warzone et World of Tanks. Guides d’activation + offres.",
+    "Codes bonus PC au Canada : Fortnite, League of Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty Warzone, Counter-Strike 2 (CS2) et World of Tanks. Guides d’activation + offres.",
   alternates: { canonical: "/codes-bonus/pc" },
   openGraph: {
     title: "Codes bonus PC | PrixMalin Canada",
     description:
-      "Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone et World of Tanks : bonus PC, activation et offres recommandées.",
+      "Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, CS2 et World of Tanks : bonus PC, activation et offres recommandées.",
     url: "/codes-bonus/pc",
     type: "website",
   },
@@ -72,6 +72,12 @@ const games: GameCard[] = [
     description: "Warzone : bonus événements, CP et Battle Pass.",
     bullets: ["CP", "Battle Pass", "Battle.net/Steam"],
   },
+  {
+    title: "Counter-Strike 2 (CS2)",
+    href: "/codes-bonus/pc/counter-strike-2",
+    description: "CS2 : écosystème Steam, crédit et options officielles.",
+    bullets: ["Steam", "Skins/items", "Activation Wallet"],
+  },
 ]
 
 function buildFaqJsonLd() {
@@ -84,7 +90,7 @@ function buildFaqJsonLd() {
         name: "Où activer un code bonus sur PC ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "L’activation dépend du jeu : Epic, Riot, Microsoft, Roblox, Rockstar, Battle.net/Steam ou Wargaming. Les étapes sont détaillées sur chaque page jeu.",
+          text: "L’activation dépend du jeu : Epic, Riot, Microsoft, Roblox, Rockstar, Battle.net/Steam, Steam Wallet ou Wargaming. Les étapes sont détaillées sur chaque page jeu.",
         },
       },
       {
@@ -116,8 +122,8 @@ export default function CodesBonusPcHubPage() {
         <h1 className="text-3xl font-bold tracking-tight">Codes bonus PC 🇨🇦</h1>
         <p className="mt-3 max-w-3xl text-gray-600">
           Guides de codes bonus pour les jeux PC populaires : Fortnite, League of
-          Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty: Warzone
-          et World of Tanks.
+          Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty: Warzone,
+          Counter-Strike 2 (CS2) et World of Tanks.
         </p>
       </header>
 
