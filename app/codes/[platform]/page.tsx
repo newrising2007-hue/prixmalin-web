@@ -54,7 +54,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
-  const platform = getPlatform(params.platform);
+  const platform = getPlatform((params.platform || "").toLowerCase());
 
   if (!platform) {
     return {
@@ -100,7 +100,7 @@ function cx(...classes: Array<string | false | null | undefined>) {
 }
 
 export default async function PlatformPage({ params }: Params) {
-  const platform = getPlatform(params.platform);
+  const platform = getPlatform((params.platform || "").toLowerCase());
 
   if (!platform) {
     return (
