@@ -331,5 +331,47 @@
   "sourceLabel": "Promo",
   "isActive": true,
   "expiresAtISO": "2026-06-20"
+},
+{
+  "id": "pc-wot-cycle-2026-03-1",
+  "gameSlug": "world-of-tanks",
+  "platform": "pc",
+  "title": "Code WOT (cycle mensuel) #1",
+  "description": "Bonus : crédits / consommables / jours premium selon promo active.",
+  "method": "code",
+  "code": "WOT-MARCH-1",
+  "sourceLabel": "Promo",
+  "isActive": true,
+  "expiresAtISO": null,
+  "cycleStartISO": "2026-03-15",
+  "cycleEndISO": "2026-04-15"
+},
+{
+  "id": "pc-wot-cycle-2026-03-2",
+  "gameSlug": "world-of-tanks",
+  "platform": "pc",
+  "title": "Code WOT (cycle mensuel) #2",
+  "description": "Bonus : XP / missions / items (variable selon conditions).",
+  "method": "code",
+  "code": "WOT-MARCH-2",
+  "sourceLabel": "Promo",
+  "isActive": true,
+  "expiresAtISO": null,
+  "cycleStartISO": "2026-03-15",
+  "cycleEndISO": "2026-04-15"
+},
+{
+  "id": "pc-wot-cycle-2026-03-3",
+  "gameSlug": "world-of-tanks",
+  "platform": "pc",
+  "title": "Code WOT (cycle mensuel) #3",
+  "description": "Bonus : pack limité (peut varier selon région et promo).",
+  "method": "code",
+  "code": "WOT-MARCH-3",
+  "sourceLabel": "Promo",
+  "isActive": true,
+  "expiresAtISO": null,
+  "cycleStartISO": "2026-03-15",
+  "cycleEndISO": "2026-04-15"
 }
 ]

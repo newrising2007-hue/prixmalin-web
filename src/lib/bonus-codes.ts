@@ -7,26 +7,49 @@ export type BonusCode = {
   id: string;
   gameSlug: string;
   platform: BonusPlatform;
+
   title: string;
   description: string;
   method: "code" | "event" | "bundle" | "gift-card";
+
+  // Si method="code", code peut être une string
   code: string | null;
-  sourceLabel: string;
+
+  sourceLabel: string; // "Officiel" | "Promo" | etc.
   isActive: boolean;
+
+  // compat ancienne structure
   expiresAtISO: string | null;
+
+  // ✅ nouveau : cycle mensuel (15 -> 15)
+  cycleStartISO: string | null;
+  cycleEndISO: string | null;
 };
+
+function normalizePlatform(p: unknown): BonusPlatform | null {
+  if (p === "pc" || p === "playstation" || p === "xbox" || p === "nintendo" || p === "mobile") return p;
+  return null;
+}
+
+function normalizeMethod(m: unknown): BonusCode["method"] | null {
+  if (m === "code" || m === "event" || m === "bundle" || m === "gift-card") return m;
+  return null;
+}
 
 function normalizeCode(input: unknown): BonusCode | null {
   if (!input || typeof input !== "object") return null;
   const c = input as Partial<BonusCode>;
 
+  const platform = normalizePlatform(c.platform);
+  const method = normalizeMethod(c.method);
+
   if (
     !c.id ||
     !c.gameSlug ||
-    !c.platform ||
+    !platform ||
     !c.title ||
     !c.description ||
-    !c.method ||
+    !method ||
     !c.sourceLabel ||
     typeof c.isActive !== "boolean"
   ) {
@@ -36,14 +59,16 @@ function normalizeCode(input: unknown): BonusCode | null {
   return {
     id: String(c.id),
     gameSlug: String(c.gameSlug),
-    platform: c.platform,
+    platform,
     title: String(c.title),
     description: String(c.description),
-    method: c.method,
+    method,
     code: c.code ?? null,
     sourceLabel: String(c.sourceLabel),
     isActive: Boolean(c.isActive),
     expiresAtISO: c.expiresAtISO ?? null,
+    cycleStartISO: (c as any).cycleStartISO ?? null,
+    cycleEndISO: (c as any).cycleEndISO ?? null,
   };
 }
 
@@ -53,39 +78,51 @@ function toDateValue(iso: string | null): number {
   return Number.isFinite(t) ? t : Number.POSITIVE_INFINITY;
 }
 
-/**
- * Retourne les bonus pour un jeu + plateforme, filtrés isActive,
- * triés par expiration la plus proche (si existe), puis fallback stable.
- */
-export function getActiveBonusCodesForGame(opts: {
-  gameSlug: string;
-  platform: BonusPlatform;
-  nowISO?: string;
-}): BonusCode[] {
-  const now = opts.nowISO ? Date.parse(opts.nowISO) : Date.now();
+function isExpiredByDates(c: BonusCode, nowMs: number): boolean {
+  // ✅ priorité au cycle (si présent)
+  if (c.cycleEndISO) {
+    const end = Date.parse(c.cycleEndISO);
+    if (Number.isFinite(end) && nowMs >= end) return true;
+  }
+  // fallback legacy
+  if (c.expiresAtISO) {
+    const exp = Date.parse(c.expiresAtISO);
+    if (Number.isFinite(exp) && nowMs >= exp) return true;
+  }
+  return false;
+}
 
+export function getAllBonusCodes(): BonusCode[] {
   const codes: BonusCode[] = (Array.isArray(rawCodes) ? rawCodes : [])
     .map(normalizeCode)
     .filter((x): x is BonusCode => Boolean(x));
 
+  return codes;
+}
+
+export function getActiveBonusCodes(opts: {
+  platform: BonusPlatform;
+  gameSlug?: string;
+  nowISO?: string;
+}): BonusCode[] {
+  const now = opts.nowISO ? Date.parse(opts.nowISO) : Date.now();
+
+  const codes = getAllBonusCodes();
+
   const filtered = codes.filter((c) => {
-    if (c.gameSlug !== opts.gameSlug) return false;
     if (c.platform !== opts.platform) return false;
+    if (opts.gameSlug && c.gameSlug !== opts.gameSlug) return false;
     if (!c.isActive) return false;
-
-    // si expiresAtISO est dans le passé, on le cache automatiquement
-    if (c.expiresAtISO) {
-      const exp = Date.parse(c.expiresAtISO);
-      if (Number.isFinite(exp) && exp < now) return false;
-    }
-
+    if (isExpiredByDates(c, now)) return false;
     return true;
   });
 
-  // Tri : expiration proche d'abord (les nulls à la fin), puis id
+  // Tri : expiration/cycleEnd la plus proche d’abord
   filtered.sort((a, b) => {
-    const da = toDateValue(a.expiresAtISO);
-    const db = toDateValue(b.expiresAtISO);
+    const aEnd = a.cycleEndISO ?? a.expiresAtISO ?? null;
+    const bEnd = b.cycleEndISO ?? b.expiresAtISO ?? null;
+    const da = toDateValue(aEnd);
+    const db = toDateValue(bEnd);
     if (da !== db) return da - db;
     return a.id.localeCompare(b.id);
   });
@@ -93,10 +130,19 @@ export function getActiveBonusCodesForGame(opts: {
   return filtered;
 }
 
-/**
- * Fusionne les bonus auto (JSON) + bonus locaux éventuels (fallback),
- * déduplique par id.
- */
+// Compat: utilisé par tes pages jeux PC
+export function getActiveBonusCodesForGame(opts: {
+  gameSlug: string;
+  platform: BonusPlatform;
+  nowISO?: string;
+}): BonusCode[] {
+  return getActiveBonusCodes({
+    platform: opts.platform,
+    gameSlug: opts.gameSlug,
+    nowISO: opts.nowISO,
+  });
+}
+
 export function mergeBonusCodes(opts: {
   auto: BonusCode[];
   local?: Array<{
@@ -137,15 +183,13 @@ export function mergeBonusCodes(opts: {
       description: a.description,
       method: a.method,
       code: a.code ?? undefined,
-      expiresAtISO: a.expiresAtISO ?? undefined,
+      expiresAtISO: (a.cycleEndISO ?? a.expiresAtISO ?? undefined) || undefined,
       sourceLabel: a.sourceLabel,
     });
   }
 
   for (const l of opts.local ?? []) {
-    if (!map.has(l.id)) {
-      map.set(l.id, { ...l });
-    }
+    if (!map.has(l.id)) map.set(l.id, { ...l });
   }
 
   return Array.from(map.values());
