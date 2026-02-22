@@ -7,27 +7,29 @@ export const metadata: Metadata = {
   robots: {
     index: false,
     follow: false,
-    googleBot: {
-      index: false,
-      follow: false,
-    },
+    googleBot: { index: false, follow: false },
   },
 };
 
 type PageProps = {
-  searchParams?: Record<string, string | string[] | undefined>;
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
 
-function getParam(searchParams: PageProps["searchParams"], key: string) {
-  const v = searchParams?.[key];
+function getParam(
+  searchParams: Record<string, string | string[] | undefined>,
+  key: string
+) {
+  const v = searchParams[key];
   if (!v) return null;
   if (Array.isArray(v)) return v[0] ?? null;
   return v;
 }
 
-export default function RenewMemoPage({ searchParams }: PageProps) {
+export default async function RenewMemoPage({ searchParams }: PageProps) {
+  const sp = await searchParams;
+
   const requiredKey = process.env.RENEW_PAGE_KEY ?? "";
-  const providedKey = getParam(searchParams, "key") ?? "";
+  const providedKey = getParam(sp, "key") ?? "";
 
   const isAllowed = requiredKey.length > 0 && providedKey === requiredKey;
 
@@ -35,9 +37,7 @@ export default function RenewMemoPage({ searchParams }: PageProps) {
     return (
       <main className="mx-auto max-w-2xl px-4 py-10">
         <h1 className="text-2xl font-bold">Accès refusé</h1>
-        <p className="mt-3 text-sm text-gray-700">
-          Cette page est interne.
-        </p>
+        <p className="mt-3 text-sm text-gray-700">Cette page est interne.</p>
         <Link
           href="/"
           className="mt-6 inline-flex rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white"
@@ -170,11 +170,11 @@ git push`}
       <section className="mt-8 rounded-2xl border border-gray-200 p-5">
         <h2 className="text-lg font-bold">Ton lien privé</h2>
         <p className="mt-2 text-sm text-gray-700">
-          Accès uniquement via ce format :
+          Accès uniquement via :
         </p>
 
         <pre className="mt-3 overflow-x-auto rounded-xl border border-gray-200 bg-gray-50 p-4 text-xs">
-{`/codes-bonus/renouveler?key=TON_SECRET`}
+{`/codes-bonus/renouveler?key=une-cle-tres-longue-ici-123-ABC`}
         </pre>
       </section>
     </main>
