@@ -149,7 +149,13 @@ export async function generateMetadata({
     title: platform.seo.title,
     description: platform.seo.description,
     keywords: platform.seo.keywords,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      languages: {
+        fr: url,
+        "x-default": url,
+      },
+    },
     openGraph: {
       title: platform.seo.title,
       description: platform.seo.description,
