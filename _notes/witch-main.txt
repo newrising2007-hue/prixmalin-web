@@ -1,0 +1,40 @@
+[33m70a1fd3[m [36m2026-02-23 06:48:49 -0500[m WIP backup avant retour
+[33mb1aa5b5[m [36m2026-02-23 06:41:40 -0500[m Restore app promo section with screenshots and download button
+[33md670304[m [36m2026-02-22 19:57:16 -0500[m Fix Nintendo & PlayStation codes-bonus pages + unified 3 bonus system
+[33m04266b4[m [36m2026-02-22 18:30:26 -0500[m fix(codes-bonus): bouton retour plateformes sur PC et Xbox
+[33ma9db0e7[m [36m2026-02-22 17:52:56 -0500[m fix: build + types + deals/products placeholders
+[33me340992[m [36m2026-02-22 15:50:08 -0500[m fix: codes bonus jeu page + intent compatibility
+[33mcd4671d[m [36m2026-02-22 15:41:27 -0500[m fix: AppSchema uses SITE_URL and constants (no SITE object)
+[33m98c4a9b[m [36m2026-02-22 15:08:32 -0500[m fix: intent page absoluteUrl
+[33meb5e93b[m [36m2026-02-22 15:03:01 -0500[m Bonus system Xbox + PlayStation + SEO hreflang + apps SEO
+[33m7b9f3dc[m [36m2026-02-22 11:21:51 -0500[m add i18n helpers for hreflang alternates
+[33mc5fd103[m [36m2026-02-22 11:05:43 -0500[m add mobile language switch
+[33m989c703[m [36m2026-02-22 10:30:51 -0500[m add applications section and PrixMalin app page with screenshots
+[33m0bb40e2[m [36m2026-02-22 10:29:49 -0500[m ignore raw images folder
+[33mf129657[m [36m2026-02-22 00:10:16 -0500[m fix: render section bullets safely
+[33m7174522[m [36m2026-02-21 23:59:40 -0500[m deploy: ready for vercel
+[33m092470d[m [36m2026-02-21 23:52:32 -0500[m security: hide renew page key from interface
+[33md0b2e55[m [36m2026-02-21 23:49:48 -0500[m chore: remove debug logs renew page
+[33m9925312[m [36m2026-02-21 23:38:48 -0500[m chore: protect renew memo page (noindex + key)
+[33m7d5ac5a[m [36m2026-02-21 23:33:23 -0500[m feat: copy button + activation guide + renew memo page
+[33m9fde8d1[m [36m2026-02-21 23:19:33 -0500[m feat: monthly bonus code cycles + API endpoint for mobile
+[33mdfcbba7[m [36m2026-02-21 23:03:43 -0500[m feat: add 2026 seasonal bonus pack
+[33m67ece22[m [36m2026-02-21 22:55:01 -0500[m feat: add Fortnite event bonus code
+[33mc6bf5ac[m [36m2026-02-21 22:41:45 -0500[m feat: add deals CTA to PC hub header
+[33maf5f973[m [36m2026-02-21 22:29:19 -0500[m feat: global bonus codes system + PC pages working
+[33m566ec20[m [36m2026-02-21 22:24:43 -0500[m fix: switch pc-games data to JS to avoid TS parse error
+[33m2b4df8e[m [36m2026-02-21 22:16:32 -0500[m feat(bonus-codes): global JSON + auto codes for PC pages
+[33mc3f7dec[m [36m2026-02-21 22:07:48 -0500[m feat: add active bonus codes section for PC games
+[33m8d93f1b[m [36m2026-02-21 22:02:13 -0500[m feat: update sitemap, gaming data and assets
+[33m98875b3[m [36m2026-02-21 22:01:38 -0500[m feat(codes-bonus pc): add SEO content + affiliate offers cards
+[33m9bc8642[m [36m2026-02-21 21:23:26 -0500[m Add CS2 to PC hub
+[33m80f897e[m [36m2026-02-21 21:13:37 -0500[m Add Warzone to PC hub
+[33m63fb608[m [36m2026-02-21 21:03:21 -0500[m Add GTA Online to PC hub
+[33mebf4965[m [36m2026-02-21 20:56:01 -0500[m Add Roblox to PC hub
+[33m490c543[m [36m2026-02-21 20:37:30 -0500[m Update PC hub: add Valorant + refresh teasers
+[33m2613159[m [36m2026-02-21 20:26:00 -0500[m Add PC codes-bonus hub page (SEO + internal links)
+[33m080595a[m [36m2026-02-21 20:00:50 -0500[m Platform pages + sitemap
+[33m981aabc[m [36m2026-02-21 19:20:32 -0500[m Fix codes platform page (robust platform lookup)
+[33mb777187[m [36m2026-02-21 19:02:49 -0500[m Fix platform slug normalization (prod)
+[33me7ccf38[m [36m2026-02-21 18:53:27 -0500[m Add platforms data for codes pages
+[33ma19ae24[m [36m2026-02-21 18:50:26 -0500[m Fix deals parser for minimal gaming-codes.json

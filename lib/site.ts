@@ -5,8 +5,18 @@ export const SITE = {
   brandTaglineEn: "A product search tool for local and online deals in Canada.",
 } as const;
 
+/**
+ * Retourne l’URL du site (sans slash final)
+ */
+export function getSiteUrl(): string {
+  return SITE.defaultUrl.replace(/\/+$/, "");
+}
+
+/**
+ * Construit une URL absolue à partir d’un path
+ */
 export function absoluteUrl(path: string): string {
-  const base = SITE.defaultUrl.replace(/\/+$/, "");
+  const base = getSiteUrl();
   const p = path.startsWith("/") ? path : `/${path}`;
   return `${base}${p}`;
 }

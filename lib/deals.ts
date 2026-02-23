@@ -52,18 +52,19 @@ function pickAffiliateUrl(item: AnyRecord): string {
 
   if (direct) return direct;
 
-  // 2) retailers[].affiliateLink (ton format actuel)
+  // 2) retailers[].affiliateLink (ancien format)
   const retailersRaw = item.retailers;
   if (Array.isArray(retailersRaw)) {
     const retailers: Retailer[] = retailersRaw.filter(isRecord) as Retailer[];
 
-    // priorité: en stock + lien
     const inStock = retailers.find(
-      (r) => r?.stock === true && typeof r?.affiliateLink === "string" && r.affiliateLink.length > 0
+      (r) =>
+        r?.stock === true &&
+        typeof r?.affiliateLink === "string" &&
+        r.affiliateLink.length > 0
     );
     if (inStock?.affiliateLink) return inStock.affiliateLink;
 
-    // sinon: premier lien dispo
     const first = retailers.find(
       (r) => typeof r?.affiliateLink === "string" && r.affiliateLink.length > 0
     );
@@ -74,7 +75,6 @@ function pickAffiliateUrl(item: AnyRecord): string {
 }
 
 function pickPrice(item: AnyRecord): number | undefined {
-  // ton JSON: dealPrice / regularPrice
   const dealPrice = toNumberSafe(item.dealPrice);
   if (typeof dealPrice === "number") return dealPrice;
 
@@ -95,11 +95,14 @@ function pickImage(item: AnyRecord): string {
 
   if (img) return img;
 
-  // Placeholder unique pour MVP
   return "/images/placeholder-deal.jpg";
 }
 
-function normalizeItem(item: unknown, fallbackIndex: number, defaultCurrency: string): Deal | null {
+function normalizeItem(
+  item: unknown,
+  fallbackIndex: number,
+  defaultCurrency: string
+): Deal | null {
   if (!isRecord(item)) return null;
 
   const title =
@@ -121,13 +124,11 @@ function normalizeItem(item: unknown, fallbackIndex: number, defaultCurrency: st
     `${title} (${platform})`;
 
   const affiliateUrl = pickAffiliateUrl(item);
-  if (!affiliateUrl) return null; // MVP: pas de lien => pas de deal
+  if (!affiliateUrl) return null;
 
   const price = pickPrice(item);
-
   const currency = toStringSafe(item.currency) || defaultCurrency || "CAD";
 
-  // slug: priorité au champ id (plus stable), sinon slug/title
   const slug =
     toStringSafe(item.id) ||
     toStringSafe(item.slug) ||
@@ -147,7 +148,33 @@ function normalizeItem(item: unknown, fallbackIndex: number, defaultCurrency: st
   };
 }
 
+/**
+ * Supporte 2 formats:
+ * A) Ancien: { metadata, subscriptions, giftCards, virtualCurrency, games, hardware }
+ * B) Nouveau: { "0": Deal[], "1": Deal[], "2": Deal[] } (objet indexé)
+ */
 export function getAllDeals(): Deal[] {
+  // Format B: objet indexé "0","1","2"...
+  if (isRecord(raw) && Object.keys(raw).some((k) => /^\d+$/.test(k))) {
+    const buckets: unknown[] = [];
+    const numericKeys = Object.keys(raw)
+      .filter((k) => /^\d+$/.test(k))
+      .sort((a, b) => Number(a) - Number(b));
+
+    for (const k of numericKeys) {
+      const v = (raw as AnyRecord)[k];
+      if (Array.isArray(v)) buckets.push(...v);
+    }
+
+    // defaultCurrency: si présent dans un item, sinon CAD
+    const defaultCurrency = "CAD";
+
+    return buckets
+      .map((it, idx) => normalizeItem(it, idx, defaultCurrency))
+      .filter((x): x is Deal => Boolean(x));
+  }
+
+  // Format A: sections
   if (!isRecord(raw)) return [];
 
   const metadata: Record<string, unknown> = isRecord(raw["metadata"])
@@ -165,11 +192,8 @@ export function getAllDeals(): Deal[] {
   ] as const;
 
   const flat: unknown[] = [];
-
-  type RawAny = Record<string, unknown>;
-
   for (const key of sections) {
-    const v = (raw as RawAny)[key];
+    const v = (raw as AnyRecord)[key];
     if (Array.isArray(v)) flat.push(...v);
   }
 

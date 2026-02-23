@@ -20,7 +20,9 @@ export default function RootLayout({
             <Link href="/" className="text-lg font-bold tracking-tight">
               PrixMalin
             </Link>
-
+             <Link href="/" className="rounded-lg px-2 py-1 hover:bg-gray-100">
+             Accueil
+             </Link>
             <nav className="flex items-center gap-3 text-sm">
               <Link href="/deals" className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 Deals
@@ -28,6 +30,11 @@ export default function RootLayout({
               <Link href="/produits" className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 Produits
               </Link>
+
+              <Link href="/applications" className="rounded-lg px-2 py-1 hover:bg-gray-100">
+               Applications
+              </Link>
+
               <Link href="/codes-bonus" className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 Codes bonus
               </Link>

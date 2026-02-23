@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllDeals, getDealBySlug } from "@/lib/deals";
+import { buildAmazonSearchUrl, isAmazonUrl, normalizeAmazonCaUrl } from "@/lib/amazon";
 
 type Props = {
   params: { slug: string };
@@ -142,14 +143,38 @@ export default function DealPage({ params }: Props) {
           </div>
         )}
 
+          {(() => {
+  const primaryUrl = isAmazonUrl(deal.affiliateUrl)
+    ? normalizeAmazonCaUrl(deal.affiliateUrl)
+    : deal.affiliateUrl;
+
+  const showAmazonFallback = isAmazonUrl(deal.affiliateUrl);
+  const amazonSearchUrl = buildAmazonSearchUrl(deal.title);
+
+  return (
+    <div className="space-y-3">
+      <a
+        href={primaryUrl}
+        target="_blank"
+        rel="nofollow sponsored noopener"
+        className="block w-full rounded-2xl bg-green-600 px-6 py-4 text-center text-base font-semibold text-white shadow-sm transition hover:bg-green-700"
+      >
+        Voir l’offre
+      </a>
+
+      {showAmazonFallback && (
         <a
-          href={deal.affiliateUrl}
+          href={amazonSearchUrl}
           target="_blank"
           rel="nofollow sponsored noopener"
-          className="block w-full rounded-2xl bg-green-600 px-6 py-4 text-center text-base font-semibold text-white shadow-sm transition hover:bg-green-700"
+          className="block w-full rounded-2xl border px-6 py-4 text-center text-base font-semibold text-gray-900 shadow-sm transition hover:bg-gray-50"
         >
-          Voir l’offre
+          Rechercher sur Amazon
         </a>
+      )}
+    </div>
+  );
+})()}
 
         <section className="rounded-2xl bg-gray-50 p-4">
           <h2 className="mb-2 text-lg font-semibold">Détails</h2>
