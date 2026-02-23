@@ -6,13 +6,7 @@ export const metadata: Metadata = {
     "Codes bonus PC (2026) : Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, CS2, World of Tanks | PrixMalin",
   description:
     "Codes bonus PC au Canada : Fortnite, League of Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty Warzone, Counter-Strike 2 (CS2) et World of Tanks. Guides d’activation + offres.",
-  alternates: {
-  canonical: "https://prixmalin.ca/codes-bonus/pc",
-  languages: {
-    fr: "https://prixmalin.ca/codes-bonus/pc",
-    "x-default": "https://prixmalin.ca/codes-bonus/pc",
-  },
-},
+  alternates: { canonical: "/codes-bonus/pc" },
   openGraph: {
     title: "Codes bonus PC | PrixMalin Canada",
     description:
