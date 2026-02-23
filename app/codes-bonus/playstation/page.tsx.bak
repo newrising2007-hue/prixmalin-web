@@ -7,13 +7,7 @@ export const metadata: Metadata = {
   title: "Codes bonus PlayStation et cartes cadeaux | PrixMalin Canada",
   description:
     "Codes bonus PlayStation et cartes cadeaux gaming disponibles au Canada. Offres sélectionnées avec liens affiliés.",
-  alternates: {
-  canonical: "https://prixmalin.ca/codes-bonus/playstation",
-  languages: {
-    fr: "https://prixmalin.ca/codes-bonus/playstation",
-    "x-default": "https://prixmalin.ca/codes-bonus/playstation",
-  },
-},
+  alternates: { canonical: "/codes-bonus/playstation" },
   openGraph: {
     title: "Codes bonus PlayStation | PrixMalin Canada",
     description:
