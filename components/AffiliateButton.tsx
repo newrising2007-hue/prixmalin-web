@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { buildAmazonLink } from "@/lib/affiliate";
+import { isAmazonUrl, normalizeAmazonCaUrl } from "@/lib/amazon";
 
 type AffiliateButtonProps = {
   url: string;
@@ -14,7 +14,7 @@ export default function AffiliateButton({
   label = "Voir sur Amazon",
   className = "",
 }: AffiliateButtonProps) {
-  const affiliateUrl = buildAmazonLink(url);
+  const affiliateUrl = isAmazonUrl(url) ? normalizeAmazonCaUrl(url) : url;
 
   return (
     <a
