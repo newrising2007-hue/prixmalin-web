@@ -30,7 +30,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${product.title} | PrixMalin`,
     description: product.shortDescription,
     alternates: {
-      canonical: `/produit/${product.slug}`,
+      canonical: `https://prixmalin.ca/produit/${product.slug}`,
+      languages: {
+        fr: `https://prixmalin.ca/produit/${product.slug}`,
+        "x-default": `https://prixmalin.ca/produit/${product.slug}`,
+      },
     },
   };
 }
