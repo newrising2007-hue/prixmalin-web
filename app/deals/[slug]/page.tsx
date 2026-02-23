@@ -24,9 +24,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    alternates: {
-      canonical: `/deals/${deal.slug}`,
-    },
+  alternates: {
+  canonical: `https://prixmalin.ca/deals/${deal.slug}`,
+  languages: {
+    fr: `https://prixmalin.ca/deals/${deal.slug}`,
+    "x-default": `https://prixmalin.ca/deals/${deal.slug}`,
+  },
+},
+
     openGraph: {
       title,
       description,

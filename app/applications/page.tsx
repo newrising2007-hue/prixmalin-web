@@ -5,13 +5,14 @@ import { absoluteUrl } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Applications — PrixMalin",
   description: "Nos applications gratuites : Android maintenant, Windows et Linux bientôt.",
-  alternates: {
-    canonical: absoluteUrl("/applications"),
-    languages: {
-      fr: absoluteUrl("/applications"),
-      en: absoluteUrl("/en/apps"),
-    },
+
+alternates: {
+  canonical: absoluteUrl("/applications"),
+  languages: {
+    fr: absoluteUrl("/applications"),
+    "x-default": absoluteUrl("/applications"),
   },
+},
 };
 
 export default function ApplicationsHubFr() {

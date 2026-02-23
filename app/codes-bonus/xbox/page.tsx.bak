@@ -7,13 +7,7 @@ export const metadata: Metadata = {
   title: "Codes bonus Xbox et cartes cadeaux | PrixMalin Canada",
   description:
     "Codes bonus Xbox et cartes cadeaux gaming disponibles au Canada. Offres sélectionnées avec liens affiliés.",
-  alternates: {
-  canonical: "https://prixmalin.ca/codes-bonus/xbox",
-  languages: {
-    fr: "https://prixmalin.ca/codes-bonus/xbox",
-    "x-default": "https://prixmalin.ca/codes-bonus/xbox",
-  },
-},
+  alternates: { canonical: "/codes-bonus/xbox" },
   openGraph: {
     title: "Codes bonus Xbox | PrixMalin Canada",
     description:

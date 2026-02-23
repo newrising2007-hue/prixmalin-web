@@ -7,7 +7,13 @@ export const metadata: Metadata = {
   title: "Deals gaming au Canada | PrixMalin",
   description:
     "Sélection de deals gaming et codes au Canada. Liens affiliés traçables. Prix affichés seulement si certains.",
-  alternates: { canonical: "/deals" },
+  alternates: {
+    canonical: "/deals",
+    languages: {
+      fr: "https://prixmalin.ca/deals",
+      "x-default": "https://prixmalin.ca/deals",
+    },
+  },
 };
 
 const SEO_LINKS: Array<{ href: string; title: string; desc: string }> = [
