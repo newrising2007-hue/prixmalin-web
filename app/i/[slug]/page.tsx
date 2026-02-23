@@ -99,6 +99,10 @@ export async function generateMetadata({
     description: page.metaDescription,
     alternates: {
       canonical: `${BASE_URL}/i/${page.slug}`,
+      languages: {
+        fr: `${BASE_URL}/i/${page.slug}`,
+        "x-default": `${BASE_URL}/i/${page.slug}`,
+      },
     },
     openGraph: {
       type: "website",
