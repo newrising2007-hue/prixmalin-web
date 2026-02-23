@@ -139,7 +139,7 @@ export async function generateMetadata({
     return {
       title: "Codes bonus gaming | PrixMalin",
       description: "Codes bonus jeux vidéo et offres gaming.",
-      robots: { index: false, follow: false }
+      robots: { index: true, follow: true }
     };
   }
 
