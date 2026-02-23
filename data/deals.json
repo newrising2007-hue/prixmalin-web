@@ -3,28 +3,52 @@
   "currency": "CAD",
   "items": [
     {
-      "slug": "playstation-plus-12m-carte-psn",
-      "title": "PlayStation Plus (12 mois) — carte cadeau PSN (Canada)",
-      "description": "Option simple pour payer PS+ : carte PSN + achat via PlayStation Store.",
-      "image": "/images/placeholder-deal.jpg",
-      "affiliateUrl": "https://example.com/affiliate-psn",
-      "platform": "PlayStation"
-    },
-    {
       "slug": "xbox-game-pass-ultimate-3m",
       "title": "Xbox Game Pass Ultimate — 3 mois (Canada)",
-      "description": "Deal ou code selon disponibilité.",
+      "description": "Accès à des centaines de jeux Xbox et PC avec EA Play inclus.",
       "image": "/images/placeholder-deal.jpg",
-      "affiliateUrl": "https://example.com/affiliate-xgpu",
+      "affiliateUrl": "https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin-20",
       "platform": "Xbox"
     },
     {
-      "slug": "nintendo-switch-online-12m",
-      "title": "Nintendo Switch Online — 12 mois (Canada)",
-      "description": "Abonnement individuel ou famille selon stock.",
+      "slug": "xbox-game-pass-ultimate-1m",
+      "title": "Xbox Game Pass Ultimate — 1 mois",
+      "description": "Abonnement mensuel Game Pass Ultimate pour Xbox, PC et cloud gaming.",
       "image": "/images/placeholder-deal.jpg",
-      "affiliateUrl": "https://example.com/affiliate-nso",
+      "affiliateUrl": "https://www.amazon.ca/dp/B07TGNFVWV?tag=prixmalin-20",
+      "platform": "Xbox"
+    },
+    {
+      "slug": "playstation-plus-12m",
+      "title": "PlayStation Plus — 12 mois (Canada)",
+      "description": "Abonnement PS Plus pour multijoueur en ligne et jeux mensuels.",
+      "image": "/images/placeholder-deal.jpg",
+      "affiliateUrl": "https://www.amazon.ca/dp/B0B3F7SH6K?tag=prixmalin-20",
+      "platform": "PlayStation"
+    },
+    {
+      "slug": "psn-gift-card-50",
+      "title": "Carte PlayStation Store 50$ CAD",
+      "description": "Carte PSN numérique pour acheter jeux et abonnements PlayStation.",
+      "image": "/images/placeholder-deal.jpg",
+      "affiliateUrl": "https://www.amazon.ca/dp/B07JH53M4T?tag=prixmalin-20",
+      "platform": "PlayStation"
+    },
+    {
+      "slug": "nintendo-switch-online-12m",
+      "title": "Nintendo Switch Online — 12 mois",
+      "description": "Multijoueur Nintendo en ligne avec bibliothèque rétro NES et SNES.",
+      "image": "/images/placeholder-deal.jpg",
+      "affiliateUrl": "https://www.amazon.ca/dp/B07VGRJDFY?tag=prixmalin-20",
       "platform": "Nintendo"
+    },
+    {
+      "slug": "xbox-gift-card-50",
+      "title": "Carte cadeau Xbox 50$ CAD",
+      "description": "Carte Xbox Store pour acheter jeux, DLC et abonnements.",
+      "image": "/images/placeholder-deal.jpg",
+      "affiliateUrl": "https://www.amazon.ca/dp/B07JH5N3NG?tag=prixmalin-20",
+      "platform": "Xbox"
     }
   ]
 }
