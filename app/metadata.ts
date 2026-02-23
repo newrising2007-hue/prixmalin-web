@@ -9,7 +9,7 @@ export const defaultMetadata: Metadata = {
   alternates: {
     canonical: siteUrl,
     languages: {
-      fr: siteUrl,
+      "fr-CA": siteUrl,
       "x-default": siteUrl,
     },
   },
