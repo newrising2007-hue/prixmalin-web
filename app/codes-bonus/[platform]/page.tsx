@@ -58,7 +58,13 @@ export function generateMetadata({ params }: PageProps): Metadata {
   return {
     title,
     description,
-    alternates: { canonical: `/codes-bonus/${params.platform}` },
+    alternates: {
+      canonical: `https://prixmalin.ca/codes-bonus/${params.platform}`,
+      languages: {
+        fr: `https://prixmalin.ca/codes-bonus/${params.platform}`,
+        "x-default": `https://prixmalin.ca/codes-bonus/${params.platform}`,
+      },
+    },
     openGraph: {
       title,
       description,
