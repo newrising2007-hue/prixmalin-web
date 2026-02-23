@@ -152,7 +152,7 @@ export async function generateMetadata({
     alternates: {
       canonical: url,
       languages: {
-        fr: url,
+        "fr-CA": url,
         "x-default": url,
       },
     },
