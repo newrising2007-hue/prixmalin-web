@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const title = `${game.title} | PrixMalin`;
+  const title = game.title;
 
   return {
     title,
