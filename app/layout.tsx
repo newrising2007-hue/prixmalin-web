@@ -1,6 +1,7 @@
 // app/layout.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
+import LanguageSwitch from "@/components/LanguageSwitch";
 import "./globals.css";
 import { defaultMetadata } from "./metadata";
 
@@ -23,7 +24,8 @@ export default function RootLayout({
              <Link href="/" className="rounded-lg px-2 py-1 hover:bg-gray-100">
              Accueil
              </Link>
-            <nav className="flex items-center gap-3 text-sm">
+            
+               <nav className="flex items-center gap-3 text-sm">
               <Link href="/deals" className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 Deals
               </Link>
@@ -38,6 +40,8 @@ export default function RootLayout({
               <Link href="/codes-bonus" className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 Codes bonus
               </Link>
+
+                <LanguageSwitch />
 
               <Link
                 href="/deals"
