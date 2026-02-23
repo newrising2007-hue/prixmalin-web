@@ -7,13 +7,7 @@ export const metadata: Metadata = {
   title: "Codes bonus Nintendo et cartes cadeaux | PrixMalin Canada",
   description:
     "Codes bonus Nintendo et cartes cadeaux gaming disponibles au Canada. Offres sélectionnées avec liens affiliés.",
-  alternates: {
-  canonical: "https://prixmalin.ca/codes-bonus/nintendo",
-  languages: {
-    fr: "https://prixmalin.ca/codes-bonus/nintendo",
-    "x-default": "https://prixmalin.ca/codes-bonus/nintendo",
-  },
-},
+  alternates: { canonical: "/codes-bonus/nintendo" },
   openGraph: {
     title: "Codes bonus Nintendo | PrixMalin Canada",
     description:
