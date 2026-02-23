@@ -44,3 +44,6 @@ next-env.d.ts
 *.backup.*
 public/apps/prixmalin/raw/
 *.bak
+
+# local backups
+*.bak.*
