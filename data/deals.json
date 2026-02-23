@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2026-02-23",
+  "currency": "CAD",
+  "items": [
+    {
+      "slug": "playstation-plus-12m-carte-psn",
+      "title": "PlayStation Plus (12 mois) — carte cadeau PSN (Canada)",
+      "description": "Option simple pour payer PS+ : carte PSN + achat via PlayStation Store.",
+      "image": "/images/placeholder-deal.jpg",
+      "affiliateUrl": "https://example.com/affiliate-psn",
+      "platform": "PlayStation"
+    },
+    {
+      "slug": "xbox-game-pass-ultimate-3m",
+      "title": "Xbox Game Pass Ultimate — 3 mois (Canada)",
+      "description": "Deal ou code selon disponibilité.",
+      "image": "/images/placeholder-deal.jpg",
+      "affiliateUrl": "https://example.com/affiliate-xgpu",
+      "platform": "Xbox"
+    },
+    {
+      "slug": "nintendo-switch-online-12m",
+      "title": "Nintendo Switch Online — 12 mois (Canada)",
+      "description": "Abonnement individuel ou famille selon stock.",
+      "image": "/images/placeholder-deal.jpg",
+      "affiliateUrl": "https://example.com/affiliate-nso",
+      "platform": "Nintendo"
+    }
+  ]
+}
