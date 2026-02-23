@@ -7,9 +7,9 @@ import dealsData from "@/data/gaming-codes.json"
 export const dynamic = "error"
 
 type PageProps = {
-  params: {
+  params: Promise<{
     platform: string
-  }
+  }>
 }
 
 function normalizePlatform(input?: string) {
@@ -35,8 +35,11 @@ export function generateStaticParams() {
   ]
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
-  const platform = normalizePlatform(params.platform)
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { platform: rawPlatform } = await params
+  const platform = normalizePlatform(rawPlatform)
 
   if (!platform) {
     return {
@@ -47,28 +50,30 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
   const title =
     platform === "PC"
-      ? "Codes bonus PC et cartes cadeaux gaming | PrixMalin Canada"
-      : `Codes bonus ${platform} et cartes cadeaux gaming | PrixMalin Canada`
+      ? "Codes bonus PC et cartes cadeaux gaming"
+      : `Codes bonus ${platform} et cartes cadeaux gaming`
 
   const description =
     platform === "PC"
       ? "Codes bonus PC et cartes cadeaux gaming disponibles au Canada. Offres sélectionnées avec liens affiliés."
       : `Codes bonus ${platform} et cartes cadeaux gaming disponibles au Canada. Offres sélectionnées avec liens affiliés.`
 
+  const absoluteUrl = `https://prixmalin.ca/codes-bonus/${rawPlatform}`
+
   return {
     title,
     description,
     alternates: {
-      canonical: `https://prixmalin.ca/codes-bonus/${params.platform}`,
+      canonical: absoluteUrl,
       languages: {
-        fr: `https://prixmalin.ca/codes-bonus/${params.platform}`,
-        "x-default": `https://prixmalin.ca/codes-bonus/${params.platform}`,
+        "fr-CA": absoluteUrl,
+        "x-default": absoluteUrl,
       },
     },
     openGraph: {
       title,
       description,
-      url: `/codes-bonus/${params.platform}`,
+      url: absoluteUrl,
       type: "website",
     },
   }
@@ -92,8 +97,9 @@ function buildProductJsonLd(deal: Deal) {
   }
 }
 
-export default function CodesBonusPlatformPage({ params }: PageProps) {
-  const platform = normalizePlatform(params.platform)
+export default async function CodesBonusPlatformPage({ params }: PageProps) {
+  const { platform: rawPlatform } = await params
+  const platform = normalizePlatform(rawPlatform)
   if (!platform) return notFound()
 
   const deals = dealsData as Deal[]

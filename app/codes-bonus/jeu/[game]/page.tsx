@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const title = `Codes bonus ${g.game} gratuits | PrixMalin`
   const description = `Codes bonus gratuits pour ${g.game} : récompenses et instructions d’activation.`
-  const canonical = `${getSiteUrl()}/codes-bonus/${g.slug}`;
+  const canonical = `${getSiteUrl()}/codes-bonus/jeu/${g.slug}`;
 
 
   return {

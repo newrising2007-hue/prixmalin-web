@@ -43,10 +43,10 @@ export default function HomePage() {
 
         <div className="mt-6 flex gap-3">
           <Link
-            href="/codes-bonus/pc"
+            href="/codes-bonus"
             className="inline-flex rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800"
           >
-            Codes bonus PC
+            Voir les plateformes
           </Link>
 
           <Link

@@ -77,6 +77,14 @@ export default async function RenewMemoPage({ searchParams }: PageProps) {
             Hub PC
           </Link>
 
+          
+
+          <Link
+            href="/codes-bonus"
+            className="inline-flex rounded-lg border border-gray-300 px-4 py-2 text-sm font-semibold hover:bg-gray-50"
+          >
+            Voir les plateformes
+          </Link>
           <Link
             href="/codes-bonus/pc/tous-les-codes"
             className="inline-flex rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800"
