@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title,
     description: game.seoDescription,
-    alternates: { canonical: `/codes-bonus/pc/${game.slug}`, languages: { "fr-CA": "https://prixmalin.ca", "x-default": "https://prixmalin.ca" } },
+    alternates: { canonical: `/codes-bonus/pc/${game.slug}`, languages: { "fr-CA": `/codes-bonus/pc/${game.slug}`, "x-default": `/codes-bonus/pc/${game.slug}` } },
     openGraph: {
       title,
       description: game.seoDescription,
