@@ -2,45 +2,15 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
-import { Gamepad2, Search, Smartphone } from "lucide-react";
-
-function useRevealOnScroll() {
-  const ref = useRef<HTMLDivElement | null>(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const obs = new IntersectionObserver(
-      (entries) => {
-        const entry = entries[0];
-        if (entry?.isIntersecting) {
-          setIsVisible(true);
-          obs.disconnect();
-        }
-      },
-      { threshold: 0.15 }
-    );
-
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, []);
-
-  return { ref, isVisible };
-}
 
 export default function HomePage() {
-  const hero = useRevealOnScroll();
-  const gaming = useRevealOnScroll();
-  const stores = useRevealOnScroll();
-
   return (
     <main className="relative min-h-screen overflow-hidden bg-white">
+
       {/* COIN REPLIE + EPINGLE */}
       <div className="pointer-events-none absolute right-0 top-0 z-30">
         <div className="relative h-28 w-28">
+
           {/* feuille */}
           <div className="absolute right-0 top-0 h-full w-full">
             <div className="absolute right-0 top-0 h-full w-full rounded-bl-3xl bg-white shadow-xl" />
@@ -58,14 +28,7 @@ export default function HomePage() {
       </div>
 
       {/* HEADER */}
-      <header
-        ref={hero.ref}
-        className={[
-          "relative z-10 mx-auto max-w-5xl px-6 pt-14 text-center",
-          "transition-all duration-700 ease-out",
-          hero.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4",
-        ].join(" ")}
-      >
+      <header className="relative z-10 mx-auto max-w-5xl px-6 pt-14 text-center">
         <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
           Bienvenue sur PrixMalin
         </h1>
@@ -76,45 +39,17 @@ export default function HomePage() {
           nos partenaires pour vous aider à économiser simplement — sur le web
           et bientôt sur mobile.
         </p>
-
-        {/* teaser mobile */}
-        <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
-          <span className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/70 px-3 py-1 text-xs font-semibold text-gray-700 shadow-sm backdrop-blur">
-            <Smartphone className="h-4 w-4" />
-            Application mobile (bientôt)
-          </span>
-
-          <span className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-            <Gamepad2 className="h-4 w-4" />
-            Gaming
-          </span>
-
-          <span className="inline-flex items-center gap-2 rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs font-semibold text-green-700">
-            <Search className="h-4 w-4" />
-            Magasinage
-          </span>
-        </div>
       </header>
 
       {/* SECTION GAMING */}
-      <section className="relative overflow-hidden px-6">
-        {/* background diagonal bleu + hover */}
-        <div className="absolute inset-0 bg-gradient-to-br from-white via-blue-50 to-blue-100" />
-        <div className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-out hover:opacity-100">
-          <div className="absolute inset-0 bg-gradient-to-br from-white via-blue-100/40 to-blue-200/40" />
-        </div>
+      <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-6">
 
-        <div
-          ref={gaming.ref}
-          className={[
-            "relative z-10 mx-auto flex min-h-[85vh] max-w-4xl flex-col items-center justify-center text-center",
-            "transition-all duration-700 ease-out",
-            gaming.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6",
-          ].join(" ")}
-        >
-          <h2 className="flex items-center justify-center gap-2 text-2xl font-bold text-blue-700 sm:text-3xl">
-            <Gamepad2 className="h-7 w-7" />
-            Zone Gaming
+        <div className="absolute inset-0 bg-gradient-to-br from-white via-blue-50 to-blue-100" />
+
+        <div className="relative z-10 mx-auto max-w-4xl text-center">
+
+          <h2 className="text-2xl font-bold text-blue-700 sm:text-3xl">
+            🎮 Zone Gaming
           </h2>
 
           <p className="mt-3 text-gray-600">
@@ -133,16 +68,16 @@ export default function HomePage() {
             className="group mt-10 inline-flex flex-col items-center"
           >
             <div className="relative">
-              {/* glow premium (2 couches) */}
-              <div className="absolute inset-0 rounded-full bg-blue-400/35 blur-3xl opacity-70 animate-pulse group-hover:opacity-100" />
-              <div className="absolute inset-0 rounded-full bg-blue-300/20 blur-2xl opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
+
+              {/* glow premium */}
+              <div className="absolute inset-0 rounded-full bg-blue-400/40 blur-3xl opacity-70 animate-pulse group-hover:opacity-100" />
 
               <Image
                 src="/prixmalin-logo.png"
                 alt="Accéder à la zone gaming PrixMalin"
-                width={290}
-                height={290}
-                className="relative transition-transform duration-300 group-hover:scale-[1.06]"
+                width={280}
+                height={280}
+                className="relative transition-transform duration-300 group-hover:scale-105"
                 priority
               />
             </div>
@@ -151,28 +86,19 @@ export default function HomePage() {
               ➜ Accéder à la Zone Gaming
             </span>
           </Link>
+
         </div>
       </section>
 
       {/* SECTION MAGASINS */}
-      <section className="relative overflow-hidden px-6">
-        {/* background diagonal vert + hover */}
-        <div className="absolute inset-0 bg-gradient-to-tr from-white via-green-50 to-green-100" />
-        <div className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-out hover:opacity-100">
-          <div className="absolute inset-0 bg-gradient-to-tr from-white via-green-100/40 to-green-200/40" />
-        </div>
+      <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-6">
 
-        <div
-          ref={stores.ref}
-          className={[
-            "relative z-10 mx-auto flex min-h-[85vh] max-w-4xl flex-col items-center justify-center text-center",
-            "transition-all duration-700 ease-out",
-            stores.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6",
-          ].join(" ")}
-        >
-          <h2 className="flex items-center justify-center gap-2 text-2xl font-bold text-green-700 sm:text-3xl">
-            <Search className="h-7 w-7" />
-            Vos Magasins
+        <div className="absolute inset-0 bg-gradient-to-tr from-white via-green-50 to-green-100" />
+
+        <div className="relative z-10 mx-auto max-w-4xl text-center">
+
+          <h2 className="text-2xl font-bold text-green-700 sm:text-3xl">
+            🛍 Vos Magasins
           </h2>
 
           <p className="mt-3 text-gray-600">
@@ -191,16 +117,16 @@ export default function HomePage() {
             className="group mt-10 inline-flex flex-col items-center"
           >
             <div className="relative">
-              {/* glow premium (2 couches) */}
-              <div className="absolute inset-0 rounded-full bg-green-400/35 blur-3xl opacity-70 animate-pulse group-hover:opacity-100" />
-              <div className="absolute inset-0 rounded-full bg-green-300/20 blur-2xl opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
+
+              {/* glow premium */}
+              <div className="absolute inset-0 rounded-full bg-green-400/40 blur-3xl opacity-70 animate-pulse group-hover:opacity-100" />
 
               <Image
                 src="/prixmalin-logo.png"
                 alt="Accéder à la section magasins PrixMalin"
-                width={290}
-                height={290}
-                className="relative transition-transform duration-300 group-hover:scale-[1.06]"
+                width={280}
+                height={280}
+                className="relative transition-transform duration-300 group-hover:scale-105"
               />
             </div>
 
@@ -208,6 +134,7 @@ export default function HomePage() {
               ➜ Explorer Vos Magasins
             </span>
           </Link>
+
         </div>
       </section>
 
@@ -215,6 +142,7 @@ export default function HomePage() {
       <footer className="bg-white py-10 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} PrixMalin — Liens partenaires pouvant générer une commission.
       </footer>
+
     </main>
   );
 }
