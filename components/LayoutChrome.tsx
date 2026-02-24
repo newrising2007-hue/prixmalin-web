@@ -12,14 +12,9 @@ export default function LayoutChrome({
   const pathname = usePathname();
 
   const isHub = pathname === "/";
+  const isStore = pathname.startsWith("/magasins");
 
-  // Magasinage (header différent plus tard)
-  const isStore =
-    pathname.startsWith("/magasins") ||
-    pathname.startsWith("/produit") ||
-    pathname.startsWith("/produits");
-
-  // Pour l’instant: tout le reste = "Gaming universe"
+  // Pour l’instant: tout ce qui n’est pas Hub et pas Magasins = univers Gaming
   const showGamingHeader = !isHub && !isStore;
 
   return (
