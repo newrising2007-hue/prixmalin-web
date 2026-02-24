@@ -14,6 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+       <meta name="fo-verify" content="36a551c1-2067-4e94-9215-fc4700154b06" />
       <body className="min-h-screen bg-white text-gray-900">
         {/* Header */}
         <header className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur">
