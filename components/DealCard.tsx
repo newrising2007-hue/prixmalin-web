@@ -37,7 +37,7 @@ export default function DealCard({ deal }: Props) {
         href={deal.affiliateUrl}
         target="_blank"
         rel="nofollow sponsored noopener"
-        className="block w-full rounded-xl bg-green-600 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-green-700 shadow-sm shadow-green-500/20"
+        className="block w-full rounded-xl bg-green-600 px-4 py-3 text-center text-sm font-semibold text-white shadow-sm shadow-green-500/20 transition-all duration-200 transform hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-green-700 hover:shadow-green-500/40"
         aria-label={`Voir l’offre: ${deal.title}`}
       >
         Voir l’offre
