@@ -19,8 +19,10 @@ export default function RootLayout({
           content="36a551c1-2067-4e94-9215-fc4700154b06"
         />
       </head>
-      <body className="min-h-screen bg-white text-gray-900">
-        <LayoutChrome>{children}</LayoutChrome>
+      <body className="min-h-screen text-gray-900">
+        <main className="min-h-screen bg-white/70 backdrop-blur-sm">
+          <LayoutChrome>{children}</LayoutChrome>
+        </main>
       </body>
     </html>
   );
