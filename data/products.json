@@ -3,14 +3,48 @@
     "slug": "hyperx-cloud",
     "title": "Casque Gaming HyperX Cloud",
     "shortDescription": "Confort + bon micro, valeur sûre.",
-    "amazonUrl": "https://www.amazon.ca/dp/B07X6HDSDY",
-    "category": "audio"
+    "amazonUrl": "https://www.amazon.ca/dp/B074NBSF9N",
+    "category": "audio",
+    "image": "/images/products/hyperx-cloud.webp"
   },
   {
-    "slug": "clavier-redragon",
-    "title": "Clavier mécanique Redragon",
-    "shortDescription": "Excellent rapport qualité/prix pour débuter en mécanique.",
-    "amazonUrl": "https://www.amazon.ca/dp/B016MAK38U",
-    "category": "claviers"
+    "slug": "logitech-g203",
+    "title": "Souris Gaming Logitech G203 Lightsync RGB",
+    "shortDescription": "Précise, légère et idéale pour FPS à petit prix.",
+    "amazonUrl": "https://www.amazon.ca/dp/B07YN73XN6",
+    "category": "souris",
+    "image": "/images/products/logitech-g203.webp"
+  },
+  {
+    "slug": "steelseries-arctis-nova-1",
+    "title": "Casque Gaming SteelSeries Arctis Nova 1",
+    "shortDescription": "Son immersif et micro clair pour le gaming compétitif.",
+    "amazonUrl": "https://www.amazon.ca/dp/B09ZWKD9TF",
+    "category": "audio",
+    "image": "/images/products/steelseries-arctis-nova-1.webp"
+  },
+  {
+    "slug": "manette-xbox-series",
+    "title": "Manette Sans Fil Xbox Series Officielle",
+    "shortDescription": "Contrôleur précis et confortable pour Xbox et PC.",
+    "amazonUrl": "https://www.amazon.ca/dp/B08DF248LD",
+    "category": "manettes",
+    "image": "/images/products/manette-xbox-series.webp"
+  },
+  {
+    "slug": "tapis-logitech-g240",
+    "title": "Tapis de Souris Gaming Logitech G240",
+    "shortDescription": "Surface optimisée pour précision et contrôle gaming.",
+    "amazonUrl": "https://www.amazon.ca/dp/B00LZVNWIA",
+    "category": "accessoires",
+    "image": "/images/products/tapis-logitech-g240.webp"
+  },
+  {
+    "slug": "hyperx-alloy-core",
+    "title": "Clavier Gaming HyperX Alloy Core RGB",
+    "shortDescription": "Clavier RGB confortable et résistant aux éclaboussures pour le gaming.",
+    "amazonUrl": "https://www.amazon.ca/dp/B07HRNKTCM",
+    "category": "claviers",
+    "image": "/images/products/hyperx-alloy-core.webp"
   }
 ]

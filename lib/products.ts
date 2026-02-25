@@ -6,17 +6,25 @@ export type Product = {
   shortDescription: string;
   amazonUrl: string;
   category?: string;
+  image?: string;
 };
 
 function isProduct(value: any): value is Product {
-  return (
+  const baseOk =
     value &&
     typeof value === "object" &&
     typeof value.slug === "string" &&
     typeof value.title === "string" &&
     typeof value.shortDescription === "string" &&
-    typeof value.amazonUrl === "string"
-  );
+    typeof value.amazonUrl === "string";
+
+  if (!baseOk) return false;
+
+  // champs optionnels
+  const categoryOk = value.category === undefined || typeof value.category === "string";
+  const imageOk = value.image === undefined || typeof value.image === "string";
+
+  return categoryOk && imageOk;
 }
 
 export function getAllProducts(): Product[] {

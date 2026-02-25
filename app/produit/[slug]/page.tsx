@@ -47,7 +47,6 @@ export default async function ProductPage({ params }: Props) {
     notFound();
   }
 
-  // URL affiliée (utile aussi dans le schema)
   const affiliateUrl = buildAmazonLink(product.amazonUrl);
 
   const jsonLd = {
@@ -65,26 +64,52 @@ export default async function ProductPage({ params }: Props) {
     },
   };
 
+  const imageSrc =
+    (product as { image?: string }).image && (product as { image?: string }).image?.trim()
+      ? (product as { image?: string }).image
+      : null;
+
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
-      {/* Schema.org JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <h1 className="text-3xl font-bold">{product.title}</h1>
+      <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
+        {/* Image (auto-cadrée) */}
+        <div className="w-full sm:w-64">
+          <div className="aspect-square w-full overflow-hidden rounded-2xl border bg-white">
+            {imageSrc ? (
+              <img
+                src={imageSrc}
+                alt={product.title}
+                className="h-full w-full object-contain p-4"
+                loading="lazy"
+              />
+            ) : (
+              <div className="h-full w-full flex items-center justify-center text-sm text-black/50">
+                Image bientôt disponible
+              </div>
+            )}
+          </div>
+        </div>
 
-      <p className="mt-4 text-black/70">{product.shortDescription}</p>
+        <div className="min-w-0 flex-1">
+          <h1 className="text-3xl font-bold">{product.title}</h1>
 
-      <div className="mt-6">
-        <AffiliateButton url={product.amazonUrl} label="Voir le prix sur Amazon" />
+          <p className="mt-4 text-black/70">{product.shortDescription}</p>
+
+          <div className="mt-6">
+            <AffiliateButton url={product.amazonUrl} label="Voir le prix sur Amazon" />
+          </div>
+
+          <p className="mt-6 text-sm text-black/60">
+            Certains liens sont affiliés. En achetant via ces liens, tu soutiens PrixMalin
+            sans coût supplémentaire.
+          </p>
+        </div>
       </div>
-
-      <p className="mt-6 text-sm text-black/60">
-        Certains liens sont affiliés. En achetant via ces liens, tu soutiens PrixMalin
-        sans coût supplémentaire.
-      </p>
     </main>
   );
 }

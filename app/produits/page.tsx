@@ -27,13 +27,28 @@ export default function ProduitsPage() {
             key={p.slug}
             className="rounded-2xl border p-5 shadow-sm hover:shadow-md transition-shadow"
           >
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-              <div className="min-w-0">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+              {/* Image */}
+              <div className="w-full sm:w-40">
+                <div className="aspect-square w-full overflow-hidden rounded-2xl border bg-white">
+                  {p.image ? (
+                    <img
+                      src={p.image}
+                      alt={p.title}
+                      className="h-full w-full object-contain p-3"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="h-full w-full flex items-center justify-center text-sm text-black/50">
+                      Image bientôt disponible
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              <div className="flex-1 min-w-0">
                 <h2 className="text-xl font-semibold">
-                  <Link
-                    href={`/produit/${p.slug}`}
-                    className="hover:underline"
-                  >
+                  <Link href={`/produit/${p.slug}`} className="hover:underline">
                     {p.title}
                   </Link>
                 </h2>
