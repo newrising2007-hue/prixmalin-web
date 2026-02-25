@@ -5,7 +5,11 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-white">
+    <main className="relative min-h-screen overflow-hidden">
+
+      {/* HERO GLOWS (PrixMalin) */}
+      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(900px_circle_at_15%_12%,rgba(11,76,255,0.12),transparent_60%),radial-gradient(1000px_circle_at_85%_35%,rgba(45,255,106,0.10),transparent_60%)]" />
+
 
       {/* COIN REPLIE + EPINGLE */}
       <div className="pointer-events-none absolute right-0 top-0 z-30">
@@ -44,7 +48,7 @@ export default function HomePage() {
       {/* SECTION GAMING */}
       <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-6">
 
-        <div className="absolute inset-0 bg-gradient-to-br from-white via-blue-50 to-blue-100" />
+        <div className="absolute inset-0 bg-gradient-to-br from-white/50 via-blue-50/40 to-blue-100/30" />
 
         <div className="relative z-10 mx-auto max-w-4xl text-center">
 
@@ -93,7 +97,7 @@ export default function HomePage() {
       {/* SECTION MAGASINS */}
       <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-6">
 
-        <div className="absolute inset-0 bg-gradient-to-tr from-white via-green-50 to-green-100" />
+        <div className="absolute inset-0 bg-gradient-to-tr from-white/50 via-green-50/40 to-green-100/30" />
 
         <div className="relative z-10 mx-auto max-w-4xl text-center">
 
@@ -139,7 +143,7 @@ export default function HomePage() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-white py-10 text-center text-sm text-gray-500">
+      <footer className="border-t border-white/40 bg-white/60 backdrop-blur-sm py-10 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} PrixMalin — Liens partenaires pouvant générer une commission.
       </footer>
 
