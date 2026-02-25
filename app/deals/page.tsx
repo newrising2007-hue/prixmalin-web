@@ -28,11 +28,6 @@ const SEO_LINKS: Array<{ href: string; title: string; desc: string }> = [
     desc: "Ultimate / PC / Console + meilleures options.",
   },
   {
-    href: "/carte-psn-canada",
-    title: "Cartes PSN au Canada",
-    desc: "Où acheter + conseils + taxes.",
-  },
-  {
     href: "/nintendo-switch-online-prix-canada",
     title: "Nintendo Switch Online : prix au Canada",
     desc: "Individuel / Famille + Extension Pack.",
@@ -43,8 +38,7 @@ function guideForPlatform(platform: string): { href: string; label: string } | n
   const p = platform.toLowerCase();
 
   // PlayStation
-  if (p.includes("playstation") || p.includes("ps4") || p.includes("ps5") || p.includes("psn")) {
-    if (p.includes("psn")) return { href: "/carte-psn-canada", label: "Guide cartes PSN" };
+  if (p.includes("playstation") || p.includes("ps4") || p.includes("ps5")) {
     return { href: "/playstation-plus-prix-canada", label: "Guide PS+ (Canada)" };
   }
 
@@ -60,6 +54,7 @@ function guideForPlatform(platform: string): { href: string; label: string } | n
 
   return null;
 }
+
 
 export default function DealsPage() {
   const deals = getAllDeals();

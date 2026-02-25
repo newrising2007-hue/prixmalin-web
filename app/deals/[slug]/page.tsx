@@ -15,7 +15,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const deal = getDealBySlug(params.slug);
+  const { slug } = await params;
+  const deal = getDealBySlug(slug);
   if (!deal) return {};
 
   const title = `${deal.title} | Deal gaming | PrixMalin`;
@@ -54,8 +55,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function DealPage({ params }: Props) {
-  const deal = getDealBySlug(params.slug);
+export default async function DealPage({ params }: Props) {
+  const { slug } = await params;
+  const deal = getDealBySlug(slug);
   if (!deal) return notFound();
 
   const all = getAllDeals();

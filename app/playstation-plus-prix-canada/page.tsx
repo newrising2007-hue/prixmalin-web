@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const affiliateUrl = "https://www.amazon.ca/dp/B0XXXX?tag=prixmalin-20";
+  const affiliateUrl = "https://www.amazon.ca/s?k=playstation+plus+canada&tag=prixmalin-20";
 
   const productSchema = {
     "@context": "https://schema.org",
