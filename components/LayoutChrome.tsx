@@ -21,7 +21,7 @@ export default function LayoutChrome({
     <>
       {/* HUB HEADER */}
       {isHub && (
-        <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
+        <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur relative"><div className="absolute left-0 top-0 h-1 w-full pointer-events-none bg-gradient-to-r from-blue-600 via-white to-green-600 opacity-70" />
           <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
             <div className="flex items-center gap-3">
               <Link href="/" className="text-lg font-bold tracking-tight">
@@ -52,7 +52,7 @@ export default function LayoutChrome({
 
       {/* GAMING HEADER */}
       {showGamingHeader && (
-        <header className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur">
+        <header className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur relative"><div className="absolute left-0 top-0 h-1 w-full pointer-events-none bg-gradient-to-r from-blue-600 via-white to-green-600 opacity-70" />
           <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
             <div className="flex items-center gap-4">
               <Link href="/" className="text-lg font-bold tracking-tight">
