@@ -7,7 +7,7 @@ type Props = {
 
 export default function DealCard({ deal }: Props) {
   return (
-    <article className="rounded-2xl border bg-white p-4 shadow-sm transition hover:shadow-md">
+    <article className="rounded-2xl border bg-white/90 p-4 shadow-sm shadow-blue-500/10 transition-shadow hover:shadow-md hover:shadow-blue-500/20">
       <div className="relative mb-4 h-40 w-full overflow-hidden rounded-xl bg-gray-50">
         <Image
           src={deal.image}
@@ -37,7 +37,7 @@ export default function DealCard({ deal }: Props) {
         href={deal.affiliateUrl}
         target="_blank"
         rel="nofollow sponsored noopener"
-        className="block w-full rounded-xl bg-blue-600 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-blue-700"
+        className="block w-full rounded-xl bg-green-600 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-green-700 shadow-sm shadow-green-500/20"
         aria-label={`Voir l’offre: ${deal.title}`}
       >
         Voir l’offre
