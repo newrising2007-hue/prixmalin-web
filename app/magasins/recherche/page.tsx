@@ -57,7 +57,7 @@ function RechercheContent() {
     setLoadingLocal(true);
     setGpsStatus('asking');
 
-    let loc = { latitude: 45.5017, longitude: -73.5673 };
+    let loc = { latitude: 47.3283, longitude: -79.4338 };
 
     try {
       const pos = await new Promise<GeolocationPosition>((resolve, reject) =>
