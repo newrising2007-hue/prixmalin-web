@@ -1,7 +1,6 @@
 // app/deals/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { getAllDeals } from "@/lib/deals";
 
 export const metadata: Metadata = {
@@ -16,13 +15,6 @@ export const metadata: Metadata = {
     },
   },
 };
-
-function brandForHref(href: string): { src: string; tint: "blue" | "green" | "red" } | null {
-  if (href.includes("playstation")) return { src: "/images/deals/playstation.webp", tint: "blue" };
-  if (href.includes("xbox")) return { src: "/images/deals/xbox.webp", tint: "green" };
-  if (href.includes("nintendo")) return { src: "/images/deals/nintendo.webp", tint: "red" };
-  return null;
-}
 
 const SEO_LINKS: Array<{ href: string; title: string; desc: string }> = [
   {
@@ -124,41 +116,10 @@ export default function DealsPage() {
             <Link
               key={l.href}
               href={l.href}
-              className="relative overflow-hidden rounded-xl border bg-white/70 backdrop-blur-sm p-6 min-h-[110px] shadow-sm shadow-blue-500/5 transition hover:shadow-md hover:bg-white/80"
+              className="rounded-xl border p-4 transition hover:bg-gray-50"
             >
-              {(() => {
-              const b = brandForHref(l.href);
-              const tint = b?.tint;
-              const overlay = tint === "green"
-                ? "from-green-500/12 via-white/35 to-green-500/0"
-                : tint === "red"
-                ? "from-red-500/12 via-white/35 to-red-500/0"
-                : "from-blue-500/12 via-white/35 to-blue-500/0";
-
-              return (
-                <>
-                  {b ? (
-                    <div className="pointer-events-none absolute inset-0">
-                      <div className={`absolute inset-0 bg-gradient-to-br ${overlay}`} />
-                      <Image
-                        src={b.src}
-                        alt=""
-                        width={520}
-                        height={520}
-                        className="absolute right-6 top-1/2 w-16 -translate-y-1/2 opacity-25 blur-[0.3px]"
-                        priority={false}
-                      />
-                    </div>
-                  ) : null}
-
-                  <div className="relative">
-                    <div className="text-sm font-semibold text-gray-900">{l.title}</div>
-                    
-                  </div>
-                </>
-              );
-            })()}
-              
+              <div className="text-sm font-semibold text-gray-900">{l.title}</div>
+              <div className="mt-1 text-sm text-gray-600">{l.desc}</div>
             </Link>
           ))}
 
