@@ -70,10 +70,26 @@ function getWalmartUrl(query: string): string {
   return `https://www.walmart.ca/search?q=${encodeURIComponent(translateQuery(query))}`;
 }
 
+function getFacebookUrl(query: string): string {
+  return `https://www.facebook.com/marketplace/search/?query=${encodeURIComponent(query)}&location=canada`;
+}
+
+function getKijijiUrl(query: string): string {
+  return `https://www.kijiji.ca/b-canada/${encodeURIComponent(translateQuery(query))}/k0l0`;
+}
+
+function getEbayUrl(query: string): string {
+  return `https://www.ebay.ca/sch/i.html?_nkw=${encodeURIComponent(translateQuery(query))}&_sacat=0`;
+}
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const query = searchParams.get('q') || '';
   const category = searchParams.get('cat') || 'divers';
+
+  const VETEMENTS_KEYWORDS = ['chemise','chemises','pantalon','pantalons','robe','robes','manteau','manteaux','veste','vestes','chandail','chandails','chaussures','chaussure','bottes','botte','chaussettes','sous-vêtements','jeans','short','shorts','bikini','maillot','lingerie','soutien-gorge','collant','jupe','jupes','complet','cravate','foulard','tuque','mitaines','gants','shirt','pants','dress','coat','jacket','sweater','shoes','boots','socks','underwear'];
+
+  const isVetements = category === 'vetements' || VETEMENTS_KEYWORDS.some(kw => query.toLowerCase().includes(kw));
 
   if (!query.trim()) {
     return NextResponse.json({ error: 'Requête vide' }, { status: 400 });
@@ -100,6 +116,36 @@ export async function GET(request: NextRequest) {
       type: 'online',
       color: '#0071CE',
     },
+    {
+      id: 'ebay',
+      store: 'eBay.ca',
+      logo: '🏷️',
+      label: `Rechercher "${query}" sur eBay.ca`,
+      badge: 'Voir les prix',
+      url: getEbayUrl(query),
+      type: 'online',
+      color: '#E53238',
+    },
+    {
+      id: 'facebook',
+      store: 'Facebook Marketplace',
+      logo: '📘',
+      label: `Rechercher "${query}" près de chez vous`,
+      badge: 'Occasion locale',
+      url: getFacebookUrl(query),
+      type: 'occasion',
+      color: '#1877F2',
+    },
+    ...(!isVetements ? [{
+      id: 'kijiji',
+      store: 'Kijiji',
+      logo: '📢',
+      label: `Rechercher "${query}" sur Kijiji Canada`,
+      badge: 'Occasion locale',
+      url: getKijijiUrl(query),
+      type: 'occasion',
+      color: '#373373',
+    }] : []),
   ];
 
   return NextResponse.json({ query, category, results });
