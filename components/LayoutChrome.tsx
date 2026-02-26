@@ -130,6 +130,10 @@ export default function LayoutChrome({
                 Deals
               </Link>
 
+              <Link href="/abonnements-gaming" className="rounded-lg px-2 py-1 hover:bg-gray-100">
+                Abonnements
+              </Link>
+
               <Link href="/produits" className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 Produits
               </Link>

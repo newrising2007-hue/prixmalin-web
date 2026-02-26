@@ -96,7 +96,7 @@ export default function DealsPage() {
       <section className="mb-8 rounded-2xl border bg-white p-5">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div className="space-y-1">
-            <h2 className="text-lg font-semibold">Guides & prix au Canada</h2>
+            <h2 className="text-lg font-semibold">Cartes cadeaux & abonnements gaming</h2>
             <p className="text-sm text-gray-600">
               Pages SEO utiles pour comprendre les prix officiels et choisir le meilleur
               abonnement.
@@ -105,7 +105,7 @@ export default function DealsPage() {
 
           <div className="flex flex-wrap gap-3">
             <Link
-              href="/abonnements-gaming-prix-canada"
+              href="/abonnements-gaming"
               className="rounded-xl border px-4 py-2 text-sm font-semibold hover:bg-gray-50"
             >
               Guide complet
@@ -119,12 +119,12 @@ export default function DealsPage() {
           </div>
         </div>
 
-        <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+        <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
           {SEO_LINKS.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className="relative overflow-hidden rounded-xl border bg-white/70 backdrop-blur-sm p-6 min-h-[110px] shadow-sm shadow-blue-500/5 transition hover:shadow-md hover:bg-white/80"
+              className="relative overflow-hidden rounded-xl border bg-white/70 backdrop-blur-sm p-6 min-h-[110px] shadow-sm shadow-blue-500/5 transition hover:shadow-md hover:bg-white/80 sm:last:mx-auto"
             >
               {(() => {
               const b = brandForHref(l.href);
@@ -145,7 +145,7 @@ export default function DealsPage() {
                         alt=""
                         width={520}
                         height={520}
-                        className="absolute right-6 top-1/2 w-16 -translate-y-1/2 opacity-25 blur-[0.3px]"
+                        className="absolute right-4 top-[60%] w-16 -translate-y-1/2 opacity-25 blur-[0.3px]"
                         priority={false}
                       />
                     </div>
@@ -162,19 +162,61 @@ export default function DealsPage() {
             </Link>
           ))}
 
-          {/* ✅ Carte hub en plus */}
+
+          {/* ✅ Hub Abonnements (grosse carte) */}
           <Link
-            href="/abonnements-gaming-prix-canada"
-            className="rounded-xl border p-4 transition hover:bg-gray-50 sm:col-span-2"
+            href="/abonnements-gaming"
+            className="relative overflow-hidden rounded-2xl border bg-white p-6 shadow-sm transition hover:shadow-md sm:col-span-3"
           >
-            <div className="text-sm font-semibold text-gray-900">
-              Guide complet : abonnements gaming (Canada)
+            {/* Background logos */}
+            <div className="pointer-events-none absolute inset-0">
+              <div className="absolute inset-0 bg-gradient-to-br from-gray-900/5 via-white/40 to-white/70" />
+              <Image
+                src="/images/deals/playstation.webp"
+                alt=""
+                width={520}
+                height={520}
+                className="absolute left-4 top-1/2 w-32 -translate-y-1/2 opacity-30 blur-[0.2px]"
+                priority={false}
+              />
+              <Image
+                src="/images/deals/xbox.webp"
+                alt=""
+                width={520}
+                height={520}
+                className="absolute left-1/2 top-1/2 w-32 -translate-x-1/2 -translate-y-1/2 opacity-30 blur-[0.2px]"
+                priority={false}
+              />
+              <Image
+                src="/images/deals/nintendo.webp"
+                alt=""
+                width={520}
+                height={520}
+                className="absolute right-4 top-1/2 w-32 -translate-y-1/2 opacity-30 blur-[0.2px]"
+                priority={false}
+              />
             </div>
-            <div className="mt-1 text-sm text-gray-600">
-              Compare PS+, Game Pass et Nintendo Online — puis va voir les deals actifs.
-            </div>
-            <div className="mt-3 text-sm font-semibold text-gray-900 underline decoration-gray-300 underline-offset-4">
-              Ouvrir le guide →
+
+            <div className="relative flex flex-col items-center text-center gap-4">
+              <div>
+                <div className="inline-flex items-center rounded-full border bg-white/70 px-3 py-1 text-xs font-semibold text-gray-900 shadow-sm">
+                  Nouveau hub
+                </div>
+
+                <h3 className="mt-3 text-xl font-bold tracking-tight text-gray-900">
+                  Abonnements Gaming au Canada
+                </h3>
+
+                <p className="mt-1 max-w-2xl text-sm text-gray-600">
+                  Accède aux hubs Xbox, PlayStation et Nintendo. Pages détaillées + offres à venir.
+                </p>
+              </div>
+
+              <div className="flex">
+                <span className="inline-flex items-center justify-center rounded-xl bg-gray-900 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-black">
+                  Explorer le hub →
+                </span>
+              </div>
             </div>
           </Link>
         </div>
@@ -185,7 +227,7 @@ export default function DealsPage() {
           <p className="text-gray-700">Aucun deal disponible pour le moment.</p>
         </div>
       ) : (
-        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           {deals.map((deal) => {
             const guide = guideForPlatform(deal.platform);
 
