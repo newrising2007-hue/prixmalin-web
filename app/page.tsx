@@ -111,7 +111,7 @@ export default function HomePage() {
           </p>
 
           <ul className="mt-4 space-y-1 text-sm text-gray-600">
-            <li>• Produits disponibles chez Amazon et partenaires</li>
+            <li>• Produits en ligne et magasins près de chez vous</li>
             <li>• Bons plans sélectionnés selon les tendances</li>
             <li>• Recherche rapide de produits</li>
           </ul>
