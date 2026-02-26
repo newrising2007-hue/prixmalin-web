@@ -199,9 +199,7 @@ export default function DealsPage() {
 
             <div className="relative flex flex-col items-center text-center gap-4">
               <div>
-                <div className="inline-flex items-center rounded-full border bg-white/70 px-3 py-1 text-xs font-semibold text-gray-900 shadow-sm">
-                  Nouveau hub
-                </div>
+                
 
                 <h3 className="mt-3 text-xl font-bold tracking-tight text-gray-900">
                   Abonnements Gaming au Canada
@@ -212,11 +210,7 @@ export default function DealsPage() {
                 </p>
               </div>
 
-              <div className="flex">
-                <span className="inline-flex items-center justify-center rounded-xl bg-gray-900 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-black">
-                  Explorer le hub →
-                </span>
-              </div>
+              
             </div>
           </Link>
         </div>

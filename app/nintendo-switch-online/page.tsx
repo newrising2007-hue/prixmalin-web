@@ -2,47 +2,46 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Xbox Game Pass Canada : prix, abonnements et options (Ultimate, Core, PC)",
+  title: "Nintendo Switch Online Canada : prix, abonnements et options (Individuel, Famille, Extension Pack)",
   description:
-    "Guide Xbox Game Pass au Canada : différences entre Ultimate, Core et PC Game Pass, où s’abonner, et comment choisir la meilleure option.",
+    "Guide Nintendo Switch Online au Canada : différences entre Individuel, Famille et Extension Pack, où s’abonner, et comment choisir la meilleure option.",
   keywords: [
-    "Xbox Game Pass Canada",
-    "Xbox Game Pass prix Canada",
-    "Game Pass Ultimate Canada",
-    "Game Pass Core Canada",
-    "PC Game Pass Canada",
+    "Nintendo Switch Online Canada",
+    "Nintendo Switch Online prix Canada",
+    "Nintendo Switch Online Famille Canada",
+    "Nintendo Switch Online Extension Pack Canada",
+    "abonnement Nintendo Canada",
   ],
   alternates: {
-    canonical: "/xbox-game-pass",
+    canonical: "/nintendo-switch-online",
     languages: {
-      fr: "https://prixmalin.ca/xbox-game-pass",
-      "x-default": "https://prixmalin.ca/xbox-game-pass",
+      fr: "https://prixmalin.ca/nintendo-switch-online",
+      "x-default": "https://prixmalin.ca/nintendo-switch-online",
     },
   },
   openGraph: {
-    title: "Xbox Game Pass Canada : prix et abonnements",
+    title: "Nintendo Switch Online Canada : prix et abonnements",
     description:
-      "Compare Ultimate, Core et PC Game Pass au Canada. Conseils + liens officiels.",
-    url: "https://prixmalin.ca/xbox-game-pass",
+      "Compare Individuel, Famille et Extension Pack au Canada. Conseils + liens officiels.",
+    url: "https://prixmalin.ca/nintendo-switch-online",
     siteName: "PrixMalin",
     locale: "fr_CA",
     type: "website",
   },
 };
 
-const OFFICIAL_XBOX_GAME_PASS_URL = "https://www.xbox.com/xbox-game-pass";
-const OFFICIAL_XBOX_GAME_PASS_PC_URL = "https://www.xbox.com/xbox-game-pass/pc-game-pass";
-const OFFICIAL_XBOX_GAME_PASS_ULTIMATE_URL = "https://www.xbox.com/xbox-game-pass/ultimate";
+const OFFICIAL_NSO_URL = "https://www.nintendo.com/en-ca/switch/online/";
+const OFFICIAL_NSO_PLANS_URL = "https://www.nintendo.com/en-ca/switch/online/#plans";
 
-export default function XboxGamePassPage() {
+export default function NintendoSwitchOnlinePage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Xbox Game Pass Canada",
-    url: "https://prixmalin.ca/xbox-game-pass",
+    name: "Nintendo Switch Online Canada",
+    url: "https://prixmalin.ca/nintendo-switch-online",
     inLanguage: "fr-CA",
     description:
-      "Guide Xbox Game Pass au Canada : options Ultimate, Core et PC Game Pass, et liens officiels.",
+      "Guide Nintendo Switch Online au Canada : Individuel, Famille, Extension Pack, et liens officiels.",
     isPartOf: {
       "@type": "WebSite",
       name: "PrixMalin",
@@ -63,36 +62,36 @@ export default function XboxGamePassPage() {
         </div>
 
         <h1 className="mt-3 text-3xl font-bold tracking-tight">
-          Xbox Game Pass Canada
+          Nintendo Switch Online Canada
         </h1>
 
         <p className="mt-3 text-base text-gray-600">
-          Comprends les différences entre <strong>Ultimate</strong>,{" "}
-          <strong>Core</strong> et <strong>PC Game Pass</strong>, et choisis la
-          meilleure option pour ton budget.
+          Compare <strong>Individuel</strong>, <strong>Famille</strong> et{" "}
+          <strong>Extension Pack</strong>, et choisis l’option la plus logique
+          pour ton usage.
         </p>
 
         <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
           <a
-            href={OFFICIAL_XBOX_GAME_PASS_ULTIMATE_URL}
+            href={OFFICIAL_NSO_URL}
             target="_blank"
             rel="nofollow noopener"
             className="inline-flex items-center justify-center rounded-xl bg-gray-900 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-black"
           >
-            Voir Ultimate (officiel) →
+            Voir Nintendo Switch Online (officiel) →
           </a>
 
           <a
-            href={OFFICIAL_XBOX_GAME_PASS_URL}
+            href={OFFICIAL_NSO_PLANS_URL}
             target="_blank"
             rel="nofollow noopener"
             className="inline-flex items-center justify-center rounded-xl border px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-50"
           >
-            Voir toutes les options (officiel)
+            Voir les plans (officiel)
           </a>
 
           <Link
-            href="/xbox-game-pass-prix-canada"
+            href="/nintendo-switch-online-prix-canada"
             className="inline-flex items-center justify-center rounded-xl border px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-50"
           >
             Guide prix Canada →
@@ -105,50 +104,47 @@ export default function XboxGamePassPage() {
 
         <div className="mt-4 grid gap-4 sm:grid-cols-3">
           <div className="rounded-xl border p-5">
-            <h3 className="text-base font-semibold">Ultimate</h3>
+            <h3 className="text-base font-semibold">Individuel</h3>
             <p className="mt-2 text-sm text-gray-600">
-              L’option la plus complète : console + PC + cloud, avec avantages
-              inclus.
+              Le plus simple pour une personne : jeu en ligne + fonctionnalités de base.
             </p>
             <a
-              href={OFFICIAL_XBOX_GAME_PASS_ULTIMATE_URL}
+              href={OFFICIAL_NSO_PLANS_URL}
               target="_blank"
               rel="nofollow noopener"
               className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
             >
-              Ouvrir la page officielle →
+              Voir les plans officiels →
             </a>
           </div>
 
           <div className="rounded-xl border p-5">
-            <h3 className="text-base font-semibold">Core</h3>
+            <h3 className="text-base font-semibold">Famille</h3>
             <p className="mt-2 text-sm text-gray-600">
-              Pour jouer en ligne et accéder à une sélection de jeux (catalogue
-              réduit).
+              Idéal si vous êtes plusieurs (jusqu’à 8 comptes). Souvent le meilleur deal.
             </p>
             <a
-              href={OFFICIAL_XBOX_GAME_PASS_URL}
+              href={OFFICIAL_NSO_PLANS_URL}
               target="_blank"
               rel="nofollow noopener"
               className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
             >
-              Voir les options →
+              Comparer sur le site officiel →
             </a>
           </div>
 
           <div className="rounded-xl border p-5">
-            <h3 className="text-base font-semibold">PC Game Pass</h3>
+            <h3 className="text-base font-semibold">Extension Pack</h3>
             <p className="mt-2 text-sm text-gray-600">
-              Idéal si tu joues surtout sur PC. Catalogue dédié, souvent très
-              bon rapport qualité/prix.
+              Pour les catalogues rétro additionnels et avantages inclus selon l’offre.
             </p>
             <a
-              href={OFFICIAL_XBOX_GAME_PASS_PC_URL}
+              href={OFFICIAL_NSO_PLANS_URL}
               target="_blank"
               rel="nofollow noopener"
               className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
             >
-              Ouvrir PC Game Pass →
+              Détails Extension Pack →
             </a>
           </div>
         </div>
@@ -158,16 +154,21 @@ export default function XboxGamePassPage() {
         <h2 className="text-xl font-bold">Astuces pour payer moins (Canada)</h2>
         <ul className="mt-4 list-disc space-y-2 pl-6 text-sm text-gray-700">
           <li>
-            Consulte notre page <Link className="font-semibold underline underline-offset-4" href="/xbox-game-pass-prix-canada">Xbox Game Pass : prix au Canada</Link>{" "}
-            pour comprendre les paliers et options.
+            Consulte{" "}
+            <Link className="font-semibold underline underline-offset-4" href="/nintendo-switch-online-prix-canada">
+              Nintendo Switch Online : prix au Canada
+            </Link>{" "}
+            pour les options Individuel/Famille et l’Extension Pack.
           </li>
           <li>
-            Les cartes numériques et promotions peuvent varier — vérifie aussi les{" "}
-            <Link className="font-semibold underline underline-offset-4" href="/deals">deals actifs</Link>.
+            Pour plusieurs joueurs, l’abonnement Famille est souvent le plus rentable.
           </li>
           <li>
-            Commence par Ultimate si tu veux le plus simple (console + PC + cloud),
-            sinon PC Game Pass si tu joues surtout sur ordinateur.
+            Jette un œil aux{" "}
+            <Link className="font-semibold underline underline-offset-4" href="/deals">
+              deals actifs
+            </Link>{" "}
+            (cartes numériques et promos).
           </li>
         </ul>
       </section>
