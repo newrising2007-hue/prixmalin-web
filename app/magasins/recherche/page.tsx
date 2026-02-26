@@ -31,6 +31,7 @@ function RechercheContent() {
   const [loadingLocal, setLoadingLocal] = useState(false);
   const [search, setSearch] = useState("");
   const [gpsStatus, setGpsStatus] = useState<'idle'|'asking'|'granted'|'denied'>('idle');
+  const [userCity, setUserCity] = useState<string>('');
 
   useEffect(() => {
     if (!query.trim()) return;
@@ -64,6 +65,13 @@ function RechercheContent() {
       );
       loc = { latitude: pos.coords.latitude, longitude: pos.coords.longitude };
       setGpsStatus('granted');
+      try {
+        const geo = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${pos.coords.latitude}&lon=${pos.coords.longitude}&format=json`);
+        const geoData = await geo.json();
+        const city = geoData.address?.city || geoData.address?.town || geoData.address?.village || '';
+        const province = geoData.address?.state || '';
+        if (city) setUserCity(`${city}, ${province}`);
+      } catch {}
     } catch {
       setGpsStatus('denied');
     }
@@ -169,6 +177,7 @@ function RechercheContent() {
         <div className="space-y-3">
           <div className="flex items-center gap-2">
             <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide">📍 Magasins près de vous</h2>
+            {userCity && <span className="text-xs text-green-700 font-semibold bg-green-50 px-2 py-0.5 rounded-full">📍 {userCity}</span>}
             {loadingLocal && <span className="text-xs text-blue-500 animate-pulse">● Localisation en cours...</span>}
             {gpsStatus === 'denied' && <span className="text-xs text-yellow-600">⚠️ Position non détectée</span>}
             {gpsStatus === 'granted' && <span className="text-xs text-green-600">✅ Triés par distance</span>}
