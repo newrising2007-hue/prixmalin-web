@@ -41,15 +41,6 @@ const mainSections = [
     border: "border-emerald-200 hover:border-emerald-400",
   },
   {
-    icon: "🍽️",
-    label: "Restaurants",
-    desc: "Restos locaux près de vous — menus, distance et spécialités",
-    href: "/magasins/restaurants",
-    glow: "rgba(5,150,105,0.5)",
-    gradient: "from-teal-400/20 to-green-500/10",
-    border: "border-teal-200 hover:border-teal-400",
-  },
-  {
     icon: "✂️",
     label: "Coupons & Rabais",
     desc: "Codes promo des grands détaillants canadiens",
@@ -57,6 +48,15 @@ const mainSections = [
     glow: "rgba(52,211,153,0.5)",
     gradient: "from-green-300/20 to-emerald-400/10",
     border: "border-green-200 hover:border-green-400",
+  },
+  {
+    icon: "🍽️",
+    label: "Restaurants",
+    desc: "Restos locaux près de vous — menus, distance et spécialités",
+    href: "/magasins/restaurants",
+    glow: "rgba(5,150,105,0.5)",
+    gradient: "from-teal-400/20 to-green-500/10",
+    border: "border-teal-200 hover:border-teal-400",
   },
 ];
 
