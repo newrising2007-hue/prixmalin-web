@@ -29,7 +29,7 @@ function RechercheContent() {
   const [localResults, setLocalResults] = useState<Result[]>([]);
   const [loadingOnline, setLoadingOnline] = useState(false);
   const [loadingLocal, setLoadingLocal] = useState(false);
-  const [search, setSearch] = useState(query);
+  const [search, setSearch] = useState("");
   const [gpsStatus, setGpsStatus] = useState<'idle'|'asking'|'granted'|'denied'>('idle');
 
   useEffect(() => {
@@ -86,7 +86,7 @@ function RechercheContent() {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (search.trim()) {
-      window.location.href = `/magasins/recherche?q=${encodeURIComponent(search.trim())}`;
+      window.location.href = `/magasins/recherche?q=${encodeURIComponent(search.trim())}`; setSearch("");
     }
   };
 
