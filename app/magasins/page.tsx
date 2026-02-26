@@ -224,6 +224,59 @@ export default function MagasinsPage() {
       </section>
 
       {/* ═══════════════════════════════════════
+          ALERTES DE PRIX — BIENTÔT DISPONIBLE
+      ═══════════════════════════════════════ */}
+      <section className="px-6 pb-14 max-w-3xl mx-auto">
+        <div className="relative rounded-3xl border-2 border-dashed border-amber-200 bg-amber-50/50 backdrop-blur-sm p-8 text-center overflow-hidden">
+
+          {/* Badge bientôt */}
+          <div className="absolute top-4 right-4">
+            <span className="px-3 py-1 rounded-full bg-amber-400 text-white text-xs font-bold shadow-sm">
+              🚀 Bientôt disponible
+            </span>
+          </div>
+
+          {/* Glow ambiant */}
+          <div className="absolute inset-0 rounded-3xl opacity-20 blur-2xl -z-10"
+            style={{ background: "radial-gradient(circle, rgba(251,191,36,0.6), transparent 70%)" }}
+          />
+
+          <div className="text-4xl mb-3">🔔</div>
+          <h2 className="text-xl font-bold text-gray-800 mb-2">Alertes de Prix</h2>
+          <p className="text-gray-600 text-sm mb-6 max-w-md mx-auto">
+            Entrez un produit et votre prix cible — on vous avertit par courriel dès que le prix baisse. Fini de surveiller manuellement !
+          </p>
+
+          {/* Formulaire désactivé */}
+          <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto opacity-60 cursor-not-allowed">
+            <input
+              type="text"
+              disabled
+              placeholder="Ex: iPhone 15 Pro"
+              className="flex-1 px-4 py-3 rounded-xl border-2 border-amber-200 bg-white text-gray-400 text-sm cursor-not-allowed"
+            />
+            <input
+              type="text"
+              disabled
+              placeholder="Prix cible $"
+              className="w-32 px-4 py-3 rounded-xl border-2 border-amber-200 bg-white text-gray-400 text-sm cursor-not-allowed"
+            />
+            <button
+              disabled
+              className="px-5 py-3 rounded-xl font-semibold text-white text-sm cursor-not-allowed"
+              style={{ background: "linear-gradient(135deg, #f59e0b, #d97706)" }}
+            >
+              M&apos;alerter
+            </button>
+          </div>
+
+          <p className="text-xs text-amber-600 mt-4 font-medium">
+            ⚡ Disponible prochainement — Amazon, Walmart, Best Buy et plus
+          </p>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════
           QUI SOMMES-NOUS
       ═══════════════════════════════════════ */}
       <section className="px-6 pb-16 max-w-3xl mx-auto text-center">
@@ -244,7 +297,7 @@ export default function MagasinsPage() {
               Notre mission
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              PrixMalin est une plateforme canadienne indépendante qui rassemble en un seul endroit les meilleurs outils pour magasiner intelligemment — qu'il s'agisse d'un commerce de votre quartier, d'un achat en ligne ou d'une occasion à saisir.
+              PrixMalin est une plateforme canadienne indépendante qui rassemble en un seul endroit les meilleurs outils pour magasiner intelligemment — qu&apos;il s&apos;agisse d&apos;un commerce de votre quartier, d&apos;un achat en ligne ou d&apos;une occasion à saisir.
             </p>
             <p className="text-gray-500 text-sm leading-relaxed mb-6">
               Nous valorisons les commerces locaux canadiens, particulièrement en région. Chaque résultat, chaque circulaire et chaque coupon est sélectionné pour vous aider à économiser sans effort.
@@ -273,7 +326,7 @@ export default function MagasinsPage() {
             <Image src="/prixmalin-logo.png" alt="App PrixMalin" width={70} height={70} className="mx-auto mb-4 drop-shadow-lg" />
             <h3 className="text-xl font-bold mb-2">Bientôt sur Android</h3>
             <p className="text-white/80 text-sm mb-4">
-              L'app PrixMalin — GPS, recherche locale et deals en temps réel dans votre poche.
+              L&apos;app PrixMalin — GPS, recherche locale et deals en temps réel dans votre poche.
             </p>
             <span className="inline-block px-6 py-2.5 rounded-xl bg-white/20 border border-white/30 text-white font-semibold text-sm backdrop-blur-sm">
               📱 Disponible bientôt sur Google Play
