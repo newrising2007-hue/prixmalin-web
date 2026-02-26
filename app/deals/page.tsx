@@ -195,7 +195,7 @@ export default function DealsPage() {
                   <img
                     src={deal.image}
                     alt={deal.title}
-                    className="mb-3 h-40 w-full rounded-xl object-cover"
+                    className="mb-3 h-32 w-full rounded-xl object-contain bg-gradient-to-b from-white to-gray-50 p-2 shadow-inner ring-1 ring-black/5"
                     loading="lazy"
                   />
                   <h2 className="text-lg font-semibold">{deal.title}</h2>
