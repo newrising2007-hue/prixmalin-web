@@ -85,19 +85,19 @@ export default function Page() {
 
         <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
           <Link
-            href="/xbox-game-pass-prix-canada"
+            href="/i/carte-cadeau-xbox-50-canada"
             className="rounded-xl border p-4 text-sm font-semibold hover:bg-gray-50"
           >
             Xbox Game Pass (Canada)
           </Link>
           <Link
-            href="/carte-psn-canada"
+            href="/i/carte-psn-25-canada"
             className="rounded-xl border p-4 text-sm font-semibold hover:bg-gray-50"
           >
             Cartes PSN (Canada)
           </Link>
           <Link
-            href="/nintendo-switch-online-prix-canada"
+            href="/i/carte-nintendo-eshop-20-canada"
             className="rounded-xl border p-4 text-sm font-semibold hover:bg-gray-50"
           >
             Nintendo Online (Canada)

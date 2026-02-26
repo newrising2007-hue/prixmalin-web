@@ -1,0 +1,62 @@
+[
+  {
+    "id": "xbox-50",
+    "title": "Carte Cadeau Xbox 50$",
+    "price": 50.00,
+    "currency": "CAD",
+    "platform": "Xbox",
+    "image": "/images/xbox-card.jpg",
+    "affiliateUrl": "https://www.amazon.ca/dp/B08M7JPPQ2?tag=prixmalin-20",
+    "availability": "InStock"
+  },
+  {
+    "id": "psn-25",
+    "title": "Carte PlayStation Store 25$",
+    "price": 23.49,
+    "currency": "CAD",
+    "platform": "PlayStation",
+    "image": "/images/psn-card.jpg",
+    "affiliateUrl": "https://www.amazon.ca/dp/B00GAC1D2G?tag=prixmalin-20",
+    "availability": "InStock"
+  },
+  {
+    "id": "nintendo-20",
+    "title": "Carte Nintendo eShop 20$",
+    "price": 20.00,
+    "currency": "CAD",
+    "platform": "Nintendo",
+    "image": "/images/nintendo-card.jpg",
+    "affiliateUrl": "https://www.amazon.ca/dp/B08M8LLCPT?tag=prixmalin-20",
+    "availability": "InStock"
+  },
+  {
+    "id": "ps-plus-premium-12m",
+    "title": "PlayStation Plus Premium 12 mois",
+    "price": 139.99,
+    "currency": "CAD",
+    "platform": "PlayStation",
+    "image": "/images/ps-plus.webp",
+    "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+12+mois&tag=prixmalin-20",
+    "availability": "InStock"
+  },
+  {
+    "id": "playstation-plus-3-mois",
+    "title": "PlayStation Plus 3 mois",
+    "price": 44.99,
+    "currency": "CAD",
+    "platform": "PlayStation",
+    "image": "/images/ps-plus.webp",
+    "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+3+mois&tag=prixmalin-20",
+    "availability": "InStock"
+  },
+  {
+    "id": "playstation-plus-1-mois",
+    "title": "PlayStation Plus 1 mois",
+    "price": 19.99,
+    "currency": "CAD",
+    "platform": "PlayStation",
+    "image": "/images/ps-plus.webp",
+    "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+1+mois&tag=prixmalin-20",
+    "availability": "InStock"
+  }
+]

@@ -40,9 +40,6 @@ function asNumber(v: unknown): number | undefined {
 }
 
 function pickRetailerAffiliate(raw: AnyRecord): { url: string; vendor?: string } {
-  const direct = String(raw?.affiliateUrl ?? raw?.affiliate_url ?? "").trim();
-  if (direct) return { url: direct, vendor: String(raw?.vendor ?? raw?.merchant ?? raw?.store ?? "").trim() || undefined };
-
   const retailers = raw.retailers;
   if (!Array.isArray(retailers) || retailers.length === 0) {
     return { url: "", vendor: undefined };

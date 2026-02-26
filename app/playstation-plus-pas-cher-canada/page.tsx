@@ -40,7 +40,7 @@ export default function Page() {
 
         <div className="mt-4 flex flex-wrap gap-2">
           <Link
-            href="/playstation-plus-prix-canada"
+            href="/i/playstation-plus-prix-canada"
             className="rounded-lg border px-4 py-2 text-sm font-semibold hover:bg-gray-50"
           >
             Guide PS+ prix
@@ -108,7 +108,7 @@ export default function Page() {
         </p>
 
         <Link
-          href="/playstation-plus-prix-canada"
+          href="/i/playstation-plus-prix-canada"
           className="mt-3 inline-block text-sm font-semibold underline"
         >
           Voir le guide complet →

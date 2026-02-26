@@ -155,7 +155,7 @@ export default function Page() {
         </p>
 
         <Link
-          href="/xbox-game-pass-prix-canada"
+          href="/i/carte-cadeau-xbox-50-canada"
           className="mt-3 inline-block text-sm font-semibold underline"
         >
           Voir le guide Game Pass →

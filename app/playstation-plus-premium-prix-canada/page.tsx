@@ -93,13 +93,13 @@ export default function Page() {
 
         <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
           <Link
-            href="/playstation-plus-prix-canada"
+            href="/i/playstation-plus-prix-canada"
             className="rounded-xl border p-4 text-sm font-semibold hover:bg-gray-50"
           >
             Guide PS+ (Canada)
           </Link>
           <Link
-            href="/carte-psn-canada"
+            href="/i/carte-psn-25-canada"
             className="rounded-xl border p-4 text-sm font-semibold hover:bg-gray-50"
           >
             Cartes PSN (Canada)
@@ -191,7 +191,7 @@ export default function Page() {
         </p>
 
         <Link
-          href="/playstation-plus-prix-canada"
+          href="/i/playstation-plus-prix-canada"
           className="mt-3 inline-block text-sm font-semibold underline decoration-gray-300 underline-offset-4 hover:decoration-gray-900"
         >
           Voir le guide PS+ complet →

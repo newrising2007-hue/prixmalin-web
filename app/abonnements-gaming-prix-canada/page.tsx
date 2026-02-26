@@ -106,7 +106,7 @@ export default function Page() {
         <div className="grid gap-4 md:grid-cols-2">
 
           <Link
-            href="/playstation-plus-prix-canada"
+            href="/i/playstation-plus-prix-canada"
             className="rounded-2xl border p-5 hover:bg-gray-50"
           >
             <p className="font-semibold">
@@ -121,7 +121,7 @@ export default function Page() {
           </Link>
 
           <Link
-            href="/xbox-game-pass-prix-canada"
+            href="/i/carte-cadeau-xbox-50-canada"
             className="rounded-2xl border p-5 hover:bg-gray-50"
           >
             <p className="font-semibold">
@@ -136,7 +136,7 @@ export default function Page() {
           </Link>
 
           <Link
-            href="/nintendo-switch-online-prix-canada"
+            href="/i/carte-nintendo-eshop-20-canada"
             className="rounded-2xl border p-5 hover:bg-gray-50"
           >
             <p className="font-semibold">
@@ -151,7 +151,7 @@ export default function Page() {
           </Link>
 
           <Link
-            href="/carte-psn-canada"
+            href="/i/carte-psn-25-canada"
             className="rounded-2xl border p-5 hover:bg-gray-50"
           >
             <p className="font-semibold">
