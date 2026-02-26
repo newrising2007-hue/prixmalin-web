@@ -123,8 +123,8 @@ function RechercheContent() {
         </div>
         <div className="flex flex-col items-end gap-1 shrink-0">
           {r.phone && (
-            <a href={`tel:${r.phone}`} onClick={e => e.stopPropagation()}
-              className="text-xs text-blue-500 hover:underline">📞 {r.phone}</a>
+            <span onClick={e => { e.stopPropagation(); window.location.href=`tel:${r.phone}`; }}
+              className="text-xs text-blue-500 hover:underline cursor-pointer">📞 {r.phone}</span>
           )}
           <span className="px-3 py-1.5 rounded-xl text-white text-xs font-semibold"
             style={{ background: '#16a34a' }}>
