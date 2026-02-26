@@ -27,17 +27,17 @@ function brandForHref(href: string): { src: string; tint: "blue" | "green" | "re
 const SEO_LINKS: Array<{ href: string; title: string; desc: string }> = [
   {
     href: "/playstation-plus-prix-canada",
-    title: "PlayStation Plus : prix au Canada",
+    title: "Carte PlayStation Plus",
     desc: "Paliers + options pour payer moins.",
   },
   {
     href: "/xbox-game-pass-prix-canada",
-    title: "Xbox Game Pass : prix au Canada",
+    title: "Carte Xbox Game Pass",
     desc: "Ultimate / PC / Console + meilleures options.",
   },
   {
     href: "/nintendo-switch-online-prix-canada",
-    title: "Nintendo Switch Online : prix au Canada",
+    title: "Carte Nintendo Switch Online",
     desc: "Individuel / Famille + Extension Pack.",
   },
 ];
@@ -93,7 +93,7 @@ export default function DealsPage() {
       </header>
 
       {/* ✅ Bloc liens internes global + hub */}
-      <section className="mb-8 rounded-2xl border bg-white p-5">
+      <section id="guides" className="mb-8 rounded-2xl border bg-white p-5">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div className="space-y-1">
             <h2 className="text-lg font-semibold">Cartes cadeaux & abonnements gaming</h2>
