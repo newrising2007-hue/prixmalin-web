@@ -72,7 +72,7 @@ function RechercheContent() {
       const res = await fetch(`${BACKEND_URL}/api/search-prices`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query: q, category: cat, location: loc, radiusKm: 100 }),
+        body: JSON.stringify({ query: q, category: cat, location: loc, radiusKm: 150 }),
       });
       const data = await res.json();
       const locals = (data.results || []).filter((r: Result) =>
