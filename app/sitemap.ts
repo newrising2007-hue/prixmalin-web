@@ -101,31 +101,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
-      url: `${SITE_URL}/codes-bonus/pc/minecraft`,
-      lastModified: now,
-      changeFrequency: "daily",
-      priority: 0.85,
-    },
-    {
       url: `${SITE_URL}/codes-bonus/pc/roblox`,
       lastModified: now,
       changeFrequency: "daily",
       priority: 0.85,
     },
     {
-      url: `${SITE_URL}/codes-bonus/pc/gta-online`,
-      lastModified: now,
-      changeFrequency: "daily",
-      priority: 0.85,
-    },
-    {
       url: `${SITE_URL}/codes-bonus/pc/call-of-duty-warzone`,
-      lastModified: now,
-      changeFrequency: "daily",
-      priority: 0.85,
-    },
-    {
-      url: `${SITE_URL}/codes-bonus/pc/counter-strike-2`,
       lastModified: now,
       changeFrequency: "daily",
       priority: 0.85,

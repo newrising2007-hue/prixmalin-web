@@ -55,34 +55,10 @@ const games: GameCard[] = [
     bullets: ["VP", "Bundles", "Activation Riot"],
   },
   {
-    title: "Minecraft",
-    href: "/codes-bonus/pc/minecraft",
-    description: "Minecraft : Minecoins et Realms.",
-    bullets: ["Minecoins", "Realms", "Microsoft"],
-  },
-  {
     title: "Roblox",
     href: "/codes-bonus/pc/roblox",
     description: "Roblox : Robux et Premium.",
     bullets: ["Robux", "Premium", "Activation web"],
-  },
-  {
-    title: "GTA Online",
-    href: "/codes-bonus/pc/gta-online",
-    description: "GTA Online : bonus événements et Shark Cards.",
-    bullets: ["GTA$", "Bonus", "Activation Rockstar"],
-  },
-  {
-    title: "Call of Duty: Warzone",
-    href: "/codes-bonus/pc/call-of-duty-warzone",
-    description: "Warzone : bonus événements, CP et Battle Pass.",
-    bullets: ["CP", "Battle Pass", "Battle.net/Steam"],
-  },
-  {
-    title: "Counter-Strike 2 (CS2)",
-    href: "/codes-bonus/pc/counter-strike-2",
-    description: "CS2 : écosystème Steam, crédit et options officielles.",
-    bullets: ["Steam", "Skins/items", "Activation Wallet"],
   },
 ]
 

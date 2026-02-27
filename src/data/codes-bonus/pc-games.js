@@ -63,7 +63,7 @@ export const PC_GAMES = [
         a: "Non, sauf bonus limités via événements officiels.",
       },
     ],
-    relatedSlugs: ["fortnite", "league-of-legends", "counter-strike-2"],
+    relatedSlugs: ["fortnite", "league-of-legends"],
   },
 
   {
@@ -108,11 +108,8 @@ export const PC_GAMES = [
 // Ajoute des jeux “MVP minimal” pour éviter des trous
 const MINIMAL_SLUGS = [
   "league-of-legends",
-  "minecraft",
   "roblox",
-  "gta-online",
   "call-of-duty-warzone",
-  "counter-strike-2",
   "world-of-tanks",
 ];
 
