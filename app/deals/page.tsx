@@ -133,13 +133,14 @@ export default function DealsPage() {
                         alt=""
                         width={520}
                         height={520}
-                        className="absolute right-4 top-[60%] w-16 -translate-y-1/2 opacity-25 blur-[0.3px]"
+                        className="absolute right-4 top-[60%] w-20 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply"
                         priority={false}
                       />
                     </div>
                   ) : null}
 
                   <div className="relative">
+                    <div className="pointer-events-none absolute -inset-3 -z-10 rounded-2xl bg-[radial-gradient(closest-side,rgba(16,185,129,0.14),rgba(255,255,255,0)_65%)]" />
                     <div className="text-sm font-semibold text-gray-900">{l.title}</div>
                     <p className="mt-1 text-xs text-gray-600 line-clamp-2">{l.desc}</p>
                     
@@ -166,7 +167,7 @@ export default function DealsPage() {
                 alt=""
                 width={520}
                 height={520}
-                className="absolute left-4 top-1/2 w-32 -translate-y-1/2 opacity-30 blur-[0.2px]"
+                className="absolute left-4 top-1/2 w-36 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply"
                 priority={false}
               />
               <Image
@@ -174,7 +175,7 @@ export default function DealsPage() {
                 alt=""
                 width={520}
                 height={520}
-                className="absolute left-1/2 top-1/2 w-32 -translate-x-1/2 -translate-y-1/2 opacity-30 blur-[0.2px]"
+                className="absolute left-1/2 top-1/2 w-36 -translate-x-1/2 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply"
                 priority={false}
               />
               <Image
@@ -182,12 +183,14 @@ export default function DealsPage() {
                 alt=""
                 width={520}
                 height={520}
-                className="absolute right-4 top-1/2 w-32 -translate-y-1/2 opacity-30 blur-[0.2px]"
+                className="absolute right-4 top-1/2 w-36 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply"
                 priority={false}
               />
             </div>
 
             <div className="relative flex flex-col items-center text-center gap-4">
+              <div className="pointer-events-none absolute -inset-6 -z-10 rounded-[28px] bg-[radial-gradient(closest-side,rgba(16,185,129,0.18),rgba(255,255,255,0)_65%)]" />
+
               <div>
                 
 
