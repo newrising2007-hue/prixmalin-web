@@ -125,7 +125,7 @@ export default function XboxGamePassPage() {
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
           <a
-            href="/deals#deals"
+            href="/deals#guides"
             className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
           >
             <div className="flex items-start justify-between gap-3">
@@ -140,7 +140,7 @@ export default function XboxGamePassPage() {
           </a>
 
           <a
-            href="/deals#deals"
+            href="/deals#guides"
             className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
           >
             <div className="font-semibold">PC Game Pass</div>
@@ -216,7 +216,7 @@ export default function XboxGamePassPage() {
           </li>
           <li>
             Les cartes numériques et promotions peuvent varier — vérifie aussi les{" "}
-            <Link className="font-semibold underline underline-offset-4" href="/deals#deals">deals actifs</Link>.
+            <Link className="font-semibold underline underline-offset-4" href="/deals#guides">deals actifs</Link>.
           </li>
           <li>
             Commence par Ultimate si tu veux le plus simple (console + PC + cloud),

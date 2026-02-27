@@ -75,7 +75,7 @@ export default function Page() {
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2 items-stretch auto-rows-fr">
           <a
-            href="/deals#deals"
+            href="/deals#guides"
             className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
           >
             <div className="font-semibold">Switch Online</div>
@@ -84,7 +84,7 @@ export default function Page() {
           </a>
 
           <a
-            href="/deals#deals"
+            href="/deals#guides"
             className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
           >
             <div className="flex items-start justify-between gap-3"><div className="font-semibold">Expansion Pack</div><div className="shrink-0 rounded-full bg-emerald-600 px-2.5 py-1 text-xs font-bold text-white shadow-sm">Meilleur choix</div></div>

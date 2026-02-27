@@ -70,19 +70,19 @@ export default function Page() {
         </p>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-3">
-          <a href="/deals#deals" className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40">
+          <a href="/deals#guides" className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40">
             <div className="font-semibold">PS Plus Essential</div>
             <div className="text-sm text-gray-500">Online + jeux mensuels</div>
             <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">Voir l’offre →</div>
           </a>
 
-          <a href="/deals#deals" className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40">
+          <a href="/deals#guides" className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40">
             <div className="flex items-start justify-between gap-3"><div className="font-semibold">PS Plus Extra</div><div className="shrink-0 rounded-full bg-emerald-600 px-2.5 py-1 text-xs font-bold text-white shadow-sm">Meilleur choix</div></div>
             <div className="text-sm text-gray-500">Catalogue de jeux</div>
             <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">Voir l’offre →</div>
           </a>
 
-          <a href="/deals#deals" className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40">
+          <a href="/deals#guides" className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40">
             <div className="font-semibold">PS Plus Premium</div>
             <div className="text-sm text-gray-500">Cloud + rétro</div>
             <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">Voir l’offre →</div>
