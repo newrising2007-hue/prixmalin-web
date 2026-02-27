@@ -133,7 +133,7 @@ export default function DealsPage() {
                         alt=""
                         width={520}
                         height={520}
-                        className="absolute right-4 top-[60%] w-20 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply"
+                        className="absolute right-4 bottom-2 w-20 opacity-40 blur-[0.15px] mix-blend-multiply"
                         priority={false}
                       />
                     </div>
