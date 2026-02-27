@@ -73,14 +73,12 @@ export default function XboxGamePassPage() {
         </p>
 
         <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-          <a
-            href="#offres"
-
-
-            className="inline-flex items-center justify-center rounded-xl bg-gray-900 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-black"
+          <Link
+            href="/abonnements-gaming"
+            className="inline-flex items-center justify-center rounded-xl border px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-50"
           >
-            Voir les offres (Ultimate) →
-          </a>
+            ← Retour abonnements gaming
+          </Link>
 
           <a
             href="#offres"
