@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const categories = [
   { icon: "🛒", label: "Épicerie & Alimentation", slug: "epicerie", desc: "Épiceries, boucheries, boulangeries, fruiteries" },
+  { icon: "🥩", label: "Boucherie & Charcuterie", slug: "boucherie", desc: "Boucheries, charcuteries, viandes locales" },
   { icon: "⚡", label: "Électronique", slug: "electronique", desc: "Téléphones, laptops, TV, audio, jeux, jouets" },
   { icon: "🏠", label: "Maison & Déco", slug: "maison", desc: "Meubles, déco, literie, cuisine" },
   { icon: "🔧", label: "Quincaillerie & Outils", slug: "quincaillerie", desc: "Outils, matériaux, électricité, plomberie" },
@@ -17,6 +18,7 @@ const categories = [
   { icon: "🍽️", label: "Restaurants & Cafés", slug: "restaurants", desc: "Cuisine locale, cafés, traiteurs" },
   { icon: "🎨", label: "Loisirs & Culture", slug: "loisirs", desc: "Livres, jeux de société, artisanat" },
   { icon: "💆", label: "Beauté & Spa", slug: "beaute", desc: "Salons, cosmétiques, soins" },
+  { icon: "🛋️", label: "Meubles & Literie", slug: "meuble", desc: "Meubles, matelas, literie, rangement" },
   { icon: "🏗️", label: "Rénovation", slug: "renovation", desc: "Entrepreneurs, matériaux, design" },
   { icon: "💻", label: "Bureautique", slug: "bureautique", desc: "Imprimantes, papeterie, mobilier bureau" },
 ];
