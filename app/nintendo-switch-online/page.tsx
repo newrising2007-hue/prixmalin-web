@@ -67,7 +67,7 @@ export default function Page() {
       </header>
 
       {/* Offres */}
-      <section id="offres" className="mt-10 rounded-2xl border bg-gradient-to-br from-red-50 to-orange-50 p-6">
+      <section id="offres" className="mt-10 overflow-hidden rounded-3xl border border-orange-100 bg-gradient-to-br from-red-50 via-orange-50 to-emerald-50 p-6 shadow-sm">
         <h2 className="text-xl font-bold">🎮 Offres Nintendo Switch Online</h2>
         <p className="mt-2 text-sm text-gray-600">
           Options pour acheter ou activer ton abonnement Nintendo Switch Online.
@@ -76,20 +76,20 @@ export default function Page() {
         <div className="mt-6 grid gap-4 sm:grid-cols-2 items-stretch auto-rows-fr">
           <a
             href="/deals#deals"
-            className="rounded-xl border bg-white p-4 transition hover:shadow-md"
+            className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
           >
             <div className="font-semibold">Switch Online</div>
             <div className="text-sm text-gray-500">Online + rétro NES/SNES</div>
-            <div className="mt-2 text-blue-700 font-semibold">Voir l’offre →</div>
+            <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">Voir l’offre →</div>
           </a>
 
           <a
             href="/deals#deals"
-            className="rounded-xl border bg-white p-4 transition hover:shadow-md"
+            className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
           >
-            <div className="font-semibold">Expansion Pack</div>
+            <div className="flex items-start justify-between gap-3"><div className="font-semibold">Expansion Pack</div><div className="shrink-0 rounded-full bg-emerald-600 px-2.5 py-1 text-xs font-bold text-white shadow-sm">Meilleur choix</div></div>
             <div className="text-sm text-gray-500">N64 + GBA + DLC</div>
-            <div className="mt-2 text-blue-700 font-semibold">Voir l’offre →</div>
+            <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">Voir l’offre →</div>
           </a>
         </div>
 
@@ -122,13 +122,6 @@ export default function Page() {
               rel="nofollow noopener"
               className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
             >
-            </a>
-            <a
-              href="https://www.nintendo.com/en-ca/switch/online/"
-              target="_blank"
-              rel="nofollow noopener"
-              className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
-            >
               Voir sur Nintendo →
             </a>
           </div>
@@ -142,6 +135,7 @@ export default function Page() {
               <li>Nintendo 64</li>
               <li>Game Boy Advance</li>
               <li>DLC bonus</li>
+            </ul>
             <a
               href="https://www.nintendo.com/en-ca/switch/online/"
               target="_blank"
@@ -151,7 +145,6 @@ export default function Page() {
               Voir sur Nintendo →
             </a>
 
-            </ul>
           </div>
         </div>
       </section>
