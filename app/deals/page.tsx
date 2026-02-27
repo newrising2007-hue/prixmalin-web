@@ -142,7 +142,7 @@ export default function DealsPage() {
                   <div className="relative">
                     <div className="text-sm font-semibold text-gray-900">{l.title}</div>
                     <p className="mt-1 text-xs text-gray-600 line-clamp-2">{l.desc}</p>
-                    <div className="mt-3 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-emerald-700">Voir le guide →</div>
+                    
                     
                   </div>
                 </>
@@ -199,9 +199,7 @@ export default function DealsPage() {
                   Accède aux hubs Xbox, PlayStation et Nintendo. Pages détaillées + offres à venir.
                 </p>
 
-                <div className="mt-4 inline-flex items-center justify-center rounded-full bg-emerald-600 px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700">
-                  Comparer les abonnements →
-                </div>
+                
               </div>
 
             </div>
