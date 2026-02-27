@@ -104,12 +104,6 @@ export default function DealsPage() {
           </div>
 
           <div className="flex flex-wrap gap-3">
-            <Link
-              href="/"
-              className="text-sm font-semibold text-gray-900 underline decoration-gray-300 underline-offset-4 hover:decoration-gray-900"
-            >
-              Accueil
-            </Link>
           </div>
         </div>
 
