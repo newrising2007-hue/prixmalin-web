@@ -60,3 +60,7 @@ _scratch/
 *.bak.*
 *.backup*
 *.bad
+
+# Backups
+*.bak
+*.bak.*
