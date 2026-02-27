@@ -112,7 +112,7 @@ export default function DealsPage() {
             <Link
               key={l.href}
               href={l.href}
-              className="relative overflow-hidden rounded-xl border bg-white/70 backdrop-blur-sm p-6 min-h-[110px] shadow-sm shadow-blue-500/5 transition hover:shadow-md hover:bg-white/80 sm:last:mx-auto"
+              className="relative overflow-hidden rounded-xl border bg-white/70 backdrop-blur-sm p-6 min-h-[110px] shadow-sm shadow-blue-500/5 transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-xl hover:bg-white/80 sm:last:mx-auto"
             >
               {(() => {
               const b = brandForHref(l.href);
