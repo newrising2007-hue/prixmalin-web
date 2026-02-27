@@ -50,3 +50,7 @@ public/apps/prixmalin/raw/
 
 # local scratch
 _scratch/
+
+# Backups locaux
+*.bak*
+*.backup*
