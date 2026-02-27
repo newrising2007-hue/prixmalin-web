@@ -54,3 +54,9 @@ _scratch/
 # Backups locaux
 *.bak*
 *.backup*
+
+# Backups
+*.bak
+*.bak.*
+*.backup*
+*.bad
