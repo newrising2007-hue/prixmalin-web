@@ -74,21 +74,21 @@ export default function XboxGamePassPage() {
 
         <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
           <a
-            href={OFFICIAL_XBOX_GAME_PASS_ULTIMATE_URL}
-            target="_blank"
-            rel="nofollow noopener"
+            href="#offres"
+
+
             className="inline-flex items-center justify-center rounded-xl bg-gray-900 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-black"
           >
-            Voir Ultimate (officiel) →
+            Voir les offres (Ultimate) →
           </a>
 
           <a
-            href={OFFICIAL_XBOX_GAME_PASS_URL}
-            target="_blank"
-            rel="nofollow noopener"
+            href="#offres"
+
+
             className="inline-flex items-center justify-center rounded-xl border px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-50"
           >
-            Voir toutes les options (officiel)
+            Voir toutes les offres
           </a>
 
           <Link
@@ -98,10 +98,52 @@ export default function XboxGamePassPage() {
             Guide prix Canada →
           </Link>
         </div>
+
+        <p className="mt-3 text-xs text-gray-500">
+          Sources officielles :
+          <a href="https://www.xbox.com/xbox-game-pass" target="_blank" rel="nofollow noopener" className="ml-2 underline underline-offset-4 hover:text-gray-700">
+            Xbox Game Pass
+          </a>
+          <span className="mx-2">•</span>
+          <a href="https://www.xbox.com/xbox-game-pass/ultimate" target="_blank" rel="nofollow noopener" className="underline underline-offset-4 hover:text-gray-700">
+            Ultimate
+          </a>
+        </p>
+
       </header>
+      {/* Bloc offres partenaires */}
+      <section id="offres" className="mt-10 rounded-2xl border bg-gradient-to-br from-blue-50 to-indigo-50 p-6">
+        <h2 className="text-xl font-bold">🎮 Offres Xbox Game Pass disponibles</h2>
+        <p className="mt-2 text-sm text-gray-600">
+          Voici quelques options pour acheter ou activer ton abonnement Xbox Game Pass.
+        </p>
+
+        <div className="mt-6 grid gap-4 sm:grid-cols-2">
+          <a
+            href="/deals#deals"
+            className="rounded-xl border bg-white p-4 hover:shadow-md transition"
+          >
+            <div className="font-semibold">Xbox Game Pass Ultimate</div>
+            <div className="text-sm text-gray-500">Console + PC + Cloud</div>
+            <div className="mt-2 text-blue-700 font-semibold">Voir l’offre →</div>
+          </a>
+
+          <a
+            href="/deals#deals"
+            className="rounded-xl border bg-white p-4 hover:shadow-md transition"
+          >
+            <div className="font-semibold">PC Game Pass</div>
+            <div className="text-sm text-gray-500">Catalogue PC uniquement</div>
+            <div className="mt-2 text-blue-700 font-semibold">Voir l’offre →</div>
+          </a>
+        </div>
+      </section>
 
       <section className="rounded-2xl border bg-white p-6">
-        <h2 className="text-xl font-bold">Quelle version choisir ?</h2>
+        <h2 className="text-xl font-bold">Quel abonnement Xbox Game Pass est fait pour toi ?</h2>
+        <p className="mt-2 text-sm text-gray-600">
+          Compare Ultimate, Core et PC Game Pass pour trouver le meilleur choix selon ton budget et ta façon de jouer.
+        </p>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-3">
           <div className="rounded-xl border p-5">
@@ -127,7 +169,7 @@ export default function XboxGamePassPage() {
               réduit).
             </p>
             <a
-              href={OFFICIAL_XBOX_GAME_PASS_URL}
+              href={OFFICIAL_XBOX_GAME_PASS_ULTIMATE_URL}
               target="_blank"
               rel="nofollow noopener"
               className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
@@ -163,7 +205,7 @@ export default function XboxGamePassPage() {
           </li>
           <li>
             Les cartes numériques et promotions peuvent varier — vérifie aussi les{" "}
-            <Link className="font-semibold underline underline-offset-4" href="/deals">deals actifs</Link>.
+            <Link className="font-semibold underline underline-offset-4" href="/deals#deals">deals actifs</Link>.
           </li>
           <li>
             Commence par Ultimate si tu veux le plus simple (console + PC + cloud),
@@ -177,12 +219,12 @@ export default function XboxGamePassPage() {
           <Link href="/abonnements-gaming" className="text-blue-700 font-semibold hover:underline">
             ← Retour aux abonnements gaming
           </Link>
-
           <p className="text-xs text-gray-500">
             PrixMalin est une plateforme d’affiliation. Certains liens peuvent être affiliés.
           </p>
         </div>
       </div>
+
     </main>
   );
 }

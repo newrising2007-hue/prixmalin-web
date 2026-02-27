@@ -2,185 +2,190 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "PlayStation Plus Canada : prix, abonnements et options (Essential, Extra, Premium)",
+  title: "PlayStation Plus au Canada (Essential, Extra, Premium) | PrixMalin",
   description:
-    "Guide PlayStation Plus au Canada : différences entre Essential, Extra et Premium, où s’abonner, et comment choisir la meilleure option.",
-  keywords: [
-    "PlayStation Plus Canada",
-    "PlayStation Plus prix Canada",
-    "PS Plus Essential Canada",
-    "PS Plus Extra Canada",
-    "PS Plus Premium Canada",
-  ],
-  alternates: {
-    canonical: "/playstation-plus",
-    languages: {
-      fr: "https://prixmalin.ca/playstation-plus",
-      "x-default": "https://prixmalin.ca/playstation-plus",
-    },
-  },
+    "Guide PlayStation Plus au Canada : différences entre Essential, Extra et Premium, conseils pour choisir, et options pour acheter/activer ton abonnement.",
+  alternates: { canonical: "/playstation-plus" },
   openGraph: {
-    title: "PlayStation Plus Canada : prix et abonnements",
+    title: "PlayStation Plus au Canada (Essential, Extra, Premium) | PrixMalin",
     description:
-      "Compare Essential, Extra et Premium au Canada. Conseils + liens officiels.",
-    url: "https://prixmalin.ca/playstation-plus",
-    siteName: "PrixMalin",
-    locale: "fr_CA",
-    type: "website",
+      "Comprendre PS Plus (Essential, Extra, Premium) au Canada + options d'achat/activation.",
+    url: "/playstation-plus",
+    type: "article",
   },
 };
 
-const OFFICIAL_PS_PLUS_URL = "https://www.playstation.com/ps-plus/";
-const OFFICIAL_PS_PLUS_PLANS_URL = "https://www.playstation.com/ps-plus/#subscriptions";
+function JsonLd({ data }: { data: Record<string, unknown> }) {
+  return (
+    <script
+      type="application/ld+json"
+      // eslint-disable-next-line react/no-danger
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
 
-export default function PlayStationPlusPage() {
+export default function Page() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: "PlayStation Plus Canada",
-    url: "https://prixmalin.ca/playstation-plus",
-    inLanguage: "fr-CA",
+    "@type": "Article",
+    headline: "PlayStation Plus au Canada : Essential vs Extra vs Premium",
     description:
-      "Guide PlayStation Plus au Canada : Essential, Extra, Premium, et liens officiels.",
-    isPartOf: {
-      "@type": "WebSite",
-      name: "PrixMalin",
-      url: "https://prixmalin.ca",
-    },
+      "Guide PlayStation Plus au Canada : niveaux, différences, astuces et options pour acheter/activer.",
+    mainEntityOfPage: { "@type": "WebPage", "@id": "/playstation-plus" },
+    author: { "@type": "Organization", name: "PrixMalin" },
+    publisher: { "@type": "Organization", name: "PrixMalin" },
   };
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-10">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <main className="mx-auto w-full max-w-5xl px-4 py-10">
+      <JsonLd data={jsonLd} />
 
-      <header className="mb-8">
-        <div className="inline-flex items-center rounded-full border bg-white px-3 py-1 text-xs font-semibold text-gray-900">
-          Abonnements Gaming • Canada 🇨🇦
-        </div>
-
-        <h1 className="mt-3 text-3xl font-bold tracking-tight">
-          PlayStation Plus Canada
+      <header className="max-w-3xl">
+        <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+          PlayStation Plus au Canada
         </h1>
-
-        <p className="mt-3 text-base text-gray-600">
-          Comprends les différences entre <strong>Essential</strong>,{" "}
-          <strong>Extra</strong> et <strong>Premium</strong>, et choisis le bon
-          plan selon ton style de jeu.
+        <p className="mt-3 text-base text-gray-700 sm:text-lg">
+          PlayStation Plus (PS Plus) se décline en <strong>3 niveaux</strong> :
+          Essential, Extra, Premium. Voici les différences et comment choisir —
+          sans te perdre.
         </p>
 
-        <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-          <a
-            href={OFFICIAL_PS_PLUS_URL}
-            target="_blank"
-            rel="nofollow noopener"
-            className="inline-flex items-center justify-center rounded-xl bg-gray-900 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-black"
-          >
-            Voir PS+ (officiel) →
-          </a>
-
-          <a
-            href={OFFICIAL_PS_PLUS_PLANS_URL}
-            target="_blank"
-            rel="nofollow noopener"
-            className="inline-flex items-center justify-center rounded-xl border px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-50"
-          >
-            Voir les plans (officiel)
-          </a>
-
+        <div className="mt-5 flex flex-wrap gap-3">
           <Link
-            href="/playstation-plus-prix-canada"
-            className="inline-flex items-center justify-center rounded-xl border px-5 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-50"
+            href="/abonnements-gaming"
+            className="inline-flex items-center rounded-full border bg-white px-4 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-50"
           >
-            Guide prix Canada →
+            ← Retour abonnements gaming
           </Link>
         </div>
       </header>
 
-      <section className="rounded-2xl border bg-white p-6">
-        <h2 className="text-xl font-bold">Quelle version choisir ?</h2>
+      {/* Offres (CTA principal) */}
+      {/* Offres (CTA principal) */}
+      <section id="offres" className="mt-10 rounded-2xl border bg-gradient-to-br from-blue-50 to-indigo-50 p-6">
+        <h2 className="text-xl font-bold">🎮 Offres PlayStation Plus disponibles</h2>
+        <p className="mt-2 text-sm text-gray-600">
+          Options pour acheter ou activer ton abonnement PlayStation Plus. (On mettra les liens affiliés ici.)
+        </p>
 
-        <div className="mt-4 grid gap-4 sm:grid-cols-3">
-          <div className="rounded-xl border p-5">
-            <h3 className="text-base font-semibold">Essential</h3>
-            <p className="mt-2 text-sm text-gray-600">
-              L’essentiel pour jouer en ligne + jeux mensuels. Bon choix si tu veux
-              surtout le multijoueur.
+        <div className="mt-6 grid gap-4 sm:grid-cols-3">
+          <a href="/deals#deals" className="rounded-xl border bg-white p-4 transition hover:shadow-md">
+            <div className="font-semibold">PS Plus Essential</div>
+            <div className="text-sm text-gray-500">Online + jeux mensuels</div>
+            <div className="mt-2 text-blue-700 font-semibold">Voir l’offre →</div>
+          </a>
+
+          <a href="/deals#deals" className="rounded-xl border bg-white p-4 transition hover:shadow-md">
+            <div className="font-semibold">PS Plus Extra</div>
+            <div className="text-sm text-gray-500">Catalogue de jeux</div>
+            <div className="mt-2 text-blue-700 font-semibold">Voir l’offre →</div>
+          </a>
+
+          <a href="/deals#deals" className="rounded-xl border bg-white p-4 transition hover:shadow-md">
+            <div className="font-semibold">PS Plus Premium</div>
+            <div className="text-sm text-gray-500">Cloud + rétro</div>
+            <div className="mt-2 text-blue-700 font-semibold">Voir l’offre →</div>
+          </a>
+        </div>
+
+        <p className="mt-4 text-xs text-gray-500">
+          PrixMalin est une plateforme d’affiliation. Certains liens peuvent être rémunérés.
+        </p>
+      </section>
+
+      {/* Comprendre les niveaux */}
+      <section className="mt-8 rounded-2xl border bg-white p-6">
+        <h2 className="text-xl font-bold">Quel abonnement PlayStation Plus est fait pour toi ?</h2>
+        <p className="mt-2 text-sm text-gray-600">
+          Compare Essential, Extra et Premium pour trouver le meilleur choix selon ton budget et ta façon de jouer.
+        </p>
+
+        <div className="mt-6 grid gap-4 sm:grid-cols-3">
+          <div className="rounded-xl border p-5 flex flex-col">
+            <h3 className="text-lg font-bold">Essential</h3>
+            <p className="mt-2 text-sm text-gray-700">
+              Pour jouer en ligne et récupérer des jeux mensuels. Le minimum indispensable.
             </p>
+            <ul className="mt-3 list-disc space-y-2 pl-6 text-sm text-gray-700">
+              <li>Multijoueur en ligne</li>
+              <li>Jeux mensuels</li>
+              <li>Réductions PlayStation Store</li>
+            </ul>
             <a
-              href={OFFICIAL_PS_PLUS_PLANS_URL}
+              href="https://www.playstation.com/fr-ca/ps-plus/#subscriptions"
               target="_blank"
               rel="nofollow noopener"
-              className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
+              className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
             >
-              Voir les plans officiels →
+              Voir sur PlayStation →
             </a>
           </div>
 
-          <div className="rounded-xl border p-5">
-            <h3 className="text-base font-semibold">Extra</h3>
-            <p className="mt-2 text-sm text-gray-600">
-              Catalogue de jeux inclus en plus d’Essential. Le meilleur équilibre
-              pour la plupart des joueurs.
+          <div className="rounded-xl border p-5 flex flex-col">
+            <h3 className="text-lg font-bold">Extra</h3>
+            <p className="mt-2 text-sm text-gray-700">
+              Le meilleur rapport catalogue/prix : un “Netflix de jeux” à la Sony.
             </p>
+            <ul className="mt-3 list-disc space-y-2 pl-6 text-sm text-gray-700">
+              <li>Tout Essential</li>
+              <li>Catalogue PS4/PS5</li>
+              <li>Idéal si tu joues souvent</li>
+            </ul>
             <a
-              href={OFFICIAL_PS_PLUS_PLANS_URL}
+              href="https://www.playstation.com/fr-ca/ps-plus/#subscriptions"
               target="_blank"
               rel="nofollow noopener"
-              className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
+              className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
             >
-              Comparer sur le site officiel →
+              Voir sur PlayStation →
             </a>
           </div>
 
-          <div className="rounded-xl border p-5">
-            <h3 className="text-base font-semibold">Premium</h3>
-            <p className="mt-2 text-sm text-gray-600">
-              Le plus complet : options supplémentaires et catalogue élargi selon disponibilité.
+          <div className="rounded-xl border p-5 flex flex-col">
+            <h3 className="text-lg font-bold">Premium</h3>
+            <p className="mt-2 text-sm text-gray-700">
+              Pour le cloud gaming et certains contenus rétro/essais.
             </p>
+            <ul className="mt-3 list-disc space-y-2 pl-6 text-sm text-gray-700">
+              <li>Tout Extra</li>
+              <li>Cloud gaming (selon disponibilité)</li>
+              <li>Rétro / essais de jeux</li>
+            </ul>
             <a
-              href={OFFICIAL_PS_PLUS_PLANS_URL}
+              href="https://www.playstation.com/fr-ca/ps-plus/#subscriptions"
               target="_blank"
               rel="nofollow noopener"
-              className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
+              className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
             >
-              Détails Premium →
+              Voir sur PlayStation →
             </a>
           </div>
         </div>
       </section>
 
+      {/* Astuces */}
       <section className="mt-8 rounded-2xl border bg-white p-6">
         <h2 className="text-xl font-bold">Astuces pour payer moins (Canada)</h2>
         <ul className="mt-4 list-disc space-y-2 pl-6 text-sm text-gray-700">
           <li>
-            Consulte{" "}
-            <Link className="font-semibold underline underline-offset-4" href="/playstation-plus-prix-canada">
-              PlayStation Plus : prix au Canada
-            </Link>{" "}
-            pour les paliers et les meilleures options.
+            Les cartes numériques et promotions varient — vérifie aussi les{" "}
           </li>
           <li>
-            Surveille aussi les{" "}
-            <Link className="font-semibold underline underline-offset-4" href="/deals">
-              deals actifs
-            </Link>{" "}
-            (cartes numériques et promos).
+            Si tu veux juste jouer en ligne, <strong>Essential</strong> suffit.
           </li>
           <li>
-            Si tu veux le meilleur rapport contenu/prix, Extra est souvent le plus logique.
+            On ajoutera bientôt une page dédiée :{" "}
+            <span className="font-semibold">PlayStation Plus : prix au Canada</span>.
           </li>
         </ul>
       </section>
 
-      <div className="mt-10 pt-6 border-t">
+      <div className="mt-10 border-t pt-6">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-          <Link href="/abonnements-gaming" className="text-blue-700 font-semibold hover:underline">
+          <Link href="/abonnements-gaming" className="font-semibold text-blue-700 hover:underline">
             ← Retour aux abonnements gaming
           </Link>
-
           <p className="text-xs text-gray-500">
             PrixMalin est une plateforme d’affiliation. Certains liens peuvent être affiliés.
           </p>

@@ -209,7 +209,7 @@ export default function DealsPage() {
           <p className="text-gray-700">Aucun deal disponible pour le moment.</p>
         </div>
       ) : (
-        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <ul id="deals" className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           {deals.map((deal) => {
             const guide = guideForPlatform(deal.platform);
 
