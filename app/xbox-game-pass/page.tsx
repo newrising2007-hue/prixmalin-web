@@ -112,29 +112,43 @@ export default function XboxGamePassPage() {
 
       </header>
       {/* Bloc offres partenaires */}
-      <section id="offres" className="mt-10 rounded-2xl border bg-gradient-to-br from-blue-50 to-indigo-50 p-6">
-        <h2 className="text-xl font-bold">🎮 Offres Xbox Game Pass disponibles</h2>
-        <p className="mt-2 text-sm text-gray-600">
-          Voici quelques options pour acheter ou activer ton abonnement Xbox Game Pass.
-        </p>
+      <section id="offres" className="mt-10 overflow-hidden rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 via-indigo-50 to-emerald-50 p-6 shadow-sm">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+          <div>
+            <h2 className="text-xl font-bold">🎮 Offres Xbox Game Pass disponibles</h2>
+            <p className="mt-2 text-sm text-gray-600">
+              Voici quelques options pour acheter ou activer ton abonnement Xbox Game Pass.
+            </p>
+          </div>
+
+          <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/70 px-3 py-1 text-xs font-semibold text-emerald-900">
+            ✅ Liens rapides
+          </div>
+        </div>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
           <a
             href="/deals#deals"
-            className="rounded-xl border bg-white p-4 hover:shadow-md transition"
+            className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
           >
-            <div className="font-semibold">Xbox Game Pass Ultimate</div>
+            <div className="flex items-start justify-between gap-3">
+
+              <div className="font-semibold">Xbox Game Pass Ultimate</div>
+
+              <div className="shrink-0 rounded-full bg-emerald-600 px-2.5 py-1 text-xs font-bold text-white shadow-sm">Meilleur choix</div>
+
+            </div>
             <div className="text-sm text-gray-500">Console + PC + Cloud</div>
-            <div className="mt-2 text-blue-700 font-semibold">Voir l’offre →</div>
+            <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">Voir l’offre →</div>
           </a>
 
           <a
             href="/deals#deals"
-            className="rounded-xl border bg-white p-4 hover:shadow-md transition"
+            className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
           >
             <div className="font-semibold">PC Game Pass</div>
             <div className="text-sm text-gray-500">Catalogue PC uniquement</div>
-            <div className="mt-2 text-blue-700 font-semibold">Voir l’offre →</div>
+            <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">Voir l’offre →</div>
           </a>
         </div>
       </section>
