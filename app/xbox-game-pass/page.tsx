@@ -121,9 +121,6 @@ export default function XboxGamePassPage() {
             </p>
           </div>
 
-          <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/70 px-3 py-1 text-xs font-semibold text-emerald-900">
-            ✅ Liens rapides
-          </div>
         </div>
 
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
