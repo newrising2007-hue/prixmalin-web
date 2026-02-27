@@ -105,12 +105,6 @@ export default function DealsPage() {
 
           <div className="flex flex-wrap gap-3">
             <Link
-              href="/abonnements-gaming"
-              className="rounded-xl border px-4 py-2 text-sm font-semibold hover:bg-gray-50"
-            >
-              Guide complet
-            </Link>
-            <Link
               href="/"
               className="text-sm font-semibold text-gray-900 underline decoration-gray-300 underline-offset-4 hover:decoration-gray-900"
             >
