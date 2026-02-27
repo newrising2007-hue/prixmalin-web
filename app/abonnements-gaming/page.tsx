@@ -36,20 +36,20 @@ export default function AbonnementsGamingPage() {
         Canada pour Xbox, PlayStation et Nintendo.
       </p>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid gap-6 md:grid-cols-3">
         {/* Xbox */}
         <Link
           href="/xbox-game-pass"
-          className="border rounded-xl p-6 hover:shadow-lg transition"
+          className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
         >
-          <h2 className="text-xl font-semibold mb-2">
+          <h2 className="text-xl font-semibold tracking-tight mb-2">
             Xbox Game Pass
           </h2>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm leading-relaxed text-gray-600">
             Catalogue de jeux Xbox, PC et cloud gaming avec abonnement mensuel.
           </p>
 
-          <div className="mt-4 text-blue-600 font-semibold">
+           <div className="mt-5 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">
             Voir les offres →
           </div>
         </Link>
@@ -57,16 +57,16 @@ export default function AbonnementsGamingPage() {
         {/* PlayStation */}
         <Link
           href="/playstation-plus"
-          className="border rounded-xl p-6 hover:shadow-lg transition"
+          className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
         >
-          <h2 className="text-xl font-semibold mb-2">
+          <h2 className="text-xl font-semibold tracking-tight mb-2">
             PlayStation Plus
           </h2>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm leading-relaxed text-gray-600">
             Jeux mensuels, multijoueur en ligne et catalogue PlayStation.
           </p>
 
-          <div className="mt-4 text-blue-600 font-semibold">
+           <div className="mt-5 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">
             Voir les offres →
           </div>
         </Link>
@@ -74,16 +74,16 @@ export default function AbonnementsGamingPage() {
         {/* Nintendo */}
         <Link
           href="/nintendo-switch-online"
-          className="border rounded-xl p-6 hover:shadow-lg transition"
+          className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/40"
         >
-          <h2 className="text-xl font-semibold mb-2">
+          <h2 className="text-xl font-semibold tracking-tight mb-2">
             Nintendo Switch Online
           </h2>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm leading-relaxed text-gray-600">
             Multijoueur en ligne et jeux rétro Nintendo inclus.
           </p>
 
-          <div className="mt-4 text-blue-600 font-semibold">
+           <div className="mt-5 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition group-hover:bg-emerald-700">
             Voir les offres →
           </div>
         </Link>
