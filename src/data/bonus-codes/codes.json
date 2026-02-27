@@ -40,5 +40,57 @@
     "expiresAtISO": null,
     "cycleStartISO": "2026-03-15",
     "cycleEndISO": "2026-04-15"
+  },
+  {
+    "id": "ps-genshin-ltt3dvkvluqz",
+    "gameSlug": "genshin-impact",
+    "platform": "playstation",
+    "title": "Code Genshin (Primogems + Mora) — LTT3DVKVLUQZ",
+    "description": "Code listé comme actif (vérifie vite, peut expirer sans warning). Source: GamesRadar (25 Feb 2026).",
+    "method": "redeem",
+    "code": "LTT3DVKVLUQZ",
+    "sourceLabel": "GamesRadar",
+    "isActive": true,
+    "expiresAtISO": null,
+    "updatedAtISO": "2026-02-27"
+  },
+  {
+    "id": "ps-genshin-genshingift",
+    "gameSlug": "genshin-impact",
+    "platform": "playstation",
+    "title": "Code Genshin semi-permanent — GENSHINGIFT",
+    "description": "Code semi-permanent (fonctionne périodiquement). Source: GamesRadar (25 Feb 2026).",
+    "method": "redeem",
+    "code": "GENSHINGIFT",
+    "sourceLabel": "GamesRadar",
+    "isActive": true,
+    "expiresAtISO": null,
+    "updatedAtISO": "2026-02-27"
+  },
+  {
+    "id": "ps-dbd-jokerswild",
+    "gameSlug": "dead-by-daylight",
+    "platform": "playstation",
+    "title": "DBD — JOKERSWILD",
+    "description": "Code listé comme actif. Source: PC Gamer (Feb 2026).",
+    "method": "redeem",
+    "code": "JOKERSWILD",
+    "sourceLabel": "PC Gamer",
+    "isActive": true,
+    "expiresAtISO": null,
+    "updatedAtISO": "2026-02-27"
+  },
+  {
+    "id": "ps-dbd-happyhorseyear2026",
+    "gameSlug": "dead-by-daylight",
+    "platform": "playstation",
+    "title": "DBD — HAPPYHORSEYEAR2026",
+    "description": "Code listé comme actif. Source: PC Gamer (Feb 2026).",
+    "method": "redeem",
+    "code": "HAPPYHORSEYEAR2026",
+    "sourceLabel": "PC Gamer",
+    "isActive": true,
+    "expiresAtISO": null,
+    "updatedAtISO": "2026-02-27"
   }
 ]
