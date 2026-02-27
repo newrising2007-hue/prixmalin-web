@@ -3,9 +3,9 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
-    "Codes bonus PC (2026) : Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, CS2, World of Tanks",
+    "Codes bonus PC (2026) : Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, CS2, World of Tanks, Warframe",
   description:
-    "Codes bonus PC au Canada : Fortnite, League of Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty Warzone, Counter-Strike 2 (CS2) et World of Tanks. Guides d’activation + offres.",
+    "Codes bonus PC au Canada : Fortnite, League of Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty Warzone, Counter-Strike 2 (CS2) et World of Tanks et Warframe. Guides d’activation + offres.",
   alternates: {
   canonical: "https://prixmalin.ca/codes-bonus/pc",
   languages: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Codes bonus PC | PrixMalin Canada",
     description:
-      "Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, CS2 et World of Tanks : bonus PC, activation et offres recommandées.",
+      "Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, CS2 et World of Tanks et Warframe : bonus PC, activation et offres recommandées.",
     url: "https://prixmalin.ca/codes-bonus/pc",
     type: "website",
   },
@@ -53,6 +53,12 @@ const games: GameCard[] = [
     href: "/codes-bonus/pc/valorant",
     description: "Valorant : points VP et bundles.",
     bullets: ["VP", "Bundles", "Activation Riot"],
+  },
+  {
+    title: "Warframe",
+    href: "/codes-bonus/pc/warframe",
+    description: "Warframe : codes promo gratuits (glyphes) et activation officielle.",
+    bullets: ["Codes officiels", "Glyphes", "Activation"],
   },
   {
     title: "Roblox",
@@ -122,7 +128,7 @@ export default function CodesBonusPcHubPage() {
         <p className="mt-3 max-w-3xl text-gray-600">
           Guides de codes bonus pour les jeux PC populaires : Fortnite, League of
           Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty: Warzone,
-          Counter-Strike 2 (CS2) et World of Tanks.
+          Counter-Strike 2 (CS2), World of Tanks et Warframe.
         </p>
       </header>
 
