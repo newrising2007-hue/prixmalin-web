@@ -141,6 +141,8 @@ export default function DealsPage() {
 
                   <div className="relative">
                     <div className="text-sm font-semibold text-gray-900">{l.title}</div>
+                    <p className="mt-1 text-xs text-gray-600 line-clamp-2">{l.desc}</p>
+                    <div className="mt-3 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-emerald-700">Voir le guide →</div>
                     
                   </div>
                 </>
