@@ -156,7 +156,7 @@ export default function DealsPage() {
           {/* ✅ Hub Abonnements (grosse carte) */}
           <Link
             href="/abonnements-gaming"
-            className="relative overflow-hidden rounded-2xl border bg-white p-6 shadow-sm transition hover:shadow-md sm:col-span-3"
+            className="relative overflow-hidden rounded-2xl border bg-white p-6 shadow-sm transition-all duration-300 ease-out hover:shadow-xl hover:ring-1 hover:ring-emerald-200 sm:col-span-3"
           >
             {/* Background logos */}
             <div className="pointer-events-none absolute inset-0">
