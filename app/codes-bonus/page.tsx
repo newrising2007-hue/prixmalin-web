@@ -33,31 +33,73 @@ export default function CodesBonusHub() {
           <Link
             key={console.slug}
             href={`/codes-bonus/${console.slug}`}
-            className="relative overflow-hidden block rounded-xl border bg-white/70 backdrop-blur-sm px-6 py-6 text-center font-semibold text-gray-800 shadow-sm shadow-blue-500/5 transition hover:shadow-md hover:bg-white/80"
+            className="group relative overflow-hidden block rounded-2xl border border-neutral-200 bg-white/70 backdrop-blur-sm px-6 py-6 text-center font-semibold text-neutral-900 shadow-md shadow-blue-500/10 transition will-change-transform hover:-translate-y-0.5 hover:shadow-lg hover:shadow-blue-500/15 hover:ring-2 hover:ring-blue-200/60 hover:bg-white/80 active:translate-y-px active:shadow-sm"
           >
             <div className="relative z-10">{console.name}</div>
 
+{console.slug === "playstation" && (
+  <span
+    aria-hidden
+    className="pointer-events-none absolute -right-10 -bottom-10 h-44 w-44 rounded-full blur-2xl opacity-30 transition group-hover:opacity-45"
+    style={{
+      background:
+        "radial-gradient(circle at 30% 30%, rgba(236,72,153,0.32), transparent 65%)",
+    }}
+  />
+)}
+{console.slug === "xbox" && (
+  <span
+    aria-hidden
+    className="pointer-events-none absolute -right-10 -bottom-10 h-44 w-44 rounded-full blur-2xl opacity-30 transition group-hover:opacity-45"
+    style={{
+      background:
+        "radial-gradient(circle at 30% 30%, rgba(34,197,94,0.32), transparent 65%)",
+    }}
+  />
+)}
+{console.slug === "nintendo" && (
+  <span
+    aria-hidden
+    className="pointer-events-none absolute -right-10 -bottom-10 h-44 w-44 rounded-full blur-2xl opacity-30 transition group-hover:opacity-45"
+    style={{
+      background:
+        "radial-gradient(circle at 30% 30%, rgba(239,68,68,0.32), transparent 65%)",
+    }}
+  />
+)}
+{console.slug === "pc" && (
+  <span
+    aria-hidden
+    className="pointer-events-none absolute -right-10 -bottom-10 h-44 w-44 rounded-full blur-2xl opacity-25 transition group-hover:opacity-40"
+    style={{
+      background:
+        "radial-gradient(circle at 30% 30%, rgba(59,130,246,0.35), transparent 65%)",
+    }}
+  />
+)}
+
+
             {console.slug === "playstation" && (
 
-              <img src="/images/deals/playstation.webp" alt="" className="pointer-events-none absolute right-4 bottom-2 w-20 opacity-25" />
+              <img src="/images/deals/playstation.webp" alt="" className="pointer-events-none absolute right-4 bottom-2 w-20 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
 
             )}
 
             {console.slug === "xbox" && (
 
-              <img src="/images/deals/xbox.webp" alt="" className="pointer-events-none absolute right-4 bottom-2 w-14 opacity-25" />
+              <img src="/images/deals/xbox.webp" alt="" className="pointer-events-none absolute right-4 bottom-2 w-14 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
 
             )}
 
             {console.slug === "nintendo" && (
 
-              <img src="/images/deals/nintendo.webp" alt="" className="pointer-events-none absolute right-4 bottom-2 w-20 opacity-25" />
+              <img src="/images/deals/nintendo.webp" alt="" className="pointer-events-none absolute right-4 bottom-2 w-20 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
 
             )}
 
             {console.slug === "pc" && (
 
-              <div className="pointer-events-none absolute right-4 bottom-2 text-3xl opacity-20">🖥️</div>
+              <div className="pointer-events-none absolute right-4 bottom-2 text-3xl opacity-35 drop-shadow-sm group-hover:opacity-70 transition">🖥️</div>
 
             )}
           </Link>
