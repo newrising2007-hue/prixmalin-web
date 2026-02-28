@@ -17,10 +17,14 @@ export const metadata: Metadata = {
   },
 };
 
-function brandForHref(href: string): { src: string; tint: "blue" | "green" | "red" } | null {
-  if (href.includes("playstation")) return { src: "/images/deals/playstation.webp", tint: "blue" };
+function brandForHref(
+  href: string
+): { src: string; tint: "blue" | "green" | "red" } | null {
+  if (href.includes("playstation"))
+    return { src: "/images/deals/playstation.webp", tint: "blue" };
   if (href.includes("xbox")) return { src: "/images/deals/xbox.webp", tint: "green" };
-  if (href.includes("nintendo")) return { src: "/images/deals/nintendo.webp", tint: "red" };
+  if (href.includes("nintendo"))
+    return { src: "/images/deals/nintendo.webp", tint: "red" };
   return null;
 }
 
@@ -63,6 +67,8 @@ function guideForPlatform(platform: string): { href: string; label: string } | n
   return null;
 }
 
+const CTA_AFFILIATE_CLASSES =
+  "flex-1 rounded-xl border border-blue-200 bg-blue-50 px-4 py-3 text-center text-sm font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition will-change-transform hover:bg-blue-100 hover:shadow-md hover:shadow-blue-500/15 hover:ring-2 hover:ring-blue-200/60 hover:-translate-y-0.5 active:translate-y-px active:shadow-sm";
 
 export default function DealsPage() {
   const deals = getAllDeals();
@@ -96,15 +102,16 @@ export default function DealsPage() {
       <section id="guides" className="mb-8 rounded-2xl border bg-white p-5">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div className="space-y-1">
-            <h2 className="text-lg font-semibold">Cartes cadeaux & abonnements gaming</h2>
+            <h2 className="text-lg font-semibold">
+              Cartes cadeaux & abonnements gaming
+            </h2>
             <p className="text-sm text-gray-600">
               Pages SEO utiles pour comprendre les prix officiels et choisir le meilleur
               abonnement.
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-3">
-          </div>
+          <div className="flex flex-wrap gap-3"></div>
         </div>
 
         <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
@@ -112,47 +119,44 @@ export default function DealsPage() {
             <Link
               key={l.href}
               href={l.href}
-              className="relative overflow-hidden rounded-xl border bg-white/70 backdrop-blur-sm p-6 min-h-[110px] shadow-sm shadow-blue-500/5 transition-all duration-300 ease-out hover:-translate-y-1.5 hover:shadow-xl hover:bg-white/80 sm:last:mx-auto"
+              className="relative min-h-[110px] overflow-hidden rounded-xl border bg-white/70 p-6 shadow-sm shadow-blue-500/5 backdrop-blur-sm transition-all duration-300 ease-out hover:-translate-y-1.5 hover:bg-white/80 hover:shadow-xl sm:last:mx-auto"
             >
               {(() => {
-              const b = brandForHref(l.href);
-              const tint = b?.tint;
-              const overlay = tint === "green"
-                ? "from-green-500/12 via-white/35 to-green-500/0"
-                : tint === "red"
-                ? "from-red-500/12 via-white/35 to-red-500/0"
-                : "from-blue-500/12 via-white/35 to-blue-500/0";
+                const b = brandForHref(l.href);
+                const tint = b?.tint;
+                const overlay =
+                  tint === "green"
+                    ? "from-green-500/12 via-white/35 to-green-500/0"
+                    : tint === "red"
+                      ? "from-red-500/12 via-white/35 to-red-500/0"
+                      : "from-blue-500/12 via-white/35 to-blue-500/0";
 
-              return (
-                <>
-                  {b ? (
-                    <div className="pointer-events-none absolute inset-0">
-                      <div className={`absolute inset-0 bg-gradient-to-br ${overlay}`} />
-                      <Image
-                        src={b.src}
-                        alt=""
-                        width={520}
-                        height={520}
-                        className="absolute right-4 bottom-2 w-20 opacity-40 blur-[0.15px] mix-blend-multiply"
-                        priority={false}
-                      />
+                return (
+                  <>
+                    {b ? (
+                      <div className="pointer-events-none absolute inset-0">
+                        <div className={`absolute inset-0 bg-gradient-to-br ${overlay}`} />
+                        <Image
+                          src={b.src}
+                          alt=""
+                          width={520}
+                          height={520}
+                          className="absolute bottom-2 right-4 w-20 opacity-40 blur-[0.15px] mix-blend-multiply"
+                          priority={false}
+                        />
+                      </div>
+                    ) : null}
+
+                    <div className="relative">
+                      <div className="pointer-events-none absolute -inset-3 -z-10 rounded-2xl bg-[radial-gradient(closest-side,rgba(16,185,129,0.14),rgba(255,255,255,0)_65%)]" />
+                      <div className="text-sm font-semibold text-gray-900">{l.title}</div>
+                      <p className="mt-1 line-clamp-2 text-xs text-gray-600">{l.desc}</p>
                     </div>
-                  ) : null}
-
-                  <div className="relative">
-                    <div className="pointer-events-none absolute -inset-3 -z-10 rounded-2xl bg-[radial-gradient(closest-side,rgba(16,185,129,0.14),rgba(255,255,255,0)_65%)]" />
-                    <div className="text-sm font-semibold text-gray-900">{l.title}</div>
-                    <p className="mt-1 text-xs text-gray-600 line-clamp-2">{l.desc}</p>
-                    
-                    
-                  </div>
-                </>
-              );
-            })()}
-              
+                  </>
+                );
+              })()}
             </Link>
           ))}
-
 
           {/* ✅ Hub Abonnements (grosse carte) */}
           <Link
@@ -188,23 +192,19 @@ export default function DealsPage() {
               />
             </div>
 
-            <div className="relative flex flex-col items-center text-center gap-4">
+            <div className="relative flex flex-col items-center gap-4 text-center">
               <div className="pointer-events-none absolute -inset-6 -z-10 rounded-[28px] bg-[radial-gradient(closest-side,rgba(16,185,129,0.18),rgba(255,255,255,0)_65%)]" />
 
               <div>
-                
-
                 <h3 className="mt-3 text-xl font-bold tracking-tight text-gray-900">
                   Abonnements Gaming au Canada
                 </h3>
 
                 <p className="mt-1 max-w-2xl text-sm text-gray-600">
-                  Accède aux hubs Xbox, PlayStation et Nintendo. Pages détaillées + offres à venir.
+                  Accède aux hubs Xbox, PlayStation et Nintendo. Pages détaillées + offres
+                  à venir.
                 </p>
-
-                
               </div>
-
             </div>
           </Link>
         </div>
@@ -220,12 +220,16 @@ export default function DealsPage() {
             const guide = guideForPlatform(deal.platform);
 
             return (
-              <li key={deal.slug} className="rounded-2xl border p-4">
-                <Link href={`/deals/${deal.slug}`} className="block">
+              <li
+                key={deal.slug}
+                className="rounded-2xl border p-4 transition hover:shadow-sm"
+              >
+                {/* Contenu non cliquable (évite le lien “invisible” sur l'image) */}
+                <div>
                   <img
                     src={deal.image}
                     alt={deal.title}
-                    className="mb-3 h-32 w-full rounded-xl object-contain bg-gradient-to-b from-white to-gray-50 p-2 shadow-inner ring-1 ring-black/5"
+                    className="mb-3 h-32 w-full rounded-xl bg-gradient-to-b from-white to-gray-50 p-2 object-contain shadow-inner ring-1 ring-black/5"
                     loading="lazy"
                   />
                   <h2 className="text-lg font-semibold">{deal.title}</h2>
@@ -237,7 +241,7 @@ export default function DealsPage() {
                       {deal.price} {deal.currency || "CAD"}
                     </p>
                   )}
-                </Link>
+                </div>
 
                 <div className="mt-4 flex flex-col gap-2">
                   {guide ? (
@@ -249,23 +253,25 @@ export default function DealsPage() {
                     </Link>
                   ) : null}
 
-                  <div className="flex gap-2">
-                    <Link
-                      href={`/deals/${deal.slug}`}
-                      className="flex-1 rounded-xl border px-4 py-3 text-center text-sm font-semibold"
-                    >
-                      Détails
-                    </Link>
-
+                  {/* Un seul CTA (affiliation) */}
+                  <div className="flex">
                     <a
                       href={deal.affiliateUrl}
                       target="_blank"
                       rel="nofollow sponsored noopener"
-                      className="flex-1 rounded-xl bg-green-600 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-green-700"
+                      className={CTA_AFFILIATE_CLASSES}
                     >
                       Voir l’offre
                     </a>
                   </div>
+
+                  {/* Lien détail optionnel (SEO / navigation) mais pas bouton visible */}
+                  <Link
+                    href={`/deals/${deal.slug}`}
+                    className="text-xs font-semibold text-gray-700 underline decoration-gray-300 underline-offset-4 hover:decoration-gray-900"
+                  >
+                    Voir le détail
+                  </Link>
                 </div>
               </li>
             );
@@ -276,8 +282,9 @@ export default function DealsPage() {
       <section className="mt-10 rounded-2xl bg-gray-50 p-5">
         <h2 className="text-lg font-semibold">Comment on sélectionne</h2>
         <p className="mt-2 text-sm text-gray-700">
-          PrixMalin est une plateforme d’affiliation : on partage des offres et codes gaming via
-          des liens traçables. On affiche un prix uniquement quand il est certain.
+          PrixMalin est une plateforme d’affiliation : on partage des offres et codes
+          gaming via des liens traçables. On affiche un prix uniquement quand il est
+          certain.
         </p>
       </section>
     </main>
