@@ -150,15 +150,14 @@ export default async function Page({ params }: PageProps) {
         <h1 className="text-3xl font-bold tracking-tight">{`Codes ${game.name} (Nintendo)`} 🇨🇦</h1>
         <p className="mt-2 max-w-2xl text-neutral-600">{game.hero?.subtitle ?? "Codes réels uniquement, quand disponibles."}</p>
 
-        {Array.isArray(game.hero?.highlights) && game.hero!.highlights!.length > 0 ? (
-          <ul className="mt-4 flex flex-wrap gap-2 text-xs text-neutral-700">
-            {game.hero!.highlights!.map((h) => (
-              <li key={h} className="rounded-full bg-neutral-100 px-3 py-1">
-                {h}
-              </li>
-            ))}
-          </ul>
-        ) : null}
+        <div className="mt-4 flex flex-wrap gap-2">
+          <Link
+            href="/codes-bonus/nintendo"
+            className="relative rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition-all duration-200 hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
+          >
+            Retour Nintendo
+          </Link>
+        </div>
       </header>
 
       {items.length === 0 ? (
@@ -166,16 +165,7 @@ export default async function Page({ params }: PageProps) {
           <h2 className="text-lg font-semibold">Aucun code actif pour le moment</h2>
           <p className="mt-2 text-sm text-neutral-700">
             On ajoute des codes vérifiés au fil de l’eau. Si tu en vois un officiel, on pourra l’ajouter ici.
-          </p>
-          <div className="mt-4 flex flex-wrap gap-2 text-sm">
-            <Link className="rounded-full border border-neutral-200 bg-white px-4 py-2 hover:bg-neutral-50" href="/codes-bonus/nintendo">
-              Retour Nintendo
-            </Link>
-            <Link className="rounded-full border border-neutral-200 bg-white px-4 py-2 hover:bg-neutral-50" href="/codes-bonus/pc/world-of-tanks">
-              Exemple (PC)
-            </Link>
-          </div>
-        </section>
+          </p>        </section>
       ) : (
         <section aria-label="Liste des codes" className="space-y-4">
           {items.map((it: any) => (
@@ -216,7 +206,7 @@ export default async function Page({ params }: PageProps) {
               <Link
                 key={s}
                 href={`/codes-bonus/nintendo/${s}`}
-                className="rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm hover:bg-neutral-50"
+                className="relative rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition-all duration-200 hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
               >
                 {titleCaseSlug(s)}
               </Link>
