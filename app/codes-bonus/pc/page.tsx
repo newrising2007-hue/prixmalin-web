@@ -1,72 +1,45 @@
-import type { Metadata } from "next"
-import Link from "next/link"
+import type { Metadata } from "next";
+import Link from "next/link";
+import { PC_GAMES as pcGames } from "@/src/data/codes-bonus/pc-games";
+
+export const dynamic = "error";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://prixmalin.ca";
 
 export const metadata: Metadata = {
-  title:
-    "Codes bonus PC (2026) : Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, CS2, World of Tanks, Warframe",
+  title: "Codes bonus PC | PrixMalin",
   description:
-    "Codes bonus PC au Canada : Fortnite, League of Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty Warzone, Counter-Strike 2 (CS2) et World of Tanks et Warframe. Guides d’activation + offres.",
+    "Codes bonus PC : uniquement des codes réels (quand disponibles), avec source et expiration. Canada.",
   alternates: {
-  canonical: "https://prixmalin.ca/codes-bonus/pc",
-  languages: {
-    "fr-CA": "https://prixmalin.ca/codes-bonus/pc",
-    "x-default": "https://prixmalin.ca/codes-bonus/pc",
+    canonical: `${SITE_URL}/codes-bonus/pc`,
+    languages: {
+      "fr-CA": `${SITE_URL}/codes-bonus/pc`,
+      "x-default": `${SITE_URL}/codes-bonus/pc`,
+    },
   },
-},
   openGraph: {
-    title: "Codes bonus PC | PrixMalin Canada",
+    title: "Codes bonus PC | PrixMalin",
     description:
-      "Fortnite, LoL, Valorant, Minecraft, Roblox, GTA Online, Warzone, CS2 et World of Tanks et Warframe : bonus PC, activation et offres recommandées.",
-    url: "https://prixmalin.ca/codes-bonus/pc",
+      "Codes bonus PC : uniquement des codes réels (quand disponibles), avec source et expiration. Canada.",
+    url: `${SITE_URL}/codes-bonus/pc`,
     type: "website",
   },
-}
+};
 
 type GameCard = {
-  title: string
-  href: string
-  description: string
-  bullets: string[]
-}
+  title: string;
+  href: string;
+  description: string;
+  bullets: string[];
+};
 
-const games: GameCard[] = [
-  {
-    title: "World of Tanks",
-    href: "/codes-bonus/pc/world-of-tanks",
-    description: "Bonus WOT : or, temps premium et crédits.",
-    bullets: ["Or", "Temps premium", "Activation Wargaming"],
-  },
-  {
-    title: "League of Legends (LoL)",
-    href: "/codes-bonus/pc/league-of-legends",
-    description: "Bonus LoL : Riot Points, skins et promos.",
-    bullets: ["RP", "Skins", "Activation Riot"],
-  },
-  {
-    title: "Fortnite",
-    href: "/codes-bonus/pc/fortnite",
-    description: "Fortnite : V-Bucks et packs cosmétiques.",
-    bullets: ["V-Bucks", "Packs", "Activation Epic"],
-  },
-  {
-    title: "Valorant",
-    href: "/codes-bonus/pc/valorant",
-    description: "Valorant : points VP et bundles.",
-    bullets: ["VP", "Bundles", "Activation Riot"],
-  },
-  {
-    title: "Warframe",
-    href: "/codes-bonus/pc/warframe",
-    description: "Warframe : codes promo gratuits (glyphes) et activation officielle.",
-    bullets: ["Codes officiels", "Glyphes", "Activation"],
-  },
-  {
-    title: "Roblox",
-    href: "/codes-bonus/pc/roblox",
-    description: "Roblox : Robux et Premium.",
-    bullets: ["Robux", "Premium", "Activation web"],
-  },
-]
+const cards: GameCard[] = pcGames.map((g) => ({
+  title: g.name,
+  href: `/codes-bonus/pc/${g.slug}`,
+  description: g.seoDescription ?? `Codes ${g.name} sur PC.`,
+  bullets: ["Codes réels", "Expiration", "Source"],
+}));
 
 function buildFaqJsonLd() {
   return {
@@ -75,102 +48,138 @@ function buildFaqJsonLd() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "Où activer un code bonus sur PC ?",
+        name: "PrixMalin affiche-t-il des codes PC “réels” ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "L’activation dépend du jeu : Epic, Riot, Microsoft, Roblox, Rockstar, Battle.net/Steam, Steam Wallet ou Wargaming. Les étapes sont détaillées sur chaque page jeu.",
+          text: "Oui. On affiche uniquement des codes à entrer (quand disponibles). Pas de méthodes vagues ni de promesses douteuses.",
         },
       },
       {
         "@type": "Question",
-        name: "Les codes PC fonctionnent-ils au Canada ?",
+        name: "Où entrer un code PC ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Oui dans la majorité des cas, mais vérifie toujours la compatibilité région (Canada/NA) sur la page de l’offre.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "PrixMalin vend-il directement les codes ?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Non. PrixMalin sélectionne des offres et renvoie vers des marchands via des liens affiliés.",
+          text: "Selon le jeu, l’activation peut se faire dans le jeu (menu Redeem), sur le site officiel de l’éditeur, ou via la plateforme (Steam, Epic, Riot, etc.).",
         },
       },
     ],
-  }
+  };
 }
 
-export default function CodesBonusPcHubPage() {
-  const faqJsonLd = buildFaqJsonLd()
+export default function Page() {
+  const faqJsonLd = buildFaqJsonLd();
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-10">
-      <header className="mb-10">
-        <h1 className="text-3xl font-bold tracking-tight">Codes bonus PC 🇨🇦</h1>
-
-
-
-
-<div className="mt-4 flex flex-wrap gap-2 text-sm">
-  <Link href="/codes-bonus" className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition hover:bg-emerald-100 hover:shadow-md hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm">Retour aux consoles</Link>
-  <Link href="/codes-bonus/pc" className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm">PC</Link>
-  <Link href="/codes-bonus/playstation" className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm">PlayStation</Link>
-  <Link href="/codes-bonus/xbox" className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm">Xbox</Link>
-  <Link href="/codes-bonus/nintendo" className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm">Nintendo</Link>
-</div>
-
-        <p className="mt-3 max-w-3xl text-gray-600">
-          Guides de codes bonus pour les jeux PC populaires : Fortnite, League of
-          Legends, Valorant, Minecraft, Roblox, GTA Online, Call of Duty: Warzone,
-          Counter-Strike 2 (CS2), World of Tanks et Warframe.
+    <main className="mx-auto w-full max-w-5xl px-4 pb-16 pt-10">
+      <header className="mb-8">
+        <h1 className="text-3xl font-bold tracking-tight">
+          Codes bonus PC 🇨🇦
+        </h1>
+        <p className="mt-2 max-w-2xl text-neutral-600">
+          On liste uniquement des{" "}
+          <span className="font-medium">codes réels</span> quand ils existent,
+          avec une source et une date d’expiration si disponible.
         </p>
+
+        <div className="mt-4 flex flex-wrap gap-2 text-sm">
+          <Link
+            href="/codes-bonus"
+            className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition hover:bg-emerald-100 hover:shadow-md hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
+          >
+            Retour aux consoles
+          </Link>
+
+          <span className="rounded-full border border-blue-300 bg-blue-100 px-4 py-2 font-semibold text-blue-950 shadow-sm shadow-blue-500/10">
+            PC
+          </span>
+
+          <Link
+            href="/codes-bonus/playstation"
+            className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm"
+          >
+            PlayStation
+          </Link>
+
+          <Link
+            href="/codes-bonus/xbox"
+            className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm"
+          >
+            Xbox
+          </Link>
+
+          <Link
+            href="/codes-bonus/nintendo"
+            className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm"
+          >
+            Nintendo
+          </Link>
+        </div>
       </header>
 
-      <section aria-label="Jeux PC populaires" className="mb-10">
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {games.map((g) => (
-            <Link
-              key={g.href}
-              href={g.href}
-              className="rounded-2xl border bg-white p-5 shadow-sm transition hover:shadow-md"
-            >
-              <h2 className="text-lg font-semibold">{g.title}</h2>
-              <p className="mt-2 text-sm text-gray-600">{g.description}</p>
-              <ul className="mt-3 list-disc pl-5 text-sm text-gray-700">
-                {g.bullets.map((b) => (
-                  <li key={b}>{b}</li>
+      <section
+        aria-label="Jeux PC avec codes"
+        className="grid gap-4 md:grid-cols-2"
+      >
+        {cards.map((c) => (
+          <Link
+            key={c.href}
+            href={c.href}
+            className="group relative overflow-hidden rounded-2xl border border-neutral-200 bg-white/70 p-5 shadow-sm shadow-blue-500/10 backdrop-blur-sm transition will-change-transform hover:-translate-y-0.5 hover:shadow-md hover:shadow-blue-500/15 hover:ring-2 hover:ring-blue-200/60 hover:bg-white/80 active:translate-y-px active:shadow-sm"
+          >
+            <span
+              aria-hidden
+              className="pointer-events-none absolute -left-12 -top-12 h-56 w-56 rounded-full blur-3xl opacity-25 transition group-hover:opacity-35"
+              style={{
+                background:
+                  "radial-gradient(circle at 30% 30%, rgba(59,130,246,0.22), transparent 65%)",
+              }}
+            />
+
+            <span
+              aria-hidden
+              className="pointer-events-none absolute -right-16 -bottom-16 h-72 w-72 rounded-full blur-3xl opacity-15 transition group-hover:opacity-25"
+              style={{
+                background:
+                  "radial-gradient(circle at 70% 70%, rgba(99,102,241,0.18), transparent 65%)",
+              }}
+            />
+
+            <img
+              src="/prixmalin-logo.webp"
+              alt=""
+              loading="lazy"
+              className="pointer-events-none absolute -right-20 -bottom-20 w-72 opacity-20 transition duration-300 group-hover:opacity-30"
+            />
+
+            <div className="relative z-10">
+              <div className="flex items-start justify-between gap-3">
+                <h2 className="text-lg font-semibold">{c.title}</h2>
+                <span className="rounded-full bg-neutral-100 px-3 py-1 text-xs font-medium text-neutral-700">
+                  PC
+                </span>
+              </div>
+
+              <p className="mt-2 text-sm text-neutral-700">{c.description}</p>
+
+              <ul className="mt-4 flex flex-wrap gap-2 text-xs text-neutral-700">
+                {c.bullets.map((b) => (
+                  <li
+                    key={b}
+                    className="rounded-full bg-neutral-100 px-3 py-1"
+                  >
+                    {b}
+                  </li>
                 ))}
-              </ul>            </Link>
-          ))}
-        </div>
+              </ul>
+            </div>
+          </Link>
+        ))}
       </section>
-
-      <section className="prose prose-gray max-w-none">
-        <h2>Comment fonctionnent les codes bonus PC ?</h2>
-        <p>
-          Les codes bonus PC donnent accès à des monnaies premium (V-Bucks, RP,
-          VP, Minecoins, Robux, GTA$, CP) ou à des bonus liés à des événements.
-          L’activation se fait via le compte officiel du jeu ou la plateforme.
-        </p>
-
-        <h2>Conseils avant d’acheter</h2>
-        <ul>
-          <li>Vérifier la région (Canada / NA)</li>
-          <li>Confirmer la plateforme PC</li>
-          <li>Utiliser des marchands fiables</li>
-        </ul>
-      </section>
-
-      <p className="mt-10 text-xs text-gray-500">
-        Certains liens sont affiliés. PrixMalin peut recevoir une commission sans
-        coût supplémentaire pour vous.
-      </p>
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
     </main>
-  )
+  );
 }
