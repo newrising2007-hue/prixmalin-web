@@ -158,12 +158,7 @@ export default async function Page({ params }: { params: Promise<{ game: string 
           <h2 className="text-lg font-semibold">Aucun code trouvé</h2>
           <p className="mt-2 text-neutral-700">
             Cette page existe (SEO OK), mais aucun item n’est encore enregistré pour ce jeu.
-          </p>
-          <p className="mt-3 text-sm text-neutral-600">
-            Astuce: ajoute des entrées dans <code className="rounded bg-neutral-100 px-1 py-0.5">src/data/bonus-codes/codes.json</code>{" "}
-            avec <code className="rounded bg-neutral-100 px-1 py-0.5">"gameSlug": "{gameSlug}"</code>.
-          </p>
-        </section>
+          </p>        </section>
       ) : (
         <section className="space-y-4">
           {items.map((it) => (
