@@ -1,27 +1,27 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PLAYSTATION_GAMES as psGames } from "@/src/data/codes-bonus/playstation-games";
+import { XBOX_GAMES as xboxGames } from "@/src/data/codes-bonus/xbox-games";
 
 export const dynamic = "error";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://prixmalin.ca";
 
 export const metadata: Metadata = {
-  title: "Codes bonus PlayStation (PS4/PS5) | PrixMalin",
+  title: "Codes bonus Xbox (Xbox One/Xbox Series X|S) | PrixMalin",
   description:
-    "Codes bonus PlayStation : uniquement des codes réels (quand disponibles), avec source et expiration. Canada.",
+    "Codes bonus Xbox : uniquement des codes réels (quand disponibles), avec source et expiration. Canada.",
   alternates: {
-    canonical: `${SITE_URL}/codes-bonus/playstation`,
+    canonical: `${SITE_URL}/codes-bonus/xbox`,
     languages: {
-      "fr-CA": `${SITE_URL}/codes-bonus/playstation`,
-      "x-default": `${SITE_URL}/codes-bonus/playstation`,
+      "fr-CA": `${SITE_URL}/codes-bonus/xbox`,
+      "x-default": `${SITE_URL}/codes-bonus/xbox`,
     },
   },
   openGraph: {
-    title: "Codes bonus PlayStation (PS4/PS5) | PrixMalin",
+    title: "Codes bonus Xbox (Xbox One/Xbox Series X|S) | PrixMalin",
     description:
-      "Codes bonus PlayStation : uniquement des codes réels (quand disponibles), avec source et expiration. Canada.",
-    url: `${SITE_URL}/codes-bonus/playstation`,
+      "Codes bonus Xbox : uniquement des codes réels (quand disponibles), avec source et expiration. Canada.",
+    url: `${SITE_URL}/codes-bonus/xbox`,
     type: "website",
   },
 };
@@ -33,10 +33,10 @@ type GameCard = {
   bullets: string[];
 };
 
-const cards: GameCard[] = psGames.map((g) => ({
+const cards: GameCard[] = xboxGames.map((g) => ({
   title: g.name,
-  href: `/codes-bonus/playstation/${g.slug}`,
-  description: g.seoDescription ?? `Codes ${g.name} sur PlayStation.`,
+  href: `/codes-bonus/xbox/${g.slug}`,
+  description: g.seoDescription ?? `Codes ${g.name} sur Xbox.`,
   bullets: ["Codes réels", "Expiration", "Source"],
 }));
 
@@ -47,7 +47,7 @@ function buildFaqJsonLd() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "PrixMalin affiche-t-il des codes PlayStation “réels” ?",
+        name: "PrixMalin affiche-t-il des codes Xbox “réels” ?",
         acceptedAnswer: {
           "@type": "Answer",
           text: "Oui. On affiche uniquement des codes à entrer (quand disponibles). Pas de méthodes vagues ni de promesses douteuses.",
@@ -55,10 +55,10 @@ function buildFaqJsonLd() {
       },
       {
         "@type": "Question",
-        name: "Où entrer un code PlayStation ?",
+        name: "Où entrer un code Xbox ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Selon le jeu, l’activation peut se faire dans le jeu (menu Redeem), sur le site officiel de l’éditeur, ou via le PlayStation Store pour les vouchers.",
+          text: "Selon le jeu, l’activation peut se faire dans le jeu (menu Redeem), sur le site officiel de l’éditeur, ou via le Xbox Store pour les vouchers.",
         },
       },
     ],
@@ -71,7 +71,7 @@ export default function Page() {
   return (
     <main className="mx-auto w-full max-w-5xl px-4 pb-16 pt-10">
       <header className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Codes bonus PlayStation (PS4/PS5) 🇨🇦</h1>
+        <h1 className="text-3xl font-bold tracking-tight">Codes bonus Xbox (Xbox One/Xbox Series X|S) 🇨🇦</h1>
         <p className="mt-2 max-w-2xl text-neutral-600">
           On liste uniquement des <span className="font-medium">codes réels</span> quand ils existent, avec une source et
           une date d’expiration si disponible.
@@ -88,7 +88,7 @@ export default function Page() {
 </div>
       </header>
 
-      <section aria-label="Jeux PlayStation avec codes" className="grid gap-4 md:grid-cols-2">
+      <section aria-label="Jeux Xbox avec codes" className="grid gap-4 md:grid-cols-2">
         {cards.map((c) => (
           <Link
             key={c.href}

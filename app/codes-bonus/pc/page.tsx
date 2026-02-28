@@ -109,20 +109,15 @@ export default function CodesBonusPcHubPage() {
       <header className="mb-10">
         <h1 className="text-3xl font-bold tracking-tight">Codes bonus PC 🇨🇦</h1>
 
-<div className="mt-4 flex gap-3">
-  <Link
-    href="/codes-bonus"
-    className="inline-flex rounded-lg bg-black px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800"
-  >
-    Retour aux consoles
-  </Link>
 
-  <Link
-    href="/deals"
-    className="inline-flex rounded-lg border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-100"
-  >
-    Voir les deals gaming
-  </Link>
+
+
+<div className="mt-4 flex flex-wrap gap-2 text-sm">
+  <Link href="/codes-bonus" className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition hover:bg-emerald-100 hover:shadow-md hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm">Retour aux consoles</Link>
+  <Link href="/codes-bonus/pc" className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm">PC</Link>
+  <Link href="/codes-bonus/playstation" className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm">PlayStation</Link>
+  <span className="rounded-full border border-blue-300 bg-blue-100 px-4 py-2 font-semibold text-blue-950 shadow-sm shadow-blue-500/10">Xbox</span>
+  <Link href="/codes-bonus/nintendo" className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm">Nintendo</Link>
 </div>
 
         <p className="mt-3 max-w-3xl text-gray-600">

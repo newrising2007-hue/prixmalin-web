@@ -146,4 +146,31 @@
     "expiresAtISO": null,
     "updatedAtISO": "2026-02-27"
   }
+  ,
+  {
+    "id": "xbox-warframe-mistletoe2025",
+    "gameSlug": "warframe",
+    "platform": "xbox",
+    "title": "Warframe — MISTLETOE2025",
+    "description": "Code listé comme actif (PCGamesN, 26 Feb 2026). À activer via la page officielle warframe.com/promocode (lié à ton compte).",
+    "method": "redeem",
+    "code": "MISTLETOE2025",
+    "sourceLabel": "PCGamesN + Warframe.com",
+    "isActive": true,
+    "expiresAtISO": null,
+    "updatedAtISO": "2026-02-27"
+  },
+  {
+    "id": "xbox-warframe-zexiontat",
+    "gameSlug": "warframe",
+    "platform": "xbox",
+    "title": "Warframe — ZEXIONTAT",
+    "description": "Code listé comme actif (PCGamesN, 26 Feb 2026). À activer via la page officielle warframe.com/promocode (lié à ton compte).",
+    "method": "redeem",
+    "code": "ZEXIONTAT",
+    "sourceLabel": "PCGamesN + Warframe.com",
+    "isActive": true,
+    "expiresAtISO": null,
+    "updatedAtISO": "2026-02-27"
+  }
 ]
