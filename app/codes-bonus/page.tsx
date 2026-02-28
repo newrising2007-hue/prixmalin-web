@@ -40,7 +40,7 @@ export default function CodesBonusHub() {
 {console.slug === "playstation" && (
   <span
     aria-hidden
-    className="pointer-events-none absolute -right-10 -bottom-10 h-44 w-44 rounded-full blur-2xl opacity-30 transition group-hover:opacity-45"
+    className="pointer-events-none absolute -left-10 -top-10 h-44 w-44 rounded-full blur-2xl opacity-30 transition group-hover:opacity-45"
     style={{
       background:
         "radial-gradient(circle at 30% 30%, rgba(236,72,153,0.32), transparent 65%)",
@@ -50,7 +50,7 @@ export default function CodesBonusHub() {
 {console.slug === "xbox" && (
   <span
     aria-hidden
-    className="pointer-events-none absolute -right-10 -bottom-10 h-44 w-44 rounded-full blur-2xl opacity-30 transition group-hover:opacity-45"
+    className="pointer-events-none absolute -left-10 -top-10 h-44 w-44 rounded-full blur-2xl opacity-30 transition group-hover:opacity-45"
     style={{
       background:
         "radial-gradient(circle at 30% 30%, rgba(34,197,94,0.32), transparent 65%)",
@@ -60,7 +60,7 @@ export default function CodesBonusHub() {
 {console.slug === "nintendo" && (
   <span
     aria-hidden
-    className="pointer-events-none absolute -right-10 -bottom-10 h-44 w-44 rounded-full blur-2xl opacity-30 transition group-hover:opacity-45"
+    className="pointer-events-none absolute -left-10 -top-10 h-44 w-44 rounded-full blur-2xl opacity-30 transition group-hover:opacity-45"
     style={{
       background:
         "radial-gradient(circle at 30% 30%, rgba(239,68,68,0.32), transparent 65%)",
@@ -70,7 +70,7 @@ export default function CodesBonusHub() {
 {console.slug === "pc" && (
   <span
     aria-hidden
-    className="pointer-events-none absolute -right-10 -bottom-10 h-44 w-44 rounded-full blur-2xl opacity-25 transition group-hover:opacity-40"
+    className="pointer-events-none absolute -left-10 -top-10 h-44 w-44 rounded-full blur-2xl opacity-25 transition group-hover:opacity-40"
     style={{
       background:
         "radial-gradient(circle at 30% 30%, rgba(59,130,246,0.35), transparent 65%)",
