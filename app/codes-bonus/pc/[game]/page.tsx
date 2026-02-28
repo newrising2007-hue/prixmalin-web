@@ -145,14 +145,8 @@ export default async function Page({ params }: { params: Promise<{ game: string 
 
         <div className="mt-4 flex flex-wrap gap-2">
           <Link
-            href="/deals"
-            className="rounded-full bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700"
-          >
-            Voir les deals
-          </Link>
-          <Link
             href="/codes-bonus/pc"
-            className="rounded-full border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50"
+            className="relative rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition-all duration-200 hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
           >
             Retour PC
           </Link>
@@ -191,16 +185,9 @@ export default async function Page({ params }: { params: Promise<{ game: string 
 </div>
 {it.code ? <pre className="mt-4 overflow-x-auto rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm"><code>{it.code}</code></pre> : null}
 
-              <div className="mt-5 flex flex-wrap gap-2">
-                <Link
-                  href="/deals"
-                  className="rounded-full bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700"
-                >
-                  Voir les deals
-                </Link>
-                <Link
+              <div className="mt-5 flex flex-wrap gap-2">                <Link
                   href="/codes-bonus/pc"
-                  className="rounded-full border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50"
+                  className="relative rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition-all duration-200 hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
                 >
                   Voir tous les jeux PC
                 </Link>
@@ -218,7 +205,7 @@ export default async function Page({ params }: { params: Promise<{ game: string 
               <Link
                 key={slug}
                 href={`/codes-bonus/pc/${slug}`}
-                className="rounded-full border border-neutral-300 bg-white px-4 py-2 text-sm font-medium text-neutral-900 hover:bg-neutral-50"
+                className="relative rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition-all duration-200 hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
               >
                 {titleCaseSlug(slug)}
               </Link>
