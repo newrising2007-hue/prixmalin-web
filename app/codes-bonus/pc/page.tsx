@@ -141,12 +141,7 @@ export default function CodesBonusPcHubPage() {
                 {g.bullets.map((b) => (
                   <li key={b}>{b}</li>
                 ))}
-              </ul>
-
-              <div className="mt-5 inline-flex rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white">
-                Voir guide
-              </div>
-            </Link>
+              </ul>            </Link>
           ))}
         </div>
       </section>
