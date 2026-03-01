@@ -1,15 +1,25 @@
+"use client";
 import Link from "next/link";
 import AffiliateButton from "@/components/AffiliateButton";
 import { getAllProducts } from "@/lib/products";
+import { useState } from "react";
 
-export const metadata = {
-  title: "Produits gaming recommandés | PrixMalin",
-  description:
-    "Sélection de produits gaming recommandés au Canada. Liens affiliés Amazon inclus.",
-};
+const CATEGORIES = [
+  { slug: "toutes", label: "Toutes" },
+  { slug: "audio", label: "🎧 Audio" },
+  { slug: "souris", label: "🖱️ Souris" },
+  { slug: "claviers", label: "⌨️ Claviers" },
+  { slug: "manettes", label: "🎮 Manettes" },
+  { slug: "accessoires", label: "🎒 Accessoires" },
+];
 
 export default function ProduitsPage() {
   const products = getAllProducts();
+  const [filtre, setFiltre] = useState("toutes");
+
+  const filtered = filtre === "toutes"
+    ? products
+    : products.filter(p => p.category === filtre);
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
@@ -21,14 +31,33 @@ export default function ProduitsPage() {
         </p>
       </header>
 
+      {/* FILTRES */}
+      <div className="flex flex-wrap gap-2 mb-8">
+        {CATEGORIES.map(cat => (
+          <button
+            key={cat.slug}
+            onClick={() => setFiltre(cat.slug)}
+            className={`px-4 py-2 rounded-full text-sm font-medium border transition-colors ${
+              filtre === cat.slug
+                ? "bg-orange-500 text-white border-orange-500"
+                : "bg-white text-black/70 border-black/20 hover:border-orange-400"
+            }`}
+          >
+            {cat.label}
+          </button>
+        ))}
+      </div>
+
+      {/* COMPTEUR */}
+      <p className="text-sm text-black/50 mb-4">{filtered.length} produit{filtered.length > 1 ? "s" : ""}</p>
+
       <section className="grid gap-6">
-        {products.map((p) => (
+        {filtered.map((p) => (
           <article
             key={p.slug}
             className="rounded-2xl border p-5 shadow-sm hover:shadow-md transition-shadow"
           >
             <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-              {/* Image */}
               <div className="w-full sm:w-40">
                 <div className="aspect-square w-full overflow-hidden rounded-2xl border bg-white">
                   {p.image ? (
@@ -45,26 +74,30 @@ export default function ProduitsPage() {
                   )}
                 </div>
               </div>
-
               <div className="flex-1 min-w-0">
                 <h2 className="text-xl font-semibold">
                   <Link href={`/produit/${p.slug}`} className="hover:underline">
                     {p.title}
                   </Link>
                 </h2>
-
+                {p.category && (
+                  <span className="inline-block mt-1 text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700">
+                    {p.category}
+                  </span>
+                )}
                 <p className="mt-2 text-black/70">{p.shortDescription}</p>
-
+                {p.prix && (
+                  <div className="mt-2 flex items-center gap-2">
+                    <span className="text-lg font-bold text-orange-600">{p.prix}$</span>
+                    {p.prixBarre && <span className="text-sm line-through text-black/40">{p.prixBarre}$</span>}
+                  </div>
+                )}
                 <p className="mt-3">
-                  <Link
-                    href={`/produit/${p.slug}`}
-                    className="text-sm font-medium text-blue-700 hover:underline"
-                  >
+                  <Link href={`/produit/${p.slug}`} className="text-sm font-medium text-blue-700 hover:underline">
                     Voir la fiche →
                   </Link>
                 </p>
               </div>
-
               <div className="sm:shrink-0">
                 <AffiliateButton url={p.amazonUrl} label="Voir sur Amazon" />
               </div>
