@@ -222,7 +222,7 @@ export default function DealsPage() {
             return (
               <li
                 key={deal.slug}
-                className="rounded-2xl border p-4 transition hover:shadow-sm"
+                className="rounded-2xl border p-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-md hover:shadow-blue-500/10 hover:ring-1 hover:ring-blue-200/60"
               >
                 {/* Contenu non cliquable (évite le lien “invisible” sur l'image) */}
                 <div>
