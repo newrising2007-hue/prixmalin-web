@@ -118,6 +118,7 @@ const CTA_BLUE =
 export default function HomePage() {
   const cards = pickLatestCards();
 
+
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       {/* HERO */}
@@ -151,17 +152,17 @@ export default function HomePage() {
       </section>
 
       {/* BANNIERE PROMO (cards flottantes par-dessus) */}
-      <section className="relative mb-12 overflow-visible rounded-3xl border border-neutral-200 bg-[#111A2E]">
+      <section className="relative mb-10 overflow-visible rounded-3xl border border-neutral-200 bg-[#111A2E]">
         {/* Fond / glows bleu-blanc-vert */}
         <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden rounded-3xl">
-          <div className="absolute -left-24 -top-24 h-80 w-80 rounded-full bg-[radial-gradient(circle,rgba(59,130,246,0.22),rgba(255,255,255,0)_65%)] blur-2xl" />
-          <div className="absolute -right-28 top-10 h-72 w-72 rounded-full bg-[radial-gradient(circle,rgba(16,185,129,0.18),rgba(255,255,255,0)_65%)] blur-2xl" />
-          <div className="absolute left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.10),rgba(255,255,255,0)_60%)] blur-2xl" />
+          <div className="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-[radial-gradient(circle,rgba(59,130,246,0.22),rgba(255,255,255,0)_65%)] blur-2xl" />
+          <div className="absolute -right-28 top-10 h-64 w-64 rounded-full bg-[radial-gradient(circle,rgba(16,185,129,0.18),rgba(255,255,255,0)_65%)] blur-2xl" />
+          <div className="absolute left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.10),rgba(255,255,255,0)_60%)] blur-2xl" />
 
           {/* Triangles décoratifs */}
-          <div className="absolute -left-10 bottom-10 h-40 w-40 rotate-12 bg-white/5 [clip-path:polygon(50%_0,0_100%,100%_100%)]" />
-          <div className="absolute right-10 -top-8 h-44 w-44 -rotate-12 bg-white/5 [clip-path:polygon(50%_0,0_100%,100%_100%)]" />
-          <div className="absolute right-24 bottom-8 h-28 w-28 rotate-6 bg-white/4 [clip-path:polygon(50%_0,0_100%,100%_100%)]" />
+          <div className="absolute -left-10 bottom-10 h-36 w-36 rotate-12 bg-white/5 [clip-path:polygon(50%_0,0_100%,100%_100%)]" />
+          <div className="absolute right-10 -top-8 h-40 w-40 -rotate-12 bg-white/5 [clip-path:polygon(50%_0,0_100%,100%_100%)]" />
+          <div className="absolute right-24 bottom-8 h-24 w-24 rotate-6 bg-white/4 [clip-path:polygon(50%_0,0_100%,100%_100%)]" />
 
           {/* Logo PrixMalin en watermark */}
           <Image
@@ -169,12 +170,12 @@ export default function HomePage() {
             alt=""
             width={700}
             height={700}
-            className="absolute -right-24 -bottom-28 w-[520px] opacity-10 blur-[0.2px]"
+            className="absolute -right-24 -bottom-28 w-[460px] opacity-10 blur-[0.2px]"
             priority={false}
           />
         </div>
 
-        <div className="relative px-6 pb-16 pt-6 sm:px-10">
+        <div className="relative px-6 pb-10 pt-6 sm:px-10">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold tracking-wide text-white/70">
               Derniers ajouts de codes gaming
@@ -185,48 +186,28 @@ export default function HomePage() {
             </h2>
 
             <p className="mt-2 text-sm text-white/80">
-              Deals, abonnements et cartes cadeaux — sélectionnés avec soin.
             </p>
-
-            <div className="mt-5 flex flex-wrap gap-3">
-              <Link
-                href="/deals"
-                className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-[#0B1220] shadow-sm transition hover:-translate-y-0.5 hover:shadow-md active:translate-y-px"
-              >
-                Voir les deals maintenant
-              </Link>
-
-              <Link
-                href="/abonnements-gaming"
-                className="inline-flex items-center justify-center rounded-xl border border-white/25 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
-              >
-                Abonnements gaming
-              </Link>
-            </div>
           </div>
         </div>
 
-        {/* Cartes qui passent par-dessus (overlap) */}
+        {/* 3 cartes compactes (PC / Xbox / PS) */}
         {cards.length > 0 ? (
-          <div className="relative -mt-16 px-4 pb-6 sm:px-10">
-            <div className="grid gap-3 sm:grid-cols-3">
+          <div className="relative -mt-8 px-4 pb-4 sm:-mt-10 sm:px-10">
+            <div className="grid grid-cols-3 gap-3 sm:gap-4">
               {cards.map((c) => (
                 <Link
                   key={`${c.platform}-${c.id}`}
                   href={c.href}
-                  className="group relative rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+                  className={`group relative flex h-[48px] items-center justify-between rounded-2xl border px-3 py-1.5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 sm:h-[52px] sm:px-3.5 sm:py-1.5 ${c.platform === "xbox" ? "border-emerald-200 bg-emerald-50 hover:shadow-emerald-500/20 hover:ring-2 hover:ring-emerald-200/60" : c.platform === "playstation" ? "border-blue-200 bg-blue-50 hover:shadow-blue-500/20 hover:ring-2 hover:ring-blue-200/60" : "border-neutral-200 bg-neutral-50 hover:shadow-neutral-400/20 hover:ring-2 hover:ring-neutral-200/60"}`}
                 >
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="text-sm font-semibold text-neutral-900">
-                      {c.gameName}
+                  <div className="flex w-full items-center justify-between gap-2">
+                    <div className="text-[13px] font-semibold leading-snug text-neutral-900 sm:text-sm">
+                      <span className="block max-w-full truncate">{c.gameName}</span>
                     </div>
-                    <span className="rounded-full bg-neutral-100 px-2.5 py-1 text-[11px] font-semibold text-neutral-700">
+
+                    <span className="shrink-0 rounded-full bg-neutral-100 px-2 py-0.5 text-[10px] font-semibold text-neutral-700 sm:px-2.5 sm:py-1 sm:text-[11px]">
                       {platformLabel(c.platform)}
                     </span>
-                  </div>
-
-                  <div className="mt-2 text-xs font-semibold text-blue-700">
-                    Voir les codes →
                   </div>
 
                   <span

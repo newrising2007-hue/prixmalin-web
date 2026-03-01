@@ -32,6 +32,7 @@ function normalizePlatform(p: unknown): BonusPlatform | null {
 }
 
 function normalizeMethod(m: unknown): BonusCode["method"] | null {
+  if (m === "redeem") return "code";
   if (m === "code" || m === "event" || m === "bundle" || m === "gift-card") return m;
   return null;
 }
