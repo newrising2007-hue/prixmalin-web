@@ -57,30 +57,18 @@ export default function HomePage() {
   const cards = pickLatestCards();
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-10">
+    <main className="mx-auto max-w-6xl px-4 pt-2 pb-4">
 
       {/* ── HERO ── */}
-      <section className="mb-10">
+      <section className="mb-2">
         <h1 className="text-3xl font-bold tracking-tight">
           PrixMalin — Deals et codes gaming 🇨🇦
         </h1>
-        <p className="mt-4 max-w-2xl text-gray-600">
+        <p className="mt-4 mb-6 max-w-2xl text-gray-600">
           Trouve les meilleurs deals gaming, cartes cadeaux et bonus pour jeux PC et consoles.
           PrixMalin sélectionne des offres fiables pour éviter les arnaques.
         </p>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <Link href="/deals" className={CTA_GREEN}>
-            <span aria-hidden className="pointer-events-none absolute -inset-8 -z-10 rounded-2xl bg-[radial-gradient(closest-side,rgba(16,185,129,0.22),rgba(255,255,255,0)_65%)] opacity-90" />
-            Voir les deals gaming
-          </Link>
-          <Link href="/codes-bonus" className={CTA_BLUE}>
-            <span aria-hidden className="pointer-events-none absolute -inset-8 -z-10 rounded-2xl bg-[radial-gradient(closest-side,rgba(59,130,246,0.22),rgba(255,255,255,0)_65%)] opacity-90" />
-            Voir les plateformes
-          </Link>
-        </div>
       </section>
-
-      {/* ── BANNIÈRE CODES — glassmorphism ── */}
       <section className="relative mb-8 overflow-visible rounded-3xl border border-white/60 bg-white/40 shadow-lg shadow-blue-100/40 backdrop-blur-md ring-1 ring-white/80">
         <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden rounded-3xl">
           <div className="absolute -left-16 -top-16 h-56 w-56 rounded-full bg-[radial-gradient(circle,rgba(59,130,246,0.18),transparent_70%)] blur-2xl" />
