@@ -1,3 +1,4 @@
+import Image from "next/image";
 // app/codes-bonus/page.tsx
 import Link from "next/link";
 
@@ -81,19 +82,19 @@ export default function CodesBonusHub() {
 
             {console.slug === "playstation" && (
 
-              <img src="/images/deals/playstation.webp" alt="" className="pointer-events-none absolute right-4 bottom-2 w-20 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
+              <Image src="/images/deals/playstation.webp" alt="" width={80} height={80} className="pointer-events-none absolute right-4 bottom-2 w-20 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
 
             )}
 
             {console.slug === "xbox" && (
 
-              <img src="/images/deals/xbox.webp" alt="" className="pointer-events-none absolute right-4 bottom-2 w-14 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
+              <Image src="/images/deals/xbox.webp" alt="" width={56} height={56} className="pointer-events-none absolute right-4 bottom-2 w-14 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
 
             )}
 
             {console.slug === "nintendo" && (
 
-              <img src="/images/deals/nintendo.webp" alt="" className="pointer-events-none absolute right-4 bottom-2 w-20 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
+              <Image src="/images/deals/nintendo.webp" alt="" width={80} height={80} className="pointer-events-none absolute right-4 bottom-2 w-20 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
 
             )}
 
