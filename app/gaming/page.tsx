@@ -74,24 +74,24 @@ export default function HomePage() {
           <div className="absolute -left-16 -top-16 h-56 w-56 rounded-full bg-[radial-gradient(circle,rgba(59,130,246,0.18),transparent_70%)] blur-2xl" />
           <div className="absolute -right-16 -bottom-8 h-56 w-56 rounded-full bg-[radial-gradient(circle,rgba(16,185,129,0.15),transparent_70%)] blur-2xl" />
         </div>
-        <div className="relative px-6 pb-10 pt-6 sm:px-10">
+        <div className="relative px-6 pb-2 pt-1 sm:px-10">
           <div className="max-w-2xl">
             <Link href="/codes-bonus" className="inline-block text-xs font-semibold tracking-widest text-blue-500/80 uppercase transition-all duration-200 hover:-translate-y-0.5 hover:text-blue-600">
               Derniers ajouts de codes gaming
             </Link>
-            <h2 className="mt-2 text-2xl font-bold tracking-tight text-gray-800 sm:text-3xl">
+            <h2 className="mt-0 text-base font-bold tracking-tight text-gray-800 sm:text-lg">
               Une entrée simple pour tous les gamers 🎮
             </h2>
           </div>
         </div>
         {cards.length > 0 ? (
-          <div className="relative -mt-8 px-4 pb-4 sm:-mt-10 sm:px-10">
+          <div className="relative mt-2 px-4 pb-2 sm:mt-2 sm:px-10">
             <div className="grid grid-cols-3 gap-3 sm:gap-4">
               {cards.map((c) => (
                 <Link
                   key={`${c.platform}-${c.id}`}
                   href={c.href}
-                  className={`group relative flex h-[48px] items-center justify-between rounded-2xl border px-3 py-1.5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 sm:h-[52px] sm:px-3.5 sm:py-1.5 ${
+                  className={`group relative flex h-[28px] items-center justify-between rounded-2xl border px-3 py-1.5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 sm:h-[32px] sm:px-3.5 sm:py-1.5 ${
                     c.platform === "xbox"
                       ? "border-emerald-200 bg-emerald-50 hover:shadow-emerald-500/20 hover:ring-2 hover:ring-emerald-200/60"
                       : c.platform === "playstation"

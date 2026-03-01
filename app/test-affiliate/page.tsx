@@ -1,6 +1,4 @@
 import { redirect } from "next/navigation";
-if (process.env.NODE_ENV !== "development") redirect("/");
-
 import AmazonAffiliateBlock from "@/components/AmazonAffiliateBlock";
 import { getAffiliateDealsByPlatform } from "@/lib/affiliateDeals";
 
@@ -11,6 +9,7 @@ export const metadata = {
 };
 
 export default function TestAffiliatePage() {
+  if (process.env.NODE_ENV !== "development") redirect("/");
   const xboxDeals = getAffiliateDealsByPlatform("xbox");
   const psDeals = getAffiliateDealsByPlatform("playstation");
   const nintendoDeals = getAffiliateDealsByPlatform("nintendo");

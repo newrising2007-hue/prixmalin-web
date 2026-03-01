@@ -26,6 +26,14 @@ export const defaultMetadata: Metadata = {
     type: "website",
     siteName: "PrixMalin",
     url: siteUrl,
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1024,
+        height: 400,
+        alt: "PrixMalin — Deals gaming au Canada",
+      },
+    ],
   },
 
   twitter: {
