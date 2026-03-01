@@ -46,5 +46,31 @@
     "amazonUrl": "https://www.amazon.ca/dp/B07HRNKTCM?tag=prixmalin-20",
     "category": "claviers",
     "image": "/images/products/hyperx-alloy-core.webp"
+  },
+  {
+    "slug": "logitech-g-pro-x-superlight-2",
+    "title": "Logitech G PRO X Superlight 2 Noir",
+    "shortDescription": " Amazon Renewed (reconditionné)",
+    "amazonUrl": "https://www.amazon.ca/dp/B0G2MV73T8?tag=prixmalin-20",
+    "category": "souris",
+    "image": "/images/products/logitech-g-pro-x-superlight-2.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "138.99",
+    "prixBarre": "239.99",
+    "prixVerifieLe": "2026-03-01"
+  },
+  {
+    "slug": "logitech-g-pro-x-superlight-2-se",
+    "title": "Logitech G PRO X Superlight 2 SE ",
+    "shortDescription": "Souris de jeu sans fil, 60 g de qualité professionnelle avec 5 boutons programmables Rouge",
+    "amazonUrl": "https://www.amazon.ca/dp/B0FY45N1FQ?tag=prixmalin-20",
+    "category": "souris",
+    "image": "/images/products/logitech-g-pro-x-superlight-2-se.webp",
+    "badge": "Nouveau",
+    "actif": true,
+    "prix": "199.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-01"
   }
 ]
