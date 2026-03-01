@@ -11,7 +11,8 @@
     "isActive": true,
     "expiresAtISO": null,
     "cycleStartISO": "2026-03-15",
-    "cycleEndISO": "2026-04-15"
+    "cycleEndISO": "2026-04-15",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "pc-wot-cycle-2026-03-2",
@@ -25,7 +26,8 @@
     "isActive": true,
     "expiresAtISO": null,
     "cycleStartISO": "2026-03-15",
-    "cycleEndISO": "2026-04-15"
+    "cycleEndISO": "2026-04-15",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "pc-wot-cycle-2026-03-3",
@@ -39,7 +41,8 @@
     "isActive": true,
     "expiresAtISO": null,
     "cycleStartISO": "2026-03-15",
-    "cycleEndISO": "2026-04-15"
+    "cycleEndISO": "2026-04-15",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "ps-genshin-ltt3dvkvluqz",
@@ -52,7 +55,8 @@
     "sourceLabel": "GamesRadar",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "ps-genshin-genshingift",
@@ -65,7 +69,8 @@
     "sourceLabel": "GamesRadar",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "ps-dbd-jokerswild",
@@ -78,7 +83,8 @@
     "sourceLabel": "PC Gamer",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "ps-dbd-happyhorseyear2026",
@@ -91,7 +97,8 @@
     "sourceLabel": "PC Gamer",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "ps-warframe-mistletoe2025",
@@ -104,7 +111,8 @@
     "sourceLabel": "PCGamesN + Warframe.com",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "ps-warframe-zexiontat",
@@ -117,7 +125,8 @@
     "sourceLabel": "PCGamesN + Warframe.com",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "pc-warframe-mistletoe2025",
@@ -130,7 +139,8 @@
     "sourceLabel": "PCGamesN + Warframe.com",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "pc-warframe-zexiontat",
@@ -143,7 +153,8 @@
     "sourceLabel": "PCGamesN + Warframe.com",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "xbox-warframe-mistletoe2025",
@@ -156,7 +167,8 @@
     "sourceLabel": "PCGamesN + Warframe.com",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "xbox-warframe-zexiontat",
@@ -169,7 +181,8 @@
     "sourceLabel": "PCGamesN + Warframe.com",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "nintendo-warframe-mistletoe2025",
@@ -182,7 +195,8 @@
     "sourceLabel": "PCGamesN + Warframe.com",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   },
   {
     "id": "nintendo-warframe-zexiontat",
@@ -195,6 +209,7 @@
     "sourceLabel": "PCGamesN + Warframe.com",
     "isActive": true,
     "expiresAtISO": null,
-    "updatedAtISO": "2026-02-27"
+    "updatedAtISO": "2026-02-27",
+    "addedAtISO": "2026-03-01"
   }
 ]

@@ -64,3 +64,9 @@ _scratch/
 # Backups
 *.bak
 *.bak.*
+
+# Backup files
+*.bak
+*backup*
+*.pre-ux
+*.pre-fix
