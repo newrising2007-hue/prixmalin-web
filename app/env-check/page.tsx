@@ -1,3 +1,6 @@
+import { redirect } from "next/navigation";
+if (process.env.NODE_ENV !== "development") redirect("/");
+
 export default function EnvCheckPage() {
   return (
     <main className="p-6">

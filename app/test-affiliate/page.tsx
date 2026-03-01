@@ -1,3 +1,6 @@
+import { redirect } from "next/navigation";
+if (process.env.NODE_ENV !== "development") redirect("/");
+
 import AmazonAffiliateBlock from "@/components/AmazonAffiliateBlock";
 import { getAffiliateDealsByPlatform } from "@/lib/affiliateDeals";
 
