@@ -32,14 +32,6 @@
     "image": "/images/products/manette-xbox-series.webp"
   },
   {
-    "slug": "tapis-logitech-g240",
-    "title": "Tapis de Souris Gaming Logitech G240",
-    "shortDescription": "Surface optimisée pour précision et contrôle gaming.",
-    "amazonUrl": "https://www.amazon.ca/dp/B00LZVNWIA?tag=prixmalin-20",
-    "category": "accessoires",
-    "image": "/images/products/tapis-logitech-g240.webp"
-  },
-  {
     "slug": "hyperx-alloy-core",
     "title": "Clavier Gaming HyperX Alloy Core RGB",
     "shortDescription": "Clavier RGB confortable et résistant aux éclaboussures pour le gaming.",
