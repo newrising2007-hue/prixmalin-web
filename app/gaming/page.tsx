@@ -76,9 +76,9 @@ export default function HomePage() {
         </div>
         <div className="relative px-6 pb-10 pt-6 sm:px-10">
           <div className="max-w-2xl">
-            <p className="text-xs font-semibold tracking-widest text-blue-500/80 uppercase">
+            <Link href="/codes-bonus" className="inline-block text-xs font-semibold tracking-widest text-blue-500/80 uppercase transition-all duration-200 hover:-translate-y-0.5 hover:text-blue-600">
               Derniers ajouts de codes gaming
-            </p>
+            </Link>
             <h2 className="mt-2 text-2xl font-bold tracking-tight text-gray-800 sm:text-3xl">
               Une entrée simple pour tous les gamers 🎮
             </h2>
