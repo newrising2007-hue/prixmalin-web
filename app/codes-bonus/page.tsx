@@ -1,6 +1,16 @@
 import Image from "next/image";
 // app/codes-bonus/page.tsx
 import Link from "next/link";
+import codesData from "@/src/data/bonus-codes/codes.json";
+
+function countActiveCodes(platform: string): number {
+  const today = new Date().toISOString().slice(0, 10);
+  return (codesData as any[]).filter((c) => {
+    if (c.isActive === false) return false;
+    if (c.expiresAtISO && c.expiresAtISO < today) return false;
+    return c.platform === platform;
+  }).length;
+}
 
 export const metadata = {
   title: "Codes bonus gaming | PrixMalin",
@@ -36,7 +46,12 @@ export default function CodesBonusHub() {
             href={`/codes-bonus/${console.slug}`}
             className="group relative overflow-hidden block rounded-2xl border border-neutral-200 bg-white/70 backdrop-blur-sm px-6 py-6 text-center font-semibold text-neutral-900 shadow-md shadow-blue-500/10 transition will-change-transform hover:-translate-y-0.5 hover:shadow-lg hover:shadow-blue-500/15 hover:ring-2 hover:ring-blue-200/60 hover:bg-white/80 active:translate-y-px active:shadow-sm"
           >
-            <div className="relative z-10">{console.name}</div>
+            <div className="relative z-10 flex flex-col items-center gap-1">
+              <span>{console.name}</span>
+              <span className="text-xs font-semibold text-blue-500/80">
+                {countActiveCodes(console.slug)} codes actifs
+              </span>
+            </div>
 
 {console.slug === "playstation" && (
   <span
