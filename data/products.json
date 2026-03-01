@@ -72,5 +72,15 @@
     "prix": "199.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-01"
+  },
+  {
+    "slug": "Souris-logitech-g240",
+    "title": "Souris Gaming Logitech G240",
+    "shortDescription": "Souris gaming",
+    "amazonUrl": "https://www.amazon.ca/dp/B00LZVNWIA?tag=prixmalin-20",
+    "category": "souris",
+    "image": "/images/products/tapis-logitech-g240.webp",
+    "prix": "71.43",
+    "prixVerifieLe": "2026-03-01"
   }
 ]
