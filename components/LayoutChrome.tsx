@@ -142,6 +142,12 @@ export default function LayoutChrome({
                 Codes bonus
               </Link>
 
+              {process.env.NEXT_PUBLIC_DEV_MODE === "true" && (
+                <Link href="/test-affiliate" className="rounded-lg px-2 py-1 text-orange-500 hover:bg-orange-50 font-semibold">
+                  🔧 Dev
+                </Link>
+              )}
+
               <LanguageSwitch />
 
               <Link
