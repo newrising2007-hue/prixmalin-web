@@ -103,19 +103,19 @@ export default function CodesBonusHub() {
 
             {console.slug === "xbox" && (
 
-              <Image src="/images/deals/xbox.webp" alt="" width={56} height={56} className="pointer-events-none absolute right-4 bottom-2 w-14 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
+              <Image src="/images/deals/xbox.webp" alt="" width={56} height={56} className="pointer-events-none absolute right-4 bottom-4 w-14 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
 
             )}
 
             {console.slug === "nintendo" && (
 
-              <Image src="/images/deals/nintendo.webp" alt="" width={80} height={80} className="pointer-events-none absolute right-4 bottom-2 w-20 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
+              <Image src="/images/deals/nintendo.webp" alt="" width={80} height={80} className="pointer-events-none absolute right-4 bottom-4 w-20 opacity-40 brightness-95 saturate-110 drop-shadow-sm group-hover:opacity-80 group-hover:brightness-95 transition" />
 
             )}
 
             {console.slug === "pc" && (
 
-              <div className="pointer-events-none absolute right-4 bottom-2 text-3xl opacity-35 drop-shadow-sm group-hover:opacity-70 transition">🖥️</div>
+              <div className="pointer-events-none absolute right-4 bottom-3 text-5xl opacity-50 drop-shadow-sm group-hover:opacity-70 transition">🖥️</div>
 
             )}
           </Link>
