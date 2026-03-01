@@ -64,18 +64,5 @@
     "prix": "199.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-01"
-  },
-  {
-    "slug": "souris-tortue",
-    "title": "souris tortue",
-    "shortDescription": "",
-    "amazonUrl": "",
-    "category": "audio",
-    "image": "",
-    "badge": "Meilleur vendeur",
-    "actif": true,
-    "prix": "",
-    "prixBarre": "",
-    "prixVerifieLe": "2026-03-01"
   }
 ]
