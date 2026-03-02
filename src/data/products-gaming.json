@@ -1,0 +1,26 @@
+{
+  "categories": [
+    "Claviers",
+    "Souris",
+    "Manettes",
+    "Casques audio"
+  ],
+  "products": [
+    {
+      "id": "1772391263884",
+      "titre": "Logitech G502 HERO",
+      "description": "",
+      "categorie": "Claviers",
+      "prix": "",
+      "prixBarre": "",
+      "badge": "Nouveau",
+      "actif": true,
+      "amazonLink": "https://www.amazon.ca/dp/B07GBZ4Q68",
+      "asin": "B07GBZ4Q68",
+      "affiliateLink": "https://www.amazon.ca/dp/B07GBZ4Q68?tag=prixmalin-20",
+      "prixVerifieLe": "2026-03-01",
+      "image": "/images/products/logitech-g502-hero.webp",
+      "ordre": 0
+    }
+  ]
+}
