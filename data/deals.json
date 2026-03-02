@@ -63,29 +63,6 @@
       "platform": "Xbox",
       "price": 50,
       "actif": true
-    },
-    {
-      "slug": "p",
-      "title": "Pistache sallé",
-      "description": "Un teste a ne pas prendre en considération",
-      "platform": "Multi",
-      "affiliateUrl": "https://www.amazon.ca/-/fr/gp/buyagain?ie=UTF8&ats=eyJleHBsaWNpdENhbmRpZGF0ZXMiOiJCMEZKUjVWMlI1IiwiY3VzdG9tZXJJZCI6IkEzVTk1NTNPNlBRU1kxIn0%3D&pd_rd_w=sl6tn&content-id=amzn1.sym.8cf66953-9751-4205-965a-0a18065f83db&pf_rd_p=8cf66953-9751-4205-965a-0a18065f83db&pf_rd_r=K9YXCDR3EASS5E0759E1&pd_rd_wg=TgChj&pd_rd_r=0faaff2d-3445-434c-8eca-06928aaa4230&tag=prixmalin-20",
-      "image": "/images/deals/p.webp",
-      "actif": true,
-      "price": 25000,
-      "prixBarre": 100000,
-      "badge": "Exclusif"
-    },
-    {
-      "slug": "c",
-      "title": "carotte cuite",
-      "description": "carrote test",
-      "platform": "PlayStation",
-      "affiliateUrl": "https://www.amazon.ca/dp/B08JGCCWS6?tag=prixmalin-20",
-      "image": "/images/deals/c.webp",
-      "actif": true,
-      "price": 12,
-      "prixBarre": 24
     }
   ]
 }
