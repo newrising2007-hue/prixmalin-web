@@ -159,5 +159,18 @@
     "prix": "63.39",
     "prixBarre": "69.99",
     "prixVerifieLe": "2026-03-02"
+  },
+  {
+    "slug": "logitech-g213-prodigy-rgb",
+    "title": "Logitech G213 Prodigy RGB",
+    "shortDescription": "RGB LIGHTSYNC, résistant aux éclaboussures, touches personnalisables",
+    "amazonUrl": "https://www.amazon.ca/dp/B07QGHK6Q8?tag=prixmalin-20",
+    "category": "claviers",
+    "image": "/images/products/logitech-g213-prodigy-rgb.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "79.10",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-02"
   }
 ]
