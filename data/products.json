@@ -92,5 +92,18 @@
     "prix": "14.98",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-02"
+  },
+  {
+    "slug": "new-bee-support-pour-casque-rgb",
+    "title": "New bee Support pour casque RGB",
+    "shortDescription": "Transmission et chargement : le port USB-C du support de casque New Bee  2 ports intelligents : le port USB-C et le port USB peuvent charger et transférer des données pour téléphone, clavier, disque U, souris, etc. ",
+    "amazonUrl": "https://www.amazon.ca/dp/B09TSZ1G7N?tag=prixmalin-20",
+    "category": "accessoires",
+    "image": "/images/products/new-bee-support-pour-casque-rgb.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "25.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-02"
   }
 ]
