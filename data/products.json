@@ -10,10 +10,12 @@
   {
     "slug": "logitech-g203",
     "title": "Souris Gaming Logitech G203 Lightsync RGB",
-    "shortDescription": "Précise, légère et idéale pour FPS à petit prix.",
+    "shortDescription": "Précise, légère et idéale pour FPS à petit prix. 3 couleurs disponible",
     "amazonUrl": "https://www.amazon.ca/dp/B07YN73XN6?tag=prixmalin-20",
     "category": "souris",
-    "image": "/images/products/logitech-g203.webp"
+    "image": "/images/products/logitech-g203.webp",
+    "prix": "49.99",
+    "prixVerifieLe": "2026-03-02"
   },
   {
     "slug": "steelseries-arctis-nova-1",
