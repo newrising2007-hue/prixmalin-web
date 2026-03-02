@@ -19,11 +19,15 @@
   },
   {
     "slug": "steelseries-arctis-nova-1",
-    "title": "Casque Gaming SteelSeries Arctis Nova 1",
-    "shortDescription": "Son immersif et micro clair pour le gaming compétitif.",
-    "amazonUrl": "https://www.amazon.ca/dp/B09ZWKD9TF?tag=prixmalin-20",
+    "title": "Casque gaming SteelSeries Arctis Nova Pro",
+    "shortDescription": "Casque de jeu multi-systèmes - Pilotes Hi-Fi haut de gamme - Audio spatial haute résolution à 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - Micro rétractable furtif - PC, ",
+    "amazonUrl": "https://www.amazon.ca/dp/B09ZWF9BCJ?tag=prixmalin-20",
     "category": "audio",
-    "image": "/images/products/steelseries-arctis-nova-1.webp"
+    "image": "/images/products/steelseries-arctis-nova-1.webp",
+    "badge": "Meilleur vendeur",
+    "prix": "322.93",
+    "prixBarre": "349.99",
+    "prixVerifieLe": "2026-03-02"
   },
   {
     "slug": "hyperx-alloy-core",
