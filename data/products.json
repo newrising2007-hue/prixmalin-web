@@ -2,10 +2,13 @@
   {
     "slug": "hyperx-cloud",
     "title": "Casque Gaming HyperX Cloud",
-    "shortDescription": "Confort + bon micro, valeur sûre.",
+    "shortDescription": "asque de jeu, doubles enceintes, confort légendaire, cadre en aluminium, microphone amovible, fonctionne sur PC, PS4, PS5, Xbox One/ Series X|S, Nintendo Switch et mobile - Rouge",
     "amazonUrl": "https://www.amazon.ca/dp/B074NBSF9N?tag=prixmalin-20",
     "category": "audio",
-    "image": "/images/products/hyperx-cloud.webp"
+    "image": "/images/products/hyperx-cloud.webp",
+    "badge": "Deal du jour",
+    "prix": "99.99",
+    "prixBarre": "0"
   },
   {
     "slug": "logitech-g203",
