@@ -119,5 +119,18 @@
     "prix": "78.19",
     "prixBarre": "84.99",
     "prixVerifieLe": "2026-03-02"
+  },
+  {
+    "slug": "dualsense-wireless-controller-playstation",
+    "title": "DualSense Wireless Controller Playstation",
+    "shortDescription": "Offert en différente couleurs",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CQKLS4RP?tag=prixmalin-20",
+    "category": "manettes",
+    "image": "/images/products/dualsense-wireless-controller-playstation.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "94.00",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-02"
   }
 ]
