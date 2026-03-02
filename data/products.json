@@ -66,5 +66,31 @@
     "prix": "199.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-01"
+  },
+  {
+    "slug": "clavier-steelseries-apex-3-rgb",
+    "title": "Clavier SteelSeries Apex 3 ",
+    "shortDescription": "résistant à l'eau et à la poussière, commutateur de jeu silencieux, anti-ghosting, couleur noir/blanc, lavande, blanc et aigue-marine disp.",
+    "amazonUrl": "https://www.amazon.ca/dp/B09FTNMT84?tag=prixmalin-20",
+    "category": "claviers",
+    "image": "/images/products/clavier-steelseries-apex-3-rgb.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "59.98",
+    "prixBarre": "69.99",
+    "prixVerifieLe": "2026-03-02"
+  },
+  {
+    "slug": "steelseries-qck-gaming-mouse-pad-medium",
+    "title": "SteelSeries QcK Gaming Mouse Pad (Medium)",
+    "shortDescription": "Précision de la souris : le nombre élevé de fils et la surface lisse optimisent la précision de suivi de la souris pour les capteurs optiques et laser ",
+    "amazonUrl": "https://www.amazon.ca/dp/B000UEZ36W?tag=prixmalin-20",
+    "category": "accessoires",
+    "image": "/images/products/steelseries-qck-gaming-mouse-pad-medium.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "14.98",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-02"
   }
 ]
