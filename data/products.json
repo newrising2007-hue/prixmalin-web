@@ -172,5 +172,31 @@
     "prix": "79.10",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-02"
+  },
+  {
+    "slug": "8bitdo-ultimate-wireless-controller",
+    "title": "8BitDo Ultimate Wireless Controller",
+    "shortDescription": "Manette sans fil Bluetooth - Compatible Switch, Android et PC Offert en plusieurs couleur ",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DNM3VGGG?tag=prixmalin-20",
+    "category": "manettes",
+    "image": "/images/products/8bitdo-ultimate-wireless-controller.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "44.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-02"
+  },
+  {
+    "slug": "razer-gigantus-v2-mouse-pad-large",
+    "title": "Razer Gigantus V2 Mouse Pad Large",
+    "shortDescription": "mousse épaisse haute densité - Base antidérapante",
+    "amazonUrl": "https://www.amazon.ca/dp/B0885NTLKJ?tag=prixmalin-20",
+    "category": "accessoires",
+    "image": "/images/products/razer-gigantus-v2-mouse-pad-large.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "24.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-02"
   }
 ]
