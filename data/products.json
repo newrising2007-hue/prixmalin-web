@@ -99,5 +99,18 @@
     "prix": "25.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-02"
+  },
+  {
+    "slug": "xbox-core-wireless-gaming-controller",
+    "title": "Xbox Core Wireless Gaming Controller",
+    "shortDescription": "Xbox Core Wireless Gaming Controller + USB-C Cable for Series X|S, One, Windows PC, Android, and iOS ",
+    "amazonUrl": "https://www.amazon.ca/dp/B0FLB2TQ5Y?tag=prixmalin-20",
+    "category": "manettes",
+    "image": "/images/products/xbox-core-wireless-gaming-controller.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "78.19",
+    "prixBarre": "84.99",
+    "prixVerifieLe": "2026-03-02"
   }
 ]
