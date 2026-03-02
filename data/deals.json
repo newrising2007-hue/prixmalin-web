@@ -75,6 +75,17 @@
       "price": 25000,
       "prixBarre": 100000,
       "badge": "Exclusif"
+    },
+    {
+      "slug": "c",
+      "title": "carotte cuite",
+      "description": "carrote test",
+      "platform": "PlayStation",
+      "affiliateUrl": "https://www.amazon.ca/dp/B08JGCCWS6?tag=prixmalin-20",
+      "image": "/images/deals/c.webp",
+      "actif": true,
+      "price": 12,
+      "prixBarre": 24
     }
   ]
 }
