@@ -6,13 +6,13 @@
       "slug": "xbox-game-pass-ultimate-3m",
       "title": "Xbox Game Pass Ultimate — 3 mois (Canada)",
       "description": "Accès à des centaines de jeux Xbox et PC avec EA Play inclus.",
-      "image": "/images/deals/xbox-game-pass-ultimate-3m.webp",
-      "affiliateUrl": "https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin-20",
       "platform": "Xbox",
+      "affiliateUrl": "https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin-20",
+      "image": "/images/deals/xbox-game-pass-ultimate-3m.webp",
+      "actif": true,
       "price": 49.99,
       "prixBarre": 59.99,
-      "badge": "Populaire",
-      "actif": true
+      "badge": "Populaire"
     },
     {
       "slug": "xbox-game-pass-ultimate-1m",
@@ -31,7 +31,7 @@
       "image": "/images/deals/psn-gift-card-100.webp",
       "affiliateUrl": "https://www.amazon.ca/dp/B08VLFW3M2?tag=prixmalin-20",
       "platform": "PlayStation",
-      "price": 100.00,
+      "price": 100,
       "actif": true
     },
     {
@@ -41,7 +41,7 @@
       "image": "/images/deals/psn-gift-card-50.webp",
       "affiliateUrl": "https://www.amazon.ca/dp/B08VKP158Q?tag=prixmalin-20",
       "platform": "PlayStation",
-      "price": 50.00,
+      "price": 50,
       "actif": true
     },
     {
@@ -61,8 +61,20 @@
       "image": "/images/deals/xbox-gift-card-50.webp",
       "affiliateUrl": "https://www.amazon.ca/dp/B08M7JPPQ2?tag=prixmalin-20",
       "platform": "Xbox",
-      "price": 50.00,
+      "price": 50,
       "actif": true
+    },
+    {
+      "slug": "p",
+      "title": "Pistache sallé",
+      "description": "Un teste a ne pas prendre en considération",
+      "platform": "Multi",
+      "affiliateUrl": "https://www.amazon.ca/-/fr/gp/buyagain?ie=UTF8&ats=eyJleHBsaWNpdENhbmRpZGF0ZXMiOiJCMEZKUjVWMlI1IiwiY3VzdG9tZXJJZCI6IkEzVTk1NTNPNlBRU1kxIn0%3D&pd_rd_w=sl6tn&content-id=amzn1.sym.8cf66953-9751-4205-965a-0a18065f83db&pf_rd_p=8cf66953-9751-4205-965a-0a18065f83db&pf_rd_r=K9YXCDR3EASS5E0759E1&pd_rd_wg=TgChj&pd_rd_r=0faaff2d-3445-434c-8eca-06928aaa4230&tag=prixmalin-20",
+      "image": "/images/deals/p.webp",
+      "actif": true,
+      "price": 25000,
+      "prixBarre": 100000,
+      "badge": "Exclusif"
     }
   ]
 }
