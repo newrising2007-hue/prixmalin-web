@@ -14,7 +14,6 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? getSiteUrl() ?? "https://prixmalin.ca";
 
 function formatPrice(price?: number, currency = "CAD") {
@@ -70,7 +69,7 @@ function DealCard({ deal }: { deal: Deal }) {
           href={deal.affiliateUrl}
           target="_blank"
           rel="nofollow sponsored noopener"
-          className="inline-flex w-full items-center justify-center rounded-xl bg-black px-4 py-3 text-center font-semibold text-white hover:opacity-90"
+          className="inline-flex w-full items-center justify-center rounded-xl border border-blue-200 bg-blue-50 px-4 py-3 text-center text-sm font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition will-change-transform hover:bg-blue-100 hover:shadow-md hover:shadow-blue-500/15 hover:ring-2 hover:ring-blue-200/60 hover:-translate-y-0.5 active:translate-y-px active:shadow-sm"
         >
           Voir le prix maintenant →
         </a>
@@ -226,12 +225,12 @@ export default async function IntentPageRoute({ params }: PageProps) {
       ) : null}
 
       {primary?.affiliateUrl ? (
-        <div className="fixed bottom-0 left-0 right-0 border-t border-black/10 bg-white p-4 md:hidden">
+        <div className="fixed bottom-0 left-0 right-0 border-t border-black/10 bg-white/95 backdrop-blur-sm p-4 md:hidden">
           <a
             href={primary.affiliateUrl}
             target="_blank"
             rel="nofollow sponsored noopener"
-            className="block w-full rounded-2xl bg-black py-3 text-center font-semibold text-white"
+            className="block w-full rounded-xl border border-blue-200 bg-blue-50 py-3 text-center text-sm font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:shadow-blue-500/15 hover:-translate-y-0.5 active:translate-y-px"
           >
             Voir le prix maintenant →
           </a>
