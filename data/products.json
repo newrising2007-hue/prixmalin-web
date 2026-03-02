@@ -37,7 +37,9 @@
     "shortDescription": "Clavier RGB confortable et résistant aux éclaboussures pour le gaming.",
     "amazonUrl": "https://www.amazon.ca/dp/B07HRNKTCM?tag=prixmalin-20",
     "category": "claviers",
-    "image": "/images/products/hyperx-alloy-core.webp"
+    "image": "/images/products/hyperx-alloy-core.webp",
+    "prix": "59.98",
+    "prixVerifieLe": "2026-03-01"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2",
