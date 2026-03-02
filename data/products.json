@@ -133,5 +133,31 @@
     "prix": "94.00",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-02"
+  },
+  {
+    "slug": "logitech-g-435-lightspeed",
+    "title": "Logitech G 435 Lightspeed",
+    "shortDescription": "Casque de jeu sans fil Bluetooth – Casque supra-auriculaire léger, micros intégrés, batterie 18h, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, mobile",
+    "amazonUrl": "https://www.amazon.ca/dp/B08R8DT7X6?tag=prixmalin-20",
+    "category": "audio",
+    "image": "/images/products/logitech-g-435-lightspeed.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "69.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-02"
+  },
+  {
+    "slug": "logitech-g305-lightspeed",
+    "title": "Logitech G305 Lightspeed",
+    "shortDescription": "égère, 6 boutons programmables, autonomie de batterie de 250 h, mémoire intégrée, PC/Mac - offert en plusieurs couleur",
+    "amazonUrl": "https://www.amazon.ca/dp/B086PDW7BB?tag=prixmalin-20",
+    "category": "souris",
+    "image": "/images/products/logitech-g305-lightspeed.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "63.39",
+    "prixBarre": "69.99",
+    "prixVerifieLe": "2026-03-02"
   }
 ]
