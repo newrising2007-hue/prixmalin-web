@@ -48,24 +48,21 @@ const SEO_LINKS: Array<{ href: string; title: string; desc: string }> = [
 
 function guideForPlatform(platform: string): { href: string; label: string } | null {
   const p = platform.toLowerCase();
-
-  // PlayStation
-  if (p.includes("playstation") || p.includes("ps4") || p.includes("ps5")) {
+  if (p.includes("playstation") || p.includes("ps4") || p.includes("ps5"))
     return { href: "/playstation-plus-prix-canada", label: "Guide PS+ (Canada)" };
-  }
-
-  // Xbox
-  if (p.includes("xbox")) {
+  if (p.includes("xbox"))
     return { href: "/xbox-game-pass-prix-canada", label: "Guide Game Pass (Canada)" };
-  }
-
-  // Nintendo
-  if (p.includes("nintendo") || p.includes("switch")) {
+  if (p.includes("nintendo") || p.includes("switch"))
     return { href: "/nintendo-switch-online-prix-canada", label: "Guide Nintendo Online" };
-  }
-
   return null;
 }
+
+const BADGE_COLORS: Record<string, string> = {
+  Populaire: "bg-orange-100 text-orange-700",
+  Nouveau: "bg-green-100 text-green-700",
+  "Deal chaud": "bg-red-100 text-red-700",
+  Exclusif: "bg-purple-100 text-purple-700",
+};
 
 const CTA_AFFILIATE_CLASSES =
   "flex-1 rounded-xl border border-blue-200 bg-blue-50 px-4 py-3 text-center text-sm font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition will-change-transform hover:bg-blue-100 hover:shadow-md hover:shadow-blue-500/15 hover:ring-2 hover:ring-blue-200/60 hover:-translate-y-0.5 active:translate-y-px active:shadow-sm";
@@ -98,7 +95,7 @@ export default function DealsPage() {
         </p>
       </header>
 
-      {/* ✅ Bloc liens internes global + hub */}
+      {/* Bloc liens internes global + hub */}
       <section id="guides" className="mb-8 rounded-2xl border bg-white p-5">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div className="space-y-1">
@@ -110,8 +107,6 @@ export default function DealsPage() {
               abonnement.
             </p>
           </div>
-
-          <div className="flex flex-wrap gap-3"></div>
         </div>
 
         <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
@@ -146,9 +141,7 @@ export default function DealsPage() {
                         />
                       </div>
                     ) : null}
-
                     <div className="relative">
-                      <div className="pointer-events-none absolute -inset-3 -z-10 rounded-2xl bg-[radial-gradient(closest-side,rgba(16,185,129,0.14),rgba(255,255,255,0)_65%)]" />
                       <div className="text-sm font-semibold text-gray-900">{l.title}</div>
                       <p className="mt-1 line-clamp-2 text-xs text-gray-600">{l.desc}</p>
                     </div>
@@ -158,51 +151,27 @@ export default function DealsPage() {
             </Link>
           ))}
 
-          {/* ✅ Hub Abonnements (grosse carte) */}
+          {/* Hub Abonnements */}
           <Link
             href="/abonnements-gaming"
             className="relative overflow-hidden rounded-2xl border bg-white p-6 shadow-sm transition-all duration-300 ease-out hover:shadow-xl hover:ring-1 hover:ring-emerald-200 sm:col-span-3"
           >
-            {/* Background logos */}
             <div className="pointer-events-none absolute inset-0">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-900/5 via-white/40 to-white/70" />
-              <Image
-                src="/images/deals/playstation.webp"
-                alt=""
-                width={520}
-                height={520}
-                className="absolute left-4 top-1/2 w-36 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply"
-                priority={false}
-              />
-              <Image
-                src="/images/deals/xbox.webp"
-                alt=""
-                width={520}
-                height={520}
-                className="absolute left-1/2 top-1/2 w-36 -translate-x-1/2 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply"
-                priority={false}
-              />
-              <Image
-                src="/images/deals/nintendo.webp"
-                alt=""
-                width={520}
-                height={520}
-                className="absolute right-4 top-1/2 w-36 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply"
-                priority={false}
-              />
+              <Image src="/images/deals/playstation.webp" alt="" width={520} height={520}
+                className="absolute left-4 top-1/2 w-36 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply" priority={false} />
+              <Image src="/images/deals/xbox.webp" alt="" width={520} height={520}
+                className="absolute left-1/2 top-1/2 w-36 -translate-x-1/2 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply" priority={false} />
+              <Image src="/images/deals/nintendo.webp" alt="" width={520} height={520}
+                className="absolute right-4 top-1/2 w-36 -translate-y-1/2 opacity-40 blur-[0.15px] mix-blend-multiply" priority={false} />
             </div>
-
             <div className="relative flex flex-col items-center gap-4 text-center">
-              <div className="pointer-events-none absolute -inset-6 -z-10 rounded-[28px] bg-[radial-gradient(closest-side,rgba(16,185,129,0.18),rgba(255,255,255,0)_65%)]" />
-
               <div>
                 <h3 className="mt-3 text-xl font-bold tracking-tight text-gray-900">
                   Abonnements Gaming au Canada
                 </h3>
-
                 <p className="mt-1 max-w-2xl text-sm text-gray-600">
-                  Accède aux hubs Xbox, PlayStation et Nintendo. Pages détaillées + offres
-                  à venir.
+                  Accède aux hubs Xbox, PlayStation et Nintendo. Pages détaillées + offres à venir.
                 </p>
               </div>
             </div>
@@ -218,13 +187,20 @@ export default function DealsPage() {
         <ul id="deals" className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           {deals.map((deal) => {
             const guide = guideForPlatform(deal.platform);
+            const badgeClass = deal.badge ? (BADGE_COLORS[deal.badge] ?? "bg-gray-100 text-gray-700") : null;
 
             return (
               <li
                 key={deal.slug}
-                className="rounded-2xl border p-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-md hover:shadow-blue-500/10 hover:ring-1 hover:ring-blue-200/60"
+                className="relative rounded-2xl border p-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-md hover:shadow-blue-500/10 hover:ring-1 hover:ring-blue-200/60"
               >
-                {/* Contenu non cliquable (évite le lien “invisible” sur l'image) */}
+                {/* Badge */}
+                {deal.badge && badgeClass && (
+                  <span className={`absolute right-3 top-3 rounded-full px-2 py-0.5 text-xs font-semibold ${badgeClass}`}>
+                    {deal.badge}
+                  </span>
+                )}
+
                 <div>
                   <img
                     src={deal.image}
@@ -232,15 +208,28 @@ export default function DealsPage() {
                     className="mb-3 h-32 w-full rounded-xl bg-gradient-to-b from-white to-gray-50 p-2 object-contain shadow-inner ring-1 ring-black/5"
                     loading="lazy"
                   />
-                  <h2 className="text-lg font-semibold">{deal.title}</h2>
+                  <h2 className="pr-16 text-base font-semibold leading-snug">{deal.title}</h2>
                   <p className="mt-1 line-clamp-2 text-sm text-gray-600">{deal.description}</p>
-                  <p className="mt-2 text-xs text-gray-500">{deal.platform}</p>
+                  <p className="mt-1 text-xs text-gray-400">{deal.platform}</p>
 
-                  {typeof deal.price === "number" && (
-                    <p className="mt-3 text-xl font-semibold">
-                      {deal.price} {deal.currency || "CAD"}
-                    </p>
-                  )}
+                  {/* Prix */}
+                  <div className="mt-3 flex items-baseline gap-2">
+                    {typeof deal.price === "number" && (
+                      <p className="text-xl font-bold text-gray-900">
+                        {deal.price.toFixed(2)} $
+                      </p>
+                    )}
+                    {typeof deal.prixBarre === "number" && (
+                      <p className="text-sm text-gray-400 line-through">
+                        {deal.prixBarre.toFixed(2)} $
+                      </p>
+                    )}
+                    {typeof deal.price === "number" && typeof deal.prixBarre === "number" && deal.prixBarre > deal.price && (
+                      <span className="rounded-full bg-green-100 px-1.5 py-0.5 text-xs font-semibold text-green-700">
+                        -{Math.round(((deal.prixBarre - deal.price) / deal.prixBarre) * 100)}%
+                      </span>
+                    )}
+                  </div>
                 </div>
 
                 <div className="mt-4 flex flex-col gap-2">
@@ -253,7 +242,6 @@ export default function DealsPage() {
                     </Link>
                   ) : null}
 
-                  {/* Un seul CTA (affiliation) */}
                   <div className="flex">
                     <a
                       href={deal.affiliateUrl}
@@ -261,11 +249,10 @@ export default function DealsPage() {
                       rel="nofollow sponsored noopener"
                       className={CTA_AFFILIATE_CLASSES}
                     >
-                      Voir l’offre
+                      Voir l&apos;offre
                     </a>
                   </div>
 
-                  {/* Lien détail optionnel (SEO / navigation) mais pas bouton visible */}
                   <Link
                     href={`/deals/${deal.slug}`}
                     className="text-xs font-semibold text-gray-700 underline decoration-gray-300 underline-offset-4 hover:decoration-gray-900"
@@ -282,9 +269,8 @@ export default function DealsPage() {
       <section className="mt-10 rounded-2xl bg-gray-50 p-5">
         <h2 className="text-lg font-semibold">Comment on sélectionne</h2>
         <p className="mt-2 text-sm text-gray-700">
-          PrixMalin est une plateforme d’affiliation : on partage des offres et codes
-          gaming via des liens traçables. On affiche un prix uniquement quand il est
-          certain.
+          PrixMalin est une plateforme d&apos;affiliation : on partage des offres et codes
+          gaming via des liens traçables. On affiche un prix uniquement quand il est certain.
         </p>
       </section>
     </main>
