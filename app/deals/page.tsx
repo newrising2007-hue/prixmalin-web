@@ -101,10 +101,10 @@ function DealCard({ deal }: { deal: Deal }) {
   );
 }
 
-function Section({ title, deals }: { title: string; deals: Deal[] }) {
+function Section({ id, title, deals }: { id: string; title: string; deals: Deal[] }) {
   if (deals.length === 0) return null;
   return (
-    <div className="mt-8">
+    <div id={id} className="mt-10 scroll-mt-6">
       <h2 className="mb-4 text-base font-bold uppercase tracking-widest text-gray-500">{title}</h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {deals.map((d) => <DealCard key={d.slug} deal={d} />)}
@@ -131,6 +131,7 @@ export default function DealsPage() {
         </p>
       </header>
 
+      {/* Filtres plateforme */}
       <div className="flex flex-wrap gap-2">
         {PLATFORMS.map((p) => (
           <button
@@ -147,8 +148,22 @@ export default function DealsPage() {
         ))}
       </div>
 
-      <Section title="🎯 Abonnements" deals={abonnements} />
-      <Section title="🎁 Cartes cadeaux" deals={cartes} />
+      {/* Liens ancres rapides */}
+      <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 border-b border-gray-100 pb-3">
+        {abonnements.length > 0 && (
+          <a href="#abonnements" className="text-sm text-gray-400 hover:text-gray-600 transition">
+            ↓ Abonnements ({abonnements.length})
+          </a>
+        )}
+        {cartes.length > 0 && (
+          <a href="#cartes" className="text-sm text-gray-400 hover:text-gray-600 transition">
+            ↓ Cartes cadeaux ({cartes.length})
+          </a>
+        )}
+      </div>
+
+      <Section id="abonnements" title="🎯 Abonnements" deals={abonnements} />
+      <Section id="cartes" title="🎁 Cartes cadeaux" deals={cartes} />
 
       {filtered.length === 0 && (
         <p className="mt-10 text-center text-gray-500">Aucune offre disponible pour cette plateforme.</p>
