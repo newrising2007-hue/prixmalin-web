@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import dealsData from "@/data/deals.json";
 
 type Deal = {
   slug: string;
+  intentSlug?: string;
   title: string;
   description: string;
   platform: string;
@@ -47,13 +49,11 @@ function DealCard({ deal }: { deal: Deal }) {
       ? Math.round(((deal.prixBarre - deal.price) / deal.prixBarre) * 100)
       : null;
 
-  return (
-    <a
-      href={deal.affiliateUrl}
-      target="_blank"
-      rel="nofollow sponsored noopener"
-      className="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-    >
+  const href = deal.intentSlug ? `/i/${deal.intentSlug}` : deal.affiliateUrl;
+  const isExternal = !deal.intentSlug;
+
+  const inner = (
+    <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md cursor-pointer">
       {deal.badge && (
         <span className={`absolute right-3 top-3 z-10 rounded-full px-2.5 py-1 text-xs font-bold shadow-sm ${BADGE_COLORS[deal.badge] ?? "bg-gray-700 text-white"}`}>
           {deal.badge}
@@ -97,8 +97,18 @@ function DealCard({ deal }: { deal: Deal }) {
           Voir l&apos;offre →
         </div>
       </div>
-    </a>
+    </div>
   );
+
+  if (isExternal) {
+    return (
+      <a href={href} target="_blank" rel="nofollow sponsored noopener">
+        {inner}
+      </a>
+    );
+  }
+
+  return <Link href={href}>{inner}</Link>;
 }
 
 function Section({ id, title, deals }: { id: string; title: string; deals: Deal[] }) {
@@ -131,7 +141,6 @@ export default function DealsPage() {
         </p>
       </header>
 
-      {/* Filtres plateforme */}
       <div className="flex flex-wrap gap-2">
         {PLATFORMS.map((p) => (
           <button
@@ -148,7 +157,6 @@ export default function DealsPage() {
         ))}
       </div>
 
-      {/* Liens ancres rapides */}
       <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 border-b border-gray-100 pb-3">
         {abonnements.length > 0 && (
           <a href="#abonnements" className="text-sm text-gray-400 hover:text-gray-600 transition">
