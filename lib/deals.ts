@@ -12,6 +12,7 @@ export type Deal = {
   affiliateUrl: string;
   platform: string;
   badge?: string;
+  type?: string;
   actif: boolean;
 };
 
@@ -51,8 +52,9 @@ function normalizeItem(item: unknown, fallbackIndex: number, defaultCurrency: st
   const slug = toStringSafe(item.slug) || slugify(title);
   const image = toStringSafe(item.image) || "/images/placeholder-deal.jpg";
   const badge = toStringSafe(item.badge) || undefined;
+  const type = toStringSafe(item.type) || undefined;
 
-  return { slug, title, description, price, prixBarre, currency, image, affiliateUrl, platform, badge, actif: true };
+  return { slug, title, description, price, prixBarre, currency, image, affiliateUrl, platform, badge, type, actif: true };
 }
 
 export function getAllDeals(): Deal[] {
