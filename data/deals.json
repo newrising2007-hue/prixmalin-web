@@ -104,15 +104,13 @@
     },
     {
       "slug": "psn-gift-card-25",
-      "intentSlug": "carte-psn-25-canada",
       "title": "Carte PlayStation Store — 25$",
       "description": "Crédit PSN pour acheter jeux, abonnements et contenu numérique.",
       "platform": "PlayStation",
-      "type": "carte-cadeau",
-      "affiliateUrl": "https://www.amazon.ca/dp/B00GAC1D2G?tag=prixmalin-20",
-      "image": "/images/deals/psn-gift-card-50.webp",
-      "price": 25,
-      "actif": true
+      "affiliateUrl": "https://www.amazon.ca/dp/B08VKM312K?tag=prixmalin-20",
+      "image": "/images/deals/psn-gift-card-25.webp",
+      "actif": true,
+      "price": 25
     },
     {
       "slug": "nintendo-switch-online-12m",
