@@ -4,17 +4,14 @@
   "items": [
     {
       "slug": "xbox-game-pass-ultimate-3m",
-      "intentSlug": "xbox-game-pass-ultimate-3-mois-canada",
       "title": "Xbox Game Pass Ultimate — 3 mois",
       "description": "Accès à des centaines de jeux Xbox et PC avec EA Play inclus.",
       "platform": "Xbox",
-      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin-20",
       "image": "/images/deals/xbox-game-pass-ultimate-3m.webp",
-      "price": 49.99,
-      "prixBarre": 59.99,
-      "badge": "Populaire",
-      "actif": true
+      "actif": true,
+      "price": 101.99,
+      "badge": "Populaire"
     },
     {
       "slug": "xbox-game-pass-ultimate-1m",
@@ -63,27 +60,23 @@
     },
     {
       "slug": "playstation-plus-3-mois",
-      "intentSlug": "playstation-plus-3-mois-canada",
       "title": "PlayStation Plus — 3 mois",
       "description": "Multijoueur en ligne et jeux mensuels inclus.",
       "platform": "PlayStation",
-      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+3+mois&tag=prixmalin-20",
       "image": "/images/deals/playstation.webp",
-      "price": 44.99,
-      "actif": true
+      "actif": false,
+      "price": 44.99
     },
     {
       "slug": "playstation-plus-1-mois",
-      "intentSlug": "playstation-plus-1-mois-canada",
       "title": "PlayStation Plus — 1 mois",
       "description": "Multijoueur en ligne et jeux mensuels inclus.",
       "platform": "PlayStation",
-      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+1+mois&tag=prixmalin-20",
       "image": "/images/deals/playstation.webp",
-      "price": 19.99,
-      "actif": true
+      "actif": false,
+      "price": 19.99
     },
     {
       "slug": "psn-gift-card-100",
@@ -123,15 +116,14 @@
     },
     {
       "slug": "nintendo-switch-online-12m",
-      "intentSlug": "nintendo-switch-online-12-mois-canada",
       "title": "Nintendo Switch Online — 12 mois",
       "description": "Multijoueur en ligne avec bibliothèque rétro NES, SNES et Game Boy.",
       "platform": "Nintendo",
-      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/dp/B08VKL6C5H?tag=prixmalin-20",
       "image": "/images/deals/nintendo-switch-online-12m.webp",
-      "price": 24.99,
-      "actif": true
+      "actif": true,
+      "price": 29.99,
+      "badge": "Populaire"
     },
     {
       "slug": "nintendo-switch-online-expansion-12m",
