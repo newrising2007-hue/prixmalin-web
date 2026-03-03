@@ -1,27 +1,32 @@
 {
-  "updatedAt": "2026-03-03",
+  "updatedAt": "2026-03-02",
   "currency": "CAD",
   "items": [
     {
       "slug": "xbox-game-pass-ultimate-3m",
+      "intentSlug": "xbox-game-pass-ultimate-3-mois-canada",
       "title": "Xbox Game Pass Ultimate — 3 mois",
       "description": "Accès à des centaines de jeux Xbox et PC avec EA Play inclus.",
       "platform": "Xbox",
+      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin-20",
       "image": "/images/deals/xbox-game-pass-ultimate-3m.webp",
-      "actif": true,
-      "price": 101.99,
-      "badge": "Populaire"
+      "price": 49.99,
+      "prixBarre": 59.99,
+      "badge": "Populaire",
+      "actif": true
     },
     {
       "slug": "xbox-game-pass-ultimate-1m",
+      "intentSlug": "xbox-game-pass-ultimate-1-mois-canada",
       "title": "Xbox Game Pass Ultimate — 1 mois",
       "description": "Abonnement mensuel Game Pass Ultimate pour Xbox, PC et cloud gaming.",
       "platform": "Xbox",
+      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8WSRX9?tag=prixmalin-20",
       "image": "/images/deals/xbox-game-pass-ultimate-1m.webp",
-      "actif": true,
-      "price": 33.99
+      "price": 19.99,
+      "actif": true
     },
     {
       "slug": "xbox-gift-card-50",
@@ -32,49 +37,57 @@
       "type": "carte-cadeau",
       "affiliateUrl": "https://www.amazon.ca/dp/B08M7JPPQ2?tag=prixmalin-20",
       "image": "/images/deals/xbox-gift-card-50.webp",
-      "price": 50,
+      "price": 50.00,
       "actif": true
     },
     {
       "slug": "xbox-gift-card-25",
+      "intentSlug": "carte-cadeau-xbox-25-canada",
       "title": "Carte cadeau Xbox — 25$",
       "description": "Crédit Xbox Store pour acheter jeux, DLC et abonnements.",
       "platform": "Xbox",
+      "type": "carte-cadeau",
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8NR5KM?tag=prixmalin-20",
       "image": "/images/deals/xbox-gift-card-50.webp",
-      "actif": true,
-      "price": 25
+      "price": 25.00,
+      "actif": true
     },
     {
       "slug": "ps-plus-premium-12m",
+      "intentSlug": "playstation-plus-prix-canada",
       "title": "PlayStation Plus Premium — 12 mois",
       "description": "Accès complet : multijoueur, catalogue PS4/PS5, cloud gaming et rétro.",
       "platform": "PlayStation",
+      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+Premium+12+mois&tag=prixmalin-20",
       "image": "/images/deals/playstation.webp",
-      "actif": false,
       "price": 139.99,
-      "badge": "Meilleur choix"
+      "badge": "Meilleur choix",
+      "actif": true
     },
     {
       "slug": "playstation-plus-3-mois",
+      "intentSlug": "playstation-plus-3-mois-canada",
       "title": "PlayStation Plus — 3 mois",
       "description": "Multijoueur en ligne et jeux mensuels inclus.",
       "platform": "PlayStation",
+      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+3+mois&tag=prixmalin-20",
       "image": "/images/deals/playstation.webp",
-      "actif": false,
-      "price": 44.99
+      "price": 44.99,
+      "actif": true
     },
     {
       "slug": "playstation-plus-1-mois",
+      "intentSlug": "playstation-plus-1-mois-canada",
       "title": "PlayStation Plus — 1 mois",
       "description": "Multijoueur en ligne et jeux mensuels inclus.",
       "platform": "PlayStation",
+      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+1+mois&tag=prixmalin-20",
       "image": "/images/deals/playstation.webp",
-      "actif": false,
-      "price": 19.99
+      "price": 19.99,
+      "actif": true
     },
     {
       "slug": "psn-gift-card-100",
@@ -85,7 +98,7 @@
       "type": "carte-cadeau",
       "affiliateUrl": "https://www.amazon.ca/dp/B08VLFW3M2?tag=prixmalin-20",
       "image": "/images/deals/psn-gift-card-100.webp",
-      "price": 100,
+      "price": 100.00,
       "actif": true
     },
     {
@@ -97,50 +110,57 @@
       "type": "carte-cadeau",
       "affiliateUrl": "https://www.amazon.ca/dp/B08VKP158Q?tag=prixmalin-20",
       "image": "/images/deals/psn-gift-card-50.webp",
-      "price": 50,
+      "price": 50.00,
       "actif": true
     },
     {
       "slug": "psn-gift-card-25",
+      "intentSlug": "carte-psn-25-canada",
       "title": "Carte PlayStation Store — 25$",
       "description": "Crédit PSN pour acheter jeux, abonnements et contenu numérique.",
       "platform": "PlayStation",
+      "type": "carte-cadeau",
       "affiliateUrl": "https://www.amazon.ca/dp/B08VKM312K?tag=prixmalin-20",
-      "image": "/images/deals/psn-gift-card-25.webp",
-      "actif": true,
-      "price": 25
+      "image": "/images/deals/psn-gift-card-50.webp",
+      "price": 25.00,
+      "actif": true
     },
     {
       "slug": "nintendo-switch-online-12m",
+      "intentSlug": "nintendo-switch-online-12-mois-canada",
       "title": "Nintendo Switch Online — 12 mois",
       "description": "Multijoueur en ligne avec bibliothèque rétro NES, SNES et Game Boy.",
       "platform": "Nintendo",
+      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/dp/B08VKL6C5H?tag=prixmalin-20",
       "image": "/images/deals/nintendo-switch-online-12m.webp",
-      "actif": true,
       "price": 29.99,
-      "badge": "Populaire"
+      "actif": true
     },
     {
       "slug": "nintendo-switch-online-expansion-12m",
+      "intentSlug": "nintendo-switch-online-expansion-pack-canada",
       "title": "Nintendo Switch Online + Expansion Pack — 12 mois",
       "description": "Tout l'abonnement standard + N64, GBA et DLC exclusifs inclus.",
       "platform": "Nintendo",
+      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack+12+mois&tag=prixmalin-20",
       "image": "/images/deals/nintendo-switch-online-12m.webp",
-      "actif": true,
       "price": 69.99,
-      "badge": "Populaire"
+      "badge": "Complet",
+      "actif": true
     },
     {
       "slug": "nintendo-eshop-35",
+      "intentSlug": "carte-nintendo-eshop-35-canada",
       "title": "Carte Nintendo eShop — 35$",
       "description": "Crédit Nintendo eShop pour acheter jeux et contenu sur Switch.",
       "platform": "Nintendo",
+      "type": "carte-cadeau",
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8LMGGD?tag=prixmalin-20",
       "image": "/images/deals/nintendo-eshop-35.webp",
-      "actif": true,
-      "price": 35
+      "price": 35.00,
+      "actif": true
     },
     {
       "slug": "nintendo-eshop-20",
@@ -150,8 +170,8 @@
       "platform": "Nintendo",
       "type": "carte-cadeau",
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8LLCPT?tag=prixmalin-20",
-      "image": "/images/deals/nintendo.webp",
-      "price": 20,
+      "image": "/images/deals/nintendo-eshop-20.webp",
+      "price": 20.00,
       "actif": true
     }
   ]
