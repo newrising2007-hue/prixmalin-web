@@ -134,15 +134,13 @@
     },
     {
       "slug": "nintendo-eshop-35",
-      "intentSlug": "carte-nintendo-eshop-35-canada",
       "title": "Carte Nintendo eShop — 35$",
       "description": "Crédit Nintendo eShop pour acheter jeux et contenu sur Switch.",
       "platform": "Nintendo",
-      "type": "carte-cadeau",
-      "affiliateUrl": "https://www.amazon.ca/s?k=carte+nintendo+eshop+35+canada&tag=prixmalin-20",
-      "image": "/images/deals/nintendo.webp",
-      "price": 35,
-      "actif": true
+      "affiliateUrl": "https://www.amazon.ca/dp/B08M8LMGGD?tag=prixmalin-20",
+      "image": "/images/deals/nintendo-eshop-35.webp",
+      "actif": true,
+      "price": 35
     },
     {
       "slug": "nintendo-eshop-20",
