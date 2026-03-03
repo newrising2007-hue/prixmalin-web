@@ -52,16 +52,14 @@
     },
     {
       "slug": "ps-plus-premium-12m",
-      "intentSlug": "playstation-plus-prix-canada",
       "title": "PlayStation Plus Premium — 12 mois",
       "description": "Accès complet : multijoueur, catalogue PS4/PS5, cloud gaming et rétro.",
       "platform": "PlayStation",
-      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+Premium+12+mois&tag=prixmalin-20",
       "image": "/images/deals/playstation.webp",
+      "actif": false,
       "price": 139.99,
-      "badge": "Meilleur choix",
-      "actif": true
+      "badge": "Meilleur choix"
     },
     {
       "slug": "playstation-plus-3-mois",
