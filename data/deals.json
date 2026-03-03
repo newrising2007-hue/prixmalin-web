@@ -127,16 +127,14 @@
     },
     {
       "slug": "nintendo-switch-online-expansion-12m",
-      "intentSlug": "nintendo-switch-online-expansion-pack-canada",
       "title": "Nintendo Switch Online + Expansion Pack — 12 mois",
       "description": "Tout l'abonnement standard + N64, GBA et DLC exclusifs inclus.",
       "platform": "Nintendo",
-      "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack+12+mois&tag=prixmalin-20",
       "image": "/images/deals/nintendo-switch-online-12m.webp",
-      "price": 59.99,
-      "badge": "Complet",
-      "actif": true
+      "actif": true,
+      "price": 69.99,
+      "badge": "Populaire"
     },
     {
       "slug": "nintendo-eshop-35",
