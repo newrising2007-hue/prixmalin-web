@@ -32,7 +32,7 @@
   {
     "id": "psn-25",
     "title": "Carte PlayStation Store 25$",
-    "price": 25.00,
+    "price": 25,
     "currency": "CAD",
     "platform": "PlayStation",
     "image": "/images/deals/psn-gift-card-50.webp",
@@ -42,7 +42,7 @@
   {
     "id": "psn-50",
     "title": "Carte PlayStation Store 50$",
-    "price": 50.00,
+    "price": 50,
     "currency": "CAD",
     "platform": "PlayStation",
     "image": "/images/deals/psn-gift-card-50.webp",
@@ -52,7 +52,7 @@
   {
     "id": "psn-100",
     "title": "Carte PlayStation Store 100$",
-    "price": 100.00,
+    "price": 100,
     "currency": "CAD",
     "platform": "PlayStation",
     "image": "/images/deals/psn-gift-card-100.webp",
@@ -82,7 +82,7 @@
   {
     "id": "xbox-50",
     "title": "Carte Cadeau Xbox 50$",
-    "price": 50.00,
+    "price": 50,
     "currency": "CAD",
     "platform": "Xbox",
     "image": "/images/deals/xbox-gift-card-50.webp",
@@ -92,7 +92,7 @@
   {
     "id": "xbox-25",
     "title": "Carte Cadeau Xbox 25$",
-    "price": 25.00,
+    "price": 25,
     "currency": "CAD",
     "platform": "Xbox",
     "image": "/images/deals/xbox-gift-card-50.webp",
@@ -122,7 +122,7 @@
   {
     "id": "nintendo-20",
     "title": "Carte Nintendo eShop 20$",
-    "price": 20.00,
+    "price": 20,
     "currency": "CAD",
     "platform": "Nintendo",
     "image": "/images/deals/nintendo.webp",
@@ -132,7 +132,7 @@
   {
     "id": "nintendo-35",
     "title": "Carte Nintendo eShop 35$",
-    "price": 35.00,
+    "price": 35,
     "currency": "CAD",
     "platform": "Nintendo",
     "image": "/images/deals/nintendo.webp",
