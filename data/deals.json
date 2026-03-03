@@ -75,7 +75,7 @@
       "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+3+mois&tag=prixmalin-20",
       "image": "/images/deals/playstation.webp",
       "price": 44.99,
-      "actif": true
+      "actif": false
     },
     {
       "slug": "playstation-plus-1-mois",
@@ -87,7 +87,7 @@
       "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+1+mois&tag=prixmalin-20",
       "image": "/images/deals/playstation.webp",
       "price": 19.99,
-      "actif": true
+      "actif": false
     },
     {
       "slug": "psn-gift-card-100",
