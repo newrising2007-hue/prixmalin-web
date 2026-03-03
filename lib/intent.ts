@@ -1,5 +1,6 @@
 import intentPages from "@/data/intent-pages.json";
 import gamingCodesData from "@/data/affiliate-deals.json";
+import dealsData from "@/data/deals.json";
 
 export type IntentFaqItem = { q: string; a: string };
 
@@ -17,12 +18,12 @@ export type IntentPage = {
 };
 
 export type Deal = {
-  slug: string; // id
-  title: string; // name
-  affiliateUrl: string; // retailers[].affiliateLink
-  price?: number; // dealPrice
-  currency?: string; // CAD par défaut
-  vendor?: string; // retailers[].name
+  slug: string;
+  title: string;
+  affiliateUrl: string;
+  price?: number;
+  currency?: string;
+  vendor?: string;
   image?: string;
   updatedAt?: string;
   category?: string;
@@ -59,57 +60,39 @@ function pickRetailerAffiliate(raw: AnyRecord): { url: string; vendor?: string }
     }))
     .filter((r: AnyRecord) => r._url);
 
-  if (normalized.length === 0) {
-    return { url: "", vendor: undefined };
-  }
+  if (normalized.length === 0) return { url: "", vendor: undefined };
 
-  // 1) Amazon en stock
   const amazon = normalized.find((r: AnyRecord) => r._stock && r._name.includes("amazon"));
   if (amazon) return { url: amazon._url, vendor: amazon._name ?? undefined };
 
-  // 2) Online en stock
   const onlineInStock = normalized.find(
     (r: AnyRecord) => r._stock && (r._type === "online" || r._name.includes("store"))
   );
   if (onlineInStock) return { url: onlineInStock._url, vendor: onlineInStock._name ?? undefined };
 
-  // 3) N'importe lequel en stock
   const anyInStock = normalized.find((r: AnyRecord) => r._stock);
   if (anyInStock) return { url: anyInStock._url, vendor: anyInStock._name ?? undefined };
 
-  // 4) Sinon le premier avec lien
   return { url: normalized[0]._url, vendor: normalized[0]._name ?? undefined };
 }
 
 function flattenAllDeals(root: unknown): AnyRecord[] {
   const v = (root as any)?.default ?? root;
-
   if (Array.isArray(v)) return v;
   if (!v || typeof v !== "object") return [];
 
   const obj = v as AnyRecord;
-
-  const buckets = [
-    "subscriptions",
-    "giftCards",
-    "virtualCurrency",
-    "games",
-    "hardware",
-    "featured_deals",
-  ];
-
+  const buckets = ["subscriptions", "giftCards", "virtualCurrency", "games", "hardware", "featured_deals"];
   const out: AnyRecord[] = [];
 
   for (const b of buckets) {
     const bucketVal = obj[b];
-
     if (Array.isArray(bucketVal)) {
       for (const item of bucketVal) {
         if (item && typeof item === "object") out.push({ ...item, __bucket: b });
       }
       continue;
     }
-
     if (bucketVal && typeof bucketVal === "object") {
       for (const k of Object.keys(bucketVal)) {
         const maybeArr = bucketVal[k];
@@ -135,7 +118,13 @@ function flattenAllDeals(root: unknown): AnyRecord[] {
   return out;
 }
 
-const allDeals = flattenAllDeals(gamingCodesData);
+// Deals depuis affiliate-deals.json (ancien système)
+const allAffiliatDeals = flattenAllDeals(gamingCodesData);
+
+// Deals depuis deals.json (nouveau système)
+const allMainDeals: AnyRecord[] = Array.isArray((dealsData as any).items)
+  ? (dealsData as any).items
+  : [];
 
 export function getAllIntentPages(): IntentPage[] {
   return intentPages as IntentPage[];
@@ -146,7 +135,23 @@ export function getIntentPageBySlug(slug: string): IntentPage | undefined {
 }
 
 export function getDealBySlug(slug: string): Deal | undefined {
-  const raw = allDeals.find((d) => String(d?.id ?? d?.slug ?? "") === slug) as AnyRecord | undefined;
+  // 1) Chercher dans deals.json en priorité
+  const mainDeal = allMainDeals.find((d) => String(d?.slug ?? "") === slug) as AnyRecord | undefined;
+  if (mainDeal) {
+    return {
+      slug: String(mainDeal.slug),
+      title: String(mainDeal.title ?? slug),
+      affiliateUrl: String(mainDeal.affiliateUrl ?? ""),
+      price: asNumber(mainDeal.price),
+      currency: mainDeal.currency ?? "CAD",
+      vendor: mainDeal.platform ?? undefined,
+      image: mainDeal.image ?? undefined,
+      category: mainDeal.type ?? mainDeal.platform,
+    };
+  }
+
+  // 2) Fallback sur affiliate-deals.json
+  const raw = allAffiliatDeals.find((d) => String(d?.id ?? d?.slug ?? "") === slug) as AnyRecord | undefined;
   if (!raw) return undefined;
 
   const { url, vendor } = pickRetailerAffiliate(raw);
