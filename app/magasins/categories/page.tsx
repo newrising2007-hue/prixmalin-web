@@ -15,7 +15,6 @@ const categories = [
   { icon: "🐾", label: "Animaux", slug: "animaux", desc: "Nourriture, vétérinaires, accessoires" },
   { icon: "🏃", label: "Sport & Plein Air", slug: "sport", desc: "Vélo, camping, ski, randonnée" },
   { icon: "🚗", label: "Auto & Véhicules", slug: "auto", desc: "Concessionnaires, pièces, garages" },
-  { icon: "🍽️", label: "Restaurants & Cafés", slug: "restaurants", desc: "Cuisine locale, cafés, traiteurs" },
   { icon: "🎨", label: "Loisirs & Culture", slug: "loisirs", desc: "Livres, jeux de société, artisanat" },
   { icon: "💆", label: "Beauté & Spa", slug: "beaute", desc: "Salons, cosmétiques, soins" },
   { icon: "💻", label: "Bureautique", slug: "bureautique", desc: "Imprimantes, papeterie, mobilier bureau" },
