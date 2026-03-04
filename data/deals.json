@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-03",
+  "updatedAt": "2026-03-04",
   "currency": "CAD",
   "items": [
     {
@@ -233,6 +233,30 @@
       "image": "/images/deals/nintendo-eshop-35.webp",
       "price": 50,
       "actif": true
+    },
+    {
+      "slug": "xbox-game-pass-essential-3-month-membership",
+      "title": "Xbox Game Pass Essential – 3 Month Membership",
+      "description": "",
+      "platform": "Xbox",
+      "affiliateUrl": "https://www.amazon.ca/dp/B0CQN1HNSF?tag=prixmalin-20",
+      "image": "/images/deals/xbox-game-pass-essential-3-month-membership.webp",
+      "actif": true,
+      "price": 34.99,
+      "badge": "Populaire",
+      "type": "abonnement"
+    },
+    {
+      "slug": "xbox-game-pass-essential-1-month-membership",
+      "title": "Xbox Game Pass Essential – 1 Month Membership",
+      "description": "",
+      "platform": "Xbox",
+      "affiliateUrl": "https://www.amazon.ca/dp/B0CQMWMZL2?tag=prixmalin-20",
+      "image": "/images/deals/xbox-game-pass-essential-1-month-membership.webp",
+      "actif": true,
+      "price": 13.99,
+      "badge": "Populaire",
+      "type": "abonnement"
     }
   ]
 }
