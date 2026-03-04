@@ -71,7 +71,7 @@ function DealCard({ deal }: { deal: Deal }) {
       </div>
 
       <div className="flex flex-col flex-1 p-4">
-        <div className="flex items-center gap-2 mb-2">
+        <div className="flex items-center gap-1.5 mb-2">
           <span className={`rounded-full px-2 py-0.5 text-xs font-semibold ${PLATFORM_COLORS[deal.platform] ?? "bg-gray-700 text-white"}`}>
             {deal.platform}
           </span>
@@ -83,7 +83,7 @@ function DealCard({ deal }: { deal: Deal }) {
         <h3 className="text-sm font-semibold leading-snug text-gray-900 line-clamp-2">{deal.title}</h3>
         <p className="mt-1 text-xs text-gray-500 line-clamp-2">{deal.description}</p>
 
-        <div className="mt-3 flex items-end gap-2">
+        <div className="mt-3 flex items-end gap-1.5">
           <span className="text-xl font-bold text-gray-900">{deal.price.toFixed(2)} $</span>
           {deal.prixBarre && (
             <span className="text-sm text-gray-400 line-through">{deal.prixBarre.toFixed(2)} $</span>
@@ -141,7 +141,7 @@ export default function DealsPage() {
         </p>
       </header>
 
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-1.5">
         {PLATFORMS.map((p) => (
           <button
             key={p}
@@ -159,12 +159,12 @@ export default function DealsPage() {
 
       <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 border-b border-gray-100 pb-3">
         {abonnements.length > 0 && (
-          <a href="#abonnements" className="text-sm text-gray-400 hover:text-gray-600 transition">
+          <a href="#abonnements" className="inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-blue-50 px-2.5 py-0.5 text-xs font-semibold text-blue-700 shadow-sm shadow-blue-100 transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-blue-200">
             ↓ Abonnements ({abonnements.length})
           </a>
         )}
         {cartes.length > 0 && (
-          <a href="#cartes" className="text-sm text-gray-400 hover:text-gray-600 transition">
+          <a href="#cartes" className="inline-flex items-center gap-1.5 rounded-full border border-green-200 bg-green-50 px-2.5 py-0.5 text-xs font-semibold text-green-700 shadow-sm shadow-green-100 transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-green-200">
             ↓ Cartes cadeaux ({cartes.length})
           </a>
         )}

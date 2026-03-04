@@ -45,6 +45,8 @@ export default function LayoutChrome({
               </div>
             </div>
 
+
+
             <LanguageSwitch />
           </div>
         </header>
@@ -84,6 +86,9 @@ export default function LayoutChrome({
               <Link href="/magasins/coupons" className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 Coupons
               </Link>
+
+              <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">Contact</a>
+
 
               <LanguageSwitch />
 
@@ -151,6 +156,9 @@ export default function LayoutChrome({
                   </div>
                 </div>
               )}
+
+              <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">Contact</a>
+
 
               <LanguageSwitch />
 
