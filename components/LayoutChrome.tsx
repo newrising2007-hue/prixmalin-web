@@ -151,7 +151,7 @@ export default function LayoutChrome({
                 <div className="relative group">
                   <button className="rounded-lg px-2 py-1 text-orange-500 hover:bg-orange-50 font-semibold">🔧 Dev</button>
                   <div className="absolute right-0 top-8 hidden group-hover:block bg-white border rounded-xl shadow-lg p-2 z-50 w-48">
-                    <a href="/test-affiliate" className="block px-3 py-2 text-sm hover:bg-orange-50 rounded-lg">🎮 Test Affiliation</a>
+                    <a href="/test-deals" className="block px-3 py-2 text-sm hover:bg-orange-50 rounded-lg">🎯 Test Deals</a>
                     <a href="/test-produits" className="block px-3 py-2 text-sm hover:bg-orange-50 rounded-lg">🛍️ Test Produits</a>
                   </div>
                 </div>
