@@ -34,8 +34,11 @@ export default function CodesBonusHub() {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6">Codes bonus gaming</h1>
+    <div className="max-w-4xl mx-auto p-6 pt-10">
+      <div className="mb-6 flex items-start justify-between gap-4">
+  <h1 className="text-3xl font-bold">Codes bonus gaming</h1>
+  <a href="mailto:contact@prixmalin.ca?subject=Soumission%20code%20gaming&body=Plateforme:%0AJeu:%0ACode:%0AR%C3%A9gion:%0AExpiration:" className="shrink-0 inline-flex items-center gap-2 rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs font-semibold text-green-700 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-green-200">📩 Soumettre un code</a>
+</div>
       <p className="mb-4 text-gray-700">
         Choisissez votre console pour accéder aux codes bonus et offres gaming.
       </p>
@@ -46,7 +49,7 @@ export default function CodesBonusHub() {
             href={`/codes-bonus/${console.slug}`}
             className="group relative overflow-hidden block rounded-2xl border border-neutral-200 bg-white/70 backdrop-blur-sm px-6 py-6 text-center font-semibold text-neutral-900 shadow-md shadow-blue-500/10 transition will-change-transform hover:-translate-y-0.5 hover:shadow-lg hover:shadow-blue-500/15 hover:ring-2 hover:ring-blue-200/60 hover:bg-white/80 active:translate-y-px active:shadow-sm"
           >
-            <div className="relative z-10 flex flex-col items-center gap-1">
+            <div className="relative z-10 flex flex-col items-start gap-1">
               <span>{console.name}</span>
               <span className="text-xs font-semibold text-blue-500/80">
                 {countActiveCodes(console.slug)} codes actifs
