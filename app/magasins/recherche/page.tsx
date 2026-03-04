@@ -176,7 +176,7 @@ function RechercheContent() {
         {/* LOCAUX — apparaît après GPS + Render */}
         <div className="space-y-3">
           <div className="flex items-center gap-2">
-            <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide">📍 Magasins près de vous</h2>
+            <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide">📍 Magasins près de vous</h2><span className="text-xs text-gray-400 ml-2">via <span style={{color:"#4285F4"}}>G</span><span style={{color:"#EA4335"}}>o</span><span style={{color:"#FBBC05"}}>o</span><span style={{color:"#34A853"}}>g</span><span style={{color:"#EA4335"}}>l</span><span style={{color:"#4285F4"}}>e</span></span>
             {userCity && <span className="text-xs text-green-700 font-semibold bg-green-50 px-2 py-0.5 rounded-full">📍 {userCity}</span>}
             {loadingLocal && <span className="text-xs text-blue-500 animate-pulse">● Localisation en cours...</span>}
             {gpsStatus === 'denied' && <span className="text-xs text-yellow-600">⚠️ Position non détectée</span>}
