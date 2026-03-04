@@ -61,7 +61,7 @@ export default function MagasinsPage() {
           <div className="absolute inset-0 rounded-full blur-3xl opacity-40"
             style={{ background: "radial-gradient(circle, rgba(34,197,94,0.6), transparent 70%)" }}
           />
-          <Image src="/prixmalin-logo.png" alt="PrixMalin" width={110} height={110}
+          <Image src="/prixmalin-logo.webp" alt="PrixMalin" width={110} height={110}
             className="relative drop-shadow-lg" priority />
         </div>
 
@@ -208,7 +208,7 @@ export default function MagasinsPage() {
           <div className="absolute inset-0 opacity-10"
             style={{ backgroundImage: "radial-gradient(circle at 20% 50%, white 1px, transparent 1px), radial-gradient(circle at 80% 50%, white 1px, transparent 1px)", backgroundSize: "40px 40px" }} />
           <div className="relative">
-            <Image src="/prixmalin-logo.png" alt="App PrixMalin" width={70} height={70} className="mx-auto mb-4 drop-shadow-lg" />
+            <Image src="/prixmalin-logo.webp" alt="App PrixMalin" width={70} height={70} className="mx-auto mb-4 drop-shadow-lg" />
             <h3 className="text-xl font-bold mb-2">Bientôt sur Android</h3>
             <p className="text-white/80 text-sm mb-4">L&apos;app PrixMalin — GPS, recherche locale et deals en temps réel dans votre poche.</p>
             <span className="inline-block px-6 py-2.5 rounded-xl bg-white/20 border border-white/30 text-white font-semibold text-sm backdrop-blur-sm">

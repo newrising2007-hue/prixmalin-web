@@ -77,7 +77,7 @@ export default function HomePage() {
               <div className="absolute inset-0 rounded-full bg-blue-400/40 blur-3xl opacity-70 animate-pulse group-hover:opacity-100" />
 
               <Image
-                src="/prixmalin-logo.png"
+                src="/prixmalin-logo.webp"
                 alt="Accéder à la zone gaming PrixMalin"
                 width={280}
                 height={280}
@@ -126,7 +126,7 @@ export default function HomePage() {
               <div className="absolute inset-0 rounded-full bg-green-400/40 blur-3xl opacity-70 animate-pulse group-hover:opacity-100" />
 
               <Image
-                src="/prixmalin-logo.png"
+                src="/prixmalin-logo.webp"
                 alt="Accéder à la section magasins PrixMalin"
                 width={280}
                 height={280}
