@@ -7,12 +7,27 @@
     "h1": "Xbox Game Pass Ultimate 3 mois au Canada : meilleur prix (CAD)",
     "intro": "Le Game Pass Ultimate 3 mois donne accès à des centaines de jeux Xbox et PC, EA Play inclus, et au cloud gaming. Voici comment l'obtenir au meilleur prix au Canada.",
     "primaryDealSlug": "xbox-game-pass-ultimate-3m",
-    "secondaryDealSlugs": ["xbox-game-pass-ultimate-1m"],
-    "keywords": ["xbox game pass ultimate 3 mois canada", "game pass prix canada", "xbox game pass cad"],
+    "secondaryDealSlugs": [
+      "xbox-game-pass-ultimate-1m"
+    ],
+    "keywords": [
+      "xbox game pass ultimate 3 mois canada",
+      "game pass prix canada",
+      "xbox game pass cad"
+    ],
     "faq": [
-      { "q": "Le Game Pass Ultimate fonctionne-t-il sur Xbox et PC?", "a": "Oui, le Game Pass Ultimate couvre Xbox, PC et le cloud gaming depuis n'importe quel appareil." },
-      { "q": "EA Play est-il inclus?", "a": "Oui, EA Play est inclus avec Game Pass Ultimate sans frais supplémentaires." },
-      { "q": "Le code est-il valide au Canada?", "a": "Vérifie toujours que l'offre est pour la région Canada (CAD) avant d'acheter." }
+      {
+        "q": "Le Game Pass Ultimate fonctionne-t-il sur Xbox et PC?",
+        "a": "Oui, le Game Pass Ultimate couvre Xbox, PC et le cloud gaming depuis n'importe quel appareil."
+      },
+      {
+        "q": "EA Play est-il inclus?",
+        "a": "Oui, EA Play est inclus avec Game Pass Ultimate sans frais supplémentaires."
+      },
+      {
+        "q": "Le code est-il valide au Canada?",
+        "a": "Vérifie toujours que l'offre est pour la région Canada (CAD) avant d'acheter."
+      }
     ]
   },
   {
@@ -23,11 +38,23 @@
     "h1": "Xbox Game Pass Ultimate 1 mois au Canada : prix (CAD)",
     "intro": "L'abonnement mensuel Game Pass Ultimate est idéal pour tester ou pour un mois ponctuel. Voici les meilleures options au Canada.",
     "primaryDealSlug": "xbox-game-pass-ultimate-1m",
-    "secondaryDealSlugs": ["xbox-game-pass-ultimate-3m"],
-    "keywords": ["xbox game pass 1 mois canada", "game pass mensuel canada", "game pass ultimate prix"],
+    "secondaryDealSlugs": [
+      "xbox-game-pass-ultimate-3m"
+    ],
+    "keywords": [
+      "xbox game pass 1 mois canada",
+      "game pass mensuel canada",
+      "game pass ultimate prix"
+    ],
     "faq": [
-      { "q": "Puis-je annuler après 1 mois?", "a": "Oui, l'abonnement mensuel ne renouvelle pas automatiquement si tu utilises un code physique ou numérique." },
-      { "q": "C'est moins cher que l'abonnement 3 mois?", "a": "Non, le 3 mois est plus avantageux à long terme. Le 1 mois coûte 19,99$ vs 49,99$ pour 3 mois." }
+      {
+        "q": "Puis-je annuler après 1 mois?",
+        "a": "Oui, l'abonnement mensuel ne renouvelle pas automatiquement si tu utilises un code physique ou numérique."
+      },
+      {
+        "q": "C'est moins cher que l'abonnement 3 mois?",
+        "a": "Non, le 3 mois est plus avantageux à long terme. Le 1 mois coûte 19,99$ vs 49,99$ pour 3 mois."
+      }
     ]
   },
   {
@@ -38,12 +65,27 @@
     "h1": "Carte cadeau Xbox 50$ au Canada : meilleur prix (CAD)",
     "intro": "Guide rapide pour acheter une carte cadeau Xbox 50$ (CAD) au Canada : où l'acheter, comment éviter les erreurs de région et profiter d'un lien affilié sécurisé.",
     "primaryDealSlug": "xbox-gift-card-50",
-    "secondaryDealSlugs": ["xbox-gift-card-25"],
-    "keywords": ["carte cadeau xbox 50 canada", "carte xbox 50 cad", "code xbox canada"],
+    "secondaryDealSlugs": [
+      "xbox-gift-card-25"
+    ],
+    "keywords": [
+      "carte cadeau xbox 50 canada",
+      "carte xbox 50 cad",
+      "code xbox canada"
+    ],
     "faq": [
-      { "q": "La carte Xbox 50$ fonctionne-t-elle au Canada?", "a": "Oui, si la carte est destinée au Canada (CAD/CA). Vérifie toujours la région avant d'acheter." },
-      { "q": "Je peux l'utiliser sur Xbox et PC?", "a": "Oui, le crédit Xbox/Microsoft est utilisable dans l'écosystème Microsoft (Xbox, PC, store)." },
-      { "q": "Code digital ou carte physique?", "a": "Ça dépend du vendeur. Certaines offres livrent un code digital rapidement, d'autres expédient une carte physique." }
+      {
+        "q": "La carte Xbox 50$ fonctionne-t-elle au Canada?",
+        "a": "Oui, si la carte est destinée au Canada (CAD/CA). Vérifie toujours la région avant d'acheter."
+      },
+      {
+        "q": "Je peux l'utiliser sur Xbox et PC?",
+        "a": "Oui, le crédit Xbox/Microsoft est utilisable dans l'écosystème Microsoft (Xbox, PC, store)."
+      },
+      {
+        "q": "Code digital ou carte physique?",
+        "a": "Ça dépend du vendeur. Certaines offres livrent un code digital rapidement, d'autres expédient une carte physique."
+      }
     ]
   },
   {
@@ -54,11 +96,23 @@
     "h1": "Carte cadeau Xbox 25$ au Canada : meilleur prix (CAD)",
     "intro": "La carte cadeau Xbox 25$ est idéale pour un petit crédit sur le Xbox Store. Voici comment trouver une offre Canada valide.",
     "primaryDealSlug": "xbox-gift-card-25",
-    "secondaryDealSlugs": ["xbox-gift-card-50"],
-    "keywords": ["carte cadeau xbox 25 canada", "carte xbox 25 cad", "crédit xbox canada"],
+    "secondaryDealSlugs": [
+      "xbox-gift-card-50"
+    ],
+    "keywords": [
+      "carte cadeau xbox 25 canada",
+      "carte xbox 25 cad",
+      "crédit xbox canada"
+    ],
     "faq": [
-      { "q": "Quelle différence entre 25$ et 50$?", "a": "Juste la valeur du crédit. Le 25$ est bien pour un petit achat, le 50$ pour un jeu ou un abonnement." },
-      { "q": "Utilisable pour Game Pass?", "a": "Oui, tu peux utiliser le crédit Xbox pour payer un abonnement Game Pass depuis ton compte." }
+      {
+        "q": "Quelle différence entre 25$ et 50$?",
+        "a": "Juste la valeur du crédit. Le 25$ est bien pour un petit achat, le 50$ pour un jeu ou un abonnement."
+      },
+      {
+        "q": "Utilisable pour Game Pass?",
+        "a": "Oui, tu peux utiliser le crédit Xbox pour payer un abonnement Game Pass depuis ton compte."
+      }
     ]
   },
   {
@@ -69,12 +123,28 @@
     "h1": "Prix PlayStation Plus 12 mois au Canada",
     "intro": "Voici comment obtenir PlayStation Plus 12 mois au meilleur prix au Canada, avec un code digital instantané et un lien affilié traçable.",
     "primaryDealSlug": "ps-plus-premium-12m",
-    "secondaryDealSlugs": ["playstation-plus-3-mois", "playstation-plus-1-mois"],
-    "keywords": ["prix playstation plus canada", "ps plus 12 mois prix", "code ps plus canada"],
+    "secondaryDealSlugs": [
+      "playstation-plus-3-mois",
+      "playstation-plus-1-mois"
+    ],
+    "keywords": [
+      "prix playstation plus canada",
+      "ps plus 12 mois prix",
+      "code ps plus canada"
+    ],
     "faq": [
-      { "q": "Le code PlayStation Plus fonctionne-t-il au Canada?", "a": "Oui, si le code est indiqué comme valide au Canada (région CA). Vérifie toujours la région avant l'achat." },
-      { "q": "Je reçois le code instantanément?", "a": "La plupart des offres digitales livrent le code rapidement après achat (selon le vendeur)." },
-      { "q": "Puis-je utiliser le code sur un compte existant?", "a": "Oui, dans la majorité des cas tu peux prolonger un abonnement existant avec un nouveau code." }
+      {
+        "q": "Le code PlayStation Plus fonctionne-t-il au Canada?",
+        "a": "Oui, si le code est indiqué comme valide au Canada (région CA). Vérifie toujours la région avant l'achat."
+      },
+      {
+        "q": "Je reçois le code instantanément?",
+        "a": "La plupart des offres digitales livrent le code rapidement après achat (selon le vendeur)."
+      },
+      {
+        "q": "Puis-je utiliser le code sur un compte existant?",
+        "a": "Oui, dans la majorité des cas tu peux prolonger un abonnement existant avec un nouveau code."
+      }
     ]
   },
   {
@@ -85,11 +155,24 @@
     "h1": "PlayStation Plus 3 mois au Canada : prix (CAD)",
     "intro": "L'abonnement PS Plus 3 mois est une bonne option pour un trimestre de jeu en ligne. Voici les meilleures offres disponibles au Canada.",
     "primaryDealSlug": "playstation-plus-3-mois",
-    "secondaryDealSlugs": ["ps-plus-premium-12m", "playstation-plus-1-mois"],
-    "keywords": ["playstation plus 3 mois canada", "ps plus 3 mois prix", "abonnement ps plus canada"],
+    "secondaryDealSlugs": [
+      "ps-plus-premium-12m",
+      "playstation-plus-1-mois"
+    ],
+    "keywords": [
+      "playstation plus 3 mois canada",
+      "ps plus 3 mois prix",
+      "abonnement ps plus canada"
+    ],
     "faq": [
-      { "q": "Quelle différence entre PS Plus 3 mois et 12 mois?", "a": "Le 12 mois revient moins cher à l'année. Le 3 mois est bien pour tester ou pour une période précise." },
-      { "q": "Les jeux mensuels sont-ils inclus?", "a": "Oui, PS Plus inclut des jeux mensuels gratuits pour tous les niveaux d'abonnement." }
+      {
+        "q": "Quelle différence entre PS Plus 3 mois et 12 mois?",
+        "a": "Le 12 mois revient moins cher à l'année. Le 3 mois est bien pour tester ou pour une période précise."
+      },
+      {
+        "q": "Les jeux mensuels sont-ils inclus?",
+        "a": "Oui, PS Plus inclut des jeux mensuels gratuits pour tous les niveaux d'abonnement."
+      }
     ]
   },
   {
@@ -100,11 +183,24 @@
     "h1": "PlayStation Plus 1 mois au Canada : prix (CAD)",
     "intro": "L'abonnement mensuel PS Plus est idéal pour un mois ponctuel de jeu en ligne. Voici les options disponibles au Canada.",
     "primaryDealSlug": "playstation-plus-1-mois",
-    "secondaryDealSlugs": ["playstation-plus-3-mois", "ps-plus-premium-12m"],
-    "keywords": ["playstation plus 1 mois canada", "ps plus mensuel prix", "ps plus canada"],
+    "secondaryDealSlugs": [
+      "playstation-plus-3-mois",
+      "ps-plus-premium-12m"
+    ],
+    "keywords": [
+      "playstation plus 1 mois canada",
+      "ps plus mensuel prix",
+      "ps plus canada"
+    ],
     "faq": [
-      { "q": "Puis-je annuler après 1 mois?", "a": "Avec un code physique ou digital, l'abonnement ne renouvelle pas automatiquement." },
-      { "q": "C'est avantageux par rapport au 12 mois?", "a": "Non, le 12 mois revient à environ 11,67$/mois vs 19,99$ pour 1 mois seul." }
+      {
+        "q": "Puis-je annuler après 1 mois?",
+        "a": "Avec un code physique ou digital, l'abonnement ne renouvelle pas automatiquement."
+      },
+      {
+        "q": "C'est avantageux par rapport au 12 mois?",
+        "a": "Non, le 12 mois revient à environ 11,67$/mois vs 19,99$ pour 1 mois seul."
+      }
     ]
   },
   {
@@ -115,12 +211,28 @@
     "h1": "Carte PlayStation Store 100$ au Canada : meilleur prix (CAD)",
     "intro": "La carte PSN 100$ est idéale pour un gros achat sur le PlayStation Store — jeux, abonnements ou contenu numérique.",
     "primaryDealSlug": "psn-gift-card-100",
-    "secondaryDealSlugs": ["psn-gift-card-50", "psn-gift-card-25"],
-    "keywords": ["carte psn 100 canada", "carte playstation 100 cad", "code psn 100 canada"],
+    "secondaryDealSlugs": [
+      "psn-gift-card-50",
+      "psn-gift-card-25"
+    ],
+    "keywords": [
+      "carte psn 100 canada",
+      "carte playstation 100 cad",
+      "code psn 100 canada"
+    ],
     "faq": [
-      { "q": "La carte PSN 100$ est-elle valide au Canada?", "a": "Oui, si c'est une carte Canada (CAD/CA). Les cartes PSN sont régionales." },
-      { "q": "Est-ce utilisable pour PS Plus?", "a": "Oui, tu peux utiliser le crédit PSN pour acheter des abonnements PlayStation Plus." },
-      { "q": "Code instantané ou carte physique?", "a": "Souvent code digital instantané pour les offres en ligne, carte physique sinon." }
+      {
+        "q": "La carte PSN 100$ est-elle valide au Canada?",
+        "a": "Oui, si c'est une carte Canada (CAD/CA). Les cartes PSN sont régionales."
+      },
+      {
+        "q": "Est-ce utilisable pour PS Plus?",
+        "a": "Oui, tu peux utiliser le crédit PSN pour acheter des abonnements PlayStation Plus."
+      },
+      {
+        "q": "Code instantané ou carte physique?",
+        "a": "Souvent code digital instantané pour les offres en ligne, carte physique sinon."
+      }
     ]
   },
   {
@@ -131,11 +243,24 @@
     "h1": "Carte PlayStation Store 50$ au Canada : meilleur prix (CAD)",
     "intro": "La carte PSN 50$ est parfaite pour un jeu ou du contenu numérique sur PlayStation Store au Canada.",
     "primaryDealSlug": "psn-gift-card-50",
-    "secondaryDealSlugs": ["psn-gift-card-100", "psn-gift-card-25"],
-    "keywords": ["carte psn 50 canada", "carte playstation 50 cad", "code psn canada"],
+    "secondaryDealSlugs": [
+      "psn-gift-card-100",
+      "psn-gift-card-25"
+    ],
+    "keywords": [
+      "carte psn 50 canada",
+      "carte playstation 50 cad",
+      "code psn canada"
+    ],
     "faq": [
-      { "q": "La carte PSN 50$ est-elle valide au Canada?", "a": "Oui, si c'est une carte Canada (CAD/CA). Vérifie la région avant d'acheter." },
-      { "q": "Puis-je l'utiliser pour acheter un jeu PS5?", "a": "Oui, le crédit PSN s'utilise pour n'importe quel achat sur le PlayStation Store." }
+      {
+        "q": "La carte PSN 50$ est-elle valide au Canada?",
+        "a": "Oui, si c'est une carte Canada (CAD/CA). Vérifie la région avant d'acheter."
+      },
+      {
+        "q": "Puis-je l'utiliser pour acheter un jeu PS5?",
+        "a": "Oui, le crédit PSN s'utilise pour n'importe quel achat sur le PlayStation Store."
+      }
     ]
   },
   {
@@ -146,11 +271,23 @@
     "h1": "Carte PSN 25$ (PlayStation Store) au Canada : meilleur prix",
     "intro": "Pour recharger ton portefeuille PlayStation, une carte PSN 25$ (CAD) est une option simple. Voici comment choisir une offre Canada et éviter les erreurs de région.",
     "primaryDealSlug": "psn-gift-card-25",
-    "secondaryDealSlugs": ["psn-gift-card-50"],
-    "keywords": ["carte psn 25 canada", "carte playstation store 25 cad", "code psn canada"],
+    "secondaryDealSlugs": [
+      "psn-gift-card-50"
+    ],
+    "keywords": [
+      "carte psn 25 canada",
+      "carte playstation store 25 cad",
+      "code psn canada"
+    ],
     "faq": [
-      { "q": "La carte PSN 25$ est-elle valide au Canada?", "a": "Oui, si c'est une carte Canada (CAD/CA). Les cartes sont régionales : vérifie avant l'achat." },
-      { "q": "Est-ce utilisable pour PlayStation Plus?", "a": "Oui, tu peux utiliser le crédit PlayStation Store pour acheter des jeux et certains abonnements." }
+      {
+        "q": "La carte PSN 25$ est-elle valide au Canada?",
+        "a": "Oui, si c'est une carte Canada (CAD/CA). Les cartes sont régionales : vérifie avant l'achat."
+      },
+      {
+        "q": "Est-ce utilisable pour PlayStation Plus?",
+        "a": "Oui, tu peux utiliser le crédit PlayStation Store pour acheter des jeux et certains abonnements."
+      }
     ]
   },
   {
@@ -161,11 +298,23 @@
     "h1": "Nintendo Switch Online 12 mois au Canada : meilleur prix (CAD)",
     "intro": "Nintendo Switch Online 12 mois donne accès au multijoueur en ligne et à la bibliothèque rétro NES, SNES et Game Boy. Voici les meilleures offres au Canada.",
     "primaryDealSlug": "nintendo-switch-online-12m",
-    "secondaryDealSlugs": ["nintendo-switch-online-expansion-12m"],
-    "keywords": ["nintendo switch online 12 mois canada", "switch online prix canada", "abonnement nintendo canada"],
+    "secondaryDealSlugs": [
+      "nintendo-switch-online-expansion-12m"
+    ],
+    "keywords": [
+      "nintendo switch online 12 mois canada",
+      "switch online prix canada",
+      "abonnement nintendo canada"
+    ],
     "faq": [
-      { "q": "Quelle différence entre Switch Online standard et Expansion Pack?", "a": "Le standard inclut NES, SNES et Game Boy. L'Expansion Pack ajoute N64, GBA et des DLC exclusifs." },
-      { "q": "Le code fonctionne-t-il au Canada?", "a": "Oui, si l'offre est pour la région Canada. Vérifie avant d'acheter." }
+      {
+        "q": "Quelle différence entre Switch Online standard et Expansion Pack?",
+        "a": "Le standard inclut NES, SNES et Game Boy. L'Expansion Pack ajoute N64, GBA et des DLC exclusifs."
+      },
+      {
+        "q": "Le code fonctionne-t-il au Canada?",
+        "a": "Oui, si l'offre est pour la région Canada. Vérifie avant d'acheter."
+      }
     ]
   },
   {
@@ -176,11 +325,23 @@
     "h1": "Nintendo Switch Online + Expansion Pack 12 mois au Canada : prix (CAD)",
     "intro": "L'Expansion Pack ajoute Nintendo 64, Game Boy Advance et des DLC exclusifs à l'abonnement Switch Online standard. Voici comment l'obtenir au Canada.",
     "primaryDealSlug": "nintendo-switch-online-expansion-12m",
-    "secondaryDealSlugs": ["nintendo-switch-online-12m"],
-    "keywords": ["nintendo switch online expansion pack canada", "switch online expansion prix", "nintendo expansion pack cad"],
+    "secondaryDealSlugs": [
+      "nintendo-switch-online-12m"
+    ],
+    "keywords": [
+      "nintendo switch online expansion pack canada",
+      "switch online expansion prix",
+      "nintendo expansion pack cad"
+    ],
     "faq": [
-      { "q": "Quels jeux N64 sont inclus?", "a": "Des titres comme Mario 64, Zelda Ocarina of Time et d'autres classiques N64 sont inclus selon les disponibilités." },
-      { "q": "Ça vaut le prix par rapport au standard?", "a": "Si tu joues aux classiques N64/GBA, oui. Sinon le standard à 24,99$ suffit." }
+      {
+        "q": "Quels jeux N64 sont inclus?",
+        "a": "Des titres comme Mario 64, Zelda Ocarina of Time et d'autres classiques N64 sont inclus selon les disponibilités."
+      },
+      {
+        "q": "Ça vaut le prix par rapport au standard?",
+        "a": "Si tu joues aux classiques N64/GBA, oui. Sinon le standard à 24,99$ suffit."
+      }
     ]
   },
   {
@@ -191,11 +352,23 @@
     "h1": "Carte Nintendo eShop 35$ au Canada : meilleur prix (CAD)",
     "intro": "La carte Nintendo eShop 35$ permet d'acheter des jeux et du contenu sur Switch. Voici comment choisir une offre Canada valide.",
     "primaryDealSlug": "nintendo-eshop-35",
-    "secondaryDealSlugs": ["nintendo-eshop-20"],
-    "keywords": ["carte nintendo eshop 35 canada", "code nintendo 35 cad", "carte eshop canada"],
+    "secondaryDealSlugs": [
+      "nintendo-eshop-20"
+    ],
+    "keywords": [
+      "carte nintendo eshop 35 canada",
+      "code nintendo 35 cad",
+      "carte eshop canada"
+    ],
     "faq": [
-      { "q": "La carte eShop 35$ est-elle valide au Canada?", "a": "Oui, si la carte est pour la région Canada. Les cartes eShop sont régionales." },
-      { "q": "Utilisable pour Nintendo Switch Online?", "a": "Oui, tu peux utiliser le crédit eShop pour acheter un abonnement Switch Online." }
+      {
+        "q": "La carte eShop 35$ est-elle valide au Canada?",
+        "a": "Oui, si la carte est pour la région Canada. Les cartes eShop sont régionales."
+      },
+      {
+        "q": "Utilisable pour Nintendo Switch Online?",
+        "a": "Oui, tu peux utiliser le crédit eShop pour acheter un abonnement Switch Online."
+      }
     ]
   },
   {
@@ -206,12 +379,83 @@
     "h1": "Carte Nintendo eShop 20$ au Canada : meilleur prix (CAD)",
     "intro": "La carte Nintendo eShop 20$ (CAD) permet d'acheter des jeux et du contenu sur Switch. Voici comment choisir une offre Canada et éviter les erreurs de région.",
     "primaryDealSlug": "nintendo-eshop-20",
-    "secondaryDealSlugs": ["nintendo-eshop-35"],
-    "keywords": ["carte nintendo eshop 20 canada", "code nintendo 20 cad", "carte eshop canada"],
+    "secondaryDealSlugs": [
+      "nintendo-eshop-35"
+    ],
+    "keywords": [
+      "carte nintendo eshop 20 canada",
+      "code nintendo 20 cad",
+      "carte eshop canada"
+    ],
     "faq": [
-      { "q": "La carte Nintendo eShop 20$ fonctionne-t-elle au Canada?", "a": "Oui, si la carte est destinée au Canada (CAD/CA). Les cartes eShop sont régionales : vérifie la région avant d'acheter." },
-      { "q": "Je peux l'utiliser sur Nintendo Switch?", "a": "Oui, tu ajoutes le code au compte Nintendo (région Canada) puis tu utilises le crédit dans l'eShop." },
-      { "q": "Digital ou physique?", "a": "Les deux existent. Les offres digitales sont souvent livrées rapidement, mais ça dépend du vendeur." }
+      {
+        "q": "La carte Nintendo eShop 20$ fonctionne-t-elle au Canada?",
+        "a": "Oui, si la carte est destinée au Canada (CAD/CA). Les cartes eShop sont régionales : vérifie la région avant d'acheter."
+      },
+      {
+        "q": "Je peux l'utiliser sur Nintendo Switch?",
+        "a": "Oui, tu ajoutes le code au compte Nintendo (région Canada) puis tu utilises le crédit dans l'eShop."
+      },
+      {
+        "q": "Digital ou physique?",
+        "a": "Les deux existent. Les offres digitales sont souvent livrées rapidement, mais ça dépend du vendeur."
+      }
+    ]
+  },
+  {
+    "slug": "xbox-game-pass-essential-3-mois-canada",
+    "title": "Xbox Game Pass Essential 3 mois au Canada",
+    "metaTitle": "Xbox Game Pass Essential 3 mois au Canada : prix (CAD)",
+    "metaDescription": "Achetez Xbox Game Pass Essential 3 mois au Canada. Accès à des centaines de jeux Xbox et PC. Prix en dollars canadiens.",
+    "h1": "Xbox Game Pass Essential 3 mois au Canada : prix (CAD)",
+    "intro": "Le Xbox Game Pass Essential offre l'accès à plus de 100 jeux Xbox et PC pour 3 mois. Voici comment l'obtenir au meilleur prix au Canada.",
+    "primaryDealSlug": "xbox-game-pass-essential-3-month-membership",
+    "secondaryDealSlugs": [
+      "xbox-game-pass-essential-1-month-membership",
+      "xbox-game-pass-ultimate-3m"
+    ],
+    "keywords": [
+      "xbox game pass essential 3 mois canada",
+      "game pass essential prix canada",
+      "abonnement xbox canada"
+    ],
+    "faq": [
+      {
+        "q": "Quelle est la différence entre Essential et Ultimate?",
+        "a": "L'Ultimate inclut le cloud gaming et Xbox Live Gold. L'Essential donne accès aux jeux du catalogue sans ces extras."
+      },
+      {
+        "q": "Le Game Pass Essential fonctionne-t-il au Canada?",
+        "a": "Oui, il est disponible au Canada. Le prix est affiché en dollars canadiens."
+      }
+    ]
+  },
+  {
+    "slug": "xbox-game-pass-essential-1-mois-canada",
+    "title": "Xbox Game Pass Essential 1 mois au Canada",
+    "metaTitle": "Xbox Game Pass Essential 1 mois au Canada : prix (CAD)",
+    "metaDescription": "Achetez Xbox Game Pass Essential 1 mois au Canada. Accès immédiat à des centaines de jeux Xbox et PC.",
+    "h1": "Xbox Game Pass Essential 1 mois au Canada : prix (CAD)",
+    "intro": "Le Xbox Game Pass Essential mensuel est idéal pour tester le service ou jouer pendant un mois sans engagement. Voici les meilleures offres au Canada.",
+    "primaryDealSlug": "xbox-game-pass-essential-1-month-membership",
+    "secondaryDealSlugs": [
+      "xbox-game-pass-essential-3-month-membership",
+      "xbox-game-pass-ultimate-1m"
+    ],
+    "keywords": [
+      "xbox game pass essential 1 mois canada",
+      "game pass essential mensuel canada",
+      "abonnement xbox 1 mois"
+    ],
+    "faq": [
+      {
+        "q": "Puis-je annuler après 1 mois?",
+        "a": "Oui, l'abonnement mensuel ne se renouvelle pas automatiquement si tu achètes une carte prépayée."
+      },
+      {
+        "q": "Quelle est la différence entre Essential et Ultimate?",
+        "a": "L'Ultimate inclut le cloud gaming et Xbox Live Gold. L'Essential donne accès aux jeux du catalogue sans ces extras."
+      }
     ]
   }
 ]
