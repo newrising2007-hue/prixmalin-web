@@ -12,6 +12,8 @@ const CATEGORIES: Record<string, {
   cat: string;
   color: string;
   gradient: string;
+  onlineOnly?: boolean;
+  affiliates?: { name: string; url: string; logo: string; desc: string; badge: string | null }[];
 }> = {
   epicerie: {
     label: 'Épicerie & Alimentation',
@@ -157,6 +159,23 @@ const CATEGORIES: Record<string, {
     color: '#0369a1',
     gradient: 'from-sky-400/20 to-blue-500/10',
   },
+  intimes: {
+    label: 'Intimes 🔞',
+    icon: '🔞',
+    description: 'Jouets pour adultes, lubrifiants, lingerie coquine — livraison discrète partout au Canada.',
+    popularSearches: ['adult toys', 'sex toys', 'jouets adultes', 'lubrifiant', 'lingerie', 'vibrator', 'massager', 'intimate'],
+    cat: 'intimes',
+    color: '#be185d',
+    gradient: 'from-pink-400/20 to-rose-500/10',
+    onlineOnly: true,
+    affiliates: [
+      { name: 'Lovehoney Canada', url: 'https://www.lovehoney.ca/?utm_source=prixmalin', logo: '🍯', desc: 'Catalogue complet — livraison discrète', badge: 'Meilleur choix' },
+      { name: 'Adam & Eve Canada', url: 'https://www.adameve.com/?utm_source=prixmalin', logo: '🍎', desc: 'Large sélection de jouets et lingerie', badge: null },
+      { name: 'Honey Play Box', url: 'https://www.honeyplaybox.com/?utm_source=prixmalin', logo: '🍯', desc: 'Jouets premium livraison Canada', badge: null },
+      { name: 'Good For Her', url: 'https://goodforher.com/?utm_source=prixmalin', logo: '💚', desc: 'Boutique canadienne réputée — Toronto', badge: 'Canadien' },
+      { name: 'Amazon.ca — Intimes', url: 'https://www.amazon.ca/s?k=jouets+adultes&tag=prixmalin-20', logo: '📦', desc: 'Livraison Prime — emballage discret', badge: 'Déjà affilié' },
+    ],
+  },
 };
 
 export default function CategoriePage() {
@@ -221,35 +240,63 @@ export default function CategoriePage() {
           </button>
         </form>
 
-        {/* RECHERCHES POPULAIRES */}
-        <div className="mb-8">
-          <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">
-            🔥 Recherches populaires
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {cat.popularSearches.map((term) => (
-              <button
-                key={term}
-                onClick={() => handlePopular(term)}
-                className="px-4 py-2 rounded-xl border-2 border-gray-100 bg-white hover:border-green-300 hover:shadow-sm transition-all text-sm text-gray-700 font-medium capitalize"
-              >
-                {term}
-              </button>
-            ))}
+        {/* RECHERCHES POPULAIRES ou AFFILIÉS ONLINE */}
+        {cat.onlineOnly ? (
+          <div className="mb-8">
+            <div className="flex items-center gap-2 mb-4">
+              <span className="text-sm font-bold text-gray-500 uppercase tracking-wide">📦 Boutiques en ligne — Livraison discrète au Canada</span>
+            </div>
+            <div className="flex flex-col gap-3">
+              {(cat.affiliates || []).map((aff) => (
+                <a key={aff.name} href={aff.url} target="_blank" rel="noopener noreferrer sponsored"
+                  className="group flex items-center gap-4 p-4 rounded-2xl border-2 border-gray-100 bg-white hover:border-pink-300 hover:shadow-md transition-all duration-200">
+                  <div className="text-3xl w-12 h-12 flex items-center justify-center rounded-xl bg-pink-50">{aff.logo}</div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="font-bold text-gray-800 text-sm">{aff.name}</span>
+                      {aff.badge && (
+                        <span className="px-2 py-0.5 rounded-full text-xs font-semibold text-white"
+                          style={{ background: 'linear-gradient(135deg, #be185d, #9d174d)' }}>{aff.badge}</span>
+                      )}
+                    </div>
+                    <p className="text-xs text-gray-400 mt-0.5">{aff.desc}</p>
+                  </div>
+                  <span className="text-pink-500 font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+              ))}
+            </div>
+            <p className="text-xs text-gray-400 mt-4 text-center">🔒 Livraison dans un emballage neutre et discret</p>
           </div>
-        </div>
-
-        {/* CTA RECHERCHE COMPLÈTE */}
-        <div className="p-5 rounded-2xl border border-gray-100 bg-white/60 text-center">
-          <p className="text-gray-500 text-sm mb-3">
-            Vous ne trouvez pas ce que vous cherchez ?
-          </p>
-          <Link href={`/magasins/recherche?cat=${cat.cat}`}
-            className="inline-block px-6 py-2.5 rounded-xl text-white font-semibold text-sm"
-            style={{ background: 'linear-gradient(135deg, #16a34a, #059669)' }}>
-            🔍 Recherche libre dans {cat.label}
-          </Link>
-        </div>
+        ) : (
+          <>
+            <div className="mb-8">
+              <h2 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">
+                🔥 Recherches populaires
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {cat.popularSearches.map((term) => (
+                  <button
+                    key={term}
+                    onClick={() => handlePopular(term)}
+                    className="px-4 py-2 rounded-xl border-2 border-gray-100 bg-white hover:border-green-300 hover:shadow-sm transition-all text-sm text-gray-700 font-medium capitalize"
+                  >
+                    {term}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <div className="p-5 rounded-2xl border border-gray-100 bg-white/60 text-center">
+              <p className="text-gray-500 text-sm mb-3">
+                Vous ne trouvez pas ce que vous cherchez ?
+              </p>
+              <Link href={`/magasins/recherche?cat=${cat.cat}`}
+                className="inline-block px-6 py-2.5 rounded-xl text-white font-semibold text-sm"
+                style={{ background: 'linear-gradient(135deg, #16a34a, #059669)' }}>
+                🔍 Recherche libre dans {cat.label}
+              </Link>
+            </div>
+          </>
+        )}
 
         <div className="mt-8 text-center">
           <Link href="/magasins" className="text-sm text-gray-400 hover:text-green-600 transition-colors">
