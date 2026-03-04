@@ -1,0 +1,173 @@
+{
+  "updatedAt": "2026-03-03",
+  "circulaires": [
+    {
+      "nom": "BMR",
+      "categorie": "quincaillerie",
+      "emoji": "🔧",
+      "url": "https://www.bmr.ca/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Brick (The)",
+      "categorie": "meuble",
+      "emoji": "🛋️",
+      "url": "https://www.thebrick.com/flyer",
+      "actif": true
+    },
+    {
+      "nom": "Brunet",
+      "categorie": "pharmacie",
+      "emoji": "💊",
+      "url": "https://www.brunet.ca/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Bulk Barn",
+      "categorie": "alimentation",
+      "emoji": "🛒",
+      "url": "https://www.bulkbarn.ca/flyer",
+      "actif": true
+    },
+    {
+      "nom": "Bureau en Gros",
+      "categorie": "bureautique",
+      "emoji": "📦",
+      "url": "https://www.bureauengros.com/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Canac",
+      "categorie": "quincaillerie",
+      "emoji": "🔧",
+      "url": "https://www.canac.ca/canac/fr/circulaire-reguliere",
+      "actif": true
+    },
+    {
+      "nom": "Canadian Tire",
+      "categorie": "quincaillerie",
+      "emoji": "🔧",
+      "url": "https://www.canadiantire.ca/fr/flyer.html",
+      "actif": true
+    },
+    {
+      "nom": "Home Depot",
+      "categorie": "quincaillerie",
+      "emoji": "🔧",
+      "url": "https://www.homedepot.ca/flyer",
+      "actif": true
+    },
+    {
+      "nom": "IGA",
+      "categorie": "alimentation",
+      "emoji": "🛒",
+      "url": "https://www.iga.net/fr/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Jean Coutu",
+      "categorie": "pharmacie",
+      "emoji": "💊",
+      "url": "https://www.jeancoutu.com/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "JYSK",
+      "categorie": "meuble",
+      "emoji": "🛋️",
+      "url": "https://www.jysk.ca/fr/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Loblaws",
+      "categorie": "alimentation",
+      "emoji": "🛒",
+      "url": "https://www.loblaws.ca/flyer",
+      "actif": true
+    },
+    {
+      "nom": "Maxi",
+      "categorie": "alimentation",
+      "emoji": "🛒",
+      "url": "https://www.maxi.ca/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Metro",
+      "categorie": "alimentation",
+      "emoji": "🛒",
+      "url": "https://www.metro.ca/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Meubles Domon",
+      "categorie": "meuble",
+      "emoji": "🛋️",
+      "url": "https://www.meublesdomon.com/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Meubles Léon",
+      "categorie": "meuble",
+      "emoji": "🛋️",
+      "url": "https://www.leons.ca/flyer",
+      "actif": true
+    },
+    {
+      "nom": "Mondou",
+      "categorie": "animaux",
+      "emoji": "🐾",
+      "url": "https://www.mondou.com/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Pharmaprix",
+      "categorie": "pharmacie",
+      "emoji": "💊",
+      "url": "https://www.pharmaprix.ca/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Provigo",
+      "categorie": "alimentation",
+      "emoji": "🛒",
+      "url": "https://www.provigo.ca/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Rona",
+      "categorie": "quincaillerie",
+      "emoji": "🔧",
+      "url": "https://www.rona.ca/fr/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Super C",
+      "categorie": "alimentation",
+      "emoji": "🛒",
+      "url": "https://www.superc.ca/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Tigre Géant",
+      "categorie": "grandmagasin",
+      "emoji": "🏬",
+      "url": "https://www.tigregiant.ca/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Uniprix",
+      "categorie": "pharmacie",
+      "emoji": "💊",
+      "url": "https://www.uniprix.com/circulaire",
+      "actif": true
+    },
+    {
+      "nom": "Walmart",
+      "categorie": "grandmagasin",
+      "emoji": "🏬",
+      "url": "https://www.walmart.ca/fr/flyers",
+      "actif": true
+    }
+  ]
+}
