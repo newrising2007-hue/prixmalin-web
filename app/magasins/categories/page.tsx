@@ -20,7 +20,6 @@ const categories = [
   { icon: "💆", label: "Beauté & Spa", slug: "beaute", desc: "Salons, cosmétiques, soins" },
   { icon: "💻", label: "Bureautique", slug: "bureautique", desc: "Imprimantes, papeterie, mobilier bureau" },
   { icon: "🔞", label: "Intimes", slug: "intimes", desc: "Jouets adultes, lubrifiants, lingerie coquine" },
-  { icon: "🔞", label: "Intimes", slug: "intimes", desc: "Jouets adultes, lubrifiants, lingerie coquine" },
 ];
 
 export default function CategoriesPage() {
