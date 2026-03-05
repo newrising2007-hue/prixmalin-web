@@ -163,7 +163,7 @@ const CATEGORIES: Record<string, {
     label: 'Intimes 🔞',
     icon: '🔞',
     description: 'Jouets pour adultes, lubrifiants, lingerie coquine — livraison discrète partout au Canada.',
-    popularSearches: ['adult toys', 'sex toys', 'jouets adultes', 'lubrifiant', 'lingerie', 'vibrator', 'massager', 'intimate'],
+    popularSearches: ['jouets adultes', 'vibromasseur', 'lubrifiant', 'lingerie sexy', 'stimulateur', 'huile massage', 'accessoires couple', 'dildo', 'plug anal', 'gode', 'menottes', 'anneau pénien', 'masturbateur', 'adult toys', 'vibrator', 'lubricant', 'sexy lingerie', 'anal plug', 'handcuffs', 'cock ring', 'masturbator', 'bondage'],
     cat: 'intimes',
     color: '#be185d',
     gradient: 'from-pink-400/20 to-rose-500/10',
