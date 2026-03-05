@@ -328,5 +328,31 @@
     "prix": "209.99",
     "prixBarre": "249.99",
     "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "z-edge",
+    "title": "Z-Edge",
+    "shortDescription": "Moniteur de jeu incurvé de 27 pouces 16:9 1920x1080 300Hz 1ms sans cadre LED, UG27S, AMD Freesync Premium, Display Port HDMI",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DZLZX1GL?tag=prixmalin-20",
+    "category": "ecrans",
+    "image": "/images/products/z-edge.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "195.49",
+    "prixBarre": "229.99",
+    "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "asus-tuf-gaming-31-5",
+    "title": "ASUS TUF Gaming 31,5’’ ",
+    "shortDescription": "1440P Moniteur de jeu incurvé HDR (VG32WQ3B) – QHD (2560 x 1440), 180Hz, 0,5ms, 1500R, Extreme Low Motion Blur, FreeSync, 90% DCI-P3, Shadow Boost, DisplayWidget, garantie de 3 ans",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DQ9MMZVV?tag=prixmalin-20",
+    "category": "ecrans",
+    "image": "/images/products/asus-tuf-gaming-31-5.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "349.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-05"
   }
 ]
