@@ -276,5 +276,31 @@
     "prix": "169.99",
     "prixBarre": "259.99",
     "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "kediers-boitier-c650",
+    "title": "KEDIERS Boîtier C650",
+    "shortDescription": "Tour ATX en verre trempé avec cadre ouvert pour ordinateur de jeu avec 7 ventilateurs RVB ",
+    "amazonUrl": "https://www.amazon.ca/dp/B0B65JCS4C?tag=prixmalin-20",
+    "category": "boitiers",
+    "image": "/images/products/kediers-boitier-c650.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "125.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "hyxn-atx-boitier",
+    "title": "HYXN ATX Boîtier",
+    "shortDescription": "8 ventilateurs PWM ARGB pré-installés (6 x 140 mm, 2 x 120 mm), grand boîtier PC de jeu ATX à double chambre ATX à flux d'air moyen, support de radiateur de 420 mm ",
+    "amazonUrl": "https://www.amazon.ca/dp/B0G3511PGL?tag=prixmalin-20",
+    "category": "boitiers",
+    "image": "/images/products/hyxn-atx-boitier.webp",
+    "badge": "Nouveau",
+    "actif": true,
+    "prix": "259.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-05"
   }
 ]
