@@ -263,5 +263,18 @@
     "prix": "119.98",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "chaise-de-bureau-mimoglad",
+    "title": "Chaise de bureau Mimoglad",
+    "shortDescription": "Ergonomique à dossier haut avec support lombaire réglable et appuie-tête.",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DJS81LPB?tag=prixmalin-20",
+    "category": "chaises",
+    "image": "/images/products/chaise-de-bureau-mimoglad.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "169.99",
+    "prixBarre": "259.99",
+    "prixVerifieLe": "2026-03-05"
   }
 ]
