@@ -211,5 +211,18 @@
     "prix": "154.99",
     "prixBarre": "164.99",
     "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "razer-firefly-v2-pro-tapis-de-souris",
+    "title": "Razer Firefly V2 Pro Tapis de souris",
+    "shortDescription": "Tapis de souris de gaming RGB entièrement illuminé : Design rétroéclairé - Éclairage Chroma sur 15 zones - Port USB 2.0 - Câble USB Type C détachable - Surface microtexturée ",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CY6RJRBR?tag=prixmalin-20",
+    "category": "accessoires",
+    "image": "/images/products/razer-firefly-v2-pro-tapis-de-souris.webp",
+    "badge": "Nouveau",
+    "actif": true,
+    "prix": "122.98",
+    "prixBarre": "144.99",
+    "prixVerifieLe": "2026-03-05"
   }
 ]
