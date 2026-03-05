@@ -354,5 +354,18 @@
     "prix": "349.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "test",
+    "title": "test",
+    "shortDescription": "grsdf",
+    "amazonUrl": "",
+    "category": "souris",
+    "image": "",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "11111111111111",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-05"
   }
 ]
