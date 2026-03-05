@@ -11,6 +11,9 @@ const CATEGORIES = [
   { slug: "claviers", label: "⌨️ Claviers" },
   { slug: "manettes", label: "🎮 Manettes" },
   { slug: "accessoires", label: "🎒 Accessoires" },
+  { slug: "chaises", label: "🪑 Chaises" },
+  { slug: "ecrans", label: "🖥️ Écrans" },
+  { slug: "boitiers", label: "🖥️ Boîtiers PC" },
 ];
 
 export default function ProduitsPage() {
