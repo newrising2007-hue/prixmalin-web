@@ -302,5 +302,18 @@
     "prix": "259.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "support-de-tour-d-ordinateur",
+    "title": "Support de tour d'ordinateur",
+    "shortDescription": "Support de processeur mobile réglable avec 4 roulettes, support de tour d'ordinateur PC convient à la plupart des PC sous le bureau",
+    "amazonUrl": "https://www.amazon.ca/dp/B08R1HKL16?tag=prixmalin-20",
+    "category": "accessoires",
+    "image": "/images/products/support-de-tour-d-ordinateur.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "14.99",
+    "prixBarre": "16.93",
+    "prixVerifieLe": "2026-03-05"
   }
 ]
