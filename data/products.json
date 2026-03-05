@@ -237,5 +237,31 @@
     "prix": "159.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "dowinx-chaise-de-jeu-et-bureau",
+    "title": "Dowinx Chaise de jeu et  bureau",
+    "shortDescription": " support lombaire massant, fauteuil de style vintage en cuir PU",
+    "amazonUrl": "https://www.amazon.ca/dp/B08C9W19YL?tag=prixmalin-20",
+    "category": "chaises",
+    "image": "/images/products/dowinx-chaise-de-jeu-et-bureau.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "269.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "chaise-de-jeu-avec-repose-pieds",
+    "title": "Chaise de jeu avec repose-pieds",
+    "shortDescription": "Chaise de bureau à dossier haut avec massage inclinable, chaise de jeu de course ergonomique grande et haute pour adultes en cuir PVC",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C656RSNC?tag=prixmalin-20",
+    "category": "chaises",
+    "image": "/images/products/chaise-de-jeu-avec-repose-pieds.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "119.98",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-05"
   }
 ]
