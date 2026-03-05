@@ -224,5 +224,18 @@
     "prix": "122.98",
     "prixBarre": "144.99",
     "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "microphone-razer-seiren-v3-chroma-rgb-usb",
+    "title": "Microphone Razer Seiren V3 Chroma RGB USB",
+    "shortDescription": "éclairage réactif pour le streaming et les jeux - capteur de coupure d'un simple toucher - microphone à condensateur - limiteur de gain numérique, offert en 3 couleurs",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CT7D7JVR?tag=prixmalin-20",
+    "category": "accessoires",
+    "image": "/images/products/microphone-razer-seiren-v3-chroma-rgb-usb.webp",
+    "badge": "Aucun",
+    "actif": true,
+    "prix": "159.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-05"
   }
 ]
