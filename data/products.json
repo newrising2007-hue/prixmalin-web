@@ -19,7 +19,7 @@
     "image": "/images/products/logitech-g203.webp",
     "badge": "Deal du jour",
     "prix": "49.99",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "steelseries-arctis-nova-1",
@@ -41,7 +41,7 @@
     "category": "claviers",
     "image": "/images/products/hyperx-alloy-core.webp",
     "prix": "59.98",
-    "prixVerifieLe": "2026-03-01"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2",
@@ -54,7 +54,7 @@
     "actif": true,
     "prix": "178.99",
     "prixBarre": "239.99",
-    "prixVerifieLe": "2026-03-01"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2-se",
@@ -67,7 +67,7 @@
     "actif": true,
     "prix": "199.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-01"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "clavier-steelseries-apex-3-rgb",
@@ -80,7 +80,7 @@
     "actif": true,
     "prix": "59.98",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "steelseries-qck-gaming-mouse-pad-medium",
@@ -93,7 +93,7 @@
     "actif": true,
     "prix": "14.98",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "new-bee-support-pour-casque-rgb",
@@ -119,7 +119,7 @@
     "actif": true,
     "prix": "78.19",
     "prixBarre": "84.99",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "dualsense-wireless-controller-playstation",
@@ -132,7 +132,7 @@
     "actif": true,
     "prix": "94.00",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "logitech-g-435-lightspeed",
@@ -145,7 +145,7 @@
     "actif": true,
     "prix": "69.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "logitech-g305-lightspeed",
@@ -154,11 +154,11 @@
     "amazonUrl": "https://www.amazon.ca/dp/B086PDW7BB?tag=prixmalin-20",
     "category": "souris",
     "image": "/images/products/logitech-g305-lightspeed.webp",
-    "badge": "Meilleur vendeur",
+    "badge": "Deal du jour",
     "actif": true,
-    "prix": "63.39",
+    "prix": "62.59",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "logitech-g213-prodigy-rgb",
@@ -171,7 +171,7 @@
     "actif": true,
     "prix": "79.10",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "8bitdo-ultimate-wireless-controller",
@@ -184,7 +184,7 @@
     "actif": true,
     "prix": "44.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
@@ -197,7 +197,7 @@
     "actif": true,
     "prix": "24.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-02"
+    "prixVerifieLe": "2026-03-05"
   },
   {
     "slug": "elgato-game-capture-neo",
