@@ -315,5 +315,18 @@
     "prix": "14.99",
     "prixBarre": "16.93",
     "prixVerifieLe": "2026-03-05"
+  },
+  {
+    "slug": "corsair-3500x-lx-r",
+    "title": "CORSAIR 3500X LX-R",
+    "shortDescription": "Boîtier PC Tour moyenne – 3 ventilateurs LX120-R RVB pré-installés, comprend un concentrateur système iCUE Link, un bras anti-affaissement du GPU",
+    "amazonUrl": "https://www.amazon.ca/dp/B0FJ2V6VVP?tag=prixmalin-20",
+    "category": "boitiers",
+    "image": "/images/products/corsair-3500x-lx-r.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "209.99",
+    "prixBarre": "249.99",
+    "prixVerifieLe": "2026-03-05"
   }
 ]
