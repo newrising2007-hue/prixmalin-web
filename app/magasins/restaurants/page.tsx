@@ -311,7 +311,12 @@ export default function RestaurantsPage() {
       }
       return true;
     })
-    .sort((a, b) => (a.distance ?? 999) - (b.distance ?? 999));
+    .sort((a, b) => {
+      // Nos restos vérifiés en premier, ensuite par distance
+      if (a.source === 'prixmalin' && b.source !== 'prixmalin') return -1;
+      if (b.source === 'prixmalin' && a.source !== 'prixmalin') return 1;
+      return (a.distance ?? 999) - (b.distance ?? 999);
+    });
 
   const toggleService = (s: string) => {
     setServices(prev => prev.includes(s) ? prev.filter(x => x !== s) : [...prev, s]);
