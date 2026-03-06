@@ -218,6 +218,19 @@ export default function MagasinsPage() {
         </div>
       </section>
 
+      {/* ═══════ CTA COMMERCES ═══════ */}
+      <section className="px-6 pb-16 max-w-3xl mx-auto text-center">
+        <div className="rounded-2xl border border-dashed border-green-200 bg-green-50/50 p-6">
+          <p className="text-gray-600 text-sm mb-2">
+            Vous souhaitez plus de visibilité pour votre commerce dans la région ?
+          </p>
+          <a href="mailto:contact@prixmalin.ca?subject=Visibilité commerce"
+            className="inline-flex items-center gap-2 text-green-700 font-semibold text-sm hover:underline">
+            ✉️ Écrivez-nous, on s&apos;en occupe
+          </a>
+        </div>
+      </section>
+
     </main>
   );
 }
