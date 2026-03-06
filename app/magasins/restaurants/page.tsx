@@ -252,28 +252,38 @@ export default function RestaurantsPage() {
   const DEFAULT_LNG = -79.4335;
 
   useEffect(() => {
-    fetch(`${BACKEND}/api/restaurants`)
-      .then(r => r.json())
-      .then(data => {
-        setRestaurants(data.restaurants || []);
-        setLoading(false);
-      })
-      .catch(() => {
-        setError("Impossible de charger les restaurants. Réessayez dans quelques instants.");
-        setLoading(false);
-      });
+    // GPS d'abord, ensuite fetch avec coordonnées
+    const fetchRestaurants = (lat: number, lng: number, rayon: number = 100) => {
+      fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=${rayon}`)
+        .then(r => r.json())
+        .then(data => {
+          setRestaurants(data.restaurants || []);
+          setLoading(false);
+        })
+        .catch(() => {
+          setError("Impossible de charger les restaurants. Réessayez dans quelques instants.");
+          setLoading(false);
+        });
+    };
 
-    // GPS
     if (navigator.geolocation) {
       setGpsLoading(true);
       navigator.geolocation.getCurrentPosition(
         pos => {
-          setUserPos({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+          const lat = pos.coords.latitude;
+          const lng = pos.coords.longitude;
+          setUserPos({ lat, lng });
           setGpsLoading(false);
+          fetchRestaurants(lat, lng);
         },
-        () => setGpsLoading(false),
+        () => {
+          setGpsLoading(false);
+          fetchRestaurants(DEFAULT_LAT, DEFAULT_LNG);
+        },
         { timeout: 8000 }
       );
+    } else {
+      fetchRestaurants(DEFAULT_LAT, DEFAULT_LNG);
     }
   }, []);
 
