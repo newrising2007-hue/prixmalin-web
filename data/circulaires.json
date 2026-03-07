@@ -114,13 +114,6 @@
       "actif": true
     },
     {
-      "nom": "Pharmaprix",
-      "categorie": "pharmacie",
-      "emoji": "💊",
-      "url": "https://www.pharmaprix.ca/circulaire",
-      "actif": true
-    },
-    {
       "nom": "Provigo",
       "categorie": "alimentation",
       "emoji": "🛒",
@@ -142,24 +135,10 @@
       "actif": true
     },
     {
-      "nom": "Tigre Géant",
-      "categorie": "grandmagasin",
-      "emoji": "🏬",
-      "url": "https://www.tigregiant.ca/circulaire",
-      "actif": true
-    },
-    {
       "nom": "Uniprix",
       "categorie": "pharmacie",
       "emoji": "💊",
-      "url": "https://www.uniprix.com/circulaire",
-      "actif": true
-    },
-    {
-      "nom": "Walmart",
-      "categorie": "grandmagasin",
-      "emoji": "🏬",
-      "url": "https://www.walmart.ca/fr/flyers",
+      "url": "https://www.uniprix.com/fr/circulaire",
       "actif": true
     }
   ]
