@@ -12,7 +12,7 @@ import {
 import { getSiteUrl } from "@/lib/site";
 
 type PageProps = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string; locale: string }>;
 };
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? getSiteUrl() ?? "https://prixmalin.ca";
@@ -99,7 +99,8 @@ function DealCard({ deal, featured = false }: { deal: Deal; featured?: boolean }
 }
 
 export async function generateStaticParams() {
-  return getAllIntentPages().map((p) => ({ slug: p.slug }));
+  const locales = ["fr", "en", "es", "ar", "zh"];
+  return getAllIntentPages().flatMap((p) => locales.map((locale) => ({ slug: p.slug, locale })));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
