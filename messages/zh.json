@@ -86,73 +86,76 @@
     },
     "categories": {
       "epicerie": {
-        "label": "",
-        "desc": ""
+        "label": "食品和杂货",
+        "desc": "超市，肉店，面包店，水果店"
       },
       "boucherie": {
-        "label": "",
-        "desc": ""
+        "label": "肉店和熟食店",
+        "desc": "肉店，熟食店，地方特色肉类"
       },
       "electronique": {
-        "label": "",
-        "desc": ""
+        "label": "电子产品",
+        "desc": "手机，笔记本电脑，电视，音频设备"
       },
       "maison": {
-        "label": "",
-        "desc": ""
+        "label": "家居和装饰",
+        "desc": "家具，装饰，床上用品，厨房用具"
       },
       "meuble": {
-        "label": "",
-        "desc": ""
+        "label": "家具和床上用品",
+        "desc": "家具，床垫，床上用品，储物柜"
       },
       "quincaillerie": {
-        "label": "",
-        "desc": ""
+        "label": "五金店和工具",
+        "desc": "工具，材料，电气，管道"
       },
       "renovation": {
-        "label": "",
-        "desc": ""
+        "label": "装修",
+        "desc": "承包商，材料，设计"
       },
       "mode": {
-        "label": "",
-        "desc": ""
+        "label": "时尚和服装",
+        "desc": "男女老少，鞋子"
       },
       "sante": {
-        "label": "",
-        "desc": ""
+        "label": "健康和药店",
+        "desc": "药品，维生素，眼镜"
       },
       "animaux": {
-        "label": "",
-        "desc": ""
+        "label": "动物",
+        "desc": "宠物食品，兽医，配件"
       },
       "sport": {
-        "label": "",
-        "desc": ""
+        "label": "运动和户外活动",
+        "desc": "自行车，露营，滑雪，徒步旅行"
       },
       "auto": {
-        "label": "",
-        "desc": ""
+        "label": "汽车和车辆",
+        "desc": "经销商，零件，修理厂"
       },
       "loisirs": {
-        "label": "",
-        "desc": ""
+        "label": "休闲和文化",
+        "desc": "书籍，棋盘游戏，手工艺品"
       },
       "beaute": {
-        "label": "",
-        "desc": ""
+        "label": "美容和水疗",
+        "desc": "沙龙，化妆品，护理"
       },
       "bureautique": {
-        "label": "",
-        "desc": ""
+        "label": "办公用品",
+        "desc": "打印机，纸张，办公家具"
       },
       "informatique": {
-        "label": "",
-        "desc": ""
+        "label": "计算机和信息技术",
+        "desc": "电脑，维修，网络，软件"
       },
       "intimes": {
-        "label": "",
-        "desc": ""
-      }
+        "label": "亲密用品",
+        "desc": "成人玩具，润滑剂，性感内衣"
+      },
+      "titre": "所有分类",
+      "sous_titre": "选择一个分类，找到您附近最好的商店",
+      "explorer": "探索 →"
     }
   },
   "restaurants": {
