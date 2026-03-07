@@ -1,0 +1,17 @@
+{
+  "accueil": {
+    "titre": "欢迎来到PrixMalin",
+    "description": "发现优惠游戏和购物优惠的加拿大平台。",
+    "badge": "加拿大平台",
+    "gaming": {
+      "titre": "游戏优惠"
+    },
+    "magasins": {
+      "titre": "本地购物"
+    },
+    "cta": {
+      "gaming": "查看游戏优惠",
+      "magasins": "浏览商店"
+    }
+  }
+}

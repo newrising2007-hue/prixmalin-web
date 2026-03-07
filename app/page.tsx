@@ -1,9 +1,11 @@
 "use client";
+import {useTranslations} from "next-intl";
 
 import Image from "next/image";
 import Link from "next/link";
 
 export default function HomePage() {
+  const t = useTranslations();
   return (
     <main className="relative min-h-screen overflow-hidden">
 
@@ -26,7 +28,7 @@ export default function HomePage() {
 
           {/* badge */}
           <div className="absolute right-2 top-10 rotate-12 rounded-full bg-red-600 px-3 py-1 text-xs font-semibold text-white shadow-md">
-            🇨🇦 Plateforme canadienne
+            🇨🇦 {t("accueil.badge")}
           </div>
         </div>
       </div>
@@ -34,7 +36,7 @@ export default function HomePage() {
       {/* HEADER */}
       <header className="relative z-10 mx-auto max-w-5xl px-6 pt-14 text-center">
         <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-          Bienvenue sur PrixMalin
+          {t("accueil.titre")}
         </h1>
 
         <p className="mt-4 text-base text-gray-600 sm:text-lg">

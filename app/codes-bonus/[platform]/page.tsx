@@ -4,7 +4,7 @@ import DealCard from "@/components/DealCard"
 import type { Deal } from "@/types/deal"
 import dealsData from "@/data/gaming-codes.json"
 
-export const dynamic = "error"
+export const dynamic = "force-dynamic"
 
 type PageProps = {
   params: Promise<{

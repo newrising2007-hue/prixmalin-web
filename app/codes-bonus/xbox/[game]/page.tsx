@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { XBOX_GAMES as xboxGames } from "@/src/data/codes-bonus/xbox-games";
 import codesData from "@/src/data/bonus-codes/codes.json";
 
-export const dynamic = "error";
+export const dynamic = "force-dynamic";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://prixmalin.ca";
 
