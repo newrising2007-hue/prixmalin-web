@@ -1,0 +1,17 @@
+{
+  "accueil": {
+    "titre": "Bienvenue sur PrixMalin",
+    "description": "La plateforme canadienne pour découvrir des bons plans gaming et des offres de magasinage.",
+    "badge": "Plateforme canadienne",
+    "gaming": {
+      "titre": "Deals Gaming"
+    },
+    "magasins": {
+      "titre": "Magasinage local"
+    },
+    "cta": {
+      "gaming": "Voir les deals gaming",
+      "magasins": "Explorer les magasins"
+    }
+  }
+}

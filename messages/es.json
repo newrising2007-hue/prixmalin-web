@@ -1,0 +1,17 @@
+{
+  "accueil": {
+    "titre": "Bienvenido a PrixMalin",
+    "description": "La plataforma canadiense para descubrir ofertas de juegos y compras.",
+    "badge": "Plataforma canadiense",
+    "gaming": {
+      "titre": "Ofertas de juegos"
+    },
+    "magasins": {
+      "titre": "Compras locales"
+    },
+    "cta": {
+      "gaming": "Ver las ofertas de juegos",
+      "magasins": "Explorar las tiendas"
+    }
+  }
+}
