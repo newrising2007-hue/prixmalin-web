@@ -150,7 +150,11 @@ function getOnlineResults(query: string, category: string): OnlineResult[] {
   };
 
   // ── ALIMENTATION → priorité locaux, Amazon + Walmart seulement ──
-  if (['epicerie', 'boucherie'].includes(category)) {
+  if (['boucherie'].includes(category)) {
+    return [];
+  }
+
+  if (['epicerie'].includes(category)) {
     return [amazon, walmart];
   }
 
@@ -207,7 +211,7 @@ export async function GET(request: NextRequest) {
   if (lat && lng) {
     try {
       const backendUrl = `https://prixmalin-backend.onrender.com/api/search?q=${encodeURIComponent(query)}&cat=${category}&lat=${lat}&lng=${lng}`;
-      const res = await fetch(backendUrl, { signal: AbortSignal.timeout(8000) });
+      const res = await fetch(backendUrl, { signal: AbortSignal.timeout(3000) });
       if (res.ok) {
         const data = await res.json();
         localResults = data.results || [];
