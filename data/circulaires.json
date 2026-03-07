@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-03",
+  "updatedAt": "2026-03-07",
   "circulaires": [
     {
       "nom": "BMR",
@@ -19,7 +19,7 @@
       "nom": "Brunet",
       "categorie": "pharmacie",
       "emoji": "💊",
-      "url": "https://www.brunet.ca/circulaire",
+      "url": "https://www.brunet.ca/circulaire-en-ligne/",
       "actif": true
     },
     {
