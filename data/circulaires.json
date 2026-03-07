@@ -2,6 +2,12 @@
   "updatedAt": "2026-03-07",
   "circulaires": [
     {
+      "nom": "Accent Meuble",
+      "url": "https://www.accentmeubles.com/fr/circulaire.html?afficherSuccursale=1",
+      "emoji": "🛋️",
+      "actif": true
+    },
+    {
       "nom": "BMR",
       "categorie": "quincaillerie",
       "emoji": "🔧",
@@ -48,6 +54,12 @@
       "categorie": "quincaillerie",
       "emoji": "🔧",
       "url": "https://www.canadiantire.ca/fr/flyer.html",
+      "actif": true
+    },
+    {
+      "nom": "Hart",
+      "url": "https://www.hartstores.com/fr/pages/flyer",
+      "emoji": "📰",
       "actif": true
     },
     {
