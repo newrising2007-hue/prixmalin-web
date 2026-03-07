@@ -156,6 +156,35 @@
         "label": "Intimes",
         "desc": "Jouets adultes, lubrifiants, lingerie coquine"
       }
+    },
+    "coupons": {
+      "title": "Rabais",
+      "accent_title": "Codes Promo",
+      "subtitle": "Codes vérifiés · Grands détaillants canadiens · Économies garanties",
+      "category_label": "Catégorie",
+      "show_expired": "Afficher les codes expirés",
+      "back": "← Retour Magasinage",
+      "available": "code disponible",
+      "available_plural": "codes disponibles",
+      "no_title": "Aucun coupon trouvé",
+      "no_desc": "Revenez bientôt — de nouveaux codes sont ajoutés régulièrement",
+      "cta_question": "Vous connaissez un bon code promo à partager ?",
+      "cta_action": "✉️ Contactez-nous, on l ajoute",
+      "copy": "📋 Copier",
+      "copied": "✅ Copié!",
+      "shop": "🛍️ Magasiner sur",
+      "expired": "⛔ Expiré",
+      "expires_soon": "⚠️ Expire dans",
+      "valid_until": "📅 Valide jusqu au",
+      "categories": {
+        "all": "Tous",
+        "electro": "Électronique",
+        "epicerie": "Épicerie",
+        "restaurant": "Restaurant",
+        "mode": "Mode",
+        "maison": "Maison",
+        "sport": "Sport"
+      }
     }
   },
   "restaurants": {

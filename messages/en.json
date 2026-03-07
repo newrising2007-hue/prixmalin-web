@@ -153,6 +153,35 @@
         "label": "Intimate",
         "desc": "Adult toys, lubricants, lingerie"
       }
+    },
+    "coupons": {
+      "title": "Discounts",
+      "accent_title": "Promo Codes",
+      "subtitle": "Verified codes · Canadian big stores · Guaranteed savings",
+      "category_label": "Category",
+      "show_expired": "Show expired codes",
+      "back": "← Back to Shopping",
+      "available": "code available",
+      "available_plural": "codes disponibles",
+      "no_title": "No coupon found",
+      "no_desc": "Come back soon — new codes are added regularly",
+      "cta_question": "Do you know a good promo code to share?",
+      "cta_action": "✉️ Contact us, we'll add it",
+      "copy": "📋 Copy",
+      "copied": "✅ Copied!",
+      "shop": "🛍️ Shop at",
+      "expired": "⛔ Expired",
+      "expires_soon": "⚠️ Expires in",
+      "valid_until": "📅 Valid until",
+      "categories": {
+        "all": "All",
+        "electro": "Electronics",
+        "epicerie": "Grocery",
+        "restaurant": "Restaurant",
+        "mode": "Fashion",
+        "maison": "Home",
+        "sport": "Sport"
+      }
     }
   },
   "restaurants": {

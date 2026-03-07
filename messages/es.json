@@ -153,6 +153,35 @@
         "label": "Íntimos",
         "desc": "Juguetes para adultos, lubricantes, lencería sexy"
       }
+    },
+    "coupons": {
+      "title": "Descuentos",
+      "accent_title": "Códigos de promoción",
+      "subtitle": "Códigos verificados · Grandes minoristas canadienses · Ahorros garantizados",
+      "category_label": "Categoría",
+      "show_expired": "Mostrar códigos expirados",
+      "back": "← Volver a las compras",
+      "available": "código disponible",
+      "available_plural": "códigos disponibles",
+      "no_title": "No se encontró ningún cupón",
+      "no_desc": "Vuelva pronto — se agregan nuevos códigos regularmente",
+      "cta_question": "¿Conoce un buen código de promoción para compartir?",
+      "cta_action": "✉️ Contáctenos, lo agregamos",
+      "copy": "📋 Copiar",
+      "copied": "✅ Copiado!",
+      "shop": "🛍️ Comprar en",
+      "expired": "⛔ Expirado",
+      "expires_soon": "⚠️ Expira en",
+      "valid_until": "📅 Válido hasta",
+      "categories": {
+        "all": "Todos",
+        "electro": "Electrónica",
+        "epicerie": "Comestibles",
+        "restaurant": "Restaurante",
+        "mode": "Moda",
+        "maison": "Hogar",
+        "sport": "Deporte"
+      }
     }
   },
   "restaurants": {

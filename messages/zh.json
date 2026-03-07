@@ -156,6 +156,35 @@
       "titre": "所有分类",
       "sous_titre": "选择一个分类，找到您附近最好的商店",
       "explorer": "探索 →"
+    },
+    "coupons": {
+      "title": "折扣",
+      "accent_title": "促销码",
+      "subtitle": "已验证的代码 · 加拿大主要零售商 · 保证节省",
+      "category_label": "类别",
+      "show_expired": "显示过期代码",
+      "back": "← 返回购物",
+      "available": "可用代码",
+      "available_plural": "可用代码",
+      "no_title": "未找到优惠券",
+      "no_desc": "请稍后再试 — 新代码将定期添加",
+      "cta_question": "您知道一个好的促销码要分享吗 ?",
+      "cta_action": "✉️ 联系我们，我们会添加它",
+      "copy": "📋 复制",
+      "copied": "✅ 已复制!",
+      "shop": "🛍️ 在上购物",
+      "expired": "⛔ 过期",
+      "expires_soon": "⚠️ 即将过期",
+      "valid_until": "📅 有效至",
+      "categories": {
+        "all": "全部",
+        "electro": "电子产品",
+        "epicerie": "食品杂货",
+        "restaurant": "餐厅",
+        "mode": "时尚",
+        "maison": "家居",
+        "sport": "体育"
+      }
     }
   },
   "restaurants": {
