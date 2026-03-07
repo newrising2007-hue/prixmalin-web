@@ -66,7 +66,24 @@
     "app_desc": "L'app PrixMalin - GPS, recherche locale et deals en temps reel dans votre poche.",
     "app_btn": "Disponible bientot sur Google Play",
     "cta_commerce_desc": "Vous souhaitez plus de visibilite pour votre commerce dans la region ?",
-    "cta_commerce_btn": "Ecrivez-nous, on s'en occupe"
+    "cta_commerce_btn": "Ecrivez-nous, on s'en occupe",
+    "circulaires": {
+      "titre": "Circulaires en ligne",
+      "sous_titre": "Toutes les circulaires canadiennes en un endroit — liens directs vers les sites officiels. Mis à jour régulièrement. Vous connaissez un magasin manquant ?",
+      "proposer": "📧 Proposez-le à contact@prixmalin.ca",
+      "placeholder": "🔍  Rechercher : IGA, Walmart, Canadian Tire...",
+      "compteur": "{count} circulaire disponible",
+      "compteur_pluriel": "{count} circulaires disponibles",
+      "compteur_pour": "pour",
+      "maj": "Màj",
+      "aucun_titre": "Aucune circulaire trouvée pour",
+      "aucun_proposer": "Vous la connaissez ?",
+      "aucun_proposer_lien": "Proposez-la !",
+      "voir": "Voir →",
+      "footer": "🍁 PrixMalin redirige vers les sites officiels des détaillants — nous n'hébergeons aucune circulaire. Les prix et promotions sont ceux affichés directement par les commerçants. Un lien brisé ou un magasin manquant ?",
+      "footer_lien": "Écrivez-nous !",
+      "retour": "← Retour Magasinage"
+    }
   },
   "restaurants": {
     "hero_titre": "Restaurants",

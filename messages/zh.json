@@ -66,7 +66,24 @@
     "app_desc": "PrixMalin应用程序 - GPS、本地搜索和实时优惠在您的口袋里。",
     "app_btn": "即将在Google Play上线",
     "cta_commerce_desc": "您希望您的商店在地区获得更多的曝光吗？",
-    "cta_commerce_btn": "联系我们，我们来处理"
+    "cta_commerce_btn": "联系我们，我们来处理",
+    "circulaires": {
+      "titre": "在线广告册",
+      "sous_titre": "所有加拿大广告册集中一处 — 直达官方网站链接。定期更新。知道缺少的商店？",
+      "proposer": "📧 请发送至 contact@prixmalin.ca",
+      "placeholder": "🔍  搜索：IGA、Walmart、Canadian Tire...",
+      "compteur": "共 {count} 份广告册",
+      "compteur_pluriel": "共 {count} 份广告册",
+      "compteur_pour": "关于",
+      "maj": "更新",
+      "aucun_titre": "未找到相关广告册：",
+      "aucun_proposer": "您知道吗？",
+      "aucun_proposer_lien": "推荐给我们！",
+      "voir": "查看 →",
+      "footer": "🍁 PrixMalin 跳转至零售商官方网站 — 我们不托管任何广告册。价格和促销信息直接由商家显示。链接失效或缺少商店？",
+      "footer_lien": "联系我们！",
+      "retour": "← 返回购物"
+    }
   },
   "restaurants": {
     "hero_titre": "餐厅",

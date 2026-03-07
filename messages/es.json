@@ -66,7 +66,24 @@
     "app_desc": "La app PrixMalin — GPS, búsqueda local y ofertas en tiempo real en tu bolsillo.",
     "app_btn": "Disponible pronto en Google Play",
     "cta_commerce_desc": "¿Quieres más visibilidad para tu comercio en la región?",
-    "cta_commerce_btn": "Escríbenos, nos encargamos"
+    "cta_commerce_btn": "Escríbenos, nos encargamos",
+    "circulaires": {
+      "titre": "Folletos en línea",
+      "sous_titre": "Todos los folletos canadienses en un solo lugar — enlaces directos a los sitios oficiales. Actualizado regularmente. ¿Conoces una tienda que falta?",
+      "proposer": "📧 Sugiérela en contact@prixmalin.ca",
+      "placeholder": "🔍  Buscar: IGA, Walmart, Canadian Tire...",
+      "compteur": "{count} folleto disponible",
+      "compteur_pluriel": "{count} folletos disponibles",
+      "compteur_pour": "para",
+      "maj": "Act.",
+      "aucun_titre": "No se encontró ningún folleto para",
+      "aucun_proposer": "¿La conoces?",
+      "aucun_proposer_lien": "¡Sugiérela!",
+      "voir": "Ver →",
+      "footer": "🍁 PrixMalin redirige a los sitios oficiales de los minoristas — no alojamos ningún folleto. Los precios y promociones son los que muestran directamente los comerciantes. ¿Un enlace roto o una tienda faltante?",
+      "footer_lien": "¡Escríbenos!",
+      "retour": "← Volver a Compras"
+    }
   },
   "restaurants": {
     "hero_titre": "Restaurantes",

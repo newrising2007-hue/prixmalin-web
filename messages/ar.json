@@ -66,7 +66,24 @@
     "app_desc": "تطبيق مالين - GPS، البحث المحلي والعروض الحية في جيبك.",
     "app_btn": "متاح قريباً على Google Play",
     "cta_commerce_desc": "هل ترغب في زيادة ظهور متجرك في المنطقة؟",
-    "cta_commerce_btn": "اتصل بنا، نحن نتعامل مع ذلك"
+    "cta_commerce_btn": "اتصل بنا، نحن نتعامل مع ذلك",
+    "circulaires": {
+      "titre": "النشرات الإعلانية عبر الإنترنت",
+      "sous_titre": "جميع النشرات الكندية في مكان واحد — روابط مباشرة للمواقع الرسمية. يُحدَّث بانتظام. هل تعرف متجراً مفقوداً؟",
+      "proposer": "📧 اقترحه على contact@prixmalin.ca",
+      "placeholder": "🔍  ابحث: IGA، Walmart، Canadian Tire...",
+      "compteur": "{count} نشرة متاحة",
+      "compteur_pluriel": "{count} نشرات متاحة",
+      "compteur_pour": "لـ",
+      "maj": "تحديث",
+      "aucun_titre": "لم يتم العثور على نشرة لـ",
+      "aucun_proposer": "هل تعرفها؟",
+      "aucun_proposer_lien": "اقترحها!",
+      "voir": "عرض →",
+      "footer": "🍁 يعيد PrixMalin التوجيه إلى المواقع الرسمية للتجار — نحن لا نستضيف أي نشرات. الأسعار والعروض هي تلك المعروضة مباشرة من قبل التجار. رابط معطوب أو متجر مفقود؟",
+      "footer_lien": "راسلنا!",
+      "retour": "← العودة إلى التسوق"
+    }
   },
   "restaurants": {
     "hero_titre": "المطاعم",

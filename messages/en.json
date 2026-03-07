@@ -66,7 +66,24 @@
     "app_desc": "The PrixMalin app - GPS, local search and real-time deals in your pocket.",
     "app_btn": "Available soon on Google Play",
     "cta_commerce_desc": "Do you want more visibility for your store in the region?",
-    "cta_commerce_btn": "Write to us, we take care of it"
+    "cta_commerce_btn": "Write to us, we take care of it",
+    "circulaires": {
+      "titre": "Online Flyers",
+      "sous_titre": "All Canadian flyers in one place — direct links to official websites. Updated regularly. Know a missing store?",
+      "proposer": "📧 Suggest it at contact@prixmalin.ca",
+      "placeholder": "🔍  Search: IGA, Walmart, Canadian Tire...",
+      "compteur": "{count} flyer available",
+      "compteur_pluriel": "{count} flyers available",
+      "compteur_pour": "for",
+      "maj": "Updated",
+      "aucun_titre": "No flyer found for",
+      "aucun_proposer": "Do you know it?",
+      "aucun_proposer_lien": "Suggest it!",
+      "voir": "View →",
+      "footer": "🍁 PrixMalin redirects to retailers' official websites — we do not host any flyers. Prices and promotions are those displayed directly by merchants. A broken link or missing store?",
+      "footer_lien": "Contact us!",
+      "retour": "← Back to Shopping"
+    }
   },
   "restaurants": {
     "hero_titre": "Restaurants",

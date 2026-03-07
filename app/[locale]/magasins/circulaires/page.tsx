@@ -1,8 +1,10 @@
 "use client";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import circulairesData from "@/data/circulaires.json";
 
 export default function CirculairesPage() {
+  const t = useTranslations("magasins.circulaires");
   const [search, setSearch] = useState("");
   const { circulaires, updatedAt } = circulairesData as any;
 
@@ -16,14 +18,13 @@ export default function CirculairesPage() {
 
         {/* HERO */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-extrabold text-gray-900 mb-3">📰 Circulaires en ligne</h1>
+          <h1 className="text-3xl font-extrabold text-gray-900 mb-3">📰 {t("titre")}</h1>
           <p className="text-gray-500 text-sm max-w-xl mx-auto leading-relaxed">
-            Toutes les circulaires canadiennes en un endroit — liens directs vers les sites officiels.
-            Mis à jour régulièrement. Vous connaissez un magasin manquant ?
+            {t("sous_titre")}
           </p>
           <a href="mailto:contact@prixmalin.ca"
             className="inline-block mt-3 text-sm font-semibold text-green-700 hover:underline">
-            📧 Proposez-le à contact@prixmalin.ca
+            {t("proposer")}
           </a>
         </div>
 
@@ -33,7 +34,7 @@ export default function CirculairesPage() {
             type="text"
             value={search}
             onChange={e => setSearch(e.target.value)}
-            placeholder="🔍  Rechercher : IGA, Walmart, Canadian Tire..."
+            placeholder={t("placeholder")}
             className="w-full px-5 py-4 rounded-2xl border-2 border-gray-200 focus:border-green-400 focus:outline-none text-base shadow-sm"
           />
           {search && (
@@ -44,9 +45,9 @@ export default function CirculairesPage() {
 
         {/* COMPTEUR */}
         <p className="text-xs text-gray-400 mb-4 text-center">
-          {filtered.length} circulaire{filtered.length > 1 ? "s" : ""} disponible{filtered.length > 1 ? "s" : ""}
-          {search && <span> pour <strong>"{search}"</strong></span>}
-          {" · "}Màj {updatedAt}
+          {filtered.length > 1 ? t("compteur_pluriel", { count: filtered.length }) : t("compteur", { count: filtered.length })}
+          {search && <span> {t("compteur_pour")} <strong>"{search}"</strong></span>}
+          {" · "}{t("maj")} {updatedAt}
         </p>
 
         {/* LISTE */}
@@ -54,8 +55,8 @@ export default function CirculairesPage() {
           {filtered.length === 0 ? (
             <div className="text-center py-12 text-gray-400">
               <div className="text-4xl mb-3">🔍</div>
-              <p>Aucune circulaire trouvée pour <strong>"{search}"</strong></p>
-              <p className="text-sm mt-2">Vous la connaissez ? <a href="mailto:contact@prixmalin.ca" className="text-green-600 hover:underline">Proposez-la !</a></p>
+              <p>{t("aucun_titre")} <strong>"{search}"</strong></p>
+              <p className="text-sm mt-2">{t("aucun_proposer")} <a href="mailto:contact@prixmalin.ca" className="text-green-600 hover:underline">{t("aucun_proposer_lien")}</a></p>
             </div>
           ) : (
             filtered.map((c: any, i: number) => (
@@ -64,7 +65,7 @@ export default function CirculairesPage() {
                 <span className="text-2xl">{c.emoji}</span>
                 <span className="flex-1 font-semibold text-gray-800 group-hover:text-green-700">{c.nom}</span>
                 <span className="text-xs text-white px-3 py-1.5 rounded-xl font-semibold bg-green-600 group-hover:bg-green-700 transition-colors">
-                  Voir →
+                  {t("voir")}
                 </span>
               </a>
             ))
@@ -74,17 +75,15 @@ export default function CirculairesPage() {
         {/* PHILOSOPHIE */}
         <div className="mt-12 rounded-2xl border border-gray-100 bg-white/60 p-6 text-center">
           <p className="text-xs text-gray-400 leading-relaxed">
-            🍁 PrixMalin redirige vers les <strong>sites officiels</strong> des détaillants — nous n'hébergeons aucune circulaire.
-            Les prix et promotions sont ceux affichés directement par les commerçants.
-            Un lien brisé ou un magasin manquant ?{" "}
+            {t("footer")}{" "}
             <a href="mailto:contact@prixmalin.ca" className="text-green-600 hover:underline font-semibold">
-              Écrivez-nous !
+              {t("footer_lien")}
             </a>
           </p>
         </div>
 
         <div className="mt-6 text-center">
-          <a href="/magasins" className="text-sm text-gray-400 hover:text-green-600 transition-colors">← Retour Magasinage</a>
+          <a href="/magasins" className="text-sm text-gray-400 hover:text-green-600 transition-colors">{t("retour")}</a>
         </div>
 
       </div>
