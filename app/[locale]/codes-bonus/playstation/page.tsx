@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PLAYSTATION_GAMES as psGames } from "@/src/data/codes-bonus/playstation-games";
 
-export const dynamic = "error";
+export const dynamic = "force-static";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://prixmalin.ca";

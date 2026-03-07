@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { NINTENDO_GAMES as nintendoGames } from "@/src/data/codes-bonus/nintendo-games";
 import codesData from "@/src/data/bonus-codes/codes.json";
 
-export const dynamic = "error";
+export const dynamic = "force-static";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://prixmalin.ca";
 

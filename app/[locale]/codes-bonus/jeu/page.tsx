@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { getSiteUrl } from "@/lib/site"
 import { getAllBonusGameSlugs, getBonusGameBySlug } from "@/lib/bonusCodes"
 
-export const dynamic = "error"
+export const dynamic = "force-static"
 
 export const metadata: Metadata = {
   title: "Codes bonus par jeu | PrixMalin",
