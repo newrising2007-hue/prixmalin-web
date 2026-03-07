@@ -1,0 +1,66 @@
+{
+  "accueil": {
+    "titre": "Bienvenue sur PrixMalin",
+    "description": "La plateforme canadienne pour découvrir des bons plans gaming et des offres de magasinage.",
+    "badge": "Plateforme canadienne",
+    "gaming": {
+      "titre": "Deals Gaming"
+    },
+    "magasins": {
+      "titre": "Magasinage local"
+    },
+    "cta": {
+      "gaming": "Voir les deals gaming",
+      "magasins": "Explorer les magasins"
+    }
+  },
+  "gaming": {
+    "hero_titre": "PrixMalin — Deals et codes gaming 🇨🇦",
+    "hero_description": "Trouve les meilleurs deals gaming, cartes cadeaux et bonus pour jeux PC et consoles. PrixMalin sélectionne des offres fiables pour éviter les arnaques.",
+    "codes_label": "Derniers ajouts de codes gaming",
+    "codes_titre": "Une entrée simple pour tous les gamers 🎮",
+    "slogan": "CHOISISSEZ VOTRE CONSOLE",
+    "slogan_sub": "Cliquez pour voir tous les deals 👾",
+    "slogan_label": "PrixMalin · Deals Gaming"
+  },
+  "magasins": {
+    "hero_titre": "Magasinez",
+    "hero_titre_accent": "Malin",
+    "hero_desc": "Votre outil de magasinage canadien — local, en ligne, magasinez votre prix.",
+    "hero_tags": "Commerces locaux · Amazon · Walmart · Circulaires · Coupons · Occasion",
+    "recherche_titre": "Recherche Précise",
+    "recherche_desc": "Cherchez exactement ce que vous voulez",
+    "recherche_exemple": "ex: chandail poulet, drill Dewalt, iPhone 15",
+    "recherche_btn": "Rechercher",
+    "categorie_titre": "Par Categorie",
+    "categorie_desc": "Parcourez par type de commerce",
+    "categorie_exemple": "Epicerie, Mode, Auto, Quincaillerie",
+    "categorie_btn": "Parcourir",
+    "circulaires_label": "Circulaires",
+    "circulaires_desc": "IGA, Metro, Canadian Tire, Walmart et plus cette semaine",
+    "coupons_label": "Coupons et Rabais",
+    "coupons_desc": "Codes promo des grands detaillants canadiens",
+    "restaurants_label": "Restaurants",
+    "restaurants_desc": "Restos locaux pres de vous - menus, distance et specialites",
+    "explorer": "Explorer",
+    "alertes_badge": "Bientot disponible",
+    "alertes_titre": "Alertes de Prix",
+    "alertes_desc": "Entrez un produit et votre prix cible - on vous avertit par courriel des que le prix baisse.",
+    "alertes_placeholder_produit": "Ex: iPhone 15 Pro",
+    "alertes_placeholder_prix": "Prix cible $",
+    "alertes_btn": "M'alerter",
+    "alertes_soon": "Disponible prochainement - Amazon, Walmart, Best Buy et plus",
+    "mission_titre": "Notre mission",
+    "mission_p1": "PrixMalin est une plateforme canadienne independante qui rassemble en un seul endroit les meilleurs outils pour magasiner intelligemment.",
+    "mission_p2": "Nous valorisons les commerces locaux canadiens, particulierement en region. Chaque resultat est selectionne pour vous aider a economiser sans effort.",
+    "tag_locaux": "Commerces locaux",
+    "tag_amazon": "Amazon et Walmart",
+    "tag_gps": "GPS et Distance",
+    "tag_canada": "100% Canadien",
+    "app_titre": "Bientot sur Android",
+    "app_desc": "L'app PrixMalin - GPS, recherche locale et deals en temps reel dans votre poche.",
+    "app_btn": "Disponible bientot sur Google Play",
+    "cta_commerce_desc": "Vous souhaitez plus de visibilite pour votre commerce dans la region ?",
+    "cta_commerce_btn": "Ecrivez-nous, on s'en occupe"
+  }
+}

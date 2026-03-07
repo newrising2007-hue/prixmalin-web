@@ -1,0 +1,66 @@
+{
+  "accueil": {
+    "titre": "欢迎来到PrixMalin",
+    "description": "发现优惠游戏和购物优惠的加拿大平台。",
+    "badge": "加拿大平台",
+    "gaming": {
+      "titre": "游戏优惠"
+    },
+    "magasins": {
+      "titre": "本地购物"
+    },
+    "cta": {
+      "gaming": "查看游戏优惠",
+      "magasins": "浏览商店"
+    }
+  },
+  "gaming": {
+    "hero_titre": "PrixMalin — Deals et codes gaming 🇨🇦",
+    "hero_description": "找到最好的游戏优惠、礼品卡和奖励，适用于PC游戏和主机。PrixMalin精选可靠的优惠，以避免诈骗。",
+    "codes_label": "最新的游戏代码添加",
+    "codes_titre": "所有玩家简单的入口 🎮",
+    "slogan": "选择您的主机",
+    "slogan_sub": "点击查看所有优惠 👾",
+    "slogan_label": "PrixMalin · Deals Gaming"
+  },
+  "magasins": {
+    "hero_titre": "购物",
+    "hero_titre_accent": "聪明",
+    "hero_desc": "您的加拿大购物工具——本地、在线、比价购物。",
+    "hero_tags": "本地商店 · Amazon · Walmart · 折扣券 · 二手商品",
+    "recherche_titre": "精确搜索",
+    "recherche_desc": "找到您想要的精确产品",
+    "recherche_exemple": "例如：鸡肉夹克，德瓦特电钻，iPhone 15",
+    "recherche_btn": "搜索",
+    "categorie_titre": "按类别",
+    "categorie_desc": "按商店类型浏览",
+    "categorie_exemple": "杂货店、时尚、汽车、五金",
+    "categorie_btn": "浏览",
+    "circulaires_label": "优惠券",
+    "circulaires_desc": "IGA，Metro，Canadian Tire，Walmart等本周",
+    "coupons_label": "优惠券和折扣",
+    "coupons_desc": "加拿大大型零售商的促销代码",
+    "restaurants_label": "餐厅",
+    "restaurants_desc": "您附近的本地餐馆 - 菜单、距离和特色",
+    "explorer": "探索",
+    "alertes_badge": "即将上线",
+    "alertes_titre": "价格警报",
+    "alertes_desc": "输入您想要的产品和目标价格——当价格下降时，我们会通过电子邮件通知您。",
+    "alertes_placeholder_produit": "例如：iPhone 15 Pro",
+    "alertes_placeholder_prix": "目标价格 $",
+    "alertes_btn": "提醒我",
+    "alertes_soon": "即将上线 - Amazon、Walmart、Best Buy等",
+    "mission_titre": "我们的使命",
+    "mission_p1": "PrixMalin 是一个独立的加拿大平台，将最好的比价购物工具集中在一个地方。",
+    "mission_p2": "我们重视本地加拿大商店，特别是地区商店。每个结果都为您节省努力地帮助您省钱。",
+    "tag_locaux": "本地商店",
+    "tag_amazon": "Amazon 和 Walmart",
+    "tag_gps": "GPS 和距离",
+    "tag_canada": "100% 加拿大",
+    "app_titre": "即将在Android上推出",
+    "app_desc": "PrixMalin应用程序 - GPS、本地搜索和实时优惠在您的口袋里。",
+    "app_btn": "即将在Google Play上线",
+    "cta_commerce_desc": "您希望您的商店在地区获得更多的曝光吗？",
+    "cta_commerce_btn": "联系我们，我们来处理"
+  }
+}

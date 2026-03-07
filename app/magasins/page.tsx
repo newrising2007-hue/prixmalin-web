@@ -73,7 +73,7 @@ export default function MagasinsPage() {
           </span>
         </h1>
         <p className="text-lg text-gray-600 max-w-xl mx-auto mb-2">
-          Votre outil de magasinage canadien — local, en ligne, toujours au meilleur prix.
+          Votre outil de magasinage canadien — local, en ligne, magasinez votre prix.
         </p>
         <p className="text-sm text-gray-400 mb-8">
           Commerces locaux · Amazon · Walmart · Circulaires · Coupons · Occasion
