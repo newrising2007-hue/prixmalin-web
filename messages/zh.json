@@ -184,7 +184,8 @@
         "mode": "时尚",
         "maison": "家居",
         "sport": "体育"
-      }
+      },
+      "verified": "已验证"
     }
   },
   "restaurants": {

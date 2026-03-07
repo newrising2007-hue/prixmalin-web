@@ -181,7 +181,8 @@
         "mode": "Fashion",
         "maison": "Home",
         "sport": "Sport"
-      }
+      },
+      "verified": "Verified"
     }
   },
   "restaurants": {

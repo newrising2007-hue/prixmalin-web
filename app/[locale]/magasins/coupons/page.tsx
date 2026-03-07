@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface Coupon {
   id: string;
@@ -17,16 +18,6 @@ interface Coupon {
   actif: boolean;
 }
 
-const CATEGORIES = [
-  { value: "all", label: "Tous", emoji: "🏷️" },
-  { value: "electro", label: "Électronique", emoji: "📱" },
-  { value: "epicerie", label: "Épicerie", emoji: "🛒" },
-  { value: "restaurant", label: "Restaurant", emoji: "🍔" },
-  { value: "mode", label: "Mode", emoji: "👕" },
-  { value: "maison", label: "Maison", emoji: "🏠" },
-  { value: "sport", label: "Sport", emoji: "⚽" },
-];
-
 function isExpired(expiry: string): boolean {
   return new Date(expiry) < new Date();
 }
@@ -36,7 +27,7 @@ function daysLeft(expiry: string): number {
   return Math.ceil(diff / (1000 * 60 * 60 * 24));
 }
 
-function CarteCoupon({ c }: { c: Coupon }) {
+function CarteCoupon({ c, t }: { c: Coupon; t: any }) {
   const [copied, setCopied] = useState(false);
   const expired = isExpired(c.expiry);
   const days = daysLeft(c.expiry);
@@ -59,40 +50,48 @@ function CarteCoupon({ c }: { c: Coupon }) {
         </div>
         <div className="shrink-0 text-right">
           <span className="px-2 py-0.5 rounded-full text-xs font-bold bg-green-100 text-green-700">{c.discount}</span>
-          {c.verified && <p className="text-xs text-green-500 mt-1">✅ Vérifié</p>}
+          {c.verified && <p className="text-xs text-green-500 mt-1">✅ {t("verified")}</p>}
         </div>
       </div>
 
-      {/* CODE */}
       <div className="flex items-center gap-2 mb-3">
         <div className="flex-1 bg-gray-50 border border-dashed border-gray-300 rounded-xl px-4 py-2 text-center">
           <span className="font-mono font-bold text-gray-800 tracking-widest text-sm">{c.code}</span>
         </div>
         <button onClick={handleCopy}
           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${copied ? "bg-green-600 text-white" : "bg-gray-900 text-white hover:bg-gray-700"}`}>
-          {copied ? "✅ Copié!" : "📋 Copier"}
+          {copied ? t("copied") : t("copy")}
         </button>
       </div>
 
-      {/* EXPIRY */}
       <p className={`text-xs mb-3 ${expired ? "text-red-400" : days <= 7 ? "text-amber-500" : "text-gray-400"}`}>
-        {expired ? "⛔ Expiré" : days <= 7 ? `⚠️ Expire dans ${days} jour${days > 1 ? "s" : ""}` : `📅 Valide jusqu'au ${new Date(c.expiry).toLocaleDateString("fr-CA")}`}
+        {expired ? t("expired") : days <= 7 ? `${t("expires_soon")} ${days} jour${days > 1 ? "s" : ""}` : `${t("valid_until")} ${new Date(c.expiry).toLocaleDateString()}`}
       </p>
 
-      {/* CTA */}
       <a href={c.url} target="_blank" rel="noopener noreferrer"
         className="flex items-center justify-center gap-2 w-full px-4 py-2 rounded-xl text-xs font-semibold bg-green-600 text-white hover:bg-green-700 transition-colors">
-        🛍️ Magasiner sur {c.store} →
+        {t("shop")} {c.store} →
       </a>
     </div>
   );
 }
 
 export default function CouponsPage() {
+  const t = useTranslations("magasins.coupons");
   const [coupons, setCoupons] = useState<Coupon[]>([]);
   const [category, setCategory] = useState("all");
   const [search, setSearch] = useState("");
   const [showExpired, setShowExpired] = useState(false);
+
+  const CATEGORIES = [
+    { value: "all", label: t("categories.all"), emoji: "🏷️" },
+    { value: "electro", label: t("categories.electro"), emoji: "📱" },
+    { value: "epicerie", label: t("categories.epicerie"), emoji: "🛒" },
+    { value: "restaurant", label: t("categories.restaurant"), emoji: "🍔" },
+    { value: "mode", label: t("categories.mode"), emoji: "👕" },
+    { value: "maison", label: t("categories.maison"), emoji: "🏠" },
+    { value: "sport", label: t("categories.sport"), emoji: "⚽" },
+  ];
 
   useEffect(() => {
     fetch("/data/coupons.json")
@@ -116,19 +115,17 @@ export default function CouponsPage() {
       <div className="pointer-events-none fixed inset-0 -z-10"
         style={{ background: "linear-gradient(135deg, rgba(59,130,246,0.08) 0%, rgba(255,255,255,0.97) 50%, rgba(34,197,94,0.08) 100%)" }} />
 
-      {/* HERO */}
       <section className="pt-12 pb-6 px-6 text-center">
         <div className="text-5xl mb-4">🏷️</div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2">
-          Rabais &{" "}
+          {t("title")} {" "}
           <span className="text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(135deg, #2563eb, #16a34a)" }}>
-            Codes Promo
+            {t("accent_title")}
           </span>
         </h1>
-        <p className="text-gray-500 text-sm">Codes vérifiés · Grands détaillants canadiens · Économies garanties</p>
+        <p className="text-gray-500 text-sm">{t("subtitle")}</p>
       </section>
 
-      {/* FILTRES */}
       <section className="px-4 pb-6 max-w-4xl mx-auto">
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-100 shadow-sm p-4 space-y-4">
           <input type="text" value={search} onChange={e => setSearch(e.target.value)}
@@ -136,7 +133,7 @@ export default function CouponsPage() {
             className="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-blue-400 transition-colors" />
 
           <div>
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Catégorie</p>
+            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">{t("category_label")}</p>
             <div className="flex flex-wrap gap-2">
               {CATEGORIES.map(cat => (
                 <button key={cat.value} onClick={() => setCategory(cat.value)}
@@ -149,47 +146,46 @@ export default function CouponsPage() {
 
           <label className="flex items-center gap-2 cursor-pointer">
             <input type="checkbox" checked={showExpired} onChange={e => setShowExpired(e.target.checked)} className="w-4 h-4 accent-blue-600" />
-            <span className="text-sm text-gray-600">Afficher les codes expirés</span>
+            <span className="text-sm text-gray-600">{t("show_expired")}</span>
           </label>
         </div>
       </section>
 
-      {/* RÉSULTATS */}
       <div className="pb-6 text-center">
         <Link href="/magasins" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-blue-300 text-blue-600 font-semibold text-sm hover:text-blue-400 hover:border-blue-400 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
-          ← Retour Magasinage
+          {t("back")}
         </Link>
       </div>
+
       <section className="px-4 pb-10 max-w-4xl mx-auto">
-        <p className="text-sm text-gray-400 mb-4 font-medium">{filtered.length} code{filtered.length !== 1 ? "s" : ""} disponible{filtered.length !== 1 ? "s" : ""}</p>
+        <p className="text-sm text-gray-400 mb-4 font-medium">{filtered.length} {filtered.length !== 1 ? t("available_plural") : t("available")}</p>
 
         {filtered.length === 0 && (
           <div className="text-center py-16">
             <div className="text-5xl mb-4">🏷️</div>
-            <p className="text-gray-500 font-medium mb-2">Aucun coupon trouvé</p>
-            <p className="text-gray-400 text-sm">Revenez bientôt — de nouveaux codes sont ajoutés régulièrement</p>
+            <p className="text-gray-500 font-medium mb-2">{t("no_title")}</p>
+            <p className="text-gray-400 text-sm">{t("no_desc")}</p>
           </div>
         )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map(c => <CarteCoupon key={c.id} c={c} />)}
+          {filtered.map(c => <CarteCoupon key={c.id} c={c} t={t} />)}
         </div>
       </section>
 
-      {/* CTA */}
       <section className="px-6 pb-16 max-w-3xl mx-auto text-center">
         <div className="rounded-2xl border border-dashed border-blue-200 bg-blue-50/50 p-6">
-          <p className="text-gray-600 text-sm mb-2">Vous connaissez un bon code promo à partager ?</p>
+          <p className="text-gray-600 text-sm mb-2">{t("cta_question")}</p>
           <a href="mailto:contact@prixmalin.ca?subject=Suggestion coupon"
             className="inline-flex items-center gap-2 text-blue-700 font-semibold text-sm hover:underline">
-            ✉️ Contactez-nous, on l'ajoute
+            {t("cta_action")}
           </a>
         </div>
       </section>
 
       <div className="pb-10 text-center">
         <Link href="/magasins" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-blue-300 text-blue-600 font-semibold text-sm hover:text-blue-400 hover:border-blue-400 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
-          ← Retour Magasinage
+          {t("back")}
         </Link>
       </div>
     </main>
