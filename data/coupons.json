@@ -1,0 +1,46 @@
+{
+  "coupons": [
+    {
+      "id": "amazon-10-electro",
+      "store": "Amazon.ca",
+      "logo": "📦",
+      "code": "SPRING10",
+      "description": "10% de rabais sur l'électronique",
+      "description_en": "10% off electronics",
+      "url": "https://www.amazon.ca/s?k=electronique&tag=prixmalin-20",
+      "category": "electro",
+      "discount": "10%",
+      "expiry": "2026-03-31",
+      "verified": true,
+      "actif": true
+    },
+    {
+      "id": "walmart-livraison",
+      "store": "Walmart.ca",
+      "logo": "🛒",
+      "code": "FREESHIP",
+      "description": "Livraison gratuite sur toute commande",
+      "description_en": "Free shipping on any order",
+      "url": "https://www.walmart.ca",
+      "category": "epicerie",
+      "discount": "Livraison gratuite",
+      "expiry": "2026-04-30",
+      "verified": true,
+      "actif": true
+    },
+    {
+      "id": "subway-sub",
+      "store": "Subway",
+      "logo": "🥖",
+      "code": "SUBOFDAY",
+      "description": "Sub du jour à prix réduit via l'app Subway",
+      "description_en": "Sub of the day at reduced price via Subway app",
+      "url": "https://www.subway.com/fr-CA",
+      "category": "restaurant",
+      "discount": "Varie",
+      "expiry": "2026-12-31",
+      "verified": true,
+      "actif": true
+    }
+  ]
+}
