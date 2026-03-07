@@ -83,6 +83,79 @@
       "footer": "🍁 PrixMalin redirige vers les sites officiels des détaillants — nous n'hébergeons aucune circulaire. Les prix et promotions sont ceux affichés directement par les commerçants. Un lien brisé ou un magasin manquant ?",
       "footer_lien": "Écrivez-nous !",
       "retour": "← Retour Magasinage"
+    },
+    "categories": {
+      "titre": "Toutes les catégories",
+      "sous_titre": "Choisissez une catégorie pour trouver les meilleurs commerces près de vous",
+      "explorer": "Explorer →",
+      "epicerie": {
+        "label": "Épicerie & Alimentation",
+        "desc": "Épiceries, boucheries, boulangeries, fruiteries"
+      },
+      "boucherie": {
+        "label": "Boucherie & Charcuterie",
+        "desc": "Boucheries, charcuteries, viandes locales"
+      },
+      "electronique": {
+        "label": "Électronique",
+        "desc": "Téléphones, laptops, TV, audio"
+      },
+      "maison": {
+        "label": "Maison & Déco",
+        "desc": "Meubles, déco, literie, cuisine"
+      },
+      "meuble": {
+        "label": "Meubles & Literie",
+        "desc": "Meubles, matelas, literie, rangement"
+      },
+      "quincaillerie": {
+        "label": "Quincaillerie & Outils",
+        "desc": "Outils, matériaux, électricité, plomberie"
+      },
+      "renovation": {
+        "label": "Rénovation",
+        "desc": "Entrepreneurs, matériaux, design"
+      },
+      "mode": {
+        "label": "Mode & Vêtements",
+        "desc": "Homme, femme, enfants, chaussures"
+      },
+      "sante": {
+        "label": "Santé & Pharmacie",
+        "desc": "Médicaments, vitamines, optique"
+      },
+      "animaux": {
+        "label": "Animaux",
+        "desc": "Nourriture, vétérinaires, accessoires"
+      },
+      "sport": {
+        "label": "Sport & Plein Air",
+        "desc": "Vélo, camping, ski, randonnée"
+      },
+      "auto": {
+        "label": "Auto & Véhicules",
+        "desc": "Concessionnaires, pièces, garages"
+      },
+      "loisirs": {
+        "label": "Loisirs & Culture",
+        "desc": "Livres, jeux de société, artisanat"
+      },
+      "beaute": {
+        "label": "Beauté & Spa",
+        "desc": "Salons, cosmétiques, soins"
+      },
+      "bureautique": {
+        "label": "Bureautique",
+        "desc": "Imprimantes, papeterie, mobilier bureau"
+      },
+      "informatique": {
+        "label": "Informatique & TI",
+        "desc": "Ordinateurs, réparation, réseaux, logiciels"
+      },
+      "intimes": {
+        "label": "Intimes",
+        "desc": "Jouets adultes, lubrifiants, lingerie coquine"
+      }
     }
   },
   "restaurants": {
