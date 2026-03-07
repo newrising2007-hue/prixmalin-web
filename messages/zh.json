@@ -13,5 +13,14 @@
       "gaming": "查看游戏优惠",
       "magasins": "浏览商店"
     }
+  },
+  "gaming": {
+    "hero_titre": "PrixMalin — Deals et codes gaming 🇨🇦",
+    "hero_description": "找到最好的游戏优惠、礼品卡和奖励，适用于PC游戏和主机。PrixMalin精选可靠的优惠，以避免诈骗。",
+    "codes_label": "最新的游戏代码添加",
+    "codes_titre": "所有玩家简单的入口 🎮",
+    "slogan": "选择您的主机",
+    "slogan_sub": "点击查看所有优惠 👾",
+    "slogan_label": "PrixMalin · Deals Gaming"
   }
 }

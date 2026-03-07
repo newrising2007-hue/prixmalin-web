@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 
-const locales = ["fr", "en"];
+const locales = ["fr", "en", "es", "ar", "zh"];
 
 export default async function LocaleLayout({
   children,
@@ -15,7 +15,7 @@ export default async function LocaleLayout({
   if (!locales.includes(locale)) notFound();
   const messages = await getMessages();
   return (
-    <NextIntlClientProvider messages={messages}>
+    <NextIntlClientProvider locale={locale} messages={messages}>
       {children}
     </NextIntlClientProvider>
   );

@@ -13,5 +13,14 @@
       "gaming": "Voir les deals gaming",
       "magasins": "Explorer les magasins"
     }
+  },
+  "gaming": {
+    "hero_titre": "PrixMalin — Deals et codes gaming 🇨🇦",
+    "hero_description": "Trouve les meilleurs deals gaming, cartes cadeaux et bonus pour jeux PC et consoles. PrixMalin sélectionne des offres fiables pour éviter les arnaques.",
+    "codes_label": "Derniers ajouts de codes gaming",
+    "codes_titre": "Une entrée simple pour tous les gamers 🎮",
+    "slogan": "CHOISISSEZ VOTRE CONSOLE",
+    "slogan_sub": "Cliquez pour voir tous les deals 👾",
+    "slogan_label": "PrixMalin · Deals Gaming"
   }
 }

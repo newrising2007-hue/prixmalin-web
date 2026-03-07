@@ -13,5 +13,14 @@
       "gaming": "See gaming deals",
       "magasins": "Explore the stores"
     }
+  },
+  "gaming": {
+    "hero_titre": "PrixMalin — Gaming Deals and Codes 🇨🇦",
+    "hero_description": "Find the best gaming deals, gift cards, and bonuses for PC games and consoles. PrixMalin selects reliable offers to avoid scams.",
+    "codes_label": "Latest additions of gaming codes",
+    "codes_titre": "A simple entry point for all gamers 🎮",
+    "slogan": "CHOOSE YOUR CONSOLE",
+    "slogan_sub": "Click to see all deals 👾",
+    "slogan_label": "PrixMalin · Gaming Deals"
   }
 }

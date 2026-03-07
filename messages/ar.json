@@ -13,5 +13,14 @@
       "gaming": "استعراض الصفقات الخاصة بالألعاب",
       "magasins": "استكشاف المتاجر"
     }
+  },
+  "gaming": {
+    "hero_titre": "PrixMalin — Deals et codes gaming 🇨🇦",
+    "hero_description": "استكشف أفضل الصفقات لألعاب الفيديو والبطاقات الهدية والإضافات لأجهزة الكمبيوتر وأجهزة الألعاب. يختار PrixMalin عروض موثوقة لتجنب الاحتيال.",
+    "codes_label": "أحدث إضافة من رموز ألعاب الفيديو",
+    "codes_titre": "مدخل بسيط لجميع عشاق الألعاب 🎮",
+    "slogan": "اختر جهازك",
+    "slogan_sub": "انقر للعثور على جميع الصفقات 👾",
+    "slogan_label": "PrixMalin · Deals Gaming"
   }
 }

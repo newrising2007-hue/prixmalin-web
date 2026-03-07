@@ -13,5 +13,14 @@
       "gaming": "Ver las ofertas de juegos",
       "magasins": "Explorar las tiendas"
     }
+  },
+  "gaming": {
+    "hero_titre": "PrixMalin — Ofertas y códigos de juegos 🇨🇦",
+    "hero_description": "Encuentra las mejores ofertas de juegos, tarjetas de regalo y bonos para juegos de PC y consolas. PrixMalin selecciona ofertas fiables para evitar estafas.",
+    "codes_label": "Últimos códigos de juegos agregados",
+    "codes_titre": "Una entrada sencilla para todos los gamers 🎮",
+    "slogan": "ELIGE TU CONSOLA",
+    "slogan_sub": "Haz clic para ver todas las ofertas 👾",
+    "slogan_label": "PrixMalin · Ofertas de juegos de Xbox, PlayStation y Nintendo"
   }
 }
