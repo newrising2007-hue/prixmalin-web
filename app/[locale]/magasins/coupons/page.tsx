@@ -155,6 +155,11 @@ export default function CouponsPage() {
       </section>
 
       {/* RÉSULTATS */}
+      <div className="pb-6 text-center">
+        <Link href="/magasins" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-blue-300 text-blue-600 font-semibold text-sm hover:text-blue-400 hover:border-blue-400 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
+          ← Retour Magasinage
+        </Link>
+      </div>
       <section className="px-4 pb-10 max-w-4xl mx-auto">
         <p className="text-sm text-gray-400 mb-4 font-medium">{filtered.length} code{filtered.length !== 1 ? "s" : ""} disponible{filtered.length !== 1 ? "s" : ""}</p>
 
@@ -183,7 +188,7 @@ export default function CouponsPage() {
       </section>
 
       <div className="pb-10 text-center">
-        <Link href="/magasins" className="text-sm text-gray-400 hover:text-green-600 transition-colors">
+        <Link href="/magasins" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-blue-300 text-blue-600 font-semibold text-sm hover:text-blue-400 hover:border-blue-400 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
           ← Retour Magasinage
         </Link>
       </div>
