@@ -120,9 +120,9 @@ export default function CouponsPage() {
       <section className="pt-12 pb-6 px-6 text-center">
         <div className="text-5xl mb-4">🏷️</div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2">
-          Codes Promo &{" "}
+          Rabais &{" "}
           <span className="text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(135deg, #2563eb, #16a34a)" }}>
-            Rabais
+            Codes Promo
           </span>
         </h1>
         <p className="text-gray-500 text-sm">Codes vérifiés · Grands détaillants canadiens · Économies garanties</p>
