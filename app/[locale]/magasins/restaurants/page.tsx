@@ -145,7 +145,7 @@ function CarteRestaurant({ r }: { r: Restaurant }) {
 
           {/* CUISINE TAGS */}
           <div className="flex flex-wrap gap-1 mb-2">
-            {(r.cuisine || []).map(c => (
+            {(Array.isArray(r.cuisine) ? r.cuisine : r.cuisine ? [r.cuisine] : []).map(c => (
               <span key={c} className="px-2 py-0.5 rounded-full text-xs bg-orange-50 text-orange-700 border border-orange-100 capitalize">{c}</span>
             ))}
           </div>
