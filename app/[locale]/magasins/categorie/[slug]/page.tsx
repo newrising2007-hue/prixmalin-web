@@ -159,6 +159,15 @@ const CATEGORIES: Record<string, {
     color: '#0369a1',
     gradient: 'from-sky-400/20 to-blue-500/10',
   },
+  informatique: {
+    label: 'Informatique & TI',
+    icon: '🖥️',
+    description: 'Ordinateurs, réparation, réseaux, logiciels et accessoires informatiques.',
+    popularSearches: ['ordinateur', 'laptop', 'portable', 'réparation ordi', 'wifi', 'réseau', 'logiciel', 'antivirus', 'imprimante', 'clavier', 'souris', 'écran', 'disque dur', 'mémoire RAM', 'computer', 'repair', 'network', 'software'],
+    cat: 'informatique',
+    color: '#1d4ed8',
+    gradient: 'from-blue-400/20 to-indigo-500/10',
+  },
   intimes: {
     label: 'Intimes 🔞',
     icon: '🔞',

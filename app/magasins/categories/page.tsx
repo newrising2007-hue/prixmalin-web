@@ -18,6 +18,7 @@ const categories = [
   { icon: "🎨", label: "Loisirs & Culture", slug: "loisirs", desc: "Livres, jeux de société, artisanat" },
   { icon: "💆", label: "Beauté & Spa", slug: "beaute", desc: "Salons, cosmétiques, soins" },
   { icon: "💻", label: "Bureautique", slug: "bureautique", desc: "Imprimantes, papeterie, mobilier bureau" },
+  { icon: "🖥️", label: "Informatique & TI", slug: "informatique", desc: "Ordinateurs, réparation, réseaux, logiciels" },
   { icon: "🔞", label: "Intimes", slug: "intimes", desc: "Jouets adultes, lubrifiants, lingerie coquine" },
 ];
 
