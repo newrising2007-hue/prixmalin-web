@@ -112,6 +112,12 @@
       "actif": true
     },
     {
+      "nom": "Meuble Domon",
+      "url": "https://www.domon.com/pages/circulaire",
+      "emoji": "🛋️",
+      "actif": true
+    },
+    {
       "nom": "Meubles Léon",
       "categorie": "meuble",
       "emoji": "🛋️",
