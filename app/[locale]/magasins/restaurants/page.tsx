@@ -2,11 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL || "https://prixmalin-backend.onrender.com";
 
 const TYPES_CUISINE = [
-  { value: "all", label: "Tous", emoji: "🍽️" },
+  { value: "all", labelKey: "cuisine_tous", emoji: "🍽️" },
   { value: "québécois", label: "Québécois", emoji: "🍁" },
   { value: "fast-food", label: "Fast Food", emoji: "🍔" },
   { value: "pizza", label: "Pizzeria", emoji: "🍕" },
@@ -25,10 +26,10 @@ const TYPES_CUISINE = [
 ];
 
 const SERVICES = [
-  { value: "surplace", label: "Sur place", emoji: "🪑" },
-  { value: "takeout", label: "Take out", emoji: "🥡" },
-  { value: "livraison", label: "Livraison", emoji: "🚗" },
-  { value: "drive", label: "Drive", emoji: "🚘" },
+  { value: "surplace", labelKey: "service_surplace", emoji: "🪑" },
+  { value: "takeout", labelKey: "service_takeout", emoji: "🥡" },
+  { value: "livraison", labelKey: "service_livraison", emoji: "🚗" },
+  { value: "drive", labelKey: "service_drive", emoji: "🚘" },
 ];
 
 const RAYONS = [50, 100, 150];
@@ -70,7 +71,7 @@ interface Restaurant {
   distance?: number;
 }
 
-function HorairesAccordion({ horaires, phone }: { horaires?: Record<string, Horaire>; phone?: string }) {
+function HorairesAccordion({ horaires, phone, t }: { horaires?: Record<string, Horaire>; phone?: string; t: (k: string) => string }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -79,7 +80,7 @@ function HorairesAccordion({ horaires, phone }: { horaires?: Record<string, Hora
         onClick={() => setOpen(!open)}
         className="flex items-center gap-2 text-sm text-gray-500 hover:text-green-700 transition-colors font-medium"
       >
-        <span>🕐 Voir les horaires</span>
+        <span>{t("horaires_voir")}</span>
         <span className="text-xs">{open ? "▲" : "▼"}</span>
       </button>
 
@@ -87,7 +88,7 @@ function HorairesAccordion({ horaires, phone }: { horaires?: Record<string, Hora
         <div className="mt-2 p-3 rounded-xl bg-gray-50 border border-gray-100">
           {!horaires ? (
             <div className="text-sm text-gray-500 italic">
-              <p className="mb-2">Nous vous recommandons de contacter le restaurant pour confirmer les heures d&apos;ouverture.</p>
+              <p className="mb-2">{t("horaires_contacter")}</p>
               {phone && (
                 <a href={`tel:${phone}`} className="inline-flex items-center gap-1 text-green-700 font-semibold hover:underline">
                   📞 {phone}
@@ -107,7 +108,7 @@ function HorairesAccordion({ horaires, phone }: { horaires?: Record<string, Hora
                         {h.note && <span className="text-xs text-amber-600 italic">· {h.note}</span>}
                       </>
                     ) : (
-                      <span className="text-xs">Fermé</span>
+                      <span className="text-xs">{t("horaires_ferme")}</span>
                     )}
                   </div>
                 );
@@ -120,7 +121,7 @@ function HorairesAccordion({ horaires, phone }: { horaires?: Record<string, Hora
   );
 }
 
-function CarteRestaurant({ r }: { r: Restaurant }) {
+function CarteRestaurant({ r, t }: { r: Restaurant; t: (k: string) => string }) {
   const ouvert = isOpenNow(r.horaires);
   const mapsUrl = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.address)}` : undefined;
   const correctionSubject = encodeURIComponent(`Correction - ${r.name}`);
@@ -136,10 +137,10 @@ function CarteRestaurant({ r }: { r: Restaurant }) {
           <div className="flex items-center gap-2 flex-wrap mb-1">
             <h3 className="font-bold text-gray-900 text-base">{r.name}</h3>
             {ouvert === true && (
-              <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-green-100 text-green-700">🟢 Ouvert</span>
+              <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-green-100 text-green-700">{t("badge_ouvert")}</span>
             )}
             {ouvert === false && r.horaires && (
-              <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-red-100 text-red-600">🔴 Fermé</span>
+              <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-red-100 text-red-600">{t("badge_ferme")}</span>
             )}
           </div>
 
@@ -157,9 +158,9 @@ function CarteRestaurant({ r }: { r: Restaurant }) {
             <span className="text-xs font-mono text-gray-400">{r.distance.toFixed(1)} km</span>
           )}
           {isGoogle ? (
-            <span className="text-xs text-blue-400 font-medium">📍 Via Google</span>
+            <span className="text-xs text-blue-400 font-medium">{t("badge_google")}</span>
           ) : (
-            <span className="text-xs text-green-600 font-medium">🏠 Vérifié</span>
+            <span className="text-xs text-green-600 font-medium">{t("badge_verifie")}</span>
           )}
         </div>
       </div>
@@ -169,7 +170,7 @@ function CarteRestaurant({ r }: { r: Restaurant }) {
         <div className="flex flex-wrap gap-1 mb-3">
           {(r.service || []).map(s => {
             const sv = SERVICES.find(x => x.value === s);
-            return <span key={s} className="px-2 py-0.5 rounded-full text-xs bg-blue-50 text-blue-700 border border-blue-100">{sv?.emoji} {sv?.label || s}</span>;
+            return <span key={s} className="px-2 py-0.5 rounded-full text-xs bg-blue-50 text-blue-700 border border-blue-100">{sv?.emoji} {t(sv?.labelKey || s)}</span>;
           })}
         </div>
       )}
@@ -177,7 +178,7 @@ function CarteRestaurant({ r }: { r: Restaurant }) {
       {/* RÉSERVATION */}
       {r.reservation && (
         <div className="text-xs text-amber-700 bg-amber-50 border border-amber-100 rounded-lg px-3 py-1.5 mb-3">
-          📋 {r.reservationSurplace ? "Réservation recommandée pour manger sur place" : "Réservations acceptées"}
+          📋 {r.reservationSurplace ? t("reservation_recommandee") : t("reservation_acceptee")}
           {r.reservationInfo && <span className="block text-amber-600 mt-0.5">→ {r.reservationInfo}</span>}
         </div>
       )}
@@ -195,25 +196,25 @@ function CarteRestaurant({ r }: { r: Restaurant }) {
         {r.phone && (
           <a href={`tel:${r.phone}`}
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-green-600 text-white hover:bg-green-700 transition-colors">
-            📞 Appeler
+            📞 {t("btn_appeler")}
           </a>
         )}
         {mapsUrl && (
           <a href={mapsUrl} target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-100 hover:bg-blue-100 transition-colors">
-            🗺️ Directions
+            🗺️ {t("btn_directions")}
           </a>
         )}
         {r.website && (
           <a href={r.website} target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-gray-50 text-gray-700 border border-gray-100 hover:bg-gray-100 transition-colors">
-            🌐 Site web
+            🌐 {t("btn_site")}
           </a>
         )}
       </div>
 
       {/* HORAIRES ACCORDION */}
-      <HorairesAccordion horaires={r.horaires} phone={r.phone} />
+      <HorairesAccordion horaires={r.horaires} phone={r.phone} t={t} />
 
       {/* SIGNALER CORRECTION */}
       <div className="mt-3 pt-3 border-t border-gray-50">
@@ -221,12 +222,12 @@ function CarteRestaurant({ r }: { r: Restaurant }) {
           <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + " " + (r.address || ""))}`}
             target="_blank" rel="noopener noreferrer"
             className="text-xs text-gray-300 hover:text-blue-400 transition-colors">
-            ✏️ Corriger sur Google Maps →
+            {t("corriger_google")}
           </a>
         ) : (
           <a href={`mailto:contact@prixmalin.ca?subject=${correctionSubject}&body=${correctionBody}`}
             className="text-xs text-gray-300 hover:text-amber-500 transition-colors">
-            ⚠️ Signaler une correction
+            {t("corriger_email")}
           </a>
         )}
       </div>
@@ -235,6 +236,7 @@ function CarteRestaurant({ r }: { r: Restaurant }) {
 }
 
 export default function RestaurantsPage() {
+  const t = useTranslations("restaurants");
   const [restaurants, setRestaurants] = useState<Restaurant[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -247,13 +249,11 @@ export default function RestaurantsPage() {
   const [reservationOnly, setReservationOnly] = useState(false);
   const [search, setSearch] = useState("");
 
-  // Centre par défaut : Ville-Marie, QC
   const DEFAULT_LAT = 47.3340;
   const DEFAULT_LNG = -79.4335;
 
   useEffect(() => {
-    // GPS d'abord, ensuite fetch avec coordonnées
-    const fetchRestaurants = (lat: number, lng: number, rayon: number = 100) => {
+    const fetchRestaurants = (lat: number, lng: number) => {
       fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=${rayon}`)
         .then(r => r.json())
         .then(data => {
@@ -299,20 +299,19 @@ export default function RestaurantsPage() {
     }))
     .filter(r => {
       if (r.distance !== undefined && r.distance > rayon) return false;
-      if (cuisine !== "all" && !(r.cuisine || []).includes(cuisine)) return false;
+      if (cuisine !== "all" && !(Array.isArray(r.cuisine) ? r.cuisine : r.cuisine ? [r.cuisine] : []).includes(cuisine)) return false;
       if (services.length > 0 && !services.every(s => (r.service || []).includes(s))) return false;
       if (reservationOnly && !r.reservation) return false;
       if (search.trim()) {
         const q = search.toLowerCase();
         return r.name.toLowerCase().includes(q) ||
           (r.address || "").toLowerCase().includes(q) ||
-          (r.cuisine || []).some(c => c.toLowerCase().includes(q)) ||
+          (Array.isArray(r.cuisine) ? r.cuisine : r.cuisine ? [r.cuisine] : []).some(c => c.toLowerCase().includes(q)) ||
           (r.keywords || []).some(k => k.toLowerCase().includes(q));
       }
       return true;
     })
     .sort((a, b) => {
-      // Nos restos vérifiés en premier, ensuite par distance
       if (a.source === 'prixmalin' && b.source !== 'prixmalin') return -1;
       if (b.source === 'prixmalin' && a.source !== 'prixmalin') return 1;
       return (a.distance ?? 999) - (b.distance ?? 999);
@@ -333,14 +332,14 @@ export default function RestaurantsPage() {
       <section className="pt-12 pb-6 px-6 text-center">
         <div className="text-5xl mb-4">🍽️</div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2">
-          Restaurants{" "}
+          {t("hero_titre")}{" "}
           <span className="text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(135deg, #16a34a, #059669)" }}>
-            de la région
+            {t("hero_titre_accent")}
           </span>
         </h1>
-        <p className="text-gray-500 text-sm mb-1">Abitibi-Témiscamingue · Timiskaming Shores · 150 km</p>
+        <p className="text-gray-500 text-sm mb-1">{t("hero_region")}</p>
         <p className="text-xs text-gray-400">
-          {gpsLoading ? "📍 Localisation en cours..." : userPos ? "📍 Distance calculée depuis votre position" : "📍 Distance depuis Ville-Marie, QC"}
+          {gpsLoading ? t("gps_loading") : userPos ? t("gps_position") : t("gps_defaut")}
         </p>
       </section>
 
@@ -353,13 +352,13 @@ export default function RestaurantsPage() {
             type="text"
             value={search}
             onChange={e => setSearch(e.target.value)}
-            placeholder="🔍 Rechercher un resto, une cuisine..."
+            placeholder={t("filtre_recherche")}
             className="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-green-400 transition-colors"
           />
 
           {/* RAYON */}
           <div>
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Rayon</p>
+            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">{t("filtre_rayon")}</p>
             <div className="flex gap-2">
               {RAYONS.map(r => (
                 <button key={r} onClick={() => setRayon(r)}
@@ -372,12 +371,12 @@ export default function RestaurantsPage() {
 
           {/* TYPE DE CUISINE */}
           <div>
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Type de cuisine</p>
+            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">{t("filtre_cuisine")}</p>
             <div className="flex flex-wrap gap-2">
-              {TYPES_CUISINE.map(t => (
-                <button key={t.value} onClick={() => setCuisine(t.value)}
-                  className={`px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${cuisine === t.value ? "bg-orange-500 text-white border-orange-500" : "bg-white text-gray-600 border-gray-200 hover:border-orange-300"}`}>
-                  {t.emoji} {t.label}
+              {TYPES_CUISINE.map(tc => (
+                <button key={tc.value} onClick={() => setCuisine(tc.value)}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${cuisine === tc.value ? "bg-orange-500 text-white border-orange-500" : "bg-white text-gray-600 border-gray-200 hover:border-orange-300"}`}>
+                  {tc.emoji} {tc.labelKey ? t(tc.labelKey) : tc.label}
                 </button>
               ))}
             </div>
@@ -385,12 +384,12 @@ export default function RestaurantsPage() {
 
           {/* SERVICE */}
           <div>
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Type de service</p>
+            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">{t("filtre_service")}</p>
             <div className="flex flex-wrap gap-2">
               {SERVICES.map(s => (
                 <button key={s.value} onClick={() => toggleService(s.value)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${services.includes(s.value) ? "bg-blue-600 text-white border-blue-600" : "bg-white text-gray-600 border-gray-200 hover:border-blue-300"}`}>
-                  {s.emoji} {s.label}
+                  {s.emoji} {t(s.labelKey)}
                 </button>
               ))}
             </div>
@@ -400,7 +399,7 @@ export default function RestaurantsPage() {
           <label className="flex items-center gap-2 cursor-pointer">
             <input type="checkbox" checked={reservationOnly} onChange={e => setReservationOnly(e.target.checked)}
               className="w-4 h-4 accent-green-600" />
-            <span className="text-sm text-gray-600">Afficher seulement les restos qui acceptent les réservations</span>
+            <span className="text-sm text-gray-600">{t("filtre_reservation")}</span>
           </label>
         </div>
       </section>
@@ -408,7 +407,7 @@ export default function RestaurantsPage() {
       {/* RÉSULTATS */}
       <section className="px-4 pb-10 max-w-5xl mx-auto">
         <p className="text-sm text-gray-400 mb-4 font-medium">
-          {loading ? "Chargement..." : `${filtered.length} restaurant${filtered.length !== 1 ? "s" : ""} trouvé${filtered.length !== 1 ? "s" : ""}`}
+          {loading ? t("loading") : filtered.length !== 1 ? t("resultats_pluriel", { n: filtered.length }) : t("resultats", { n: filtered.length })}
         </p>
 
         {error && (
@@ -418,25 +417,23 @@ export default function RestaurantsPage() {
         {!loading && !error && filtered.length === 0 && (
           <div className="text-center py-16">
             <div className="text-5xl mb-4">🍽️</div>
-            <p className="text-gray-500 font-medium mb-2">Aucun restaurant trouvé</p>
-            <p className="text-gray-400 text-sm">Essayez un rayon plus grand ou modifiez les filtres</p>
+            <p className="text-gray-500 font-medium mb-2">{t("aucun_titre")}</p>
+            <p className="text-gray-400 text-sm">{t("aucun_desc")}</p>
           </div>
         )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map(r => <CarteRestaurant key={r.id} r={r} />)}
+          {filtered.map(r => <CarteRestaurant key={r.id} r={r} t={t} />)}
         </div>
       </section>
 
       {/* CTA BAS DE PAGE */}
       <section className="px-6 pb-16 max-w-3xl mx-auto text-center">
         <div className="rounded-2xl border border-dashed border-green-200 bg-green-50/50 p-6">
-          <p className="text-gray-600 text-sm mb-2">
-            Vous avez un restaurant à recommander dans la région ?
-          </p>
+          <p className="text-gray-600 text-sm mb-2">{t("cta_desc")}</p>
           <a href="mailto:contact@prixmalin.ca?subject=Suggestion restaurant"
             className="inline-flex items-center gap-2 text-green-700 font-semibold text-sm hover:underline">
-            ✉️ Contactez-nous, on s&apos;en occupe
+            {t("cta_btn")}
           </a>
         </div>
       </section>
@@ -444,7 +441,7 @@ export default function RestaurantsPage() {
       {/* RETOUR */}
       <div className="pb-10 text-center">
         <Link href="/magasins" className="text-sm text-gray-400 hover:text-green-600 transition-colors">
-          ← Retour Magasinage
+          {t("retour")}
         </Link>
       </div>
 
