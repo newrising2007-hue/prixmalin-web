@@ -1,18 +1,23 @@
 {
   "accueil": {
     "titre": "Bienvenue sur PrixMalin",
-    "description": "La plateforme canadienne pour découvrir des bons plans gaming et des offres de magasinage.",
-    "badge": "Plateforme canadienne",
-    "gaming": {
-      "titre": "Deals Gaming"
-    },
-    "magasins": {
-      "titre": "Magasinage local"
-    },
-    "cta": {
-      "gaming": "Voir les deals gaming",
-      "magasins": "Explorer les magasins"
-    }
+    "description": "La plateforme canadienne pour découvrir des bons plans gaming et des offres de magasinage. Nous sélectionnons des promotions fiables via nos partenaires pour vous aider à économiser simplement — sur le web et bientôt sur mobile.",
+    "badge": "🇨🇦 Plateforme canadienne",
+    "gaming_titre": "🎮 Zone Gaming",
+    "gaming_description": "Cartes cadeaux, codes numériques et promotions gaming sélectionnées pour les joueurs au Canada.",
+    "gaming_item1": "Codes PlayStation, Xbox et Nintendo instantanés",
+    "gaming_item2": "Cartes cadeaux populaires à prix avantageux",
+    "gaming_item3": "Offres vérifiées chez nos partenaires",
+    "gaming_cta": "➜ Accéder à la Zone Gaming",
+    "gaming_logo_alt": "Accéder à la zone gaming PrixMalin",
+    "magasins_titre": "🛍 Vos Magasins",
+    "magasins_description": "Produits en ligne, offres partenaires et sélections populaires pour économiser sur vos achats.",
+    "magasins_item1": "Produits en ligne et magasins près de chez vous",
+    "magasins_item2": "Bons plans sélectionnés selon les tendances",
+    "magasins_item3": "Recherche rapide de produits",
+    "magasins_cta": "➜ Explorer Vos Magasins",
+    "magasins_logo_alt": "Accéder à la section magasins PrixMalin",
+    "footer": "© {year} PrixMalin — Liens partenaires pouvant générer une commission."
   },
   "gaming": {
     "hero_titre": "PrixMalin — Deals et codes gaming 🇨🇦",

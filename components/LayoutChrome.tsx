@@ -11,7 +11,7 @@ export default function LayoutChrome({
 }) {
   const pathname = usePathname();
 
-  const isHub = pathname === "/";
+  const isHub = pathname === "/" || /^\/(en|es|ar|zh)$/.test(pathname);
   const isStore = pathname.startsWith("/magasins");
 
   // Pour l'instant: tout ce qui n'est pas Hub et pas Magasins = univers Gaming

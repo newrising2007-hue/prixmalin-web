@@ -1,18 +1,23 @@
 {
   "accueil": {
     "titre": "欢迎来到PrixMalin",
-    "description": "发现优惠游戏和购物优惠的加拿大平台。",
-    "badge": "加拿大平台",
-    "gaming": {
-      "titre": "游戏优惠"
-    },
-    "magasins": {
-      "titre": "本地购物"
-    },
-    "cta": {
-      "gaming": "查看游戏优惠",
-      "magasins": "浏览商店"
-    }
+    "description": "加拿大的游戏和购物优惠平台。我们通过合作伙伴选择可靠的促销活动，帮助您轻松节省——在网络上和即将推出的移动端。",
+    "badge": "🇨🇦 加拿大平台",
+    "gaming_titre": "🎮 游戏区",
+    "gaming_description": "为加拿大的玩家选择的礼品卡、数字代码和游戏促销活动。",
+    "gaming_item1": "即时PlayStation、Xbox和任天堂代码",
+    "gaming_item2": "热门礼品卡优惠价",
+    "gaming_item3": "在我们的合作伙伴处核实的优惠",
+    "gaming_cta": "➜ 进入游戏区",
+    "gaming_logo_alt": "进入PrixMalin游戏区",
+    "magasins_titre": "🛍 您的商店",
+    "magasins_description": "在线产品、合作伙伴优惠和热门选择，帮助您在购买时节省。",
+    "magasins_item1": "在线产品和附近的商店",
+    "magasins_item2": "根据趋势选择的优惠",
+    "magasins_item3": "快速搜索产品",
+    "magasins_cta": "➜ 浏览您的商店",
+    "magasins_logo_alt": "进入PrixMalin商店部分",
+    "footer": "© {year} PrixMalin — 可能产生佣金的合作伙伴链接。"
   },
   "gaming": {
     "hero_titre": "PrixMalin — Deals et codes gaming 🇨🇦",

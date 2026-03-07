@@ -1,18 +1,23 @@
 {
   "accueil": {
     "titre": "Welcome to PrixMalin",
-    "description": "The Canadian platform for discovering good gaming deals and shopping offers.",
-    "badge": "Canadian Platform",
-    "gaming": {
-      "titre": "Gaming Deals"
-    },
-    "magasins": {
-      "titre": "Local shopping"
-    },
-    "cta": {
-      "gaming": "See gaming deals",
-      "magasins": "Explore the stores"
-    }
+    "description": "The Canadian platform to discover gaming deals and store discounts. We select reliable promotions via our partners to help you save simply - online and soon on mobile.",
+    "badge": "🇨🇦 Canadian Platform",
+    "gaming_titre": "🎮 Gaming Zone",
+    "gaming_description": "Gift cards, digital codes, and selected gaming promotions for players in Canada.",
+    "gaming_item1": "Instant PlayStation, Xbox, and Nintendo gift card codes",
+    "gaming_item2": "Popular gift cards at advantageous prices",
+    "gaming_item3": "Verified offers from our partners",
+    "gaming_cta": "➜ Access the Gaming Zone",
+    "gaming_logo_alt": "Access the gaming zone PrixMalin",
+    "magasins_titre": "🛍 Your Stores",
+    "magasins_description": "Online products, partner deals, and popular selections to save on your purchases.",
+    "magasins_item1": "Online products and stores nearby you",
+    "magasins_item2": "Selected deals based on trends",
+    "magasins_item3": "Quick product search",
+    "magasins_cta": "➜ Explore Your Stores",
+    "magasins_logo_alt": "Access the stores section PrixMalin",
+    "footer": "© {year} PrixMalin — Partner links that may generate a commission."
   },
   "gaming": {
     "hero_titre": "PrixMalin — Gaming Deals and Codes 🇨🇦",

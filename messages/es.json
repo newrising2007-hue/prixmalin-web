@@ -1,18 +1,23 @@
 {
   "accueil": {
     "titre": "Bienvenido a PrixMalin",
-    "description": "La plataforma canadiense para descubrir ofertas de juegos y compras.",
-    "badge": "Plataforma canadiense",
-    "gaming": {
-      "titre": "Ofertas de juegos"
-    },
-    "magasins": {
-      "titre": "Compras locales"
-    },
-    "cta": {
-      "gaming": "Ver las ofertas de juegos",
-      "magasins": "Explorar las tiendas"
-    }
+    "description": "La plataforma canadiense para descubrir ofertas de juegos y compras. Seleccionamos promociones fiables a través de nuestros socios para ayudarte a ahorrar simplemente — en la web y pronto en móvil.",
+    "badge": "🇨🇦 Plataforma canadiense",
+    "gaming_titre": "🎮 Zona Gaming",
+    "gaming_description": "Tarjetas de regalo, códigos digitales y promociones de juegos seleccionadas para los jugadores en Canadá.",
+    "gaming_item1": "Códigos instantáneos de PlayStation, Xbox y Nintendo",
+    "gaming_item2": "Tarjetas de regalo populares a precios ventajosos",
+    "gaming_item3": "Ofertas verificadas con nuestros socios",
+    "gaming_cta": "➜ Acceder a la Zona Gaming",
+    "gaming_logo_alt": "Acceder a la zona de juegos PrixMalin",
+    "magasins_titre": "🛍 Tus Tiendas",
+    "magasins_description": "Productos en línea, ofertas de socios y selecciones populares para ahorrar en tus compras.",
+    "magasins_item1": "Productos en línea y tiendas cerca de ti",
+    "magasins_item2": "Ofertas seleccionadas según las tendencias",
+    "magasins_item3": "Búsqueda rápida de productos",
+    "magasins_cta": "➜ Explorar Tus Tiendas",
+    "magasins_logo_alt": "Acceder a la sección de tiendas PrixMalin",
+    "footer": "© {year} PrixMalin — Enlaces de socios que pueden generar una comisión."
   },
   "gaming": {
     "hero_titre": "PrixMalin — Ofertas y códigos de juegos 🇨🇦",
