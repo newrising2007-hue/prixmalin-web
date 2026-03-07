@@ -83,6 +83,76 @@
       "footer": "🍁 PrixMalin redirects to retailers' official websites — we do not host any flyers. Prices and promotions are those displayed directly by merchants. A broken link or missing store?",
       "footer_lien": "Contact us!",
       "retour": "← Back to Shopping"
+    },
+    "categories": {
+      "epicerie": {
+        "label": "Grocery & Food",
+        "desc": "Grocery stores, butchers, bakeries, fruit shops"
+      },
+      "boucherie": {
+        "label": "Butcher & Deli",
+        "desc": "Butchers, delis, local meats"
+      },
+      "electronique": {
+        "label": "Electronics",
+        "desc": "Phones, laptops, TV, audio"
+      },
+      "maison": {
+        "label": "Home & Decor",
+        "desc": "Furniture, decor, bedding, kitchen"
+      },
+      "meuble": {
+        "label": "Furniture & Bedding",
+        "desc": "Furniture, mattresses, bedding, storage"
+      },
+      "quincaillerie": {
+        "label": "Hardware & Tools",
+        "desc": "Tools, materials, electrical, plumbing"
+      },
+      "renovation": {
+        "label": "Renovation",
+        "desc": "Contractors, materials, design"
+      },
+      "mode": {
+        "label": "Fashion & Clothing",
+        "desc": "Men, women, children, shoes"
+      },
+      "sante": {
+        "label": "Health & Pharmacy",
+        "desc": "Medications, vitamins, optique"
+      },
+      "animaux": {
+        "label": "Pets",
+        "desc": "Food, veterinarians, accessories"
+      },
+      "sport": {
+        "label": "Sports & Outdoors",
+        "desc": "Cycling, camping, skiing, hiking"
+      },
+      "auto": {
+        "label": "Auto & Vehicles",
+        "desc": "Dealers, parts, garages"
+      },
+      "loisirs": {
+        "label": "Leisure & Culture",
+        "desc": "Books, board games, crafts"
+      },
+      "beaute": {
+        "label": "Beauty & Spa",
+        "desc": "Salons, cosmetics, wellness"
+      },
+      "bureautique": {
+        "label": "Office Supplies",
+        "desc": "Printers, stationery, office furniture"
+      },
+      "informatique": {
+        "label": "Computers & IT",
+        "desc": "Computers, repair, networks, software"
+      },
+      "intimes": {
+        "label": "Intimate",
+        "desc": "Adult toys, lubricants, lingerie"
+      }
     }
   },
   "restaurants": {

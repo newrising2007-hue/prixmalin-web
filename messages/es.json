@@ -83,6 +83,76 @@
       "footer": "🍁 PrixMalin redirige a los sitios oficiales de los minoristas — no alojamos ningún folleto. Los precios y promociones son los que muestran directamente los comerciantes. ¿Un enlace roto o una tienda faltante?",
       "footer_lien": "¡Escríbenos!",
       "retour": "← Volver a Compras"
+    },
+    "categories": {
+      "epicerie": {
+        "label": "Comestibles y Alimentación",
+        "desc": "Tiendas de comestibles, carnicerías, panaderías, fruterías"
+      },
+      "boucherie": {
+        "label": "Carnicería y Charcutería",
+        "desc": "Carnicerías, charcuterías, carnes locales"
+      },
+      "electronique": {
+        "label": "Electrónica",
+        "desc": "Teléfonos, portátiles, TV, audio"
+      },
+      "maison": {
+        "label": "Hogar y Decoración",
+        "desc": "Muebles, decoración, ropa de cama, cocina"
+      },
+      "meuble": {
+        "label": "Muebles y Ropa de Cama",
+        "desc": "Muebles, colchones, ropa de cama, almacenamiento"
+      },
+      "quincaillerie": {
+        "label": "Ferretería y Herramientas",
+        "desc": "Herramientas, materiales, electricidad, plomería"
+      },
+      "renovation": {
+        "label": "Renovación",
+        "desc": "Empresarios, materiales, diseño"
+      },
+      "mode": {
+        "label": "Moda y Ropa",
+        "desc": "Hombre, mujer, niños, zapatos"
+      },
+      "sante": {
+        "label": "Salud y Farmacia",
+        "desc": "Medicamentos, vitaminas, óptica"
+      },
+      "animaux": {
+        "label": "Animales",
+        "desc": "Comida, veterinarios, accesorios"
+      },
+      "sport": {
+        "label": "Deporte y Aire Libre",
+        "desc": "Bicicleta, camping, esquí, senderismo"
+      },
+      "auto": {
+        "label": "Auto y Vehículos",
+        "desc": "Concesionarios, piezas, talleres"
+      },
+      "loisirs": {
+        "label": "Ocio y Cultura",
+        "desc": "Libros, juegos de mesa, artesanía"
+      },
+      "beaute": {
+        "label": "Belleza y Spa",
+        "desc": "Salones, cosméticos, tratamientos"
+      },
+      "bureautique": {
+        "label": "Oficina",
+        "desc": "Impresoras, papelería, mobiliario de oficina"
+      },
+      "informatique": {
+        "label": "Informática y TI",
+        "desc": "Ordenadores, reparación, redes, software"
+      },
+      "intimes": {
+        "label": "Íntimos",
+        "desc": "Juguetes para adultos, lubricantes, lencería sexy"
+      }
     }
   },
   "restaurants": {

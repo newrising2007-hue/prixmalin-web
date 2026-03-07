@@ -83,6 +83,76 @@
       "footer": "🍁 PrixMalin 跳转至零售商官方网站 — 我们不托管任何广告册。价格和促销信息直接由商家显示。链接失效或缺少商店？",
       "footer_lien": "联系我们！",
       "retour": "← 返回购物"
+    },
+    "categories": {
+      "epicerie": {
+        "label": "",
+        "desc": ""
+      },
+      "boucherie": {
+        "label": "",
+        "desc": ""
+      },
+      "electronique": {
+        "label": "",
+        "desc": ""
+      },
+      "maison": {
+        "label": "",
+        "desc": ""
+      },
+      "meuble": {
+        "label": "",
+        "desc": ""
+      },
+      "quincaillerie": {
+        "label": "",
+        "desc": ""
+      },
+      "renovation": {
+        "label": "",
+        "desc": ""
+      },
+      "mode": {
+        "label": "",
+        "desc": ""
+      },
+      "sante": {
+        "label": "",
+        "desc": ""
+      },
+      "animaux": {
+        "label": "",
+        "desc": ""
+      },
+      "sport": {
+        "label": "",
+        "desc": ""
+      },
+      "auto": {
+        "label": "",
+        "desc": ""
+      },
+      "loisirs": {
+        "label": "",
+        "desc": ""
+      },
+      "beaute": {
+        "label": "",
+        "desc": ""
+      },
+      "bureautique": {
+        "label": "",
+        "desc": ""
+      },
+      "informatique": {
+        "label": "",
+        "desc": ""
+      },
+      "intimes": {
+        "label": "",
+        "desc": ""
+      }
     }
   },
   "restaurants": {
