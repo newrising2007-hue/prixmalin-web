@@ -258,6 +258,9 @@
     "abonnement": "Abonnement",
     "carte_cadeau": "Carte cadeau",
     "aucune_offre": "Aucune offre disponible pour cette plateforme.",
-    "affiliation": "PrixMalin est une plateforme d'affiliation. Certains liens peuvent générer une commission, sans coût supplémentaire pour toi."
+    "affiliation": "PrixMalin est une plateforme d'affiliation. Certains liens peuvent générer une commission, sans coût supplémentaire pour toi.",
+    "badge_populaire": "Populaire",
+    "badge_complet": "Complet",
+    "badge_meilleur_choix": "Meilleur choix"
   }
 }

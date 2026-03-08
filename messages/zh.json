@@ -258,6 +258,9 @@
     "abonnement": "订阅",
     "carte_cadeau": "礼品卡",
     "aucune_offre": "该平台没有可用的优惠。",
-    "affiliation": "PrixMalin 是一个关联平台。某些链接可能会产生佣金，不会为您带来额外的费用。"
+    "affiliation": "PrixMalin 是一个关联平台。某些链接可能会产生佣金，不会为您带来额外的费用。",
+    "badge_populaire": "热门",
+    "badge_complet": "完整版",
+    "badge_meilleur_choix": "最佳选择"
   }
 }

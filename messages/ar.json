@@ -257,6 +257,9 @@
     "abonnement": "اشتراك",
     "carte_cadeau": "بطاقة هدية",
     "aucune_offre": "لا توجد عروض متاحة لهذه المنصة.",
-    "affiliation": "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تولد عمولة دون أي تكلفة إضافية عليك."
+    "affiliation": "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تولد عمولة دون أي تكلفة إضافية عليك.",
+    "badge_populaire": "الأكثر شعبية",
+    "badge_complet": "مكتمل",
+    "badge_meilleur_choix": "أفضل اختيار"
   }
 }

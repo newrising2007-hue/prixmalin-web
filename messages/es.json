@@ -258,6 +258,9 @@
     "abonnement": "Suscripción",
     "carte_cadeau": "Tarjeta de regalo",
     "aucune_offre": "No hay ofertas disponibles para esta plataforma.",
-    "affiliation": "PrixMalin es una plataforma de afiliación. Algunos enlaces pueden generar una comisión, sin costo adicional para ti."
+    "affiliation": "PrixMalin es una plataforma de afiliación. Algunos enlaces pueden generar una comisión, sin costo adicional para ti.",
+    "badge_populaire": "Popular",
+    "badge_complet": "Completo",
+    "badge_meilleur_choix": "Mejor opción"
   }
 }

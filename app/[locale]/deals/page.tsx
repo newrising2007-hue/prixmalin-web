@@ -44,7 +44,7 @@ const BADGE_COLORS: Record<string, string> = {
   Complet: "bg-indigo-600 text-white",
 };
 
-function DealCard({ deal, tVoirOffre, tAbonnement, tCarteCadeau }: { deal: Deal; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string }) {
+function DealCard({ deal, tVoirOffre, tAbonnement, tCarteCadeau, tBadges }: { deal: Deal; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string; tBadges: Record<string,string> }) {
   const pct =
     deal.prixBarre && deal.prixBarre > deal.price
       ? Math.round(((deal.prixBarre - deal.price) / deal.prixBarre) * 100)
@@ -57,7 +57,7 @@ function DealCard({ deal, tVoirOffre, tAbonnement, tCarteCadeau }: { deal: Deal;
     <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md cursor-pointer">
       {deal.badge && (
         <span className={`absolute right-3 top-3 z-10 rounded-full px-2.5 py-1 text-xs font-bold shadow-sm ${BADGE_COLORS[deal.badge] ?? "bg-gray-700 text-white"}`}>
-          {deal.badge}
+          {tBadges[deal.badge ?? ""] ?? deal.badge}
         </span>
       )}
       <div className="flex items-center justify-center bg-gradient-to-b from-gray-50 to-white px-6 pt-6 pb-3 min-h-[140px]">
@@ -102,13 +102,13 @@ function DealCard({ deal, tVoirOffre, tAbonnement, tCarteCadeau }: { deal: Deal;
   return <Link href={href}>{inner}</Link>;
 }
 
-function Section({ id, title, deals, tVoirOffre, tAbonnement, tCarteCadeau }: { id: string; title: string; deals: Deal[]; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string }) {
+function Section({ id, title, deals, tVoirOffre, tAbonnement, tCarteCadeau, tBadges }: { id: string; title: string; deals: Deal[]; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string; tBadges: Record<string,string> }) {
   if (deals.length === 0) return null;
   return (
     <div id={id} className="mt-10 scroll-mt-6">
       <h2 className="mb-4 text-base font-bold uppercase tracking-widest text-gray-500">{title}</h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {deals.map((d) => <DealCard key={d.slug} deal={d} tVoirOffre={tVoirOffre} tAbonnement={tAbonnement} tCarteCadeau={tCarteCadeau} />)}
+        {deals.map((d) => <DealCard key={d.slug} deal={d} tVoirOffre={tVoirOffre} tAbonnement={tAbonnement} tCarteCadeau={tCarteCadeau} tBadges={tBadges} />)}
       </div>
     </div>
   );
@@ -123,6 +123,12 @@ export default function DealsPage() {
     Xbox: "Xbox",
     PlayStation: "PlayStation",
     Nintendo: "Nintendo",
+  };
+
+  const tBadges: Record<string,string> = {
+    "Populaire": t("badge_populaire"),
+    "Complet": t("badge_complet"),
+    "Meilleur choix": t("badge_meilleur_choix"),
   };
 
   const allItems = (dealsData.items as Deal[]).filter((d) => d.actif !== false);
@@ -167,8 +173,8 @@ export default function DealsPage() {
         )}
       </div>
 
-      <Section id="abonnements" title={t("section_abonnements")} deals={abonnements} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} />
-      <Section id="cartes" title={t("section_cartes")} deals={cartes} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} />
+      <Section id="abonnements" title={t("section_abonnements")} deals={abonnements} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} tBadges={tBadges} />
+      <Section id="cartes" title={t("section_cartes")} deals={cartes} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} tBadges={tBadges} />
 
       {filtered.length === 0 && (
         <p className="mt-10 text-center text-gray-500">{t("aucune_offre")}</p>
