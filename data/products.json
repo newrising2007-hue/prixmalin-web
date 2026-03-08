@@ -8,7 +8,11 @@
     "image": "/images/products/hyperx-cloud.webp",
     "badge": "Deal du jour",
     "prix": "99.99",
-    "prixBarre": ""
+    "prixBarre": "",
+    "shortDescription_en": "Gaming headset with dual speakers, legendary comfort, aluminum frame, detachable microphone. Compatible with PC, PS4, PS5, Xbox One/Series X|S, Nintendo Switch and mobile — Red",
+    "shortDescription_ar": "محور ألعاب، مكبرات صوت مزدوجة، راحة أسطورية، إطار من الألمنيوم، ميكروفون قابل للإزالة، يعمل على الحاسوب الشخصي، بلاي ستيشن 4/5، إكس بوكس ون/سلسلة إكس|إس، نينتندو سويتش والأجهزة المحمولة - أحمر",
+    "shortDescription_es": "Altavoz de juego, doble altavoz, comodidad legendaria, carcasa de aluminio, micrófono extraíble, funciona en PC, PS4, PS5, Xbox One/Series X|S, Nintendo Switch y móvil - Rojo",
+    "shortDescription_zh": "游戏耳罩，双声道扬声器，传奇舒适度，铝制框架，可拆卸麦克风，支持PC、PS4、PS5、Xbox One/Series X|S、任天堂Switch和移动设备 - 红色"
   },
   {
     "slug": "logitech-g203",
@@ -19,7 +23,11 @@
     "image": "/images/products/logitech-g203.webp",
     "badge": "Deal du jour",
     "prix": "49.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Compact, light, and ideal for budget-friendly FPS. Available in 3 colors.",
+    "shortDescription_ar": "دقيقة، خفيفة الوزن ومناسبة لألعاب التصويب منخفضة التكلفة. تتوفر 3 ألوان.",
+    "shortDescription_es": "Precisa, ligera e ideal para FPS a bajo precio. 3 colores disponibles.",
+    "shortDescription_zh": "精确，轻便，适合FPS游戏且价格亲民，有三种颜色可供选择。"
   },
   {
     "slug": "steelseries-arctis-nova-1",
@@ -31,7 +39,11 @@
     "badge": "Meilleur vendeur",
     "prix": "321.98",
     "prixBarre": "349.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Gaming headset multi-platforms - High-end Hi-Fi drivers - Spatial audio at 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - Stealth retractable microphone - PC,",
+    "shortDescription_ar": "سماعة لعب متعددة الأنظمة - مكبرات صوت عالية الجودة - صوت محيطي عالي الدقة 360 درجة - GameDAC الجيل الثاني - DAC رباعي ESS Sabre - ميكروفون مخفي قابل للانكماش - للحواسيب الشخصية،",
+    "shortDescription_es": "Casco de juego multi-sistemas - Altavoces Hi-Fi de alta gama - Audio espacial de alta resolución a 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - Micrófono retractable sigiloso - PC",
+    "shortDescription_zh": "多系统游戏耳机 - 高端Hi-Fi驱动器 - 360°高分辨率空间音频 - GameDAC第二代 - ESS Sabre四核DAC - 收缩隐形麦克风 - 适用于PC"
   },
   {
     "slug": "hyperx-alloy-core",
@@ -41,7 +53,11 @@
     "category": "claviers",
     "image": "/images/products/hyperx-alloy-core.webp",
     "prix": "59.98",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Comfortable and water-resistant RGB keyboard for gaming.",
+    "shortDescription_ar": "لوحة مفاتيح RGB مريحة ومقاومة للانسكاب للميول الألعاب.",
+    "shortDescription_es": "Teclado RGB cómodo y resistente a las salpicaduras para juegos.",
+    "shortDescription_zh": "适合游戏的舒适RGB键盘，具有防溅水功能"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2",
@@ -54,7 +70,11 @@
     "actif": true,
     "prix": "178.99",
     "prixBarre": "239.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Amazon Renewed (reconditioned)",
+    "shortDescription_ar": "أمازون رينيويد (مُجدد)",
+    "shortDescription_es": "Amazon Renovado (recondicionado)",
+    "shortDescription_zh": "亚马逊翻新（二手）"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2-se",
@@ -67,7 +87,11 @@
     "actif": true,
     "prix": "199.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Wireless gaming mouse, 60g professional quality with 5 programmable buttons Red",
+    "shortDescription_ar": "ماوس لعب لاسلكي، 60 جرام من الجودة الاحترافية مع 5 أزرار قابلة للبرمجة أحمر",
+    "shortDescription_es": "Ratón inalámbrico de juego, 60 g de calidad profesional con 5 botones programables Rojo",
+    "shortDescription_zh": "无线游戏鼠标，专业级60g，配备5个可编程按钮 红色"
   },
   {
     "slug": "clavier-steelseries-apex-3-rgb",
@@ -80,7 +104,11 @@
     "actif": true,
     "prix": "59.98",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "water-resistant and dust-proof silent game switch anti-ghosting black/white lavender white and teal options available",
+    "shortDescription_ar": "مقاوم للماء والغبار، مفتاح لعب صامت، مضاد للتشويش، بلون أسود/أبيض، لافندر، أبيض وأزرق فاتح متوفر.",
+    "shortDescription_es": "resistente al agua y al polvo, conmutador de juego silencioso, anti-ghosting, color negro/blanco, lavanda, blanco y aguamarina disp.",
+    "shortDescription_zh": "防水防尘，静音游戏开关，无鬼按键，颜色有黑白、薰衣草、白色和天蓝色可供选择"
   },
   {
     "slug": "steelseries-qck-gaming-mouse-pad-medium",
@@ -93,7 +121,11 @@
     "actif": true,
     "prix": "14.98",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Mouse precision: The high number of wires and smooth surface optimize mouse tracking precision for optical and laser sensors.",
+    "shortDescription_ar": "دقة الفأرة: عدد الخيوط العالي والسطح الناعم يحسنان دقة تتبع الفأرة لكاشفات الضوء البصري والليزر.",
+    "shortDescription_es": "Precisión del ratón: el alto número de hilos y la superficie lisa optimizan la precisión de seguimiento del ratón para sensores ópticos y láser",
+    "shortDescription_zh": "鼠标精度：高密度纤维和光滑表面优化了光学和激光传感器的鼠标跟踪精度"
   },
   {
     "slug": "new-bee-support-pour-casque-rgb",
@@ -106,7 +138,11 @@
     "actif": true,
     "prix": "19.99",
     "prixBarre": "25.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Transmission and charging: The New Bee 2 case has a USB-C port with two intelligent ports: the USB-C port and the USB port can charge and transfer data for phones, keyboards, USB drives, mice, etc.",
+    "shortDescription_ar": "النقل والشحن: يحتوي حامل سماعات الرأس New Bee على منفذ USB-C ذكي ومنفذ USB، مما يسمح بشحن ونقل البيانات للهاتف واللوحة المفاتيح وقرص U والفأرة وغيرها.",
+    "shortDescription_es": "Transmisión y carga: el puerto USB-C del soporte de auriculares New Bee 2 puertos inteligentes: el puerto USB-C y el puerto USB pueden cargar y transferir datos para teléfono, teclado, disco U, ratón, etc.",
+    "shortDescription_zh": "传输和充电：New Bee耳机支架的USB-C端口 \n2个智能端口：USB-C端口和USB端口可以为手机、键盘、U盘、鼠标等充电和传输数据"
   },
   {
     "slug": "xbox-core-wireless-gaming-controller",
@@ -119,7 +155,11 @@
     "actif": true,
     "prix": "78.19",
     "prixBarre": "84.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Xbox Core Wireless Gaming Controller + USB-C Cable for Xbox Series X|S, One, Windows PC, Android, and iOS",
+    "shortDescription_ar": "جهاز تحكم ألعاب Xbox اللاسلكي الأساسي + كابل USB-C للجيل X|S، ون، وأجهزة الكمبيوتر الشخصية ويندوز، والأندرويد، والإي أو إس.",
+    "shortDescription_es": "Controlador de juegos inalámbrico Xbox Core + cable USB-C para Series X|S, One, Windows PC, Android e iOS",
+    "shortDescription_zh": "Xbox核心无线游戏手柄+USB-C数据线，适用于Series X|S、One、Windows PC、Android和iOS设备"
   },
   {
     "slug": "dualsense-wireless-controller-playstation",
@@ -132,7 +172,11 @@
     "actif": true,
     "prix": "94.00",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Offered in various colors",
+    "shortDescription_ar": "يُقدَّم بألوان مختلفة",
+    "shortDescription_es": "Ofrecido en diferentes colores",
+    "shortDescription_zh": "以不同颜色提供"
   },
   {
     "slug": "logitech-g-435-lightspeed",
@@ -145,7 +189,11 @@
     "actif": true,
     "prix": "69.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Wireless gaming headset - Over-ear lightweight headset, built-in microphones, 18-hour battery, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, mobile",
+    "shortDescription_ar": "سماعة لعب لاسلكية بلوتوث - سماعة فوق الأذن خفيفة، ميكروفونات مدمجة، بطارية تدوم 18 ساعة، دولبي أتموس، للكمبيوتر الشخصي، بلاي ستيشن 4 و5، نينتندو سويتش/سويتش 2، الهاتف المحمول",
+    "shortDescription_es": "Casco de juego inalámbrico Bluetooth - Casco supraauricular ligero, micrófonos integrados, batería 18h, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, móvil",
+    "shortDescription_zh": "蓝牙无线游戏耳机 - 轻便的超级耳罩式耳机，内置麦克风，电池续航18小时，支持Dolby Atmos，适用于PC、PS4、PS5、任天堂Switch/Switch 2和移动设备"
   },
   {
     "slug": "logitech-g305-lightspeed",
@@ -158,7 +206,11 @@
     "actif": true,
     "prix": "62.59",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "lightweight, 6 programmable buttons, 250-hour battery life, built-in memory, PC/Mac compatible - available in multiple colors",
+    "shortDescription_ar": "خفيفة، 6 أزرار قابلة للبرمجة، عمر بطارية 250 ساعة، ذاكرة مدمجة، متوافقة مع الكمبيوتر الشخصي/ماك - متوفرة بعدة ألوان",
+    "shortDescription_es": "Égère, 6 botones programables, autonomía de batería de 250 h, memoria integrada, PC/Mac - ofrecido en varios colores",
+    "shortDescription_zh": "轻盈，6个可编程按钮，电池寿命长达250小时，内置存储器，兼容PC和Mac，提供多种颜色选择"
   },
   {
     "slug": "logitech-g213-prodigy-rgb",
@@ -171,7 +223,11 @@
     "actif": true,
     "prix": "79.10",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "RGB LIGHTSYNC, water-resistant, customizable keys",
+    "shortDescription_ar": "تزامن الإضاءة RGB، مقاوم للانسكاب، أزرار قابلة للتخصيص",
+    "shortDescription_es": "Luz RGB LIGHTSYNC, resistente a las salpicaduras, teclas personalizables",
+    "shortDescription_zh": "RGB光同步，防溅水，自定义按键"
   },
   {
     "slug": "8bitdo-ultimate-wireless-controller",
@@ -184,7 +240,11 @@
     "actif": true,
     "prix": "44.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Wireless Bluetooth Controller - Compatible with Switch, Android and PC Available in multiple colors",
+    "shortDescription_ar": "جهاز تحكم لاسلكي بلوتوث - متوافق مع سويتش، أندرويد وPC، متاح بعدة ألوان.",
+    "shortDescription_es": "Mando inalámbrico Bluetooth - Compatible con Switch, Android y PC Ofrecido en varios colores",
+    "shortDescription_zh": "蓝牙无线手柄-兼容Switch、安卓和PC 多种颜色可供选择"
   },
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
@@ -197,7 +257,11 @@
     "actif": true,
     "prix": "24.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "thick high-density mousse - anti-slip base",
+    "shortDescription_ar": "رغوة كثيفة عالية الكثافة - قاعدة غير لاصقة",
+    "shortDescription_es": "espuma gruesa de alta densidad - base antideslizante",
+    "shortDescription_zh": "厚密海绵高密度-防滑底座"
   },
   {
     "slug": "elgato-game-capture-neo",
@@ -210,7 +274,11 @@
     "actif": true,
     "prix": "154.99",
     "prixBarre": "164.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Portable USB 4K60 HDR Capture Card, 1080p60 Video Recording – For PS5 Xbox Nintendo Switch 2 - OBS, QuickTime and more - Plug & Play",
+    "shortDescription_ar": "بطاقة التقاط محمولة عبر يو إس بي بدقة 4K60 HDR، تسجيل فيديو 1080p60 - مناسبة لـ PS5 و Xbox ونينتندو سويتش 2 - متوافقة مع OBS و Quicktime وغيرها - توصيل وتشغيل",
+    "shortDescription_es": "Tarjeta de captura portátil USB 4K60 HDR Passthrough, grabación de video 1080p60 – Para PS5 Xbox Nintendo Switch 2 - OBS, Quicktime y más - Conectar y jugar",
+    "shortDescription_zh": "便携式USB 4K60 HDR 直通视频捕获卡，支持1080p60 视频录制 - 适用于PS5、Xbox、任天堂Switch 2 - 支持OBS、Quicktime 等软件 - 即插即用"
   },
   {
     "slug": "razer-firefly-v2-pro-tapis-de-souris",
@@ -223,7 +291,11 @@
     "actif": true,
     "prix": "122.98",
     "prixBarre": "144.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Gaming mouse mat with full RGB lighting: Retro-illuminated design - Chroma lighting on 15 zones - USB 2.0 port - Detachable USB-C cable - Micro-textured surface",
+    "shortDescription_ar": "سجادة ماوس للألعاب RGB مُضاءة بالكامل: تصميم مُضاء من الخلف - إضاءة كروما على 15 منطقة - منفذ USB 2.0 - كابل USB من نوع C قابل للفصل - سطح مُنحوت بالمجعد الدقيق",
+    "shortDescription_es": "Alfombrilla de ratón de juego RGB completamente iluminada: Diseño con retroiluminación - Iluminación Chroma en 15 zonas - Puerto USB 2.0 - Cable USB Tipo C desmontable - Superficie microtexturizada",
+    "shortDescription_zh": "游戏鼠标垫全彩RGB背光：背光设计-15个区域Chroma照明-USB 2.0端口-可拆卸的Type C USB线-微纹理表面"
   },
   {
     "slug": "microphone-razer-seiren-v3-chroma-rgb-usb",
@@ -236,7 +308,11 @@
     "actif": true,
     "prix": "159.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "reactive lighting for streaming and gaming - touch sensor switch - condenser microphone - digital gain limiter, available in 3 colors",
+    "shortDescription_ar": "إضاءة تفاعلية للبث والألعاب - مستشعر لقطع الإضاءة بنقرة واحدة - ميكروفون كهروضوئي - محدد مكسب رقمي، متاح بثلاث ألوان.",
+    "shortDescription_es": "Iluminación reactiva para streaming y juegos - sensor de corte con un solo toque - micrófono de condensador - limitador de ganancia digital, disponible en 3 colores",
+    "shortDescription_zh": "用于流媒体和游戏的反应性照明 - 单触摸切换传感器 - 电容麦克风 - 数字增益限制器，提供三种颜色可供选择"
   },
   {
     "slug": "dowinx-chaise-de-jeu-et-bureau",
@@ -249,7 +325,11 @@
     "actif": true,
     "prix": "269.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "lumbar support massaging, vintage style leather armchair",
+    "shortDescription_ar": "دعم أسفل الظهر المساج، كرسي بتصميم كلاسيكي قديم من جلد البولي يوريثان",
+    "shortDescription_es": "Soporte lumbar masajeador, silla de estilo vintage en cuero PU",
+    "shortDescription_zh": "腰部按摩支撑，复古风格的PU皮革椅子"
   },
   {
     "slug": "chaise-de-jeu-avec-repose-pieds",
@@ -262,7 +342,11 @@
     "actif": true,
     "prix": "119.98",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Ergonomic racing chair with reclining massage backrest, high and large gaming chair for adults in PVC leather",
+    "shortDescription_ar": "كرسي مكتب بدعم ظهر عالي مع تدليك قابل للتعديل، كرسي لعب سباق إرغونومي كبير وعالي للبالغين من جلد البولي فينيل كلوريد.",
+    "shortDescription_es": "Silla de oficina con respaldo alto y masaje inclinable, silla de carreras de juego ergonómica grande y alta para adultos de cuero PVC",
+    "shortDescription_zh": "高背按摩可倾斜办公椅，大型高端成人真皮PVC赛车游戏人体工程学椅"
   },
   {
     "slug": "chaise-de-bureau-mimoglad",
@@ -275,7 +359,11 @@
     "actif": true,
     "prix": "169.99",
     "prixBarre": "259.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "High back ergonomic chair with adjustable lumbar support and headrest.",
+    "shortDescription_ar": "إرغونوميكي بظهر عالي ودعم للمنطقة القطنية قابل للتعديل ورأس دعم.",
+    "shortDescription_es": "Ergonómico con respaldo alto y soporte lumbar ajustable y apoyo para la cabeza.",
+    "shortDescription_zh": "人体工程学设计的高背椅具有可调节的腰部支撑和头枕"
   },
   {
     "slug": "kediers-boitier-c650",
@@ -288,7 +376,11 @@
     "actif": true,
     "prix": "125.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Tempered glass ATX tour with open frame for gaming computer with 7 RGB fans",
+    "shortDescription_ar": "إطار ATX من الزجاج المقوى مع تصميم مفتوح لجهاز الكمبيوتر الخاص بالألعاب مزود بـ 7 مراوح RGB.",
+    "shortDescription_es": "Torre ATX de vidrio templado con carcasa abierta para ordenador de juego con 7 ventiladores RGB",
+    "shortDescription_zh": "ATX玻璃钢化中塔式机箱，采用开框设计适用于游戏电脑，配备7个RGB风扇"
   },
   {
     "slug": "hyxn-atx-boitier",
@@ -301,7 +393,11 @@
     "actif": true,
     "prix": "259.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "8 pre-installed PWM ARGB fans (6 x 140 mm, 2 x 120 mm), large gaming PC case with dual-chamber ATX airflow, radiator stand at 420 mm",
+    "shortDescription_ar": "8 مراوح PWM ARGB مثبتة مسبقاً (6 × 140 مم، 2 × 120 مم)، صندوق كمبيوتر ألعاب ATX ذو غرفتين بتصميم تدفق هواء متوسط، دعم لمبرد 420 مم",
+    "shortDescription_es": "8 ventiladores PWM ARGB preinstalados (6 x 140 mm, 2 x 120 mm), gran caja de PC de juego ATX de doble cámara con flujo de aire medio, soporte para radiador de 420 mm",
+    "shortDescription_zh": "预装8个PWM ARGB风扇（6 x 140 mm，2 x 120 mm），中等空气流动的双室ATX游戏机箱，大型PC机箱，支持420mm散热器安装"
   },
   {
     "slug": "support-de-tour-d-ordinateur",
@@ -314,7 +410,11 @@
     "actif": true,
     "prix": "14.99",
     "prixBarre": "16.93",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Adjustable mobile processor stand with 4 wheels, computer tower stand suitable for most office PCs",
+    "shortDescription_ar": "حامل معالج محمول قابل للتعديل مع 4 عجلات، حامل برج كمبيوتر شخصي يناسب معظم أجهزة الكمبيوتر تحت المكتب.",
+    "shortDescription_es": "Soporte de procesador móvil ajustable con 4 ruedas, soporte de torre de computadora PC adecuado para la mayoría de los PCs bajo el escritorio",
+    "shortDescription_zh": "可调节的移动CPU支架配备4个轮子，电脑主机底座适用于大多数桌面PC"
   },
   {
     "slug": "corsair-3500x-lx-r",
@@ -327,7 +427,11 @@
     "actif": true,
     "prix": "209.99",
     "prixBarre": "249.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Mid-tower PC case - 3 pre-installed red, white, and blue fans LX120-R, includes an iCUE Link system concentrator, a GPU anti-sag arm",
+    "shortDescription_ar": "علبة كمبيوتر متوسطة الحجم - 3 مراوح LX120-R RGB مثبتة مسبقاً، تتضمن منفذ نظام iCUE Link، ذراع لمنع انخفاض بطاقة الرسومات.",
+    "shortDescription_es": "Gabinete de PC Torre mediano – 3 ventiladores LX120-R RGB preinstalados, incluye un concentrador de sistema iCUE Link, un brazo anticaída de la GPU",
+    "shortDescription_zh": "中档游戏机箱 - 预装3个LX120-R RGB风扇，包含iCUE Link系统集线器和显卡防塌支架"
   },
   {
     "slug": "z-edge",
@@ -340,7 +444,11 @@
     "actif": true,
     "prix": "195.49",
     "prixBarre": "229.99",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Curved gaming monitor 27 inches 16:9 1920x1080 300Hz 1ms without frame LED, UG27S, AMD FreeSync Premium, DisplayPort HDMI",
+    "shortDescription_ar": "شاشة لعب منحنية مقاس 27 بوصة نسبة 16:9 دقة 1920x1080 تردد تحديث 300 هرتز زمن استجابة 1 مللي ثانية بدون إطار LED، UG27S، AMD Freesync Premium، منفذ عرض Display Port و HDMI.",
+    "shortDescription_es": "Monitor de juego curvo de 27 pulgadas 16:9 1920x1080 300Hz 1ms sin marco LED, UG27S, AMD Freesync Premium, Puerto de visualización HDMI",
+    "shortDescription_zh": "27英寸16:9弧形游戏监视器 1920x1080 300Hz 1ms 无边框LED，UG27S，AMD Freesync Premium，Display Port HDMI"
   },
   {
     "slug": "asus-tuf-gaming-31-5",
@@ -353,6 +461,10 @@
     "actif": true,
     "prix": "349.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-05",
+    "shortDescription_en": "Curved 1440P Gaming Monitor HDR (VG32WQ3B) – QHD (2560 x 1440), 180Hz, 0.5ms, 1500R, Extreme Low Motion Blur, FreeSync, 90% DCI-P3, Shadow Boost, DisplayWidget, 3-year warranty",
+    "shortDescription_ar": "شاشة ألعاب منحنية بدقة 1440p HDR (VG32WQ3B) - QHD (2560x1440)، 180 هرتز، 0.5 مللي ثانية، 1500R، تقليل ضباب الحركة القصوى، FreeSync، 90% DCI-P3، تعزيز الظلال، DisplayWidget، ضمان لمدة 3 سنوات",
+    "shortDescription_es": "Monitor de juego curvo 1440P HDR (VG32WQ3B) – QHD (2560 x 1440), 180Hz, 0,5ms, 1500R, Desenfoque de movimiento extremadamente bajo, FreeSync, 90% DCI-P3, Shadow Boost, DisplayWidget, garantía de 3 años",
+    "shortDescription_zh": "1440P 游戏曲面显示器HDR（VG32WQ3B）- QHD（2560 x 1440），180Hz，0.5ms，1500R，极低运动模糊，FreeSync，90% DCI-P3，阴影增强，DisplayWidget，三年保修"
   }
 ]
