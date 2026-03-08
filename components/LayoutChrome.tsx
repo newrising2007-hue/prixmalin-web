@@ -1,6 +1,21 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import LanguageSwitch from "@/components/LanguageSwitch";
+
+type Locale = "fr" | "en" | "es" | "ar" | "zh";
+
+const NAV_TEXT: Record<Locale, {
+  home: string; gaming: string; deals: string; products: string;
+  apps: string; bonus: string; contact: string;
+}> = {
+  fr: { home: "Accueil", gaming: "Gaming", deals: "Deals", products: "Produits", apps: "Applications", bonus: "Codes bonus", contact: "Contact" },
+  en: { home: "Home", gaming: "Gaming", deals: "Deals", products: "Products", apps: "Apps", bonus: "Bonus Codes", contact: "Contact" },
+  es: { home: "Inicio", gaming: "Gaming", deals: "Ofertas", products: "Productos", apps: "Aplicaciones", bonus: "Códigos bonus", contact: "Contacto" },
+  ar: { home: "الرئيسية", gaming: "ألعاب", deals: "عروض", products: "منتجات", apps: "تطبيقات", bonus: "رموز المكافآت", contact: "اتصل" },
+  zh: { home: "首页", gaming: "游戏", deals: "优惠", products: "产品", apps: "应用", bonus: "奖励码", contact: "联系" },
+};
 
 const FOOTER_TEXT: Record<string, string> = {
   fr: "PrixMalin est une plateforme d'affiliation. Certains liens peuvent être rémunérés. Prix affichés seulement si certains.",
@@ -10,34 +25,30 @@ const FOOTER_TEXT: Record<string, string> = {
   zh: "PrixMalin 是一个联盟营销平台。部分链接可能获得佣金。价格仅在有时显示。",
 };
 
-
-import { usePathname } from "next/navigation";
-import LanguageSwitch from "@/components/LanguageSwitch";
-
 export default function LayoutChrome({
   children,
 }: {
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const locale = (pathname.split("/")[1] as Locale) in NAV_TEXT ? pathname.split("/")[1] as Locale : "fr";
+  const t = NAV_TEXT[locale];
 
   const isHub = pathname === "/" || /^\/(en|es|ar|zh)$/.test(pathname);
   const isStore = pathname.startsWith("/magasins");
-
-  // Pour l'instant: tout ce qui n'est pas Hub et pas Magasins = univers Gaming
   const showGamingHeader = !isHub && !isStore;
 
   return (
     <>
       {/* HUB HEADER */}
       {isHub && (
-        <header className="sticky top-0 z-50 border-b border-white/40 bg-white/60 backdrop-blur-md relative"><div className="absolute left-0 top-0 h-1 w-full pointer-events-none bg-gradient-to-r from-blue-600 via-white to-green-600 opacity-70" />
+        <header className="sticky top-0 z-50 border-b border-white/40 bg-white/60 backdrop-blur-md relative">
+          <div className="absolute left-0 top-0 h-1 w-full pointer-events-none bg-gradient-to-r from-blue-600 via-white to-green-600 opacity-70" />
           <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
             <div className="flex items-center gap-3">
               <Link href="/" className="text-lg font-bold tracking-tight">
                 PrixMalin
               </Link>
-
               <div className="flex items-center gap-2">
                 <Link
                   href="/gaming"
@@ -45,7 +56,6 @@ export default function LayoutChrome({
                 >
                   🎮 Gaming
                 </Link>
-
                 <Link
                   href="/magasins"
                   className="rounded-full border border-green-200 bg-green-50 px-3 py-1 text-sm font-semibold text-green-700 hover:bg-green-100"
@@ -54,9 +64,6 @@ export default function LayoutChrome({
                 </Link>
               </div>
             </div>
-
-
-
             <LanguageSwitch />
           </div>
         </header>
@@ -82,7 +89,6 @@ export default function LayoutChrome({
                 </Link>
               </div>
             </div>
-
             <nav className="flex items-center gap-3 text-sm">
               <Link href="/magasins/recherche" className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 Recherche
@@ -96,12 +102,8 @@ export default function LayoutChrome({
               <Link href="/magasins/coupons" className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 Coupons
               </Link>
-
               <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">Contact</a>
-
-
               <LanguageSwitch />
-
               <Link
                 href="/magasins/recherche"
                 className="hidden rounded-xl px-3 py-2 font-semibold text-white shadow-sm transition hover:opacity-90 sm:inline-block"
@@ -116,47 +118,35 @@ export default function LayoutChrome({
 
       {/* GAMING HEADER */}
       {showGamingHeader && (
-        <header className="sticky top-0 z-50 border-b border-white/40 bg-white/60 backdrop-blur-md relative"><div className="absolute left-0 top-0 h-1 w-full pointer-events-none bg-gradient-to-r from-blue-600 via-white to-green-600 opacity-70" />
+        <header className="sticky top-0 z-50 border-b border-white/40 bg-white/60 backdrop-blur-md relative">
+          <div className="absolute left-0 top-0 h-1 w-full pointer-events-none bg-gradient-to-r from-blue-600 via-white to-green-600 opacity-70" />
           <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
             <div className="flex items-center gap-4">
               <Link href="/" className="text-lg font-bold tracking-tight">
                 PrixMalin
               </Link>
-
               <div className="flex items-center gap-2">
-                <Link
-                  href="/"
-                  className="rounded-lg px-2 py-1 text-sm hover:bg-gray-100"
-                >
-                  Accueil
+                <Link href="/" className="rounded-lg px-2 py-1 text-sm hover:bg-gray-100">
+                  {t.home}
                 </Link>
-
-                <Link
-                  href="/gaming"
-                  className="rounded-lg px-2 py-1 text-sm font-semibold hover:bg-gray-100"
-                >
-                  Gaming
+                <Link href="/gaming" className="rounded-lg px-2 py-1 text-sm font-semibold hover:bg-gray-100">
+                  {t.gaming}
                 </Link>
               </div>
             </div>
-
             <nav className="flex items-center gap-3 text-sm">
               <Link href="/deals" className="rounded-lg px-2 py-1 hover:bg-gray-100">
-                Deals
+                {t.deals}
               </Link>
-
               <Link href="/produits" className="rounded-lg px-2 py-1 hover:bg-gray-100">
-                Produits
+                {t.products}
               </Link>
-
               <Link href="/applications" className="rounded-lg px-2 py-1 hover:bg-gray-100">
-                Applications
+                {t.apps}
               </Link>
-
               <Link href="/codes-bonus" className="rounded-lg px-2 py-1 hover:bg-gray-100">
-                Codes bonus
+                {t.bonus}
               </Link>
-
               {process.env.NEXT_PUBLIC_DEV_MODE === "true" && (
                 <div className="relative group">
                   <button className="rounded-lg px-2 py-1 text-orange-500 hover:bg-orange-50 font-semibold">🔧 Dev</button>
@@ -166,18 +156,8 @@ export default function LayoutChrome({
                   </div>
                 </div>
               )}
-
-              <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">Contact</a>
-
-
+              <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">{t.contact}</a>
               <LanguageSwitch />
-
-              <Link
-                href="/deals"
-                className="hidden rounded-xl bg-green-600 px-3 py-2 font-semibold text-white shadow-sm transition hover:bg-green-700 sm:inline-block"
-              >
-                Voir les deals
-              </Link>
             </nav>
           </div>
         </header>
