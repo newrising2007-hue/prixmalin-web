@@ -3,7 +3,7 @@ import { absoluteUrl, SITE } from "@/lib/site";
 import { getFAQ } from "./AppFAQ";
 import { getAppRelease, PRIXMALIN } from "@/lib/appRelease";
 
-export function AppSchema({ lang }: { lang: "fr" | "en" }) {
+export function AppSchema({ lang }: { lang: "fr" | "en" | "es" | "ar" | "zh" }) {
   const release = getAppRelease();
 
   const pagePath =

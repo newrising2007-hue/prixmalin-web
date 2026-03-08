@@ -21,13 +21,13 @@ const screenshots = [
   "/apps/prixmalin/screen-3.webp",
 ];
 
-export function AppHero({ lang }: { lang: "fr" | "en" }) {
+export function AppHero({ lang }: { lang: "fr" | "en" | "es" | "ar" | "zh" }) {
   const [active, setActive] = useState(0);
 
   const release = getAppRelease();
   const primary = getPrimaryDownloadUrl();
 
-  const copy: Record<"fr" | "en", Copy> = {
+  const copy: Record<"fr" | "en" | "es" | "ar" | "zh", Copy> = {
     fr: {
       title: "PrixMalin — l’app pour repérer des bons plans local & web",
       subtitle: "Recherche de produits et offres au Canada. Simple, rapide, pensée mobile.",
@@ -46,9 +46,36 @@ export function AppHero({ lang }: { lang: "fr" | "en" }) {
       languagesLabel: "Languages",
       seeDeals: "Browse deals",
     },
+    es: {
+      title: "PrixMalin — la app para encontrar ofertas locales y en linea",
+      subtitle: "Descubre productos y ofertas en Canada. Rapido, simple, pensado para movil.",
+      googlePlaySoon: "La version publica estara disponible en Google Play muy pronto.",
+      apkTest: "Descargar APK (version de prueba)",
+      sizeLabel: "Tamano",
+      languagesLabel: "Idiomas",
+      seeDeals: "Ver ofertas",
+    },
+    ar: {
+      title: "PrixMalin — التطبيق للعثور على افضل العروض",
+      subtitle: "اكتشف المنتجات والعروض في كندا. سريع وبسيط.",
+      googlePlaySoon: "سيتوفر الاصدار العام على Google Play قريبا.",
+      apkTest: "تنزيل APK (اصدار تجريبي)",
+      sizeLabel: "الحجم",
+      languagesLabel: "اللغات",
+      seeDeals: "تصفح العروض",
+    },
+    zh: {
+      title: "PrixMalin — 发现本地和网络优惠的应用",
+      subtitle: "在加拿大发现产品和优惠。快速、简单、移动优先。",
+      googlePlaySoon: "公开版本即将在 Google Play 上发布。",
+      apkTest: "下载 APK（测试版）",
+      sizeLabel: "大小",
+      languagesLabel: "语言",
+      seeDeals: "浏览优惠",
+    },
   };
 
-  const c = copy[lang];
+  const c = copy[lang] ?? copy.en;
 
   return (
     <section className="mx-auto max-w-5xl px-4 pt-10 pb-6">

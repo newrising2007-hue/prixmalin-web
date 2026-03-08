@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 
 export default async function PrixMalinAppFr() {
   const locale = await getLocale();
-  const lang = locale === "fr" ? "fr" : "en";
+  const lang = ["fr", "en", "es", "ar", "zh"].includes(locale) ? locale as "fr" | "en" | "es" | "ar" | "zh" : "en";
   return (
     <main>
       <AppSchema lang={lang} />
