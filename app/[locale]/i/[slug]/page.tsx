@@ -18,6 +18,14 @@ type PageProps = {
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? getSiteUrl() ?? "https://prixmalin.ca";
 
+
+function getFaq(page: { faq?: {q:string,a:string}[], faq_en?: {q:string,a:string}[], faq_es?: {q:string,a:string}[], faq_ar?: {q:string,a:string}[], faq_zh?: {q:string,a:string}[] }, locale: string) {
+  const map: Record<string, keyof typeof page> = { en: "faq_en", es: "faq_es", ar: "faq_ar", zh: "faq_zh" };
+  const key = map[locale];
+  const localized = key ? (page as Record<string, {q:string,a:string}[]>)[key as string] : undefined;
+  return (localized && localized.length > 0) ? localized : (page.faq ?? []);
+}
+
 function formatPrice(price?: number, currency = "CAD") {
   if (!price || !Number.isFinite(price)) return null;
   try {
@@ -161,11 +169,11 @@ export default async function IntentPageRoute({ params }: PageProps) {
       : null;
 
   const faqJsonLd =
-    page.faq && page.faq.length > 0
+    getFaq(page, locale) && getFaq(page, locale).length > 0
       ? {
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: page.faq.map((item) => ({
+          mainEntity: getFaq(page, locale).map((item) => ({
             "@type": "Question",
             name: item.q,
             acceptedAnswer: { "@type": "Answer", text: item.a },
@@ -236,7 +244,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
         ) : null}
 
         {/* FAQ */}
-        {page.faq && page.faq.length > 0 ? (
+        {getFaq(page, locale).length > 0 ? (
           <section className="mb-10">
             <h2 className="mb-4 flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gray-500">
               <span className="h-px flex-1 bg-gray-200" />
@@ -244,7 +252,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
               <span className="h-px flex-1 bg-gray-200" />
             </h2>
             <div className="space-y-3">
-              {page.faq.map((item) => (
+              {getFaq(page, locale).map((item) => (
                 <details
                   key={item.q}
                   className="group rounded-2xl border border-black/10 bg-white px-5 py-4 shadow-sm"

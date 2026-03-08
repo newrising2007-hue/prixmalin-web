@@ -28,6 +28,62 @@
         "q": "Le code est-il valide au Canada?",
         "a": "Vérifie toujours que l'offre est pour la région Canada (CAD) avant d'acheter."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Does Game Pass Ultimate work on Xbox and PC?",
+        "a": "Yes, Game Pass Ultimate covers Xbox, PC and cloud gaming from any device."
+      },
+      {
+        "q": "Is EA Play included?",
+        "a": "Yes, EA Play is included with Game Pass Ultimate at no extra cost."
+      },
+      {
+        "q": "Is the code valid in Canada?",
+        "a": "Always verify the offer is for the Canada region (CAD) before purchasing."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Funciona el Game Pass Ultimate en Xbox y PC?",
+        "a": "Si, Game Pass Ultimate cubre Xbox, PC y cloud gaming desde cualquier dispositivo."
+      },
+      {
+        "q": "Esta incluido EA Play?",
+        "a": "Si, EA Play esta incluido con Game Pass Ultimate sin costo adicional."
+      },
+      {
+        "q": "El codigo es valido en Canada?",
+        "a": "Verifica siempre que la oferta sea para la region Canada (CAD) antes de comprar."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل يعمل Game Pass Ultimate على Xbox وPC؟",
+        "a": "نعم، يغطي Game Pass Ultimate أجهزة Xbox وPC والألعاب السحابية من أي جهاز."
+      },
+      {
+        "q": "هل EA Play مضمّن؟",
+        "a": "نعم، EA Play مضمّن مع Game Pass Ultimate بدون تكاليف إضافية."
+      },
+      {
+        "q": "هل الرمز صالح في كندا؟",
+        "a": "تحقق دائماً من أن العرض مخصص لمنطقة كندا (CAD) قبل الشراء."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "Game Pass Ultimate 适用于 Xbox 和 PC 吗？",
+        "a": "是的，Game Pass Ultimate 覆盖 Xbox、PC 和任意设备上的云游戏。"
+      },
+      {
+        "q": "包含 EA Play 吗？",
+        "a": "是的，EA Play 包含在 Game Pass Ultimate 中，无需额外费用。"
+      },
+      {
+        "q": "代码在加拿大有效吗？",
+        "a": "购买前请始终确认该优惠适用于加拿大地区（CAD）。"
+      }
     ]
   },
   {
@@ -54,6 +110,46 @@
       {
         "q": "C'est moins cher que l'abonnement 3 mois?",
         "a": "Non, le 3 mois est plus avantageux à long terme. Le 1 mois coûte 19,99$ vs 49,99$ pour 3 mois."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Can I cancel after 1 month?",
+        "a": "Yes, the monthly subscription does not auto-renew if you use a physical or digital code."
+      },
+      {
+        "q": "Is it cheaper than the 3-month subscription?",
+        "a": "No, the 3-month plan is more cost-effective. 1 month costs $19.99 vs $49.99 for 3 months."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Puedo cancelar despues de 1 mes?",
+        "a": "Si, la suscripcion mensual no se renueva automaticamente si usas un codigo fisico o digital."
+      },
+      {
+        "q": "Es mas barato que la suscripcion de 3 meses?",
+        "a": "No, el plan de 3 meses es mas rentable. 1 mes cuesta $19.99 vs $49.99 por 3 meses."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل يمكنني الإلغاء بعد شهر واحد؟",
+        "a": "نعم، الاشتراك الشهري لا يتجدد تلقائياً إذا استخدمت رمزاً مادياً أو رقمياً."
+      },
+      {
+        "q": "هل هو أرخص من اشتراك 3 أشهر؟",
+        "a": "لا، خطة 3 أشهر أكثر فائدة. شهر واحد يكلف 19.99$ مقابل 49.99$ لـ 3 أشهر."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "我可以在 1 个月后取消吗？",
+        "a": "是的，如果您使用实体或数字代码，月度订阅不会自动续订。"
+      },
+      {
+        "q": "比 3 个月订阅便宜吗？",
+        "a": "不，3 个月计划更划算。1 个月花费 $19.99，3 个月为 $49.99。"
       }
     ]
   },
@@ -86,6 +182,62 @@
         "q": "Code digital ou carte physique?",
         "a": "Ça dépend du vendeur. Certaines offres livrent un code digital rapidement, d'autres expédient une carte physique."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Does the Xbox $50 card work in Canada?",
+        "a": "Yes, as long as the card is for Canada (CAD/CA). Always verify the region before buying."
+      },
+      {
+        "q": "Can I use it on Xbox and PC?",
+        "a": "Yes, Xbox/Microsoft credit is usable across the Microsoft ecosystem (Xbox, PC, store)."
+      },
+      {
+        "q": "Digital code or physical card?",
+        "a": "It depends on the vendor. Some offers deliver a digital code quickly, others ship a physical card."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Funciona la tarjeta Xbox de $50 en Canada?",
+        "a": "Si, siempre que la tarjeta sea para Canada (CAD/CA). Verifica siempre la region antes de comprar."
+      },
+      {
+        "q": "Puedo usarla en Xbox y PC?",
+        "a": "Si, el credito Xbox/Microsoft es valido en todo el ecosistema Microsoft (Xbox, PC, tienda)."
+      },
+      {
+        "q": "Codigo digital o tarjeta fisica?",
+        "a": "Depende del vendedor. Algunas ofertas entregan un codigo digital rapido, otras envian tarjeta fisica."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة Xbox بقيمة 50$ تعمل في كندا؟",
+        "a": "نعم، طالما أن البطاقة مخصصة لكندا (CAD/CA). تحقق دائماً من المنطقة قبل الشراء."
+      },
+      {
+        "q": "هل يمكنني استخدامها على Xbox وPC؟",
+        "a": "نعم، رصيد Xbox/Microsoft صالح في نظام Microsoft البيئي بالكامل."
+      },
+      {
+        "q": "رمز رقمي أم بطاقة مادية؟",
+        "a": "يعتمد على البائع. بعض العروض تُسلم رمزاً رقمياً بسرعة، والبعض الآخر يشحن بطاقة مادية."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "Xbox $50 礼品卡在加拿大有效吗？",
+        "a": "是的，只要该卡适用于加拿大（CAD/CA）。购买前请始终确认地区。"
+      },
+      {
+        "q": "可以在 Xbox 和 PC 上使用吗？",
+        "a": "是的，Xbox/微软积分可在整个微软生态系统中使用。"
+      },
+      {
+        "q": "数字代码还是实体卡？",
+        "a": "取决于卖家。部分优惠快速提供数字代码，其他则邮寄实体卡。"
+      }
     ]
   },
   {
@@ -112,6 +264,46 @@
       {
         "q": "Utilisable pour Game Pass?",
         "a": "Oui, tu peux utiliser le crédit Xbox pour payer un abonnement Game Pass depuis ton compte."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What's the difference between $25 and $50?",
+        "a": "Just the credit amount. The $25 is good for a small purchase, the $50 for a game or subscription."
+      },
+      {
+        "q": "Can it be used for Game Pass?",
+        "a": "Yes, you can use Xbox credit to pay for a Game Pass subscription from your account."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Cual es la diferencia entre $25 y $50?",
+        "a": "Solo el monto del credito. El de $25 es bueno para una compra pequeña, el de $50 para un juego o suscripcion."
+      },
+      {
+        "q": "Se puede usar para Game Pass?",
+        "a": "Si, puedes usar el credito Xbox para pagar una suscripcion Game Pass desde tu cuenta."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "ما الفرق بين 25$ و50$؟",
+        "a": "فقط قيمة الرصيد. الـ25$ مناسبة لشراء صغير، والـ50$ لشراء لعبة أو اشتراك."
+      },
+      {
+        "q": "هل يمكن استخدامها لـ Game Pass؟",
+        "a": "نعم، يمكنك استخدام رصيد Xbox لدفع اشتراك Game Pass من حسابك."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "$25 和 $50 有什么区别？",
+        "a": "只是积分金额不同。$25 适合小额购买，$50 适合购买游戏或订阅。"
+      },
+      {
+        "q": "可以用于 Game Pass 吗？",
+        "a": "是的，您可以使用 Xbox 积分支付 Game Pass 订阅费用。"
       }
     ]
   },
@@ -145,6 +337,62 @@
         "q": "Puis-je utiliser le code sur un compte existant?",
         "a": "Oui, dans la majorité des cas tu peux prolonger un abonnement existant avec un nouveau code."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Does the PlayStation Plus code work in Canada?",
+        "a": "Yes, if the code is valid for Canada (region CA). Always check the region before purchase."
+      },
+      {
+        "q": "Do I receive the code instantly?",
+        "a": "Most digital offers deliver the code quickly after purchase (depending on the vendor)."
+      },
+      {
+        "q": "Can I use the code on an existing account?",
+        "a": "Yes, in most cases you can extend an existing subscription with a new code."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Funciona el codigo de PlayStation Plus en Canada?",
+        "a": "Si, si el codigo es valido para Canada (region CA). Siempre verifica la region antes de comprar."
+      },
+      {
+        "q": "Recibo el codigo de forma instantanea?",
+        "a": "La mayoria de las ofertas digitales entregan el codigo rapidamente tras la compra."
+      },
+      {
+        "q": "Puedo usar el codigo en una cuenta existente?",
+        "a": "Si, en la mayoria de los casos puedes extender una suscripcion existente con un nuevo codigo."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل رمز PlayStation Plus يعمل في كندا؟",
+        "a": "نعم، إذا كان الرمز صالحاً لكندا (المنطقة CA). تحقق دائماً من المنطقة قبل الشراء."
+      },
+      {
+        "q": "هل أتلقى الرمز فوراً؟",
+        "a": "معظم العروض الرقمية تُسلم الرمز بسرعة بعد الشراء (حسب البائع)."
+      },
+      {
+        "q": "هل يمكنني استخدام الرمز على حساب موجود؟",
+        "a": "نعم، في معظم الحالات يمكنك تمديد اشتراك موجود برمز جديد."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "PlayStation Plus 代码在加拿大有效吗？",
+        "a": "是的，如果代码标明适用于加拿大（CA 地区）。购买前请务必确认地区。"
+      },
+      {
+        "q": "代码会立即收到吗？",
+        "a": "大多数数字优惠在购买后会快速提供代码（取决于卖家）。"
+      },
+      {
+        "q": "可以在现有账户上使用代码吗？",
+        "a": "是的，大多数情况下您可以用新代码延长现有订阅。"
+      }
     ]
   },
   {
@@ -173,6 +421,46 @@
         "q": "Les jeux mensuels sont-ils inclus?",
         "a": "Oui, PS Plus inclut des jeux mensuels gratuits pour tous les niveaux d'abonnement."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "What's the difference between PS Plus 3 months and 12 months?",
+        "a": "The 12-month plan is cheaper per year. The 3-month plan is great for testing or a specific period."
+      },
+      {
+        "q": "Are monthly games included?",
+        "a": "Yes, PS Plus includes free monthly games for all subscription tiers."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Cual es la diferencia entre PS Plus 3 meses y 12 meses?",
+        "a": "El plan de 12 meses sale mas barato al ano. El de 3 meses es ideal para probar o un periodo especifico."
+      },
+      {
+        "q": "Se incluyen juegos mensuales?",
+        "a": "Si, PS Plus incluye juegos mensuales gratuitos para todos los niveles de suscripcion."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "ما الفرق بين PS Plus لمدة 3 أشهر و12 شهراً؟",
+        "a": "خطة 12 شهراً أرخص سنوياً. خطة 3 أشهر مثالية للتجربة أو فترة محددة."
+      },
+      {
+        "q": "هل الألعاب الشهرية مضمّنة؟",
+        "a": "نعم، PS Plus يتضمن ألعاباً شهرية مجانية لجميع مستويات الاشتراك."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "PS Plus 3 个月和 12 个月有什么区别？",
+        "a": "12 个月计划年费更便宜。3 个月计划适合试用或特定时期。"
+      },
+      {
+        "q": "包含每月免费游戏吗？",
+        "a": "是的，PS Plus 为所有订阅级别提供每月免费游戏。"
+      }
     ]
   },
   {
@@ -200,6 +488,46 @@
       {
         "q": "C'est avantageux par rapport au 12 mois?",
         "a": "Non, le 12 mois revient à environ 11,67$/mois vs 19,99$ pour 1 mois seul."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Can I cancel after 1 month?",
+        "a": "With a physical or digital code, the subscription does not auto-renew."
+      },
+      {
+        "q": "Is it worth it compared to 12 months?",
+        "a": "No, the 12-month plan works out to about $11.67/month vs $19.99 for 1 month alone."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Puedo cancelar despues de 1 mes?",
+        "a": "Con un codigo fisico o digital, la suscripcion no se renueva automaticamente."
+      },
+      {
+        "q": "Vale la pena comparado con 12 meses?",
+        "a": "No, el plan de 12 meses sale a unos $11.67/mes vs $19.99 por 1 solo mes."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل يمكنني الإلغاء بعد شهر؟",
+        "a": "مع رمز مادي أو رقمي، لا يتجدد الاشتراك تلقائياً."
+      },
+      {
+        "q": "هل يستحق مقارنةً بـ 12 شهراً؟",
+        "a": "لا، خطة 12 شهراً تكلف حوالي 11.67$/شهر مقابل 19.99$ لشهر واحد فقط."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "我可以在 1 个月后取消吗？",
+        "a": "使用实体或数字代码，订阅不会自动续订。"
+      },
+      {
+        "q": "与 12 个月相比值得吗？",
+        "a": "不，12 个月计划约为 $11.67/月，而单独 1 个月为 $19.99。"
       }
     ]
   },
@@ -233,6 +561,62 @@
         "q": "Code instantané ou carte physique?",
         "a": "Souvent code digital instantané pour les offres en ligne, carte physique sinon."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Is the PSN $100 card valid in Canada?",
+        "a": "Yes, if it's a Canada card (CAD/CA). PSN cards are region-locked."
+      },
+      {
+        "q": "Can it be used for PS Plus?",
+        "a": "Yes, you can use PSN credit to purchase PlayStation Plus subscriptions."
+      },
+      {
+        "q": "Instant code or physical card?",
+        "a": "Often an instant digital code for online offers, physical card otherwise."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "La tarjeta PSN de $100 es valida en Canada?",
+        "a": "Si, si es una tarjeta de Canada (CAD/CA). Las tarjetas PSN son regionales."
+      },
+      {
+        "q": "Se puede usar para PS Plus?",
+        "a": "Si, puedes usar el credito PSN para comprar suscripciones de PlayStation Plus."
+      },
+      {
+        "q": "Codigo instantaneo o tarjeta fisica?",
+        "a": "Generalmente codigo digital instantaneo para ofertas en linea, tarjeta fisica en caso contrario."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة PSN بقيمة 100$ صالحة في كندا؟",
+        "a": "نعم، إذا كانت بطاقة كندية (CAD/CA). بطاقات PSN مرتبطة بالمنطقة."
+      },
+      {
+        "q": "هل يمكن استخدامها لـ PS Plus؟",
+        "a": "نعم، يمكنك استخدام رصيد PSN لشراء اشتراكات PlayStation Plus."
+      },
+      {
+        "q": "رمز فوري أم بطاقة مادية؟",
+        "a": "غالباً رمز رقمي فوري للعروض الإلكترونية، وبطاقة مادية في الحالات الأخرى."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "PSN $100 卡在加拿大有效吗？",
+        "a": "是的，如果是加拿大卡（CAD/CA）。PSN 卡有地区限制。"
+      },
+      {
+        "q": "可以用于 PS Plus 吗？",
+        "a": "是的，您可以使用 PSN 积分购买 PlayStation Plus 订阅。"
+      },
+      {
+        "q": "即时代码还是实体卡？",
+        "a": "在线优惠通常提供即时数字代码，否则为实体卡。"
+      }
     ]
   },
   {
@@ -261,6 +645,46 @@
         "q": "Puis-je l'utiliser pour acheter un jeu PS5?",
         "a": "Oui, le crédit PSN s'utilise pour n'importe quel achat sur le PlayStation Store."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Is the PSN $50 card valid in Canada?",
+        "a": "Yes, if it's a Canada card (CAD/CA). Always check the region before buying."
+      },
+      {
+        "q": "Can I use it to buy a PS5 game?",
+        "a": "Yes, PSN credit can be used for any purchase on the PlayStation Store."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "La tarjeta PSN de $50 es valida en Canada?",
+        "a": "Si, si es una tarjeta de Canada (CAD/CA). Verifica la region antes de comprar."
+      },
+      {
+        "q": "Puedo usarla para comprar un juego de PS5?",
+        "a": "Si, el credito PSN se puede usar para cualquier compra en PlayStation Store."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة PSN بقيمة 50$ صالحة في كندا؟",
+        "a": "نعم، إذا كانت بطاقة كندية (CAD/CA). تحقق دائماً من المنطقة قبل الشراء."
+      },
+      {
+        "q": "هل يمكنني استخدامها لشراء لعبة PS5؟",
+        "a": "نعم، رصيد PSN صالح لأي شراء في PlayStation Store."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "PSN $50 卡在加拿大有效吗？",
+        "a": "是的，如果是加拿大卡（CAD/CA）。购买前请务必确认地区。"
+      },
+      {
+        "q": "可以用来购买 PS5 游戏吗？",
+        "a": "是的，PSN 积分可用于 PlayStation Store 上的任何购买。"
+      }
     ]
   },
   {
@@ -287,6 +711,46 @@
       {
         "q": "Est-ce utilisable pour PlayStation Plus?",
         "a": "Oui, tu peux utiliser le crédit PlayStation Store pour acheter des jeux et certains abonnements."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Is the PSN $25 card valid in Canada?",
+        "a": "Yes, if it's a Canada card (CAD/CA). PSN cards are region-locked: always check before purchasing."
+      },
+      {
+        "q": "Can it be used for PlayStation Plus?",
+        "a": "Yes, you can use PlayStation Store credit to buy games and some subscriptions."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "La tarjeta PSN de $25 es valida en Canada?",
+        "a": "Si, si es una tarjeta de Canada (CAD/CA). Las tarjetas PSN son regionales: verifica siempre antes de comprar."
+      },
+      {
+        "q": "Se puede usar para PlayStation Plus?",
+        "a": "Si, puedes usar el credito de PlayStation Store para comprar juegos y algunas suscripciones."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة PSN بقيمة 25$ صالحة في كندا؟",
+        "a": "نعم، إذا كانت بطاقة كندية (CAD/CA). بطاقات PSN مرتبطة بالمنطقة: تحقق دائماً قبل الشراء."
+      },
+      {
+        "q": "هل يمكن استخدامها لـ PlayStation Plus؟",
+        "a": "نعم، يمكنك استخدام رصيد PlayStation Store لشراء الألعاب وبعض الاشتراكات."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "PSN $25 卡在加拿大有效吗？",
+        "a": "是的，如果是加拿大卡（CAD/CA）。PSN 卡有地区限制：购买前请始终确认。"
+      },
+      {
+        "q": "可以用于 PlayStation Plus 吗？",
+        "a": "是的，您可以使用 PlayStation Store 积分购买游戏和部分订阅。"
       }
     ]
   },
@@ -315,6 +779,46 @@
         "q": "Le code fonctionne-t-il au Canada?",
         "a": "Oui, si l'offre est pour la région Canada. Vérifie avant d'acheter."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "What's the difference between Switch Online standard and Expansion Pack?",
+        "a": "Standard includes NES, SNES and Game Boy. Expansion Pack adds N64, GBA and exclusive DLC."
+      },
+      {
+        "q": "Does the code work in Canada?",
+        "a": "Yes, if the offer is for the Canada region. Always check before buying."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Cual es la diferencia entre Switch Online estandar y Expansion Pack?",
+        "a": "El estandar incluye NES, SNES y Game Boy. El Expansion Pack agrega N64, GBA y DLC exclusivos."
+      },
+      {
+        "q": "El codigo funciona en Canada?",
+        "a": "Si, si la oferta es para la region Canada. Verifica siempre antes de comprar."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "ما الفرق بين Switch Online العادي وExpansion Pack؟",
+        "a": "العادي يشمل NES وSNES وGame Boy. Expansion Pack يضيف N64 وGBA وDLC حصرية."
+      },
+      {
+        "q": "هل الرمز يعمل في كندا؟",
+        "a": "نعم، إذا كان العرض لمنطقة كندا. تحقق دائماً قبل الشراء."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "Switch Online 标准版和 Expansion Pack 有什么区别？",
+        "a": "标准版包含 NES、SNES 和 Game Boy。Expansion Pack 增加了 N64、GBA 和独家 DLC。"
+      },
+      {
+        "q": "代码在加拿大有效吗？",
+        "a": "是的，如果该优惠适用于加拿大地区。购买前请务必确认。"
+      }
     ]
   },
   {
@@ -342,6 +846,46 @@
         "q": "Ça vaut le prix par rapport au standard?",
         "a": "Si tu joues aux classiques N64/GBA, oui. Sinon le standard à 24,99$ suffit."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Which N64 games are included?",
+        "a": "Titles like Mario 64, Zelda Ocarina of Time and other N64 classics are included depending on availability."
+      },
+      {
+        "q": "Is it worth it compared to standard?",
+        "a": "If you play N64/GBA classics, yes. Otherwise the standard at $24.99 is sufficient."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Que juegos de N64 estan incluidos?",
+        "a": "Titulos como Mario 64, Zelda Ocarina of Time y otros clasicos de N64 estan incluidos segun disponibilidad."
+      },
+      {
+        "q": "Vale la pena comparado con el estandar?",
+        "a": "Si juegas a los clasicos de N64/GBA, si. De lo contrario, el estandar a $24.99 es suficiente."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "ما ألعاب N64 المضمّنة؟",
+        "a": "عناوين مثل Mario 64 وZelda Ocarina of Time وكلاسيكيات N64 أخرى مضمّنة حسب التوفر."
+      },
+      {
+        "q": "هل يستحق مقارنةً بالعادي؟",
+        "a": "إذا كنت تلعب كلاسيكيات N64/GBA، نعم. وإلا فالعادي بـ24.99$ كافٍ."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "包含哪些 N64 游戏？",
+        "a": "包括 Mario 64、塞尔达传说时之笛等 N64 经典游戏，具体取决于可用性。"
+      },
+      {
+        "q": "与标准版相比值得吗？",
+        "a": "如果您玩 N64/GBA 经典游戏，值得。否则 $24.99 的标准版已足够。"
+      }
     ]
   },
   {
@@ -368,6 +912,46 @@
       {
         "q": "Utilisable pour Nintendo Switch Online?",
         "a": "Oui, tu peux utiliser le crédit eShop pour acheter un abonnement Switch Online."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Is the eShop $35 card valid in Canada?",
+        "a": "Yes, if the card is for the Canada region. eShop cards are region-locked."
+      },
+      {
+        "q": "Can it be used for Nintendo Switch Online?",
+        "a": "Yes, you can use eShop credit to purchase a Switch Online subscription."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "La tarjeta eShop de $35 es valida en Canada?",
+        "a": "Si, si la tarjeta es para la region Canada. Las tarjetas eShop son regionales."
+      },
+      {
+        "q": "Se puede usar para Nintendo Switch Online?",
+        "a": "Si, puedes usar el credito eShop para comprar una suscripcion Switch Online."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة eShop بقيمة 35$ صالحة في كندا؟",
+        "a": "نعم، إذا كانت البطاقة لمنطقة كندا. بطاقات eShop مرتبطة بالمنطقة."
+      },
+      {
+        "q": "هل يمكن استخدامها لـ Nintendo Switch Online؟",
+        "a": "نعم، يمكنك استخدام رصيد eShop لشراء اشتراك Switch Online."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "eShop $35 卡在加拿大有效吗？",
+        "a": "是的，如果该卡适用于加拿大地区。eShop 卡有地区限制。"
+      },
+      {
+        "q": "可以用于 Nintendo Switch Online 吗？",
+        "a": "是的，您可以使用 eShop 积分购买 Switch Online 订阅。"
       }
     ]
   },
@@ -400,6 +984,62 @@
         "q": "Digital ou physique?",
         "a": "Les deux existent. Les offres digitales sont souvent livrées rapidement, mais ça dépend du vendeur."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Does the Nintendo eShop $20 card work in Canada?",
+        "a": "Yes, if the card is for Canada (CAD/CA). eShop cards are region-locked: check before buying."
+      },
+      {
+        "q": "Can I use it on Nintendo Switch?",
+        "a": "Yes, add the code to your Nintendo account (Canada region) then use the credit in the eShop."
+      },
+      {
+        "q": "Digital or physical?",
+        "a": "Both exist. Digital offers are often delivered quickly, but it depends on the vendor."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Funciona la tarjeta Nintendo eShop de $20 en Canada?",
+        "a": "Si, si la tarjeta es para Canada (CAD/CA). Las tarjetas eShop son regionales: verifica la region antes de comprar."
+      },
+      {
+        "q": "Puedo usarla en Nintendo Switch?",
+        "a": "Si, agrega el codigo a tu cuenta Nintendo (region Canada) y usa el credito en el eShop."
+      },
+      {
+        "q": "Digital o fisico?",
+        "a": "Ambos existen. Las ofertas digitales suelen entregarse rapido, pero depende del vendedor."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة Nintendo eShop بقيمة 20$ تعمل في كندا؟",
+        "a": "نعم، إذا كانت البطاقة مخصصة لكندا (CAD/CA). بطاقات eShop مرتبطة بالمنطقة: تحقق قبل الشراء."
+      },
+      {
+        "q": "هل يمكنني استخدامها على Nintendo Switch؟",
+        "a": "نعم، أضف الرمز إلى حساب Nintendo (منطقة كندا) ثم استخدم الرصيد في eShop."
+      },
+      {
+        "q": "رقمي أم مادي؟",
+        "a": "كلاهما موجود. العروض الرقمية غالباً تُسلم بسرعة، لكن يعتمد على البائع."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "Nintendo eShop $20 卡在加拿大有效吗？",
+        "a": "是的，如果该卡适用于加拿大（CAD/CA）。eShop 卡有地区限制：购买前请确认地区。"
+      },
+      {
+        "q": "可以在 Nintendo Switch 上使用吗？",
+        "a": "是的，将代码添加到您的 Nintendo 账户（加拿大地区），然后在 eShop 中使用积分。"
+      },
+      {
+        "q": "数字版还是实体版？",
+        "a": "两者都有。数字优惠通常快速提供，但取决于卖家。"
+      }
     ]
   },
   {
@@ -427,6 +1067,46 @@
       {
         "q": "Le Game Pass Essential fonctionne-t-il au Canada?",
         "a": "Oui, il est disponible au Canada. Le prix est affiché en dollars canadiens."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "What's the difference between Essential and Ultimate?",
+        "a": "Ultimate includes cloud gaming and Xbox Live Gold. Essential gives access to the game catalog without those extras."
+      },
+      {
+        "q": "Does Game Pass Essential work in Canada?",
+        "a": "Yes, it's available in Canada. The price is displayed in Canadian dollars."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Cual es la diferencia entre Essential y Ultimate?",
+        "a": "Ultimate incluye cloud gaming y Xbox Live Gold. Essential da acceso al catalogo de juegos sin esos extras."
+      },
+      {
+        "q": "Funciona el Game Pass Essential en Canada?",
+        "a": "Si, esta disponible en Canada. El precio se muestra en dolares canadienses."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "ما الفرق بين Essential وUltimate؟",
+        "a": "Ultimate يشمل cloud gaming وXbox Live Gold. Essential يتيح الوصول لكتالوج الألعاب دون هذه الإضافات."
+      },
+      {
+        "q": "هل Game Pass Essential يعمل في كندا؟",
+        "a": "نعم، متوفر في كندا. السعر معروض بالدولار الكندي."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "Essential 和 Ultimate 有什么区别？",
+        "a": "Ultimate 包含云游戏和 Xbox Live Gold。Essential 提供游戏目录访问权限，不含这些额外功能。"
+      },
+      {
+        "q": "Game Pass Essential 在加拿大有效吗？",
+        "a": "是的，在加拿大可用。价格以加拿大元显示。"
       }
     ]
   },
@@ -456,6 +1136,46 @@
         "q": "Quelle est la différence entre Essential et Ultimate?",
         "a": "L'Ultimate inclut le cloud gaming et Xbox Live Gold. L'Essential donne accès aux jeux du catalogue sans ces extras."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Can I cancel after 1 month?",
+        "a": "Yes, the monthly subscription does not auto-renew if you purchase a prepaid card."
+      },
+      {
+        "q": "What's the difference between Essential and Ultimate?",
+        "a": "Ultimate includes cloud gaming and Xbox Live Gold. Essential gives access to the game catalog without those extras."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Puedo cancelar despues de 1 mes?",
+        "a": "Si, la suscripcion mensual no se renueva automaticamente si compras una tarjeta prepaga."
+      },
+      {
+        "q": "Cual es la diferencia entre Essential y Ultimate?",
+        "a": "Ultimate incluye cloud gaming y Xbox Live Gold. Essential da acceso al catalogo de juegos sin esos extras."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل يمكنني الإلغاء بعد شهر؟",
+        "a": "نعم، الاشتراك الشهري لا يتجدد تلقائياً إذا اشتريت بطاقة مدفوعة مسبقاً."
+      },
+      {
+        "q": "ما الفرق بين Essential وUltimate؟",
+        "a": "Ultimate يشمل cloud gaming وXbox Live Gold. Essential يتيح الوصول لكتالوج الألعاب دون هذه الإضافات."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "我可以在 1 个月后取消吗？",
+        "a": "是的，如果您购买预付卡，月度订阅不会自动续订。"
+      },
+      {
+        "q": "Essential 和 Ultimate 有什么区别？",
+        "a": "Ultimate 包含云游戏和 Xbox Live Gold。Essential 提供游戏目录访问权限，不含这些额外功能。"
+      }
     ]
   },
   {
@@ -483,6 +1203,46 @@
       {
         "q": "Comment utiliser ma carte Nintendo eShop 50$?",
         "a": "Allez dans le Nintendo eShop, sélectionnez «Entrer un code» et saisissez le code reçu par courriel."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Does the Nintendo eShop $50 card work in Canada?",
+        "a": "Yes, Canadian eShop cards are valid on the Canadian Nintendo eShop only."
+      },
+      {
+        "q": "How do I use my Nintendo eShop $50 card?",
+        "a": "Go to the Nintendo eShop, select Enter a code and enter the code received by email."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "La tarjeta Nintendo eShop de $50 funciona en Canada?",
+        "a": "Si, las tarjetas eShop canadienses son validas solo en el Nintendo eShop de Canada."
+      },
+      {
+        "q": "Como uso mi tarjeta Nintendo eShop de $50?",
+        "a": "Ve al Nintendo eShop, selecciona Ingresar un codigo e introduce el codigo recibido por correo electronico."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة Nintendo eShop بقيمة 50$ تعمل في كندا؟",
+        "a": "نعم، بطاقات eShop الكندية صالحة فقط على Nintendo eShop الكندي."
+      },
+      {
+        "q": "كيف أستخدم بطاقة Nintendo eShop بقيمة 50$؟",
+        "a": "اذهب إلى Nintendo eShop، اختر إدخال رمز وأدخل الرمز المستلم عبر البريد الإلكتروني."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "Nintendo eShop 50 加元卡在加拿大有效吗？",
+        "a": "是的，加拿大 eShop 卡仅在加拿大 Nintendo eShop 上有效。"
+      },
+      {
+        "q": "如何使用我的 Nintendo eShop 50 加元卡？",
+        "a": "前往 Nintendo eShop，选择输入代码并输入通过电子邮件收到的代码。"
       }
     ]
   },
@@ -512,6 +1272,46 @@
         "q": "Comment utiliser ma carte Nintendo eShop 25$?",
         "a": "Allez dans le Nintendo eShop, sélectionnez «Entrer un code» et saisissez le code reçu par courriel."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Does the Nintendo eShop $25 card work in Canada?",
+        "a": "Yes, Canadian eShop cards are valid on the Canadian Nintendo eShop only."
+      },
+      {
+        "q": "How do I use my Nintendo eShop $25 card?",
+        "a": "Go to the Nintendo eShop, select Enter a code and enter the code received by email."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "La tarjeta Nintendo eShop de $25 funciona en Canada?",
+        "a": "Si, las tarjetas eShop canadienses son validas solo en el Nintendo eShop de Canada."
+      },
+      {
+        "q": "Como uso mi tarjeta Nintendo eShop de $25?",
+        "a": "Ve al Nintendo eShop, selecciona Ingresar un codigo e introduce el codigo recibido por correo electronico."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة Nintendo eShop بقيمة 25$ تعمل في كندا؟",
+        "a": "نعم، بطاقات eShop الكندية صالحة فقط على Nintendo eShop الكندي."
+      },
+      {
+        "q": "كيف أستخدم بطاقة Nintendo eShop بقيمة 25$؟",
+        "a": "اذهب إلى Nintendo eShop، اختر إدخال رمز وأدخل الرمز المستلم عبر البريد الإلكتروني."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "Nintendo eShop 25 加元卡在加拿大有效吗？",
+        "a": "是的，加拿大 eShop 卡仅在加拿大 Nintendo eShop 上有效。"
+      },
+      {
+        "q": "如何使用我的 Nintendo eShop 25 加元卡？",
+        "a": "前往 Nintendo eShop，选择输入代码并输入通过电子邮件收到的代码。"
+      }
     ]
   },
   {
@@ -540,6 +1340,46 @@
         "q": "Comment utiliser ma carte Nintendo eShop 10$?",
         "a": "Allez dans le Nintendo eShop, sélectionnez «Entrer un code» et saisissez le code reçu par courriel."
       }
+    ],
+    "faq_en": [
+      {
+        "q": "Does the Nintendo eShop $10 card work in Canada?",
+        "a": "Yes, Canadian eShop cards are valid on the Canadian Nintendo eShop only."
+      },
+      {
+        "q": "How do I use my Nintendo eShop $10 card?",
+        "a": "Go to the Nintendo eShop, select Enter a code and enter the code received by email."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "La tarjeta Nintendo eShop de $10 funciona en Canada?",
+        "a": "Si, las tarjetas eShop canadienses son validas solo en el Nintendo eShop de Canada."
+      },
+      {
+        "q": "Como uso mi tarjeta Nintendo eShop de $10?",
+        "a": "Ve al Nintendo eShop, selecciona Ingresar un codigo e introduce el codigo recibido por correo electronico."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة Nintendo eShop بقيمة 10$ تعمل في كندا؟",
+        "a": "نعم، بطاقات eShop الكندية صالحة فقط على Nintendo eShop الكندي."
+      },
+      {
+        "q": "كيف أستخدم بطاقة Nintendo eShop بقيمة 10$؟",
+        "a": "اذهب إلى Nintendo eShop، اختر إدخال رمز وأدخل الرمز المستلم عبر البريد الإلكتروني."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "Nintendo eShop 10 加元卡在加拿大有效吗？",
+        "a": "是的，加拿大 eShop 卡仅在加拿大 Nintendo eShop 上有效。"
+      },
+      {
+        "q": "如何使用我的 Nintendo eShop 10 加元卡？",
+        "a": "前往 Nintendo eShop，选择输入代码并输入通过电子邮件收到的代码。"
+      }
     ]
   },
   {
@@ -567,6 +1407,46 @@
       {
         "q": "Comment utiliser ma carte Nintendo eShop 5$?",
         "a": "Allez dans le Nintendo eShop, sélectionnez «Entrer un code» et saisissez le code reçu par courriel."
+      }
+    ],
+    "faq_en": [
+      {
+        "q": "Does the Nintendo eShop $5 card work in Canada?",
+        "a": "Yes, Canadian eShop cards are valid on the Canadian Nintendo eShop only."
+      },
+      {
+        "q": "How do I use my Nintendo eShop $5 card?",
+        "a": "Go to the Nintendo eShop, select Enter a code and enter the code received by email."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "La tarjeta Nintendo eShop de $5 funciona en Canada?",
+        "a": "Si, las tarjetas eShop canadienses son validas solo en el Nintendo eShop de Canada."
+      },
+      {
+        "q": "Como uso mi tarjeta Nintendo eShop de $5?",
+        "a": "Ve al Nintendo eShop, selecciona Ingresar un codigo e introduce el codigo recibido por correo electronico."
+      }
+    ],
+    "faq_ar": [
+      {
+        "q": "هل بطاقة Nintendo eShop بقيمة 5$ تعمل في كندا؟",
+        "a": "نعم، بطاقات eShop الكندية صالحة فقط على Nintendo eShop الكندي."
+      },
+      {
+        "q": "كيف أستخدم بطاقة Nintendo eShop بقيمة 5$؟",
+        "a": "اذهب إلى Nintendo eShop، اختر إدخال رمز وأدخل الرمز المستلم عبر البريد الإلكتروني."
+      }
+    ],
+    "faq_zh": [
+      {
+        "q": "Nintendo eShop 5 加元卡在加拿大有效吗？",
+        "a": "是的，加拿大 eShop 卡仅在加拿大 Nintendo eShop 上有效。"
+      },
+      {
+        "q": "如何使用我的 Nintendo eShop 5 加元卡？",
+        "a": "前往 Nintendo eShop，选择输入代码并输入通过电子邮件收到的代码。"
       }
     ]
   }
