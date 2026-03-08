@@ -185,6 +185,24 @@
         "sport": "رياضة"
       },
       "verified": "موثق"
+    },
+    "recherche": {
+      "placeholder": "بحث عن منتج...",
+      "titre_resultats": "نتائج للبحث عن",
+      "en_ligne": "🌐 على الإنترنت",
+      "magasins_pres": "📍 المتاجر بالقرب منك",
+      "chargement": "تحميل...",
+      "localisation": "● تحديد الموقع...",
+      "position_non_detectee": "⚠️ موقع غير محدد",
+      "tries_distance": "✅ مرتبة حسب المسافة",
+      "aucun_magasin": "لم يتم العثور على أي متاجر في المنطقة لبحثك.",
+      "recherche_magasins": "🔍 البحث عن المتاجر بالقرب منك...",
+      "tapez_produit": "أدخل المنتج للبدء",
+      "retour": "← عودة إلى التسوق",
+      "voir_prix": "عرض الأسعار →",
+      "voir_site": "زيارة الموقع الإلكتروني →",
+      "maps": "خرائط →",
+      "en_ligne_livraison": "للبيع على الإنترنت · تسليم متاح"
     }
   },
   "restaurants": {

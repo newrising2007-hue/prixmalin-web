@@ -186,6 +186,24 @@
         "sport": "体育"
       },
       "verified": "已验证"
+    },
+    "recherche": {
+      "placeholder": "搜索产品...",
+      "titre_resultats": "为您找到以下结果",
+      "en_ligne": "🌐 在线",
+      "magasins_pres": "📍 附近商店",
+      "chargement": "加载中...",
+      "localisation": "● 定位中...",
+      "position_non_detectee": "⚠️ 未检测到位置",
+      "tries_distance": "✅ 按距离排序",
+      "aucun_magasin": "该区域内没有找到符合您搜索条件的商店。",
+      "recherche_magasins": "🔍 搜索附近商店...",
+      "tapez_produit": "输入产品名称开始搜索",
+      "retour": "← 返回购物",
+      "voir_prix": "查看价格 →",
+      "voir_site": "查看网站 →",
+      "maps": "地图 →",
+      "en_ligne_livraison": "在线 · 支持配送"
     }
   },
   "restaurants": {

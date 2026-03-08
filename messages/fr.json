@@ -186,6 +186,24 @@
         "sport": "Sport"
       },
       "verified": "Vérifié"
+    },
+    "recherche": {
+      "placeholder": "Rechercher un produit...",
+      "titre_resultats": "Résultats pour",
+      "en_ligne": "🌐 En ligne",
+      "magasins_pres": "📍 Magasins près de vous",
+      "chargement": "Chargement...",
+      "localisation": "● Localisation en cours...",
+      "position_non_detectee": "⚠️ Position non détectée",
+      "tries_distance": "✅ Triés par distance",
+      "aucun_magasin": "Aucun magasin trouvé dans votre région pour cette recherche.",
+      "recherche_magasins": "🔍 Recherche des magasins près de vous...",
+      "tapez_produit": "Tapez un produit pour commencer",
+      "retour": "← Retour Magasinage",
+      "voir_prix": "Voir les prix →",
+      "voir_site": "Voir site →",
+      "maps": "Maps →",
+      "en_ligne_livraison": "En ligne · Livraison disponible"
     }
   },
   "restaurants": {

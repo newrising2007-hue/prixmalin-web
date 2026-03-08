@@ -185,6 +185,24 @@
         "sport": "Deporte"
       },
       "verified": "Verificado"
+    },
+    "recherche": {
+      "placeholder": "Buscar un producto...",
+      "titre_resultats": "Resultados para",
+      "en_ligne": "🌐 En línea",
+      "magasins_pres": "📍 Tiendas cerca de ti",
+      "chargement": "Cargando...",
+      "localisation": "● Localización en curso...",
+      "position_non_detectee": "⚠️ Posición no detectada",
+      "tries_distance": "✅ Ordenados por distancia",
+      "aucun_magasin": "No se encontró ninguna tienda en tu región para esta búsqueda.",
+      "recherche_magasins": "🔍 Buscando tiendas cerca de ti...",
+      "tapez_produit": "Escribe un producto para comenzar",
+      "retour": "← Volver a las compras",
+      "voir_prix": "Ver precios →",
+      "voir_site": "Ver sitio →",
+      "maps": "Mapas →",
+      "en_ligne_livraison": "En línea · Entrega disponible"
     }
   },
   "restaurants": {
