@@ -85,6 +85,8 @@
       "retour": "← Volver a Compras"
     },
     "categories": {
+      "titre": "🛍️ Comprar por Categoría",
+      "sous_titre": "Encuentra las mejores tiendas locales en Abitibi-Témiscamingue y Timiskaming Shores",
       "epicerie": {
         "label": "Comestibles y Alimentación",
         "desc": "Tiendas de comestibles, carnicerías, panaderías, fruterías"

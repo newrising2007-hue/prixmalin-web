@@ -85,6 +85,8 @@
       "retour": "← Back to Shopping"
     },
     "categories": {
+      "titre": "🛍️ Shop by Category",
+      "sous_titre": "Find the best local stores in Abitibi-Témiscamingue and Timiskaming Shores",
       "epicerie": {
         "label": "Grocery & Food",
         "desc": "Grocery stores, butchers, bakeries, fruit shops"

@@ -85,6 +85,8 @@
       "retour": "← 返回购物"
     },
     "categories": {
+      "titre": "所有分类",
+      "sous_titre": "选择一个分类，找到您附近最好的商店",
       "epicerie": {
         "label": "食品和杂货",
         "desc": "超市，肉店，面包店，水果店"
@@ -153,8 +155,6 @@
         "label": "亲密用品",
         "desc": "成人玩具，润滑剂，性感内衣"
       },
-      "titre": "所有分类",
-      "sous_titre": "选择一个分类，找到您附近最好的商店",
       "explorer": "探索 →"
     },
     "coupons": {
