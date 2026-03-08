@@ -13,7 +13,15 @@
       "image": "/images/deals/xbox-game-pass-ultimate-3m.webp",
       "price": 101.98,
       "badge": "Populaire",
-      "actif": true
+      "actif": true,
+      "title_en": "Xbox Game Pass Ultimate — 3 months",
+      "title_es": "Xbox Game Pass Ultimate — 3 meses",
+      "title_ar": "Xbox Game Pass Ultimate — 3 أشهر",
+      "title_zh": "Xbox Game Pass Ultimate — 3个月",
+      "description_en": "Access hundreds of Xbox and PC games with EA Play included.",
+      "description_es": "Acceso a cientos de juegos de Xbox y PC con EA Play incluido.",
+      "description_ar": "الوصول إلى مئات ألعاب Xbox والكمبيوتر مع EA Play مدرج.",
+      "description_zh": "畅玩数百款Xbox和PC游戏，含EA Play。"
     },
     {
       "slug": "xbox-game-pass-ultimate-1m",
@@ -25,7 +33,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8WSRX9?tag=prixmalin-20",
       "image": "/images/deals/xbox-game-pass-ultimate-1m.webp",
       "price": 33.99,
-      "actif": true
+      "actif": true,
+      "title_en": "Xbox Game Pass Ultimate — 1 month",
+      "title_es": "Xbox Game Pass Ultimate — 1 mes",
+      "title_ar": "Xbox Game Pass Ultimate — شهر واحد",
+      "title_zh": "Xbox Game Pass Ultimate — 1个月",
+      "description_en": "Monthly Game Pass Ultimate subscription for Xbox, PC and cloud gaming.",
+      "description_es": "Suscripción mensual Game Pass Ultimate para Xbox, PC y cloud gaming.",
+      "description_ar": "اشتراك شهري Game Pass Ultimate لـ Xbox والكمبيوتر والألعاب السحابية.",
+      "description_zh": "Xbox、PC和云游戏的月度Game Pass Ultimate订阅。"
     },
     {
       "slug": "xbox-gift-card-50",
@@ -37,7 +53,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08M7JPPQ2?tag=prixmalin-20",
       "image": "/images/deals/xbox-gift-card-50.webp",
       "price": 50,
-      "actif": true
+      "actif": true,
+      "title_en": "Xbox Gift Card — $50",
+      "title_es": "Tarjeta de regalo Xbox — 50$",
+      "title_ar": "بطاقة هدية Xbox — 50$",
+      "title_zh": "Xbox礼品卡 — 50$",
+      "description_en": "Xbox digital gift card, valid on the Microsoft Store.",
+      "description_es": "Tarjeta de regalo digital Xbox, válida en Microsoft Store.",
+      "description_ar": "بطاقة هدية Xbox الرقمية، صالحة في متجر Microsoft.",
+      "description_zh": "Xbox数字礼品卡，适用于Microsoft Store。"
     },
     {
       "slug": "xbox-gift-card-25",
@@ -49,7 +73,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8NR5KM?tag=prixmalin-20",
       "image": "/images/deals/xbox-gift-card-50.webp",
       "price": 25,
-      "actif": true
+      "actif": true,
+      "title_en": "Xbox Gift Card — $25",
+      "title_es": "Tarjeta de regalo Xbox — 25$",
+      "title_ar": "بطاقة هدية Xbox — 25$",
+      "title_zh": "Xbox礼品卡 — 25$",
+      "description_en": "Xbox digital gift card, valid on the Microsoft Store.",
+      "description_es": "Tarjeta de regalo digital Xbox, válida en Microsoft Store.",
+      "description_ar": "بطاقة هدية Xbox الرقمية، صالحة في متجر Microsoft.",
+      "description_zh": "Xbox数字礼品卡，适用于Microsoft Store。"
     },
     {
       "slug": "ps-plus-premium-12m",
@@ -98,7 +130,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08VLFW3M2?tag=prixmalin-20",
       "image": "/images/deals/psn-gift-card-100.webp",
       "price": 100,
-      "actif": true
+      "actif": true,
+      "title_en": "PlayStation Store Card — $100",
+      "title_es": "Tarjeta PlayStation Store — 100$",
+      "title_ar": "بطاقة PlayStation Store — 100$",
+      "title_zh": "PlayStation Store卡 — 100$",
+      "description_en": "Add funds to your PlayStation wallet.",
+      "description_es": "Agrega fondos a tu billetera PlayStation.",
+      "description_ar": "أضف رصيداً إلى محفظة PlayStation الخاصة بك.",
+      "description_zh": "为您的PlayStation钱包充值。"
     },
     {
       "slug": "psn-gift-card-50",
@@ -110,7 +150,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08VKP158Q?tag=prixmalin-20",
       "image": "/images/deals/psn-gift-card-50.webp",
       "price": 50,
-      "actif": true
+      "actif": true,
+      "title_en": "PlayStation Store Card — $50",
+      "title_es": "Tarjeta PlayStation Store — 50$",
+      "title_ar": "بطاقة PlayStation Store — 50$",
+      "title_zh": "PlayStation Store卡 — 50$",
+      "description_en": "Add funds to your PlayStation wallet.",
+      "description_es": "Agrega fondos a tu billetera PlayStation.",
+      "description_ar": "أضف رصيداً إلى محفظة PlayStation الخاصة بك.",
+      "description_zh": "为您的PlayStation钱包充值。"
     },
     {
       "slug": "psn-gift-card-25",
@@ -122,7 +170,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08VKM312K?tag=prixmalin-20",
       "image": "/images/deals/psn-gift-card-25.webp",
       "price": 25,
-      "actif": true
+      "actif": true,
+      "title_en": "PlayStation Store Card — $25",
+      "title_es": "Tarjeta PlayStation Store — 25$",
+      "title_ar": "بطاقة PlayStation Store — 25$",
+      "title_zh": "PlayStation Store卡 — 25$",
+      "description_en": "Add funds to your PlayStation wallet.",
+      "description_es": "Agrega fondos a tu billetera PlayStation.",
+      "description_ar": "أضف رصيداً إلى محفظة PlayStation الخاصة بك.",
+      "description_zh": "为您的PlayStation钱包充值。"
     },
     {
       "slug": "nintendo-switch-online-12m",
@@ -134,7 +190,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08VKL6C5H?tag=prixmalin-20",
       "image": "/images/deals/nintendo-switch-online-12m.webp",
       "price": 29.99,
-      "actif": true
+      "actif": true,
+      "title_en": "Nintendo Switch Online — 12 months",
+      "title_es": "Nintendo Switch Online — 12 meses",
+      "title_ar": "Nintendo Switch Online — 12 شهراً",
+      "title_zh": "Nintendo Switch Online — 12个月",
+      "description_en": "Online multiplayer with retro NES, SNES and Game Boy library.",
+      "description_es": "Multijugador en línea con biblioteca retro de NES, SNES y Game Boy.",
+      "description_ar": "لعب متعدد اللاعبين مع مكتبة ألعاب NES وSNES وGame Boy الكلاسيكية.",
+      "description_zh": "在线多人游戏，含NES、SNES和Game Boy复古游戏库。"
     },
     {
       "slug": "nintendo-switch-online-expansion-12m",
@@ -147,7 +211,15 @@
       "image": "/images/deals/nintendo-switch-online-12m.webp",
       "price": 69.99,
       "badge": "Complet",
-      "actif": true
+      "actif": true,
+      "title_en": "Nintendo Switch Online + Expansion Pack — 12 months",
+      "title_es": "Nintendo Switch Online + Expansion Pack — 12 meses",
+      "title_ar": "Nintendo Switch Online + Expansion Pack — 12 شهراً",
+      "title_zh": "Nintendo Switch Online + 扩展包 — 12个月",
+      "description_en": "Full subscription + N64, GBA and exclusive DLC included.",
+      "description_es": "Suscripción completa + N64, GBA y DLC exclusivos incluidos.",
+      "description_ar": "الاشتراك الكامل + N64 وGBA ومحتوى DLC حصري مدرج.",
+      "description_zh": "完整订阅 + N64、GBA及独家DLC。"
     },
     {
       "slug": "nintendo-eshop-35",
@@ -159,7 +231,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8LMGGD?tag=prixmalin-20",
       "image": "/images/deals/nintendo-eshop-35.webp",
       "price": 35,
-      "actif": true
+      "actif": true,
+      "title_en": "Nintendo eShop Card — $35",
+      "title_es": "Tarjeta Nintendo eShop — 35$",
+      "title_ar": "بطاقة Nintendo eShop — 35$",
+      "title_zh": "Nintendo eShop卡 — 35$",
+      "description_en": "Add funds to your Nintendo eShop account.",
+      "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
+      "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
+      "description_zh": "为您的Nintendo eShop账户充值。"
     },
     {
       "slug": "nintendo-eshop-20",
@@ -171,7 +251,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8LLCPT?tag=prixmalin-20",
       "image": "/images/deals/nintendo-eshop-20.webp",
       "price": 20,
-      "actif": true
+      "actif": true,
+      "title_en": "Nintendo eShop Card — $20",
+      "title_es": "Tarjeta Nintendo eShop — 20$",
+      "title_ar": "بطاقة Nintendo eShop — 20$",
+      "title_zh": "Nintendo eShop卡 — 20$",
+      "description_en": "Add funds to your Nintendo eShop account.",
+      "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
+      "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
+      "description_zh": "为您的Nintendo eShop账户充值。"
     },
     {
       "slug": "xbox-gift-card-15",
@@ -183,7 +271,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8M74MH?tag=prixmalin-20",
       "image": "/images/deals/xbox-gift-card-50.webp",
       "price": 15,
-      "actif": true
+      "actif": true,
+      "title_en": "Xbox Gift Card — $15",
+      "title_es": "Tarjeta de regalo Xbox — 15$",
+      "title_ar": "بطاقة هدية Xbox — 15$",
+      "title_zh": "Xbox礼品卡 — 15$",
+      "description_en": "Xbox digital gift card, valid on the Microsoft Store.",
+      "description_es": "Tarjeta de regalo digital Xbox, válida en Microsoft Store.",
+      "description_ar": "بطاقة هدية Xbox الرقمية، صالحة في متجر Microsoft.",
+      "description_zh": "Xbox数字礼品卡，适用于Microsoft Store。"
     },
     {
       "slug": "nintendo-eshop-5",
@@ -195,7 +291,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08M7HHPFM?tag=prixmalin-20",
       "image": "/images/deals/nintendo-eshop-5.webp",
       "price": 5,
-      "actif": true
+      "actif": true,
+      "title_en": "Nintendo eShop Card — $5",
+      "title_es": "Tarjeta Nintendo eShop — 5$",
+      "title_ar": "بطاقة Nintendo eShop — 5$",
+      "title_zh": "Nintendo eShop卡 — 5$",
+      "description_en": "Add funds to your Nintendo eShop account.",
+      "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
+      "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
+      "description_zh": "为您的Nintendo eShop账户充值。"
     },
     {
       "slug": "nintendo-eshop-10",
@@ -208,7 +312,15 @@
       "image": "/images/deals/nintendo-eshop-10.webp",
       "price": 10,
       "badge": "Populaire",
-      "actif": true
+      "actif": true,
+      "title_en": "Nintendo eShop Card — $10",
+      "title_es": "Tarjeta Nintendo eShop — 10$",
+      "title_ar": "بطاقة Nintendo eShop — 10$",
+      "title_zh": "Nintendo eShop卡 — 10$",
+      "description_en": "Add funds to your Nintendo eShop account.",
+      "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
+      "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
+      "description_zh": "为您的Nintendo eShop账户充值。"
     },
     {
       "slug": "nintendo-eshop-25",
@@ -220,7 +332,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8SLQSR?tag=prixmalin-20",
       "image": "/images/deals/nintendo-eshop-25.webp",
       "price": 25,
-      "actif": true
+      "actif": true,
+      "title_en": "Nintendo eShop Card — $25",
+      "title_es": "Tarjeta Nintendo eShop — 25$",
+      "title_ar": "بطاقة Nintendo eShop — 25$",
+      "title_zh": "Nintendo eShop卡 — 25$",
+      "description_en": "Add funds to your Nintendo eShop account.",
+      "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
+      "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
+      "description_zh": "为您的Nintendo eShop账户充值。"
     },
     {
       "slug": "nintendo-eshop-50",
@@ -232,7 +352,15 @@
       "affiliateUrl": "https://www.amazon.ca/dp/B08VKJMZ87?tag=prixmalin-20",
       "image": "/images/deals/nintendo-eshop-50.webp",
       "price": 50,
-      "actif": true
+      "actif": true,
+      "title_en": "Nintendo eShop Card — $50",
+      "title_es": "Tarjeta Nintendo eShop — 50$",
+      "title_ar": "بطاقة Nintendo eShop — 50$",
+      "title_zh": "Nintendo eShop卡 — 50$",
+      "description_en": "Add funds to your Nintendo eShop account.",
+      "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
+      "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
+      "description_zh": "为您的Nintendo eShop账户充值。"
     },
     {
       "slug": "xbox-game-pass-essential-3-month-membership",
@@ -244,7 +372,15 @@
       "actif": true,
       "price": 34.99,
       "badge": "Populaire",
-      "type": "abonnement"
+      "type": "abonnement",
+      "title_en": "Xbox Game Pass Essential – 3 Month Membership",
+      "title_es": "Xbox Game Pass Essential – Membresía 3 meses",
+      "title_ar": "Xbox Game Pass Essential – عضوية 3 أشهر",
+      "title_zh": "Xbox Game Pass Essential – 3个月会员",
+      "description_en": "Access to a selection of free games and exclusive discounts.",
+      "description_es": "Acceso a una selección de juegos gratuitos y descuentos exclusivos.",
+      "description_ar": "الوصول إلى مجموعة من الألعاب المجانية والخصومات الحصرية.",
+      "description_zh": "访问精选免费游戏和独家折扣。"
     },
     {
       "slug": "xbox-game-pass-essential-1-month-membership",
@@ -256,7 +392,15 @@
       "actif": true,
       "price": 13.99,
       "badge": "Populaire",
-      "type": "abonnement"
+      "type": "abonnement",
+      "title_en": "Xbox Game Pass Essential – 1 Month Membership",
+      "title_es": "Xbox Game Pass Essential – Membresía 1 mes",
+      "title_ar": "Xbox Game Pass Essential – عضوية شهر واحد",
+      "title_zh": "Xbox Game Pass Essential – 1个月会员",
+      "description_en": "Access to a selection of free games and exclusive discounts.",
+      "description_es": "Acceso a una selección de juegos gratuitos y descuentos exclusivos.",
+      "description_ar": "الوصول إلى مجموعة من الألعاب المجانية والخصومات الحصرية.",
+      "description_zh": "访问精选免费游戏和独家折扣。"
     }
   ]
 }

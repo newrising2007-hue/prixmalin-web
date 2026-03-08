@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import dealsData from "@/data/deals.json";
 
 type Deal = {
@@ -44,7 +44,7 @@ const BADGE_COLORS: Record<string, string> = {
   Complet: "bg-indigo-600 text-white",
 };
 
-function DealCard({ deal, tVoirOffre, tAbonnement, tCarteCadeau, tBadges }: { deal: Deal; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string; tBadges: Record<string,string> }) {
+function DealCard({ deal, tVoirOffre, tAbonnement, tCarteCadeau, tBadges, locale }: { deal: Deal; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string; tBadges: Record<string,string>; locale: string }) {
   const pct =
     deal.prixBarre && deal.prixBarre > deal.price
       ? Math.round(((deal.prixBarre - deal.price) / deal.prixBarre) * 100)
@@ -78,8 +78,8 @@ function DealCard({ deal, tVoirOffre, tAbonnement, tCarteCadeau, tBadges }: { de
             {deal.type === "abonnement" ? tAbonnement : tCarteCadeau}
           </span>
         </div>
-        <h3 className="text-sm font-semibold leading-snug text-gray-900 line-clamp-2">{deal.title}</h3>
-        <p className="mt-1 text-xs text-gray-500 line-clamp-2">{deal.description}</p>
+        <h3 className="text-sm font-semibold leading-snug text-gray-900 line-clamp-2">{(deal as any)[`title_${locale}`] || deal.title}</h3>
+        <p className="mt-1 text-xs text-gray-500 line-clamp-2">{(deal as any)[`description_${locale}`] || deal.description}</p>
         <div className="mt-3 flex items-end gap-1.5">
           <span className="text-xl font-bold text-gray-900">{deal.price.toFixed(2)} $</span>
           {deal.prixBarre && (
@@ -102,13 +102,13 @@ function DealCard({ deal, tVoirOffre, tAbonnement, tCarteCadeau, tBadges }: { de
   return <Link href={href}>{inner}</Link>;
 }
 
-function Section({ id, title, deals, tVoirOffre, tAbonnement, tCarteCadeau, tBadges }: { id: string; title: string; deals: Deal[]; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string; tBadges: Record<string,string> }) {
+function Section({ id, title, deals, tVoirOffre, tAbonnement, tCarteCadeau, tBadges, locale }: { id: string; title: string; deals: Deal[]; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string; tBadges: Record<string,string>; locale: string }) {
   if (deals.length === 0) return null;
   return (
     <div id={id} className="mt-10 scroll-mt-6">
       <h2 className="mb-4 text-base font-bold uppercase tracking-widest text-gray-500">{title}</h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {deals.map((d) => <DealCard key={d.slug} deal={d} tVoirOffre={tVoirOffre} tAbonnement={tAbonnement} tCarteCadeau={tCarteCadeau} tBadges={tBadges} />)}
+        {deals.map((d) => <DealCard key={d.slug} deal={d} tVoirOffre={tVoirOffre} tAbonnement={tAbonnement} tCarteCadeau={tCarteCadeau} tBadges={tBadges} locale={locale} />)}
       </div>
     </div>
   );
@@ -116,6 +116,7 @@ function Section({ id, title, deals, tVoirOffre, tAbonnement, tCarteCadeau, tBad
 
 export default function DealsPage() {
   const t = useTranslations("deals");
+  const locale = useLocale();
   const [filter, setFilter] = useState("Tous");
 
   const PLATFORM_LABELS: Record<string, string> = {
@@ -173,8 +174,8 @@ export default function DealsPage() {
         )}
       </div>
 
-      <Section id="abonnements" title={t("section_abonnements")} deals={abonnements} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} tBadges={tBadges} />
-      <Section id="cartes" title={t("section_cartes")} deals={cartes} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} tBadges={tBadges} />
+      <Section id="abonnements" title={t("section_abonnements")} deals={abonnements} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} tBadges={tBadges} locale={locale} />
+      <Section id="cartes" title={t("section_cartes")} deals={cartes} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} tBadges={tBadges} locale={locale} />
 
       {filtered.length === 0 && (
         <p className="mt-10 text-center text-gray-500">{t("aucune_offre")}</p>
