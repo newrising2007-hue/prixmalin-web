@@ -345,7 +345,8 @@
     "expire_inconnu": "Expiry: unknown / variable",
     "codes_titre": "Codes",
     "expire_label": "Expires:",
-    "codes_expires_note": "Codes may expire without notice. If a code no longer works, it has probably expired."
+    "codes_expires_note": "Codes may expire without notice. If a code no longer works, it has probably expired.",
+    "autres_jeux_playstation": "Other PlayStation games"
   },
   "layout": {
     "footer_affiliation": "PrixMalin is an affiliate platform. Some links may be compensated. Prices shown only when available."

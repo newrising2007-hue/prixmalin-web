@@ -346,7 +346,8 @@
     "expire_inconnu": "Expiración: desconocida / variable",
     "codes_titre": "Códigos",
     "expire_label": "Expira:",
-    "codes_expires_note": "Los códigos pueden expirar sin previo aviso. Si un código ya no funciona, probablemente ha expirado."
+    "codes_expires_note": "Los códigos pueden expirar sin previo aviso. Si un código ya no funciona, probablemente ha expirado.",
+    "autres_jeux_playstation": "Otros juegos de PlayStation"
   },
   "layout": {
     "footer_affiliation": "PrixMalin es una plataforma de afiliación. Algunos enlaces pueden ser remunerados. Precios mostrados solo si están disponibles."
