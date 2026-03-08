@@ -278,5 +278,12 @@
     "offres_gaming": "Gaming Deals",
     "voir_toutes_offres": "← See all gaming deals",
     "offre_introuvable": "Main deal not found — slug:"
+  },
+  "applications": {
+    "titre": "Applications",
+    "description": "Our free software. Android now, Windows & Linux later.",
+    "prixmalin_titre": "PrixMalin (Android)",
+    "prixmalin_description": "Local and web product search tool in Canada.",
+    "voir_page": "See the page →"
   }
 }

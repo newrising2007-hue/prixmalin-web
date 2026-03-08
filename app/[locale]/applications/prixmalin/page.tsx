@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { absoluteUrl } from "@/lib/site";
+import { getLocale } from "next-intl/server";
 
 import { AppHero } from "@/components/apps/AppHero";
 import { AppFeatures } from "@/components/apps/AppFeatures";
@@ -28,15 +29,17 @@ export const metadata: Metadata = {
   },
 };
 
-export default function PrixMalinAppFr() {
+export default async function PrixMalinAppFr() {
+  const locale = await getLocale();
+  const lang = locale === "fr" ? "fr" : "en";
   return (
     <main>
-      <AppSchema lang="fr" />
-      <AppHero lang="fr" />
-      <AppFeatures lang="fr" />
-      <AppSteps lang="fr" />
-      <AppSafety lang="fr" />
-      <AppFAQ lang="fr" />
+      <AppSchema lang={lang} />
+      <AppHero lang={lang} />
+      <AppFeatures lang={lang} />
+      <AppSteps lang={lang} />
+      <AppSafety lang={lang} />
+      <AppFAQ lang={lang} />
     </main>
   );
 }

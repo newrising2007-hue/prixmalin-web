@@ -278,5 +278,12 @@
     "offres_gaming": "عروض الألعاب",
     "voir_toutes_offres": "← عرض جميع صفقات الألعاب",
     "offre_introuvable": "العرض الرئيسي غير موجود — slug:"
+  },
+  "applications": {
+    "titre": "التطبيقات",
+    "description": "برامجنا المجانية. Android الآن، Windows & Linux لاحقاً.",
+    "prixmalin_titre": "PrixMalin (Android)",
+    "prixmalin_description": "أداة بحث عن المنتجات المحلية والويب في كندا.",
+    "voir_page": "عرض الصفحة →"
   }
 }
