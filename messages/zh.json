@@ -20,13 +20,13 @@
     "footer": "© {year} PrixMalin — 可能产生佣金的合作伙伴链接。"
   },
   "gaming": {
-    "hero_titre": "PrixMalin — Deals et codes gaming 🇨🇦",
-    "hero_description": "找到最好的游戏优惠、礼品卡和奖励，适用于PC游戏和主机。PrixMalin精选可靠的优惠，以避免诈骗。",
-    "codes_label": "最新的游戏代码添加",
-    "codes_titre": "所有玩家简单的入口 🎮",
+    "hero_titre": "PrixMalin — 游戏优惠与代码 🇨🇦",
+    "hero_description": "找到最好的游戏优惠、礼品卡和PC游戏及主机奖励。PrixMalin精选可靠优惠，避免欺诈。",
+    "codes_label": "最新游戏代码",
+    "codes_titre": "所有玩家的简单入口 🎮",
     "slogan": "选择您的主机",
     "slogan_sub": "点击查看所有优惠 👾",
-    "slogan_label": "PrixMalin · Deals Gaming"
+    "slogan_label": "PrixMalin · 游戏优惠"
   },
   "magasins": {
     "hero_titre": "购物",
