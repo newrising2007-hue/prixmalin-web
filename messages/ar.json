@@ -346,7 +346,8 @@
     "codes_titre": "الرموز",
     "expire_label": "ينتهي:",
     "codes_expires_note": "قد تنتهي صلاحية الرموز دون إشعار مسبق. إذا لم يعد الرمز يعمل، فقد انتهت صلاحيته على الأرجح.",
-    "autres_jeux_playstation": "ألعاب PlayStation أخرى"
+    "autres_jeux_playstation": "ألعاب PlayStation أخرى",
+    "codes_jeu_playstation": "رموز {nom} (PlayStation)"
   },
   "layout": {
     "footer_affiliation": "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تكون مدفوعة. الأسعار تُعرض فقط عند توفرها."
