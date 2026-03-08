@@ -170,7 +170,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                     key={b}
                     className="rounded-full bg-neutral-100 px-3 py-1"
                   >
-                    {b}
+                    {b === "codes_reels_bullet" ? t("codes_reels") : b === "expiration_bullet" ? t("expiration") : t("source")}
                   </li>
                 ))}
               </ul>
