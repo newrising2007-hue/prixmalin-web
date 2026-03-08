@@ -244,5 +244,19 @@
     "cta_desc": "Do you know a restaurant to recommend in the region?",
     "cta_btn": "✉️ Contact us, we'll take care of it",
     "retour": "← Back to Shopping"
+  },
+  "deals": {
+    "titre": "Gaming Offers Canada 🎮",
+    "description": "Subscriptions and gift cards for Xbox, PlayStation and Nintendo — direct affiliate links, prices in CAD.",
+    "tous": "All",
+    "abonnements": "Subscriptions",
+    "cartes_cadeaux": "Gift Cards",
+    "section_abonnements": "🎯 Subscriptions",
+    "section_cartes": "🎁 Gift Cards",
+    "voir_offre": "View Offer →",
+    "abonnement": "Subscription",
+    "carte_cadeau": "Gift Card",
+    "aucune_offre": "No offers available for this platform.",
+    "affiliation": "PrixMalin is an affiliate platform. Some links may generate a commission, with no additional cost to you."
   }
 }

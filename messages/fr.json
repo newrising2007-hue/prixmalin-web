@@ -245,5 +245,19 @@
     "cta_desc": "Vous avez un restaurant à recommander dans la région ?",
     "cta_btn": "✉️ Contactez-nous, on s'en occupe",
     "retour": "← Retour Magasinage"
+  },
+  "deals": {
+    "titre": "Offres Gaming Canada 🎮",
+    "description": "Abonnements et cartes cadeaux pour Xbox, PlayStation et Nintendo — liens affiliés directs, prix en CAD.",
+    "tous": "Tous",
+    "abonnements": "Abonnements",
+    "cartes_cadeaux": "Cartes cadeaux",
+    "section_abonnements": "🎯 Abonnements",
+    "section_cartes": "🎁 Cartes cadeaux",
+    "voir_offre": "Voir l'offre →",
+    "abonnement": "Abonnement",
+    "carte_cadeau": "Carte cadeau",
+    "aucune_offre": "Aucune offre disponible pour cette plateforme.",
+    "affiliation": "PrixMalin est une plateforme d'affiliation. Certains liens peuvent générer une commission, sans coût supplémentaire pour toi."
   }
 }

@@ -245,5 +245,19 @@
     "cta_btn": "✉️ Contáctenos, nos encargamos",
     "retour": "← Volver a las compras",
     "PrixMalin": "PrixMalin"
+  },
+  "deals": {
+    "titre": "Ofertas de Juegos Canadá 🎮",
+    "description": "Suscripciones y tarjetas de regalo para Xbox, PlayStation y Nintendo — enlaces de afiliados directos, precios en CAD.",
+    "tous": "Todos",
+    "abonnements": "Suscripciones",
+    "cartes_cadeaux": "Tarjetas de regalo",
+    "section_abonnements": "🎯 Suscripciones",
+    "section_cartes": "🎁 Tarjetas de regalo",
+    "voir_offre": "Ver la oferta →",
+    "abonnement": "Suscripción",
+    "carte_cadeau": "Tarjeta de regalo",
+    "aucune_offre": "No hay ofertas disponibles para esta plataforma.",
+    "affiliation": "PrixMalin es una plataforma de afiliación. Algunos enlaces pueden generar una comisión, sin costo adicional para ti."
   }
 }

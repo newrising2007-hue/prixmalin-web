@@ -245,5 +245,19 @@
     "cta_desc": "您有一个推荐的地区餐厅吗？",
     "cta_btn": "✉️ 联系我们，我们会处理",
     "retour": "← 返回购物"
+  },
+  "deals": {
+    "titre": "加拿大游戏优惠 🎮",
+    "description": "Xbox、PlayStation 和 Nintendo 的订阅和礼品卡 — 直接关联链接，价格为 CAD。",
+    "tous": "全部",
+    "abonnements": "订阅",
+    "cartes_cadeaux": "礼品卡",
+    "section_abonnements": "🎯 订阅",
+    "section_cartes": "🎁 礼品卡",
+    "voir_offre": "查看优惠 →",
+    "abonnement": "订阅",
+    "carte_cadeau": "礼品卡",
+    "aucune_offre": "该平台没有可用的优惠。",
+    "affiliation": "PrixMalin 是一个关联平台。某些链接可能会产生佣金，不会为您带来额外的费用。"
   }
 }
