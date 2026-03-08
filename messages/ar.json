@@ -347,7 +347,13 @@
     "expire_label": "ينتهي:",
     "codes_expires_note": "قد تنتهي صلاحية الرموز دون إشعار مسبق. إذا لم يعد الرمز يعمل، فقد انتهت صلاحيته على الأرجح.",
     "autres_jeux_playstation": "ألعاب PlayStation أخرى",
-    "codes_jeu_playstation": "رموز {nom} (PlayStation)"
+    "codes_jeu_playstation": "رموز {nom} (PlayStation)",
+    "codes_jeu_xbox": "رموز {nom} (Xbox)",
+    "codes_jeu_nintendo": "رموز {nom} (Nintendo)",
+    "codes_jeu_pc": "رموز {nom} (PC)",
+    "autres_jeux_xbox": "ألعاب Xbox أخرى",
+    "autres_jeux_nintendo": "ألعاب Nintendo أخرى",
+    "codes_jeu_pc_desc": "ابحث هنا عن رموز المكافآت لـ {nom} (PC)."
   },
   "layout": {
     "footer_affiliation": "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تكون مدفوعة. الأسعار تُعرض فقط عند توفرها."

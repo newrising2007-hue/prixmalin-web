@@ -348,7 +348,13 @@
     "expire_label": "到期：",
     "codes_expires_note": "代码可能随时过期，恕不另行通知。如果代码不再有效，可能已过期。",
     "autres_jeux_playstation": "其他 PlayStation 游戏",
-    "codes_jeu_playstation": "{nom} 代码 (PlayStation)"
+    "codes_jeu_playstation": "{nom} 代码 (PlayStation)",
+    "codes_jeu_xbox": "{nom} 代码 (Xbox)",
+    "codes_jeu_nintendo": "{nom} 代码 (Nintendo)",
+    "codes_jeu_pc": "{nom} 代码 (PC)",
+    "autres_jeux_xbox": "其他 Xbox 游戏",
+    "autres_jeux_nintendo": "其他 Nintendo 游戏",
+    "codes_jeu_pc_desc": "在这里找到 {nom} (PC) 的奖励代码。"
   },
   "layout": {
     "footer_affiliation": "PrixMalin 是一个联盟营销平台。某些链接可能获得佣金。仅在有价格时显示。"

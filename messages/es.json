@@ -348,7 +348,13 @@
     "expire_label": "Expira:",
     "codes_expires_note": "Los códigos pueden expirar sin previo aviso. Si un código ya no funciona, probablemente ha expirado.",
     "autres_jeux_playstation": "Otros juegos de PlayStation",
-    "codes_jeu_playstation": "Códigos {nom} (PlayStation)"
+    "codes_jeu_playstation": "Códigos {nom} (PlayStation)",
+    "codes_jeu_xbox": "Códigos {nom} (Xbox)",
+    "codes_jeu_nintendo": "Códigos {nom} (Nintendo)",
+    "codes_jeu_pc": "Códigos {nom} (PC)",
+    "autres_jeux_xbox": "Otros juegos de Xbox",
+    "autres_jeux_nintendo": "Otros juegos de Nintendo",
+    "codes_jeu_pc_desc": "Encuentra aquí los códigos bonus y recompensas para {nom} (PC)."
   },
   "layout": {
     "footer_affiliation": "PrixMalin es una plataforma de afiliación. Algunos enlaces pueden ser remunerados. Precios mostrados solo si están disponibles."

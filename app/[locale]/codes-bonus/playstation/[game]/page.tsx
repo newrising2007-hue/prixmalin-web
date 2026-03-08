@@ -149,7 +149,7 @@ export default async function Page({ params }: PageProps) {
       </nav>
 
       <header className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">{t("codes_jeu_playstation").replace("{nom}", game.name)} 🇨🇦</h1>
+        <h1 className="text-3xl font-bold tracking-tight">{t("codes_jeu_playstation", { nom: game.name })} 🇨🇦</h1>
         <p className="mt-2 max-w-2xl text-neutral-600">{t("codes_reels_uniquement")}</p>
 
         <div className="mt-4 flex flex-wrap gap-2">

@@ -138,7 +138,7 @@ export default async function Page({ params }: PageProps) {
 
       <nav className="mb-6 text-sm text-neutral-600">
         <Link className="hover:underline" href="/codes-bonus">
-          Codes bonus
+          {t("titre")}
         </Link>
         <span className="mx-2">/</span>
         <Link className="hover:underline" href="/codes-bonus/nintendo">
@@ -149,8 +149,8 @@ export default async function Page({ params }: PageProps) {
       </nav>
 
       <header className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">{`Codes ${game.name} (Nintendo)`} 🇨🇦</h1>
-        <p className="mt-2 max-w-2xl text-neutral-600">{game.hero?.subtitle ?? t("codes_reels_uniquement")}</p>
+        <h1 className="text-3xl font-bold tracking-tight">{t("codes_jeu_nintendo", { nom: game.name })} 🇨🇦</h1>
+        <p className="mt-2 max-w-2xl text-neutral-600">{t("codes_reels_uniquement")}</p>
 
         <div className="mt-4 flex flex-wrap gap-2">
           <Link
@@ -166,7 +166,7 @@ export default async function Page({ params }: PageProps) {
         <section className="rounded-2xl border border-neutral-200 bg-white p-6">
           <h2 className="text-lg font-semibold">{t("aucun_code")}</h2>
           <p className="mt-2 text-sm text-neutral-700">
-            On ajoute des codes vérifiés au fil de l’eau. Si tu en vois un officiel, on pourra l’ajouter ici.
+            {t("on_ajoute")}
           </p>        </section>
       ) : (
         <section aria-label="Liste des codes" className="space-y-4">
@@ -202,7 +202,7 @@ export default async function Page({ params }: PageProps) {
 
       {Array.isArray(game.relatedSlugs) && game.relatedSlugs.length > 0 ? (
         <section className="mt-12">
-          <h2 className="text-lg font-semibold">Autres jeux Nintendo</h2>
+          <h2 className="text-lg font-semibold">{t("autres_jeux_nintendo")}</h2>
           <div className="mt-3 flex flex-wrap gap-2">
             {game.relatedSlugs.map((s) => (
               <Link

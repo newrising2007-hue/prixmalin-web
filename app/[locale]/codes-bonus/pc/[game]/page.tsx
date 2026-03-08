@@ -127,7 +127,7 @@ export default async function Page({ params }: { params: Promise<{ game: string,
 
       <nav className="mb-6 text-sm text-neutral-600">
         <Link className="hover:underline" href="/codes-bonus">
-          Codes bonus
+          {t("titre")}
         </Link>
         <span className="mx-2">/</span>
         <Link className="hover:underline" href="/codes-bonus/pc">
@@ -139,11 +139,10 @@ export default async function Page({ params }: { params: Promise<{ game: string,
 
       <header className="mb-8">
         <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-          Codes bonus {game.name} (PC)
+          {t("codes_jeu_pc", { nom: game.name })}
         </h1>
         <p className="mt-2 max-w-3xl text-neutral-700">
-          {game.description ??
-            `Retrouve ici nos codes bonus et méthodes pour obtenir des récompenses sur ${game.name} (PC).`}
+          {t("codes_jeu_pc_desc", { nom: game.name })}
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2">
