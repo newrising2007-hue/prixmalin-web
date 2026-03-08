@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import dealsData from "@/data/deals.json";
 
 type Deal = {
@@ -43,7 +44,7 @@ const BADGE_COLORS: Record<string, string> = {
   Complet: "bg-indigo-600 text-white",
 };
 
-function DealCard({ deal }: { deal: Deal }) {
+function DealCard({ deal, tVoirOffre, tAbonnement, tCarteCadeau }: { deal: Deal; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string }) {
   const pct =
     deal.prixBarre && deal.prixBarre > deal.price
       ? Math.round(((deal.prixBarre - deal.price) / deal.prixBarre) * 100)
@@ -59,7 +60,6 @@ function DealCard({ deal }: { deal: Deal }) {
           {deal.badge}
         </span>
       )}
-
       <div className="flex items-center justify-center bg-gradient-to-b from-gray-50 to-white px-6 pt-6 pb-3 min-h-[140px]">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -69,20 +69,17 @@ function DealCard({ deal }: { deal: Deal }) {
           loading="lazy"
         />
       </div>
-
       <div className="flex flex-col flex-1 p-4">
         <div className="flex items-center gap-1.5 mb-2">
           <span className={`rounded-full px-2 py-0.5 text-xs font-semibold ${PLATFORM_COLORS[deal.platform] ?? "bg-gray-700 text-white"}`}>
             {deal.platform}
           </span>
           <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-600">
-            {deal.type === "abonnement" ? "Abonnement" : "Carte cadeau"}
+            {deal.type === "abonnement" ? tAbonnement : tCarteCadeau}
           </span>
         </div>
-
         <h3 className="text-sm font-semibold leading-snug text-gray-900 line-clamp-2">{deal.title}</h3>
         <p className="mt-1 text-xs text-gray-500 line-clamp-2">{deal.description}</p>
-
         <div className="mt-3 flex items-end gap-1.5">
           <span className="text-xl font-bold text-gray-900">{deal.price.toFixed(2)} $</span>
           {deal.prixBarre && (
@@ -92,39 +89,41 @@ function DealCard({ deal }: { deal: Deal }) {
             <span className="ml-auto rounded-full bg-green-100 px-2 py-0.5 text-xs font-bold text-green-700">−{pct}%</span>
           )}
         </div>
-
         <div className="mt-3 rounded-xl border border-blue-200 bg-blue-50 py-2 text-center text-sm font-semibold text-blue-900 transition group-hover:bg-blue-100">
-          Voir l&apos;offre →
+          {tVoirOffre}
         </div>
       </div>
     </div>
   );
 
   if (isExternal) {
-    return (
-      <a href={href} target="_blank" rel="nofollow sponsored noopener">
-        {inner}
-      </a>
-    );
+    return <a href={href} target="_blank" rel="nofollow sponsored noopener">{inner}</a>;
   }
-
   return <Link href={href}>{inner}</Link>;
 }
 
-function Section({ id, title, deals }: { id: string; title: string; deals: Deal[] }) {
+function Section({ id, title, deals, tVoirOffre, tAbonnement, tCarteCadeau }: { id: string; title: string; deals: Deal[]; tVoirOffre: string; tAbonnement: string; tCarteCadeau: string }) {
   if (deals.length === 0) return null;
   return (
     <div id={id} className="mt-10 scroll-mt-6">
       <h2 className="mb-4 text-base font-bold uppercase tracking-widest text-gray-500">{title}</h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {deals.map((d) => <DealCard key={d.slug} deal={d} />)}
+        {deals.map((d) => <DealCard key={d.slug} deal={d} tVoirOffre={tVoirOffre} tAbonnement={tAbonnement} tCarteCadeau={tCarteCadeau} />)}
       </div>
     </div>
   );
 }
 
 export default function DealsPage() {
+  const t = useTranslations("deals");
   const [filter, setFilter] = useState("Tous");
+
+  const PLATFORM_LABELS: Record<string, string> = {
+    Tous: t("tous"),
+    Xbox: "Xbox",
+    PlayStation: "PlayStation",
+    Nintendo: "Nintendo",
+  };
 
   const allItems = (dealsData.items as Deal[]).filter((d) => d.actif !== false);
   const filtered = filter === "Tous" ? allItems : allItems.filter((d) => d.platform === filter);
@@ -135,10 +134,8 @@ export default function DealsPage() {
   return (
     <main className="mx-auto max-w-7xl px-4 py-10">
       <header className="mb-8">
-        <h1 className="text-3xl font-extrabold tracking-tight">Offres Gaming Canada 🎮</h1>
-        <p className="mt-2 text-gray-600">
-          Abonnements et cartes cadeaux pour Xbox, PlayStation et Nintendo — liens affiliés directs, prix en CAD.
-        </p>
+        <h1 className="text-3xl font-extrabold tracking-tight">{t("titre")}</h1>
+        <p className="mt-2 text-gray-600">{t("description")}</p>
       </header>
 
       <div className="flex flex-wrap gap-1.5">
@@ -152,7 +149,7 @@ export default function DealsPage() {
                 : "border border-gray-200 bg-white text-gray-700 hover:bg-gray-50"
             }`}
           >
-            {p}
+            {PLATFORM_LABELS[p] ?? p}
           </button>
         ))}
       </div>
@@ -160,26 +157,24 @@ export default function DealsPage() {
       <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 border-b border-gray-100 pb-3">
         {abonnements.length > 0 && (
           <a href="#abonnements" className="inline-flex items-center gap-1.5 rounded-full border border-blue-200 bg-blue-50 px-2.5 py-0.5 text-xs font-semibold text-blue-700 shadow-sm shadow-blue-100 transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-blue-200">
-            ↓ Abonnements ({abonnements.length})
+            ↓ {t("abonnements")} ({abonnements.length})
           </a>
         )}
         {cartes.length > 0 && (
           <a href="#cartes" className="inline-flex items-center gap-1.5 rounded-full border border-green-200 bg-green-50 px-2.5 py-0.5 text-xs font-semibold text-green-700 shadow-sm shadow-green-100 transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-green-200">
-            ↓ Cartes cadeaux ({cartes.length})
+            ↓ {t("cartes_cadeaux")} ({cartes.length})
           </a>
         )}
       </div>
 
-      <Section id="abonnements" title="🎯 Abonnements" deals={abonnements} />
-      <Section id="cartes" title="🎁 Cartes cadeaux" deals={cartes} />
+      <Section id="abonnements" title={t("section_abonnements")} deals={abonnements} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} />
+      <Section id="cartes" title={t("section_cartes")} deals={cartes} tVoirOffre={t("voir_offre")} tAbonnement={t("abonnement")} tCarteCadeau={t("carte_cadeau")} />
 
       {filtered.length === 0 && (
-        <p className="mt-10 text-center text-gray-500">Aucune offre disponible pour cette plateforme.</p>
+        <p className="mt-10 text-center text-gray-500">{t("aucune_offre")}</p>
       )}
 
-      <p className="mt-10 text-center text-xs text-gray-400">
-        PrixMalin est une plateforme d&apos;affiliation. Certains liens peuvent générer une commission, sans coût supplémentaire pour toi.
-      </p>
+      <p className="mt-10 text-center text-xs text-gray-400">{t("affiliation")}</p>
     </main>
   );
 }
