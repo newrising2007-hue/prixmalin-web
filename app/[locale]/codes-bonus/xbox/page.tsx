@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 import { XBOX_GAMES as xboxGames } from "@/src/data/codes-bonus/xbox-games";
 
 export const dynamic = "force-static";
@@ -38,7 +39,7 @@ const cards: GameCard[] = xboxGames.map((g) => ({
   title: g.name,
   href: `/codes-bonus/xbox/${g.slug}`,
   description: g.seoDescription ?? `Codes ${g.name} sur Xbox.`,
-  bullets: ["Codes réels", "Expiration", "Source"],
+  bullets: ["codes_reels_bullet", "expiration_bullet", "source_bullet"],
 }));
 
 function buildFaqJsonLd() {
@@ -66,14 +67,16 @@ function buildFaqJsonLd() {
   };
 }
 
-export default function Page() {
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "codes_bonus" });
   const faqJsonLd = buildFaqJsonLd();
 
   return (
     <main className="mx-auto w-full max-w-5xl px-4 pb-16 pt-10">
       <header className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight">
-          Codes bonus Xbox (Xbox One/Xbox Series X|S) 🇨🇦
+          {t("titre_xbox")} 🇨🇦
         </h1>
         <p className="mt-2 max-w-2xl text-neutral-600">
           On liste uniquement des{" "}
@@ -86,7 +89,7 @@ export default function Page() {
             href="/codes-bonus"
             className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition hover:bg-emerald-100 hover:shadow-md hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
           >
-            Retour aux consoles
+            {t("retour_consoles")}
           </Link>
           <Link
             href="/codes-bonus/pc"
@@ -153,7 +156,7 @@ export default function Page() {
               <ul className="mt-4 flex flex-wrap gap-2 text-xs text-neutral-700">
                 {c.bullets.map((b) => (
                   <li key={b} className="rounded-full bg-neutral-100 px-3 py-1">
-                    {b}
+                    {b === "codes_reels_bullet" ? t("codes_reels") : b === "expiration_bullet" ? t("expiration") : t("source")}
                   </li>
                 ))}
               </ul>

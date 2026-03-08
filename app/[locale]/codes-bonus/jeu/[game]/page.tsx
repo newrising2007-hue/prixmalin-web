@@ -3,6 +3,7 @@ import { getSiteUrl } from "@/lib/site";
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
+import { getTranslations } from "next-intl/server"
 import { getAllBonusGameSlugs, getBonusGameBySlug } from "@/lib/bonusCodes"
 
 type PageProps = {
@@ -48,6 +49,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function BonusGamePage({ params }: PageProps) {
+  const { locale = "fr" } = await params as any;
+  const t = await getTranslations({ locale, namespace: "codes_bonus" });
   const { game } = await params
   const g = getBonusGameBySlug(game)
   if (!g) return notFound()
@@ -73,7 +76,7 @@ export default async function BonusGamePage({ params }: PageProps) {
 
       <nav className="text-sm text-neutral-600">
         <Link href="/" className="hover:text-green-700">
-          Accueil
+          {t("accueil")}
         </Link>
         <span> {" > "} </span>
         <Link href="/codes-bonus" className="hover:text-green-700">
@@ -83,14 +86,14 @@ export default async function BonusGamePage({ params }: PageProps) {
         <span className="font-semibold text-neutral-900">{g.game}</span>
       </nav>
 
-      <h1 className="mt-4 text-2xl font-semibold">Codes bonus {g.game} gratuits</h1>
+      <h1 className="mt-4 text-2xl font-semibold">{t("titre_nintendo").replace("Nintendo (Switch)", g.game)}</h1>
 
       <p className="mt-2 text-sm text-gray-600">
         Liste de codes bonus avec récompenses et instructions d’activation.
       </p>
 
       <section className="mt-6 rounded-2xl border bg-white p-5">
-        <h2 className="text-lg font-bold">Codes</h2>
+        <h2 className="text-lg font-bold">{t("codes_titre")}</h2>
 
         <ul className="mt-4 space-y-3">
           {g.codes.map((c) => (
@@ -98,9 +101,9 @@ export default async function BonusGamePage({ params }: PageProps) {
               <p className="font-extrabold">{c.code}</p>
               <p className="mt-1 text-sm text-neutral-700">{c.rewards}</p>
               {c.expires ? (
-                <p className="mt-2 text-xs text-neutral-500">Expire : {c.expires}</p>
+                <p className="mt-2 text-xs text-neutral-500">{t("expire_label")} {c.expires}</p>
               ) : (
-                <p className="mt-2 text-xs text-neutral-500">Expiration : inconnue / variable</p>
+                <p className="mt-2 text-xs text-neutral-500">{t("expire_inconnu")}</p>
               )}
             </li>
           ))}
@@ -108,7 +111,7 @@ export default async function BonusGamePage({ params }: PageProps) {
       </section>
 
       <section className="mt-6 rounded-2xl border bg-white p-5">
-        <h2 className="text-lg font-bold">Comment activer</h2>
+        <h2 className="text-lg font-bold">{t("comment_activer")}</h2>
         <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm text-neutral-700">
           {g.howTo.map((step, i) => (
             <li key={i}>{step}</li>
@@ -117,7 +120,7 @@ export default async function BonusGamePage({ params }: PageProps) {
       </section>
 
       <p className="mt-8 text-xs text-neutral-500">
-        Les codes peuvent expirer sans préavis. Si un code ne fonctionne plus, il a probablement expiré.
+        {t("codes_expires_note")}
       </p>
     </main>
   )

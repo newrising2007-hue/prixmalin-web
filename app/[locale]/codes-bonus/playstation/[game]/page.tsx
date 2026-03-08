@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -98,7 +99,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function Page({ params }: PageProps) {
-  const { game: gameSlug } = await params;
+  const { game: gameSlug, locale = "fr" } = await params as any;
+  const t = await getTranslations({ locale, namespace: "codes_bonus" });
 
   const games = normalizeGames(psGames);
   const codes = normalizeCodes(codesData);
@@ -148,21 +150,21 @@ export default async function Page({ params }: PageProps) {
 
       <header className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight">{`Codes ${game.name} (PlayStation)`} 🇨🇦</h1>
-        <p className="mt-2 max-w-2xl text-neutral-600">{game.hero?.subtitle ?? "Codes réels uniquement, quand disponibles."}</p>
+        <p className="mt-2 max-w-2xl text-neutral-600">{game.hero?.subtitle ?? t("codes_reels_uniquement")}</p>
 
         <div className="mt-4 flex flex-wrap gap-2">
           <Link
             href="/codes-bonus/playstation"
             className="relative rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition-all duration-200 hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
           >
-            Retour PlayStation
+            {t("retour_playstation")}
           </Link>
         </div>
       </header>
 
       {items.length === 0 ? (
         <section className="rounded-2xl border border-neutral-200 bg-white p-6">
-          <h2 className="text-lg font-semibold">Aucun code actif pour le moment</h2>
+          <h2 className="text-lg font-semibold">{t("aucun_code")}</h2>
           <p className="mt-2 text-sm text-neutral-700">
             On ajoute des codes vérifiés au fil de l’eau. Si tu en vois un officiel, on pourra l’ajouter ici.
           </p>        </section>
@@ -171,19 +173,19 @@ export default async function Page({ params }: PageProps) {
           {items.map((it: any) => (
             <article key={it.id} id={it.id} className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
               <div className="flex flex-col gap-1">
-                <h2 className="text-lg font-semibold">{it.title ?? "Code bonus"}</h2>
+                <h2 className="text-lg font-semibold">{it.title ?? t("code_bonus")}</h2>
                 {it.description ? <p className="mt-1 text-neutral-700">{it.description}</p> : null}
               </div>
 
               <div className="mt-4 flex flex-wrap gap-2">
                 {it.sourceLabel ? (
                   <span className="rounded-full bg-neutral-100 px-3 py-1 text-xs font-medium text-neutral-700">
-                    Source: {it.sourceLabel}
+                    {t("source")}: {it.sourceLabel}
                   </span>
                 ) : null}
                 {it.expiresAtISO ? (
                   <span className="rounded-full bg-neutral-100 px-3 py-1 text-xs font-medium text-neutral-700">
-                    Expire: {it.expiresAtISO}
+                    {t("expire")}: {it.expiresAtISO}
                   </span>
                 ) : null}
               </div>

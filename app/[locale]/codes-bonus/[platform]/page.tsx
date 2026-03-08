@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { getTranslations } from "next-intl/server"
 import { notFound } from "next/navigation"
 import DealCard from "@/components/DealCard"
 import type { Deal } from "@/types/deal"
@@ -98,7 +99,8 @@ function buildProductJsonLd(deal: Deal) {
 }
 
 export default async function CodesBonusPlatformPage({ params }: PageProps) {
-  const { platform: rawPlatform } = await params
+  const { platform: rawPlatform, locale = "fr" } = await params as any;
+  const t = await getTranslations({ locale, namespace: "codes_bonus" });
   const platform = normalizePlatform(rawPlatform)
   if (!platform) return notFound()
 
@@ -115,17 +117,16 @@ export default async function CodesBonusPlatformPage({ params }: PageProps) {
     <main className="mx-auto max-w-6xl px-4 py-10">
       <header className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight">
-          {platform === "PC" ? "Codes bonus PC" : `Codes bonus ${platform}`} 🇨🇦
+          {platform === "PC" ? t("titre_pc") : platform === "Xbox" ? t("titre_xbox") : platform === "PlayStation" ? t("titre_playstation") : t("titre_nintendo")} 🇨🇦
         </h1>
         <p className="mt-2 max-w-2xl text-gray-600">
-          Offres sélectionnées de cartes cadeaux et codes gaming au Canada. Liens
-          affiliés traçables — aucun surcoût pour vous.
+          {t("on_liste")} {t("codes_reels")} {t("avec_source")}
         </p>
       </header>
 
       {filteredDeals.length === 0 ? (
         <div className="rounded-2xl border bg-white p-6 text-gray-700">
-          Aucune offre disponible pour {platform} pour le moment.
+          {t("aucune_offre")}
         </div>
       ) : (
         <section

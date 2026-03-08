@@ -1,7 +1,7 @@
 export const dynamic = "force-static";
 import Image from "next/image";
-// app/codes-bonus/page.tsx
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 import codesData from "@/src/data/bonus-codes/codes.json";
 
 function countActiveCodes(platform: string): number {
@@ -26,7 +26,9 @@ export const metadata = {
   },
 };
 
-export default function CodesBonusHub() {
+export default async function CodesBonusHub({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "codes_bonus" });
   const consoles = [
     { name: "PC", slug: "pc" },
     { name: "PlayStation", slug: "playstation" },
@@ -37,11 +39,11 @@ export default function CodesBonusHub() {
   return (
     <div className="max-w-4xl mx-auto p-6 pt-10">
       <div className="mb-6 flex items-start justify-between gap-4">
-  <h1 className="text-3xl font-bold">Codes bonus gaming</h1>
-  <a href="mailto:contact@prixmalin.ca?subject=Soumission%20code%20gaming&body=Plateforme:%0AJeu:%0ACode:%0AR%C3%A9gion:%0AExpiration:" className="shrink-0 inline-flex items-center gap-2 rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs font-semibold text-green-700 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-green-200">📩 Soumettre un code</a>
+  <h1 className="text-3xl font-bold">{t("titre")}</h1>
+  <a href="mailto:contact@prixmalin.ca?subject=Soumission%20code%20gaming&body=Plateforme:%0AJeu:%0ACode:%0AR%C3%A9gion:%0AExpiration:" className="shrink-0 inline-flex items-center gap-2 rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs font-semibold text-green-700 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-green-200">{t("soumettre")}</a>
 </div>
       <p className="mb-4 text-gray-700">
-        Choisissez votre console pour accéder aux codes bonus et offres gaming.
+        {t("description")}
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {consoles.map((console) => (
@@ -53,7 +55,7 @@ export default function CodesBonusHub() {
             <div className="relative z-10 flex flex-col items-start gap-1">
               <span>{console.name}</span>
               <span className="text-xs font-semibold text-blue-500/80">
-                {countActiveCodes(console.slug)} codes actifs
+                {countActiveCodes(console.slug)} {t("codes_actifs")}
               </span>
             </div>
 

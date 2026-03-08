@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { getTranslations } from "next-intl/server"
 import type { Metadata } from "next"
 import { getSiteUrl } from "@/lib/site"
 import { getAllBonusGameSlugs, getBonusGameBySlug } from "@/lib/bonusCodes"
@@ -27,7 +28,9 @@ export const metadata: Metadata = {
   },
 }
 
-export default function BonusGamesIndexPage() {
+export default async function BonusGamesIndexPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "codes_bonus" });
   const slugs = getAllBonusGameSlugs()
 
   const games = slugs
@@ -61,18 +64,18 @@ export default function BonusGamesIndexPage() {
 
       <nav className="text-sm text-neutral-600">
         <Link href="/" className="hover:text-green-700">
-          Accueil
+          {t("accueil")}
         </Link>
         <span> {" > "} </span>
         <Link href="/codes-bonus" className="hover:text-green-700">
           Codes Bonus
         </Link>
         <span> {" > "} </span>
-        <span className="font-semibold text-neutral-900">Jeux</span>
+        <span className="font-semibold text-neutral-900">{t("jeux")}</span>
       </nav>
 
       <header className="mt-4">
-        <h1 className="text-2xl font-semibold">Codes bonus par jeu</h1>
+        <h1 className="text-2xl font-semibold">{t("codes_par_jeu_titre")}</h1>
         <p className="mt-2 text-sm text-gray-600">
           Choisis un jeu pour voir les codes bonus disponibles, les récompenses
           et les instructions d’activation.
@@ -81,7 +84,7 @@ export default function BonusGamesIndexPage() {
 
       {games.length === 0 ? (
         <div className="mt-6 rounded-2xl border bg-white p-6 text-gray-700">
-          Aucun jeu disponible pour le moment.
+          {t("aucun_jeu")}
         </div>
       ) : (
         <section className="mt-6 grid gap-4 sm:grid-cols-2">
