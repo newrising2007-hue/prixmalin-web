@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 
 const CATEGORIES = [
-  { slug: "toutes", label: t("toutes") },
+  { slug: "toutes", label: "toutes" },
   { slug: "audio", label: "🎧 Audio" },
   { slug: "souris", label: "🖱️ Souris" },
   { slug: "claviers", label: "⌨️ Claviers" },
@@ -48,7 +48,7 @@ export default function ProduitsPage() {
                 : "bg-white text-black/70 border-black/20 hover:border-orange-400"
             }`}
           >
-            {cat.label}
+            {cat.slug === "toutes" ? t("toutes") : cat.label}
           </button>
         ))}
       </div>
