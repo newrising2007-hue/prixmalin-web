@@ -286,5 +286,15 @@
     "prixmalin_titre": "PrixMalin (Android)",
     "prixmalin_description": "Outil de recherche de produits local et web au Canada.",
     "voir_page": "Voir la page →"
+  },
+  "produits": {
+    "titre": "Produits gaming recommandés",
+    "description": "Sélection manuelle (MVP). Certains liens sont affiliés : en achetant via ces liens, tu soutiens PrixMalin sans coût supplémentaire.",
+    "toutes": "Toutes",
+    "compteur": "produit",
+    "compteur_pluriel": "produits",
+    "image_bientot": "Image bientôt disponible",
+    "voir_fiche": "Voir la fiche →",
+    "voir_amazon": "Voir sur Amazon"
   }
 }

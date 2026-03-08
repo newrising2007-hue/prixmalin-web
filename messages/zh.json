@@ -286,5 +286,15 @@
     "prixmalin_titre": "PrixMalin (Android)",
     "prixmalin_description": "加拿大本地和网络产品搜索工具。",
     "voir_page": "查看页面 →"
+  },
+  "produits": {
+    "titre": "推荐游戏产品",
+    "description": "人工精选 (MVP)。部分链接为联盟链接：通过这些链接购买，您将支持PrixMalin，无需额外费用。",
+    "toutes": "全部",
+    "compteur": "个产品",
+    "compteur_pluriel": "个产品",
+    "image_bientot": "图片即将上线",
+    "voir_fiche": "查看详情 →",
+    "voir_amazon": "在Amazon查看"
   }
 }

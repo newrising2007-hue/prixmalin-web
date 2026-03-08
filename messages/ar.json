@@ -285,5 +285,15 @@
     "prixmalin_titre": "PrixMalin (Android)",
     "prixmalin_description": "أداة بحث عن المنتجات المحلية والويب في كندا.",
     "voir_page": "عرض الصفحة →"
+  },
+  "produits": {
+    "titre": "منتجات الألعاب الموصى بها",
+    "description": "اختيار يدوي (MVP). بعض الروابط هي روابط تابعة: بالشراء عبر هذه الروابط، تدعم PrixMalin بدون تكلفة إضافية.",
+    "toutes": "الكل",
+    "compteur": "منتج",
+    "compteur_pluriel": "منتجات",
+    "image_bientot": "الصورة قريباً",
+    "voir_fiche": "عرض التفاصيل →",
+    "voir_amazon": "عرض على Amazon"
   }
 }

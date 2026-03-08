@@ -3,9 +3,10 @@ import Link from "next/link";
 import AffiliateButton from "@/components/AffiliateButton";
 import { getAllProducts } from "@/lib/products";
 import { useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
 
 const CATEGORIES = [
-  { slug: "toutes", label: "Toutes" },
+  { slug: "toutes", label: t("toutes") },
   { slug: "audio", label: "🎧 Audio" },
   { slug: "souris", label: "🖱️ Souris" },
   { slug: "claviers", label: "⌨️ Claviers" },
@@ -19,6 +20,8 @@ const CATEGORIES = [
 export default function ProduitsPage() {
   const products = getAllProducts();
   const [filtre, setFiltre] = useState("toutes");
+  const locale = useLocale();
+  const t = useTranslations("produits");
 
   const filtered = filtre === "toutes"
     ? products
@@ -27,10 +30,9 @@ export default function ProduitsPage() {
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
       <header className="mb-8">
-        <h1 className="text-3xl font-bold">Produits gaming recommandés</h1>
+        <h1 className="text-3xl font-bold">{t("titre")}</h1>
         <p className="mt-2 text-black/70">
-          Sélection manuelle (MVP). Certains liens sont affiliés : en achetant via
-          ces liens, tu soutiens PrixMalin sans coût supplémentaire.
+          {t("description")}
         </p>
       </header>
 
@@ -52,7 +54,7 @@ export default function ProduitsPage() {
       </div>
 
       {/* COMPTEUR */}
-      <p className="text-sm text-black/50 mb-4">{filtered.length} produit{filtered.length > 1 ? "s" : ""}</p>
+      <p className="text-sm text-black/50 mb-4">{filtered.length} {filtered.length > 1 ? t("compteur_pluriel") : t("compteur")}</p>
 
       <section className="grid gap-6">
         {filtered.map((p) => (
@@ -72,7 +74,7 @@ export default function ProduitsPage() {
                     />
                   ) : (
                     <div className="h-full w-full flex items-center justify-center text-sm text-black/50">
-                      Image bientôt disponible
+                      {t("image_bientot")}
                     </div>
                   )}
                 </div>
@@ -88,7 +90,7 @@ export default function ProduitsPage() {
                     {p.category}
                   </span>
                 )}
-                <p className="mt-2 text-black/70">{p.shortDescription}</p>
+                <p className="mt-2 text-black/70">{(p as any)[`shortDescription_${locale}`] || p.shortDescription}</p>
                 {p.prix && (
                   <div className="mt-2 flex items-center gap-2">
                     <span className="text-lg font-bold text-orange-600">{p.prix}$</span>
@@ -97,12 +99,12 @@ export default function ProduitsPage() {
                 )}
                 <p className="mt-3">
                   <Link href={`/produit/${p.slug}`} className="text-sm font-medium text-blue-700 hover:underline">
-                    Voir la fiche →
+                    {t("voir_fiche")}
                   </Link>
                 </p>
               </div>
               <div className="sm:shrink-0">
-                <AffiliateButton url={p.amazonUrl} label="Voir sur Amazon" />
+                <AffiliateButton url={p.amazonUrl} label={t("voir_amazon")} />
               </div>
             </div>
           </article>
