@@ -1,6 +1,16 @@
 "use client";
 
 import Link from "next/link";
+
+const FOOTER_TEXT: Record<string, string> = {
+  fr: "PrixMalin est une plateforme d'affiliation. Certains liens peuvent être rémunérés. Prix affichés seulement si certains.",
+  en: "PrixMalin is an affiliate platform. Some links may be compensated. Prices shown only when available.",
+  es: "PrixMalin es una plataforma de afiliación. Algunos enlaces pueden ser remunerados. Precios mostrados solo si están disponibles.",
+  ar: "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تكون مدفوعة. الأسعار معروضة فقط عند توفرها.",
+  zh: "PrixMalin 是一个联盟营销平台。部分链接可能获得佣金。价格仅在有时显示。",
+};
+
+
 import { usePathname } from "next/navigation";
 import LanguageSwitch from "@/components/LanguageSwitch";
 
@@ -182,7 +192,7 @@ export default function LayoutChrome({
       <footer className="mt-10 border-t">
         <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-gray-600">
           <p>
-            PrixMalin est une plateforme d'affiliation. Certains liens peuvent être rémunérés. Prix affichés seulement si certains.
+            {FOOTER_TEXT[pathname.split("/")[1]] ?? FOOTER_TEXT.fr}
           </p>
         </div>
       </footer>
