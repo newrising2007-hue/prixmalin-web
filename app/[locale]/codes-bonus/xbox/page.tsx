@@ -79,9 +79,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           {t("titre_xbox")} 🇨🇦
         </h1>
         <p className="mt-2 max-w-2xl text-neutral-600">
-          On liste uniquement des{" "}
-          <span className="font-medium">codes réels</span> quand ils existent,
-          avec une source et une date d’expiration si disponible.
+          {t("codes_reels_uniquement")}
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
