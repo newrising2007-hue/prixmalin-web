@@ -5,16 +5,16 @@ import { getAllProducts } from "@/lib/products";
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 
-const CATEGORIES = [
-  { slug: "toutes", label: "toutes" },
-  { slug: "audio", label: "🎧 Audio" },
-  { slug: "souris", label: "🖱️ Souris" },
-  { slug: "claviers", label: "⌨️ Claviers" },
-  { slug: "manettes", label: "🎮 Manettes" },
-  { slug: "accessoires", label: "🎒 Accessoires" },
-  { slug: "chaises", label: "🪑 Chaises" },
-  { slug: "ecrans", label: "🖥️ Écrans" },
-  { slug: "boitiers", label: "🖥️ Boîtiers PC" },
+const CATEGORY_SLUGS = [
+  "toutes",
+  "audio",
+  "souris",
+  "claviers",
+  "manettes",
+  "accessoires",
+  "chaises",
+  "ecrans",
+  "boitiers",
 ];
 
 export default function ProduitsPage() {
@@ -38,17 +38,17 @@ export default function ProduitsPage() {
 
       {/* FILTRES */}
       <div className="flex flex-wrap gap-2 mb-8">
-        {CATEGORIES.map(cat => (
+        {CATEGORY_SLUGS.map(slug => (
           <button
-            key={cat.slug}
-            onClick={() => setFiltre(cat.slug)}
+            key={slug}
+            onClick={() => setFiltre(slug)}
             className={`px-4 py-2 rounded-full text-sm font-medium border transition-colors ${
-              filtre === cat.slug
+              filtre === slug
                 ? "bg-orange-500 text-white border-orange-500"
                 : "bg-white text-black/70 border-black/20 hover:border-orange-400"
             }`}
           >
-            {cat.slug === "toutes" ? t("toutes") : cat.label}
+            {slug === "toutes" ? t("toutes") : t(`cat_${slug}`)}
           </button>
         ))}
       </div>
@@ -87,7 +87,7 @@ export default function ProduitsPage() {
                 </h2>
                 {p.category && (
                   <span className="inline-block mt-1 text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700">
-                    {p.category}
+                    {p.category ? t(`cat_${p.category}` as any) : p.category}
                   </span>
                 )}
                 <p className="mt-2 text-black/70">{(p as any)[`shortDescription_${locale}`] || p.shortDescription}</p>

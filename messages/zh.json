@@ -295,7 +295,15 @@
     "compteur_pluriel": "个产品",
     "image_bientot": "图片即将上线",
     "voir_fiche": "查看详情 →",
-    "voir_amazon": "在Amazon查看"
+    "voir_amazon": "在Amazon查看",
+    "cat_audio": "🎧 音频",
+    "cat_souris": "🖱️ 鼠标",
+    "cat_claviers": "⌨️ 键盘",
+    "cat_manettes": "🎮 手柄",
+    "cat_accessoires": "🎒 配件",
+    "cat_chaises": "🪑 椅子",
+    "cat_ecrans": "🖥️ 显示器",
+    "cat_boitiers": "🖥️ 机箱"
   },
   "codes_bonus": {
     "titre": "游戏奖励代码",

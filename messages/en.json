@@ -294,7 +294,15 @@
     "compteur_pluriel": "products",
     "image_bientot": "Image coming soon",
     "voir_fiche": "See details →",
-    "voir_amazon": "View on Amazon"
+    "voir_amazon": "View on Amazon",
+    "cat_audio": "🎧 Audio",
+    "cat_souris": "🖱️ Mouse",
+    "cat_claviers": "⌨️ Keyboards",
+    "cat_manettes": "🎮 Controllers",
+    "cat_accessoires": "🎒 Accessories",
+    "cat_chaises": "🪑 Chairs",
+    "cat_ecrans": "🖥️ Monitors",
+    "cat_boitiers": "🖥️ PC Cases"
   },
   "codes_bonus": {
     "titre": "Gaming Bonus Codes",

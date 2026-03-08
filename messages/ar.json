@@ -294,7 +294,15 @@
     "compteur_pluriel": "منتجات",
     "image_bientot": "الصورة قريباً",
     "voir_fiche": "عرض التفاصيل →",
-    "voir_amazon": "عرض على Amazon"
+    "voir_amazon": "عرض على Amazon",
+    "cat_audio": "🎧 صوت",
+    "cat_souris": "🖱️ فأرة",
+    "cat_claviers": "⌨️ لوحات مفاتيح",
+    "cat_manettes": "🎮 أذرع تحكم",
+    "cat_accessoires": "🎒 إكسسوارات",
+    "cat_chaises": "🪑 كراسي",
+    "cat_ecrans": "🖥️ شاشات",
+    "cat_boitiers": "🖥️ أبراج الحاسوب"
   },
   "codes_bonus": {
     "titre": "رموز المكافآت للألعاب",
