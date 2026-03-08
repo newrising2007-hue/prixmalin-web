@@ -10,6 +10,7 @@ import {
 } from "@/lib/intent";
 
 import { getSiteUrl } from "@/lib/site";
+import { getTranslations } from "next-intl/server";
 
 type PageProps = {
   params: Promise<{ slug: string; locale: string }>;
@@ -30,7 +31,7 @@ function formatPrice(price?: number, currency = "CAD") {
   }
 }
 
-function DealCard({ deal, featured = false }: { deal: Deal; featured?: boolean }) {
+function DealCard({ deal, featured = false, t }: { deal: Deal; featured?: boolean; t: (key: string) => string }) {
   const price = formatPrice(deal.price, deal.currency);
 
   return (
@@ -51,7 +52,7 @@ function DealCard({ deal, featured = false }: { deal: Deal; featured?: boolean }
       <div className="p-5">
         {/* Vendeur */}
         <p className="text-xs font-medium uppercase tracking-wider text-black/40">
-          {deal.vendor ?? "Vendeur"}
+          {deal.vendor ?? t("vendeur")}
         </p>
 
         {/* Titre */}
@@ -63,15 +64,15 @@ function DealCard({ deal, featured = false }: { deal: Deal; featured?: boolean }
         {price ? (
           <p className="mt-3 text-3xl font-extrabold text-gray-900">{price}</p>
         ) : (
-          <p className="mt-3 text-sm text-black/50">Prix visible chez le vendeur</p>
+          <p className="mt-3 text-sm text-black/50">{t("prix_visible")}</p>
         )}
 
         {/* Checkmarks */}
         <ul className="mt-4 space-y-2">
           {[
-            "Lien affilié traçable",
-            "Code digital (selon offre)",
-            "Achat sécurisé chez le vendeur",
+            t("checkmark_1"),
+            t("checkmark_2"),
+            t("checkmark_3"),
           ].map((item) => (
             <li key={item} className="flex items-center gap-2 text-sm text-black/70">
               <span className="flex h-5 w-5 items-center justify-center rounded-full bg-green-100 text-green-600 text-xs font-bold">✓</span>
@@ -87,11 +88,11 @@ function DealCard({ deal, featured = false }: { deal: Deal; featured?: boolean }
           rel="nofollow sponsored noopener"
           className="mt-5 inline-flex w-full items-center justify-center rounded-xl bg-blue-600 px-4 py-3.5 text-center text-sm font-bold text-white shadow-md shadow-blue-500/20 transition hover:bg-blue-700 hover:-translate-y-0.5 active:translate-y-px"
         >
-          Voir le prix maintenant →
+          {t("voir_prix")}
         </a>
 
         <p className="mt-2.5 text-center text-xs text-black/40">
-          *Lien affilié — aucun frais supplémentaire pour toi
+          {t("lien_affilie")}
         </p>
       </div>
     </div>
@@ -104,7 +105,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug, locale } = await params;
+  const t = await getTranslations({ locale, namespace: "intent" });
   const page = getIntentPageBySlug(slug);
   if (!page) return {};
 
@@ -134,7 +136,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function IntentPageRoute({ params }: PageProps) {
-  const { slug } = await params;
+  const { slug, locale } = await params;
+  const t = await getTranslations({ locale, namespace: "intent" });
   const page = getIntentPageBySlug(slug);
   if (!page) notFound();
 
@@ -183,7 +186,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
 
         {/* Breadcrumb */}
         <nav className="mb-6 flex items-center gap-2 text-sm text-black/50">
-          <Link href="/deals" className="hover:text-black transition">Offres Gaming</Link>
+          <Link href="/deals" className="hover:text-black transition">{t("offres_gaming")}</Link>
           <span>/</span>
           <span className="text-black/80">{page.title}</span>
         </nav>
@@ -191,7 +194,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
         {/* Header */}
         <header className="mb-8">
           <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-blue-600">
-            Guide prix • Canada
+            {t("guide_prix")}
           </p>
           <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900">
             {page.h1}
@@ -203,30 +206,30 @@ export default async function IntentPageRoute({ params }: PageProps) {
         <section className="mb-10">
           <h2 className="mb-4 flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gray-500">
             <span className="h-px flex-1 bg-gray-200" />
-            Meilleure offre recommandée
+            {t("meilleure_offre")}
             <span className="h-px flex-1 bg-gray-200" />
           </h2>
 
           {primary ? (
-            <DealCard deal={primary} featured />
+            <DealCard deal={primary} featured t={t} />
           ) : (
             <div className="rounded-2xl border border-orange-200 bg-orange-50 p-4 text-sm text-orange-800">
-              Offre principale introuvable — slug : <b>{page.primaryDealSlug}</b>
+              {t("offre_introuvable")} <b>{page.primaryDealSlug}</b>
             </div>
           )}
         </section>
 
-        {/* Autres options */}
+        {/* {t("autres_options")} */}
         {secondary.length > 0 ? (
           <section className="mb-10">
             <h2 className="mb-4 flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gray-500">
               <span className="h-px flex-1 bg-gray-200" />
-              Autres options
+              {t("autres_options")}
               <span className="h-px flex-1 bg-gray-200" />
             </h2>
             <div className="grid gap-4 sm:grid-cols-2">
               {secondary.map((d) => (
-                <DealCard key={d.slug} deal={d} />
+                <DealCard key={d.slug} deal={d} t={t} />
               ))}
             </div>
           </section>
@@ -237,7 +240,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
           <section className="mb-10">
             <h2 className="mb-4 flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gray-500">
               <span className="h-px flex-1 bg-gray-200" />
-              Questions fréquentes
+              {t("faq")}
               <span className="h-px flex-1 bg-gray-200" />
             </h2>
             <div className="space-y-3">
@@ -263,7 +266,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
             href="/deals"
             className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-700 shadow-sm transition hover:bg-gray-50"
           >
-            ← Voir toutes les offres gaming
+            {t("voir_toutes_offres")}
           </Link>
         </div>
       </div>
@@ -277,9 +280,9 @@ export default async function IntentPageRoute({ params }: PageProps) {
             rel="nofollow sponsored noopener"
             className="block w-full rounded-xl bg-blue-600 py-3.5 text-center text-sm font-bold text-white shadow-md transition hover:bg-blue-700"
           >
-            Voir le prix maintenant →
+            {t("voir_prix")}
           </a>
-          <p className="mt-1.5 text-center text-xs text-black/40">Lien affilié — aucun frais supplémentaire</p>
+          <p className="mt-1.5 text-center text-xs text-black/40">{t("lien_affilie_mobile")}</p>
         </div>
       ) : null}
     </main>

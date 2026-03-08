@@ -262,5 +262,22 @@
     "badge_populaire": "热门",
     "badge_complet": "完整版",
     "badge_meilleur_choix": "最佳选择"
+  },
+  "intent": {
+    "guide_prix": "价格指南 • 加拿大",
+    "meilleure_offre": "最佳推荐优惠",
+    "autres_options": "其他选项",
+    "faq": "常见问题",
+    "voir_prix": "立即查看价格 →",
+    "lien_affilie": "*联盟链接 — 您无需支付额外费用",
+    "lien_affilie_mobile": "联盟链接 — 无额外费用",
+    "vendeur": "卖家",
+    "prix_visible": "价格在卖家处可见",
+    "checkmark_1": "可追踪的联盟链接",
+    "checkmark_2": "数字代码（视优惠而定）",
+    "checkmark_3": "在卖家处安全购买",
+    "offres_gaming": "游戏优惠",
+    "voir_toutes_offres": "← 查看所有游戏优惠",
+    "offre_introuvable": "未找到主要优惠 — slug:"
   }
 }

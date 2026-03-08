@@ -261,5 +261,22 @@
     "badge_populaire": "الأكثر شعبية",
     "badge_complet": "مكتمل",
     "badge_meilleur_choix": "أفضل اختيار"
+  },
+  "intent": {
+    "guide_prix": "دليل الأسعار • كندا",
+    "meilleure_offre": "أفضل عرض موصى به",
+    "autres_options": "خيارات أخرى",
+    "faq": "الأسئلة الشائعة",
+    "voir_prix": "عرض السعر الآن →",
+    "lien_affilie": "*رابط تابع — بدون تكلفة إضافية عليك",
+    "lien_affilie_mobile": "رابط تابع — بدون تكلفة إضافية",
+    "vendeur": "البائع",
+    "prix_visible": "السعر مرئي عند البائع",
+    "checkmark_1": "رابط تابع قابل للتتبع",
+    "checkmark_2": "رمز رقمي (حسب العرض)",
+    "checkmark_3": "شراء آمن عند البائع",
+    "offres_gaming": "عروض الألعاب",
+    "voir_toutes_offres": "← عرض جميع صفقات الألعاب",
+    "offre_introuvable": "العرض الرئيسي غير موجود — slug:"
   }
 }

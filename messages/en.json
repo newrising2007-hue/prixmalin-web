@@ -261,5 +261,22 @@
     "badge_populaire": "Popular",
     "badge_complet": "Complete",
     "badge_meilleur_choix": "Best choice"
+  },
+  "intent": {
+    "guide_prix": "Price Guide • Canada",
+    "meilleure_offre": "Top Recommended Deal",
+    "autres_options": "Other Options",
+    "faq": "Frequently Asked Questions",
+    "voir_prix": "See Price Now →",
+    "lien_affilie": "*Affiliate link — no extra cost to you",
+    "lien_affilie_mobile": "Affiliate link — no extra cost",
+    "vendeur": "Vendor",
+    "prix_visible": "Price visible at vendor",
+    "checkmark_1": "Traceable affiliate link",
+    "checkmark_2": "Digital code (depending on offer)",
+    "checkmark_3": "Secure purchase at vendor",
+    "offres_gaming": "Gaming Deals",
+    "voir_toutes_offres": "← See all gaming deals",
+    "offre_introuvable": "Main deal not found — slug:"
   }
 }

@@ -262,5 +262,22 @@
     "badge_populaire": "Populaire",
     "badge_complet": "Complet",
     "badge_meilleur_choix": "Meilleur choix"
+  },
+  "intent": {
+    "guide_prix": "Guide prix • Canada",
+    "meilleure_offre": "Meilleure offre recommandée",
+    "autres_options": "Autres options",
+    "faq": "Questions fréquentes",
+    "voir_prix": "Voir le prix maintenant →",
+    "lien_affilie": "*Lien affilié — aucun frais supplémentaire pour toi",
+    "lien_affilie_mobile": "Lien affilié — aucun frais supplémentaire",
+    "vendeur": "Vendeur",
+    "prix_visible": "Prix visible chez le vendeur",
+    "checkmark_1": "Lien affilié traçable",
+    "checkmark_2": "Code digital (selon offre)",
+    "checkmark_3": "Achat sécurisé chez le vendeur",
+    "offres_gaming": "Offres Gaming",
+    "voir_toutes_offres": "← Voir toutes les offres gaming",
+    "offre_introuvable": "Offre principale introuvable — slug :"
   }
 }

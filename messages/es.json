@@ -262,5 +262,22 @@
     "badge_populaire": "Popular",
     "badge_complet": "Completo",
     "badge_meilleur_choix": "Mejor opción"
+  },
+  "intent": {
+    "guide_prix": "Guía de precios • Canadá",
+    "meilleure_offre": "Mejor oferta recomendada",
+    "autres_options": "Otras opciones",
+    "faq": "Preguntas frecuentes",
+    "voir_prix": "Ver el precio ahora →",
+    "lien_affilie": "*Enlace de afiliado — sin costo adicional para ti",
+    "lien_affilie_mobile": "Enlace de afiliado — sin costo adicional",
+    "vendeur": "Vendedor",
+    "prix_visible": "Precio visible en el vendedor",
+    "checkmark_1": "Enlace de afiliado rastreable",
+    "checkmark_2": "Código digital (según oferta)",
+    "checkmark_3": "Compra segura en el vendedor",
+    "offres_gaming": "Ofertas Gaming",
+    "voir_toutes_offres": "← Ver todas las ofertas gaming",
+    "offre_introuvable": "Oferta principal no encontrada — slug:"
   }
 }
