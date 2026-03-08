@@ -25,7 +25,7 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
             onClick={() => setFiltre(slug)}
             className={`px-4 py-2 rounded-full text-sm font-medium border transition-colors ${filtre === slug ? "bg-orange-500 text-white border-orange-500" : "bg-white text-black/70 border-black/20 hover:border-orange-400"}`}
           >
-            {labels[slug] || slug}
+            {labels[`cat_${slug}`] || labels[slug] || slug}
           </button>
         ))}
       </div>
