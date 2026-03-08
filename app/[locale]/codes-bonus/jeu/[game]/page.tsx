@@ -1,3 +1,4 @@
+export const dynamic = "force-static";
 import { getSiteUrl } from "@/lib/site";
 import Link from "next/link"
 import { notFound } from "next/navigation"
