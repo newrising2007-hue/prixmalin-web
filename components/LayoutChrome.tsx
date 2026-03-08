@@ -182,8 +182,7 @@ export default function LayoutChrome({
       <footer className="mt-10 border-t">
         <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-gray-600">
           <p>
-            PrixMalin est une plateforme d'affiliation. Certains liens peuvent
-            être rémunérés. Prix affichés seulement si certains.
+            PrixMalin est une plateforme d'affiliation. Certains liens peuvent être rémunérés. Prix affichés seulement si certains.
           </p>
         </div>
       </footer>

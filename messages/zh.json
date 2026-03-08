@@ -339,5 +339,8 @@
     "codes_titre": "代码",
     "expire_label": "到期：",
     "codes_expires_note": "代码可能随时过期，恕不另行通知。如果代码不再有效，可能已过期。"
+  },
+  "layout": {
+    "footer_affiliation": "PrixMalin 是一个联盟营销平台。某些链接可能获得佣金。仅在有价格时显示。"
   }
 }
