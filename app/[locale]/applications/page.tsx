@@ -1,18 +1,19 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
+type PageProps = { params: Promise<{ locale: string }> };
 
-export default function ApplicationsHubFr() {
-  const t = useTranslations("applications");
+export default async function ApplicationsHub({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "applications" });
+
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
       <h1 className="text-3xl font-extrabold tracking-tight">{t("titre")}</h1>
       <p className="mt-3 text-black/70">
         {t("description")}
       </p>
-
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <Link
           href="/applications/prixmalin"
@@ -29,7 +30,6 @@ export default function ApplicationsHubFr() {
               priority={false}
             />
           </div>
-
           <div className="relative">
             <h2 className="text-lg font-bold">{t("prixmalin_titre")}</h2>
             <p className="mt-2 text-sm text-black/70">
