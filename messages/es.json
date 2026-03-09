@@ -154,7 +154,8 @@
       "intimes": {
         "label": "Íntimos",
         "desc": "Juguetes para adultos, lubricantes, lencería sexy"
-      }
+      },
+      "explorer": "Explorar →"
     },
     "coupons": {
       "title": "Descuentos",
@@ -243,8 +244,7 @@
     "corriger_email": "⚠️ Informar una corrección",
     "cta_desc": "¿Tiene un restaurante que recomendar en la región?",
     "cta_btn": "✉️ Contáctenos, nos encargamos",
-    "retour": "← Volver a las compras",
-    "PrixMalin": "PrixMalin"
+    "retour": "← Volver a las compras"
   },
   "deals": {
     "titre": "Ofertas de Juegos Canadá 🎮",
