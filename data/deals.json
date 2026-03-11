@@ -208,7 +208,7 @@
       "description": "Tout l'abonnement standard + N64, GBA et DLC exclusifs inclus.",
       "platform": "Nintendo",
       "type": "abonnement",
-      "affiliateUrl": "https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack+12+mois&tag=prixmalin-20",
+      "affiliateUrl": "https://www.amazon.ca/dp/B0C7JRQ54Z?tag=prixmalin-20",
       "image": "/images/deals/nintendo-switch-online-12m.webp",
       "price": 69.99,
       "badge": "Complet",
@@ -220,7 +220,8 @@
       "description_en": "Full subscription + N64, GBA and exclusive DLC included.",
       "description_es": "Suscripción completa + N64, GBA y DLC exclusivos incluidos.",
       "description_ar": "الاشتراك الكامل + N64 وGBA ومحتوى DLC حصري مدرج.",
-      "description_zh": "完整订阅 + N64、GBA及独家DLC。"
+      "description_zh": "完整订阅 + N64、GBA及独家DLC。",
+      "availability": "InStock"
     },
     {
       "slug": "nintendo-eshop-35",
