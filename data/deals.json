@@ -187,7 +187,7 @@
       "description": "Multijoueur en ligne avec bibliothèque rétro NES, SNES et Game Boy.",
       "platform": "Nintendo",
       "type": "abonnement",
-      "affiliateUrl": "https://www.amazon.ca/dp/B0C7JND5BH?tag=prixmalin-20",
+      "affiliateUrl": "https://www.amazon.ca/dp/B0C7JRQ54Z?tag=prixmalin-20",
       "image": "/images/deals/nintendo-switch-online-12m.webp",
       "price": 29.99,
       "actif": true,
@@ -198,7 +198,8 @@
       "description_en": "Online multiplayer with retro NES, SNES and Game Boy library.",
       "description_es": "Multijugador en línea con biblioteca retro de NES, SNES y Game Boy.",
       "description_ar": "لعب متعدد اللاعبين مع مكتبة ألعاب NES وSNES وGame Boy الكلاسيكية.",
-      "description_zh": "在线多人游戏，含NES、SNES和Game Boy复古游戏库。"
+      "description_zh": "在线多人游戏，含NES、SNES和Game Boy复古游戏库。",
+      "availability": "InStock"
     },
     {
       "slug": "nintendo-switch-online-expansion-12m",
