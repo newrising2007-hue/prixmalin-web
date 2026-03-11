@@ -18,6 +18,10 @@ export default function RootLayout({
           name="fo-verify"
           content="36a551c1-2067-4e94-9215-fc4700154b06"
         />
+        <meta 
+          name="impact-site-verification" 
+          content="3e6279f3-920d-49ba-8e05-92b7707aa1c3" 
+        />
       </head>
       <body className="min-h-screen text-gray-900">
         <main className="min-h-screen bg-white/70 backdrop-blur-sm">
