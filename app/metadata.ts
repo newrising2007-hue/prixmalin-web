@@ -6,16 +6,20 @@ export const siteUrl = "https://prixmalin.ca";
 export const defaultMetadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
-  alternates: {
+alternates: {
     canonical: siteUrl,
     languages: {
-      "fr-CA": siteUrl,
-      "x-default": siteUrl,
+      "fr-CA": `${siteUrl}/fr`,
+      "en-CA": `${siteUrl}/en`,
+      "es-ES": `${siteUrl}/es`,
+      "ar-SA": `${siteUrl}/ar`,
+      "zh-CN": `${siteUrl}/zh`,
+      "x-default": `${siteUrl}/fr`, // Ta langue principale par défaut
     },
   },
 
   title: {
-    default: "PrixMalin | Deals gaming au Canada",
+    default: "PrixMalin | Ta sélection de deals Gaming & Tech au Canada",
     template: "%s | PrixMalin",
   },
 
@@ -29,19 +33,28 @@ export const defaultMetadata: Metadata = {
     images: [
       {
         url: "/og-image.jpg",
-        width: 1024,
-        height: 400,
-        alt: "PrixMalin — Deals gaming au Canada",
+        width: 1200,
+        height: 630,
+        alt: "PrixMalin — Ta sélection de deals au Canada",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
+    title: "PrixMalin | Ta sélection de deals au Canada",
+    description: "Les meilleures aubaines gaming et tech dénichées pour toi.",
   },
 
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
