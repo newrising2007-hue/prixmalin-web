@@ -7,14 +7,15 @@ import LanguageSwitch from "@/components/LanguageSwitch";
 type Locale = "fr" | "en" | "es" | "ar" | "zh";
 
 const NAV_TEXT: Record<Locale, {
-  home: string; gaming: string; deals: string; products: string;
+  home: string; gaming: string; shopping: string; deals: string; products: string;
   apps: string; bonus: string; contact: string;
+  search: string; flyers: string; restaurants: string; coupons: string; shopBtn: string;
 }> = {
-  fr: { home: "Accueil", gaming: "Gaming", deals: "Deals", products: "Produits", apps: "Applications", bonus: "Codes bonus", contact: "Contact" },
-  en: { home: "Home", gaming: "Gaming", deals: "Deals", products: "Products", apps: "Apps", bonus: "Bonus Codes", contact: "Contact" },
-  es: { home: "Inicio", gaming: "Gaming", deals: "Ofertas", products: "Productos", apps: "Aplicaciones", bonus: "Códigos bonus", contact: "Contacto" },
-  ar: { home: "الرئيسية", gaming: "ألعاب", deals: "عروض", products: "منتجات", apps: "تطبيقات", bonus: "رموز المكافآت", contact: "اتصل" },
-  zh: { home: "首页", gaming: "游戏", deals: "优惠", products: "产品", apps: "应用", bonus: "奖励码", contact: "联系" },
+  fr: { home: "Accueil", gaming: "Gaming", shopping: "Magasinage", deals: "Deals", products: "Produits", apps: "Applications", bonus: "Codes bonus", contact: "Contact", search: "Recherche", flyers: "Circulaires", restaurants: "Restaurants", coupons: "Coupons", shopBtn: "Magasiner" },
+  en: { home: "Home", gaming: "Gaming", shopping: "Shopping", deals: "Deals", products: "Products", apps: "Apps", bonus: "Bonus Codes", contact: "Contact", search: "Search", flyers: "Flyers", restaurants: "Restaurants", coupons: "Coupons", shopBtn: "Shop" },
+  es: { home: "Inicio", gaming: "Gaming", shopping: "Tiendas", deals: "Ofertas", products: "Productos", apps: "Aplicaciones", bonus: "Códigos bonus", contact: "Contacto", search: "Búsqueda", flyers: "Folletos", restaurants: "Restaurantes", coupons: "Cupones", shopBtn: "Comprar" },
+  ar: { home: "الرئيسية", gaming: "ألعاب", shopping: "تسوق", deals: "عروض", products: "منتجات", apps: "تطبيقات", bonus: "رموز المكافآت", contact: "اتصل", search: "بحث", flyers: "نشرات", restaurants: "مطاعم", coupons: "كوبونات", shopBtn: "تسوق" },
+  zh: { home: "首页", gaming: "游戏", shopping: "购物", deals: "优惠", products: "产品", apps: "应用", bonus: "奖励码", contact: "联系", search: "搜索", flyers: "传单", restaurants: "餐厅", coupons: "优惠券", shopBtn: "购物" },
 };
 
 const FOOTER_TEXT: Record<string, string> = {
@@ -35,7 +36,7 @@ export default function LayoutChrome({
   const t = NAV_TEXT[locale];
 
   const isHub = pathname === "/" || /^\/(en|es|ar|zh)$/.test(pathname);
-  const isStore = pathname.startsWith("/magasins");
+  const isStore = /\/(magasins)(\/|$)/.test(pathname);
   const showGamingHeader = !isHub && !isStore;
 
   return (
@@ -82,34 +83,40 @@ export default function LayoutChrome({
               </Link>
               <div className="flex items-center gap-2">
                 <Link href="/" className="rounded-lg px-2 py-1 text-sm hover:bg-gray-100">
-                  Accueil
+                  {t.home}
                 </Link>
-                <Link href="/magasins" className="rounded-lg px-2 py-1 text-sm font-semibold text-green-700 hover:bg-green-50">
-                  Magasinage
+                <Link href={locale === "fr" ? "/magasins" : `/${locale}/magasins`} className="rounded-lg px-2 py-1 text-sm font-semibold text-green-700 hover:bg-green-50">
+                  {t.shopping}
+                </Link>
+                <Link
+                  href={locale === "fr" ? "/gaming" : `/${locale}/gaming`}
+                  className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-sm font-semibold text-blue-700 hover:bg-blue-100"
+                >
+                  🎮 {t.gaming}
                 </Link>
               </div>
             </div>
             <nav className="flex items-center gap-3 text-sm">
-              <Link href="/magasins/recherche" className="rounded-lg px-2 py-1 hover:bg-gray-100">
-                Recherche
+              <Link href={locale === "fr" ? "/magasins/recherche" : `/${locale}/magasins/recherche`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
+                {t.search}
               </Link>
-              <Link href="/magasins/circulaires" className="rounded-lg px-2 py-1 hover:bg-gray-100">
-                Circulaires
+              <Link href={locale === "fr" ? "/magasins/circulaires" : `/${locale}/magasins/circulaires`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
+                {t.flyers}
               </Link>
-              <Link href="/magasins/restaurants" className="rounded-lg px-2 py-1 hover:bg-gray-100">
-                Restaurants
+              <Link href={locale === "fr" ? "/magasins/restaurants" : `/${locale}/magasins/restaurants`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
+                {t.restaurants}
               </Link>
-              <Link href="/magasins/coupons" className="rounded-lg px-2 py-1 hover:bg-gray-100">
-                Coupons
+              <Link href={locale === "fr" ? "/magasins/coupons" : `/${locale}/magasins/coupons`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
+                {t.coupons}
               </Link>
-              <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">Contact</a>
+              <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">{t.contact}</a>
               <LanguageSwitch />
               <Link
-                href="/magasins/recherche"
+                href={locale === "fr" ? "/magasins/recherche" : `/${locale}/magasins/recherche`}
                 className="hidden rounded-xl px-3 py-2 font-semibold text-white shadow-sm transition hover:opacity-90 sm:inline-block"
                 style={{ background: "linear-gradient(135deg, #16a34a, #059669)" }}
               >
-                Magasiner
+                {t.shopBtn}
               </Link>
             </nav>
           </div>
@@ -129,8 +136,14 @@ export default function LayoutChrome({
                 <Link href="/" className="rounded-lg px-2 py-1 text-sm hover:bg-gray-100">
                   {t.home}
                 </Link>
-                <Link href="/gaming" className="rounded-lg px-2 py-1 text-sm font-semibold hover:bg-gray-100">
+                <Link href={locale === "fr" ? "/gaming" : `/${locale}/gaming`} className="rounded-lg px-2 py-1 text-sm font-semibold hover:bg-gray-100">
                   {t.gaming}
+                </Link>
+                <Link
+                  href={locale === "fr" ? "/magasins" : `/${locale}/magasins`}
+                  className="rounded-full border border-green-200 bg-green-50 px-3 py-1 text-sm font-semibold text-green-700 hover:bg-green-100"
+                >
+                  🛍️ {t.shopping}
                 </Link>
               </div>
             </div>
