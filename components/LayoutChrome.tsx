@@ -141,9 +141,9 @@ export default function LayoutChrome({
                 </Link>
                 <Link
                   href={locale === "fr" ? "/magasins" : `/${locale}/magasins`}
-                  className="rounded-full border border-green-200 bg-green-50 px-3 py-1 text-sm font-semibold text-green-700 hover:bg-green-100"
+                  className="rounded-lg px-2 py-1 text-sm font-semibold text-green-700 hover:bg-gray-100"
                 >
-                  🛍️ {t.shopping}
+                  {t.shopping}
                 </Link>
               </div>
             </div>
