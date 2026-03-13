@@ -153,7 +153,7 @@ export default function CirculairesPage() {
                           src={c.logo}
                           alt={c.nom}
                           fill
-                          className="object-contain"
+                          className="object-contain mix-blend-mode-multiply"
                           sizes="112px"
                         />
                       </div>
