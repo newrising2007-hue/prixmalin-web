@@ -173,6 +173,15 @@
       "actif": true
     },
     {
+      "nom": "ppipp",
+      "url": "prixmalin.ca",
+      "emoji": "📰",
+      "actif": true,
+      "categorie": "dadfasfd",
+      "date_verification": "2026-03-13",
+      "logo": "/images/circulaire/hart_nobg.png"
+    },
+    {
       "nom": "Provigo",
       "categorie": "alimentation",
       "emoji": "🛒",
