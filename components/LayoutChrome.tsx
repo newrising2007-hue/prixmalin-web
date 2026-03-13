@@ -90,9 +90,9 @@ export default function LayoutChrome({
                 </Link>
                 <Link
                   href={locale === "fr" ? "/gaming" : `/${locale}/gaming`}
-                  className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-sm font-semibold text-blue-700 hover:bg-blue-100"
+                  className="rounded-lg px-2 py-1 text-sm font-semibold text-blue-700 hover:bg-gray-100"
                 >
-                  🎮 {t.gaming}
+                  {t.gaming}
                 </Link>
               </div>
             </div>
