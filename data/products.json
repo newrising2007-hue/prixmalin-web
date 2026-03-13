@@ -376,5 +376,18 @@
     "prix": "219.99",
     "prixBarre": "339.99",
     "prixVerifieLe": "2026-03-13"
+  },
+  {
+    "slug": "samsung-odyssey-g5",
+    "title": "Samsung Odyssey G5",
+    "shortDescription": "Moniteur de jeu incurvé de 27 pouces (2 560 x 1 440) G55C QHD 165 Hz 1 ms, HDR10, FreeSync, mode Eye Saver, courbure 1000R – LS27CG550ENXZA ",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CRGR6KLN?tag=prixmalin-20",
+    "category": "ecrans",
+    "image": "/images/products/samsung-odyssey-g5.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "239.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-13"
   }
 ]
