@@ -363,5 +363,18 @@
     "prix": "343.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-10"
+  },
+  {
+    "slug": "gigabyte-gs27qa",
+    "title": "GIGABYTE GS27QA",
+    "shortDescription": "GIGABYTE 27\" QHD 2K 1440P 180hz IPS with AMD FreeSync Premium 1ms HDR",
+    "amazonUrl": "https://www.newegg.ca/gigabyte-gs27qa-sa-27-qhd-180-hz-super-speed-ips-black/p/N82E16824012083",
+    "category": "ecrans",
+    "image": "/images/products/gigabyte-gs27qa.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "219.99",
+    "prixBarre": "339.99",
+    "prixVerifieLe": "2026-03-13"
   }
 ]
