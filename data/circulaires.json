@@ -1,162 +1,211 @@
 {
-  "updatedAt": "2026-03-07",
+  "updatedAt": "2026-03-13",
   "circulaires": [
     {
       "nom": "Accent Meuble",
-      "url": "https://www.accentmeubles.com/fr/circulaire.html?afficherSuccursale=1",
+      "categorie": "meuble",
       "emoji": "🛋️",
+      "logo": null,
+      "url": "https://www.accentmeubles.com/fr/circulaire.html?afficherSuccursale=1",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "BMR",
       "categorie": "quincaillerie",
       "emoji": "🔧",
+      "logo": "/images/circulaire/bmr.png",
       "url": "https://www.bmr.ca/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Brick (The)",
       "categorie": "meuble",
       "emoji": "🛋️",
+      "logo": "/images/circulaire/the-brick.png",
       "url": "https://www.thebrick.com/flyer",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Brunet",
       "categorie": "pharmacie",
       "emoji": "💊",
+      "logo": "/images/circulaire/brunet.png",
       "url": "https://www.brunet.ca/circulaire-en-ligne/",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Bulk Barn",
       "categorie": "alimentation",
       "emoji": "🛒",
+      "logo": "/images/circulaire/bulk-barn.png",
       "url": "https://www.bulkbarn.ca/flyer",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Bureau en Gros",
       "categorie": "bureautique",
       "emoji": "📦",
+      "logo": "/images/circulaire/bureau-en-gros.png",
       "url": "https://www.bureauengros.com/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Canac",
       "categorie": "quincaillerie",
       "emoji": "🔧",
+      "logo": "/images/circulaire/canac.png",
       "url": "https://www.canac.ca/canac/fr/circulaire-reguliere",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Canadian Tire",
       "categorie": "quincaillerie",
       "emoji": "🔧",
+      "logo": "/images/circulaire/canadian-tire.png",
       "url": "https://www.canadiantire.ca/fr/flyer.html",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Hart",
-      "url": "https://www.hartstores.com/fr/pages/flyer",
+      "categorie": "general",
       "emoji": "📰",
+      "logo": "/images/circulaire/hart.png",
+      "url": "https://www.hartstores.com/fr/pages/flyer",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Home Depot",
       "categorie": "quincaillerie",
       "emoji": "🔧",
+      "logo": "/images/circulaire/home-depot.png",
       "url": "https://www.homedepot.ca/flyer",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "IGA",
       "categorie": "alimentation",
       "emoji": "🛒",
+      "logo": "/images/circulaire/iga.png",
       "url": "https://www.iga.net/fr/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Jean Coutu",
       "categorie": "pharmacie",
       "emoji": "💊",
+      "logo": "/images/circulaire/jean-coutu.png",
       "url": "https://www.jeancoutu.com/magasiner/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "JYSK",
       "categorie": "meuble",
       "emoji": "🛋️",
+      "logo": "/images/circulaire/jysk.png",
       "url": "https://www.jysk.ca/fr/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Loblaws",
       "categorie": "alimentation",
       "emoji": "🛒",
+      "logo": "/images/circulaire/loblaws.png",
       "url": "https://www.loblaws.ca/flyer",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Maxi",
       "categorie": "alimentation",
       "emoji": "🛒",
+      "logo": "/images/circulaire/maxi.png",
       "url": "https://www.maxi.ca/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Metro",
       "categorie": "alimentation",
       "emoji": "🛒",
+      "logo": "/images/circulaire/metro.png",
       "url": "https://www.metro.ca/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Meuble Domon",
-      "url": "https://www.domon.com/pages/circulaire",
+      "categorie": "meuble",
       "emoji": "🛋️",
+      "logo": "/images/circulaire/domon.png",
+      "url": "https://www.domon.com/pages/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Meubles Léon",
       "categorie": "meuble",
       "emoji": "🛋️",
+      "logo": "/images/circulaire/meuble-leon.png",
       "url": "https://www.leons.ca/flyer",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Mondou",
       "categorie": "animaux",
       "emoji": "🐾",
+      "logo": "/images/circulaire/mondou.png",
       "url": "https://www.mondou.com/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Provigo",
       "categorie": "alimentation",
       "emoji": "🛒",
+      "logo": "/images/circulaire/provigo.png",
       "url": "https://www.provigo.ca/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Rona",
       "categorie": "quincaillerie",
       "emoji": "🔧",
+      "logo": "/images/circulaire/rona.png",
       "url": "https://www.rona.ca/fr/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Super C",
       "categorie": "alimentation",
       "emoji": "🛒",
+      "logo": "/images/circulaire/super-c.png",
       "url": "https://www.superc.ca/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     },
     {
       "nom": "Uniprix",
       "categorie": "pharmacie",
       "emoji": "💊",
+      "logo": "/images/circulaire/uniprix.png",
       "url": "https://www.uniprix.com/fr/circulaire",
+      "date_verification": "2026-03-13",
       "actif": true
     }
   ]
