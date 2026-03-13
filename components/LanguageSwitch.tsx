@@ -47,18 +47,23 @@ export default function LanguageSwitch() {
     router.push(href);
   }
 
+  function navigateTo(lang: Lang) {
+    const href = buildHref(lang, rest);
+    document.cookie = "NEXT_LOCALE=; path=/; max-age=0";
+    router.push(href);
+  }
+
   return (
     <>
       {/* Desktop buttons */}
       <div className="hidden sm:flex items-center gap-1 rounded-xl border bg-white px-1 py-1 text-xs">
         {LANGUAGES.map((lang) => {
-          const href = buildHref(lang, rest);
           const active = lang === currentLang;
 
           return (
-            <Link
+            <button
               key={lang}
-              href={href}
+              onClick={() => navigateTo(lang)}
               className={
                 active
                   ? "rounded-lg bg-gray-900 px-2 py-1 font-semibold text-white"
@@ -67,7 +72,7 @@ export default function LanguageSwitch() {
               aria-current={active ? "page" : undefined}
             >
               {LABEL[lang]}
-            </Link>
+            </button>
           );
         })}
       </div>
