@@ -82,7 +82,17 @@
       "voir": "Voir →",
       "footer": "🍁 PrixMalin redirige vers les sites officiels des détaillants — nous n'hébergeons aucune circulaire. Les prix et promotions sont ceux affichés directement par les commerçants. Un lien brisé ou un magasin manquant ?",
       "footer_lien": "Écrivez-nous !",
-      "retour": "← Retour Magasinage"
+      "retour": "← Retour Magasinage",
+      "toutes": "Toutes",
+      "compteur_simple": "{count} circulaire",
+      "compteur_simple_pluriel": "{count} circulaires",
+      "cat_alimentation": "🛒 Alimentation",
+      "cat_pharmacie": "💊 Pharmacie",
+      "cat_quincaillerie": "🔧 Quincaillerie",
+      "cat_meuble": "🛋️ Meubles",
+      "cat_bureautique": "📦 Bureautique",
+      "cat_animaux": "🐾 Animaux",
+      "cat_general": "📰 Général"
     },
     "categories": {
       "titre": "Toutes les catégories",

@@ -5,23 +5,23 @@ import Image from "next/image";
 import circulairesData from "@/data/circulaires.json";
 
 const CATEGORIE_COLORS: Record<string, { bg: string; border: string; text: string; pill: string }> = {
-  alimentation: { bg: "hover:bg-green-50",   border: "hover:border-green-400",  text: "text-green-700",  pill: "bg-green-100 text-green-700" },
-  pharmacie:    { bg: "hover:bg-blue-50",    border: "hover:border-blue-400",   text: "text-blue-700",   pill: "bg-blue-100 text-blue-700" },
-  quincaillerie:{ bg: "hover:bg-orange-50",  border: "hover:border-orange-400", text: "text-orange-700", pill: "bg-orange-100 text-orange-700" },
-  meuble:       { bg: "hover:bg-amber-50",   border: "hover:border-amber-400",  text: "text-amber-700",  pill: "bg-amber-100 text-amber-700" },
-  bureautique:  { bg: "hover:bg-purple-50",  border: "hover:border-purple-400", text: "text-purple-700", pill: "bg-purple-100 text-purple-700" },
-  animaux:      { bg: "hover:bg-pink-50",    border: "hover:border-pink-400",   text: "text-pink-700",   pill: "bg-pink-100 text-pink-700" },
-  general:      { bg: "hover:bg-gray-50",    border: "hover:border-gray-400",   text: "text-gray-700",   pill: "bg-gray-100 text-gray-700" },
+  alimentation:  { bg: "hover:bg-green-50",   border: "hover:border-green-400",  text: "text-green-700",  pill: "bg-green-100 text-green-700" },
+  pharmacie:     { bg: "hover:bg-blue-50",    border: "hover:border-blue-400",   text: "text-blue-700",   pill: "bg-blue-100 text-blue-700" },
+  quincaillerie: { bg: "hover:bg-orange-50",  border: "hover:border-orange-400", text: "text-orange-700", pill: "bg-orange-100 text-orange-700" },
+  meuble:        { bg: "hover:bg-amber-50",   border: "hover:border-amber-400",  text: "text-amber-700",  pill: "bg-amber-100 text-amber-700" },
+  bureautique:   { bg: "hover:bg-purple-50",  border: "hover:border-purple-400", text: "text-purple-700", pill: "bg-purple-100 text-purple-700" },
+  animaux:       { bg: "hover:bg-pink-50",    border: "hover:border-pink-400",   text: "text-pink-700",   pill: "bg-pink-100 text-pink-700" },
+  general:       { bg: "hover:bg-gray-50",    border: "hover:border-gray-400",   text: "text-gray-700",   pill: "bg-gray-100 text-gray-700" },
 };
 
-const CATEGORIE_LABELS: Record<string, string> = {
-  alimentation:  "🛒 Alimentation",
-  pharmacie:     "💊 Pharmacie",
-  quincaillerie: "🔧 Quincaillerie",
-  meuble:        "🛋️ Meubles",
-  bureautique:   "📦 Bureautique",
-  animaux:       "🐾 Animaux",
-  general:       "📰 Général",
+const CATEGORIE_CLES: Record<string, string> = {
+  alimentation:  "cat_alimentation",
+  pharmacie:     "cat_pharmacie",
+  quincaillerie: "cat_quincaillerie",
+  meuble:        "cat_meuble",
+  bureautique:   "cat_bureautique",
+  animaux:       "cat_animaux",
+  general:       "cat_general",
 };
 
 export default function CirculairesPage() {
@@ -30,7 +30,6 @@ export default function CirculairesPage() {
   const [categorieActive, setCategorieActive] = useState<string | null>(null);
   const { circulaires } = circulairesData as any;
 
-  // Catégories dynamiques depuis le JSON
   const categories = Array.from(
     new Set(circulaires.filter((c: any) => c.actif && c.categorie).map((c: any) => c.categorie))
   ) as string[];
@@ -41,6 +40,8 @@ export default function CirculairesPage() {
     if (categorieActive && c.categorie !== categorieActive) return false;
     return true;
   });
+
+  const totalActif = circulaires.filter((c: any) => c.actif).length;
 
   return (
     <main className="relative min-h-screen" style={{ background: "linear-gradient(135deg, rgba(59,130,246,0.06) 0%, rgba(255,255,255,0.98) 50%, rgba(34,197,94,0.06) 100%)" }}>
@@ -80,7 +81,7 @@ export default function CirculairesPage() {
                 : "bg-white text-gray-600 border-gray-200 hover:border-gray-400"
             }`}
           >
-            Toutes ({circulaires.filter((c: any) => c.actif).length})
+            {t("toutes")} ({totalActif})
           </button>
           {categories.map(cat => (
             <button
@@ -92,22 +93,24 @@ export default function CirculairesPage() {
                   : "bg-white text-gray-600 border-gray-200 hover:border-gray-400"
               }`}
             >
-              {CATEGORIE_LABELS[cat] ?? cat}
+              {t(CATEGORIE_CLES[cat] ?? "cat_general")}
             </button>
           ))}
         </div>
 
         {/* COMPTEUR */}
         <p className="text-xs text-gray-400 mb-5 text-center">
-          {filtered.length} circulaire{filtered.length !== 1 ? "s" : ""}
-          {search && <span> pour <strong>"{search}"</strong></span>}
+          {filtered.length <= 1
+            ? t("compteur_simple", { count: filtered.length })
+            : t("compteur_simple_pluriel", { count: filtered.length })}
+          {search && <span> {t("compteur_pour")} <strong>"{search}"</strong></span>}
         </p>
 
         {/* GRILLE 3 COLONNES */}
         {filtered.length === 0 ? (
           <div className="text-center py-16 text-gray-400">
             <div className="text-5xl mb-4">🔍</div>
-            <p className="font-semibold">Aucun résultat pour <strong>"{search}"</strong></p>
+            <p className="font-semibold">{t("aucun_titre")} <strong>"{search}"</strong></p>
             <p className="text-sm mt-2">
               {t("aucun_proposer")}{" "}
               <a href="mailto:contact@prixmalin.ca" className="text-green-600 hover:underline">{t("aucun_proposer_lien")}</a>
@@ -117,6 +120,9 @@ export default function CirculairesPage() {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {filtered.map((c: any, i: number) => {
               const colors = CATEGORIE_COLORS[c.categorie] ?? CATEGORIE_COLORS.general;
+              const catLabel = c.categorie
+                ? t(CATEGORIE_CLES[c.categorie] ?? "cat_general").replace(/^\S+\s/, "")
+                : null;
               return (
                 <a
                   key={i}
@@ -133,9 +139,9 @@ export default function CirculairesPage() {
                   style={{ minHeight: "160px" }}
                 >
                   {/* BADGE CATÉGORIE */}
-                  {c.categorie && (
+                  {catLabel && (
                     <span className={`absolute top-2 left-2 text-[10px] font-bold px-2 py-0.5 rounded-full ${colors.pill}`}>
-                      {CATEGORIE_LABELS[c.categorie]?.split(" ")[1] ?? c.categorie}
+                      {catLabel}
                     </span>
                   )}
 

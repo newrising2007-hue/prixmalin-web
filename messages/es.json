@@ -82,7 +82,17 @@
       "voir": "Ver →",
       "footer": "🍁 PrixMalin redirige a los sitios oficiales de los minoristas — no alojamos ningún folleto. Los precios y promociones son los que muestran directamente los comerciantes. ¿Un enlace roto o una tienda faltante?",
       "footer_lien": "¡Escríbenos!",
-      "retour": "← Volver a Compras"
+      "retour": "← Volver a Compras",
+      "toutes": "Todas",
+      "compteur_simple": "{count} circular",
+      "compteur_simple_pluriel": "{count} circulares",
+      "cat_alimentation": "🛒 Alimentación",
+      "cat_pharmacie": "💊 Farmacia",
+      "cat_quincaillerie": "🔧 Ferretería",
+      "cat_meuble": "🛋️ Muebles",
+      "cat_bureautique": "📦 Oficina",
+      "cat_animaux": "🐾 Mascotas",
+      "cat_general": "📰 General"
     },
     "categories": {
       "titre": "🛍️ Comprar por Categoría",

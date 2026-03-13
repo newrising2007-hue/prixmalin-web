@@ -82,7 +82,17 @@
       "voir": "View →",
       "footer": "🍁 PrixMalin redirects to retailers' official websites — we do not host any flyers. Prices and promotions are those displayed directly by merchants. A broken link or missing store?",
       "footer_lien": "Contact us!",
-      "retour": "← Back to Shopping"
+      "retour": "← Back to Shopping",
+      "toutes": "All",
+      "compteur_simple": "{count} flyer",
+      "compteur_simple_pluriel": "{count} flyers",
+      "cat_alimentation": "🛒 Grocery",
+      "cat_pharmacie": "💊 Pharmacy",
+      "cat_quincaillerie": "🔧 Hardware",
+      "cat_meuble": "🛋️ Furniture",
+      "cat_bureautique": "📦 Office",
+      "cat_animaux": "🐾 Pets",
+      "cat_general": "📰 General"
     },
     "categories": {
       "titre": "🛍️ Shop by Category",

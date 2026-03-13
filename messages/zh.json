@@ -82,7 +82,17 @@
       "voir": "查看 →",
       "footer": "🍁 PrixMalin 跳转至零售商官方网站 — 我们不托管任何广告册。价格和促销信息直接由商家显示。链接失效或缺少商店？",
       "footer_lien": "联系我们！",
-      "retour": "← 返回购物"
+      "retour": "← 返回购物",
+      "toutes": "全部",
+      "compteur_simple": "{count} 传单",
+      "compteur_simple_pluriel": "{count} 传单",
+      "cat_alimentation": "🛒 食品",
+      "cat_pharmacie": "💊 药店",
+      "cat_quincaillerie": "🔧 五金",
+      "cat_meuble": "🛋️ 家具",
+      "cat_bureautique": "📦 办公",
+      "cat_animaux": "🐾 宠物",
+      "cat_general": "📰 综合"
     },
     "categories": {
       "titre": "所有分类",

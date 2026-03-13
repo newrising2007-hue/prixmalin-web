@@ -82,7 +82,17 @@
       "voir": "عرض →",
       "footer": "🍁 يعيد PrixMalin التوجيه إلى المواقع الرسمية للتجار — نحن لا نستضيف أي نشرات. الأسعار والعروض هي تلك المعروضة مباشرة من قبل التجار. رابط معطوب أو متجر مفقود؟",
       "footer_lien": "راسلنا!",
-      "retour": "← العودة إلى التسوق"
+      "retour": "← العودة إلى التسوق",
+      "toutes": "الكل",
+      "compteur_simple": "{count} نشرة",
+      "compteur_simple_pluriel": "{count} نشرات",
+      "cat_alimentation": "🛒 المواد الغذائية",
+      "cat_pharmacie": "💊 الصيدلية",
+      "cat_quincaillerie": "🔧 الأدوات",
+      "cat_meuble": "🛋️ الأثاث",
+      "cat_bureautique": "📦 المكتب",
+      "cat_animaux": "🐾 الحيوانات",
+      "cat_general": "📰 عام"
     },
     "categories": {
       "titre": "🛍️ تسوق حسب الفئة",
