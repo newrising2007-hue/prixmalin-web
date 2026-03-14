@@ -378,7 +378,7 @@ export default function RestaurantsPage() {
               {TYPES_CUISINE.map(tc => (
                 <button key={tc.value} onClick={() => setCuisine(tc.value)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${cuisine === tc.value ? "bg-orange-500 text-white border-orange-500" : "bg-white text-gray-600 border-gray-200 hover:border-orange-300"}`}>
-                  {tc.emoji} {tc.labelKey ? t(tc.labelKey) : tc.label}
+                  {tc.emoji} {t(tc.labelKey)}
                 </button>
               ))}
             </div>
