@@ -32,7 +32,6 @@ const SERVICES = [
   { value: "drive", labelKey: "service_drive", emoji: "🚘" },
 ];
 
-const RAYONS = [50, 100, 150];
 
 const JOURS_FR = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"];
 const JOURS_LABEL: Record<string, string> = {
@@ -245,7 +244,7 @@ export default function RestaurantsPage() {
   const [userPos, setUserPos] = useState<{ lat: number; lng: number } | null>(null);
   const [gpsLoading, setGpsLoading] = useState(false);
 
-  const [rayon, setRayon] = useState(100);
+  const [rayon, setRayon] = useState(80);
   const [cuisine, setCuisine] = useState("all");
   const [services, setServices] = useState<string[]>([]);
   const [reservationOnly, setReservationOnly] = useState(false);
@@ -278,6 +277,8 @@ export default function RestaurantsPage() {
       if (data.lat && data.lng) {
         setVilleActive(data.nom);
         setVilleInput("");
+        setRestaurants([]);
+        setLoading(true);
         fetch(`${BACKEND_URL}/api/restaurants/google?lat=${data.lat}&lng=${data.lng}&rayon=${rayon}`)
           .then(r => r.json())
           .then(d => {
@@ -449,17 +450,6 @@ export default function RestaurantsPage() {
             className="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-green-400 transition-colors"
           />
 
-          {/* RAYON */}
-          <div>
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">{t("filtre_rayon")}</p>
-            <div className="flex gap-2">
-              {RAYONS.map(r => (
-                <button key={r} onClick={() => setRayon(r)}
-                  className={`px-4 py-1.5 rounded-xl text-sm font-semibold border transition-all ${rayon === r ? "bg-green-600 text-white border-green-600" : "bg-white text-gray-600 border-gray-200 hover:border-green-300"}`}>
-                  {r} km
-                </button>
-              ))}
-            </div>
           </div>
 
           {/* TYPE DE CUISINE */}
