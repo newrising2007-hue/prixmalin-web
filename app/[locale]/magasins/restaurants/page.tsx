@@ -148,7 +148,7 @@ function CarteRestaurant({ r, t, locale }: { r: Restaurant; t: (k: string) => st
           {/* CUISINE TAGS */}
           <div className="flex flex-wrap gap-1 mb-2">
             {(Array.isArray(r.cuisine) ? r.cuisine : r.cuisine ? [r.cuisine] : []).map(c => (
-              <span key={c} className="px-2 py-0.5 rounded-full text-xs bg-orange-50 text-orange-700 border border-orange-100 capitalize">{c}</span>
+              <span key={c} className="px-2 py-0.5 rounded-full text-xs bg-orange-50 text-orange-700 border border-orange-100 capitalize">{(() => { const tc = TYPES_CUISINE.find(x => x.value === c); return tc ? t(tc.labelKey) : c; })()}</span>
             ))}
           </div>
         </div>
