@@ -254,7 +254,22 @@
     "corriger_email": "⚠️ Report a correction",
     "cta_desc": "Do you know a restaurant to recommend in the region?",
     "cta_btn": "✉️ Contact us, we'll take care of it",
-    "retour": "← Back to Shopping"
+    "retour": "← Back to Shopping",
+    "cuisine_quebecois": "Québécois",
+    "cuisine_fastfood": "Fast Food",
+    "cuisine_pizza": "Pizzeria",
+    "cuisine_buffet": "Buffet",
+    "cuisine_grillades": "Grilled / BBQ",
+    "cuisine_fruitsmer": "Seafood",
+    "cuisine_mexicain": "Mexican",
+    "cuisine_chinois": "Chinese",
+    "cuisine_japonais": "Japanese",
+    "cuisine_italien": "Italian",
+    "cuisine_indien": "Indian",
+    "cuisine_cafe": "Café / Bakery",
+    "cuisine_bar": "Bar / Pub",
+    "cuisine_vegetarien": "Vegetarian",
+    "cuisine_dejeuner": "Breakfast"
   },
   "deals": {
     "titre": "Gaming Offers Canada 🎮",

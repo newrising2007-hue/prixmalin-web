@@ -254,7 +254,22 @@
     "corriger_email": "⚠️ Signaler une correction",
     "cta_desc": "Vous avez un restaurant à recommander dans la région ?",
     "cta_btn": "✉️ Contactez-nous, on s'en occupe",
-    "retour": "← Retour Magasinage"
+    "retour": "← Retour Magasinage",
+    "cuisine_quebecois": "Québécois",
+    "cuisine_fastfood": "Fast Food",
+    "cuisine_pizza": "Pizzeria",
+    "cuisine_buffet": "Buffet",
+    "cuisine_grillades": "Grillades",
+    "cuisine_fruitsmer": "Fruits de mer",
+    "cuisine_mexicain": "Mexicain",
+    "cuisine_chinois": "Chinois",
+    "cuisine_japonais": "Japonais",
+    "cuisine_italien": "Italien",
+    "cuisine_indien": "Indien",
+    "cuisine_cafe": "Café",
+    "cuisine_bar": "Bar / Pub",
+    "cuisine_vegetarien": "Végétarien",
+    "cuisine_dejeuner": "Déjeuner"
   },
   "deals": {
     "titre": "Offres Gaming Canada 🎮",

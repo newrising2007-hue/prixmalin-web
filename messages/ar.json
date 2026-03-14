@@ -254,7 +254,22 @@
     "corriger_email": "⚠️ إبلاغ عن خطأ",
     "cta_desc": "هل لديك مطعم لتوصيته في المنطقة؟",
     "cta_btn": "✉️ اتصل بنا وسنقوم بذلك",
-    "retour": "← العودة للتسوق"
+    "retour": "← العودة للتسوق",
+    "cuisine_quebecois": "كيبيكي",
+    "cuisine_fastfood": "وجبات سريعة",
+    "cuisine_pizza": "بيتزا",
+    "cuisine_buffet": "بوفيه",
+    "cuisine_grillades": "مشويات",
+    "cuisine_fruitsmer": "مأكولات بحرية",
+    "cuisine_mexicain": "مكسيكي",
+    "cuisine_chinois": "صيني",
+    "cuisine_japonais": "ياباني",
+    "cuisine_italien": "إيطالي",
+    "cuisine_indien": "هندي",
+    "cuisine_cafe": "مقهى / مخبز",
+    "cuisine_bar": "بار / حانة",
+    "cuisine_vegetarien": "نباتي",
+    "cuisine_dejeuner": "فطور"
   },
   "deals": {
     "titre": "عروض الألعاب الكندية 🎮",

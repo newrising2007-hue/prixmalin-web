@@ -8,21 +8,21 @@ const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL || "https://prixmalin-backen
 
 const TYPES_CUISINE = [
   { value: "all", labelKey: "cuisine_tous", emoji: "🍽️" },
-  { value: "québécois", label: "Québécois", emoji: "🍁" },
-  { value: "fast-food", label: "Fast Food", emoji: "🍔" },
-  { value: "pizza", label: "Pizzeria", emoji: "🍕" },
-  { value: "buffet", label: "Buffet", emoji: "🍱" },
-  { value: "grillades", label: "Grillades", emoji: "🥩" },
-  { value: "fruits-de-mer", label: "Fruits de mer", emoji: "🦞" },
-  { value: "mexicain", label: "Mexicain", emoji: "🌮" },
-  { value: "chinois", label: "Chinois", emoji: "🥢" },
-  { value: "japonais", label: "Japonais", emoji: "🍣" },
-  { value: "italien", label: "Italien", emoji: "🍝" },
-  { value: "indien", label: "Indien", emoji: "🍛" },
-  { value: "café", label: "Café", emoji: "☕" },
-  { value: "bar", label: "Bar / Pub", emoji: "🍺" },
-  { value: "végétarien", label: "Végétarien", emoji: "🥗" },
-  { value: "déjeuner", label: "Déjeuner", emoji: "🥞" },
+  { value: "québécois", labelKey: "cuisine_quebecois", emoji: "🍁" },
+  { value: "fast-food", labelKey: "cuisine_fastfood", emoji: "🍔" },
+  { value: "pizza", labelKey: "cuisine_pizza", emoji: "🍕" },
+  { value: "buffet", labelKey: "cuisine_buffet", emoji: "🍱" },
+  { value: "grillades", labelKey: "cuisine_grillades", emoji: "🥩" },
+  { value: "fruits-de-mer", labelKey: "cuisine_fruitsmer", emoji: "🦞" },
+  { value: "mexicain", labelKey: "cuisine_mexicain", emoji: "🌮" },
+  { value: "chinois", labelKey: "cuisine_chinois", emoji: "🥢" },
+  { value: "japonais", labelKey: "cuisine_japonais", emoji: "🍣" },
+  { value: "italien", labelKey: "cuisine_italien", emoji: "🍝" },
+  { value: "indien", labelKey: "cuisine_indien", emoji: "🍛" },
+  { value: "café", labelKey: "cuisine_cafe", emoji: "☕" },
+  { value: "bar", labelKey: "cuisine_bar", emoji: "🍺" },
+  { value: "végétarien", labelKey: "cuisine_vegetarien", emoji: "🥗" },
+  { value: "déjeuner", labelKey: "cuisine_dejeuner", emoji: "🥞" },
 ];
 
 const SERVICES = [
@@ -65,6 +65,7 @@ interface Restaurant {
   id: string; name: string; address?: string; phone?: string; website?: string;
   latitude?: number; longitude?: number; rating?: number; note?: string;
   cuisine?: string[]; service?: string[]; keywords?: string[];
+  note_en?: string; note_es?: string; note_ar?: string; note_zh?: string;
   reservation?: boolean; reservationSurplace?: boolean; reservationInfo?: string;
   horaires?: Record<string, Horaire>;
   source?: "prixmalin" | "google";
@@ -121,7 +122,7 @@ function HorairesAccordion({ horaires, phone, t }: { horaires?: Record<string, H
   );
 }
 
-function CarteRestaurant({ r, t }: { r: Restaurant; t: (k: string) => string }) {
+function CarteRestaurant({ r, t, locale }: { r: Restaurant; t: (k: string) => string; locale: string }) {
   const ouvert = isOpenNow(r.horaires);
   const mapsUrl = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.address)}` : undefined;
   const correctionSubject = encodeURIComponent(`Correction - ${r.name}`);
@@ -184,8 +185,8 @@ function CarteRestaurant({ r, t }: { r: Restaurant; t: (k: string) => string }) 
       )}
 
       {/* NOTE ÉDITORIALE */}
-      {r.note && (
-        <p className="text-sm text-gray-600 italic mb-3 border-l-2 border-green-200 pl-3">&ldquo;{r.note}&rdquo;</p>
+      {(r[`note_${locale}` as keyof typeof r] || r.note) && (
+        <p className="text-sm text-gray-600 italic mb-3 border-l-2 border-green-200 pl-3">&ldquo;{String(r[`note_${locale}` as keyof typeof r] || r.note)}&rdquo;</p>
       )}
 
       {/* ADRESSE */}
@@ -236,6 +237,7 @@ function CarteRestaurant({ r, t }: { r: Restaurant; t: (k: string) => string }) 
 }
 
 export default function RestaurantsPage() {
+  const locale = (typeof window !== "undefined" ? window.location.pathname.split("/")[1] : "fr") || "fr";
   const t = useTranslations("restaurants");
   const [restaurants, setRestaurants] = useState<Restaurant[]>([]);
   const [loading, setLoading] = useState(true);
@@ -423,7 +425,7 @@ export default function RestaurantsPage() {
         )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map(r => <CarteRestaurant key={r.id} r={r} t={t} />)}
+          {filtered.map(r => <CarteRestaurant key={r.id} r={r} t={t} locale={locale} />)}
         </div>
       </section>
 

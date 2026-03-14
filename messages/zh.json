@@ -254,7 +254,22 @@
     "corriger_email": "⚠️ 报告更正",
     "cta_desc": "您有一个推荐的地区餐厅吗？",
     "cta_btn": "✉️ 联系我们，我们会处理",
-    "retour": "← 返回购物"
+    "retour": "← 返回购物",
+    "cuisine_quebecois": "魁北克菜",
+    "cuisine_fastfood": "快餐",
+    "cuisine_pizza": "披萨店",
+    "cuisine_buffet": "自助餐",
+    "cuisine_grillades": "烧烤",
+    "cuisine_fruitsmer": "海鲜",
+    "cuisine_mexicain": "墨西哥菜",
+    "cuisine_chinois": "中餐",
+    "cuisine_japonais": "日本料理",
+    "cuisine_italien": "意大利菜",
+    "cuisine_indien": "印度菜",
+    "cuisine_cafe": "咖啡馆 / 面包店",
+    "cuisine_bar": "酒吧",
+    "cuisine_vegetarien": "素食",
+    "cuisine_dejeuner": "早餐"
   },
   "deals": {
     "titre": "加拿大游戏优惠 🎮",

@@ -254,7 +254,22 @@
     "corriger_email": "⚠️ Informar una corrección",
     "cta_desc": "¿Tiene un restaurante que recomendar en la región?",
     "cta_btn": "✉️ Contáctenos, nos encargamos",
-    "retour": "← Volver a las compras"
+    "retour": "← Volver a las compras",
+    "cuisine_quebecois": "Québécois",
+    "cuisine_fastfood": "Comida rápida",
+    "cuisine_pizza": "Pizzería",
+    "cuisine_buffet": "Bufé",
+    "cuisine_grillades": "Parrilla / BBQ",
+    "cuisine_fruitsmer": "Mariscos",
+    "cuisine_mexicain": "Mexicano",
+    "cuisine_chinois": "Chino",
+    "cuisine_japonais": "Japonés",
+    "cuisine_italien": "Italiano",
+    "cuisine_indien": "Indio",
+    "cuisine_cafe": "Café / Panadería",
+    "cuisine_bar": "Bar / Pub",
+    "cuisine_vegetarien": "Vegetariano",
+    "cuisine_dejeuner": "Desayuno"
   },
   "deals": {
     "titre": "Ofertas de Juegos Canadá 🎮",
