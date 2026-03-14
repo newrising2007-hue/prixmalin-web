@@ -268,15 +268,22 @@ export default function RestaurantsPage() {
   ];
 
   const rechercherVille = async () => {
-    if (!villeInput.trim()) return;
+    console.log("rechercherVille appelé, villeInput=", villeInput, "province=", province);
+    if (!villeInput.trim()) { console.log("villeInput vide, abort"); return; }
     setVilleLoading(true);
     try {
-      const res = await fetch(`${BACKEND}/api/geocode?ville=${encodeURIComponent(villeInput + ", " + province)}`);
+      const url = `${BACKEND}/api/geocode?ville=${encodeURIComponent(villeInput + ", " + province)}`;
+      console.log("fetch geocode:", url);
+      const res = await fetch(url);
       const data = await res.json();
+      console.log("geocode response:", data);
       if (data.lat && data.lng) {
         setVilleActive(data.nom);
         setVilleInput("");
+        setVilleCoords({ lat: data.lat, lng: data.lng });
         fetchRestaurants(data.lat, data.lng);
+      } else {
+        console.log("Pas de lat/lng dans la réponse");
       }
     } catch (e) {
       console.error("Erreur geocoding:", e);
@@ -287,6 +294,7 @@ export default function RestaurantsPage() {
   const DEFAULT_LAT = 47.3340;
   const DEFAULT_LNG = -79.4335;
   const fetchRestaurants = (lat: number, lng: number) => {
+    console.log("fetchRestaurants appelé lat=", lat, "lng=", lng);
     setLoading(true);
     setRestaurants([]);
     fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
@@ -295,7 +303,8 @@ export default function RestaurantsPage() {
         setRestaurants(data.restaurants || []);
         setLoading(false);
       })
-      .catch(() => {
+      .catch((err) => {
+        console.error("fetchRestaurants ERREUR:", err);
         setError("Impossible de charger les restaurants. Réessayez dans quelques instants.");
         setLoading(false);
       });
@@ -323,8 +332,9 @@ export default function RestaurantsPage() {
     }
   }, []);
 
-  const centerLat = userPos?.lat ?? DEFAULT_LAT;
-  const centerLng = userPos?.lng ?? DEFAULT_LNG;
+  const [villeCoords, setVilleCoords] = useState<{lat: number, lng: number} | null>(null);
+  const centerLat = villeCoords?.lat ?? userPos?.lat ?? DEFAULT_LAT;
+  const centerLng = villeCoords?.lng ?? userPos?.lng ?? DEFAULT_LNG;
 
   const filtered = restaurants
     .map(r => ({
