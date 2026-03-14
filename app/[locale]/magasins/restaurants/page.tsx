@@ -450,7 +450,6 @@ export default function RestaurantsPage() {
             className="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-green-400 transition-colors"
           />
 
-          </div>
 
           {/* TYPE DE CUISINE */}
           <div>
