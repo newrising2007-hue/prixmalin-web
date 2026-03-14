@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL || "https://prixmalin-backend.onrender.com";
+const BACKEND = process.env.NEXT_PUBLIC_BACKEND || "https://prixmalin-backend.onrender.com";
 
 const TYPES_CUISINE = [
   { value: "all", labelKey: "cuisine_tous", emoji: "🍽️" },
@@ -170,7 +170,7 @@ function CarteRestaurant({ r, t, locale }: { r: Restaurant; t: (k: string) => st
         <div className="flex flex-wrap gap-1 mb-3">
           {(r.service || []).map(s => {
             const sv = SERVICES.find(x => x.value === s);
-            return <span key={s} className="px-2 py-0.5 rounded-full text-xs bg-blue-50 text-blue-700 border border-blue-100">{sv?.emoji} {t(sv?.labelKey || s)}</span>;
+            return <span key={s} className="px-2 py-0.5 rounded-full text-xs bg-blue-50 text-blue-700 border border-blue-100">{sv?.emoji} {sv ? t(sv.labelKey) : s}</span>;
           })}
         </div>
       )}
@@ -266,25 +266,17 @@ export default function RestaurantsPage() {
     { code: "NL", nom: "Terre-Neuve" },
     { code: "PE", nom: "Île-du-Prince-Édouard" },
   ];
-  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "https://prixmalin-backend.onrender.com";
 
   const rechercherVille = async () => {
     if (!villeInput.trim()) return;
     setVilleLoading(true);
     try {
-      const res = await fetch(`${BACKEND_URL}/api/geocode?ville=${encodeURIComponent(villeInput + ", " + province)}`);
+      const res = await fetch(`${BACKEND}/api/geocode?ville=${encodeURIComponent(villeInput + ", " + province)}`);
       const data = await res.json();
       if (data.lat && data.lng) {
         setVilleActive(data.nom);
         setVilleInput("");
-        setRestaurants([]);
-        setLoading(true);
-        fetch(`${BACKEND_URL}/api/restaurants/google?lat=${data.lat}&lng=${data.lng}&rayon=${rayon}`)
-          .then(r => r.json())
-          .then(d => {
-            setRestaurants(d.restaurants || []);
-            setLoading(false);
-          });
+        fetchRestaurants(data.lat, data.lng);
       }
     } catch (e) {
       console.error("Erreur geocoding:", e);
@@ -294,21 +286,22 @@ export default function RestaurantsPage() {
 
   const DEFAULT_LAT = 47.3340;
   const DEFAULT_LNG = -79.4335;
+  const fetchRestaurants = (lat: number, lng: number) => {
+    setLoading(true);
+    setRestaurants([]);
+    fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
+      .then(r => r.json())
+      .then(data => {
+        setRestaurants(data.restaurants || []);
+        setLoading(false);
+      })
+      .catch(() => {
+        setError("Impossible de charger les restaurants. Réessayez dans quelques instants.");
+        setLoading(false);
+      });
+  };
 
   useEffect(() => {
-    const fetchRestaurants = (lat: number, lng: number) => {
-      fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=${rayon}`)
-        .then(r => r.json())
-        .then(data => {
-          setRestaurants(data.restaurants || []);
-          setLoading(false);
-        })
-        .catch(() => {
-          setError("Impossible de charger les restaurants. Réessayez dans quelques instants.");
-          setLoading(false);
-        });
-    };
-
     if (navigator.geolocation) {
       setGpsLoading(true);
       navigator.geolocation.getCurrentPosition(
@@ -402,7 +395,7 @@ export default function RestaurantsPage() {
                 setLoading(true);
                 const lat = userPos?.lat ?? 47.3340;
                 const lng = userPos?.lng ?? -79.4335;
-                fetch(`${BACKEND_URL}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=${rayon}`)
+                fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=${rayon}`)
                   .then(r => r.json())
                   .then(d => { setRestaurants(d.restaurants || []); setLoading(false); });
               }}
