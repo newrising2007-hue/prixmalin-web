@@ -253,13 +253,27 @@ export default function RestaurantsPage() {
   const [villeInput, setVilleInput] = useState("");
   const [villeActive, setVilleActive] = useState<string | null>(null);
   const [villeLoading, setVilleLoading] = useState(false);
+  const [modeVille, setModeVille] = useState(false);
+  const [province, setProvince] = useState("QC");
+  const PROVINCES = [
+    { code: "QC", nom: "Québec" },
+    { code: "ON", nom: "Ontario" },
+    { code: "BC", nom: "Colombie-Britannique" },
+    { code: "AB", nom: "Alberta" },
+    { code: "MB", nom: "Manitoba" },
+    { code: "SK", nom: "Saskatchewan" },
+    { code: "NS", nom: "Nouvelle-Écosse" },
+    { code: "NB", nom: "Nouveau-Brunswick" },
+    { code: "NL", nom: "Terre-Neuve" },
+    { code: "PE", nom: "Île-du-Prince-Édouard" },
+  ];
   const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "https://prixmalin-backend.onrender.com";
 
   const rechercherVille = async () => {
     if (!villeInput.trim()) return;
     setVilleLoading(true);
     try {
-      const res = await fetch(`${BACKEND_URL}/api/geocode?ville=${encodeURIComponent(villeInput)}`);
+      const res = await fetch(`${BACKEND_URL}/api/geocode?ville=${encodeURIComponent(villeInput + ", " + province)}`);
       const data = await res.json();
       if (data.lat && data.lng) {
         setVilleActive(data.nom);
@@ -375,31 +389,58 @@ export default function RestaurantsPage() {
       <section className="px-4 pb-6 max-w-5xl mx-auto">
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-100 shadow-sm p-4 space-y-4">
 
-          {/* VILLE */}
+          {/* TOGGLE LOCAL / AUTRE VILLE */}
           <div className="flex gap-2">
-            <input
-              type="text"
-              value={villeInput}
-              onChange={e => setVilleInput(e.target.value)}
-              onKeyDown={e => e.key === "Enter" && rechercherVille()}
-              placeholder="🗺️ Rechercher une autre ville..."
-              className="flex-1 px-4 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-green-400 transition-colors"
-            />
             <button
-              onClick={rechercherVille}
-              disabled={villeLoading}
-              className="px-4 py-2.5 rounded-xl bg-green-600 text-white text-sm font-semibold hover:bg-green-700 disabled:opacity-50 transition-colors">
-              {villeLoading ? "..." : "Chercher"}
+              onClick={() => {
+                setModeVille(false);
+                setVilleActive(null);
+                setVilleInput("");
+                setProvince("QC");
+                setRestaurants([]);
+                setLoading(true);
+                const lat = userPos?.lat ?? 47.3340;
+                const lng = userPos?.lng ?? -79.4335;
+                fetch(`${BACKEND_URL}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=${rayon}`)
+                  .then(r => r.json())
+                  .then(d => { setRestaurants(d.restaurants || []); setLoading(false); });
+              }}
+              className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-all ${!modeVille ? "bg-green-600 text-white border-green-600" : "bg-white text-gray-600 border-gray-200 hover:border-green-300"}`}>
+              📍 Local
             </button>
-            {villeActive && (
-              <button
-                onClick={() => { setVilleActive(null); }}
-                className="px-3 py-2.5 rounded-xl border border-gray-200 text-sm text-gray-500 hover:border-red-300 hover:text-red-500 transition-colors">
-                ✕
-              </button>
-            )}
+            <button
+              onClick={() => setModeVille(true)}
+              className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-all ${modeVille ? "bg-green-600 text-white border-green-600" : "bg-white text-gray-600 border-gray-200 hover:border-green-300"}`}>
+              🗺️ Autre ville
+            </button>
           </div>
-          {/* RECHERCHE */}
+          {/* CHAMP VILLE — visible seulement en mode autre ville */}
+          {modeVille && (
+            <div className="flex gap-2 flex-wrap">
+              <select
+                value={province}
+                onChange={e => setProvince(e.target.value)}
+                className="px-3 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-green-400 transition-colors bg-white">
+                {PROVINCES.map(p => (
+                  <option key={p.code} value={p.code}>{p.nom}</option>
+                ))}
+              </select>
+              <input
+                type="text"
+                value={villeInput}
+                onChange={e => setVilleInput(e.target.value)}
+                onKeyDown={e => e.key === "Enter" && rechercherVille()}
+                placeholder="Nom de la ville..."
+                className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-green-400 transition-colors"
+              />
+              <button
+                onClick={rechercherVille}
+                disabled={villeLoading}
+                className="px-4 py-2.5 rounded-xl bg-green-600 text-white text-sm font-semibold hover:bg-green-700 disabled:opacity-50 transition-colors">
+                {villeLoading ? "..." : "Chercher"}
+              </button>
+            </div>
+          )}
           <input
             type="text"
             value={search}
