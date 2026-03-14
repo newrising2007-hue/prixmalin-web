@@ -100,11 +100,6 @@ export default async function ProductPage({ params }: Props) {
 
           <p className="mt-4 text-black/70">{product.shortDescription}</p>
 
-          {(product as { prixVerifieLe?: string }).prixVerifieLe && (
-            <p className="mt-3 text-xs text-black/40">
-              ✓ Prix vérifié le {(product as { prixVerifieLe?: string }).prixVerifieLe}
-            </p>
-          )}
           <div className="mt-6">
             <AffiliateButton url={product.amazonUrl} label="Voir le prix sur Amazon" />
           </div>
