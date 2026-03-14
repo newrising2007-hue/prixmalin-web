@@ -31,7 +31,7 @@ function daysLeft(expiry: string): number {
   return Math.ceil(diff / (1000 * 60 * 60 * 24));
 }
 
-function CarteCoupon({ c, t }: { c: Coupon; t: any }) {
+function CarteCoupon({ c, t, locale }: { c: Coupon; t: any; locale: string }) {
   const [copied, setCopied] = useState(false);
   const expired = isExpired(c.expiry);
   const days = daysLeft(c.expiry);
@@ -174,7 +174,7 @@ export default function CouponsPage() {
         )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map(c => <CarteCoupon key={c.id} c={c} t={t} />)}
+          {filtered.map(c => <CarteCoupon key={c.id} c={c} t={t} locale={locale} />)}
         </div>
       </section>
 
