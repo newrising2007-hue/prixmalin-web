@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
@@ -267,6 +267,74 @@ export default function RestaurantsPage() {
     { code: "PE", nom: "Île-du-Prince-Édouard" },
   ];
 
+  const VILLES_PAR_PROVINCE: Record<string, string[]> = {
+    QC: ["Alma","Amos","Baie-Comeau","Baie-Saint-Paul","Beauceville","Blainville","Boisbriand","Boucherville","Bromont","Brossard","Candiac","Châteauguay","Chicoutimi","Coaticook","Cowansville","Dollard-des-Ormeaux","Dorval","Drummondville","Farnham","Gaspé","Gatineau","Granby","Joliette","Kirkland","La Prairie","La Sarre","La Tuque","Lac-Mégantic","Lachute","Laval","Lévis","L'Assomption","Longueuil","Lorraine","Magog","Mascouche","Matane","Mirabel","Mont-Joli","Mont-Laurier","Mont-Royal","Mont-Saint-Hilaire","Montmagny","Montréal","Pincourt","Pointe-Claire","Pont-Rouge","Québec","Repentigny","Rimouski","Rivière-du-Loup","Roberval","Rosemère","Rouyn-Noranda","Saint-Basile-le-Grand","Saint-Bruno-de-Montarville","Saint-Constant","Saint-Eustache","Saint-Georges","Saint-Hyacinthe","Saint-Jean-sur-Richelieu","Saint-Jérôme","Saint-Lambert","Saint-Laurent","Saint-Lazare","Saint-Lin-Laurentides","Saint-Nicolas","Saint-Rémi","Saint-Sauveur","Sainte-Agathe-des-Monts","Sainte-Julie","Sainte-Marie","Sainte-Thérèse","Salaberry-de-Valleyfield","Sept-Îles","Shawinigan","Sherbrooke","Sorel-Tracy","Terrebonne","Thetford Mines","Trois-Rivières","Val-d'Or","Varennes","Vaudreuil-Dorion","Victoriaville","Ville-Marie","Waterloo"],
+    ON: ["Ajax","Aurora","Barrie","Belleville","Brampton","Brantford","Burlington","Cambridge","Chatham","Clarington","Cobourg","Cornwall","Guelph","Halton Hills","Hamilton","Innisfil","Kingston","Kitchener","London","Markham","Milton","Mississauga","Newmarket","Niagara Falls","North Bay","Oakville","Oshawa","Ottawa","Peterborough","Pickering","Richmond Hill","Sarnia","Sault Ste. Marie","St. Catharines","Sudbury","Thunder Bay","Timmins","Toronto","Vaughan","Waterloo","Welland","Whitby","Windsor","Woodstock"],
+    BC: ["Abbotsford","Armstrong","Burnaby","Campbell River","Castlegar","Chilliwack","Colwood","Comox","Coquitlam","Courtenay","Cranbrook","Delta","Fort St. John","Kamloops","Kelowna","Kimberley","Langford","Langley","Maple Ridge","Mission","Nanaimo","Nelson","New Westminster","North Vancouver","Penticton","Pitt Meadows","Port Coquitlam","Port Moody","Prince George","Richmond","Salmon Arm","Saanich","Surrey","Terrace","Trail","Vancouver","Vernon","Victoria","West Kelowna","White Rock"],
+    AB: ["Airdrie","Beaumont","Brooks","Calgary","Camrose","Chestermere","Cold Lake","Edmonton","Fort McMurray","Fort Saskatchewan","Grande Prairie","Lacombe","Leduc","Lethbridge","Lloydminster","Medicine Hat","Okotoks","Red Deer","Spruce Grove","St. Albert","Sherwood Park","Sylvan Lake","Wetaskiwin"],
+    MB: ["Brandon","Dauphin","Flin Flon","Morden","Portage la Prairie","Selkirk","Steinbach","The Pas","Thompson","Winkler","Winnipeg"],
+    SK: ["Estevan","Humboldt","Lloydminster","Martensville","Meadow Lake","Melfort","Moose Jaw","North Battleford","Prince Albert","Regina","Saskatoon","Swift Current","Warman","Weyburn","Yorkton"],
+    NS: ["Amherst","Bridgewater","Dartmouth","Glace Bay","Halifax","Kentville","New Glasgow","Sydney","Truro","Windsor","Yarmouth"],
+    NB: ["Bathurst","Campbellton","Dieppe","Edmundston","Fredericton","Miramichi","Moncton","Oromocto","Quispamsis","Rothesay","Saint John","Shediac","Woodstock"],
+    NL: ["Conception Bay South","Corner Brook","Gander","Grand Falls-Windsor","Happy Valley-Goose Bay","Labrador City","Mount Pearl","Paradise","St. John's","Stephenville"],
+    PE: ["Charlottetown","Cornwall","Montague","Stratford","Summerside"],
+  };
+
+  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [highlightedIndex, setHighlightedIndex] = useState(-1);
+  const autocompleteRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (autocompleteRef.current && !autocompleteRef.current.contains(e.target as Node)) {
+        setShowSuggestions(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, []);
+
+  const handleVilleChange = (val: string) => {
+    setVilleInput(val);
+    const villes = VILLES_PAR_PROVINCE[province] ?? [];
+    if (val.trim().length === 0) { setSuggestions([]); setShowSuggestions(false); return; }
+    const q = val.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    const found = villes.filter(v => v.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").startsWith(q)).slice(0, 8);
+    setSuggestions(found);
+    setShowSuggestions(found.length > 0);
+    setHighlightedIndex(-1);
+  };
+
+  const handleVilleKeyDown = (e: React.KeyboardEvent) => {
+    if (!showSuggestions) return;
+    if (e.key === "ArrowDown") { e.preventDefault(); setHighlightedIndex(i => Math.min(i + 1, suggestions.length - 1)); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); setHighlightedIndex(i => Math.max(i - 1, 0)); }
+    else if (e.key === "Enter" && highlightedIndex >= 0) { e.preventDefault(); pickSuggestion(suggestions[highlightedIndex]); }
+    else if (e.key === "Enter") { setShowSuggestions(false); rechercherVille(); }
+    else if (e.key === "Escape") { setShowSuggestions(false); }
+  };
+
+  const pickSuggestion = (ville: string) => {
+    setVilleInput(ville);
+    setSuggestions([]);
+    setShowSuggestions(false);
+    // Lancer la recherche avec cette ville directement
+    setVilleLoading(true);
+    fetch(`${BACKEND}/api/geocode?ville=${encodeURIComponent(ville + ", " + province)}`)
+      .then(r => r.json())
+      .then(data => {
+        if (data.lat && data.lng) {
+          setVilleActive(data.nom);
+          setVilleInput("");
+          setVilleCoords({ lat: data.lat, lng: data.lng });
+          fetchRestaurants(data.lat, data.lng);
+        }
+        setVilleLoading(false);
+      })
+      .catch(() => setVilleLoading(false));
+  };
+
   const rechercherVille = async () => {
 
     if (!villeInput.trim()) { return; }
@@ -429,14 +497,30 @@ export default function RestaurantsPage() {
                   <option key={p.code} value={p.code}>{p.nom}</option>
                 ))}
               </select>
-              <input
-                type="text"
-                value={villeInput}
-                onChange={e => setVilleInput(e.target.value)}
-                onKeyDown={e => e.key === "Enter" && rechercherVille()}
-                placeholder="Nom de la ville..."
-                className="flex-1 min-w-[140px] px-4 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-green-400 transition-colors"
-              />
+              <div ref={autocompleteRef} className="relative flex-1 min-w-[140px]">
+                <input
+                  type="text"
+                  value={villeInput}
+                  onChange={e => handleVilleChange(e.target.value)}
+                  onKeyDown={handleVilleKeyDown}
+                  placeholder="Ex: Rouyn-Noranda"
+                  className="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-green-400 transition-colors"
+                  autoComplete="off"
+                />
+                {showSuggestions && suggestions.length > 0 && (
+                  <ul className="absolute z-50 mt-1 w-full bg-white border border-gray-200 rounded-xl shadow-lg max-h-56 overflow-y-auto text-sm">
+                    {suggestions.map((ville, i) => (
+                      <li
+                        key={ville}
+                        onMouseDown={() => pickSuggestion(ville)}
+                        className={`px-4 py-2 cursor-pointer transition-colors ${i === highlightedIndex ? "bg-green-600 text-white" : "hover:bg-gray-50 text-gray-800"}`}
+                      >
+                        {ville}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
               <button
                 onClick={rechercherVille}
                 disabled={villeLoading}
