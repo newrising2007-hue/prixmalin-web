@@ -250,6 +250,32 @@ export default function RestaurantsPage() {
   const [services, setServices] = useState<string[]>([]);
   const [reservationOnly, setReservationOnly] = useState(false);
   const [search, setSearch] = useState("");
+  const [villeInput, setVilleInput] = useState("");
+  const [villeActive, setVilleActive] = useState<string | null>(null);
+  const [villeLoading, setVilleLoading] = useState(false);
+  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "https://prixmalin-backend.onrender.com";
+
+  const rechercherVille = async () => {
+    if (!villeInput.trim()) return;
+    setVilleLoading(true);
+    try {
+      const res = await fetch(`${BACKEND_URL}/api/geocode?ville=${encodeURIComponent(villeInput)}`);
+      const data = await res.json();
+      if (data.lat && data.lng) {
+        setVilleActive(data.nom);
+        setVilleInput("");
+        fetch(`${BACKEND_URL}/api/restaurants/google?lat=${data.lat}&lng=${data.lng}&rayon=${rayon}`)
+          .then(r => r.json())
+          .then(d => {
+            setRestaurants(d.restaurants || []);
+            setLoading(false);
+          });
+      }
+    } catch (e) {
+      console.error("Erreur geocoding:", e);
+    }
+    setVilleLoading(false);
+  };
 
   const DEFAULT_LAT = 47.3340;
   const DEFAULT_LNG = -79.4335;
@@ -339,7 +365,7 @@ export default function RestaurantsPage() {
             {t("hero_titre_accent")}
           </span>
         </h1>
-        <p className="text-gray-500 text-sm mb-1">{t("hero_region")}</p>
+        <p className="text-gray-500 text-sm mb-1">{villeActive ? `📍 ${villeActive}` : t("hero_region")}</p>
         <p className="text-xs text-gray-400">
           {gpsLoading ? t("gps_loading") : userPos ? t("gps_position") : t("gps_defaut")}
         </p>
@@ -349,6 +375,30 @@ export default function RestaurantsPage() {
       <section className="px-4 pb-6 max-w-5xl mx-auto">
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-100 shadow-sm p-4 space-y-4">
 
+          {/* VILLE */}
+          <div className="flex gap-2">
+            <input
+              type="text"
+              value={villeInput}
+              onChange={e => setVilleInput(e.target.value)}
+              onKeyDown={e => e.key === "Enter" && rechercherVille()}
+              placeholder="🗺️ Rechercher une autre ville..."
+              className="flex-1 px-4 py-2.5 rounded-xl border border-gray-200 text-sm outline-none focus:border-green-400 transition-colors"
+            />
+            <button
+              onClick={rechercherVille}
+              disabled={villeLoading}
+              className="px-4 py-2.5 rounded-xl bg-green-600 text-white text-sm font-semibold hover:bg-green-700 disabled:opacity-50 transition-colors">
+              {villeLoading ? "..." : "Chercher"}
+            </button>
+            {villeActive && (
+              <button
+                onClick={() => { setVilleActive(null); }}
+                className="px-3 py-2.5 rounded-xl border border-gray-200 text-sm text-gray-500 hover:border-red-300 hover:text-red-500 transition-colors">
+                ✕
+              </button>
+            )}
+          </div>
           {/* RECHERCHE */}
           <input
             type="text"
