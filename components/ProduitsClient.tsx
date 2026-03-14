@@ -71,7 +71,10 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
                   </Link>
                 </p>
               </div>
-              <div className="sm:shrink-0">
+              <div className="sm:shrink-0 flex flex-col items-end gap-1">
+                {p.prixVerifieLe && (
+                  <span className="text-xs text-black/40">✓ Prix vérifié : {p.prixVerifieLe ? new Date(p.prixVerifieLe + "T12:00:00").toLocaleDateString("fr-CA", { year: "numeric", month: "long", day: "numeric" }) : ""}</span>
+                )}
                 <a href={p.amazonUrl} target="_blank" rel="nofollow sponsored noopener" className="block rounded-xl bg-orange-500 px-4 py-2 text-sm font-semibold text-white hover:bg-orange-600">
                   {labels["voir_amazon"]}
                 </a>
