@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-13",
+  "updatedAt": "2026-03-14",
   "circulaires": [
     {
       "nom": "Accent Meuble",
@@ -207,6 +207,15 @@
       "url": "https://www.uniprix.com/fr/circulaire",
       "date_verification": "2026-03-13",
       "actif": true
+    },
+    {
+      "nom": "Walmart",
+      "url": "https://www.walmart.ca/fr/flyer",
+      "emoji": "📰",
+      "actif": true,
+      "categorie": "alimentation",
+      "date_verification": "2026-03-14",
+      "logo": "/images/circulaire/walmart.png"
     }
   ]
 }
