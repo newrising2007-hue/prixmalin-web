@@ -41,6 +41,19 @@
       "expiry": "2026-12-31",
       "verified": true,
       "actif": true
+    },
+    {
+      "id": "Le taco fou notre dame du nord.",
+      "store": "Le Taco Fou",
+      "logo": "🏷️",
+      "code": "FRSTWB",
+      "description": "5% de rabais sur votre première commande en ligne. (Notre-Dame du Nord)",
+      "url": "https://www.letacofouqc.com/",
+      "category": "restaurant",
+      "discount": "5%",
+      "expiry": "2027-04-13",
+      "verified": true,
+      "actif": true
     }
   ]
 }
