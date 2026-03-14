@@ -297,7 +297,7 @@ export default function RestaurantsPage() {
 
     setLoading(true);
     setRestaurants([]);
-    fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
+    fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=${modeVille ? 20 : 80}`)
       .then(r => r.json())
       .then(data => {
         setRestaurants(data.restaurants || []);
@@ -344,7 +344,7 @@ export default function RestaurantsPage() {
         : undefined
     }))
     .filter(r => {
-      if (r.distance !== undefined && r.distance > rayon) return false;
+      if (r.distance !== undefined && r.distance > (modeVille ? 20 : rayon)) return false;
       if (cuisine !== "all" && !(Array.isArray(r.cuisine) ? r.cuisine : r.cuisine ? [r.cuisine] : []).includes(cuisine)) return false;
       if (services.length > 0 && !services.every(s => (r.service || []).includes(s))) return false;
       if (reservationOnly && !r.reservation) return false;
