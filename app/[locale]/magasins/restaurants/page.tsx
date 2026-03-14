@@ -268,22 +268,22 @@ export default function RestaurantsPage() {
   ];
 
   const rechercherVille = async () => {
-    console.log("rechercherVille appelé, villeInput=", villeInput, "province=", province);
-    if (!villeInput.trim()) { console.log("villeInput vide, abort"); return; }
+
+    if (!villeInput.trim()) { return; }
     setVilleLoading(true);
     try {
       const url = `${BACKEND}/api/geocode?ville=${encodeURIComponent(villeInput + ", " + province)}`;
-      console.log("fetch geocode:", url);
+
       const res = await fetch(url);
       const data = await res.json();
-      console.log("geocode response:", data);
+
       if (data.lat && data.lng) {
         setVilleActive(data.nom);
         setVilleInput("");
         setVilleCoords({ lat: data.lat, lng: data.lng });
         fetchRestaurants(data.lat, data.lng);
       } else {
-        console.log("Pas de lat/lng dans la réponse");
+
       }
     } catch (e) {
       console.error("Erreur geocoding:", e);
@@ -294,7 +294,7 @@ export default function RestaurantsPage() {
   const DEFAULT_LAT = 47.3340;
   const DEFAULT_LNG = -79.4335;
   const fetchRestaurants = (lat: number, lng: number) => {
-    console.log("fetchRestaurants appelé lat=", lat, "lng=", lng);
+
     setLoading(true);
     setRestaurants([]);
     fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
@@ -304,7 +304,7 @@ export default function RestaurantsPage() {
         setLoading(false);
       })
       .catch((err) => {
-        console.error("fetchRestaurants ERREUR:", err);
+
         setError("Impossible de charger les restaurants. Réessayez dans quelques instants.");
         setLoading(false);
       });
