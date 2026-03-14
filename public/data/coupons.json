@@ -12,7 +12,10 @@
       "discount": "10%",
       "expiry": "2026-03-31",
       "verified": true,
-      "actif": true
+      "actif": true,
+      "description_es": "10% de descuento en electrónica",
+      "description_ar": "خصم 10% على الإلكترونيات",
+      "description_zh": "电子产品9折优惠"
     },
     {
       "id": "walmart-livraison",
@@ -26,7 +29,10 @@
       "discount": "Livraison gratuite",
       "expiry": "2026-04-30",
       "verified": true,
-      "actif": true
+      "actif": true,
+      "description_es": "Envío gratis en cualquier pedido",
+      "description_ar": "شحن مجاني على أي طلب",
+      "description_zh": "任何订单免费送货"
     },
     {
       "id": "subway-sub",
@@ -40,7 +46,10 @@
       "discount": "Varie",
       "expiry": "2026-12-31",
       "verified": true,
-      "actif": true
+      "actif": true,
+      "description_es": "Sub del día a precio reducido vía app Subway",
+      "description_ar": "ساندويتش اليوم بسعر مخفض عبر تطبيق Subway",
+      "description_zh": "通过Subway应用享受当日特价三明治"
     },
     {
       "id": "Le taco fou notre dame du nord.",
@@ -53,7 +62,11 @@
       "discount": "5%",
       "expiry": "2027-04-13",
       "verified": true,
-      "actif": true
+      "actif": true,
+      "description_en": "5% off your first online order",
+      "description_es": "5% de descuento en tu primer pedido en línea",
+      "description_ar": "خصم 5% على أول طلب عبر الإنترنت",
+      "description_zh": "首次在线订单享受9.5折优惠"
     }
   ]
 }

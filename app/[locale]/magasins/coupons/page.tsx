@@ -16,6 +16,10 @@ interface Coupon {
   expiry: string;
   verified: boolean;
   actif: boolean;
+  description_en?: string;
+  description_es?: string;
+  description_ar?: string;
+  description_zh?: string;
 }
 
 function isExpired(expiry: string): boolean {
@@ -45,7 +49,7 @@ function CarteCoupon({ c, t }: { c: Coupon; t: any }) {
           <span className="text-2xl">{c.logo}</span>
           <div>
             <p className="font-bold text-gray-900 text-sm">{c.store}</p>
-            <p className="text-xs text-gray-500">{c.description}</p>
+            <p className="text-xs text-gray-500">{(c as any)[`description_${locale}`] || c.description}</p>
           </div>
         </div>
         <div className="shrink-0 text-right">
@@ -77,6 +81,7 @@ function CarteCoupon({ c, t }: { c: Coupon; t: any }) {
 }
 
 export default function CouponsPage() {
+  const locale = (typeof window !== "undefined" ? window.location.pathname.split("/")[1] : "fr") || "fr";
   const t = useTranslations("magasins.coupons");
   const [coupons, setCoupons] = useState<Coupon[]>([]);
   const [category, setCategory] = useState("all");
