@@ -51,7 +51,7 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
               </div>
               <div className="flex-1 min-w-0">
                 <h2 className="text-xl font-semibold">
-                  <Link href={`/produit/${p.slug}`} className="hover:underline">{p.title}</Link>
+                  <Link href={`/${locale}/produit/${p.slug}`} className="hover:underline">{p.title}</Link>
                 </h2>
                 {p.category && (
                   <span className="inline-block mt-1 text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700">
@@ -66,7 +66,7 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
                   </div>
                 )}
                 <p className="mt-3">
-                  <Link href={`/produit/${p.slug}`} className="text-sm font-medium text-blue-700 hover:underline">
+                  <Link href={`/${locale}/produit/${p.slug}`} className="text-sm font-medium text-blue-700 hover:underline">
                     {labels["voir_fiche"]}
                   </Link>
                 </p>

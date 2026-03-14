@@ -102,7 +102,7 @@ export default async function ProductPage({ params }: Props) {
 
           {(product as { prixVerifieLe?: string }).prixVerifieLe && (
             <p className="mt-3 text-xs text-black/40">
-              ✓ Prix vérifié le {new Date((product as { prixVerifieLe?: string }).prixVerifieLe!).toLocaleDateString("fr-CA", { year: "numeric", month: "long", day: "numeric" })}
+              ✓ Prix vérifié le {(product as { prixVerifieLe?: string }).prixVerifieLe}
             </p>
           )}
           <div className="mt-6">
