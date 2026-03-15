@@ -136,7 +136,11 @@ export default function LayoutChrome({
                 <Link href="/" className="rounded-lg px-2 py-1 text-sm hover:bg-gray-100">
                   {t.home}
                 </Link>
-                <Link href={locale === "fr" ? "/gaming" : `/${locale}/gaming`} className="rounded-lg px-2 py-1 text-sm font-semibold hover:bg-gray-100">
+                {/* ICI : Ajout de text-blue-700 pour le Gaming Header */}
+                <Link 
+                  href={locale === "fr" ? "/gaming" : `/${locale}/gaming`} 
+                  className="rounded-lg px-2 py-1 text-sm font-semibold text-blue-700 hover:bg-gray-100"
+                >
                   {t.gaming}
                 </Link>
                 <Link
