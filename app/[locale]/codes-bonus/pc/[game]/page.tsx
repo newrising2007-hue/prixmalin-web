@@ -90,6 +90,13 @@ export async function generateMetadata({ params }: { params: Promise<{ game: str
 export default async function Page({ params }: { params: Promise<{ game: string, locale: string }> }) {
   const { game: gameSlug, locale } = await params;
   const t = await getTranslations({ locale, namespace: 'codes_bonus' });
+  function loc(it: any, field: string): string {
+    if (locale && locale !== "fr") {
+      const k = `${field}_${locale}`;
+      if (it[k]) return it[k];
+    }
+    return it[field] ?? "";
+  }
   const games = normalizePcGames(pcGames);
   const codes = normalizeCodes(codesData);
 
