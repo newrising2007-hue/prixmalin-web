@@ -195,7 +195,7 @@ function CarteRestaurant({ r, t, locale }: { r: Restaurant; t: (k: string) => st
       <div className="flex flex-wrap gap-2 mb-1">
         {r.phone && (
           <a href={`tel:${r.phone}`}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-green-600 text-white hover:bg-green-700 transition-colors">
+            className="flex items-center gap-1.5 rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs font-semibold text-green-700 hover:bg-green-100 transition-colors">
             📞 {t("btn_appeler")}
           </a>
         )}
@@ -328,7 +328,7 @@ export default function RestaurantsPage() {
           setVilleActive(data.nom);
           setVilleInput("");
           setVilleCoords({ lat: data.lat, lng: data.lng });
-          fetchRestaurants(data.lat, data.lng);
+          fetchRestaurants(data.lat, data.lng, true);
         }
         setVilleLoading(false);
       })
@@ -349,7 +349,7 @@ export default function RestaurantsPage() {
         setVilleActive(data.nom);
         setVilleInput("");
         setVilleCoords({ lat: data.lat, lng: data.lng });
-        fetchRestaurants(data.lat, data.lng);
+        fetchRestaurants(data.lat, data.lng, true);
       } else {
 
       }
@@ -361,11 +361,11 @@ export default function RestaurantsPage() {
 
   const DEFAULT_LAT = 47.3340;
   const DEFAULT_LNG = -79.4335;
-  const fetchRestaurants = (lat: number, lng: number) => {
+  const fetchRestaurants = (lat: number, lng: number, isVille: boolean = false) => {
 
     setLoading(true);
     setRestaurants([]);
-    fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=${modeVille ? 20 : 80}`)
+    fetch(isVille ? `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=20` : `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
       .then(r => r.json())
       .then(data => {
         setRestaurants(data.restaurants || []);
@@ -399,6 +399,19 @@ export default function RestaurantsPage() {
       fetchRestaurants(DEFAULT_LAT, DEFAULT_LNG);
     }
   }, []);
+  const hasInitialized = useRef(false);
+  useEffect(() => {
+    if (!hasInitialized.current) { hasInitialized.current = true; return; }
+    if (!modeVille) {
+      const lat = userPos?.lat ?? 47.3340;
+      const lng = userPos?.lng ?? -79.4335;
+      setLoading(true);
+      setRestaurants([]);
+      fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
+        .then(r => r.json())
+        .then(d => { setRestaurants(d.restaurants || []); setLoading(false); });
+    }
+  }, [modeVille]);
 
   const [villeCoords, setVilleCoords] = useState<{lat: number, lng: number} | null>(null);
   const centerLat = villeCoords?.lat ?? userPos?.lat ?? DEFAULT_LAT;
@@ -470,22 +483,35 @@ export default function RestaurantsPage() {
                 setVilleInput("");
                 setProvince("QC");
                 setRestaurants([]);
-                setLoading(true);
                 const lat = userPos?.lat ?? 47.3340;
                 const lng = userPos?.lng ?? -79.4335;
-                fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=${rayon}`)
-                  .then(r => r.json())
-                  .then(d => { setRestaurants(d.restaurants || []); setLoading(false); });
+                fetchRestaurants(lat, lng, false);
               }}
-              className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-all ${!modeVille ? "bg-green-600 text-white border-green-600" : "bg-white text-gray-600 border-gray-200 hover:border-green-300"}`}>
+              className={`rounded-full border text-sm font-semibold transition-all px-3 py-1 ${!modeVille ? "bg-green-500 text-white border-green-500" : "bg-green-50 text-green-700 border-green-200 hover:bg-green-100"}`}>
               📍 Local
             </button>
             <button
               onClick={() => setModeVille(true)}
-              className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-all ${modeVille ? "bg-green-600 text-white border-green-600" : "bg-white text-gray-600 border-gray-200 hover:border-green-300"}`}>
+              className={`rounded-full border text-sm font-semibold transition-all px-3 py-1 ${modeVille ? "bg-green-500 text-white border-green-500" : "bg-green-50 text-green-700 border-green-200 hover:bg-green-100"}`}>
               🗺️ Autre ville
             </button>
           </div>
+          {/* BOUTON ACTUALISER — visible seulement en mode local */}
+          {!modeVille && (
+            <button
+              onClick={() => {
+                const lat = userPos?.lat ?? 47.3340;
+                const lng = userPos?.lng ?? -79.4335;
+                setLoading(true);
+                setRestaurants([]);
+                fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
+                  .then(r => r.json())
+                  .then(d => { setRestaurants(d.restaurants || []); setLoading(false); });
+              }}
+              className="rounded-full border border-green-200 bg-green-50 px-3 py-1 text-sm font-semibold text-green-700 hover:bg-green-100 transition-colors">
+              🔍 Actualiser
+            </button>
+          )}
           {/* CHAMP VILLE — visible seulement en mode autre ville */}
           {modeVille && (
             <div className="flex gap-2 flex-wrap">
