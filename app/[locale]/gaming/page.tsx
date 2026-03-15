@@ -35,6 +35,7 @@ function getActiveCodesForPlatform(platform: Platform, slugs: string[]): CodeCar
     const codes = getActiveBonusCodesForGame({ gameSlug: slug, platform }) as any[];
     for (const c of codes as any[]) {
       const item = c as CodeItem;
+      if (!item || !item.id) continue;
       if (item?.isActive === false) continue;
       if (item?.expiresAtISO && item.expiresAtISO < today) continue;
       out.push({ id: safeStr(item.id) || `${platform}-${slug}`, platform, gameSlug: slug, gameName: platformGameName(platform, slug), href: platformHref(platform, slug), sortKey: buildSortKey(item) });
