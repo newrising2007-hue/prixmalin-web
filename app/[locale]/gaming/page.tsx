@@ -1,7 +1,6 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { getActiveBonusCodesForGame } from "@/src/lib/bonus-codes";
 import { getPcGameSlugs, getPcGame } from "@/src/data/codes-bonus/pc-games";
 import { getXboxGameSlugs, getXboxGame } from "@/src/data/codes-bonus/xbox-games";
@@ -56,8 +55,8 @@ function pickLatestCards(): CodeCard[] {
 const CTA_GREEN = "relative inline-flex items-center justify-center overflow-hidden rounded-xl border border-emerald-200 bg-emerald-50 px-5 py-3 text-sm font-semibold text-emerald-950 shadow-sm shadow-emerald-500/10 transition-all duration-200 will-change-transform hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm";
 const CTA_BLUE = "relative inline-flex items-center justify-center overflow-hidden rounded-xl border border-blue-200 bg-blue-50 px-5 py-3 text-sm font-semibold text-blue-950 shadow-sm shadow-blue-500/10 transition-all duration-200 will-change-transform hover:bg-blue-100 hover:shadow-md hover:shadow-blue-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm";
 
-export default function GamingPage() {
-  const t = useTranslations("gaming");
+export default async function GamingPage() {
+  const t = await getTranslations("gaming");
   const cards = pickLatestCards();
 
   return (
