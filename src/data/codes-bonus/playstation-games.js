@@ -70,6 +70,22 @@ export const PLAYSTATION_GAMES = [
     },
     relatedSlugs: ["fortnite", "genshin-impact", "dead-by-daylight"],
   },
+  {
+    slug: "honkai-star-rail",
+    name: "Honkai: Star Rail",
+    updatedAtISO: TODAY,
+    seoDescription: "Codes Honkai: Star Rail sur PlayStation : Stellar Jades gratuits (Canada).",
+    hero: { subtitle: "Stellar Jades et ressources gratuites.", highlights: ["Stellar Jades", "Crédits", "Permanent"] },
+    relatedSlugs: ["genshin-impact", "warframe"],
+  },
+  {
+    slug: "destiny-2",
+    name: "Destiny 2",
+    updatedAtISO: TODAY,
+    seoDescription: "Codes Destiny 2 sur PlayStation : emblèmes gratuits (Canada).",
+    hero: { subtitle: "Emblèmes cosmétiques gratuits.", highlights: ["Emblèmes", "Cosmétiques", "Gratuit"] },
+    relatedSlugs: ["warframe", "call-of-duty"],
+  },
 ];
 
 export function getPlayStationGameSlugs() {
