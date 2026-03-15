@@ -106,13 +106,7 @@ function RechercheContent() {
         className="flex items-center gap-4 p-5 rounded-2xl bg-white border-2 border-gray-100 hover:border-green-300 hover:shadow-md transition-all group">
         <div className="text-3xl">{logo}</div>
         <div className="flex-1">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="font-bold text-gray-800 group-hover:text-green-700">{r.store}</span>
-            {r.verified
-              ? <span className="px-2 py-0.5 rounded-full text-white text-xs font-semibold" style={{background:'#16a34a'}}>✅ Local</span>
-              : <span className="px-2 py-0.5 rounded-full text-white text-xs font-semibold" style={{background:'#4285F4'}}>🌐 Google</span>
-            }
-          </div>
+          <div className="font-bold text-gray-800 group-hover:text-green-700">{r.store}</div>
           <div className="text-sm text-gray-400">{t('en_ligne_livraison')}</div>
         </div>
         <span className="px-3 py-1.5 rounded-xl text-white text-xs font-semibold" style={{ background: color }}>
@@ -129,7 +123,10 @@ function RechercheContent() {
         className="flex items-center gap-4 p-5 rounded-2xl bg-white border-2 border-gray-100 hover:border-green-300 hover:shadow-md transition-all group">
         <div className="text-3xl">📍</div>
         <div className="flex-1 min-w-0">
-          <div className="font-bold text-gray-800 group-hover:text-green-700">{r.store}</div>
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="font-bold text-gray-800 group-hover:text-green-700">{r.store}</span>
+            {!r.verified && <span className="text-xs font-semibold">via <span style={{color:"#4285F4"}}>G</span><span style={{color:"#EA4335"}}>o</span><span style={{color:"#FBBC05"}}>o</span><span style={{color:"#34A853"}}>g</span><span style={{color:"#EA4335"}}>l</span><span style={{color:"#4285F4"}}>e</span></span>}
+          </div>
           {r.address && <div className="text-sm text-gray-500 truncate">{r.address}</div>}
           {r.distance && <div className="text-xs text-green-600 font-semibold mt-0.5">📏 {r.distance}</div>}
         </div>
