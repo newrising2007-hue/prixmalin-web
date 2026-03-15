@@ -167,7 +167,7 @@ export default async function Page({ params }: { params: Promise<{ game: string,
             <article key={it.id} id={it.id} className="rounded-2xl border border-neutral-200 bg-white p-6">
               <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                 <div>
-                  <h2 className="text-lg font-semibold">{it.title ?? titleCaseSlug(it.id)}</h2>
+                  <h2 className="text-lg font-semibold">{loc(it, "title") || titleCaseSlug(it.id)}</h2>
                   {loc(it, "description") ? <p className="mt-1 text-neutral-700">{loc(it, "description")}</p> : null}
                 </div>
                 <span className="inline-flex w-fit rounded-full bg-neutral-100 px-3 py-1 text-xs font-medium text-neutral-700">
