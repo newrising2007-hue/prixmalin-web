@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import codesData from "@/src/data/bonus-codes/codes.json";
+import verifiedData from "@/src/data/bonus-codes/platform-verified.json";
 
 function countActiveCodes(platform: string): number {
   const today = new Date().toISOString().slice(0, 10);
@@ -11,6 +12,12 @@ function countActiveCodes(platform: string): number {
     if (c.expiresAtISO && c.expiresAtISO < today) return false;
     return c.platform === platform;
   }).length;
+}
+
+function formatVerifiedDate(iso: string | null): string | null {
+  if (!iso) return null;
+  const d = new Date(iso + "T12:00:00");
+  return d.toLocaleDateString("fr-CA", { day: "numeric", month: "long", year: "numeric" });
 }
 
 export const metadata = {
@@ -57,6 +64,11 @@ export default async function CodesBonusHub({ params }: { params: Promise<{ loca
               <span className="text-xs font-semibold text-blue-500/80">
                 {countActiveCodes(console.slug)} {t("codes_actifs")}
               </span>
+              {formatVerifiedDate((verifiedData as any)[console.slug]) && (
+                <span className="text-xs text-gray-400">
+                  ✅ Vérifié le {formatVerifiedDate((verifiedData as any)[console.slug])}
+                </span>
+              )}
             </div>
 
 {console.slug === "playstation" && (
