@@ -35,7 +35,7 @@ type GameCard = {
   bullets: string[];
 };
 
-const cards: GameCard[] = pcGames.map((g) => ({
+const cards: GameCard[] = pcGames.filter((g): g is NonNullable<typeof g> => Boolean(g)).map((g) => ({
   title: g.name,
   href: `/codes-bonus/pc/${g.slug}`,
   description: g.seoDescription ?? `Codes ${g.name} sur PC.`,

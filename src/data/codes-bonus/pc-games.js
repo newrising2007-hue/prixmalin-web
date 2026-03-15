@@ -187,7 +187,7 @@ const MINIMAL_SLUGS = [
   "league-of-legends",
   "roblox",
   "call-of-duty-warzone",
-  
+];
 
 for (const slug of MINIMAL_SLUGS) {
   PC_GAMES.push({
