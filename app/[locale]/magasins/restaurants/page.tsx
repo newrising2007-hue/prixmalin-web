@@ -399,19 +399,7 @@ export default function RestaurantsPage() {
       fetchRestaurants(DEFAULT_LAT, DEFAULT_LNG);
     }
   }, []);
-  const hasInitialized = useRef(false);
-  useEffect(() => {
-    if (!hasInitialized.current) { hasInitialized.current = true; return; }
-    if (!modeVille) {
-      const lat = userPos?.lat ?? 47.3340;
-      const lng = userPos?.lng ?? -79.4335;
-      setLoading(true);
-      setRestaurants([]);
-      fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
-        .then(r => r.json())
-        .then(d => { setRestaurants(d.restaurants || []); setLoading(false); });
-    }
-  }, [modeVille]);
+
 
   const [villeCoords, setVilleCoords] = useState<{lat: number, lng: number} | null>(null);
   const centerLat = villeCoords?.lat ?? userPos?.lat ?? DEFAULT_LAT;
@@ -482,6 +470,7 @@ export default function RestaurantsPage() {
                 setVilleActive(null);
                 setVilleInput("");
                 setProvince("QC");
+                setVilleCoords(null);
                 setRestaurants([]);
                 const lat = userPos?.lat ?? 47.3340;
                 const lng = userPos?.lng ?? -79.4335;
@@ -506,7 +495,8 @@ export default function RestaurantsPage() {
                 setRestaurants([]);
                 fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
                   .then(r => r.json())
-                  .then(d => { setRestaurants(d.restaurants || []); setLoading(false); });
+                  .then(d => { setRestaurants(d.restaurants || []); setLoading(false); })
+                  .catch(() => setLoading(false));
               }}
               className="rounded-full border border-green-200 bg-green-50 px-3 py-1 text-sm font-semibold text-green-700 hover:bg-green-100 transition-colors">
               🔍 Actualiser
