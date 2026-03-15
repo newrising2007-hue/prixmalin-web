@@ -148,7 +148,7 @@ export const PC_GAMES = [
       },
     ],
     relatedSlugs: ["fortnite", "roblox"],
-  },,
+  },
   {
     slug: "world-of-tanks",
     name: "World of Tanks",
