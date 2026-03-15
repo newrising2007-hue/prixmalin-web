@@ -70,6 +70,22 @@ export const NINTENDO_GAMES = [
     },
     relatedSlugs: ["fortnite", "genshin-impact", "dead-by-daylight"],
   },
+  {
+    slug: "pokemon-scarlet-violet",
+    name: "Pokémon Écarlate/Violet",
+    updatedAtISO: TODAY,
+    seoDescription: "Codes Pokémon Écarlate et Violet sur Nintendo : tenues et items gratuits (Canada).",
+    hero: { subtitle: "Tenues et items exclusifs.", highlights: ["Tenues", "Items", "Cadeaux mystère"] },
+    relatedSlugs: ["warframe", "roblox"],
+  },
+  {
+    slug: "honkai-star-rail",
+    name: "Honkai: Star Rail",
+    updatedAtISO: TODAY,
+    seoDescription: "Codes Honkai: Star Rail sur Nintendo : Stellar Jades gratuits (Canada).",
+    hero: { subtitle: "Stellar Jades et ressources gratuites.", highlights: ["Stellar Jades", "Crédits", "Permanent"] },
+    relatedSlugs: ["genshin-impact", "warframe"],
+  },
 ];
 
 export function getNintendoGameSlugs() {

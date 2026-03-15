@@ -70,6 +70,30 @@ export const XBOX_GAMES = [
     },
     relatedSlugs: ["fortnite", "genshin-impact", "dead-by-daylight"],
   },
+  {
+    slug: "rocket-league",
+    name: "Rocket League",
+    updatedAtISO: TODAY,
+    seoDescription: "Codes Rocket League sur Xbox : boosts et items gratuits (Canada).",
+    hero: { subtitle: "Items et boosts gratuits.", highlights: ["Boost", "Items", "Activation"] },
+    relatedSlugs: ["warframe", "call-of-duty"],
+  },
+  {
+    slug: "honkai-star-rail",
+    name: "Honkai: Star Rail",
+    updatedAtISO: TODAY,
+    seoDescription: "Codes Honkai: Star Rail sur Xbox : Stellar Jades gratuits (Canada).",
+    hero: { subtitle: "Stellar Jades et ressources gratuites.", highlights: ["Stellar Jades", "Crédits", "Permanent"] },
+    relatedSlugs: ["genshin-impact", "warframe"],
+  },
+  {
+    slug: "destiny-2",
+    name: "Destiny 2",
+    updatedAtISO: TODAY,
+    seoDescription: "Codes Destiny 2 sur Xbox : emblèmes gratuits (Canada).",
+    hero: { subtitle: "Emblèmes cosmétiques gratuits.", highlights: ["Emblèmes", "Cosmétiques", "Gratuit"] },
+    relatedSlugs: ["warframe", "call-of-duty"],
+  },
 ];
 
 export function getXboxGameSlugs() {

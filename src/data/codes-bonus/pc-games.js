@@ -187,6 +187,9 @@ const MINIMAL_SLUGS = [
   "league-of-legends",
   "roblox",
   "call-of-duty-warzone",
+  "honkai-star-rail",
+  "afk-journey",
+  "destiny-2",
 ];
 
 for (const slug of MINIMAL_SLUGS) {
