@@ -100,6 +100,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function Page({ params }: PageProps) {
   const { game: gameSlug, locale = "fr" } = await params as any;
+  function loc(it: any, field: string): string {
+    if (locale !== "fr") {
+      const k = `${field}_${locale}`;
+      if (it[k]) return it[k];
+    }
+    return it[field] ?? "";
+  }
   const t = await getTranslations({ locale, namespace: "codes_bonus" });
 
   const games = normalizeGames(psGames);
@@ -173,8 +180,8 @@ export default async function Page({ params }: PageProps) {
           {items.map((it: any) => (
             <article key={it.id} id={it.id} className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
               <div className="flex flex-col gap-1">
-                <h2 className="text-lg font-semibold">{it.title ?? t("code_bonus")}</h2>
-                {it.description ? <p className="mt-1 text-neutral-700">{it.description}</p> : null}
+                <h2 className="text-lg font-semibold">{loc(it, "title") || t("code_bonus")}</h2>
+                {loc(it, "description") ? <p className="mt-1 text-neutral-700">{loc(it, "description")}</p> : null}
               </div>
 
               <div className="mt-4 flex flex-wrap gap-2">
