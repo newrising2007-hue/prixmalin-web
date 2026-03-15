@@ -148,7 +148,38 @@ export const PC_GAMES = [
       },
     ],
     relatedSlugs: ["fortnite", "roblox"],
-  },
+  },,
+  {
+    slug: "world-of-tanks",
+    name: "World of Tanks",
+    title: "Codes World of Tanks PC : bonus gratuits et activation (Canada)",
+    seoDescription: "Codes World of Tanks PC valides : styles, bonus gratuits et activation officielle au Canada.",
+    updatedAtISO: "2026-03-15",
+    hero: {
+      subtitle: "Codes officiels World of Tanks pour obtenir des styles, bonus et récompenses gratuites.",
+      highlights: ["Codes officiels vérifiés", "Activation rapide", "Bonus gratuits"],
+    },
+    intro: [
+      "World of Tanks distribue régulièrement des codes officiels pour obtenir des styles 2D, bonus et récompenses.",
+      "PrixMalin liste uniquement des codes réels et valides.",
+    ],
+    offers: [],
+    sections: [
+      {
+        id: "activation",
+        h2: "Comment activer un code World of Tanks",
+        body: ["Active ton code sur le site officiel Wargaming : na.wargaming.net/shop/redeem/"],
+      },
+    ],
+    faq: [
+      {
+        q: "Les codes World of Tanks sont-ils gratuits ?",
+        a: "Oui, les codes officiels sont distribués gratuitement lors d\'événements.",
+      },
+    ],
+    relatedSlugs: ["warframe", "valorant"],
+  }
+
 ];
 
 // Ajoute des jeux “MVP minimal” pour éviter des trous
@@ -156,8 +187,7 @@ const MINIMAL_SLUGS = [
   "league-of-legends",
   "roblox",
   "call-of-duty-warzone",
-  "world-of-tanks",
-];
+  
 
 for (const slug of MINIMAL_SLUGS) {
   PC_GAMES.push({
