@@ -66,7 +66,7 @@ export default async function CodesBonusHub({ params }: { params: Promise<{ loca
               </span>
               {formatVerifiedDate((verifiedData as any)[console.slug]) && (
                 <span className="text-xs text-gray-400">
-                  ✅ Vérifié le {formatVerifiedDate((verifiedData as any)[console.slug])}
+                  {t("verifie_le")} {formatVerifiedDate((verifiedData as any)[console.slug])}
                 </span>
               )}
             </div>

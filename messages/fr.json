@@ -379,7 +379,11 @@
     "codes_jeu_pc": "Codes {nom} (PC)",
     "autres_jeux_xbox": "Autres jeux Xbox",
     "autres_jeux_nintendo": "Autres jeux Nintendo",
-    "codes_jeu_pc_desc": "Retrouve ici nos codes bonus et récompenses pour {nom} (PC)."
+    "codes_jeu_pc_desc": "Retrouve ici nos codes bonus et récompenses pour {nom} (PC).",
+    "seo_ok": "Cette page existe, mais aucun code n'est encore enregistré pour ce jeu.",
+    "jeux_lies": "Jeux liés",
+    "voir_tous_pc": "Voir tous les jeux PC",
+    "verifie_le": "✅ Vérifié le"
   },
   "layout": {
     "footer_affiliation": "PrixMalin est une plateforme d'affiliation. Certains liens peuvent être rémunérés. Prix affichés seulement si certains."

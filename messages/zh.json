@@ -379,7 +379,11 @@
     "codes_jeu_pc": "{nom} 代码 (PC)",
     "autres_jeux_xbox": "其他 Xbox 游戏",
     "autres_jeux_nintendo": "其他 Nintendo 游戏",
-    "codes_jeu_pc_desc": "在这里找到 {nom} (PC) 的奖励代码。"
+    "codes_jeu_pc_desc": "在这里找到 {nom} (PC) 的奖励代码。",
+    "seo_ok": "此页面存在，但尚未为此游戏添加任何代码。",
+    "jeux_lies": "相关游戏",
+    "voir_tous_pc": "查看所有PC游戏",
+    "verifie_le": "✅ 验证于"
   },
   "layout": {
     "footer_affiliation": "PrixMalin 是一个联盟营销平台。某些链接可能获得佣金。仅在有价格时显示。"

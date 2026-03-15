@@ -159,7 +159,7 @@ export default async function Page({ params }: { params: Promise<{ game: string,
         <section className="rounded-2xl border border-neutral-200 bg-white p-6">
           <h2 className="text-lg font-semibold">{t("aucun_code")}</h2>
           <p className="mt-2 text-neutral-700">
-            Cette page existe (SEO OK), mais aucun item n’est encore enregistré pour ce jeu.
+            {t("seo_ok")}
           </p>        </section>
       ) : (
         <section className="space-y-4">
@@ -186,7 +186,7 @@ export default async function Page({ params }: { params: Promise<{ game: string,
                   href="/codes-bonus/pc"
                   className="relative rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition-all duration-200 hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
                 >
-                  Voir tous les jeux PC
+                  {t("voir_tous_pc")}
                 </Link>
               </div>
             </article>
@@ -196,7 +196,7 @@ export default async function Page({ params }: { params: Promise<{ game: string,
 
       {Array.isArray(game.relatedSlugs) && game.relatedSlugs.length > 0 ? (
         <aside className="mt-10 rounded-2xl border border-neutral-200 bg-white p-6">
-          <h2 className="text-lg font-semibold">Jeux liés</h2>
+          <h2 className="text-lg font-semibold">{t("jeux_lies")}</h2>
           <div className="mt-3 flex flex-wrap gap-2">
             {game.relatedSlugs.slice(0, 12).map((slug) => (
               <Link

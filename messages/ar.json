@@ -379,7 +379,11 @@
     "codes_jeu_pc": "رموز {nom} (PC)",
     "autres_jeux_xbox": "ألعاب Xbox أخرى",
     "autres_jeux_nintendo": "ألعاب Nintendo أخرى",
-    "codes_jeu_pc_desc": "ابحث هنا عن رموز المكافآت لـ {nom} (PC)."
+    "codes_jeu_pc_desc": "ابحث هنا عن رموز المكافآت لـ {nom} (PC).",
+    "seo_ok": "هذه الصفحة موجودة، لكن لم يتم تسجيل أي رموز لهذه اللعبة بعد.",
+    "jeux_lies": "ألعاب ذات صلة",
+    "voir_tous_pc": "عرض جميع ألعاب PC",
+    "verifie_le": "✅ تم التحقق في"
   },
   "layout": {
     "footer_affiliation": "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تكون مدفوعة. الأسعار تُعرض فقط عند توفرها."
