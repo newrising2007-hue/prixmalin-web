@@ -7,6 +7,7 @@ import { buildAmazonLink } from "@/lib/affiliate";
 type Props = {
   params: Promise<{
     slug: string;
+    locale: string;
   }>;
 };
 
@@ -41,13 +42,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ProductPage({ params }: Props) {
-  const { slug } = await params;
+  const { slug, locale } = await params;
   const product = getProductBySlug(slug);
 
   if (!product) {
     notFound();
   }
 
+  const localizedDescription = (locale !== 'fr' && product[`shortDescription_${locale}` as keyof typeof product])
+    ? product[`shortDescription_${locale}` as keyof typeof product] as string
+    : product.shortDescription;
   const affiliateUrl = buildAmazonLink(product.amazonUrl);
 
   const jsonLd = {
@@ -99,7 +103,7 @@ export default async function ProductPage({ params }: Props) {
         <div className="min-w-0 flex-1">
           <h1 className="text-3xl font-bold">{product.title}</h1>
 
-          <p className="mt-4 text-black/70">{product.shortDescription}</p>
+          <p className="mt-4 text-black/70">{localizedDescription}</p>
 
           {(product as { prixVerifieLe?: string }).prixVerifieLe && (
             <p className="mt-3 text-xs text-black/40">
