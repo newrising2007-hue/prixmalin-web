@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import AffiliateButton from "@/components/AffiliateButton";
 import { getProductBySlug, getAllProductSlugs } from "@/lib/products";
@@ -52,6 +53,7 @@ export default async function ProductPage({ params }: Props) {
   const localizedDescription = (locale !== 'fr' && product[`shortDescription_${locale}` as keyof typeof product])
     ? product[`shortDescription_${locale}` as keyof typeof product] as string
     : product.shortDescription;
+  const t = await getTranslations();
   const affiliateUrl = buildAmazonLink(product.amazonUrl);
 
   const jsonLd = {
@@ -111,12 +113,11 @@ export default async function ProductPage({ params }: Props) {
             </p>
           )}
           <div className="mt-6">
-            <AffiliateButton url={product.amazonUrl} label="Voir le prix sur Amazon" />
+            <AffiliateButton url={product.amazonUrl} label={t("intent.voir_prix")} />
           </div>
 
           <p className="mt-6 text-sm text-black/60">
-            Certains liens sont affiliés. En achetant via ces liens, tu soutiens PrixMalin
-            sans coût supplémentaire.
+            {t("deals.affiliation")}
           </p>
         </div>
       </div>
