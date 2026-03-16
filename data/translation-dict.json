@@ -1,0 +1,686 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-03-16",
+  "note": "Dictionnaire vivant — segments FR → EN/ES/AR/ZH. Toutes les entrées sont vérifiées manuellement. Les entrées générées par LM Studio sont marquées 'verified: false' jusqu'à approbation.",
+  "segments": {
+    "casque de jeu": {
+      "en": "gaming headset",
+      "es": "auriculares gaming",
+      "ar": "سماعة ألعاب",
+      "zh": "游戏耳机",
+      "verified": true
+    },
+    "casque de jeu sans fil": {
+      "en": "wireless gaming headset",
+      "es": "auriculares gaming inalámbricos",
+      "ar": "سماعة ألعاب لاسلكية",
+      "zh": "无线游戏耳机",
+      "verified": true
+    },
+    "casque supra-auriculaire": {
+      "en": "over-ear headset",
+      "es": "auriculares supraaurales",
+      "ar": "سماعة فوق الأذن",
+      "zh": "头戴式耳机",
+      "verified": true
+    },
+    "doubles enceintes": {
+      "en": "dual speakers",
+      "es": "altavoces dobles",
+      "ar": "مكبرات صوت مزدوجة",
+      "zh": "双扬声器",
+      "verified": true
+    },
+    "confort légendaire": {
+      "en": "legendary comfort",
+      "es": "comodidad legendaria",
+      "ar": "راحة أسطورية",
+      "zh": "传奇舒适感",
+      "verified": true
+    },
+    "cadre en aluminium": {
+      "en": "aluminum frame",
+      "es": "marco de aluminio",
+      "ar": "إطار ألومينيوم",
+      "zh": "铝制框架",
+      "verified": true
+    },
+    "microphone amovible": {
+      "en": "detachable microphone",
+      "es": "micrófono desmontable",
+      "ar": "ميكروفون قابل للفصل",
+      "zh": "可拆卸麦克风",
+      "verified": true
+    },
+    "micro rétractable": {
+      "en": "retractable microphone",
+      "es": "micrófono retráctil",
+      "ar": "ميكروفون قابل للسحب",
+      "zh": "伸缩式麦克风",
+      "verified": true
+    },
+    "micro rétractable furtif": {
+      "en": "stealth retractable microphone",
+      "es": "micrófono retráctil discreto",
+      "ar": "ميكروفون قابل للسحب خفي",
+      "zh": "隐形伸缩麦克风",
+      "verified": true
+    },
+    "microphone à condensateur": {
+      "en": "condenser microphone",
+      "es": "micrófono de condensador",
+      "ar": "ميكروفون مكثف",
+      "zh": "电容麦克风",
+      "verified": true
+    },
+    "directivité supercardioïde": {
+      "en": "supercardioid polar pattern",
+      "es": "patrón polar supercardioide",
+      "ar": "نمط استقطاب فائق القلب",
+      "zh": "超心形指向性",
+      "verified": true
+    },
+    "capteur de coupure tactile": {
+      "en": "tap-to-mute sensor",
+      "es": "sensor táctil de silencio",
+      "ar": "مستشعر كتم الصوت باللمس",
+      "zh": "触控静音传感器",
+      "verified": true
+    },
+    "capteur de coupure d'un simple toucher": {
+      "en": "one-touch mute sensor",
+      "es": "sensor de silencio con un toque",
+      "ar": "مستشعر كتم الصوت بلمسة واحدة",
+      "zh": "一键静音传感器",
+      "verified": true
+    },
+    "indicateur LED": {
+      "en": "LED indicator",
+      "es": "indicador LED",
+      "ar": "مؤشر LED",
+      "zh": "LED指示灯",
+      "verified": true
+    },
+    "amortisseur de chocs": {
+      "en": "shock mount",
+      "es": "montura antivibración",
+      "ar": "حامل عازل للصدمات",
+      "zh": "防震支架",
+      "verified": true
+    },
+    "ultra compact": {
+      "en": "ultra compact",
+      "es": "ultracompacto",
+      "ar": "صغير الحجم للغاية",
+      "zh": "超紧凑",
+      "verified": true
+    },
+    "limiteur de gain numérique": {
+      "en": "digital gain limiter",
+      "es": "limitador de ganancia digital",
+      "ar": "محدد الكسب الرقمي",
+      "zh": "数字增益限制器",
+      "verified": true
+    },
+    "éclairage réactif": {
+      "en": "reactive lighting",
+      "es": "iluminación reactiva",
+      "ar": "إضاءة تفاعلية",
+      "zh": "响应式灯光",
+      "verified": true
+    },
+    "pour le streaming et les jeux": {
+      "en": "for streaming and gaming",
+      "es": "para streaming y juegos",
+      "ar": "للبث المباشر والألعاب",
+      "zh": "适用于直播和游戏",
+      "verified": true
+    },
+    "audio spatial haute résolution": {
+      "en": "high-resolution spatial audio",
+      "es": "audio espacial de alta resolución",
+      "ar": "صوت مكاني عالي الدقة",
+      "zh": "高分辨率空间音频",
+      "verified": true
+    },
+    "pilotes hi-fi haut de gamme": {
+      "en": "premium hi-fi drivers",
+      "es": "controladores hi-fi de alta gama",
+      "ar": "مشغلات صوت عالية الجودة",
+      "zh": "高端HiFi单元",
+      "verified": true
+    },
+    "batterie 18h": {
+      "en": "18h battery life",
+      "es": "batería de 18 horas",
+      "ar": "بطارية 18 ساعة",
+      "zh": "18小时续航",
+      "verified": true
+    },
+    "autonomie de batterie de 250 h": {
+      "en": "250h battery life",
+      "es": "autonomía de batería de 250 horas",
+      "ar": "بطارية تدوم 250 ساعة",
+      "zh": "250小时续航",
+      "verified": true
+    },
+    "dolby atmos": {
+      "en": "Dolby Atmos",
+      "es": "Dolby Atmos",
+      "ar": "دولبي أتموس",
+      "zh": "杜比全景声",
+      "verified": true
+    },
+    "son surround 7.1": {
+      "en": "7.1 surround sound",
+      "es": "sonido envolvente 7.1",
+      "ar": "صوت محيطي 7.1",
+      "zh": "7.1环绕声",
+      "verified": true
+    },
+    "souris de jeu sans fil": {
+      "en": "wireless gaming mouse",
+      "es": "ratón gaming inalámbrico",
+      "ar": "ماوس ألعاب لاسلكي",
+      "zh": "无线游戏鼠标",
+      "verified": true
+    },
+    "souris de jeu": {
+      "en": "gaming mouse",
+      "es": "ratón gaming",
+      "ar": "ماوس ألعاب",
+      "zh": "游戏鼠标",
+      "verified": true
+    },
+    "boutons programmables": {
+      "en": "programmable buttons",
+      "es": "botones programables",
+      "ar": "أزرار قابلة للبرمجة",
+      "zh": "可编程按键",
+      "verified": true
+    },
+    "mémoire intégrée": {
+      "en": "built-in memory",
+      "es": "memoria integrada",
+      "ar": "ذاكرة مدمجة",
+      "zh": "内置内存",
+      "verified": true
+    },
+    "précision de la souris": {
+      "en": "mouse precision",
+      "es": "precisión del ratón",
+      "ar": "دقة الماوس",
+      "zh": "鼠标精度",
+      "verified": true
+    },
+    "capteurs optiques et laser": {
+      "en": "optical and laser sensors",
+      "es": "sensores ópticos y láser",
+      "ar": "مستشعرات بصرية وليزرية",
+      "zh": "光学和激光传感器",
+      "verified": true
+    },
+    "légère": {
+      "en": "lightweight",
+      "es": "ligero",
+      "ar": "خفيف الوزن",
+      "zh": "轻量化",
+      "verified": true
+    },
+    "idéale pour fps": {
+      "en": "ideal for FPS",
+      "es": "ideal para FPS",
+      "ar": "مثالي لألعاب FPS",
+      "zh": "适合FPS游戏",
+      "verified": true
+    },
+    "à petit prix": {
+      "en": "at an affordable price",
+      "es": "a precio asequible",
+      "ar": "بسعر معقول",
+      "zh": "价格实惠",
+      "verified": true
+    },
+    "plusieurs couleurs disponibles": {
+      "en": "available in multiple colors",
+      "es": "disponible en varios colores",
+      "ar": "متوفر بألوان متعددة",
+      "zh": "多色可选",
+      "verified": true
+    },
+    "offert en plusieurs couleur": {
+      "en": "available in multiple colors",
+      "es": "disponible en varios colores",
+      "ar": "متوفر بألوان متعددة",
+      "zh": "多色可选",
+      "verified": true
+    },
+    "3 couleurs disponible": {
+      "en": "3 colors available",
+      "es": "3 colores disponibles",
+      "ar": "3 ألوان متاحة",
+      "zh": "3种颜色可选",
+      "verified": true
+    },
+    "clavier rgb": {
+      "en": "RGB keyboard",
+      "es": "teclado RGB",
+      "ar": "لوحة مفاتيح RGB",
+      "zh": "RGB键盘",
+      "verified": true
+    },
+    "clavier mécanique": {
+      "en": "mechanical keyboard",
+      "es": "teclado mecánico",
+      "ar": "لوحة مفاتيح ميكانيكية",
+      "zh": "机械键盘",
+      "verified": true
+    },
+    "résistant aux éclaboussures": {
+      "en": "splash-resistant",
+      "es": "resistente a salpicaduras",
+      "ar": "مقاوم للرشاش",
+      "zh": "防溅水",
+      "verified": true
+    },
+    "résistant à l'eau et à la poussière": {
+      "en": "water and dust resistant",
+      "es": "resistente al agua y al polvo",
+      "ar": "مقاوم للماء والغبار",
+      "zh": "防水防尘",
+      "verified": true
+    },
+    "commutateur de jeu silencieux": {
+      "en": "silent gaming switch",
+      "es": "switch gaming silencioso",
+      "ar": "مفتاح ألعاب صامت",
+      "zh": "静音游戏开关",
+      "verified": true
+    },
+    "anti-ghosting": {
+      "en": "anti-ghosting",
+      "es": "anti-ghosting",
+      "ar": "مانع الضغط الوهمي",
+      "zh": "防鬼键",
+      "verified": true
+    },
+    "touches personnalisables": {
+      "en": "customizable keys",
+      "es": "teclas personalizables",
+      "ar": "مفاتيح قابلة للتخصيص",
+      "zh": "可自定义按键",
+      "verified": true
+    },
+    "rgb lightsync": {
+      "en": "LIGHTSYNC RGB",
+      "es": "LIGHTSYNC RGB",
+      "ar": "إضاءة LIGHTSYNC RGB",
+      "zh": "LIGHTSYNC RGB灯效",
+      "verified": true
+    },
+    "rétroéclairage rgb": {
+      "en": "RGB backlight",
+      "es": "retroiluminación RGB",
+      "ar": "إضاءة خلفية RGB",
+      "zh": "RGB背光",
+      "verified": true
+    },
+    "manette sans fil bluetooth": {
+      "en": "Bluetooth wireless controller",
+      "es": "mando inalámbrico Bluetooth",
+      "ar": "يد تحكم لاسلكية بلوتوث",
+      "zh": "蓝牙无线手柄",
+      "verified": true
+    },
+    "compatible switch, android et pc": {
+      "en": "compatible with Switch, Android and PC",
+      "es": "compatible con Switch, Android y PC",
+      "ar": "متوافق مع Switch وAndroid والحاسوب",
+      "zh": "兼容Switch、安卓和PC",
+      "verified": true
+    },
+    "tapis de souris de gaming rgb": {
+      "en": "RGB gaming mousepad",
+      "es": "alfombrilla gaming RGB",
+      "ar": "لوحة ماوس ألعاب RGB",
+      "zh": "RGB游戏鼠标垫",
+      "verified": true
+    },
+    "entièrement illuminé": {
+      "en": "fully illuminated",
+      "es": "completamente iluminado",
+      "ar": "مضاء بالكامل",
+      "zh": "全面发光",
+      "verified": true
+    },
+    "surface microtexturée": {
+      "en": "micro-textured surface",
+      "es": "superficie microtexturizada",
+      "ar": "سطح دقيق الملمس",
+      "zh": "微纹理表面",
+      "verified": true
+    },
+    "câble usb type c détachable": {
+      "en": "detachable USB-C cable",
+      "es": "cable USB-C desmontable",
+      "ar": "كابل USB-C قابل للفصل",
+      "zh": "可拆卸USB-C线",
+      "verified": true
+    },
+    "support lombaire réglable": {
+      "en": "adjustable lumbar support",
+      "es": "soporte lumbar ajustable",
+      "ar": "دعم قطني قابل للتعديل",
+      "zh": "可调节腰部支撑",
+      "verified": true
+    },
+    "appui-tête ajustable": {
+      "en": "adjustable headrest",
+      "es": "reposacabezas ajustable",
+      "ar": "مسند رأس قابل للتعديل",
+      "zh": "可调节头枕",
+      "verified": true
+    },
+    "support lombaire massant": {
+      "en": "massaging lumbar support",
+      "es": "soporte lumbar masajeador",
+      "ar": "دعم قطني مدلك",
+      "zh": "按摩腰枕",
+      "verified": true
+    },
+    "fauteuil de style vintage en cuir pu": {
+      "en": "vintage-style PU leather chair",
+      "es": "sillón estilo vintage en cuero PU",
+      "ar": "كرسي بتصميم كلاسيكي بجلد PU",
+      "zh": "复古风格PU皮椅",
+      "verified": true
+    },
+    "chaise de bureau à dossier haut": {
+      "en": "high-back office chair",
+      "es": "silla de oficina con respaldo alto",
+      "ar": "كرسي مكتبي بظهر مرتفع",
+      "zh": "高背办公椅",
+      "verified": true
+    },
+    "chaise de jeu de course ergonomique": {
+      "en": "ergonomic racing gaming chair",
+      "es": "silla gaming ergonómica estilo racing",
+      "ar": "كرسي ألعاب بيضاوي مريح",
+      "zh": "人体工学赛车游戏椅",
+      "verified": true
+    },
+    "en cuir pvc": {
+      "en": "in PVC leather",
+      "es": "en cuero PVC",
+      "ar": "بجلد PVC",
+      "zh": "PVC皮革",
+      "verified": true
+    },
+    "grande et haute pour adultes": {
+      "en": "big and tall for adults",
+      "es": "grande y alta para adultos",
+      "ar": "كبيرة وطويلة للبالغين",
+      "zh": "适合成人的大尺寸",
+      "verified": true
+    },
+    "inclinable": {
+      "en": "reclining",
+      "es": "reclinable",
+      "ar": "قابل للإمالة",
+      "zh": "可倾斜",
+      "verified": true
+    },
+    "accoudoirs 4d": {
+      "en": "4D armrests",
+      "es": "reposabrazos 4D",
+      "ar": "مساند ذراع رباعية الأبعاد",
+      "zh": "4D扶手",
+      "verified": true
+    },
+    "mousse épaisse haute densité": {
+      "en": "thick high-density foam",
+      "es": "espuma gruesa de alta densidad",
+      "ar": "رغوة سميكة عالية الكثافة",
+      "zh": "厚实高密度泡棉",
+      "verified": true
+    },
+    "base antidérapante": {
+      "en": "non-slip base",
+      "es": "base antideslizante",
+      "ar": "قاعدة مانعة للانزلاق",
+      "zh": "防滑底座",
+      "verified": true
+    },
+    "moniteur de jeu incurvé": {
+      "en": "curved gaming monitor",
+      "es": "monitor gaming curvo",
+      "ar": "شاشة ألعاب منحنية",
+      "zh": "曲面游戏显示器",
+      "verified": true
+    },
+    "taux de rafraîchissement": {
+      "en": "refresh rate",
+      "es": "tasa de refresco",
+      "ar": "معدل التحديث",
+      "zh": "刷新率",
+      "verified": true
+    },
+    "temps de réponse": {
+      "en": "response time",
+      "es": "tiempo de respuesta",
+      "ar": "وقت الاستجابة",
+      "zh": "响应时间",
+      "verified": true
+    },
+    "sans cadre": {
+      "en": "frameless",
+      "es": "sin marco",
+      "ar": "بدون إطار",
+      "zh": "无边框",
+      "verified": true
+    },
+    "amd freesync premium": {
+      "en": "AMD FreeSync Premium",
+      "es": "AMD FreeSync Premium",
+      "ar": "AMD FreeSync Premium",
+      "zh": "AMD FreeSync Premium",
+      "verified": true
+    },
+    "hdr": {
+      "en": "HDR",
+      "es": "HDR",
+      "ar": "HDR",
+      "zh": "HDR",
+      "verified": true
+    },
+    "dalle ips": {
+      "en": "IPS panel",
+      "es": "panel IPS",
+      "ar": "لوحة IPS",
+      "zh": "IPS面板",
+      "verified": true
+    },
+    "courbure 1000r": {
+      "en": "1000R curvature",
+      "es": "curvatura 1000R",
+      "ar": "انحناء 1000R",
+      "zh": "1000R曲率",
+      "verified": true
+    },
+    "mode eye saver": {
+      "en": "Eye Saver mode",
+      "es": "modo Eye Saver",
+      "ar": "وضع Eye Saver لحماية العينين",
+      "zh": "护眼模式",
+      "verified": true
+    },
+    "extreme low motion blur": {
+      "en": "Extreme Low Motion Blur",
+      "es": "Extreme Low Motion Blur",
+      "ar": "تقليل طمس الحركة القصوى",
+      "zh": "极限低运动模糊",
+      "verified": true
+    },
+    "garantie de 3 ans": {
+      "en": "3-year warranty",
+      "es": "garantía de 3 años",
+      "ar": "ضمان 3 سنوات",
+      "zh": "3年保修",
+      "verified": true
+    },
+    "carte de capture portable": {
+      "en": "portable capture card",
+      "es": "tarjeta de captura portátil",
+      "ar": "بطاقة تقاط محمولة",
+      "zh": "便携式采集卡",
+      "verified": true
+    },
+    "enregistrement vidéo": {
+      "en": "video recording",
+      "es": "grabación de vídeo",
+      "ar": "تسجيل الفيديو",
+      "zh": "视频录制",
+      "verified": true
+    },
+    "plug & play": {
+      "en": "Plug & Play",
+      "es": "Plug & Play",
+      "ar": "تشغيل فوري بدون إعداد",
+      "zh": "即插即用",
+      "verified": true
+    },
+    "passthrough 4k": {
+      "en": "4K passthrough",
+      "es": "passthrough 4K",
+      "ar": "بث مباشر 4K",
+      "zh": "4K直通",
+      "verified": true
+    },
+    "tour atx en verre trempé": {
+      "en": "tempered glass ATX tower",
+      "es": "torre ATX con vidrio templado",
+      "ar": "هيكل ATX بزجاج مقسى",
+      "zh": "钢化玻璃ATX机箱",
+      "verified": true
+    },
+    "cadre ouvert": {
+      "en": "open frame",
+      "es": "marco abierto",
+      "ar": "هيكل مفتوح",
+      "zh": "开放式框架",
+      "verified": true
+    },
+    "ventilateurs rgb": {
+      "en": "RGB fans",
+      "es": "ventiladores RGB",
+      "ar": "مراوح RGB",
+      "zh": "RGB风扇",
+      "verified": true
+    },
+    "ventilateurs pwm argb pré-installés": {
+      "en": "pre-installed PWM ARGB fans",
+      "es": "ventiladores PWM ARGB preinstalados",
+      "ar": "مراوح PWM ARGB مثبتة مسبقاً",
+      "zh": "预装PWM ARGB风扇",
+      "verified": true
+    },
+    "double chambre": {
+      "en": "dual-chamber",
+      "es": "doble cámara",
+      "ar": "غرفة مزدوجة",
+      "zh": "双腔体设计",
+      "verified": true
+    },
+    "flux d'air": {
+      "en": "airflow",
+      "es": "flujo de aire",
+      "ar": "تدفق الهواء",
+      "zh": "气流",
+      "verified": true
+    },
+    "support de radiateur": {
+      "en": "radiator support",
+      "es": "soporte para radiador",
+      "ar": "دعم المشعاع",
+      "zh": "散热器支持",
+      "verified": true
+    },
+    "bras anti-affaissement du gpu": {
+      "en": "GPU anti-sag bracket",
+      "es": "soporte anti-pandeo de GPU",
+      "ar": "دعامة GPU لمنع الترهل",
+      "zh": "GPU防下垂支架",
+      "verified": true
+    },
+    "support de processeur mobile réglable": {
+      "en": "adjustable mobile CPU stand",
+      "es": "soporte de CPU móvil ajustable",
+      "ar": "حامل معالج متنقل قابل للتعديل",
+      "zh": "可调节移动CPU支架",
+      "verified": true
+    },
+    "roulettes": {
+      "en": "casters",
+      "es": "ruedas",
+      "ar": "عجلات",
+      "zh": "滚轮",
+      "verified": true
+    },
+    "amazon renewed": {
+      "en": "Amazon Renewed (refurbished)",
+      "es": "Amazon Renewed (reacondicionado)",
+      "ar": "Amazon Renewed (مجدد)",
+      "zh": "Amazon Renewed（翻新）",
+      "verified": true
+    },
+    "reconditionné": {
+      "en": "refurbished",
+      "es": "reacondicionado",
+      "ar": "مجدد",
+      "zh": "翻新",
+      "verified": true
+    },
+    "fonctionne sur pc, ps4, ps5": {
+      "en": "works on PC, PS4, PS5",
+      "es": "funciona en PC, PS4, PS5",
+      "ar": "يعمل على PC وPS4 وPS5",
+      "zh": "适用于PC、PS4、PS5",
+      "verified": true
+    },
+    "nintendo switch et mobile": {
+      "en": "Nintendo Switch and mobile",
+      "es": "Nintendo Switch y móvil",
+      "ar": "Nintendo Switch والهاتف المحمول",
+      "zh": "Nintendo Switch和移动设备",
+      "verified": true
+    },
+    "port usb-c": {
+      "en": "USB-C port",
+      "es": "puerto USB-C",
+      "ar": "منفذ USB-C",
+      "zh": "USB-C接口",
+      "verified": true
+    },
+    "transmission et chargement": {
+      "en": "data transfer and charging",
+      "es": "transferencia de datos y carga",
+      "ar": "نقل البيانات والشحن",
+      "zh": "数据传输和充电",
+      "verified": true
+    },
+    "qualité professionnelle": {
+      "en": "professional quality",
+      "es": "calidad profesional",
+      "ar": "جودة احترافية",
+      "zh": "专业品质",
+      "verified": true
+    },
+    "micros intégrés": {
+      "en": "built-in microphones",
+      "es": "micrófonos integrados",
+      "ar": "ميكروفونات مدمجة",
+      "zh": "内置麦克风",
+      "verified": true
+    }
+  }
+}
