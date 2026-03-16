@@ -7,12 +7,8 @@
     "category": "audio",
     "image": "/images/products/hyperx-cloud.webp",
     "badge": "Deal du jour",
-    "prix": "99.99",
-    "prixBarre": "",
-    "shortDescription_en": "Gaming headset with dual speakers, legendary comfort, aluminum frame, detachable microphone. Compatible with PC, PS4, PS5, Xbox One/Series X|S, Nintendo Switch and mobile — Red",
-    "shortDescription_ar": "محور ألعاب، مكبرات صوت مزدوجة، راحة أسطورية، إطار من الألمنيوم، ميكروفون قابل للإزالة، يعمل على الحاسوب الشخصي، بلاي ستيشن 4/5، إكس بوكس ون/سلسلة إكس|إس، نينتندو سويتش والأجهزة المحمولة - أحمر",
-    "shortDescription_es": "Altavoz de juego, doble altavoz, comodidad legendaria, carcasa de aluminio, micrófono extraíble, funciona en PC, PS4, PS5, Xbox One/Series X|S, Nintendo Switch y móvil - Rojo",
-    "shortDescription_zh": "游戏耳罩，双声道扬声器，传奇舒适度，铝制框架，可拆卸麦克风，支持PC、PS4、PS5、Xbox One/Series X|S、任天堂Switch和移动设备 - 红色"
+    "prix": "79.98",
+    "prixBarre": "89.99"
   },
   {
     "slug": "logitech-g203",
@@ -22,8 +18,9 @@
     "category": "souris",
     "image": "/images/products/logitech-g203.webp",
     "badge": "Deal du jour",
-    "prix": "49.99",
-    "prixVerifieLe": "2026-03-10"
+    "prix": "34.99",
+    "prixBarre": "49.99",
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "steelseries-arctis-nova-1",
@@ -32,10 +29,10 @@
     "amazonUrl": "https://www.amazon.ca/dp/B09ZWF9BCJ?tag=prixmalin-20",
     "category": "audio",
     "image": "/images/products/steelseries-arctis-nova-1.webp",
-    "badge": "Meilleur vendeur",
+    "badge": "Deal du jour",
     "prix": "321.98",
     "prixBarre": "349.99",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "hyperx-alloy-core",
@@ -46,7 +43,7 @@
     "image": "/images/products/hyperx-alloy-core.webp",
     "prix": "41.99",
     "prixBarre": "54.98",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2",
@@ -68,10 +65,10 @@
     "amazonUrl": "https://www.amazon.ca/dp/B0FY45N1FQ?tag=prixmalin-20",
     "category": "souris",
     "image": "/images/products/logitech-g-pro-x-superlight-2-se.webp",
-    "badge": "Nouveau",
+    "badge": "Deal du jour",
     "actif": true,
-    "prix": "199.99",
-    "prixBarre": "",
+    "prix": "189.99",
+    "prixBarre": "199.99",
     "prixVerifieLe": "2026-03-10"
   },
   {
@@ -85,7 +82,7 @@
     "actif": true,
     "prix": "59.98",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "steelseries-qck-gaming-mouse-pad-medium",
@@ -98,7 +95,7 @@
     "actif": true,
     "prix": "14.98",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "new-bee-support-pour-casque-rgb",
@@ -111,7 +108,7 @@
     "actif": true,
     "prix": "19.99",
     "prixBarre": "25.99",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "xbox-core-wireless-gaming-controller",
@@ -124,7 +121,7 @@
     "actif": true,
     "prix": "84.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "dualsense-wireless-controller-playstation",
@@ -137,11 +134,7 @@
     "actif": true,
     "prix": "94.00",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-05",
-    "shortDescription_en": "Offered in various colors",
-    "shortDescription_ar": "يُقدَّم بألوان مختلفة",
-    "shortDescription_es": "Ofrecido en diferentes colores",
-    "shortDescription_zh": "以不同颜色提供"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "logitech-g-435-lightspeed",
@@ -150,11 +143,11 @@
     "amazonUrl": "https://www.amazon.ca/dp/B08R8DT7X6?tag=prixmalin-20",
     "category": "audio",
     "image": "/images/products/logitech-g-435-lightspeed.webp",
-    "badge": "Meilleur vendeur",
+    "badge": "Deal du jour",
     "actif": true,
     "prix": "49.97",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "logitech-g305-lightspeed",
@@ -165,9 +158,9 @@
     "image": "/images/products/logitech-g305-lightspeed.webp",
     "badge": "Deal du jour",
     "actif": true,
-    "prix": "69.99",
-    "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prix": "61.00",
+    "prixBarre": "69.99",
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "logitech-g213-prodigy-rgb",
@@ -176,11 +169,11 @@
     "amazonUrl": "https://www.amazon.ca/dp/B07QGHK6Q8?tag=prixmalin-20",
     "category": "claviers",
     "image": "/images/products/logitech-g213-prodigy-rgb.webp",
-    "badge": "Meilleur vendeur",
+    "badge": "Deal du jour",
     "actif": true,
-    "prix": "79.10",
-    "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prix": "49.99",
+    "prixBarre": "69.99",
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "8bitdo-ultimate-wireless-controller",
@@ -193,7 +186,7 @@
     "actif": true,
     "prix": "44.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
@@ -206,7 +199,7 @@
     "actif": true,
     "prix": "24.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "elgato-game-capture-neo",
@@ -219,7 +212,7 @@
     "actif": true,
     "prix": "154.99",
     "prixBarre": "164.99",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "razer-firefly-v2-pro-tapis-de-souris",
@@ -232,7 +225,7 @@
     "actif": true,
     "prix": "144.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "microphone-razer-seiren-v3-chroma-rgb-usb",
@@ -241,11 +234,11 @@
     "amazonUrl": "https://www.amazon.ca/dp/B0CT7D7JVR?tag=prixmalin-20",
     "category": "accessoires",
     "image": "/images/products/microphone-razer-seiren-v3-chroma-rgb-usb.webp",
-    "badge": "Aucun",
+    "badge": "Meilleur vendeur",
     "actif": true,
-    "prix": "158.22",
+    "prix": "159.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "dowinx-chaise-de-jeu-et-bureau",
@@ -254,11 +247,11 @@
     "amazonUrl": "https://www.amazon.ca/dp/B08C9W19YL?tag=prixmalin-20",
     "category": "chaises",
     "image": "/images/products/dowinx-chaise-de-jeu-et-bureau.webp",
-    "badge": "Meilleur vendeur",
+    "badge": "Deal du jour",
     "actif": true,
-    "prix": "269.99",
-    "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prix": "249.99",
+    "prixBarre": "269.99",
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "chaise-de-jeu-avec-repose-pieds",
@@ -269,9 +262,9 @@
     "image": "/images/products/chaise-de-jeu-avec-repose-pieds.webp",
     "badge": "Deal du jour",
     "actif": true,
-    "prix": "119.98",
-    "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prix": "109.99",
+    "prixBarre": "119.99",
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "chaise-de-bureau-mimoglad",
@@ -284,7 +277,7 @@
     "actif": true,
     "prix": "169.99",
     "prixBarre": "259.99",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "kediers-boitier-c650",
@@ -297,7 +290,7 @@
     "actif": true,
     "prix": "125.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "hyxn-atx-boitier",
@@ -323,7 +316,7 @@
     "actif": true,
     "prix": "14.99",
     "prixBarre": "16.93",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "corsair-3500x-lx-r",
@@ -345,11 +338,11 @@
     "amazonUrl": "https://www.amazon.ca/dp/B0DZLZX1GL?tag=prixmalin-20",
     "category": "ecrans",
     "image": "/images/products/z-edge.webp",
-    "badge": "Deal du jour",
+    "badge": "Meilleur vendeur",
     "actif": true,
     "prix": "229.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "asus-tuf-gaming-31-5",
@@ -362,7 +355,7 @@
     "actif": true,
     "prix": "343.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "gigabyte-gs27qa",
@@ -375,7 +368,7 @@
     "actif": true,
     "prix": "219.99",
     "prixBarre": "339.99",
-    "prixVerifieLe": "2026-03-13"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "samsung-odyssey-g5",
@@ -388,7 +381,7 @@
     "actif": true,
     "prix": "239.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-13"
+    "prixVerifieLe": "2026-03-16"
   },
   {
     "slug": "microphone-razer-seiren-v3-mini-usb",
