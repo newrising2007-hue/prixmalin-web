@@ -321,14 +321,15 @@
     "image_bientot": "Image bientôt disponible",
     "voir_fiche": "Voir la fiche →",
     "voir_amazon": "Voir sur Amazon",
-    "cat_audio": "🎧 Audio",
+    "cat_audio": "🎧 Audio & Micros",
     "cat_souris": "🖱️ Souris",
     "cat_claviers": "⌨️ Claviers",
     "cat_manettes": "🎮 Manettes",
     "cat_accessoires": "🎒 Accessoires",
     "cat_chaises": "🪑 Chaises",
     "cat_ecrans": "🖥️ Écrans",
-    "cat_boitiers": "🖥️ Boîtiers PC"
+    "cat_boitiers": "🖥️ Boîtiers PC",
+    "cat_video": "📹 Vidéo & Capture"
   },
   "codes_bonus": {
     "titre": "Codes bonus gaming",

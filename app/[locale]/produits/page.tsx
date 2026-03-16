@@ -2,7 +2,7 @@ import { getAllProducts } from "@/lib/products";
 import { getTranslations } from "next-intl/server";
 import ProduitsClient from "@/components/ProduitsClient";
 
-const CATEGORY_SLUGS = ["toutes","audio","souris","claviers","manettes","accessoires","chaises","ecrans","boitiers"];
+const CATEGORY_SLUGS = ["toutes","audio","souris","claviers","manettes","accessoires","chaises","ecrans","boitiers","video"];
 
 export default async function ProduitsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
