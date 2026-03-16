@@ -137,8 +137,8 @@ export default function LayoutChrome({
                   {t.home}
                 </Link>
                 {/* ICI : Ajout de text-blue-700 pour le Gaming Header */}
-                <Link 
-                  href={locale === "fr" ? "/gaming" : `/${locale}/gaming`} 
+                <Link
+                  href={locale === "fr" ? "/gaming" : `/${locale}/gaming`}
                   className="rounded-lg px-2 py-1 text-sm font-semibold text-blue-700 hover:bg-gray-100"
                 >
                   {t.gaming}
@@ -188,9 +188,17 @@ export default function LayoutChrome({
       {/* FOOTER */}
       <footer className="mt-10 border-t">
         <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-gray-600">
-          <p>
-            {FOOTER_TEXT[pathname.split("/")[1]] ?? FOOTER_TEXT.fr}
-          </p>
+          <div className="flex flex-col items-center justify-center text-center gap-2">
+            <p>
+              {FOOTER_TEXT[pathname.split("/")[1]] ?? FOOTER_TEXT.fr}
+            </p>
+            <a
+              href="/privacy-policy"
+              className="text-sm text-blue-600 hover:text-blue-800 transition-colors underline"
+            >
+              Privacy Policy
+            </a>
+          </div>
         </div>
       </footer>
     </>
