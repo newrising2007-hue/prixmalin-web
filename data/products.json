@@ -402,5 +402,18 @@
     "prix": "69.98",
     "prixBarre": "84.99",
     "prixVerifieLe": "2026-03-16"
+  },
+  {
+    "slug": "kediers-boitier-d-ordinateur-atx-midium-tower",
+    "title": "KEDIERS Boîtier d'ordinateur ATX - Midium Tower",
+    "shortDescription": "9 ventilateurs pré-installés, boîtier d'ordinateur de type C de taille moyenne avec double vitre trempée à vue complète.",
+    "amazonUrl": "https://www.amazon.ca/dp/B0FGJ4CKHJ?tag=prixmalin-20",
+    "category": "boitiers",
+    "image": "/images/products/kediers-boitier-d-ordinateur-atx-midium-tower.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "107.99",
+    "prixBarre": "119.99",
+    "prixVerifieLe": "2026-03-16"
   }
 ]
