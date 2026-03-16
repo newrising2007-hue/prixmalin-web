@@ -389,5 +389,18 @@
     "prix": "239.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-13"
+  },
+  {
+    "slug": "microphone-razer-seiren-v3-mini-usb",
+    "title": "Microphone Razer Seiren V3 Mini USB",
+    "shortDescription": "Microphone à condensateur - Directivité supercardioïde - Capteur de coupure tactile avec indicateur LED - Amortisseur de chocs - Ultra compact - PC, Discord, OBS",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CT787NLW?tag=prixmalin-20",
+    "category": "accessoires",
+    "image": "/images/products/microphone-razer-seiren-v3-mini-usb.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "69.98",
+    "prixBarre": "84.99",
+    "prixVerifieLe": "2026-03-16"
   }
 ]
