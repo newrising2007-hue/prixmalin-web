@@ -2,13 +2,17 @@
   {
     "slug": "hyperx-cloud",
     "title": "Casque Gaming HyperX Cloud",
-    "shortDescription": "asque de jeu, doubles enceintes, confort légendaire, cadre en aluminium, microphone amovible, fonctionne sur PC, PS4, PS5, Xbox One/ Series X|S, Nintendo Switch et mobile - Rouge",
+    "shortDescription": "Casque de jeu, doubles enceintes, confort légendaire, cadre en aluminium, microphone amovible, fonctionne sur PC, PS4, PS5, Xbox One/ Series X|S, Nintendo Switch et mobile - Rouge",
     "amazonUrl": "https://www.amazon.ca/dp/B074NBSF9N?tag=prixmalin-20",
     "category": "audio",
     "image": "/images/products/hyperx-cloud.webp",
     "badge": "Deal du jour",
     "prix": "79.98",
-    "prixBarre": "89.99"
+    "prixBarre": "89.99",
+    "shortDescription_en": "gaming headset, dual speakers, legendary comfort, aluminum frame, detachable microphone, works on PC, PS4, PS5, Xbox One/ Series X|S, Nintendo Switch and mobile - Rouge",
+    "shortDescription_es": "auriculares gaming, altavoces dobles, comodidad legendaria, marco de aluminio, micrófono desmontable, funciona en PC, PS4, PS5, Xbox One/ Series X|S, Nintendo Switch y móvil - Rouge",
+    "shortDescription_ar": "سماعة ألعاب, مكبرات صوت مزدوجة, راحة أسطورية, إطار ألومينيوم, ميكروفون قابل للفصل, يعمل على PC وPS4 وPS5, Xbox One/ Series X|S, Nintendo Switch والهاتف المحمول - Rouge",
+    "shortDescription_zh": "游戏耳机, 双扬声器, 传奇舒适感, 铝制框架, 可拆卸麦克风, 适用于PC、PS4、PS5, Xbox One/ Series X|S, Nintendo Switch和移动设备 - Rouge"
   },
   {
     "slug": "logitech-g203",
