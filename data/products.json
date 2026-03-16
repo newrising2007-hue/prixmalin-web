@@ -394,7 +394,11 @@
     "actif": true,
     "prix": "69.98",
     "prixBarre": "84.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "condenser microphone - supercardioid polar pattern - tap-to-mute sensor avec indicateur LED - shock mount - ultra compact - PC, Discord, OBS",
+    "shortDescription_es": "micrófono de condensador - patrón polar supercardioide - sensor táctil de silencio avec indicateur LED - montura antivibración - ultracompacto - PC, Discord, OBS",
+    "shortDescription_ar": "ميكروفون مكثف - نمط استقطاب فائق القلب - مستشعر كتم الصوت باللمس avec indicateur LED - حامل عازل للصدمات - صغير الحجم للغاية - PC, Discord, OBS",
+    "shortDescription_zh": "电容麦克风 - 超心形指向性 - 触控静音传感器 avec indicateur LED - 防震支架 - 超紧凑 - PC, Discord, OBS"
   },
   {
     "slug": "kediers-boitier-d-ordinateur-atx-midium-tower",
