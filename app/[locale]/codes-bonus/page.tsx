@@ -47,7 +47,7 @@ export default async function CodesBonusHub({ params }: { params: Promise<{ loca
     <div className="max-w-4xl mx-auto p-6 pt-10">
       <div className="mb-6 flex items-start justify-between gap-4">
   <h1 className="text-3xl font-bold">{t("titre")}</h1>
-  <a href="mailto:contact@prixmalin.ca?subject=Soumission%20code%20gaming&body=Plateforme:%0AJeu:%0ACode:%0AR%C3%A9gion:%0AExpiration:" className="shrink-0 inline-flex items-center gap-2 rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs font-semibold text-green-700 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-green-200">{t("soumettre")}</a>
+  <a href="mailto:codegame@prixmalin.ca?subject=Soumission%20code%20gaming&body=Plateforme:%0AJeu:%0ACode:%0AR%C3%A9gion:%0AExpiration:" className="shrink-0 inline-flex items-center gap-2 rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs font-semibold text-green-700 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md hover:shadow-green-200">{t("soumettre")}</a>
 </div>
       <p className="mb-4 text-gray-700">
         {t("description")}
