@@ -388,5 +388,16 @@
   },
   "layout": {
     "footer_affiliation": "PrixMalin is an affiliate platform. Some links may be compensated. Prices shown only when available."
-  }
+  },
+  "cuisine_rotisserie": "Rotisserie",
+  "cuisine_sushi": "Sushi",
+  "cuisine_libanais": "Lebanese",
+  "cuisine_mediterraneen": "Mediterranean",
+  "cuisine_thai": "Thai",
+  "cuisine_vietnamien": "Vietnamese",
+  "cuisine_coreen": "Korean",
+  "cuisine_grec": "Greek",
+  "cuisine_halal": "Halal",
+  "cuisine_brunch": "Brunch",
+  "cuisine_foodtruck": "Food Truck"
 }

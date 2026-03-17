@@ -388,5 +388,16 @@
   },
   "layout": {
     "footer_affiliation": "PrixMalin 是一个联盟营销平台。某些链接可能获得佣金。仅在有价格时显示。"
-  }
+  },
+  "cuisine_rotisserie": "烤鸡店",
+  "cuisine_sushi": "寿司",
+  "cuisine_libanais": "黎巴嫩菜",
+  "cuisine_mediterraneen": "地中海菜",
+  "cuisine_thai": "泰国菜",
+  "cuisine_vietnamien": "越南菜",
+  "cuisine_coreen": "韩国菜",
+  "cuisine_grec": "希腊菜",
+  "cuisine_halal": "清真",
+  "cuisine_brunch": "早午餐",
+  "cuisine_foodtruck": "餐车"
 }

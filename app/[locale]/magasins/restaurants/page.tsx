@@ -23,6 +23,17 @@ const TYPES_CUISINE = [
   { value: "bar", labelKey: "cuisine_bar", emoji: "🍺" },
   { value: "végétarien", labelKey: "cuisine_vegetarien", emoji: "🥗" },
   { value: "déjeuner", labelKey: "cuisine_dejeuner", emoji: "🥞" },
+  { value: "rôtisserie", labelKey: "cuisine_rotisserie", emoji: "🍗" },
+  { value: "sushi", labelKey: "cuisine_sushi", emoji: "🍱" },
+  { value: "libanais", labelKey: "cuisine_libanais", emoji: "🥙" },
+  { value: "méditerranéen", labelKey: "cuisine_mediterraneen", emoji: "🫒" },
+  { value: "thaïlandais", labelKey: "cuisine_thai", emoji: "🍜" },
+  { value: "vietnamien", labelKey: "cuisine_vietnamien", emoji: "🍲" },
+  { value: "coréen", labelKey: "cuisine_coreen", emoji: "🥘" },
+  { value: "grec", labelKey: "cuisine_grec", emoji: "🫕" },
+  { value: "halal", labelKey: "cuisine_halal", emoji: "🌙" },
+  { value: "brunch", labelKey: "cuisine_brunch", emoji: "🥂" },
+  { value: "food-truck", labelKey: "cuisine_foodtruck", emoji: "🚚" },
 ];
 
 const SERVICES = [
