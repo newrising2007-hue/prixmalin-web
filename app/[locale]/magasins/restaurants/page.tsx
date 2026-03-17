@@ -244,7 +244,7 @@ export default function RestaurantsPage() {
   const [userPos, setUserPos] = useState<{ lat: number; lng: number } | null>(null);
   const [gpsLoading, setGpsLoading] = useState(false);
 
-  const [rayon, setRayon] = useState(80);
+  const [rayon, setRayon] = useState(45);
   const [cuisine, setCuisine] = useState("all");
   const [services, setServices] = useState<string[]>([]);
   const [reservationOnly, setReservationOnly] = useState(false);
@@ -365,7 +365,7 @@ export default function RestaurantsPage() {
 
     setLoading(true);
     setRestaurants([]);
-    fetch(isVille ? `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=20` : `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
+    fetch(isVille ? `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=20` : `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=45`)
       .then(r => r.json())
       .then(data => {
         setRestaurants(data.restaurants || []);
@@ -493,7 +493,7 @@ export default function RestaurantsPage() {
                 const lng = userPos?.lng ?? -79.4335;
                 setLoading(true);
                 setRestaurants([]);
-                fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=80`)
+                fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=45`)
                   .then(r => r.json())
                   .then(d => { setRestaurants(d.restaurants || []); setLoading(false); })
                   .catch(() => setLoading(false));
