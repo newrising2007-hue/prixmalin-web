@@ -34,6 +34,7 @@ const TYPES_CUISINE = [
   { value: "halal", labelKey: "cuisine_halal", emoji: "🌙" },
   { value: "brunch", labelKey: "cuisine_brunch", emoji: "🥂" },
   { value: "food-truck", labelKey: "cuisine_foodtruck", emoji: "🚚" },
+  { value: "sandwich", labelKey: "cuisine_sandwich", emoji: "🥪" },
 ];
 
 const SERVICES = [
