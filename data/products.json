@@ -450,5 +450,22 @@
     "prix": "104.00",
     "prixBarre": "129.99",
     "prixVerifieLe": "2026-03-17"
+  },
+  {
+    "slug": "elgato-facecam-mk-2",
+    "title": "Elgato Facecam MK.2",
+    "shortDescription": "Webcam Full HD Premium pour Streaming, Gaming, Appels Vidéo, Enregistrement, HDR Activé, Capteur Sony, Contrôle PTZ – Fonctionne avec OBS, Zoom, Teams et Plus, pour PC/Mac",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": "",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CW1S7XP5?tag=prixmalin-20",
+    "category": "video",
+    "image": "/images/products/elgato-facecam-mk-2.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "179.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-17"
   }
 ]
