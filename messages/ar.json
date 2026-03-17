@@ -269,7 +269,18 @@
     "cuisine_cafe": "مقهى / مخبز",
     "cuisine_bar": "بار / حانة",
     "cuisine_vegetarien": "نباتي",
-    "cuisine_dejeuner": "فطور"
+    "cuisine_dejeuner": "فطور",
+    "cuisine_rotisserie": "مشوي",
+    "cuisine_sushi": "سوشي",
+    "cuisine_libanais": "لبناني",
+    "cuisine_mediterraneen": "متوسطي",
+    "cuisine_thai": "تايلاندي",
+    "cuisine_vietnamien": "فيتنامي",
+    "cuisine_coreen": "كوري",
+    "cuisine_grec": "يوناني",
+    "cuisine_halal": "حلال",
+    "cuisine_brunch": "برانش",
+    "cuisine_foodtruck": "شاحنة طعام"
   },
   "deals": {
     "titre": "عروض الألعاب الكندية 🎮",
@@ -388,16 +399,5 @@
   },
   "layout": {
     "footer_affiliation": "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تكون مدفوعة. الأسعار تُعرض فقط عند توفرها."
-  },
-  "cuisine_rotisserie": "مشوي",
-  "cuisine_sushi": "سوشي",
-  "cuisine_libanais": "لبناني",
-  "cuisine_mediterraneen": "متوسطي",
-  "cuisine_thai": "تايلاندي",
-  "cuisine_vietnamien": "فيتنامي",
-  "cuisine_coreen": "كوري",
-  "cuisine_grec": "يوناني",
-  "cuisine_halal": "حلال",
-  "cuisine_brunch": "برانش",
-  "cuisine_foodtruck": "شاحنة طعام"
+  }
 }

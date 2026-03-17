@@ -269,7 +269,18 @@
     "cuisine_cafe": "Café",
     "cuisine_bar": "Bar / Pub",
     "cuisine_vegetarien": "Végétarien",
-    "cuisine_dejeuner": "Déjeuner"
+    "cuisine_dejeuner": "Déjeuner",
+    "cuisine_rotisserie": "Rôtisserie",
+    "cuisine_sushi": "Sushi",
+    "cuisine_libanais": "Libanais",
+    "cuisine_mediterraneen": "Méditerranéen",
+    "cuisine_thai": "Thaïlandais",
+    "cuisine_vietnamien": "Vietnamien",
+    "cuisine_coreen": "Coréen",
+    "cuisine_grec": "Grec",
+    "cuisine_halal": "Halal",
+    "cuisine_brunch": "Brunch",
+    "cuisine_foodtruck": "Food Truck"
   },
   "deals": {
     "titre": "Offres Gaming Canada 🎮",
@@ -388,16 +399,5 @@
   },
   "layout": {
     "footer_affiliation": "PrixMalin est une plateforme d'affiliation. Certains liens peuvent être rémunérés. Prix affichés seulement si certains."
-  },
-  "cuisine_rotisserie": "Rôtisserie",
-  "cuisine_sushi": "Sushi",
-  "cuisine_libanais": "Libanais",
-  "cuisine_mediterraneen": "Méditerranéen",
-  "cuisine_thai": "Thaïlandais",
-  "cuisine_vietnamien": "Vietnamien",
-  "cuisine_coreen": "Coréen",
-  "cuisine_grec": "Grec",
-  "cuisine_halal": "Halal",
-  "cuisine_brunch": "Brunch",
-  "cuisine_foodtruck": "Food Truck"
+  }
 }
