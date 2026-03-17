@@ -24,7 +24,11 @@
     "badge": "Deal du jour",
     "prix": "34.99",
     "prixBarre": "49.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "Précise, lightweight et ideal for FPS at an affordable price. 3 colors available.",
+    "shortDescription_es": "Précise, ligero et ideal para FPS a precio asequible. 3 colores disponibles.",
+    "shortDescription_ar": "Précise, خفيف الوزن et مثالي لألعاب FPS بسعر معقول. 3 ألوان متاحة.",
+    "shortDescription_zh": "Précise, 轻量化 et 适合FPS游戏 价格实惠. 3种颜色可选."
   },
   {
     "slug": "steelseries-arctis-nova-1",
@@ -412,5 +416,39 @@
     "prix": "107.99",
     "prixBarre": "119.99",
     "prixVerifieLe": "2026-03-16"
+  },
+  {
+    "slug": "emeet-pixy-camera-ptz",
+    "title": "EMEET PIXY Caméra PTZ",
+    "shortDescription": "ouble caméra alimentée par l'IA 4K, suivi AI, autofocus PDAF et AI 0,2 s, capteur 1/2,55\", 3 micros, préréglages, contrôle gestuel, webcam 4K pour streaming et compatible OBS",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": "",
+    "amazonUrl": "https://www.amazon.ca/dp/B06X99NFRS?tag=prixmalin-20",
+    "category": "video",
+    "image": "/images/products/emeet-pixy-camera-ptz.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "139.99",
+    "prixBarre": "218",
+    "prixVerifieLe": "2026-03-17"
+  },
+  {
+    "slug": "logitech-webcam-pro-stream-c922",
+    "title": "LOGITECH Webcam Pro Stream C922 ",
+    "shortDescription": "Streaming entièrement HD 1080p à 30 fps/720p à 60 fps",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": "",
+    "amazonUrl": "https://www.amazon.ca/dp/B01MTTMPKT?tag=prixmalin-20",
+    "category": "video",
+    "image": "/images/products/logitech-webcam-pro-stream-c922.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "104.00",
+    "prixBarre": "129.99",
+    "prixVerifieLe": "2026-03-17"
   }
 ]
