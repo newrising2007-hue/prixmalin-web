@@ -25,10 +25,10 @@
     "prix": "34.99",
     "prixBarre": "49.99",
     "prixVerifieLe": "2026-03-16",
-    "shortDescription_en": "Précise, lightweight et ideal for FPS at an affordable price. 3 colors available.",
-    "shortDescription_es": "Précise, ligero et ideal para FPS a precio asequible. 3 colores disponibles.",
-    "shortDescription_ar": "Précise, خفيف الوزن et مثالي لألعاب FPS بسعر معقول. 3 ألوان متاحة.",
-    "shortDescription_zh": "Précise, 轻量化 et 适合FPS游戏 价格实惠. 3种颜色可选."
+    "shortDescription_en": "precise, lightweight et ideal for FPS at an affordable price. 3 colors available.",
+    "shortDescription_es": "precisa, ligero et ideal para FPS a precio asequible. 3 colores disponibles.",
+    "shortDescription_ar": "دقيقة, خفيف الوزن et مثالي لألعاب FPS بسعر معقول. 3 ألوان متاحة.",
+    "shortDescription_zh": "精准, 轻量化 et 适合FPS游戏 价格实惠. 3种颜色可选."
   },
   {
     "slug": "steelseries-arctis-nova-1",
@@ -51,7 +51,11 @@
     "image": "/images/products/hyperx-alloy-core.webp",
     "prix": "41.99",
     "prixBarre": "54.98",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "RGB keyboard confortable et splash-resistant pour le gaming.",
+    "shortDescription_es": "teclado RGB confortable et resistente a salpicaduras pour le gaming.",
+    "shortDescription_ar": "لوحة مفاتيح RGB confortable et مقاوم للرشاش pour le gaming.",
+    "shortDescription_zh": "RGB键盘 confortable et 防溅水 pour le gaming."
   },
   {
     "slug": "logitech-g-pro-x-superlight-2",
