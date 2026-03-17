@@ -9,10 +9,10 @@
     "badge": "Deal du jour",
     "prix": "79.98",
     "prixBarre": "89.99",
-    "shortDescription_en": "gaming headset, dual speakers, legendary comfort, aluminum frame, detachable microphone, works on PC, PS4, PS5, Xbox One/ Series X|S, Nintendo Switch and mobile - Rouge",
-    "shortDescription_es": "auriculares gaming, altavoces dobles, comodidad legendaria, marco de aluminio, micrófono desmontable, funciona en PC, PS4, PS5, Xbox One/ Series X|S, Nintendo Switch y móvil - Rouge",
-    "shortDescription_ar": "سماعة ألعاب, مكبرات صوت مزدوجة, راحة أسطورية, إطار ألومينيوم, ميكروفون قابل للفصل, يعمل على PC وPS4 وPS5, Xbox One/ Series X|S, Nintendo Switch والهاتف المحمول - Rouge",
-    "shortDescription_zh": "游戏耳机, 双扬声器, 传奇舒适感, 铝制框架, 可拆卸麦克风, 适用于PC、PS4、PS5, Xbox One/ Series X|S, Nintendo Switch和移动设备 - Rouge"
+    "shortDescription_en": "gaming headset, dual speakers, legendary comfort, aluminum frame, detachable microphone, works on PC, PS4, PS5, xbox one/ series x|S, Nintendo Switch and mobile - red",
+    "shortDescription_es": "auriculares gaming, altavoces dobles, comodidad legendaria, marco de aluminio, micrófono desmontable, funciona en PC, PS4, PS5, xbox one/ series x|S, Nintendo Switch y móvil - rojo",
+    "shortDescription_ar": "سماعة ألعاب, مكبرات صوت مزدوجة, راحة أسطورية, إطار ألومينيوم, ميكروفون قابل للفصل, يعمل على PC وPS4 وPS5, xbox one/ series x|S, Nintendo Switch والهاتف المحمول - أحمر",
+    "shortDescription_zh": "游戏耳机, 双扬声器, 传奇舒适感, 铝制框架, 可拆卸麦克风, 适用于PC、PS4、PS5, xbox one/ series x|S, Nintendo Switch和移动设备 - 红色"
   },
   {
     "slug": "logitech-g203",
@@ -40,7 +40,11 @@
     "badge": "Deal du jour",
     "prix": "321.98",
     "prixBarre": "349.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "gaming headset multi-system - premium hi-fi drivers - high-resolution spatial audio 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - stealth retractable microphone - PC, ",
+    "shortDescription_es": "auriculares gaming multi-sistema - controladores hi-fi de alta gama - audio espacial de alta resolución 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - micrófono retráctil discreto - PC, ",
+    "shortDescription_ar": "سماعة ألعاب متعدد الأنظمة - مشغلات صوت عالية الجودة - صوت مكاني عالي الدقة 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - ميكروفون قابل للسحب خفي - PC, ",
+    "shortDescription_zh": "游戏耳机 多系统 - 高端HiFi单元 - 高分辨率空间音频 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - 隐形伸缩麦克风 - PC, "
   },
   {
     "slug": "hyperx-alloy-core",
@@ -60,7 +64,7 @@
   {
     "slug": "logitech-g-pro-x-superlight-2",
     "title": "Logitech G PRO X Superlight 2 Noir",
-    "shortDescription": " Amazon Renewed (reconditionné)",
+    "shortDescription": "Souris gaming sans fil ultra-légère — qualité professionnelle, Amazon Renewed (reconditionné).",
     "amazonUrl": "https://www.amazon.ca/dp/B0G2MV73T8?tag=prixmalin-20",
     "category": "souris",
     "image": "/images/products/logitech-g-pro-x-superlight-2.webp",
@@ -68,7 +72,11 @@
     "actif": true,
     "prix": "178.99",
     "prixBarre": "239.99",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-10",
+    "shortDescription_en": " Amazon Renewed (refurbished) (refurbished)",
+    "shortDescription_es": " Amazon Renewed (reacondicionado) (reacondicionado)",
+    "shortDescription_ar": " Amazon Renewed (مجدد) (مجدد)",
+    "shortDescription_zh": " Amazon Renewed（翻新） (翻新)"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2-se",
@@ -81,12 +89,16 @@
     "actif": true,
     "prix": "189.99",
     "prixBarre": "199.99",
-    "prixVerifieLe": "2026-03-10"
+    "prixVerifieLe": "2026-03-10",
+    "shortDescription_en": "wireless gaming mouse, 60 g de professional quality with 5 programmable buttons red",
+    "shortDescription_es": "ratón gaming inalámbrico, 60 g de calidad profesional con 5 botones programables rojo",
+    "shortDescription_ar": "ماوس ألعاب لاسلكي, 60 g de جودة احترافية مع 5 أزرار قابلة للبرمجة أحمر",
+    "shortDescription_zh": "无线游戏鼠标, 60 g de 专业品质 配有 5 可编程按键 红色"
   },
   {
     "slug": "clavier-steelseries-apex-3-rgb",
     "title": "Clavier SteelSeries Apex 3 ",
-    "shortDescription": "résistant à l'eau et à la poussière, commutateur de jeu silencieux, anti-ghosting, couleur noir/blanc, lavande, blanc et aigue-marine disp.",
+    "shortDescription": "résistant à l'eau et à la poussière, commutateur de jeu silencieux, anti-ghosting, couleur noir/blanc, lavande, blanc et aigue-marine disponible.",
     "amazonUrl": "https://www.amazon.ca/dp/B09FTNMT84?tag=prixmalin-20",
     "category": "claviers",
     "image": "/images/products/clavier-steelseries-apex-3-rgb.webp",
@@ -94,12 +106,16 @@
     "actif": true,
     "prix": "59.98",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "water and dust resistant, silent gaming switch, anti-ghosting, color black/white, lavender, white and aqua available.",
+    "shortDescription_es": "resistente al agua y al polvo, switch gaming silencioso, anti-ghosting, color negro/blanco, lavanda, blanco y aguamarina disponible.",
+    "shortDescription_ar": "مقاوم للماء والغبار, مفتاح ألعاب صامت, مانع الضغط الوهمي, لون أسود/أبيض, لافندر, أبيض و أكوا متاح.",
+    "shortDescription_zh": "防水防尘, 静音游戏开关, 防鬼键, 颜色 黑色/白色, 薰衣草色, 白色 和 水绿色 可选."
   },
   {
     "slug": "steelseries-qck-gaming-mouse-pad-medium",
     "title": "SteelSeries QcK Gaming Mouse Pad (Medium)",
-    "shortDescription": "Précision de la souris : le nombre élevé de fils et la surface lisse optimisent la précision de suivi de la souris pour les capteurs optiques et laser ",
+    "shortDescription": "Tapis de souris gaming SteelSeries QcK — surface microtexturée optimisée pour les capteurs optiques et laser. Format medium, base antidérapante.",
     "amazonUrl": "https://www.amazon.ca/dp/B000UEZ36W?tag=prixmalin-20",
     "category": "accessoires",
     "image": "/images/products/steelseries-qck-gaming-mouse-pad-medium.webp",
@@ -107,12 +123,16 @@
     "actif": true,
     "prix": "14.98",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "\n\nmouse pad de gaming mouse SteelSeries QcK — micro-textured surface optimized for optical and laser sensors. medium size, non-slip base.",
+    "shortDescription_es": "\n\nalfombrilla de ratón gaming SteelSeries QcK — superficie microtexturizada optimizada para sensores ópticos y láser. tamaño mediano, base antideslizante.",
+    "shortDescription_ar": "\n\nلوحة الفأرة de فأرة الألعاب SteelSeries QcK — سطح دقيق الملمس محسّنة لـ مستشعرات بصرية وليزرية. حجم متوسط, قاعدة مانعة للانزلاق.",
+    "shortDescription_zh": "\n\n鼠标垫 de 游戏鼠标 SteelSeries QcK — 微纹理表面 优化适用于 光学和激光传感器. 中号尺寸, 防滑底座."
   },
   {
     "slug": "new-bee-support-pour-casque-rgb",
     "title": "New bee Support pour casque RGB",
-    "shortDescription": "Transmission et chargement : le port USB-C du support de casque New Bee  2 ports intelligents : le port USB-C et le port USB peuvent charger et transférer des données pour téléphone, clavier, disque U, souris, etc. ",
+    "shortDescription": "Support pour casque RGB New Bee — 2 ports USB intelligents, transmission et chargement, compatible téléphone, clavier, souris.",
     "amazonUrl": "https://www.amazon.ca/dp/B09TSZ1G7N?tag=prixmalin-20",
     "category": "accessoires",
     "image": "/images/products/new-bee-support-pour-casque-rgb.webp",
@@ -120,12 +140,16 @@
     "actif": true,
     "prix": "19.99",
     "prixBarre": "25.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "headset stand RGB New Bee — 2 USB ports smart, data transfer and charging, compatible phone, keyboard, mouse.",
+    "shortDescription_es": "soporte para auriculares RGB New Bee — 2 puertos USB inteligentes, transferencia de datos y carga, compatible teléfono, teclado, ratón.",
+    "shortDescription_ar": "حامل سماعة RGB New Bee — 2 منافذ USB ذكية, نقل البيانات والشحن, متوافق هاتف, لوحة مفاتيح, فأرة.",
+    "shortDescription_zh": "耳机支架 RGB New Bee — 2 USB接口 智能, 数据传输和充电, 兼容 手机, 键盘, 鼠标."
   },
   {
     "slug": "xbox-core-wireless-gaming-controller",
     "title": "Xbox Core Wireless Gaming Controller",
-    "shortDescription": "Xbox Core Wireless Gaming Controller + USB-C Cable for Series X|S, One, Windows PC, Android, and iOS ",
+    "shortDescription": "Manette Xbox Core sans fil — câble USB-C inclus, compatible Series X|S, Xbox One, Windows PC, Android et iOS.",
     "amazonUrl": "https://www.amazon.ca/dp/B0FLB2TQ5Y?tag=prixmalin-20",
     "category": "manettes",
     "image": "/images/products/xbox-core-wireless-gaming-controller.webp",
@@ -138,7 +162,7 @@
   {
     "slug": "dualsense-wireless-controller-playstation",
     "title": "DualSense Wireless Controller Playstation",
-    "shortDescription": "Offert sous différentes couleur",
+    "shortDescription": "Manette DualSense PlayStation sans fil — retour haptique, gâchettes adaptatives, offerte en plusieurs couleurs.",
     "amazonUrl": "https://www.amazon.ca/dp/B0CQKLS4RP?tag=prixmalin-20",
     "category": "manettes",
     "image": "/images/products/dualsense-wireless-controller-playstation.webp",
@@ -164,7 +188,7 @@
   {
     "slug": "logitech-g305-lightspeed",
     "title": "Logitech G305 Lightspeed",
-    "shortDescription": "égère, 6 boutons programmables, autonomie de batterie de 250 h, mémoire intégrée, PC/Mac - offert en plusieurs couleur",
+    "shortDescription": "Souris gaming sans fil légère — 6 boutons programmables, autonomie 250h, mémoire intégrée, capteurs optiques.",
     "amazonUrl": "https://www.amazon.ca/dp/B086PDW7BB?tag=prixmalin-20",
     "category": "souris",
     "image": "/images/products/logitech-g305-lightspeed.webp",
@@ -177,7 +201,7 @@
   {
     "slug": "logitech-g213-prodigy-rgb",
     "title": "Logitech G213 Prodigy RGB",
-    "shortDescription": "RGB LIGHTSYNC, résistant aux éclaboussures, touches personnalisables",
+    "shortDescription": "Clavier gaming RGB LIGHTSYNC — résistant aux éclaboussures, touches personnalisables, rétroéclairage RGB.",
     "amazonUrl": "https://www.amazon.ca/dp/B07QGHK6Q8?tag=prixmalin-20",
     "category": "claviers",
     "image": "/images/products/logitech-g213-prodigy-rgb.webp",
@@ -190,7 +214,7 @@
   {
     "slug": "8bitdo-ultimate-wireless-controller",
     "title": "8BitDo Ultimate Wireless Controller",
-    "shortDescription": "Manette sans fil Bluetooth - Compatible Switch, Android et PC Offert en plusieurs couleur ",
+    "shortDescription": "Manette sans fil Bluetooth — compatible Switch, Android et PC, offerte en plusieurs couleurs.",
     "amazonUrl": "https://www.amazon.ca/dp/B0DNM3VGGG?tag=prixmalin-20",
     "category": "manettes",
     "image": "/images/products/8bitdo-ultimate-wireless-controller.webp",
@@ -372,7 +396,7 @@
   {
     "slug": "gigabyte-gs27qa",
     "title": "GIGABYTE GS27QA",
-    "shortDescription": "GIGABYTE 27\" QHD 2K 1440P 180hz IPS with AMD FreeSync Premium 1ms HDR",
+    "shortDescription": "Moniteur gaming 27 po QHD 2K 1440p 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, idéal pour le gaming compétitif.",
     "amazonUrl": "https://www.newegg.ca/gigabyte-gs27qa-sa-27-qhd-180-hz-super-speed-ips-black/p/N82E16824012083",
     "category": "ecrans",
     "image": "/images/products/gigabyte-gs27qa.webp",
@@ -424,7 +448,7 @@
   {
     "slug": "emeet-pixy-camera-ptz",
     "title": "EMEET PIXY Caméra PTZ",
-    "shortDescription": "ouble caméra alimentée par l'IA 4K, suivi AI, autofocus PDAF et AI 0,2 s, capteur 1/2,55\", 3 micros, préréglages, contrôle gestuel, webcam 4K pour streaming et compatible OBS",
+    "shortDescription": "Double caméra IA 4K PTZ — suivi AI, autofocus PDAF 0,2s, idéale pour streaming et visioconférence.",
     "shortDescription_en": "",
     "shortDescription_es": "",
     "shortDescription_ar": "",
@@ -458,7 +482,7 @@
   {
     "slug": "elgato-facecam-mk-2",
     "title": "Elgato Facecam MK.2",
-    "shortDescription": "Webcam Full HD Premium pour Streaming, Gaming, Appels Vidéo, Enregistrement, HDR Activé, Capteur Sony, Contrôle PTZ – Fonctionne avec OBS, Zoom, Teams et Plus, pour PC/Mac",
+    "shortDescription": "Webcam Full HD premium pour streaming et gaming — HDR, mise au point fixe, qualité professionnelle.",
     "shortDescription_en": "",
     "shortDescription_es": "",
     "shortDescription_ar": "",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-03-16",
+  "updated_at": "2026-03-17",
   "note": "Dictionnaire vivant — segments FR → EN/ES/AR/ZH. Toutes les entrées sont vérifiées manuellement. Les entrées générées par LM Studio sont marquées 'verified: false' jusqu'à approbation.",
   "segments": {
     "casque de jeu": {
@@ -682,26 +682,425 @@
       "zh": "内置麦克风",
       "verified": true
     },
-    "usb 4k60  passthrough,  1080p60 – pour ps5 xbox nintendo switch 2 - obs, quicktime et plus -": {
-      "en": "USB 4K60 Passthrough, 1080p60 – for PS5 Xbox Nintendo Switch 2 - OBS, ",
-      "es": "USB 4K60 Passthrough, 1080p60 – para PS5 Xbox Nintendo Switch 2 - OBS, ",
-      "ar": "SB 4K60 باسثرو، 1080p60 – لـ PS5 Xbox Nintendo Switch 2 - OBS، ",
-      "zh": "USB 4K60直通，1080p60 – 适用于PS5 Xbox Nintendo Switch 2 - OBS、Quicktime等",
+    "précise": {
+      "en": "precise",
+      "es": "precisa",
+      "ar": "دقيقة",
+      "zh": "精准",
+      "verified": true
+    },
+    "confortable": {
+      "en": "comfortable",
+      "es": "cómodo",
+      "ar": "مريح",
+      "zh": "舒适",
+      "verified": true
+    },
+    "pour le gaming": {
+      "en": "for gaming",
+      "es": "para gaming",
+      "ar": "للألعاب",
+      "zh": "适合游戏",
+      "verified": true
+    },
+    "et": {
+      "en": "and",
+      "es": "y",
+      "ar": "و",
+      "zh": "和",
+      "verified": true
+    },
+    "xbox one": {
+      "en": "xbox one",
+      "es": "xbox one",
+      "ar": "xbox one",
+      "zh": "xbox one",
+      "verified": true
+    },
+    "series x": {
+      "en": "series x",
+      "es": "series x",
+      "ar": "series x",
+      "zh": "series x",
+      "verified": true
+    },
+    "rouge": {
+      "en": "red",
+      "es": "rojo",
+      "ar": "أحمر",
+      "zh": "红色",
+      "verified": true
+    },
+    ", , , , , , / |s,  -": {
+      "en": "X|S",
+      "es": "X|S",
+      "ar": "X|S",
+      "zh": "X|S",
       "verified": false
     },
-    "-  -  avec indicateur led -  -  - pc, discord, obs": {
-      "en": "PC, Discord, OBS",
-      "es": "PC, Discord, OBS",
-      "ar": "PC, Discord, OBS",
-      "zh": "PC, Discord, OBS",
+    "multi-systèmes": {
+      "en": "multi-system",
+      "es": "multi-sistema",
+      "ar": "متعدد الأنظمة",
+      "zh": "多系统",
+      "verified": true
+    },
+    "à 360°": {
+      "en": "360°",
+      "es": "360°",
+      "ar": "360°",
+      "zh": "360°",
+      "verified": true
+    },
+    "gamedac": {
+      "en": "GameDAC",
+      "es": "GameDAC",
+      "ar": "GameDAC",
+      "zh": "GameDAC",
+      "verified": true
+    },
+    "ess sabre quad-dac": {
+      "en": "ESS Sabre Quad-DAC",
+      "es": "ESS Sabre Quad-DAC",
+      "ar": "ESS Sabre Quad-DAC",
+      "zh": "ESS Sabre Quad-DAC",
+      "verified": true
+    },
+    "gen": {
+      "en": "Gen",
+      "es": "Gen",
+      "ar": "Gen",
+      "zh": "Gen",
+      "verified": true
+    },
+    "tapis": {
+      "en": "mouse pad",
+      "es": "alfombrilla",
+      "ar": "لوحة الفأرة",
+      "zh": "鼠标垫",
+      "verified": true
+    },
+    "souris gaming": {
+      "en": "gaming mouse",
+      "es": "ratón gaming",
+      "ar": "فأرة الألعاب",
+      "zh": "游戏鼠标",
+      "verified": true
+    },
+    "steelseries qck": {
+      "en": "SteelSeries QcK",
+      "es": "SteelSeries QcK",
+      "ar": "SteelSeries QcK",
+      "zh": "SteelSeries QcK",
+      "verified": true
+    },
+    "optimisé pour les": {
+      "en": "optimized for",
+      "es": "optimizada para",
+      "ar": "محسّن لـ",
+      "zh": "优化适用于",
+      "verified": true
+    },
+    "format medium": {
+      "en": "medium size",
+      "es": "tamaño mediano",
+      "ar": "حجم متوسط",
+      "zh": "中号尺寸",
+      "verified": true
+    },
+    "avec": {
+      "en": "with",
+      "es": "con",
+      "ar": "مع",
+      "zh": "配有",
       "verified": false
     },
-    ", , , , , , xbox one/ series x|s,  - rouge": {
-      "en": "xbox one/ series x|s, - red",
-      "es": "xbox one/ series x|s, - rojo",
-      "ar": "- xbox one/ series x|s،- أحمر",
-      "zh": "xbox one/ series x|s，- 红色",
+    "couleur": {
+      "en": "color",
+      "es": "color",
+      "ar": "لون",
+      "zh": "颜色",
+      "verified": true
+    },
+    "noir": {
+      "en": "black",
+      "es": "negro",
+      "ar": "أسود",
+      "zh": "黑色",
+      "verified": true
+    },
+    "blanc": {
+      "en": "white",
+      "es": "blanco",
+      "ar": "أبيض",
+      "zh": "白色",
+      "verified": true
+    },
+    "lavande": {
+      "en": "lavender",
+      "es": "lavanda",
+      "ar": "لافندر",
+      "zh": "薰衣草色",
+      "verified": true
+    },
+    "aigue-marine": {
+      "en": "aqua",
+      "es": "aguamarina",
+      "ar": "أكوا",
+      "zh": "水绿色",
+      "verified": true
+    },
+    "disponible": {
+      "en": "available",
+      "es": "disponible",
+      "ar": "متاح",
+      "zh": "可选",
+      "verified": true
+    },
+    "bleu": {
+      "en": "blue",
+      "es": "azul",
+      "ar": "أزرق",
+      "zh": "蓝色",
+      "verified": true
+    },
+    "vert": {
+      "en": "green",
+      "es": "verde",
+      "ar": "أخضر",
+      "zh": "绿色",
+      "verified": true
+    },
+    "jaune": {
+      "en": "yellow",
+      "es": "amarillo",
+      "ar": "أصفر",
+      "zh": "黄色",
+      "verified": true
+    },
+    "violet": {
+      "en": "purple",
+      "es": "morado",
+      "ar": "بنفسجي",
+      "zh": "紫色",
+      "verified": true
+    },
+    "rose": {
+      "en": "pink",
+      "es": "rosa",
+      "ar": "وردي",
+      "zh": "粉色",
+      "verified": true
+    },
+    "gris": {
+      "en": "gray",
+      "es": "gris",
+      "ar": "رمادي",
+      "zh": "灰色",
+      "verified": true
+    },
+    "orange": {
+      "en": "orange",
+      "es": "naranja",
+      "ar": "برتقالي",
+      "zh": "橙色",
+      "verified": true
+    },
+    "beige": {
+      "en": "beige",
+      "es": "beige",
+      "ar": "بيج",
+      "zh": "米色",
+      "verified": true
+    },
+    "doré": {
+      "en": "gold",
+      "es": "dorado",
+      "ar": "ذهبي",
+      "zh": "金色",
+      "verified": true
+    },
+    "argenté": {
+      "en": "silver",
+      "es": "plateado",
+      "ar": "فضي",
+      "zh": "银色",
+      "verified": true
+    },
+    "optimisée pour les": {
+      "en": "optimized for",
+      "es": "optimizada para",
+      "ar": "محسّنة لـ",
+      "zh": "优化适用于",
+      "verified": true
+    },
+    "optimisé pour": {
+      "en": "optimized for",
+      "es": "optimizado para",
+      "ar": "محسّن لـ",
+      "zh": "优化适用于",
+      "verified": true
+    },
+    "support pour casque": {
+      "en": "headset stand",
+      "es": "soporte para auriculares",
+      "ar": "حامل سماعة",
+      "zh": "耳机支架",
+      "verified": true
+    },
+    "ports usb": {
+      "en": "USB ports",
+      "es": "puertos USB",
+      "ar": "منافذ USB",
+      "zh": "USB接口",
+      "verified": true
+    },
+    "intelligents": {
+      "en": "smart",
+      "es": "inteligentes",
+      "ar": "ذكية",
+      "zh": "智能",
+      "verified": true
+    },
+    "compatible": {
+      "en": "compatible",
+      "es": "compatible",
+      "ar": "متوافق",
+      "zh": "兼容",
+      "verified": true
+    },
+    "téléphone": {
+      "en": "phone",
+      "es": "teléfono",
+      "ar": "هاتف",
+      "zh": "手机",
+      "verified": true
+    },
+    "clavier": {
+      "en": "keyboard",
+      "es": "teclado",
+      "ar": "لوحة مفاتيح",
+      "zh": "键盘",
+      "verified": true
+    },
+    "souris": {
+      "en": "mouse",
+      "es": "ratón",
+      "ar": "فأرة",
+      "zh": "鼠标",
+      "verified": true
+    },
+    "rgb new bee": {
+      "en": "RGB New Bee",
+      "es": "RGB New Bee",
+      "ar": "RGB New Bee",
+      "zh": "RGB New Bee",
       "verified": false
+    },
+    "manette sans fil": {
+      "en": "wireless controller",
+      "es": "mando inalámbrico",
+      "ar": "يد تحكم لاسلكية",
+      "zh": "无线手柄",
+      "verified": true
+    },
+    "manette gaming": {
+      "en": "gaming controller",
+      "es": "mando gaming",
+      "ar": "يد تحكم للألعاب",
+      "zh": "游戏手柄",
+      "verified": true
+    },
+    "câble usb-c inclus": {
+      "en": "USB-C cable included",
+      "es": "cable USB-C incluido",
+      "ar": "كابل USB-C مرفق",
+      "zh": "含USB-C线",
+      "verified": true
+    },
+    "retour haptique": {
+      "en": "haptic feedback",
+      "es": "retroalimentación háptica",
+      "ar": "ردود فعل لمسية",
+      "zh": "触觉反馈",
+      "verified": true
+    },
+    "gâchettes adaptatives": {
+      "en": "adaptive triggers",
+      "es": "gatillos adaptativos",
+      "ar": "زناد تكيفي",
+      "zh": "自适应扳机",
+      "verified": true
+    },
+    "offerte en plusieurs couleurs": {
+      "en": "available in multiple colors",
+      "es": "disponible en varios colores",
+      "ar": "متوفر بألوان متعددة",
+      "zh": "多色可选",
+      "verified": true
+    },
+    "webcam full hd": {
+      "en": "full HD webcam",
+      "es": "webcam Full HD",
+      "ar": "كاميرا ويب Full HD",
+      "zh": "全高清网络摄像头",
+      "verified": true
+    },
+    "streaming et gaming": {
+      "en": "streaming and gaming",
+      "es": "streaming y gaming",
+      "ar": "البث والألعاب",
+      "zh": "直播和游戏",
+      "verified": true
+    },
+    "mise au point fixe": {
+      "en": "fixed focus",
+      "es": "enfoque fijo",
+      "ar": "تركيز ثابت",
+      "zh": "固定对焦",
+      "verified": true
+    },
+    "suivi ai": {
+      "en": "AI tracking",
+      "es": "seguimiento IA",
+      "ar": "تتبع ذكاء اصطناعي",
+      "zh": "AI跟踪",
+      "verified": true
+    },
+    "visioconférence": {
+      "en": "video conferencing",
+      "es": "videoconferencia",
+      "ar": "مؤتمر مرئي",
+      "zh": "视频会议",
+      "verified": true
+    },
+    "sans fil": {
+      "en": "wireless",
+      "es": "inalámbrico",
+      "ar": "لاسلكي",
+      "zh": "无线",
+      "verified": true
+    },
+    "ultra-légère": {
+      "en": "ultra-lightweight",
+      "es": "ultraligero",
+      "ar": "خفيف جداً",
+      "zh": "超轻",
+      "verified": true
+    },
+    "idéal pour le gaming compétitif": {
+      "en": "ideal for competitive gaming",
+      "es": "ideal para gaming competitivo",
+      "ar": "مثالي للألعاب التنافسية",
+      "zh": "适合竞技游戏",
+      "verified": true
+    },
+    "moniteur gaming": {
+      "en": "gaming monitor",
+      "es": "monitor gaming",
+      "ar": "شاشة ألعاب",
+      "zh": "游戏显示器",
+      "verified": true
     }
   }
 }
