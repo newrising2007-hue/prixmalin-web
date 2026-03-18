@@ -2,15 +2,16 @@
 
 import React, { useState, useEffect } from 'react';
 import { Share2 } from 'lucide-react';
+import Image from 'next/image';
 
 type Locale = 'fr' | 'en' | 'es' | 'ar' | 'zh';
 
-const SHARE_TEXT: Record<Locale, { share: string; copy: string; copied: string }> = {
-  fr: { share: 'Partager', copy: 'Copier le lien', copied: 'Lien copié !' },
-  en: { share: 'Share',    copy: 'Copy link',      copied: 'Copied!'       },
-  es: { share: 'Compartir',copy: 'Copiar enlace',  copied: '¡Copiado!'     },
-  ar: { share: 'مشاركة',   copy: 'نسخ الرابط',    copied: 'تم النسخ'      },
-  zh: { share: '分享',      copy: '复制链接',        copied: '已复制'         },
+const SHARE_TEXT: Record<Locale, { share: string }> = {
+  fr: { share: 'Partager' },
+  en: { share: 'Share'    },
+  es: { share: 'Compartir'},
+  ar: { share: 'مشاركة'   },
+  zh: { share: '分享'      },
 };
 
 interface ShareButtonsProps {
@@ -18,12 +19,10 @@ interface ShareButtonsProps {
 }
 
 const ShareButtons: React.FC<ShareButtonsProps> = ({ locale = 'fr' }) => {
-  const [copied, setCopied] = useState(false);
   const [currentUrl, setCurrentUrl] = useState('');
   const [canNativeShare, setCanNativeShare] = useState(false);
   const t = SHARE_TEXT[locale] ?? SHARE_TEXT.fr;
 
-  // Résoudre côté client seulement — évite l'erreur d'hydration
   useEffect(() => {
     setCurrentUrl(window.location.href);
     setCanNativeShare(!!navigator.share);
@@ -35,17 +34,10 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ locale = 'fr' }) => {
     } catch {}
   };
 
-  const handleCopy = async () => {
-    try {
-      await navigator.clipboard.writeText(currentUrl);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch {}
-  };
+  const messengerUrl = `https://m.me/share?link=${encodeURIComponent(currentUrl)}`;
+  const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(currentUrl)}`;
 
-  const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
-
-  // Mobile : icône share native
+  // Mobile : share natif
   if (canNativeShare) {
     return (
       <button
@@ -58,7 +50,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ locale = 'fr' }) => {
     );
   }
 
-  // Desktop : label + Facebook + Copier lien
+  // Desktop : label + Messenger + WhatsApp
   return (
     <div className="flex items-center gap-3">
       <div className="flex items-center gap-1.5 text-blue-400 select-none">
@@ -68,26 +60,29 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ locale = 'fr' }) => {
         </span>
       </div>
       <div className="flex gap-2">
+        {/* Messenger */}
         <a
-          href={facebookUrl}
+          href={messengerUrl}
           target="_blank"
           rel="noopener noreferrer"
-          title="Facebook"
-          className="relative w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white text-xl font-bold font-sans hover:scale-110 transition-all duration-300 shadow-md overflow-hidden"
-        >
-          f
-          <span className="absolute w-0.5 h-0.5 bg-white rounded-full top-2 left-3 opacity-70 animate-pulse"></span>
-          <span className="absolute w-0.5 h-0.5 bg-white rounded-full bottom-3 right-2 opacity-40"></span>
-        </a>
-        <button
-          onClick={handleCopy}
-          title={copied ? t.copied : t.copy}
+          title="Messenger"
           className="relative w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white text-xl hover:scale-110 transition-all duration-300 shadow-md overflow-hidden"
         >
-          {copied ? '✓' : '⚡'}
+          ⚡
           <span className="absolute w-0.5 h-0.5 bg-white rounded-full top-3 right-2 opacity-80 animate-pulse"></span>
           <span className="absolute w-0.5 h-0.5 bg-white rounded-full bottom-2 left-3 opacity-50"></span>
-        </button>
+        </a>
+
+        {/* WhatsApp */}
+        <a
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="WhatsApp"
+          className="relative w-10 h-10 rounded-full bg-green-500 flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-md overflow-hidden"
+        >
+          <Image src="/icons/whatsapp.png" alt="WhatsApp" width={24} height={24} />
+        </a>
       </div>
     </div>
   );
