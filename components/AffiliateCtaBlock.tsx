@@ -43,7 +43,6 @@ export default function AffiliateCtaBlock({
       </div>
 
       <p className="text-xs text-gray-500">{note}</p>
-
     </section>
   );
 }
