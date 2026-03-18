@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LanguageSwitch from "@/components/LanguageSwitch";
+import ShareButtons from "@/components/ShareButtons";
 
 type Locale = "fr" | "en" | "es" | "ar" | "zh";
 
@@ -65,7 +66,10 @@ export default function LayoutChrome({
                 </Link>
               </div>
             </div>
-            <LanguageSwitch />
+            <div className="flex items-center gap-2">
+              <LanguageSwitch />
+              <ShareButtons locale={locale} />
+            </div>
           </div>
         </header>
       )}
@@ -111,6 +115,7 @@ export default function LayoutChrome({
               </Link>
               <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">{t.contact}</a>
               <LanguageSwitch />
+              <ShareButtons locale={locale} />
 
             </nav>
           </div>
@@ -169,6 +174,7 @@ export default function LayoutChrome({
               )}
               <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">{t.contact}</a>
               <LanguageSwitch />
+              <ShareButtons locale={locale} />
             </nav>
           </div>
         </header>
