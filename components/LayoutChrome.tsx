@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import LanguageSwitch from "@/components/LanguageSwitch";
-import ShareButtons from "@/components/apps/ShareButtons";
 
 type Locale = "fr" | "en" | "es" | "ar" | "zh";
 
@@ -67,9 +66,6 @@ export default function LayoutChrome({
               </div>
             </div>
             <LanguageSwitch />
-            <div className="hidden sm:flex items-center ml-2">
-              <ShareButtons />
-            </div>
           </div>
         </header>
       )}
@@ -115,9 +111,13 @@ export default function LayoutChrome({
               </Link>
               <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">{t.contact}</a>
               <LanguageSwitch />
-              <div className="hidden sm:flex items-center ml-2">
-                <ShareButtons />
-              </div>
+              <Link
+                href={locale === "fr" ? "/magasins/recherche" : `/${locale}/magasins/recherche`}
+                className="hidden rounded-xl px-3 py-2 font-semibold text-white shadow-sm transition hover:opacity-90 sm:inline-block"
+                style={{ background: "linear-gradient(135deg, #16a34a, #059669)" }}
+              >
+                {t.shopBtn}
+              </Link>
             </nav>
           </div>
         </header>
@@ -175,9 +175,6 @@ export default function LayoutChrome({
               )}
               <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">{t.contact}</a>
               <LanguageSwitch />
-              <div className="hidden sm:flex items-center ml-2">
-                <ShareButtons />
-              </div>
             </nav>
           </div>
         </header>
