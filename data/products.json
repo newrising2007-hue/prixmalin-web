@@ -230,11 +230,11 @@
     "actif": true,
     "prix": "44.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-16",
-    "shortDescription_en": "",
-    "shortDescription_es": "",
-    "shortDescription_ar": "",
-    "shortDescription_zh": ""
+    "prixVerifieLe": "2026-03-19",
+    "shortDescription_en": "Bluetooth wireless controller — compatible with Switch, Android and PC, available in multiple colors.",
+    "shortDescription_es": "mando inalámbrico Bluetooth — compatible con Switch, Android y PC, disponible en varios colores.",
+    "shortDescription_ar": "يد تحكم لاسلكية بلوتوث — متوافق مع Switch وAndroid والحاسوب, متوفر بألوان متعددة.",
+    "shortDescription_zh": "蓝牙无线手柄 — 兼容Switch、安卓和PC, 多色可选."
   },
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
