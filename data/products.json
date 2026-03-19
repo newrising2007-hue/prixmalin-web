@@ -185,9 +185,13 @@
     "image": "/images/products/logitech-g-435-lightspeed.webp",
     "badge": "Deal du jour",
     "actif": true,
-    "prix": "49.97",
+    "prix": "64.99",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-19",
+    "shortDescription_en": "Bluetooth wireless controller — compatible with Switch, Android and PC, available in multiple colors.",
+    "shortDescription_es": "mando inalámbrico Bluetooth — compatible con Switch, Android y PC, disponible en varios colores.",
+    "shortDescription_ar": "يد تحكم لاسلكية بلوتوث — متوافق مع Switch وAndroid والحاسوب, متوفر بألوان متعددة.",
+    "shortDescription_zh": "蓝牙无线手柄 — 兼容Switch、安卓和PC, 多色可选."
   },
   {
     "slug": "logitech-g305-lightspeed",
