@@ -2,7 +2,7 @@
   {
     "slug": "hyperx-cloud",
     "title": "Casque Gaming HyperX Cloud",
-    "shortDescription": "Casque de jeu, doubles enceintes, confort légendaire, cadre en aluminium, microphone amovible, fonctionne sur PC, PS4, PS5, Xbox One/ Series X|S, Nintendo Switch et mobile - Rouge",
+    "shortDescription": "Casque gaming filaire — cadre en aluminium, doubles enceintes, microphone amovible, compatible PC, PS4, PS5, Xbox et Nintendo Switch.",
     "amazonUrl": "https://www.amazon.ca/dp/B074NBSF9N?tag=prixmalin-20",
     "category": "audio",
     "image": "/images/products/hyperx-cloud.webp",
@@ -33,7 +33,7 @@
   {
     "slug": "steelseries-arctis-nova-1",
     "title": "Casque gaming SteelSeries Arctis Nova Pro",
-    "shortDescription": "Casque de jeu multi-systèmes - Pilotes Hi-Fi haut de gamme - Audio spatial haute résolution à 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - Micro rétractable furtif - PC,",
+    "shortDescription": "Casque gaming multi-systèmes — audio spatial 360°, micro rétractable, compatible PC, PS4, PS5, Xbox et Nintendo Switch.",
     "amazonUrl": "https://www.amazon.ca/dp/B09ZWF9BCJ?tag=prixmalin-20",
     "category": "audio",
     "image": "/images/products/steelseries-arctis-nova-1.webp",
@@ -81,7 +81,7 @@
   {
     "slug": "logitech-g-pro-x-superlight-2-se",
     "title": "Logitech G PRO X Superlight 2 SE ",
-    "shortDescription": "Souris de jeu sans fil, 60 g de qualité professionnelle avec 5 boutons programmables Rouge",
+    "shortDescription": "Souris gaming sans fil ultra-légère 60 g — 5 boutons programmables, qualité professionnelle, disponible en rouge.",
     "amazonUrl": "https://www.amazon.ca/dp/B0FY45N1FQ?tag=prixmalin-20",
     "category": "souris",
     "image": "/images/products/logitech-g-pro-x-superlight-2-se.webp",
@@ -98,7 +98,7 @@
   {
     "slug": "clavier-steelseries-apex-3-rgb",
     "title": "Clavier SteelSeries Apex 3 ",
-    "shortDescription": "résistant à l'eau et à la poussière, commutateur de jeu silencieux, anti-ghosting, couleur noir/blanc, lavande, blanc et aigue-marine disponible.",
+    "shortDescription": "Clavier gaming RGB résistant aux éclaboussures et à la poussière — commutateurs silencieux, anti-ghosting, disponible en plusieurs couleurs.",
     "amazonUrl": "https://www.amazon.ca/dp/B09FTNMT84?tag=prixmalin-20",
     "category": "claviers",
     "image": "/images/products/clavier-steelseries-apex-3-rgb.webp",
@@ -247,7 +247,7 @@
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
     "title": "Razer Gigantus V2 Mouse Pad Large",
-    "shortDescription": "mousse épaisse haute densité - Base antidérapante",
+    "shortDescription": "Tapis de souris gaming grand format — mousse haute densité, surface optimisée, base antidérapante.",
     "amazonUrl": "https://www.amazon.ca/dp/B0885NTLKJ?tag=prixmalin-20",
     "category": "accessoires",
     "image": "/images/products/razer-gigantus-v2-mouse-pad-large.webp",
@@ -264,7 +264,7 @@
   {
     "slug": "elgato-game-capture-neo",
     "title": "Elgato Game Capture Neo",
-    "shortDescription": "Carte de capture portable USB 4K60 HDR Passthrough, enregistrement vidéo 1080p60, Pour PS5 Xbox Nintendo Switch 2 - OBS, Quicktime et plus - Plug & Play",
+    "shortDescription": "Carte de capture USB 4K60 HDR — enregistrement 1080p60, compatible PS5, Xbox, Nintendo Switch 2, Plug & Play.",
     "amazonUrl": "https://www.amazon.ca/dp/B0CVYKQNFH?tag=prixmalin-20",
     "category": "video",
     "image": "/images/products/elgato-game-capture-neo.webp",
@@ -281,7 +281,7 @@
   {
     "slug": "razer-firefly-v2-pro-tapis-de-souris",
     "title": "Razer Firefly V2 Pro Tapis de souris",
-    "shortDescription": "Tapis de souris de gaming RGB entièrement illuminé : Design rétroéclairé - Éclairage Chroma sur 15 zones - Port USB 2.0 - Câble USB Type C détachable - Surface microtexturée",
+    "shortDescription": "Tapis de souris gaming RGB — éclairage Chroma 15 zones, surface microtexturée, câble USB-C détachable.",
     "amazonUrl": "https://www.amazon.ca/dp/B0CY6RJRBR?tag=prixmalin-20",
     "category": "accessoires",
     "image": "/images/products/razer-firefly-v2-pro-tapis-de-souris.webp",
@@ -294,7 +294,7 @@
   {
     "slug": "microphone-razer-seiren-v3-chroma-rgb-usb",
     "title": "Microphone Razer Seiren V3 Chroma RGB USB",
-    "shortDescription": "éclairage réactif pour le streaming et les jeux - capteur de coupure d'un simple toucher - microphone à condensateur - limiteur de gain numérique, offert en 3 couleurs",
+    "shortDescription": "Microphone USB à condensateur RGB — coupure tactile, limiteur de gain, idéal pour streaming et gaming, offert en 3 couleurs.",
     "amazonUrl": "https://www.amazon.ca/dp/B0CT7D7JVR?tag=prixmalin-20",
     "category": "audio",
     "image": "/images/products/microphone-razer-seiren-v3-chroma-rgb-usb.webp",
@@ -307,7 +307,7 @@
   {
     "slug": "dowinx-chaise-de-jeu-et-bureau",
     "title": "Dowinx Chaise de jeu et  bureau",
-    "shortDescription": "support lombaire massant, fauteuil de style vintage en cuir PU",
+    "shortDescription": "Chaise gaming style vintage — cuir PU, support lombaire massant, inclinable, idéale pour les longues sessions.",
     "amazonUrl": "https://www.amazon.ca/dp/B08C9W19YL?tag=prixmalin-20",
     "category": "chaises",
     "image": "/images/products/dowinx-chaise-de-jeu-et-bureau.webp",
@@ -375,7 +375,7 @@
   {
     "slug": "hyxn-atx-boitier",
     "title": "HYXN ATX Boîtier",
-    "shortDescription": "8 ventilateurs PWM ARGB pré-installés (6 x 140 mm, 2 x 120 mm), grand boîtier PC de jeu ATX à double chambre ATX à flux d'air moyen, support de radiateur de 420 mm",
+    "shortDescription": "Grand boîtier PC gaming ATX double chambre — 8 ventilateurs PWM ARGB pré-installés, support radiateur 420 mm.",
     "amazonUrl": "https://www.amazon.ca/dp/B0G3511PGL?tag=prixmalin-20",
     "category": "boitiers",
     "image": "/images/products/hyxn-atx-boitier.webp",
@@ -414,7 +414,7 @@
   {
     "slug": "z-edge",
     "title": "Z-Edge",
-    "shortDescription": "Moniteur de jeu incurvé de 27 pouces 16:9 1920x1080 300Hz 1ms sans cadre LED, UG27S, AMD Freesync Premium, Display Port HDMI",
+    "shortDescription": "Moniteur gaming incurvé 27 po Full HD — 300Hz, 1ms, sans cadre, AMD FreeSync Premium, ports HDMI et DisplayPort.",
     "amazonUrl": "https://www.amazon.ca/dp/B0DZLZX1GL?tag=prixmalin-20",
     "category": "ecrans",
     "image": "/images/products/z-edge.webp",
@@ -427,7 +427,7 @@
   {
     "slug": "asus-tuf-gaming-31-5",
     "title": "ASUS TUF Gaming 31,5’’ ",
-    "shortDescription": "Moniteur gaming incurvé 27 po QHD 1440p — 180Hz, 1ms, HDR, FreeSync Premium, idéal pour le gaming compétitif.",
+    "shortDescription": "Moniteur gaming incurvé 31,5 po QHD 1440p, 180Hz, 0,5ms, HDR, FreeSync, courbure 1500R, idéal pour le gaming compétitif et créatif. Garantie 3 ans.",
     "amazonUrl": "https://www.amazon.ca/dp/B0DQ9MMZVV?tag=prixmalin-20",
     "category": "ecrans",
     "image": "/images/products/asus-tuf-gaming-31-5.webp",
@@ -461,7 +461,7 @@
   {
     "slug": "samsung-odyssey-g5",
     "title": "Samsung Odyssey G5",
-    "shortDescription": "Moniteur de jeu incurvé de 27 pouces (2 560 x 1 440) G55C QHD 165 Hz 1 ms, HDR10, FreeSync, mode Eye Saver, courbure 1000R, LS27CG550ENXZA",
+    "shortDescription": "Moniteur gaming incurvé 27 po QHD 1440p — 165Hz, 1ms, HDR10, FreeSync, courbure 1000R, mode Eye Saver.",
     "amazonUrl": "https://www.amazon.ca/dp/B0CRGR6KLN?tag=prixmalin-20",
     "category": "ecrans",
     "image": "/images/products/samsung-odyssey-g5.webp",
@@ -474,7 +474,7 @@
   {
     "slug": "microphone-razer-seiren-v3-mini-usb",
     "title": "Microphone Razer Seiren V3 Mini USB",
-    "shortDescription": "Microphone à condensateur - Directivité supercardioïde - Capteur de coupure tactile avec indicateur LED - Amortisseur de chocs - Ultra compact - PC, Discord, OBS",
+    "shortDescription": "Microphone USB ultra compact — condensateur supercardioïde, coupure tactile LED, compatible PC, Discord et OBS.",
     "amazonUrl": "https://www.amazon.ca/dp/B0CT787NLW?tag=prixmalin-20",
     "category": "audio",
     "image": "/images/products/microphone-razer-seiren-v3-mini-usb.webp",
@@ -517,7 +517,7 @@
   {
     "slug": "logitech-webcam-pro-stream-c922",
     "title": "LOGITECH Webcam Pro Stream C922 ",
-    "shortDescription": "Streaming entièrement HD 1080p à 30 fps/720p à 60 fps",
+    "shortDescription": "Webcam streaming HD — 1080p à 30 fps ou 720p à 60 fps, idéale pour le streaming et la visioconférence.",
     "shortDescription_en": "",
     "shortDescription_es": "",
     "shortDescription_ar": "",

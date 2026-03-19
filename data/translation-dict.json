@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-03-17",
+  "updated_at": "2026-03-19",
   "note": "Dictionnaire vivant — segments FR → EN/ES/AR/ZH. Toutes les entrées sont vérifiées manuellement. Les entrées générées par LM Studio sont marquées 'verified: false' jusqu'à approbation.",
   "segments": {
     "casque de jeu": {
@@ -1101,6 +1101,967 @@
       "ar": "شاشة ألعاب",
       "zh": "游戏显示器",
       "verified": true
+    },
+    "streaming": {
+      "en": "streaming",
+      "es": "streaming",
+      "ar": "بث مباشر",
+      "zh": "直播"
+    },
+    "entièrement HD": {
+      "en": "full HD",
+      "es": "completamente HD",
+      "ar": "عالي الدقة بالكامل",
+      "zh": "全高清"
+    },
+    "1080p": {
+      "en": "1080p",
+      "es": "1080p",
+      "ar": "1080p",
+      "zh": "1080p"
+    },
+    "720p": {
+      "en": "720p",
+      "es": "720p",
+      "ar": "720p",
+      "zh": "720p"
+    },
+    "30 fps": {
+      "en": "30 fps",
+      "es": "30 fps",
+      "ar": "30 إطار في الثانية",
+      "zh": "每秒30帧"
+    },
+    "60 fps": {
+      "en": "60 fps",
+      "es": "60 fps",
+      "ar": "60 إطار في الثانية",
+      "zh": "每秒60帧"
+    },
+    "9 ventilateurs pré-installés": {
+      "en": "9 pre-installed fans",
+      "es": "9 ventiladores preinstalados",
+      "ar": "9 مراوح مثبتة مسبقاً",
+      "zh": "9个预装风扇"
+    },
+    "boîtier d'ordinateur": {
+      "en": "computer case",
+      "es": "caja de ordenador",
+      "ar": "صندوق الكمبيوتر",
+      "zh": "电脑机箱"
+    },
+    "de type C": {
+      "en": "type C",
+      "es": "tipo C",
+      "ar": "نوع C",
+      "zh": "C型"
+    },
+    "taille moyenne": {
+      "en": "mid-size",
+      "es": "tamaño mediano",
+      "ar": "حجم متوسط",
+      "zh": "中等尺寸"
+    },
+    "double vitre trempée": {
+      "en": "dual tempered glass",
+      "es": "doble vidrio templado",
+      "ar": "زجاج مزدوج مقسى",
+      "zh": "双钢化玻璃"
+    },
+    "à vue complète": {
+      "en": "full view",
+      "es": "vista completa",
+      "ar": "رؤية كاملة",
+      "zh": "全视角"
+    },
+    "double caméra": {
+      "en": "dual camera",
+      "es": "cámara doble",
+      "ar": "كاميرا مزدوجة",
+      "zh": "双摄像头"
+    },
+    "4K": {
+      "en": "4K",
+      "es": "4K",
+      "ar": "4K",
+      "zh": "4K"
+    },
+    "PTZ": {
+      "en": "PTZ",
+      "es": "PTZ",
+      "ar": "PTZ",
+      "zh": "PTZ"
+    },
+    "suivi AI": {
+      "en": "AI tracking",
+      "es": "seguimiento IA",
+      "ar": "تتبع الذكاء الاصطناعي",
+      "zh": "AI追踪"
+    },
+    "autofocus PDAF": {
+      "en": "PDAF autofocus",
+      "es": "autoenfoque PDAF",
+      "ar": "تركيز تلقائي PDAF",
+      "zh": "PDAF自动对焦"
+    },
+    "idéale pour": {
+      "en": "ideal for",
+      "es": "ideal para",
+      "ar": "مثالي لـ",
+      "zh": "适合"
+    },
+    "IA": {
+      "en": "AI",
+      "es": "IA",
+      "ar": "الذكاء الاصطناعي",
+      "zh": "人工智能"
+    },
+    "0,2s": {
+      "en": "0.2s",
+      "es": "0,2s",
+      "ar": "0.2 ثانية",
+      "zh": "0.2秒"
+    },
+    "boîtier PC": {
+      "en": "PC case",
+      "es": "caja PC",
+      "ar": "صندوق الكمبيوتر الشخصي",
+      "zh": "电脑机箱"
+    },
+    "tour moyenne": {
+      "en": "mid tower",
+      "es": "torre mediana",
+      "ar": "برج متوسط",
+      "zh": "中塔"
+    },
+    "3 ventilateurs pré-installés": {
+      "en": "3 pre-installed fans",
+      "es": "3 ventiladores preinstalados",
+      "ar": "3 مراوح مثبتة مسبقاً",
+      "zh": "3个预装风扇"
+    },
+    "LX120-R": {
+      "en": "LX120-R",
+      "es": "LX120-R",
+      "ar": "LX120-R",
+      "zh": "LX120-R"
+    },
+    "RVB": {
+      "en": "RGB",
+      "es": "RGB",
+      "ar": "RGB",
+      "zh": "RGB"
+    },
+    "concentrateur système": {
+      "en": "system hub",
+      "es": "concentrador del sistema",
+      "ar": "محور النظام",
+      "zh": "系统集线器"
+    },
+    "iCUE Link": {
+      "en": "iCUE Link",
+      "es": "iCUE Link",
+      "ar": "iCUE Link",
+      "zh": "iCUE Link"
+    },
+    "bras anti-affaissement du GPU": {
+      "en": "GPU anti-sag bracket",
+      "es": "soporte anti-caída GPU",
+      "ar": "دعامة منع ترهل GPU",
+      "zh": "GPU防下垂支架"
+    },
+    "comprend un": {
+      "en": "includes a",
+      "es": "incluye un",
+      "ar": "يتضمن",
+      "zh": "包含一个"
+    },
+    "ventilateurs pré-installés": {
+      "en": "pre-installed fans",
+      "es": "ventiladores preinstalados",
+      "ar": "مراوح مثبتة مسبقاً",
+      "zh": "预装风扇"
+    },
+    "3 ventilateurs": {
+      "en": "3 fans",
+      "es": "3 ventiladores",
+      "ar": "3 مراوح",
+      "zh": "3个风扇"
+    },
+    "un bras": {
+      "en": "a bracket",
+      "es": "un soporte",
+      "ar": "ذراع",
+      "zh": "一个支架"
+    },
+    "pré-installés": {
+      "en": "pre-installed",
+      "es": "preinstalados",
+      "ar": "مثبتة مسبقاً",
+      "zh": "预装"
+    },
+    "1440P": {
+      "en": "1440P",
+      "es": "1440P",
+      "ar": "1440P",
+      "zh": "1440P"
+    },
+    "HDR": {
+      "en": "HDR",
+      "es": "HDR",
+      "ar": "HDR",
+      "zh": "HDR"
+    },
+    "QHD": {
+      "en": "QHD",
+      "es": "QHD",
+      "ar": "QHD",
+      "zh": "QHD"
+    },
+    "180Hz": {
+      "en": "180Hz",
+      "es": "180Hz",
+      "ar": "180Hz",
+      "zh": "180Hz"
+    },
+    "0,5ms": {
+      "en": "0.5ms",
+      "es": "0,5ms",
+      "ar": "0.5 مللي ثانية",
+      "zh": "0.5毫秒"
+    },
+    "1500R": {
+      "en": "1500R",
+      "es": "1500R",
+      "ar": "1500R",
+      "zh": "1500R"
+    },
+    "Extreme Low Motion Blur": {
+      "en": "Extreme Low Motion Blur",
+      "es": "Extreme Low Motion Blur",
+      "ar": "Extreme Low Motion Blur",
+      "zh": "Extreme Low Motion Blur"
+    },
+    "FreeSync": {
+      "en": "FreeSync",
+      "es": "FreeSync",
+      "ar": "FreeSync",
+      "zh": "FreeSync"
+    },
+    "90% DCI-P3": {
+      "en": "90% DCI-P3",
+      "es": "90% DCI-P3",
+      "ar": "90% DCI-P3",
+      "zh": "90% DCI-P3"
+    },
+    "Shadow Boost": {
+      "en": "Shadow Boost",
+      "es": "Shadow Boost",
+      "ar": "Shadow Boost",
+      "zh": "Shadow Boost"
+    },
+    "DisplayWidget": {
+      "en": "DisplayWidget",
+      "es": "DisplayWidget",
+      "ar": "DisplayWidget",
+      "zh": "DisplayWidget"
+    },
+    "VG32WQ3B": {
+      "en": "VG32WQ3B",
+      "es": "VG32WQ3B",
+      "ar": "VG32WQ3B",
+      "zh": "VG32WQ3B"
+    },
+    "2560 x 1440": {
+      "en": "2560 x 1440",
+      "es": "2560 x 1440",
+      "ar": "2560 x 1440",
+      "zh": "2560 x 1440"
+    },
+    "ergonomique": {
+      "en": "ergonomic",
+      "es": "ergonómico",
+      "ar": "مريح",
+      "zh": "人体工学"
+    },
+    "à dossier haut": {
+      "en": "high back",
+      "es": "respaldo alto",
+      "ar": "ظهر مرتفع",
+      "zh": "高背"
+    },
+    "appuie-tête": {
+      "en": "headrest",
+      "es": "reposacabezas",
+      "ar": "مسند رأس",
+      "zh": "头枕"
+    },
+    "27 pouces": {
+      "en": "27 inches",
+      "es": "27 pulgadas",
+      "ar": "27 بوصة",
+      "zh": "27英寸"
+    },
+    "16:9": {
+      "en": "16:9",
+      "es": "16:9",
+      "ar": "16:9",
+      "zh": "16:9"
+    },
+    "1920x1080": {
+      "en": "1920x1080",
+      "es": "1920x1080",
+      "ar": "1920x1080",
+      "zh": "1920x1080"
+    },
+    "300Hz": {
+      "en": "300Hz",
+      "es": "300Hz",
+      "ar": "300Hz",
+      "zh": "300Hz"
+    },
+    "1ms": {
+      "en": "1ms",
+      "es": "1ms",
+      "ar": "1 مللي ثانية",
+      "zh": "1毫秒"
+    },
+    "LED": {
+      "en": "LED",
+      "es": "LED",
+      "ar": "LED",
+      "zh": "LED"
+    },
+    "UG27S": {
+      "en": "UG27S",
+      "es": "UG27S",
+      "ar": "UG27S",
+      "zh": "UG27S"
+    },
+    "AMD Freesync Premium": {
+      "en": "AMD Freesync Premium",
+      "es": "AMD Freesync Premium",
+      "ar": "AMD Freesync Premium",
+      "zh": "AMD Freesync Premium"
+    },
+    "Display Port HDMI": {
+      "en": "Display Port HDMI",
+      "es": "Display Port HDMI",
+      "ar": "Display Port HDMI",
+      "zh": "Display Port HDMI"
+    },
+    "2 560 x 1 440": {
+      "en": "2560 x 1440",
+      "es": "2560 x 1440",
+      "ar": "2560 x 1440",
+      "zh": "2560 x 1440"
+    },
+    "G55C": {
+      "en": "G55C",
+      "es": "G55C",
+      "ar": "G55C",
+      "zh": "G55C"
+    },
+    "165 Hz": {
+      "en": "165Hz",
+      "es": "165Hz",
+      "ar": "165Hz",
+      "zh": "165Hz"
+    },
+    "HDR10": {
+      "en": "HDR10",
+      "es": "HDR10",
+      "ar": "HDR10",
+      "zh": "HDR10"
+    },
+    "mode Eye Saver": {
+      "en": "Eye Saver mode",
+      "es": "modo Eye Saver",
+      "ar": "وضع Eye Saver",
+      "zh": "护眼模式"
+    },
+    "courbure 1000R": {
+      "en": "1000R curvature",
+      "es": "curvatura 1000R",
+      "ar": "انحناء 1000R",
+      "zh": "1000R曲率"
+    },
+    "LS27CG550ENXZA": {
+      "en": "LS27CG550ENXZA",
+      "es": "LS27CG550ENXZA",
+      "ar": "LS27CG550ENXZA",
+      "zh": "LS27CG550ENXZA"
+    },
+    "1 ms": {
+      "en": "1ms",
+      "es": "1ms",
+      "ar": "1 مللي ثانية",
+      "zh": "1毫秒"
+    },
+    "support de processeur mobile": {
+      "en": "mobile CPU stand",
+      "es": "soporte de CPU móvil",
+      "ar": "حامل معالج متنقل",
+      "zh": "移动CPU支架"
+    },
+    "réglable": {
+      "en": "adjustable",
+      "es": "ajustable",
+      "ar": "قابل للتعديل",
+      "zh": "可调节"
+    },
+    "4 roulettes": {
+      "en": "4 casters",
+      "es": "4 ruedas",
+      "ar": "4 عجلات",
+      "zh": "4个脚轮"
+    },
+    "support de tour d'ordinateur": {
+      "en": "computer tower stand",
+      "es": "soporte de torre de ordenador",
+      "ar": "حامل برج الكمبيوتر",
+      "zh": "电脑塔架"
+    },
+    "convient à la plupart des PC": {
+      "en": "fits most PCs",
+      "es": "compatible con la mayoría de PCs",
+      "ar": "يناسب معظم أجهزة الكمبيوتر",
+      "zh": "适合大多数电脑"
+    },
+    "sous le bureau": {
+      "en": "under the desk",
+      "es": "bajo el escritorio",
+      "ar": "تحت المكتب",
+      "zh": "桌下"
+    },
+    "PC": {
+      "en": "PC",
+      "es": "PC",
+      "ar": "كمبيوتر",
+      "zh": "电脑"
+    },
+    "tour ATX": {
+      "en": "ATX tower",
+      "es": "torre ATX",
+      "ar": "برج ATX",
+      "zh": "ATX机箱"
+    },
+    "verre trempé": {
+      "en": "tempered glass",
+      "es": "vidrio templado",
+      "ar": "زجاج مقسى",
+      "zh": "钢化玻璃"
+    },
+    "ordinateur de jeu": {
+      "en": "gaming computer",
+      "es": "ordenador gaming",
+      "ar": "كمبيوتر ألعاب",
+      "zh": "游戏电脑"
+    },
+    "7 ventilateurs": {
+      "en": "7 fans",
+      "es": "7 ventiladores",
+      "ar": "7 مراوح",
+      "zh": "7个风扇"
+    },
+    "câble USB-C inclus": {
+      "en": "USB-C cable included",
+      "es": "cable USB-C incluido",
+      "ar": "كابل USB-C مضمن",
+      "zh": "含USB-C线"
+    },
+    "Series X|S": {
+      "en": "Series X|S",
+      "es": "Series X|S",
+      "ar": "Series X|S",
+      "zh": "Series X|S"
+    },
+    "Xbox One": {
+      "en": "Xbox One",
+      "es": "Xbox One",
+      "ar": "Xbox One",
+      "zh": "Xbox One"
+    },
+    "Windows PC": {
+      "en": "Windows PC",
+      "es": "Windows PC",
+      "ar": "Windows PC",
+      "zh": "Windows PC"
+    },
+    "Android": {
+      "en": "Android",
+      "es": "Android",
+      "ar": "Android",
+      "zh": "Android"
+    },
+    "iOS": {
+      "en": "iOS",
+      "es": "iOS",
+      "ar": "iOS",
+      "zh": "iOS"
+    },
+    "manette Xbox Core": {
+      "en": "Xbox Core controller",
+      "es": "mando Xbox Core",
+      "ar": "يد تحكم Xbox Core",
+      "zh": "Xbox Core手柄"
+    },
+    "design rétroéclairé": {
+      "en": "backlit design",
+      "es": "diseño retroiluminado",
+      "ar": "تصميم مضيء خلفياً",
+      "zh": "背光设计"
+    },
+    "éclairage Chroma": {
+      "en": "Chroma lighting",
+      "es": "iluminación Chroma",
+      "ar": "إضاءة Chroma",
+      "zh": "Chroma灯效"
+    },
+    "15 zones": {
+      "en": "15 zones",
+      "es": "15 zonas",
+      "ar": "15 منطقة",
+      "zh": "15区域"
+    },
+    "Port USB 2.0": {
+      "en": "USB 2.0 port",
+      "es": "puerto USB 2.0",
+      "ar": "منفذ USB 2.0",
+      "zh": "USB 2.0接口"
+    },
+    "câble USB Type C détachable": {
+      "en": "detachable USB Type C cable",
+      "es": "cable USB tipo C desmontable",
+      "ar": "كابل USB Type C قابل للفصل",
+      "zh": "可拆卸USB-C线"
+    },
+    "8 ventilateurs": {
+      "en": "8 fans",
+      "es": "8 ventiladores",
+      "ar": "8 مراوح",
+      "zh": "8个风扇"
+    },
+    "PWM ARGB": {
+      "en": "PWM ARGB",
+      "es": "PWM ARGB",
+      "ar": "PWM ARGB",
+      "zh": "PWM ARGB"
+    },
+    "6 x 140 mm": {
+      "en": "6 x 140mm",
+      "es": "6 x 140mm",
+      "ar": "6 x 140mm",
+      "zh": "6 x 140mm"
+    },
+    "2 x 120 mm": {
+      "en": "2 x 120mm",
+      "es": "2 x 120mm",
+      "ar": "2 x 120mm",
+      "zh": "2 x 120mm"
+    },
+    "grand boîtier PC de jeu": {
+      "en": "large gaming PC case",
+      "es": "caja gaming PC grande",
+      "ar": "صندوق كمبيوتر ألعاب كبير",
+      "zh": "大型游戏电脑机箱"
+    },
+    "double chambre ATX": {
+      "en": "dual chamber ATX",
+      "es": "doble cámara ATX",
+      "ar": "ATX ذو غرفتين",
+      "zh": "双腔ATX"
+    },
+    "flux d'air moyen": {
+      "en": "mid airflow",
+      "es": "flujo de aire medio",
+      "ar": "تدفق هواء متوسط",
+      "zh": "中等气流"
+    },
+    "support de radiateur de 420 mm": {
+      "en": "420mm radiator support",
+      "es": "soporte de radiador de 420mm",
+      "ar": "دعم مشعاع 420mm",
+      "zh": "420mm散热器支持"
+    },
+    "6 boutons programmables": {
+      "en": "6 programmable buttons",
+      "es": "6 botones programables",
+      "ar": "6 أزرار قابلة للبرمجة",
+      "zh": "6个可编程按键"
+    },
+    "autonomie 250h": {
+      "en": "250h battery life",
+      "es": "autonomía 250h",
+      "ar": "عمر بطارية 250 ساعة",
+      "zh": "250小时续航"
+    },
+    "capteurs optiques": {
+      "en": "optical sensors",
+      "es": "sensores ópticos",
+      "ar": "مستشعرات بصرية",
+      "zh": "光学传感器"
+    },
+    "27 po": {
+      "en": "27 in",
+      "es": "27 pulg",
+      "ar": "27 بوصة",
+      "zh": "27英寸"
+    },
+    "2K": {
+      "en": "2K",
+      "es": "2K",
+      "ar": "2K",
+      "zh": "2K"
+    },
+    "1440p": {
+      "en": "1440p",
+      "es": "1440p",
+      "ar": "1440p",
+      "zh": "1440p"
+    },
+    "IPS": {
+      "en": "IPS",
+      "es": "IPS",
+      "ar": "IPS",
+      "zh": "IPS"
+    },
+    "AMD FreeSync Premium": {
+      "en": "AMD FreeSync Premium",
+      "es": "AMD FreeSync Premium",
+      "ar": "AMD FreeSync Premium",
+      "zh": "AMD FreeSync Premium"
+    },
+    "manette DualSense PlayStation": {
+      "en": "DualSense PlayStation controller",
+      "es": "mando DualSense PlayStation",
+      "ar": "يد تحكم DualSense PlayStation",
+      "zh": "DualSense PlayStation手柄"
+    },
+    "USB": {
+      "en": "USB",
+      "es": "USB",
+      "ar": "USB",
+      "zh": "USB"
+    },
+    "4K60": {
+      "en": "4K60",
+      "es": "4K60",
+      "ar": "4K60",
+      "zh": "4K60"
+    },
+    "HDR Passthrough": {
+      "en": "HDR Passthrough",
+      "es": "HDR Passthrough",
+      "ar": "HDR Passthrough",
+      "zh": "HDR Passthrough"
+    },
+    "1080p60": {
+      "en": "1080p60",
+      "es": "1080p60",
+      "ar": "1080p60",
+      "zh": "1080p60"
+    },
+    "PS5": {
+      "en": "PS5",
+      "es": "PS5",
+      "ar": "PS5",
+      "zh": "PS5"
+    },
+    "Nintendo Switch 2": {
+      "en": "Nintendo Switch 2",
+      "es": "Nintendo Switch 2",
+      "ar": "Nintendo Switch 2",
+      "zh": "Nintendo Switch 2"
+    },
+    "OBS": {
+      "en": "OBS",
+      "es": "OBS",
+      "ar": "OBS",
+      "zh": "OBS"
+    },
+    "Quicktime": {
+      "en": "Quicktime",
+      "es": "Quicktime",
+      "ar": "Quicktime",
+      "zh": "Quicktime"
+    },
+    "Plug & Play": {
+      "en": "Plug & Play",
+      "es": "Plug & Play",
+      "ar": "Plug & Play",
+      "zh": "即插即用"
+    },
+    "Xbox": {
+      "en": "Xbox",
+      "es": "Xbox",
+      "ar": "Xbox",
+      "zh": "Xbox"
+    },
+    "Bluetooth": {
+      "en": "Bluetooth",
+      "es": "Bluetooth",
+      "ar": "Bluetooth",
+      "zh": "Bluetooth"
+    },
+    "Dolby Atmos": {
+      "en": "Dolby Atmos",
+      "es": "Dolby Atmos",
+      "ar": "Dolby Atmos",
+      "zh": "Dolby Atmos"
+    },
+    "PS4": {
+      "en": "PS4",
+      "es": "PS4",
+      "ar": "PS4",
+      "zh": "PS4"
+    },
+    "Nintendo Switch": {
+      "en": "Nintendo Switch",
+      "es": "Nintendo Switch",
+      "ar": "Nintendo Switch",
+      "zh": "Nintendo Switch"
+    },
+    "mobile": {
+      "en": "mobile",
+      "es": "móvil",
+      "ar": "جوال",
+      "zh": "移动设备"
+    },
+    "premium pour": {
+      "en": "premium for",
+      "es": "premium para",
+      "ar": "متميز لـ",
+      "zh": "高级版，适合",
+      "verified": false
+    },
+    "cuir PVC": {
+      "en": "PVC leather",
+      "es": "cuero PVC",
+      "ar": "جلد PVC",
+      "zh": "PVC皮革"
+    },
+    "massage lombaire": {
+      "en": "lumbar massage",
+      "es": "masaje lumbar",
+      "ar": "تدليك قطني",
+      "zh": "腰部按摩"
+    },
+    "les longues sessions": {
+      "en": "long sessions",
+      "es": "las largas sesiones",
+      "ar": "الجلسات الطويلة",
+      "zh": "长时间使用"
+    },
+    "chaise gaming": {
+      "en": "gaming chair",
+      "es": "silla gaming",
+      "ar": "كرسي ألعاب",
+      "zh": "游戏椅"
+    },
+    "cuir": {
+      "en": "leather",
+      "es": "cuero",
+      "ar": "جلد",
+      "zh": "皮革"
+    },
+    "PVC": {
+      "en": "PVC",
+      "es": "PVC",
+      "ar": "PVC",
+      "zh": "PVC"
+    },
+    "31,5 po": {
+      "en": "31.5 in",
+      "es": "31,5 pulg",
+      "ar": "31.5 بوصة",
+      "zh": "31.5英寸"
+    },
+    "et créatif": {
+      "en": "and creative",
+      "es": "y creativo",
+      "ar": "والإبداعي",
+      "zh": "和创意"
+    },
+    "casque gaming filaire": {
+      "en": "wired gaming headset",
+      "es": "auriculares gaming con cable",
+      "ar": "سماعة ألعاب سلكية",
+      "zh": "有线游戏耳机"
+    },
+    "audio spatial 360°": {
+      "en": "360° spatial audio",
+      "es": "audio espacial 360°",
+      "ar": "صوت مكاني 360°",
+      "zh": "360°空间音频"
+    },
+    "commutateurs silencieux": {
+      "en": "silent switches",
+      "es": "interruptores silenciosos",
+      "ar": "مفاتيح صامتة",
+      "zh": "静音开关"
+    },
+    "mousse haute densité": {
+      "en": "high density foam",
+      "es": "espuma de alta densidad",
+      "ar": "إسفنج عالي الكثافة",
+      "zh": "高密度泡棉"
+    },
+    "grand format": {
+      "en": "large format",
+      "es": "formato grande",
+      "ar": "حجم كبير",
+      "zh": "大尺寸"
+    },
+    "microphone USB": {
+      "en": "USB microphone",
+      "es": "micrófono USB",
+      "ar": "ميكروفون USB",
+      "zh": "USB麦克风"
+    },
+    "condensateur": {
+      "en": "condenser",
+      "es": "condensador",
+      "ar": "مكثف",
+      "zh": "电容"
+    },
+    "supercardioïde": {
+      "en": "supercardioid",
+      "es": "supercardioide",
+      "ar": "فائق القلب",
+      "zh": "超心形"
+    },
+    "coupure tactile": {
+      "en": "tap-to-mute",
+      "es": "silencio táctil",
+      "ar": "قطع اللمس",
+      "zh": "触控静音"
+    },
+    "limiteur de gain": {
+      "en": "gain limiter",
+      "es": "limitador de ganancia",
+      "ar": "محدد الكسب",
+      "zh": "增益限制器"
+    },
+    "Full HD": {
+      "en": "Full HD",
+      "es": "Full HD",
+      "ar": "دقة فائقة HD",
+      "zh": "全高清"
+    },
+    "165Hz": {
+      "en": "165Hz",
+      "es": "165Hz",
+      "ar": "165Hz",
+      "zh": "165Hz"
+    },
+    "ports HDMI": {
+      "en": "HDMI ports",
+      "es": "puertos HDMI",
+      "ar": "منافذ HDMI",
+      "zh": "HDMI接口"
+    },
+    "DisplayPort": {
+      "en": "DisplayPort",
+      "es": "DisplayPort",
+      "ar": "DisplayPort",
+      "zh": "DisplayPort"
+    },
+    "support radiateur": {
+      "en": "radiator support",
+      "es": "soporte de radiador",
+      "ar": "دعم المشعاع",
+      "zh": "散热器支持"
+    },
+    "cuir PU": {
+      "en": "PU leather",
+      "es": "cuero PU",
+      "ar": "جلد PU",
+      "zh": "PU皮革"
+    },
+    "style vintage": {
+      "en": "vintage style",
+      "es": "estilo vintage",
+      "ar": "طراز كلاسيكي",
+      "zh": "复古风格"
+    },
+    "webcam streaming": {
+      "en": "streaming webcam",
+      "es": "webcam de streaming",
+      "ar": "كاميرا بث",
+      "zh": "直播摄像头"
+    },
+    "enregistrement 1080p60": {
+      "en": "1080p60 recording",
+      "es": "grabación 1080p60",
+      "ar": "تسجيل 1080p60",
+      "zh": "1080p60录制"
+    },
+    "surface optimisée": {
+      "en": "optimized surface",
+      "es": "superficie optimizada",
+      "ar": "سطح محسّن",
+      "zh": "优化表面"
+    },
+    "carte de capture": {
+      "en": "capture card",
+      "es": "tarjeta de captura",
+      "ar": "بطاقة التقاط",
+      "zh": "采集卡"
+    },
+    "câble usb-c détachable": {
+      "en": "detachable USB-C cable",
+      "es": "cable USB-C desmontable",
+      "ar": "كابل USB-C قابل للفصل",
+      "zh": "可拆卸USB-C线"
+    },
+    "idéal pour": {
+      "en": "ideal for",
+      "es": "ideal para",
+      "ar": "مثالي لـ",
+      "zh": "适合"
+    },
+    "grand boîtier PC gaming": {
+      "en": "large gaming PC case",
+      "es": "caja gaming PC grande",
+      "ar": "صندوق كمبيوتر ألعاب كبير",
+      "zh": "大型游戏电脑机箱"
+    },
+    "incurvé": {
+      "en": "curved",
+      "es": "curvo",
+      "ar": "منحني",
+      "zh": "曲面"
+    },
+    "courbure": {
+      "en": "curvature",
+      "es": "curvatura",
+      "ar": "انحناء",
+      "zh": "曲率"
+    },
+    "clavier gaming rgb": {
+      "en": "RGB gaming keyboard",
+      "es": "teclado gaming RGB",
+      "ar": "لوحة مفاتيح ألعاب RGB",
+      "zh": "RGB游戏键盘"
+    },
+    "offert en 3 couleurs": {
+      "en": "available in 3 colors",
+      "es": "disponible en 3 colores",
+      "ar": "متوفر بـ 3 ألوان",
+      "zh": "3色可选"
+    },
+    "à la poussière": {
+      "en": "dust resistant",
+      "es": "resistente al polvo",
+      "ar": "مقاوم للغبار",
+      "zh": "防尘"
+    },
+    "en plusieurs couleurs": {
+      "en": "in multiple colors",
+      "es": "en varios colores",
+      "ar": "بألوان متعددة",
+      "zh": "多色可选"
     }
   }
 }
