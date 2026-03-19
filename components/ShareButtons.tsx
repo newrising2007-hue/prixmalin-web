@@ -14,6 +14,8 @@ const SHARE_TEXT: Record<Locale, { share: string }> = {
   zh: { share: '分享'      },
 };
 
+const FB_APP_ID = '1262329375999819';
+
 interface ShareButtonsProps {
   locale?: Locale;
 }
@@ -34,7 +36,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ locale = 'fr' }) => {
     } catch {}
   };
 
-  const messengerUrl = `https://m.me/share?link=${encodeURIComponent(currentUrl)}`;
+  const messengerUrl = `https://www.facebook.com/dialog/send?link=${encodeURIComponent(currentUrl)}&app_id=${FB_APP_ID}&redirect_uri=${encodeURIComponent(currentUrl)}`;
   const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(currentUrl)}`;
 
   // Mobile : share natif
