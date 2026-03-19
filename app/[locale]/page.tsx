@@ -20,10 +20,6 @@ export default function HomePage() {
             <div className="absolute right-0 top-0 h-full w-full rounded-bl-3xl bg-white shadow-xl" />
             <div className="absolute right-0 top-0 h-full w-full origin-top-right rotate-6 rounded-bl-3xl bg-white/80 shadow-md" />
           </div>
-          <div className="absolute right-10 top-6 h-4 w-4 rounded-full bg-red-600 shadow-lg ring-2 ring-white" />
-          <div className="absolute right-2 top-10 rotate-12 rounded-full bg-red-600 px-3 py-1 text-xs font-semibold text-white shadow-md">
-            {t("badge")}
-          </div>
         </div>
       </div>
 
