@@ -10,19 +10,6 @@ export default function HomePage() {
   return (
     <main className="relative min-h-screen overflow-hidden">
 
-      {/* HERO GLOWS (PrixMalin) */}
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(900px_circle_at_15%_12%,rgba(11,76,255,0.12),transparent_60%),radial-gradient(1000px_circle_at_85%_35%,rgba(45,255,106,0.10),transparent_60%)]" />
-
-      {/* COIN REPLIE + EPINGLE */}
-      <div className="pointer-events-none absolute right-0 top-0 z-30">
-        <div className="relative h-28 w-28">
-          <div className="absolute right-0 top-0 h-full w-full">
-            <div className="absolute right-0 top-0 h-full w-full rounded-bl-3xl bg-white shadow-xl" />
-            <div className="absolute right-0 top-0 h-full w-full origin-top-right rotate-6 rounded-bl-3xl bg-white/80 shadow-md" />
-          </div>
-        </div>
-      </div>
-
       {/* HEADER */}
       <header className="relative z-10 mx-auto max-w-5xl px-6 pt-14 text-center">
         <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
