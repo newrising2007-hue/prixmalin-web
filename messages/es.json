@@ -214,7 +214,8 @@
       "voir_site": "Ver sitio →",
       "maps": "Mapas →",
       "en_ligne_livraison": "En línea · Entrega disponible"
-    }
+    },
+    "adblock": "🔊 Este sitio vive gracias a nuestros socios afiliados — desactivar Adblock en PrixMalin no cuesta nada y nos ayuda enormemente. ¡Gracias! 💙"
   },
   "restaurants": {
     "hero_titre": "Restaurantes",
@@ -285,7 +286,7 @@
   },
   "deals": {
     "titre": "Ofertas de Juegos Canadá 🎮",
-    "description": "Suscripciones y tarjetas de regalo para Xbox, PlayStation y Nintendo — enlaces de afiliados directos, precios en CAD.",
+    "description": "Suscripciones y tarjetas de regalo para Xbox, PlayStation y Nintendo — precios en CAD.",
     "tous": "Todos",
     "abonnements": "Suscripciones",
     "cartes_cadeaux": "Tarjetas de regalo",
@@ -298,7 +299,8 @@
     "affiliation": "PrixMalin es una plataforma de afiliación. Algunos enlaces pueden generar una comisión, sin costo adicional para ti.",
     "badge_populaire": "Popular",
     "badge_complet": "Completo",
-    "badge_meilleur_choix": "Mejor opción"
+    "badge_meilleur_choix": "Mejor opción",
+    "adblock": "🔊 Este sitio vive gracias a nuestros socios afiliados — desactivar Adblock en PrixMalin no cuesta nada y nos ayuda enormemente. ¡Gracias! 💙"
   },
   "intent": {
     "guide_prix": "Guía de precios • Canadá",
@@ -326,7 +328,7 @@
   },
   "produits": {
     "titre": "Productos gaming recomendados",
-    "description": "Selección manual (MVP). Algunos enlaces son de afiliados: al comprar a través de estos enlaces, apoyas a PrixMalin sin costo adicional.",
+    "description": "Selección manual de productos gaming recomendados para jugadores en Canadá.",
     "toutes": "Todos",
     "compteur": "producto",
     "compteur_pluriel": "productos",
@@ -341,7 +343,8 @@
     "cat_chaises": "🪑 Sillas",
     "cat_ecrans": "🖥️ Monitores",
     "cat_boitiers": "🖥️ Torres PC",
-    "cat_video": "📹 Vídeo & Captura"
+    "cat_video": "📹 Vídeo & Captura",
+    "adblock": "🔊 Este sitio vive gracias a nuestros socios afiliados — desactivar Adblock en PrixMalin no cuesta nada y nos ayuda enormemente. ¡Gracias! 💙"
   },
   "codes_bonus": {
     "titre": "Códigos bonus gaming",

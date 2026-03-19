@@ -1,5 +1,6 @@
 import { getAllProducts } from "@/lib/products";
 import { getTranslations } from "next-intl/server";
+import AdblockBanner from "@/components/AdblockBanner";
 import ProduitsClient from "@/components/ProduitsClient";
 
 const CATEGORY_SLUGS = ["toutes","audio","souris","claviers","manettes","accessoires","chaises","ecrans","boitiers","video"];
@@ -24,6 +25,7 @@ export default async function ProduitsPage({ params }: { params: Promise<{ local
       <header className="mb-8">
         <h1 className="text-3xl font-bold">{t("titre")}</h1>
         <p className="mt-2 text-black/70">{t("description")}</p>
+        <AdblockBanner message={t("adblock")} />
       </header>
       <ProduitsClient products={products} categorySlugs={CATEGORY_SLUGS} labels={labels} locale={locale} />
     </main>

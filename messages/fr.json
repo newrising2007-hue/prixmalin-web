@@ -214,7 +214,8 @@
       "voir_site": "Voir site →",
       "maps": "Maps →",
       "en_ligne_livraison": "En ligne · Livraison disponible"
-    }
+    },
+    "adblock": "🔊 Ce site vit grâce à nos partenaires affiliés — désactiver Adblock sur PrixMalin ne coûte rien et nous aide énormément. Merci! 💙"
   },
   "restaurants": {
     "hero_titre": "Restaurants",
@@ -285,7 +286,7 @@
   },
   "deals": {
     "titre": "Offres Gaming Canada 🎮",
-    "description": "Abonnements et cartes cadeaux pour Xbox, PlayStation et Nintendo — liens affiliés directs, prix en CAD.",
+    "description": "Abonnements et cartes cadeaux pour Xbox, PlayStation et Nintendo — prix en CAD.",
     "tous": "Tous",
     "abonnements": "Abonnements",
     "cartes_cadeaux": "Cartes cadeaux",
@@ -298,7 +299,8 @@
     "affiliation": "PrixMalin est une plateforme d'affiliation. Certains liens peuvent générer une commission, sans coût supplémentaire pour toi.",
     "badge_populaire": "Populaire",
     "badge_complet": "Complet",
-    "badge_meilleur_choix": "Meilleur choix"
+    "badge_meilleur_choix": "Meilleur choix",
+    "adblock": "🔊 Ce site vit grâce à nos partenaires affiliés — désactiver Adblock sur PrixMalin ne coûte rien et nous aide énormément. Merci! 💙"
   },
   "intent": {
     "guide_prix": "Guide prix • Canada",
@@ -326,7 +328,7 @@
   },
   "produits": {
     "titre": "Produits gaming recommandés",
-    "description": "Sélection manuelle (MVP). Certains liens sont affiliés : en achetant via ces liens, tu soutiens PrixMalin sans coût supplémentaire.",
+    "description": "Sélection manuelle de produits gaming recommandés pour les joueurs au Canada.",
     "toutes": "Toutes",
     "compteur": "produit",
     "compteur_pluriel": "produits",
@@ -341,7 +343,8 @@
     "cat_chaises": "🪑 Chaises",
     "cat_ecrans": "🖥️ Écrans",
     "cat_boitiers": "🖥️ Boîtiers PC",
-    "cat_video": "📹 Vidéo & Capture"
+    "cat_video": "📹 Vidéo & Capture",
+    "adblock": "🔊 Ce site vit grâce à nos partenaires affiliés — désactiver Adblock sur PrixMalin ne coûte rien et nous aide énormément. Merci! 💙"
   },
   "codes_bonus": {
     "titre": "Codes bonus gaming",

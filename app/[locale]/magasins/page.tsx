@@ -1,4 +1,5 @@
 "use client";
+import AdblockBanner from "@/components/AdblockBanner";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
@@ -65,6 +66,7 @@ export default function MagasinsPage() {
           </span>
         </h1>
         <p className="text-lg text-gray-600 max-w-xl mx-auto mb-2">{t("hero_desc")}</p>
+        <AdblockBanner message={t("adblock")} />
         <p className="text-sm text-gray-400 mb-8">{t("hero_tags")}</p>
       </section>
 

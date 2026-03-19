@@ -1,4 +1,5 @@
 "use client";
+import AdblockBanner from "@/components/AdblockBanner";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -143,6 +144,7 @@ export default function DealsPage() {
       <header className="mb-8">
         <h1 className="text-3xl font-extrabold tracking-tight">{t("titre")}</h1>
         <p className="mt-2 text-gray-600">{t("description")}</p>
+        <AdblockBanner message={t("adblock")} />
       </header>
 
       <div className="flex flex-wrap gap-1.5">

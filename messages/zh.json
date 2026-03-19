@@ -214,7 +214,8 @@
       "voir_site": "查看网站 →",
       "maps": "地图 →",
       "en_ligne_livraison": "在线 · 支持配送"
-    }
+    },
+    "adblock": "🔊 本网站依靠联盟合作伙伴运营 — 在PrixMalin上禁用Adblock不花任何费用，对我们帮助极大。谢谢！💙"
   },
   "restaurants": {
     "hero_titre": "餐厅",
@@ -285,7 +286,7 @@
   },
   "deals": {
     "titre": "加拿大游戏优惠 🎮",
-    "description": "Xbox、PlayStation 和 Nintendo 的订阅和礼品卡 — 直接关联链接，价格为 CAD。",
+    "description": "Xbox、PlayStation和Nintendo的订阅和礼品卡 — 加元价格。",
     "tous": "全部",
     "abonnements": "订阅",
     "cartes_cadeaux": "礼品卡",
@@ -298,7 +299,8 @@
     "affiliation": "PrixMalin 是一个关联平台。某些链接可能会产生佣金，不会为您带来额外的费用。",
     "badge_populaire": "热门",
     "badge_complet": "完整版",
-    "badge_meilleur_choix": "最佳选择"
+    "badge_meilleur_choix": "最佳选择",
+    "adblock": "🔊 本网站依靠联盟合作伙伴运营 — 在PrixMalin上禁用Adblock不花任何费用，对我们帮助极大。谢谢！💙"
   },
   "intent": {
     "guide_prix": "价格指南 • 加拿大",
@@ -326,7 +328,7 @@
   },
   "produits": {
     "titre": "推荐游戏产品",
-    "description": "人工精选 (MVP)。部分链接为联盟链接：通过这些链接购买，您将支持PrixMalin，无需额外费用。",
+    "description": "为加拿大玩家手动精选的推荐游戏产品。",
     "toutes": "全部",
     "compteur": "个产品",
     "compteur_pluriel": "个产品",
@@ -341,7 +343,8 @@
     "cat_chaises": "🪑 椅子",
     "cat_ecrans": "🖥️ 显示器",
     "cat_boitiers": "🖥️ 机箱",
-    "cat_video": "📹 视频 & 采集"
+    "cat_video": "📹 视频 & 采集",
+    "adblock": "🔊 本网站依靠联盟合作伙伴运营 — 在PrixMalin上禁用Adblock不花任何费用，对我们帮助极大。谢谢！💙"
   },
   "codes_bonus": {
     "titre": "游戏奖励代码",
