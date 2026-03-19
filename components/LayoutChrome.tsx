@@ -67,8 +67,8 @@ export default function LayoutChrome({
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <LanguageSwitch />
               <ShareButtons locale={locale} />
+              <LanguageSwitch />
             </div>
           </div>
         </header>
