@@ -33,7 +33,7 @@
   {
     "slug": "steelseries-arctis-nova-1",
     "title": "Casque gaming SteelSeries Arctis Nova Pro",
-    "shortDescription": "Casque de jeu multi-systèmes - Pilotes Hi-Fi haut de gamme - Audio spatial haute résolution à 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - Micro rétractable furtif - PC, ",
+    "shortDescription": "Casque de jeu multi-systèmes - Pilotes Hi-Fi haut de gamme - Audio spatial haute résolution à 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - Micro rétractable furtif - PC,",
     "amazonUrl": "https://www.amazon.ca/dp/B09ZWF9BCJ?tag=prixmalin-20",
     "category": "audio",
     "image": "/images/products/steelseries-arctis-nova-1.webp",
@@ -41,10 +41,10 @@
     "prix": "321.98",
     "prixBarre": "349.99",
     "prixVerifieLe": "2026-03-16",
-    "shortDescription_en": "gaming headset multi-system - premium hi-fi drivers - high-resolution spatial audio 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - stealth retractable microphone - PC, ",
-    "shortDescription_es": "auriculares gaming multi-sistema - controladores hi-fi de alta gama - audio espacial de alta resolución 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - micrófono retráctil discreto - PC, ",
-    "shortDescription_ar": "سماعة ألعاب متعدد الأنظمة - مشغلات صوت عالية الجودة - صوت مكاني عالي الدقة 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - ميكروفون قابل للسحب خفي - PC, ",
-    "shortDescription_zh": "游戏耳机 多系统 - 高端HiFi单元 - 高分辨率空间音频 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - 隐形伸缩麦克风 - PC, "
+    "shortDescription_en": "gaming headset multi-system - premium hi-fi drivers - high-resolution spatial audio 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - stealth retractable microphone - PC,",
+    "shortDescription_es": "auriculares gaming multi-sistema - controladores hi-fi de alta gama - audio espacial de alta resolución 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - micrófono retráctil discreto - PC,",
+    "shortDescription_ar": "سماعة ألعاب متعدد الأنظمة - مشغلات صوت عالية الجودة - صوت مكاني عالي الدقة 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - ميكروفون قابل للسحب خفي - PC,",
+    "shortDescription_zh": "游戏耳机 多系统 - 高端HiFi单元 - 高分辨率空间音频 360° - GameDAC Gen 2 - ESS Sabre Quad-DAC - 隐形伸缩麦克风 - PC,"
   },
   {
     "slug": "hyperx-alloy-core",
@@ -73,10 +73,10 @@
     "prix": "178.99",
     "prixBarre": "239.99",
     "prixVerifieLe": "2026-03-10",
-    "shortDescription_en": " Amazon Renewed (refurbished) (refurbished)",
-    "shortDescription_es": " Amazon Renewed (reacondicionado) (reacondicionado)",
-    "shortDescription_ar": " Amazon Renewed (مجدد) (مجدد)",
-    "shortDescription_zh": " Amazon Renewed（翻新） (翻新)"
+    "shortDescription_en": "Amazon Renewed (refurbished) (refurbished)",
+    "shortDescription_es": "Amazon Renewed (reacondicionado) (reacondicionado)",
+    "shortDescription_ar": "Amazon Renewed (مجدد) (مجدد)",
+    "shortDescription_zh": "Amazon Renewed（翻新） (翻新)"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2-se",
@@ -124,10 +124,10 @@
     "prix": "14.98",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-16",
-    "shortDescription_en": "\n\nmouse pad de gaming mouse SteelSeries QcK — micro-textured surface optimized for optical and laser sensors. medium size, non-slip base.",
-    "shortDescription_es": "\n\nalfombrilla de ratón gaming SteelSeries QcK — superficie microtexturizada optimizada para sensores ópticos y láser. tamaño mediano, base antideslizante.",
-    "shortDescription_ar": "\n\nلوحة الفأرة de فأرة الألعاب SteelSeries QcK — سطح دقيق الملمس محسّنة لـ مستشعرات بصرية وليزرية. حجم متوسط, قاعدة مانعة للانزلاق.",
-    "shortDescription_zh": "\n\n鼠标垫 de 游戏鼠标 SteelSeries QcK — 微纹理表面 优化适用于 光学和激光传感器. 中号尺寸, 防滑底座."
+    "shortDescription_en": "mouse pad de gaming mouse SteelSeries QcK — micro-textured surface optimized for optical and laser sensors. medium size, non-slip base.",
+    "shortDescription_es": "alfombrilla de ratón gaming SteelSeries QcK — superficie microtexturizada optimizada para sensores ópticos y láser. tamaño mediano, base antideslizante.",
+    "shortDescription_ar": "لوحة الفأرة de فأرة الألعاب SteelSeries QcK — سطح دقيق الملمس محسّنة لـ مستشعرات بصرية وليزرية. حجم متوسط, قاعدة مانعة للانزلاق.",
+    "shortDescription_zh": "鼠标垫 de 游戏鼠标 SteelSeries QcK — 微纹理表面 优化适用于 光学和激光传感器. 中号尺寸, 防滑底座."
   },
   {
     "slug": "new-bee-support-pour-casque-rgb",
@@ -157,7 +157,11 @@
     "actif": true,
     "prix": "84.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": ""
   },
   {
     "slug": "dualsense-wireless-controller-playstation",
@@ -175,7 +179,7 @@
   {
     "slug": "logitech-g-435-lightspeed",
     "title": "Logitech G 435 Lightspeed",
-    "shortDescription": "Casque de jeu sans fil Bluetooth – Casque supra-auriculaire léger, micros intégrés, batterie 18h, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, mobile",
+    "shortDescription": "Casque de jeu sans fil Bluetooth, Casque supra-auriculaire léger, micros intégrés, batterie 18h, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, mobile",
     "amazonUrl": "https://www.amazon.ca/dp/B08R8DT7X6?tag=prixmalin-20",
     "category": "audio",
     "image": "/images/products/logitech-g-435-lightspeed.webp",
@@ -196,7 +200,11 @@
     "actif": true,
     "prix": "61.00",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": ""
   },
   {
     "slug": "logitech-g213-prodigy-rgb",
@@ -222,7 +230,11 @@
     "actif": true,
     "prix": "44.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": ""
   },
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
@@ -235,12 +247,16 @@
     "actif": true,
     "prix": "24.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": ""
   },
   {
     "slug": "elgato-game-capture-neo",
     "title": "Elgato Game Capture Neo",
-    "shortDescription": "Carte de capture portable USB 4K60 HDR Passthrough, enregistrement vidéo 1080p60 – Pour PS5 Xbox Nintendo Switch 2 - OBS, Quicktime et plus - Plug & Play",
+    "shortDescription": "Carte de capture portable USB 4K60 HDR Passthrough, enregistrement vidéo 1080p60, Pour PS5 Xbox Nintendo Switch 2 - OBS, Quicktime et plus - Plug & Play",
     "amazonUrl": "https://www.amazon.ca/dp/B0CVYKQNFH?tag=prixmalin-20",
     "category": "video",
     "image": "/images/products/elgato-game-capture-neo.webp",
@@ -253,7 +269,7 @@
   {
     "slug": "razer-firefly-v2-pro-tapis-de-souris",
     "title": "Razer Firefly V2 Pro Tapis de souris",
-    "shortDescription": "Tapis de souris de gaming RGB entièrement illuminé : Design rétroéclairé - Éclairage Chroma sur 15 zones - Port USB 2.0 - Câble USB Type C détachable - Surface microtexturée ",
+    "shortDescription": "Tapis de souris de gaming RGB entièrement illuminé : Design rétroéclairé - Éclairage Chroma sur 15 zones - Port USB 2.0 - Câble USB Type C détachable - Surface microtexturée",
     "amazonUrl": "https://www.amazon.ca/dp/B0CY6RJRBR?tag=prixmalin-20",
     "category": "accessoires",
     "image": "/images/products/razer-firefly-v2-pro-tapis-de-souris.webp",
@@ -279,7 +295,7 @@
   {
     "slug": "dowinx-chaise-de-jeu-et-bureau",
     "title": "Dowinx Chaise de jeu et  bureau",
-    "shortDescription": " support lombaire massant, fauteuil de style vintage en cuir PU",
+    "shortDescription": "support lombaire massant, fauteuil de style vintage en cuir PU",
     "amazonUrl": "https://www.amazon.ca/dp/B08C9W19YL?tag=prixmalin-20",
     "category": "chaises",
     "image": "/images/products/dowinx-chaise-de-jeu-et-bureau.webp",
@@ -292,7 +308,7 @@
   {
     "slug": "chaise-de-jeu-avec-repose-pieds",
     "title": "Chaise de jeu avec repose-pieds",
-    "shortDescription": "Chaise de bureau à dossier haut avec massage inclinable, chaise de jeu de course ergonomique grande et haute pour adultes en cuir PVC",
+    "shortDescription": "Chaise gaming ergonomique à dossier haut — cuir PVC, massage lombaire, inclinable, idéale pour les longues sessions",
     "amazonUrl": "https://www.amazon.ca/dp/B0C656RSNC?tag=prixmalin-20",
     "category": "chaises",
     "image": "/images/products/chaise-de-jeu-avec-repose-pieds.webp",
@@ -300,7 +316,11 @@
     "actif": true,
     "prix": "109.99",
     "prixBarre": "119.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": ""
   },
   {
     "slug": "chaise-de-bureau-mimoglad",
@@ -313,12 +333,16 @@
     "actif": true,
     "prix": "169.99",
     "prixBarre": "259.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": ""
   },
   {
     "slug": "kediers-boitier-c650",
     "title": "KEDIERS Boîtier C650",
-    "shortDescription": "Tour ATX en verre trempé avec cadre ouvert pour ordinateur de jeu avec 7 ventilateurs RVB ",
+    "shortDescription": "Tour ATX en verre trempé avec cadre ouvert pour ordinateur de jeu avec 7 ventilateurs RVB",
     "amazonUrl": "https://www.amazon.ca/dp/B0B65JCS4C?tag=prixmalin-20",
     "category": "boitiers",
     "image": "/images/products/kediers-boitier-c650.webp",
@@ -326,12 +350,16 @@
     "actif": true,
     "prix": "125.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": ""
   },
   {
     "slug": "hyxn-atx-boitier",
     "title": "HYXN ATX Boîtier",
-    "shortDescription": "8 ventilateurs PWM ARGB pré-installés (6 x 140 mm, 2 x 120 mm), grand boîtier PC de jeu ATX à double chambre ATX à flux d'air moyen, support de radiateur de 420 mm ",
+    "shortDescription": "8 ventilateurs PWM ARGB pré-installés (6 x 140 mm, 2 x 120 mm), grand boîtier PC de jeu ATX à double chambre ATX à flux d'air moyen, support de radiateur de 420 mm",
     "amazonUrl": "https://www.amazon.ca/dp/B0G3511PGL?tag=prixmalin-20",
     "category": "boitiers",
     "image": "/images/products/hyxn-atx-boitier.webp",
@@ -357,7 +385,7 @@
   {
     "slug": "corsair-3500x-lx-r",
     "title": "CORSAIR 3500X LX-R",
-    "shortDescription": "Boîtier PC Tour moyenne – 3 ventilateurs LX120-R RVB pré-installés, comprend un concentrateur système iCUE Link, un bras anti-affaissement du GPU",
+    "shortDescription": "Boîtier PC Tour moyenne, 3 ventilateurs LX120-R RVB pré-installés, comprend un concentrateur système iCUE Link, un bras anti-affaissement du GPU",
     "amazonUrl": "https://www.amazon.ca/dp/B0FJ2V6VVP?tag=prixmalin-20",
     "category": "boitiers",
     "image": "/images/products/corsair-3500x-lx-r.webp",
@@ -383,7 +411,7 @@
   {
     "slug": "asus-tuf-gaming-31-5",
     "title": "ASUS TUF Gaming 31,5’’ ",
-    "shortDescription": "1440P Moniteur de jeu incurvé HDR (VG32WQ3B) – QHD (2560 x 1440), 180Hz, 0,5ms, 1500R, Extreme Low Motion Blur, FreeSync, 90% DCI-P3, Shadow Boost, DisplayWidget, garantie de 3 ans",
+    "shortDescription": "Moniteur gaming incurvé 27 po QHD 1440p — 180Hz, 1ms, HDR, FreeSync Premium, idéal pour le gaming compétitif.",
     "amazonUrl": "https://www.amazon.ca/dp/B0DQ9MMZVV?tag=prixmalin-20",
     "category": "ecrans",
     "image": "/images/products/asus-tuf-gaming-31-5.webp",
@@ -391,7 +419,11 @@
     "actif": true,
     "prix": "343.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-16",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": ""
   },
   {
     "slug": "gigabyte-gs27qa",
@@ -409,7 +441,7 @@
   {
     "slug": "samsung-odyssey-g5",
     "title": "Samsung Odyssey G5",
-    "shortDescription": "Moniteur de jeu incurvé de 27 pouces (2 560 x 1 440) G55C QHD 165 Hz 1 ms, HDR10, FreeSync, mode Eye Saver, courbure 1000R – LS27CG550ENXZA ",
+    "shortDescription": "Moniteur de jeu incurvé de 27 pouces (2 560 x 1 440) G55C QHD 165 Hz 1 ms, HDR10, FreeSync, mode Eye Saver, courbure 1000R, LS27CG550ENXZA",
     "amazonUrl": "https://www.amazon.ca/dp/B0CRGR6KLN?tag=prixmalin-20",
     "category": "ecrans",
     "image": "/images/products/samsung-odyssey-g5.webp",
@@ -483,10 +515,10 @@
     "slug": "elgato-facecam-mk-2",
     "title": "Elgato Facecam MK.2",
     "shortDescription": "Webcam Full HD premium pour streaming et gaming — HDR, mise au point fixe, qualité professionnelle.",
-    "shortDescription_en": "",
-    "shortDescription_es": "",
-    "shortDescription_ar": "",
-    "shortDescription_zh": "",
+    "shortDescription_en": "full HD webcam premium for streaming and gaming — HDR, fixed focus, professional quality.",
+    "shortDescription_es": "webcam Full HD premium para streaming y gaming — HDR, enfoque fijo, calidad profesional.",
+    "shortDescription_ar": "كاميرا ويب Full HD متميز لـ البث والألعاب — HDR, تركيز ثابت, جودة احترافية.",
+    "shortDescription_zh": "全高清网络摄像头 高级版，适合 直播和游戏 — HDR, 固定对焦, 专业品质.",
     "amazonUrl": "https://www.amazon.ca/dp/B0CW1S7XP5?tag=prixmalin-20",
     "category": "video",
     "image": "/images/products/elgato-facecam-mk-2.webp",
