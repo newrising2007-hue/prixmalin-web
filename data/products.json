@@ -307,7 +307,11 @@
     "actif": true,
     "prix": "249.99",
     "prixBarre": "269.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-19",
+    "shortDescription_en": "massaging lumbar support, vintage-style PU leather chair",
+    "shortDescription_es": "soporte lumbar masajeador, sillón estilo vintage en cuero PU",
+    "shortDescription_ar": "دعم قطني مدلك, كرسي بتصميم كلاسيكي بجلد PU",
+    "shortDescription_zh": "按摩腰枕, 复古风格PU皮椅"
   },
   {
     "slug": "chaise-de-jeu-avec-repose-pieds",
@@ -320,11 +324,11 @@
     "actif": true,
     "prix": "109.99",
     "prixBarre": "119.99",
-    "prixVerifieLe": "2026-03-16",
-    "shortDescription_en": "",
-    "shortDescription_es": "",
-    "shortDescription_ar": "",
-    "shortDescription_zh": ""
+    "prixVerifieLe": "2026-03-19",
+    "shortDescription_en": "ergonomic high back with adjustable lumbar support and headrest.",
+    "shortDescription_es": "ergonómico respaldo alto con soporte lumbar ajustable y reposacabezas.",
+    "shortDescription_ar": "مريح ظهر مرتفع مع دعم قطني قابل للتعديل و مسند رأس.",
+    "shortDescription_zh": "人体工学 高背 配有 可调节腰部支撑 和 头枕."
   },
   {
     "slug": "chaise-de-bureau-mimoglad",
@@ -337,11 +341,11 @@
     "actif": true,
     "prix": "169.99",
     "prixBarre": "259.99",
-    "prixVerifieLe": "2026-03-16",
-    "shortDescription_en": "",
-    "shortDescription_es": "",
-    "shortDescription_ar": "",
-    "shortDescription_zh": ""
+    "prixVerifieLe": "2026-03-19",
+    "shortDescription_en": "ergonomic high back with adjustable lumbar support and headrest.",
+    "shortDescription_es": "ergonómico respaldo alto con soporte lumbar ajustable y reposacabezas.",
+    "shortDescription_ar": "مريح ظهر مرتفع مع دعم قطني قابل للتعديل و مسند رأس.",
+    "shortDescription_zh": "人体工学 高背 配有 可调节腰部支撑 和 头枕."
   },
   {
     "slug": "kediers-boitier-c650",
