@@ -174,7 +174,11 @@
     "actif": true,
     "prix": "94.00",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-19",
+    "shortDescription_en": "massaging lumbar support, vintage-style PU leather chair",
+    "shortDescription_es": "soporte lumbar masajeador, sillón estilo vintage en cuero PU",
+    "shortDescription_ar": "دعم قطني مدلك, كرسي بتصميم كلاسيكي بجلد PU",
+    "shortDescription_zh": "按摩腰枕, 复古风格PU皮椅"
   },
   {
     "slug": "logitech-g-435-lightspeed",
@@ -266,9 +270,13 @@
     "image": "/images/products/elgato-game-capture-neo.webp",
     "badge": "Deal du jour",
     "actif": true,
-    "prix": "154.99",
+    "prix": "154.98",
     "prixBarre": "164.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-19",
+    "shortDescription_en": "massaging lumbar support, vintage-style PU leather chair",
+    "shortDescription_es": "soporte lumbar masajeador, sillón estilo vintage en cuero PU",
+    "shortDescription_ar": "دعم قطني مدلك, كرسي بتصميم كلاسيكي بجلد PU",
+    "shortDescription_zh": "按摩腰枕, 复古风格PU皮椅"
   },
   {
     "slug": "razer-firefly-v2-pro-tapis-de-souris",
@@ -444,7 +452,11 @@
     "actif": true,
     "prix": "219.99",
     "prixBarre": "339.99",
-    "prixVerifieLe": "2026-03-16"
+    "prixVerifieLe": "2026-03-19",
+    "shortDescription_en": "massaging lumbar support, vintage-style PU leather chair",
+    "shortDescription_es": "soporte lumbar masajeador, sillón estilo vintage en cuero PU",
+    "shortDescription_ar": "دعم قطني مدلك, كرسي بتصميم كلاسيكي بجلد PU",
+    "shortDescription_zh": "按摩腰枕, 复古风格PU皮椅"
   },
   {
     "slug": "samsung-odyssey-g5",
@@ -489,10 +501,10 @@
     "slug": "emeet-pixy-camera-ptz",
     "title": "EMEET PIXY Caméra PTZ",
     "shortDescription": "Double caméra IA 4K PTZ — suivi AI, autofocus PDAF 0,2s, idéale pour streaming et visioconférence.",
-    "shortDescription_en": "",
-    "shortDescription_es": "",
-    "shortDescription_ar": "",
-    "shortDescription_zh": "",
+    "shortDescription_en": "massaging lumbar support, vintage-style PU leather chair",
+    "shortDescription_es": "soporte lumbar masajeador, sillón estilo vintage en cuero PU",
+    "shortDescription_ar": "دعم قطني مدلك, كرسي بتصميم كلاسيكي بجلد PU",
+    "shortDescription_zh": "按摩腰枕, 复古风格PU皮椅",
     "amazonUrl": "https://www.amazon.ca/dp/B06X99NFRS?tag=prixmalin-20",
     "category": "video",
     "image": "/images/products/emeet-pixy-camera-ptz.webp",
@@ -500,7 +512,7 @@
     "actif": true,
     "prix": "139.99",
     "prixBarre": "218",
-    "prixVerifieLe": "2026-03-17"
+    "prixVerifieLe": "2026-03-19"
   },
   {
     "slug": "logitech-webcam-pro-stream-c922",
