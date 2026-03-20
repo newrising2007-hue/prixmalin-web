@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-03-19",
+  "updated_at": "2026-03-20",
   "note": "Dictionnaire vivant — segments FR → EN/ES/AR/ZH. Toutes les entrées sont vérifiées manuellement. Les entrées générées par LM Studio sont marquées 'verified: false' jusqu'à approbation.",
   "segments": {
     "casque de jeu": {
@@ -1126,8 +1126,9 @@
     "boîtier d'ordinateur": {
       "en": "computer case",
       "es": "caja de ordenador",
-      "ar": "صندوق الكمبيوتر",
-      "zh": "电脑机箱"
+      "ar": "هيكل الكمبيوتر",
+      "zh": "电脑机箱",
+      "verified": false
     },
     "de type C": {
       "en": "type C",
@@ -1496,10 +1497,11 @@
       "zh": "4个脚轮"
     },
     "support de tour d'ordinateur": {
-      "en": "computer tower stand",
-      "es": "soporte de torre de ordenador",
+      "en": "PC tower stand",
+      "es": "soporte torre PC",
       "ar": "حامل برج الكمبيوتر",
-      "zh": "电脑塔架"
+      "zh": "电脑塔架",
+      "verified": false
     },
     "convient à la plupart des PC": {
       "en": "fits most PCs",
@@ -2065,6 +2067,76 @@
       "es": "mando Xbox Core inalámbrico",
       "ar": "يد تحكم Xbox Core لاسلكي",
       "zh": "Xbox Core无线手柄"
+    },
+    "microphone": {
+      "en": "Microphone",
+      "es": "Micrófono",
+      "ar": "ميكروفون",
+      "zh": "麦克风",
+      "verified": false
+    },
+    "large": {
+      "en": "large",
+      "es": "grande",
+      "ar": "كبير",
+      "zh": "大",
+      "verified": false
+    },
+    "casque": {
+      "en": "headset",
+      "es": "auriculares",
+      "ar": "سماعة رأس",
+      "zh": "耳机",
+      "verified": false
+    },
+    "tapis de souris": {
+      "en": "mouse pad",
+      "es": "alfombrilla",
+      "ar": "لوحة الماوس",
+      "zh": "鼠标垫",
+      "verified": false
+    },
+    "chaise de jeu": {
+      "en": "gaming chair",
+      "es": "silla gaming",
+      "ar": "كرسي ألعاب",
+      "zh": "游戏椅",
+      "verified": false
+    },
+    "chaise de bureau": {
+      "en": "office chair",
+      "es": "silla de oficina",
+      "ar": "كرسي مكتب",
+      "zh": "办公椅",
+      "verified": false
+    },
+    "boîtier": {
+      "en": "PC case",
+      "es": "caja PC",
+      "ar": "هيكل كمبيوتر",
+      "zh": "机箱",
+      "verified": false
+    },
+    "repose-pieds": {
+      "en": "footrest",
+      "es": "reposapiés",
+      "ar": "مسند قدم",
+      "zh": "脚踏板",
+      "verified": false
+    },
+    "caméra": {
+      "en": "camera",
+      "es": "cámara",
+      "ar": "كاميرا",
+      "zh": "摄像头",
+      "verified": false
+    },
+    "medium": {
+      "en": "medium",
+      "es": "mediano",
+      "ar": "متوسط",
+      "zh": "中",
+      "verified": false
     }
   }
 }

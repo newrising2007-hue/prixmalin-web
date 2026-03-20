@@ -34,7 +34,11 @@
     "shortDescription_en": "precise, lightweight and ideal for FPS at an affordable price. 3 colors available.",
     "shortDescription_es": "precisa, ligero y ideal para FPS a precio asequible. 3 colores disponibles.",
     "shortDescription_ar": "دقيقة, خفيف الوزن و مثالي لألعاب FPS بسعر معقول. 3 ألوان متاحة.",
-    "shortDescription_zh": "精准, 轻量化 和 适合FPS游戏 价格实惠. 3种颜色可选."
+    "shortDescription_zh": "精准, 轻量化 和 适合FPS游戏 价格实惠. 3种颜色可选.",
+    "title_en": "gaming mouse Logitech G203 Lightsync RGB",
+    "title_es": "ratón gaming Logitech G203 Lightsync RGB",
+    "title_ar": "فأرة الألعاب Logitech G203 Lightsync RGB",
+    "title_zh": "游戏鼠标 Logitech G203 Lightsync RGB"
   },
   {
     "slug": "steelseries-arctis-nova-1",
@@ -69,7 +73,11 @@
     "shortDescription_en": "RGB keyboard comfortable and splash-resistant for gaming.",
     "shortDescription_es": "teclado RGB cómodo y resistente a salpicaduras para gaming.",
     "shortDescription_ar": "لوحة مفاتيح RGB مريح و مقاوم للرشاش للألعاب.",
-    "shortDescription_zh": "RGB键盘 舒适 和 防溅水 适合游戏."
+    "shortDescription_zh": "RGB键盘 舒适 和 防溅水 适合游戏.",
+    "title_en": "keyboard Gaming HyperX Alloy Core RGB",
+    "title_es": "teclado Gaming HyperX Alloy Core RGB",
+    "title_ar": "لوحة مفاتيح Gaming HyperX Alloy Core RGB",
+    "title_zh": "键盘 Gaming HyperX Alloy Core RGB"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2",
@@ -86,7 +94,11 @@
     "shortDescription_en": "ultra-lightweight wireless gaming mouse — professional quality, Amazon Renewed.",
     "shortDescription_es": "ratón gaming inalámbrico ultraligero — calidad profesional, Amazon Renewed.",
     "shortDescription_ar": "فأرة ألعاب لاسلكية خفيفة جداً — جودة احترافية, Amazon Renewed.",
-    "shortDescription_zh": "超轻无线游戏鼠标 — 专业品质, Amazon Renewed."
+    "shortDescription_zh": "超轻无线游戏鼠标 — 专业品质, Amazon Renewed.",
+    "title_en": "Logitech G PRO X Superlight 2 black",
+    "title_es": "Logitech G PRO X Superlight 2 negro",
+    "title_ar": "Logitech G PRO X Superlight 2 أسود",
+    "title_zh": "Logitech G PRO X Superlight 2 黑色"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2-se",
@@ -103,7 +115,11 @@
     "shortDescription_en": "ultra-lightweight wireless gaming mouse 60 g — 5 programmable buttons, professional quality, available en red.",
     "shortDescription_es": "ratón gaming inalámbrico ultraligero 60 g — 5 botones programables, calidad profesional, disponible en rojo.",
     "shortDescription_ar": "فأرة ألعاب لاسلكية خفيفة جداً 60 g — 5 أزرار قابلة للبرمجة, جودة احترافية, متاح en أحمر.",
-    "shortDescription_zh": "超轻无线游戏鼠标 60 g — 5 可编程按键, 专业品质, 可选 en 红色."
+    "shortDescription_zh": "超轻无线游戏鼠标 60 g — 5 可编程按键, 专业品质, 可选 en 红色.",
+    "title_en": "Logitech G PRO X Superlight 2 SE ",
+    "title_es": "Logitech G PRO X Superlight 2 SE ",
+    "title_ar": "Logitech G PRO X Superlight 2 SE ",
+    "title_zh": "Logitech G PRO X Superlight 2 SE "
   },
   {
     "slug": "clavier-steelseries-apex-3-rgb",
@@ -141,7 +157,11 @@
     "shortDescription_en": "mouse pad de gaming mouse SteelSeries QcK — micro-textured surface optimized for optical and laser sensors. medium size, non-slip base.",
     "shortDescription_es": "alfombrilla de ratón gaming SteelSeries QcK — superficie microtexturizada optimizada para sensores ópticos y láser. tamaño mediano, base antideslizante.",
     "shortDescription_ar": "لوحة الفأرة de فأرة الألعاب SteelSeries QcK — سطح دقيق الملمس محسّنة لـ مستشعرات بصرية وليزرية. حجم متوسط, قاعدة مانعة للانزلاق.",
-    "shortDescription_zh": "鼠标垫 de 游戏鼠标 SteelSeries QcK — 微纹理表面 优化适用于 光学和激光传感器. 中号尺寸, 防滑底座."
+    "shortDescription_zh": "鼠标垫 de 游戏鼠标 SteelSeries QcK — 微纹理表面 优化适用于 光学和激光传感器. 中号尺寸, 防滑底座.",
+    "title_en": "SteelSeries QcK Gaming Mouse Pad (medium)",
+    "title_es": "SteelSeries QcK Gaming Mouse Pad (mediano)",
+    "title_ar": "SteelSeries QcK Gaming Mouse Pad (متوسط)",
+    "title_zh": "SteelSeries QcK Gaming Mouse Pad (中)"
   },
   {
     "slug": "new-bee-support-pour-casque-rgb",
@@ -179,7 +199,11 @@
     "shortDescription_en": "wireless Xbox Core controller — USB-C cable included, compatible Series X|S, Xbox One, Windows PC, Android and iOS.",
     "shortDescription_es": "mando Xbox Core inalámbrico — cable USB-C incluido, compatible Series X|S, Xbox One, Windows PC, Android y iOS.",
     "shortDescription_ar": "يد تحكم Xbox Core لاسلكي — كابل USB-C مرفق, متوافق Series X|S, Xbox One, Windows PC, Android و iOS.",
-    "shortDescription_zh": "Xbox Core无线手柄 — 含USB-C线, 兼容 Series X|S, Xbox One, Windows PC, Android 和 iOS."
+    "shortDescription_zh": "Xbox Core无线手柄 — 含USB-C线, 兼容 Series X|S, Xbox One, Windows PC, Android 和 iOS.",
+    "title_en": "xbox Core Wireless Gaming Controller",
+    "title_es": "xbox Core Wireless Gaming Controller",
+    "title_ar": "xbox Core Wireless Gaming Controller",
+    "title_zh": "xbox Core Wireless Gaming Controller"
   },
   {
     "slug": "dualsense-wireless-controller-playstation",
@@ -196,7 +220,11 @@
     "shortDescription_en": "DualSense PlayStation controller wireless — haptic feedback, adaptive triggers, available in multiple colors.",
     "shortDescription_es": "mando DualSense PlayStation inalámbrico — retroalimentación háptica, gatillos adaptativos, disponible en varios colores.",
     "shortDescription_ar": "يد تحكم DualSense PlayStation لاسلكي — ردود فعل لمسية, زناد تكيفي, متوفر بألوان متعددة.",
-    "shortDescription_zh": "DualSense PlayStation手柄 无线 — 触觉反馈, 自适应扳机, 多色可选."
+    "shortDescription_zh": "DualSense PlayStation手柄 无线 — 触觉反馈, 自适应扳机, 多色可选.",
+    "title_en": "DualSense Wireless Controller Playstation",
+    "title_es": "DualSense Wireless Controller Playstation",
+    "title_ar": "DualSense Wireless Controller Playstation",
+    "title_zh": "DualSense Wireless Controller Playstation"
   },
   {
     "slug": "logitech-g-435-lightspeed",
@@ -213,7 +241,11 @@
     "shortDescription_en": "wireless gaming headset Bluetooth, over-ear headset léger, built-in microphones, 18h battery life, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, mobile",
     "shortDescription_es": "auriculares gaming inalámbricos Bluetooth, auriculares supraaurales léger, micrófonos integrados, batería de 18 horas, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, móvil",
     "shortDescription_ar": "سماعة ألعاب لاسلكية Bluetooth, سماعة فوق الأذن léger, ميكروفونات مدمجة, بطارية 18 ساعة, دولبي أتموس, كمبيوتر, PS4, PS5, Nintendo Switch/Switch 2, جوال",
-    "shortDescription_zh": "无线游戏耳机 Bluetooth, 头戴式耳机 léger, 内置麦克风, 18小时续航, 杜比全景声, 电脑, PS4, PS5, Nintendo Switch/Switch 2, 移动设备"
+    "shortDescription_zh": "无线游戏耳机 Bluetooth, 头戴式耳机 léger, 内置麦克风, 18小时续航, 杜比全景声, 电脑, PS4, PS5, Nintendo Switch/Switch 2, 移动设备",
+    "title_en": "Logitech G 435 Lightspeed",
+    "title_es": "Logitech G 435 Lightspeed",
+    "title_ar": "Logitech G 435 Lightspeed",
+    "title_zh": "Logitech G 435 Lightspeed"
   },
   {
     "slug": "logitech-g305-lightspeed",
@@ -230,7 +262,11 @@
     "shortDescription_en": "gaming mouse wireless lightweight — 6 programmable buttons, 250h battery life, built-in memory, optical sensors.",
     "shortDescription_es": "ratón gaming inalámbrico ligero — 6 botones programables, autonomía 250h, memoria integrada, sensores ópticos.",
     "shortDescription_ar": "فأرة الألعاب لاسلكي خفيف الوزن — 6 أزرار قابلة للبرمجة, عمر بطارية 250 ساعة, ذاكرة مدمجة, مستشعرات بصرية.",
-    "shortDescription_zh": "游戏鼠标 无线 轻量化 — 6个可编程按键, 250小时续航, 内置内存, 光学传感器."
+    "shortDescription_zh": "游戏鼠标 无线 轻量化 — 6个可编程按键, 250小时续航, 内置内存, 光学传感器.",
+    "title_en": "Logitech G305 Lightspeed",
+    "title_es": "Logitech G305 Lightspeed",
+    "title_ar": "Logitech G305 Lightspeed",
+    "title_zh": "Logitech G305 Lightspeed"
   },
   {
     "slug": "logitech-g213-prodigy-rgb",
@@ -247,7 +283,11 @@
     "shortDescription_en": "RGB gaming keyboard LIGHTSYNC — splash-resistant, customizable keys, RGB backlight.",
     "shortDescription_es": "teclado gaming RGB LIGHTSYNC — resistente a salpicaduras, teclas personalizables, retroiluminación RGB.",
     "shortDescription_ar": "لوحة مفاتيح ألعاب RGB LIGHTSYNC — مقاوم للرشاش, مفاتيح قابلة للتخصيص, إضاءة خلفية RGB.",
-    "shortDescription_zh": "RGB游戏键盘 LIGHTSYNC — 防溅水, 可自定义按键, RGB背光."
+    "shortDescription_zh": "RGB游戏键盘 LIGHTSYNC — 防溅水, 可自定义按键, RGB背光.",
+    "title_en": "Logitech G213 Prodigy RGB",
+    "title_es": "Logitech G213 Prodigy RGB",
+    "title_ar": "Logitech G213 Prodigy RGB",
+    "title_zh": "Logitech G213 Prodigy RGB"
   },
   {
     "slug": "8bitdo-ultimate-wireless-controller",
@@ -306,7 +346,11 @@
     "shortDescription_en": "capture card USB 4K60 HDR — 1080p60 recording, compatible PS5, Xbox, Nintendo Switch 2, Plug & Play.",
     "shortDescription_es": "tarjeta de captura USB 4K60 HDR — grabación 1080p60, compatible PS5, Xbox, Nintendo Switch 2, Plug & Play.",
     "shortDescription_ar": "بطاقة التقاط USB 4K60 HDR — تسجيل 1080p60, متوافق PS5, Xbox, Nintendo Switch 2, تشغيل فوري بدون إعداد.",
-    "shortDescription_zh": "采集卡 USB 4K60 HDR — 1080p60录制, 兼容 PS5, Xbox, Nintendo Switch 2, 即插即用."
+    "shortDescription_zh": "采集卡 USB 4K60 HDR — 1080p60录制, 兼容 PS5, Xbox, Nintendo Switch 2, 即插即用.",
+    "title_en": "Elgato Game Capture Neo",
+    "title_es": "Elgato Game Capture Neo",
+    "title_ar": "Elgato Game Capture Neo",
+    "title_zh": "Elgato Game Capture Neo"
   },
   {
     "slug": "razer-firefly-v2-pro-tapis-de-souris",
@@ -323,7 +367,11 @@
     "shortDescription_en": "mouse pad de gaming mouse RGB — Chroma lighting 15 zones, micro-textured surface, detachable USB-C cable.",
     "shortDescription_es": "alfombrilla de ratón gaming RGB — iluminación Chroma 15 zonas, superficie microtexturizada, cable USB-C desmontable.",
     "shortDescription_ar": "لوحة الفأرة de فأرة الألعاب RGB — إضاءة Chroma 15 منطقة, سطح دقيق الملمس, كابل USB-C قابل للفصل.",
-    "shortDescription_zh": "鼠标垫 de 游戏鼠标 RGB — Chroma灯效 15区域, 微纹理表面, 可拆卸USB-C线."
+    "shortDescription_zh": "鼠标垫 de 游戏鼠标 RGB — Chroma灯效 15区域, 微纹理表面, 可拆卸USB-C线.",
+    "title_en": "Razer Firefly V2 Pro mouse pad",
+    "title_es": "Razer Firefly V2 Pro alfombrilla",
+    "title_ar": "Razer Firefly V2 Pro لوحة الماوس",
+    "title_zh": "Razer Firefly V2 Pro 鼠标垫"
   },
   {
     "slug": "microphone-razer-seiren-v3-chroma-rgb-usb",
@@ -361,7 +409,11 @@
     "shortDescription_en": "gaming chair vintage style — PU leather, massaging lumbar support, reclining, ideal for long sessions.",
     "shortDescription_es": "silla gaming estilo vintage — cuero PU, soporte lumbar masajeador, reclinable, ideal para las largas sesiones.",
     "shortDescription_ar": "كرسي ألعاب طراز كلاسيكي — جلد PU, دعم قطني مدلك, قابل للإمالة, مثالي لـ الجلسات الطويلة.",
-    "shortDescription_zh": "游戏椅 复古风格 — PU皮革, 按摩腰枕, 可倾斜, 适合 长时间使用."
+    "shortDescription_zh": "游戏椅 复古风格 — PU皮革, 按摩腰枕, 可倾斜, 适合 长时间使用.",
+    "title_en": "Dowinx gaming chair and  bureau",
+    "title_es": "Dowinx silla gaming y  bureau",
+    "title_ar": "Dowinx كرسي ألعاب و  bureau",
+    "title_zh": "Dowinx 游戏椅 和  bureau"
   },
   {
     "slug": "chaise-de-jeu-avec-repose-pieds",
@@ -378,7 +430,11 @@
     "shortDescription_en": "gaming chair ergonomic high back — PVC leather, lumbar massage, reclining, ideal for long sessions",
     "shortDescription_es": "silla gaming ergonómico respaldo alto — cuero PVC, masaje lumbar, reclinable, ideal para las largas sesiones",
     "shortDescription_ar": "كرسي ألعاب مريح ظهر مرتفع — جلد PVC, تدليك قطني, قابل للإمالة, مثالي لـ الجلسات الطويلة",
-    "shortDescription_zh": "游戏椅 人体工学 高背 — PVC皮革, 腰部按摩, 可倾斜, 适合 长时间使用"
+    "shortDescription_zh": "游戏椅 人体工学 高背 — PVC皮革, 腰部按摩, 可倾斜, 适合 长时间使用",
+    "title_en": "gaming chair with footrest",
+    "title_es": "silla gaming con reposapiés",
+    "title_ar": "كرسي ألعاب مع مسند قدم",
+    "title_zh": "游戏椅 配有 脚踏板"
   },
   {
     "slug": "chaise-de-bureau-mimoglad",
@@ -395,7 +451,11 @@
     "shortDescription_en": "ergonomic high back with adjustable lumbar support and headrest.",
     "shortDescription_es": "ergonómico respaldo alto con soporte lumbar ajustable y reposacabezas.",
     "shortDescription_ar": "مريح ظهر مرتفع مع دعم قطني قابل للتعديل و مسند رأس.",
-    "shortDescription_zh": "人体工学 高背 配有 可调节腰部支撑 和 头枕."
+    "shortDescription_zh": "人体工学 高背 配有 可调节腰部支撑 和 头枕.",
+    "title_en": "office chair Mimoglad",
+    "title_es": "silla de oficina Mimoglad",
+    "title_ar": "كرسي مكتب Mimoglad",
+    "title_zh": "办公椅 Mimoglad"
   },
   {
     "slug": "kediers-boitier-c650",
@@ -412,7 +472,11 @@
     "shortDescription_en": "tempered glass ATX tower with open frame pour gaming computer avec 7 fans RGB",
     "shortDescription_es": "torre ATX con vidrio templado con marco abierto pour ordenador gaming avec 7 ventiladores RGB",
     "shortDescription_ar": "هيكل ATX بزجاج مقسى مع هيكل مفتوح pour كمبيوتر ألعاب avec 7 مراوح RGB",
-    "shortDescription_zh": "钢化玻璃ATX机箱 配有 开放式框架 pour 游戏电脑 avec 7个风扇 RGB"
+    "shortDescription_zh": "钢化玻璃ATX机箱 配有 开放式框架 pour 游戏电脑 avec 7个风扇 RGB",
+    "title_en": "KEDIERS PC case C650",
+    "title_es": "KEDIERS caja PC C650",
+    "title_ar": "KEDIERS هيكل كمبيوتر C650",
+    "title_zh": "KEDIERS 机箱 C650"
   },
   {
     "slug": "hyxn-atx-boitier",
@@ -429,7 +493,11 @@
     "shortDescription_en": "large gaming PC case ATX dual-chamber — 8 pre-installed PWM ARGB fans, radiator support 420 mm.",
     "shortDescription_es": "caja gaming PC grande ATX doble cámara — 8 ventiladores PWM ARGB preinstalados, soporte de radiador 420 mm.",
     "shortDescription_ar": "صندوق كمبيوتر ألعاب كبير ATX غرفة مزدوجة — 8 مراوح PWM ARGB مثبتة مسبقاً, دعم المشعاع 420 mm.",
-    "shortDescription_zh": "大型游戏电脑机箱 ATX 双腔体设计 — 8 预装PWM ARGB风扇, 散热器支持 420 mm."
+    "shortDescription_zh": "大型游戏电脑机箱 ATX 双腔体设计 — 8 预装PWM ARGB风扇, 散热器支持 420 mm.",
+    "title_en": "HYXN ATX PC case",
+    "title_es": "HYXN ATX caja PC",
+    "title_ar": "HYXN ATX هيكل كمبيوتر",
+    "title_zh": "HYXN ATX 机箱"
   },
   {
     "slug": "support-de-tour-d-ordinateur",
@@ -446,7 +514,11 @@
     "shortDescription_en": "adjustable mobile CPU stand with 4 casters, computer tower stand PC fits most PCs under the desk",
     "shortDescription_es": "soporte de CPU móvil ajustable con 4 ruedas, soporte de torre de ordenador PC compatible con la mayoría de PCs bajo el escritorio",
     "shortDescription_ar": "حامل معالج متنقل قابل للتعديل مع 4 عجلات, حامل برج الكمبيوتر كمبيوتر يناسب معظم أجهزة الكمبيوتر تحت المكتب",
-    "shortDescription_zh": "可调节移动CPU支架 配有 4个脚轮, 电脑塔架 电脑 适合大多数电脑 桌下"
+    "shortDescription_zh": "可调节移动CPU支架 配有 4个脚轮, 电脑塔架 电脑 适合大多数电脑 桌下",
+    "title_en": "PC tower stand",
+    "title_es": "soporte torre PC",
+    "title_ar": "حامل برج الكمبيوتر",
+    "title_zh": "电脑塔架"
   },
   {
     "slug": "corsair-3500x-lx-r",
@@ -463,7 +535,11 @@
     "shortDescription_en": "PC case mid tower, 3 fans LX120-R RGB pre-installed, includes a system hub iCUE Link, un GPU anti-sag bracket",
     "shortDescription_es": "caja PC torre mediana, 3 ventiladores LX120-R RGB preinstalados, incluye un concentrador del sistema iCUE Link, un soporte anti-pandeo de GPU",
     "shortDescription_ar": "صندوق الكمبيوتر الشخصي برج متوسط, 3 مراوح LX120-R RGB مثبتة مسبقاً, يتضمن محور النظام iCUE Link, un دعامة GPU لمنع الترهل",
-    "shortDescription_zh": "电脑机箱 中塔, 3个风扇 LX120-R RGB 预装, 包含一个 系统集线器 iCUE Link, un GPU防下垂支架"
+    "shortDescription_zh": "电脑机箱 中塔, 3个风扇 LX120-R RGB 预装, 包含一个 系统集线器 iCUE Link, un GPU防下垂支架",
+    "title_en": "CORSAIR 3500X LX-R",
+    "title_es": "CORSAIR 3500X LX-R",
+    "title_ar": "CORSAIR 3500X LX-R",
+    "title_zh": "CORSAIR 3500X LX-R"
   },
   {
     "slug": "z-edge",
@@ -480,7 +556,11 @@
     "shortDescription_en": "gaming monitor curved 27 in Full HD — 300Hz, 1ms, frameless, AMD FreeSync Premium, HDMI ports and DisplayPort.",
     "shortDescription_es": "monitor gaming curvo 27 pulg Full HD — 300Hz, 1ms, sin marco, AMD FreeSync Premium, puertos HDMI y DisplayPort.",
     "shortDescription_ar": "شاشة ألعاب منحني 27 بوصة دقة فائقة HD — 300Hz, 1 مللي ثانية, بدون إطار, AMD FreeSync Premium, منافذ HDMI و DisplayPort.",
-    "shortDescription_zh": "游戏显示器 曲面 27英寸 全高清 — 300Hz, 1毫秒, 无边框, AMD FreeSync Premium, HDMI接口 和 DisplayPort."
+    "shortDescription_zh": "游戏显示器 曲面 27英寸 全高清 — 300Hz, 1毫秒, 无边框, AMD FreeSync Premium, HDMI接口 和 DisplayPort.",
+    "title_en": "Z-Edge",
+    "title_es": "Z-Edge",
+    "title_ar": "Z-Edge",
+    "title_zh": "Z-Edge"
   },
   {
     "slug": "asus-tuf-gaming-31-5",
@@ -497,7 +577,11 @@
     "shortDescription_en": "gaming monitor curved 31.5 in QHD 1440P, 180Hz, 0.5ms, HDR, FreeSync, curvature 1500R, ideal for competitive gaming and creative. Garantie 3 ans.",
     "shortDescription_es": "monitor gaming curvo 31,5 pulg QHD 1440P, 180Hz, 0,5ms, HDR, FreeSync, curvatura 1500R, ideal para gaming competitivo y creativo. Garantie 3 ans.",
     "shortDescription_ar": "شاشة ألعاب منحني 31.5 بوصة QHD 1440P, 180Hz, 0.5 مللي ثانية, HDR, FreeSync, انحناء 1500R, مثالي للألعاب التنافسية والإبداعي. Garantie 3 ans.",
-    "shortDescription_zh": "游戏显示器 曲面 31.5英寸 QHD 1440P, 180Hz, 0.5毫秒, HDR, FreeSync, 曲率 1500R, 适合竞技游戏 和创意. Garantie 3 ans."
+    "shortDescription_zh": "游戏显示器 曲面 31.5英寸 QHD 1440P, 180Hz, 0.5毫秒, HDR, FreeSync, 曲率 1500R, 适合竞技游戏 和创意. Garantie 3 ans.",
+    "title_en": "ASUS TUF Gaming 31,5’’ ",
+    "title_es": "ASUS TUF Gaming 31,5’’ ",
+    "title_ar": "ASUS TUF Gaming 31,5’’ ",
+    "title_zh": "ASUS TUF Gaming 31,5’’ "
   },
   {
     "slug": "gigabyte-gs27qa",
@@ -514,7 +598,11 @@
     "shortDescription_en": "gaming monitor 27 in QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, ideal for competitive gaming.",
     "shortDescription_es": "monitor gaming 27 pulg QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, ideal para gaming competitivo.",
     "shortDescription_ar": "شاشة ألعاب 27 بوصة QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1 مللي ثانية, HDR, مثالي للألعاب التنافسية.",
-    "shortDescription_zh": "游戏显示器 27英寸 QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1毫秒, HDR, 适合竞技游戏."
+    "shortDescription_zh": "游戏显示器 27英寸 QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1毫秒, HDR, 适合竞技游戏.",
+    "title_en": "GIGABYTE GS27QA",
+    "title_es": "GIGABYTE GS27QA",
+    "title_ar": "GIGABYTE GS27QA",
+    "title_zh": "GIGABYTE GS27QA"
   },
   {
     "slug": "samsung-odyssey-g5",
@@ -531,7 +619,11 @@
     "shortDescription_en": "gaming monitor curved 27 in QHD 1440P — 165Hz, 1ms, HDR10, FreeSync, 1000R curvature, Eye Saver mode.",
     "shortDescription_es": "monitor gaming curvo 27 pulg QHD 1440P — 165Hz, 1ms, HDR10, FreeSync, curvatura 1000R, modo Eye Saver.",
     "shortDescription_ar": "شاشة ألعاب منحني 27 بوصة QHD 1440P — 165Hz, 1 مللي ثانية, HDR10, FreeSync, انحناء 1000R, وضع Eye Saver لحماية العينين.",
-    "shortDescription_zh": "游戏显示器 曲面 27英寸 QHD 1440P — 165Hz, 1毫秒, HDR10, FreeSync, 1000R曲率, 护眼模式."
+    "shortDescription_zh": "游戏显示器 曲面 27英寸 QHD 1440P — 165Hz, 1毫秒, HDR10, FreeSync, 1000R曲率, 护眼模式.",
+    "title_en": "Samsung Odyssey G5",
+    "title_es": "Samsung Odyssey G5",
+    "title_ar": "Samsung Odyssey G5",
+    "title_zh": "Samsung Odyssey G5"
   },
   {
     "slug": "microphone-razer-seiren-v3-mini-usb",
@@ -548,7 +640,11 @@
     "shortDescription_en": "USB microphone ultra compact — condenser supercardioid, tap-to-mute LED, compatible PC, Discord and OBS.",
     "shortDescription_es": "micrófono USB ultracompacto — condensador supercardioide, silencio táctil LED, compatible PC, Discord y OBS.",
     "shortDescription_ar": "ميكروفون USB صغير الحجم للغاية — مكثف فائق القلب, قطع اللمس LED, متوافق كمبيوتر, Discord و OBS.",
-    "shortDescription_zh": "USB麦克风 超紧凑 — 电容 超心形, 触控静音 LED, 兼容 电脑, Discord 和 OBS."
+    "shortDescription_zh": "USB麦克风 超紧凑 — 电容 超心形, 触控静音 LED, 兼容 电脑, Discord 和 OBS.",
+    "title_en": "Microphone Razer Seiren V3 Mini usb",
+    "title_es": "Micrófono Razer Seiren V3 Mini usb",
+    "title_ar": "ميكروفون Razer Seiren V3 Mini usb",
+    "title_zh": "麦克风 Razer Seiren V3 Mini usb"
   },
   {
     "slug": "kediers-boitier-d-ordinateur-atx-midium-tower",
@@ -565,7 +661,11 @@
     "shortDescription_en": "9 pre-installed fans, computer case type C de mid-size with dual tempered glass full view.",
     "shortDescription_es": "9 ventiladores preinstalados, caja de ordenador tipo C de tamaño mediano con doble vidrio templado vista completa.",
     "shortDescription_ar": "9 مراوح مثبتة مسبقاً, صندوق الكمبيوتر نوع C de حجم متوسط مع زجاج مزدوج مقسى رؤية كاملة.",
-    "shortDescription_zh": "9个预装风扇, 电脑机箱 C型 de 中等尺寸 配有 双钢化玻璃 全视角."
+    "shortDescription_zh": "9个预装风扇, 电脑机箱 C型 de 中等尺寸 配有 双钢化玻璃 全视角.",
+    "title_en": "KEDIERS computer case ATX - Midium Tower",
+    "title_es": "KEDIERS caja de ordenador ATX - Midium Tower",
+    "title_ar": "KEDIERS هيكل الكمبيوتر ATX - Midium Tower",
+    "title_zh": "KEDIERS 电脑机箱 ATX - Midium Tower"
   },
   {
     "slug": "emeet-pixy-camera-ptz",
@@ -582,7 +682,11 @@
     "actif": true,
     "prix": "139.99",
     "prixBarre": "218",
-    "prixVerifieLe": "2026-03-19"
+    "prixVerifieLe": "2026-03-19",
+    "title_en": "EMEand PIXY camera ptz",
+    "title_es": "EMEy PIXY cámara ptz",
+    "title_ar": "EMEو PIXY كاميرا ptz",
+    "title_zh": "EME和 PIXY 摄像头 ptz"
   },
   {
     "slug": "logitech-webcam-pro-stream-c922",
@@ -599,7 +703,11 @@
     "actif": true,
     "prix": "104.00",
     "prixBarre": "129.99",
-    "prixVerifieLe": "2026-03-17"
+    "prixVerifieLe": "2026-03-17",
+    "title_en": "LOGITECH Webcam Pro Stream C922 ",
+    "title_es": "LOGITECH Webcam Pro Stream C922 ",
+    "title_ar": "LOGITECH Webcam Pro Stream C922 ",
+    "title_zh": "LOGITECH Webcam Pro Stream C922 "
   },
   {
     "slug": "elgato-facecam-mk-2",
@@ -616,6 +724,10 @@
     "actif": true,
     "prix": "179.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-17"
+    "prixVerifieLe": "2026-03-17",
+    "title_en": "Elgato Facecam MK.2",
+    "title_es": "Elgato Facecam MK.2",
+    "title_ar": "Elgato Facecam MK.2",
+    "title_zh": "Elgato Facecam MK.2"
   }
 ]
