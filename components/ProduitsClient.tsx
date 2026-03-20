@@ -41,7 +41,7 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
               <div className="w-full sm:w-40">
                 <div className="aspect-square w-full overflow-hidden rounded-2xl border bg-white">
                   {p.image ? (
-                    <img src={p.image} alt={p.title} className="h-full w-full object-contain p-3" loading="lazy" />
+                    <img src={p.image} alt={(locale !== "fr" && p[`title_${locale}`]) ? p[`title_${locale}`] : p.title} className="h-full w-full object-contain p-3" loading="lazy" />
                   ) : (
                     <div className="h-full w-full flex items-center justify-center text-sm text-black/50">
                       {labels["image_bientot"]}
@@ -51,7 +51,7 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
               </div>
               <div className="flex-1 min-w-0">
                 <h2 className="text-xl font-semibold">
-                  <Link href={`/${locale}/produit/${p.slug}`} className="hover:underline">{p.title}</Link>
+                  <Link href={`/${locale}/produit/${p.slug}`} className="hover:underline">{(locale !== "fr" && p[`title_${locale}`]) ? p[`title_${locale}`] : p.title}</Link>
                 </h2>
                 {p.category && (
                   <span className="inline-block mt-1 text-xs px-2 py-0.5 rounded-full bg-orange-100 text-orange-700">
