@@ -626,20 +626,6 @@
       "zh": "滚轮",
       "verified": true
     },
-    "amazon renewed": {
-      "en": "Amazon Renewed (refurbished)",
-      "es": "Amazon Renewed (reacondicionado)",
-      "ar": "Amazon Renewed (مجدد)",
-      "zh": "Amazon Renewed（翻新）",
-      "verified": true
-    },
-    "reconditionné": {
-      "en": "refurbished",
-      "es": "reacondicionado",
-      "ar": "مجدد",
-      "zh": "翻新",
-      "verified": true
-    },
     "fonctionne sur pc, ps4, ps5": {
       "en": "works on PC, PS4, PS5",
       "es": "funciona en PC, PS4, PS5",
@@ -708,13 +694,6 @@
       "es": "y",
       "ar": "و",
       "zh": "和",
-      "verified": true
-    },
-    "xbox one": {
-      "en": "xbox one",
-      "es": "xbox one",
-      "ar": "xbox one",
-      "zh": "xbox one",
       "verified": true
     },
     "series x": {
@@ -2062,6 +2041,30 @@
       "es": "en varios colores",
       "ar": "بألوان متعددة",
       "zh": "多色可选"
+    },
+    "casque gaming": {
+      "en": "gaming headset",
+      "es": "auriculares gaming",
+      "ar": "سماعة ألعاب",
+      "zh": "游戏耳机"
+    },
+    "Amazon Renewed": {
+      "en": "Amazon Renewed",
+      "es": "Amazon Renewed",
+      "ar": "Amazon Renewed",
+      "zh": "Amazon Renewed"
+    },
+    "souris gaming sans fil ultra-légère": {
+      "en": "ultra-lightweight wireless gaming mouse",
+      "es": "ratón gaming inalámbrico ultraligero",
+      "ar": "فأرة ألعاب لاسلكية خفيفة جداً",
+      "zh": "超轻无线游戏鼠标"
+    },
+    "manette Xbox Core sans fil": {
+      "en": "wireless Xbox Core controller",
+      "es": "mando Xbox Core inalámbrico",
+      "ar": "يد تحكم Xbox Core لاسلكي",
+      "zh": "Xbox Core无线手柄"
     }
   }
 }
