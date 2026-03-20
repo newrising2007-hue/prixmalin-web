@@ -120,7 +120,11 @@
     "shortDescription_en": "RGB gaming keyboard splash-resistant and dust resistant — silent switches, anti-ghosting, available in multiple colors.",
     "shortDescription_es": "teclado gaming RGB resistente a salpicaduras y resistente al polvo — interruptores silenciosos, anti-ghosting, disponible en varios colores.",
     "shortDescription_ar": "لوحة مفاتيح ألعاب RGB مقاوم للرشاش و مقاوم للغبار — مفاتيح صامتة, مانع الضغط الوهمي, متاح بألوان متعددة.",
-    "shortDescription_zh": "RGB游戏键盘 防溅水 和 防尘 — 静音开关, 防鬼键, 可选 多色可选."
+    "shortDescription_zh": "RGB游戏键盘 防溅水 和 防尘 — 静音开关, 防鬼键, 可选 多色可选.",
+    "title_en": "keyboard SteelSeries Apex 3 ",
+    "title_es": "teclado SteelSeries Apex 3 ",
+    "title_ar": "لوحة مفاتيح SteelSeries Apex 3 ",
+    "title_zh": "键盘 SteelSeries Apex 3 "
   },
   {
     "slug": "steelseries-qck-gaming-mouse-pad-medium",
@@ -154,7 +158,11 @@
     "shortDescription_en": "headset stand RGB New Bee — 2 USB ports smart, data transfer and charging, compatible phone, keyboard, mouse.",
     "shortDescription_es": "soporte para auriculares RGB New Bee — 2 puertos USB inteligentes, transferencia de datos y carga, compatible teléfono, teclado, ratón.",
     "shortDescription_ar": "حامل سماعة RGB New Bee — 2 منافذ USB ذكية, نقل البيانات والشحن, متوافق هاتف, لوحة مفاتيح, فأرة.",
-    "shortDescription_zh": "耳机支架 RGB New Bee — 2 USB接口 智能, 数据传输和充电, 兼容 手机, 键盘, 鼠标."
+    "shortDescription_zh": "耳机支架 RGB New Bee — 2 USB接口 智能, 数据传输和充电, 兼容 手机, 键盘, 鼠标.",
+    "title_en": "New bee headset stand RGB",
+    "title_es": "New bee soporte para auriculares RGB",
+    "title_ar": "New bee حامل سماعة RGB",
+    "title_zh": "New bee 耳机支架 RGB"
   },
   {
     "slug": "xbox-core-wireless-gaming-controller",
@@ -256,7 +264,11 @@
     "shortDescription_en": "Bluetooth wireless controller — compatible with Switch, Android and PC, available in multiple colors.",
     "shortDescription_es": "mando inalámbrico Bluetooth — compatible con Switch, Android y PC, disponible en varios colores.",
     "shortDescription_ar": "يد تحكم لاسلكية بلوتوث — متوافق مع Switch وAndroid والحاسوب, متوفر بألوان متعددة.",
-    "shortDescription_zh": "蓝牙无线手柄 — 兼容Switch、安卓和PC, 多色可选."
+    "shortDescription_zh": "蓝牙无线手柄 — 兼容Switch、安卓和PC, 多色可选.",
+    "title_en": "8BitDo Ultimate Wireless Controller",
+    "title_es": "8BitDo Ultimate Wireless Controller",
+    "title_ar": "8BitDo Ultimate Wireless Controller",
+    "title_zh": "8BitDo Ultimate Wireless Controller"
   },
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
@@ -324,7 +336,11 @@
     "shortDescription_en": "USB microphone à condenser RGB — tap-to-mute, gain limiter, ideal for streaming and gaming, available in 3 colors.",
     "shortDescription_es": "micrófono USB à condensador RGB — silencio táctil, limitador de ganancia, ideal para streaming y gaming, disponible en 3 colores.",
     "shortDescription_ar": "ميكروفون USB à مكثف RGB — قطع اللمس, محدد الكسب, مثالي لـ البث والألعاب, متوفر بـ 3 ألوان.",
-    "shortDescription_zh": "USB麦克风 à 电容 RGB — 触控静音, 增益限制器, 适合 直播和游戏, 3色可选."
+    "shortDescription_zh": "USB麦克风 à 电容 RGB — 触控静音, 增益限制器, 适合 直播和游戏, 3色可选.",
+    "title_en": "Microphone Razer Seiren V3 Chroma RGB usb",
+    "title_es": "Micrófono Razer Seiren V3 Chroma RGB usb",
+    "title_ar": "ميكروفون Razer Seiren V3 Chroma RGB usb",
+    "title_zh": "麦克风 Razer Seiren V3 Chroma RGB usb"
   },
   {
     "slug": "dowinx-chaise-de-jeu-et-bureau",
