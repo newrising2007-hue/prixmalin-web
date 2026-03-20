@@ -53,13 +53,16 @@ export default async function ProductPage({ params }: Props) {
   const localizedDescription = (locale !== 'fr' && product[`shortDescription_${locale}` as keyof typeof product])
     ? product[`shortDescription_${locale}` as keyof typeof product] as string
     : product.shortDescription;
+  const localizedTitle = (locale !== 'fr' && product[`title_${locale}` as keyof typeof product])
+    ? product[`title_${locale}` as keyof typeof product] as string
+    : product.title;
   const t = await getTranslations();
   const affiliateUrl = buildAmazonLink(product.amazonUrl);
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: product.title,
+    name: localizedTitle,
     description: product.shortDescription,
     url: `/produit/${product.slug}`,
     category: product.category ?? "gaming",
@@ -90,7 +93,7 @@ export default async function ProductPage({ params }: Props) {
             {imageSrc ? (
               <img
                 src={imageSrc}
-                alt={product.title}
+                alt={localizedTitle}
                 className="h-full w-full object-contain p-4"
                 loading="lazy"
               />
@@ -103,7 +106,7 @@ export default async function ProductPage({ params }: Props) {
         </div>
 
         <div className="min-w-0 flex-1">
-          <h1 className="text-3xl font-bold">{product.title}</h1>
+          <h1 className="text-3xl font-bold">{localizedTitle}</h1>
 
           <p className="mt-4 text-black/70">{localizedDescription}</p>
 
