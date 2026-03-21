@@ -771,5 +771,28 @@
     "prix": "94.94",
     "prixBarre": "99.99",
     "prixVerifieLe": "2026-03-21"
+  },
+  {
+    "slug": "nintendo-switch-2-pro-controller",
+    "title": "Nintendo Switch 2 Pro Controller",
+    "title_en": "Nintendo Switch 2 Pro Controller",
+    "title_es": "Nintendo Switch 2 Pro Controller",
+    "title_ar": "Nintendo Switch 2 Pro Controller",
+    "title_zh": "Nintendo Switch 2 Pro Controller",
+    "shortDescription": "Manette sans fil officielle Nintendo pour Switch 2. Gyroscope HD amélioré, vibration HD et NFC intégré pour les amiibo. Batterie longue durée, utilisable en mode TV, Tabletop ou portable. La manette de référence pour la Nintendo Switch 2.",
+    "shortDescription_en": "wireless controller official Nintendo for Switch 2. HD gyroscope improved, HD rumble and built-in NFC for amiibo. long-lasting battery, Usable in TV mode, Tablandop or handheld. La reference controller for la Nintendo Switch 2.",
+    "shortDescription_es": "mando inalámbrico oficial de Nintendo para Switch 2. giroscopio HD mejorado, vibración HD y NFC integrado para amiibo. batería de larga duración, Utilizable en modo TV, Tablyop o portátil. La mando de referencia para la Nintendo Switch 2.",
+    "shortDescription_ar": "يد تحكم لاسلكية الرسمية من Nintendo لـ Switch 2. جيروسكوب HD محسّن, اهتزاز HD و NFC مدمج للـ amiibo. بطارية طويلة الأمد, قابل للاستخدام في وضع التلفزيون, وضع Tablوop أو المحمول. La وحدة التحكم المرجعية لـ la Nintendo Switch 2.",
+    "shortDescription_zh": "无线手柄 任天堂官方 用于 Switch 2. HD陀螺仪 改进版, HD震动 和 内置NFC支持amiibo. 长续航电池, 可在电视模式下使用, 桌面或掌机模式. La 参考手柄 用于 la Nintendo Switch 2.",
+    "amazonUrl": "https://www.amazon.ca/dp/B0F3VTFD6J?tag=prixmalin-20",
+    "affiliateLink": "https://www.amazon.ca/dp/B0F3VTFD6J?tag=prixmalin-20",
+    "asin": "B0F3VTFD6J",
+    "category": "manettes",
+    "image": "/images/products/nintendo-switch-2-pro-controller.webp",
+    "badge": "Nouveau",
+    "actif": true,
+    "prix": "109.96",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
