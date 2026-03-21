@@ -2137,6 +2137,492 @@
       "ar": "متوسط",
       "zh": "中",
       "verified": false
+    },
+    "Manette PS4 sans fil RGB": {
+      "en": "Wireless RGB Controller for PS4",
+      "es": "Mando inalámbrico RGB para PS4",
+      "ar": "وحدة تحكم RGB لاسلكية لـ PS4",
+      "zh": "PS4 无线RGB手柄"
+    },
+    "lumières RVB réglables": {
+      "en": "adjustable RGB lights",
+      "es": "luces RGB ajustables",
+      "ar": "أضواء RGB قابلة للتعديل",
+      "zh": "可调节RGB灯光"
+    },
+    "immersion totale": {
+      "en": "total immersion",
+      "es": "inmersión total",
+      "ar": "انغماس كامل",
+      "zh": "完全沉浸"
+    },
+    "Pro et Slim": {
+      "en": "Pro and Slim",
+      "es": "Pro y Slim",
+      "ar": "Pro وSlim",
+      "zh": "Pro和Slim"
+    },
+    "Profitez d'une": {
+      "en": "Enjoy",
+      "es": "Disfruta de",
+      "ar": "استمتع بـ",
+      "zh": "享受"
+    },
+    "Équipée de": {
+      "en": "Equipped with",
+      "es": "Equipada con",
+      "ar": "مزودة بـ",
+      "zh": "配備"
+    },
+    "batterie haute capacité de 1000 mAh": {
+      "en": "1000mAh high capacity battery",
+      "es": "batería de alta capacidad de 1000 mAh",
+      "ar": "بطارية عالية السعة 1000 مللي أمبير",
+      "zh": "1000毫安大容量电池"
+    },
+    "capteur de mouvement à 6 axes": {
+      "en": "6-axis motion sensor",
+      "es": "sensor de movimiento de 6 ejes",
+      "ar": "مستشعر حركة 6 محاور",
+      "zh": "6轴运动传感器"
+    },
+    "double vibration": {
+      "en": "dual vibration",
+      "es": "doble vibración",
+      "ar": "اهتزاز مزدوج",
+      "zh": "双振动"
+    },
+    "prise audio 3,5 mm intégrée": {
+      "en": "built-in 3.5mm audio jack",
+      "es": "conector de audio de 3,5 mm integrado",
+      "ar": "مقبس صوت 3.5 مم مدمج",
+      "zh": "内置3.5毫米音频接口"
+    },
+    "d'une": {
+      "en": "with a",
+      "es": "con una",
+      "ar": "مع",
+      "zh": "配有"
+    },
+    "Équipée de lumières RVB réglables": {
+      "en": "Equipped with adjustable RGB lights",
+      "es": "Equipada con luces RGB ajustables",
+      "ar": "مزودة بأضواء RGB قابلة للتعديل",
+      "zh": "配备可调节RGB灯光"
+    },
+    "d'un": {
+      "en": "with a",
+      "es": "con un",
+      "ar": "مع",
+      "zh": "配有"
+    },
+    "blanche": {
+      "en": "white",
+      "es": "blanco",
+      "ar": "أبيض",
+      "zh": "白色"
+    },
+    "officielle Nintendo": {
+      "en": "official Nintendo",
+      "es": "oficial de Nintendo",
+      "ar": "الرسمية من Nintendo",
+      "zh": "任天堂官方"
+    },
+    "Switch Lite": {
+      "en": "Switch Lite",
+      "es": "Switch Lite",
+      "ar": "Switch Lite",
+      "zh": "Switch Lite"
+    },
+    "Gyroscope HD": {
+      "en": "HD gyroscope",
+      "es": "giroscopio HD",
+      "ar": "جيروسكوب HD",
+      "zh": "HD陀螺仪"
+    },
+    "vibration HD": {
+      "en": "HD rumble",
+      "es": "vibración HD",
+      "ar": "اهتزاز HD",
+      "zh": "HD震动"
+    },
+    "NFC intégré pour les amiibo": {
+      "en": "built-in NFC for amiibo",
+      "es": "NFC integrado para amiibo",
+      "ar": "NFC مدمج للـ amiibo",
+      "zh": "内置NFC支持amiibo"
+    },
+    "Batterie longue durée de 40 heures": {
+      "en": "40-hour long-lasting battery",
+      "es": "batería de larga duración de 40 horas",
+      "ar": "بطارية طويلة الأمد 40 ساعة",
+      "zh": "40小时长续航电池"
+    },
+    "incontournable": {
+      "en": "essential",
+      "es": "imprescindible",
+      "ar": "لا غنى عنه",
+      "zh": "必备"
+    },
+    "joueur Switch sérieux": {
+      "en": "serious Switch player",
+      "es": "jugador serio de Switch",
+      "ar": "لاعب Switch الجاد",
+      "zh": "认真的Switch玩家"
+    },
+    "Utilisable en mode TV": {
+      "en": "Usable in TV mode",
+      "es": "Utilizable en modo TV",
+      "ar": "قابل للاستخدام في وضع التلفزيون",
+      "zh": "可在电视模式下使用"
+    },
+    "Tabletop ou portable": {
+      "en": "Tabletop or handheld",
+      "es": "Tabletop o portátil",
+      "ar": "وضع Tabletop أو المحمول",
+      "zh": "桌面或掌机模式"
+    },
+    "La manette incontournable pour tout joueur Switch sérieux": {
+      "en": "The essential controller for every serious Switch player",
+      "es": "El mando imprescindible para todo jugador serio de Switch",
+      "ar": "وحدة التحكم الأساسية لكل لاعب Switch جاد",
+      "zh": "每位认真Switch玩家的必备手柄"
+    },
+    "pour": {
+      "en": "for",
+      "es": "para",
+      "ar": "لـ",
+      "zh": "用于"
+    },
+    "amélioré": {
+      "en": "improved",
+      "es": "mejorado",
+      "ar": "محسّن",
+      "zh": "改进版"
+    },
+    "Batterie longue durée": {
+      "en": "long-lasting battery",
+      "es": "batería de larga duración",
+      "ar": "بطارية طويلة الأمد",
+      "zh": "长续航电池"
+    },
+    "manette de référence": {
+      "en": "reference controller",
+      "es": "mando de referencia",
+      "ar": "وحدة التحكم المرجعية",
+      "zh": "参考手柄"
+    },
+    "Coque de protection en silicone": {
+      "en": "Silicone protective case",
+      "es": "Funda de protección de silicona",
+      "ar": "غطاء حماية سيليكون",
+      "zh": "硅胶保护壳"
+    },
+    "capuchons pour boutons arrière": {
+      "en": "rear button caps",
+      "es": "tapas para botones traseros",
+      "ar": "غطاء أزرار خلفية",
+      "zh": "背部按键帽"
+    },
+    "poignées de pouce": {
+      "en": "thumb grips",
+      "es": "agarres para pulgares",
+      "ar": "مقابض الإبهام",
+      "zh": "拇指握把"
+    },
+    "autocollants inclus": {
+      "en": "stickers included",
+      "es": "pegatinas incluidas",
+      "ar": "ملصقات مضمنة",
+      "zh": "含贴纸"
+    },
+    "Résistante aux chocs": {
+      "en": "shock-resistant",
+      "es": "resistente a los golpes",
+      "ar": "مقاومة للصدمات",
+      "zh": "防震"
+    },
+    "grip amélioré": {
+      "en": "improved grip",
+      "es": "agarre mejorado",
+      "ar": "قبضة محسّنة",
+      "zh": "改进握感"
+    },
+    "Disponible en plusieurs couleurs": {
+      "en": "Available in multiple colors",
+      "es": "Disponible en varios colores",
+      "ar": "متوفر بألوان متعددة",
+      "zh": "多色可选"
+    },
+    "Édition Samurai": {
+      "en": "Samurai Edition",
+      "es": "Edición Samurai",
+      "ar": "إصدار Samurai",
+      "zh": "武士版"
+    },
+    "manette Nintendo Switch 2 Pro": {
+      "en": "Nintendo Switch 2 Pro controller",
+      "es": "mando Nintendo Switch 2 Pro",
+      "ar": "وحدة تحكم Nintendo Switch 2 Pro",
+      "zh": "任天堂Switch 2 Pro手柄"
+    },
+    "manette Nintendo Switch Pro": {
+      "en": "Nintendo Switch Pro controller",
+      "es": "mando Nintendo Switch Pro",
+      "ar": "وحدة تحكم Nintendo Switch Pro",
+      "zh": "任天堂Switch Pro手柄"
+    },
+    "Surface antidérapante": {
+      "en": "Non-slip surface",
+      "es": "Superficie antideslizante",
+      "ar": "سطح مانع للانزلاق",
+      "zh": "防滑表面"
+    },
+    "lignes concaves 3D ergonomiques": {
+      "en": "3D ergonomic concave lines",
+      "es": "líneas cóncavas 3D ergonómicas",
+      "ar": "خطوط مقعرة ثلاثية الأبعاد مريحة",
+      "zh": "3D人体工学凹线"
+    },
+    "incluses pour un meilleur confort": {
+      "en": "included for better comfort",
+      "es": "incluidas para mayor comodidad",
+      "ar": "مضمنة لراحة أفضل",
+      "zh": "随附以提升舒适度"
+    },
+    "facile à installer": {
+      "en": "easy to install",
+      "es": "fácil de instalar",
+      "ar": "سهل التركيب",
+      "zh": "易于安装"
+    },
+    "sans obstruction aux boutons et ports": {
+      "en": "without obstructing buttons and ports",
+      "es": "sin obstruir botones ni puertos",
+      "ar": "دون عائق للأزرار والمنافذ",
+      "zh": "不阻挡按键和接口"
+    },
+    "Clavier gaming mécanique sans fil": {
+      "en": "Wireless mechanical gaming keyboard",
+      "es": "Teclado gaming mecánico inalámbrico",
+      "ar": "لوحة مفاتيح ألعاب ميكانيكية لاسلكية",
+      "zh": "无线机械游戏键盘"
+    },
+    "Tenkeyless": {
+      "en": "Tenkeyless",
+      "es": "Tenkeyless",
+      "ar": "Tenkeyless",
+      "zh": "无数字小键盘"
+    },
+    "Switches à profil bas": {
+      "en": "Low-profile switches",
+      "es": "Interruptores de perfil bajo",
+      "ar": "مفاتيح منخفضة الملف",
+      "zh": "低轴体"
+    },
+    "rétroéclairage LIGHTSYNC RGB": {
+      "en": "LIGHTSYNC RGB backlight",
+      "es": "retroiluminación LIGHTSYNC RGB",
+      "ar": "إضاءة خلفية LIGHTSYNC RGB",
+      "zh": "LIGHTSYNC RGB背光"
+    },
+    "Connexion LIGHTSPEED sans fil et Bluetooth": {
+      "en": "LIGHTSPEED wireless and Bluetooth connection",
+      "es": "Conexión inalámbrica LIGHTSPEED y Bluetooth",
+      "ar": "اتصال LIGHTSPEED لاسلكي وBluetooth",
+      "zh": "LIGHTSPEED无线和蓝牙连接"
+    },
+    "ultra-plat": {
+      "en": "ultra-thin",
+      "es": "ultradelgado",
+      "ar": "رفيع للغاية",
+      "zh": "超薄"
+    },
+    "idéal pour les joueurs exigeants": {
+      "en": "ideal for demanding gamers",
+      "es": "ideal para jugadores exigentes",
+      "ar": "مثالي للاعبين المتطلبين",
+      "zh": "适合高要求玩家"
+    },
+    "Compact et ultra-plat": {
+      "en": "Compact and ultra-thin",
+      "es": "Compacto y ultradelgado",
+      "ar": "مدمج وفائق النحافة",
+      "zh": "紧凑超薄"
+    },
+    "Interrupteurs mécaniques verts": {
+      "en": "Green mechanical switches",
+      "es": "Interruptores mecánicos verdes",
+      "ar": "مفاتيح ميكانيكية خضراء",
+      "zh": "绿色机械轴"
+    },
+    "tactiles et sonores": {
+      "en": "tactile and clicky",
+      "es": "táctiles y sonoros",
+      "ar": "لمسية وصوتية",
+      "zh": "触感清脆"
+    },
+    "Éclairage Chroma RGB personnalisable": {
+      "en": "Customizable Chroma RGB lighting",
+      "es": "Iluminación Chroma RGB personalizable",
+      "ar": "إضاءة Chroma RGB قابلة للتخصيص",
+      "zh": "可定制Chroma RGB灯光"
+    },
+    "Macros programmables": {
+      "en": "Programmable macros",
+      "es": "Macros programables",
+      "ar": "ماكرو قابلة للبرمجة",
+      "zh": "可编程宏"
+    },
+    "passerelle multifonction": {
+      "en": "multi-function bridge",
+      "es": "pasarela multifunción",
+      "ar": "جسر متعدد الوظائف",
+      "zh": "多功能桥接"
+    },
+    "Compact et filaire": {
+      "en": "Compact and wired",
+      "es": "Compacto y con cable",
+      "ar": "مدمج وسلكي",
+      "zh": "紧凑有线"
+    },
+    "Clavier gaming mécanique TKL": {
+      "en": "TKL mechanical gaming keyboard",
+      "es": "Teclado gaming mecánico TKL",
+      "ar": "لوحة مفاتيح ألعاب ميكانيكية TKL",
+      "zh": "TKL机械游戏键盘"
+    },
+    "Souris gaming filaire": {
+      "en": "Wired gaming mouse",
+      "es": "Ratón gaming con cable",
+      "ar": "فأرة ألعاب سلكية",
+      "zh": "有线游戏鼠标"
+    },
+    "Ultra-légère de 59g": {
+      "en": "Ultra-lightweight at 59g",
+      "es": "Ultraligera de 59g",
+      "ar": "خفيفة للغاية بوزن 59 جرام",
+      "zh": "超轻59克"
+    },
+    "capteur optique Focus Pro 30K DPI": {
+      "en": "Focus Pro 30K DPI optical sensor",
+      "es": "sensor óptico Focus Pro 30K DPI",
+      "ar": "مستشعر بصري Focus Pro 30K DPI",
+      "zh": "Focus Pro 30K DPI光学传感器"
+    },
+    "Commutateurs optiques Gen-3": {
+      "en": "Gen-3 optical switches",
+      "es": "Interruptores ópticos Gen-3",
+      "ar": "مفاتيح بصرية الجيل الثالث",
+      "zh": "第三代光学开关"
+    },
+    "HyperPolling 8K": {
+      "en": "HyperPolling 8K",
+      "es": "HyperPolling 8K",
+      "ar": "HyperPolling 8K",
+      "zh": "HyperPolling 8K"
+    },
+    "précision maximale": {
+      "en": "maximum precision",
+      "es": "precisión máxima",
+      "ar": "دقة قصوى",
+      "zh": "最高精度"
+    },
+    "8 commandes programmables": {
+      "en": "8 programmable buttons",
+      "es": "8 botones programables",
+      "ar": "8 أزرار قابلة للبرمجة",
+      "zh": "8个可编程按键"
+    },
+    "câble Speedflex flexible": {
+      "en": "flexible Speedflex cable",
+      "es": "cable Speedflex flexible",
+      "ar": "كابل Speedflex مرن",
+      "zh": "Speedflex柔性线缆"
+    },
+    "Ergonomique et confortable pour les longues sessions": {
+      "en": "Ergonomic and comfortable for long gaming sessions",
+      "es": "Ergonómico y cómodo para largas sesiones",
+      "ar": "مريح وبيئي للجلسات الطويلة",
+      "zh": "符合人体工学，长时间游戏舒适"
+    },
+    "une": {
+      "en": "a",
+      "es": "una",
+      "ar": "واحدة",
+      "zh": "一个"
+    },
+    "Souris gaming filaire SteelSeries": {
+      "en": "SteelSeries wired gaming mouse",
+      "es": "Ratón gaming con cable SteelSeries",
+      "ar": "فأرة ألعاب سلكية SteelSeries",
+      "zh": "SteelSeries有线游戏鼠标"
+    },
+    "capteur optique TrueMove Core 8500 DPI": {
+      "en": "TrueMove Core 8500 DPI optical sensor",
+      "es": "sensor óptico TrueMove Core 8500 DPI",
+      "ar": "مستشعر بصري TrueMove Core 8500 DPI",
+      "zh": "TrueMove Core 8500 DPI光学传感器"
+    },
+    "pour un suivi précis": {
+      "en": "for precise tracking",
+      "es": "para un seguimiento preciso",
+      "ar": "لتتبع دقيق",
+      "zh": "精准追踪"
+    },
+    "Durabilité de 60 millions de clics": {
+      "en": "60 million click durability",
+      "es": "Durabilidad de 60 millones de clics",
+      "ar": "متانة 60 مليون نقرة",
+      "zh": "6000万次点击耐用性"
+    },
+    "Latence ultra-faible de 1,35 ms": {
+      "en": "Ultra-low latency of 1.35ms",
+      "es": "Latencia ultrabaja de 1,35 ms",
+      "ar": "زمن استجابة منخفض جداً 1.35 مللي ثانية",
+      "zh": "超低延迟1.35毫秒"
+    },
+    "Câble Super Mesh Paracord flexible": {
+      "en": "Flexible Super Mesh Paracord cable",
+      "es": "Cable Super Mesh Paracord flexible",
+      "ar": "كابل Super Mesh Paracord مرن",
+      "zh": "柔性Super Mesh Paracord线缆"
+    },
+    "éclairage RVB 3 zones personnalisable": {
+      "en": "customizable 3-zone RGB lighting",
+      "es": "iluminación RGB de 3 zonas personalizable",
+      "ar": "إضاءة RGB ثلاثية المناطق قابلة للتخصيص",
+      "zh": "可定制3区RGB灯光"
+    },
+    "Souris gaming sans fil SteelSeries": {
+      "en": "SteelSeries wireless gaming mouse",
+      "es": "Ratón gaming inalámbrico SteelSeries",
+      "ar": "فأرة ألعاب لاسلكية SteelSeries",
+      "zh": "SteelSeries无线游戏鼠标"
+    },
+    "Connexion 2,4 GHz et Bluetooth": {
+      "en": "2.4 GHz and Bluetooth connection",
+      "es": "Conexión 2,4 GHz y Bluetooth",
+      "ar": "اتصال 2.4 GHz وBluetooth",
+      "zh": "2.4GHz和蓝牙连接"
+    },
+    "capteur optique TrueMove Air 18 000 DPI": {
+      "en": "TrueMove Air 18,000 DPI optical sensor",
+      "es": "sensor óptico TrueMove Air 18 000 DPI",
+      "ar": "مستشعر بصري TrueMove Air 18000 DPI",
+      "zh": "TrueMove Air 18000 DPI光学传感器"
+    },
+    "pieds 100% PTFE": {
+      "en": "100% PTFE feet",
+      "es": "pies 100% PTFE",
+      "ar": "أقدام PTFE 100%",
+      "zh": "100% PTFE脚垫"
+    },
+    "éclairage RVB personnalisable": {
+      "en": "customizable RGB lighting",
+      "es": "iluminación RGB personalizable",
+      "ar": "إضاءة RGB قابلة للتخصيص",
+      "zh": "可定制RGB灯光"
     }
   }
 }
