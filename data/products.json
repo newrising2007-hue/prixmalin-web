@@ -836,5 +836,26 @@
     "prix": "19.94",
     "prixBarre": "20.99",
     "prixVerifieLe": "2026-03-21"
+  },
+  {
+    "slug": "logitech-g915-tkl-sans-fil-rgb",
+    "title": "Logitech G915 TKL Sans Fil RGB",
+    "shortDescription": "\n\nClavier gaming mécanique sans fil Logitech G915 TKL Tenkeyless. Switches à profil bas, rétroéclairage LIGHTSYNC RGB. Connexion LIGHTSPEED sans fil et Bluetooth. Compact et ultra-plat, idéal pour les joueurs exigeants.",
+    "title_en": "",
+    "title_es": "",
+    "title_ar": "",
+    "title_zh": "",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": "",
+    "amazonUrl": "https://www.amazon.ca/dp/B085RFFC9Q?tag=prixmalin-20",
+    "category": "claviers",
+    "image": "/images/products/logitech-g915-tkl-sans-fil-rgb.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "173.99",
+    "prixBarre": "189.99",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
