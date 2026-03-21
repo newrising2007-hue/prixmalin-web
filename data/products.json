@@ -750,5 +750,26 @@
     "prix": "39.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-21"
+  },
+  {
+    "slug": "nintendo-switch-pro-controller",
+    "title": "Nintendo Switch Pro Controller",
+    "shortDescription": "Manette sans fil officielle Nintendo pour Switch, Switch Lite et OLED. Gyroscope HD, vibration HD et NFC intégré pour les amiibo. Batterie longue durée de 40 heures. Utilisable en mode TV, Tabletop ou portable. La manette incontournable pour tout joueur Switch sérieux.",
+    "title_en": "Nintendo Switch Pro Controller",
+    "title_es": "Nintendo Switch Pro Controller",
+    "title_ar": "Nintendo Switch Pro Controller",
+    "title_zh": "Nintendo Switch Pro Controller",
+    "shortDescription_en": "wireless controller official Nintendo for Switch, Switch Lite and OLED. HD gyroscope, HD rumble and built-in NFC for amiibo. 40-hour long-lasting battery. Usable in TV mode, Tablandop or handheld. The essential controller for every serious Switch player.",
+    "shortDescription_es": "mando inalámbrico oficial de Nintendo para Switch, Switch Lite y OLED. giroscopio HD, vibración HD y NFC integrado para amiibo. batería de larga duración de 40 horas. Utilizable en modo TV, Tablyop o portátil. El mando imprescindible para todo jugador serio de Switch.",
+    "shortDescription_ar": "يد تحكم لاسلكية الرسمية من Nintendo لـ Switch, Switch Lite و OLED. جيروسكوب HD, اهتزاز HD و NFC مدمج للـ amiibo. بطارية طويلة الأمد 40 ساعة. قابل للاستخدام في وضع التلفزيون, وضع Tablوop أو المحمول. وحدة التحكم الأساسية لكل لاعب Switch جاد.",
+    "shortDescription_zh": "无线手柄 任天堂官方 用于 Switch, Switch Lite 和 OLED. HD陀螺仪, HD震动 和 内置NFC支持amiibo. 40小时长续航电池. 可在电视模式下使用, 桌面或掌机模式. 每位认真Switch玩家的必备手柄.",
+    "amazonUrl": "https://www.amazon.ca/dp/B01NAWKYZ0?tag=prixmalin-20",
+    "category": "manettes",
+    "image": "/images/products/nintendo-switch-pro-controller.webp",
+    "badge": "Nouveau",
+    "actif": true,
+    "prix": "94.94",
+    "prixBarre": "99.99",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
