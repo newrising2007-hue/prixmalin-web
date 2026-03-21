@@ -857,5 +857,28 @@
     "prix": "173.99",
     "prixBarre": "189.99",
     "prixVerifieLe": "2026-03-21"
+  },
+  {
+    "slug": "razer-blackwidow-v3",
+    "title": "Razer BlackWidow V3",
+    "title_en": "Razer BlackWidow V3",
+    "title_es": "Razer BlackWidow V3",
+    "title_ar": "Razer BlackWidow V3",
+    "title_zh": "Razer BlackWidow V3",
+    "shortDescription": "Clavier gaming mécanique TKL Razer BlackWidow V3 Tenkeyless. Interrupteurs mécaniques verts tactiles et sonores. Éclairage Chroma RGB personnalisable. Macros programmables et passerelle multifonction. Compact et filaire.\n\n",
+    "shortDescription_en": "TKL mechanical gaming keyboard Razer BlackWidow V3 Tenkeyless. Green mechanical switches tactile and clicky. Customizable Chroma RGB lighting. Programmable macros and multi-function bridge. Compact and wired.\n\n",
+    "shortDescription_es": "Teclado gaming mecánico TKL Razer BlackWidow V3 Tenkeyless. Interruptores mecánicos verdes táctiles y sonoros. Iluminación Chroma RGB personalizable. Macros programables y pasarela multifunción. Compacto y con cable.\n\n",
+    "shortDescription_ar": "لوحة مفاتيح ألعاب ميكانيكية TKL Razer BlackWidow V3 Tenkeyless. مفاتيح ميكانيكية خضراء لمسية وصوتية. إضاءة Chroma RGB قابلة للتخصيص. ماكرو قابلة للبرمجة و جسر متعدد الوظائف. مدمج وسلكي.\n\n",
+    "shortDescription_zh": "TKL机械游戏键盘 Razer BlackWidow V3 无数字小键盘. 绿色机械轴 触感清脆. 可定制Chroma RGB灯光. 可编程宏 和 多功能桥接. 紧凑有线.\n\n",
+    "amazonUrl": "https://www.amazon.ca/dp/B08D68NP7G?tag=prixmalin-20",
+    "affiliateLink": "https://www.amazon.ca/dp/B08D68NP7G?tag=prixmalin-20",
+    "asin": "B08D68NP7G",
+    "category": "claviers",
+    "image": "/images/products/razer-blackwidow-v3.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "80.54",
+    "prixBarre": "109.99",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
