@@ -14,10 +14,10 @@ function countActiveCodes(platform: string): number {
   }).length;
 }
 
-function formatVerifiedDate(iso: string | null): string | null {
+function formatVerifiedDate(iso: string | null, locale: string = "fr"): string | null {
   if (!iso) return null;
   const d = new Date(iso + "T12:00:00");
-  return d.toLocaleDateString("fr-CA", { day: "numeric", month: "long", year: "numeric" });
+  return d.toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric" });
 }
 
 export const metadata = {
@@ -64,9 +64,9 @@ export default async function CodesBonusHub({ params }: { params: Promise<{ loca
               <span className="text-xs font-semibold text-blue-500/80">
                 {countActiveCodes(console.slug)} {t("codes_actifs")}
               </span>
-              {formatVerifiedDate((verifiedData as any)[console.slug]) && (
+              {formatVerifiedDate((verifiedData as any)[console.slug], locale) && (
                 <span className="text-xs text-gray-400">
-                  {t("verifie_le")} {formatVerifiedDate((verifiedData as any)[console.slug])}
+                  {t("verifie_le")} {formatVerifiedDate((verifiedData as any)[console.slug], locale)}
                 </span>
               )}
             </div>
