@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 
 type Props = {
   products: any[];
@@ -10,7 +11,20 @@ type Props = {
 };
 
 export default function ProduitsClient({ products, categorySlugs, labels, locale }: Props) {
-  const [filtre, setFiltre] = useState("toutes");
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const [filtre, setFiltre] = useState(() => searchParams.get("cat") || "toutes");
+
+  const handleFiltre = (slug: string) => {
+    setFiltre(slug);
+    const params = new URLSearchParams(window.location.search);
+    if (slug === "toutes") {
+      params.delete("cat");
+    } else {
+      params.set("cat", slug);
+    }
+    router.replace(`?${params.toString()}`, { scroll: false });
+  };
 
   const filtered = filtre === "toutes"
     ? products
@@ -22,7 +36,7 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
         {categorySlugs.map(slug => (
           <button
             key={slug}
-            onClick={() => setFiltre(slug)}
+            onClick={() => handleFiltre(slug)}
             className={`px-4 py-2 rounded-full text-sm font-medium border transition-colors ${filtre === slug ? "bg-orange-500 text-white border-orange-500" : "bg-white text-black/70 border-black/20 hover:border-orange-400"}`}
           >
             {labels[`cat_${slug}`] || labels[slug] || slug}
