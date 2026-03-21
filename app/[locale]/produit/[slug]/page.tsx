@@ -42,8 +42,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function ProductPage({ params }: Props) {
+export default async function ProductPage({ params, searchParams }: Props & { searchParams: Promise<{ cat?: string }> }) {
   const { slug, locale } = await params;
+  const { cat } = await searchParams ?? {};
   const product = getProductBySlug(slug);
 
   if (!product) {
@@ -87,7 +88,7 @@ export default async function ProductPage({ params }: Props) {
       />
 
       <div className="mb-6">
-        <a href={`/${locale}/produits`} className="text-sm text-blue-700 hover:underline">{t("produits.retour")}</a>
+        <a href={`/${locale}/produits${cat ? `?cat=${cat}` : ""}`} className="text-sm text-blue-700 hover:underline">{t("produits.retour")}</a>
       </div>
       <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
         {/* Image (auto-cadrée) */}
