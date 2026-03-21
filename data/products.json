@@ -729,5 +729,26 @@
     "title_es": "Elgato Facecam MK.2",
     "title_ar": "Elgato Facecam MK.2",
     "title_zh": "Elgato Facecam MK.2"
+  },
+  {
+    "slug": "manette-ps4-sans-fil-rgb",
+    "title": "Manette PS4 sans fil RGB",
+    "shortDescription": "Manette sans fil blanche pour PS4, Pro et Slim. Équipée de lumières RVB réglables, d'une batterie haute capacité de 1000 mAh et d'un capteur de mouvement à 6 axes. Profitez d'une immersion totale avec la double vibration et une prise audio 3,5 mm intégrée.",
+    "title_en": "Wireless RGB Controller for PS4",
+    "title_es": "Mando inalámbrico RGB para PS4",
+    "title_ar": "وحدة تحكم RGB لاسلكية لـ PS4",
+    "title_zh": "PS4 无线RGB手柄",
+    "shortDescription_en": "wireless controller white pour PS4, Pro and Slim. Equipped with adjustable RGB lights, with a 1000mAh high capacity battery and with a 6-axis motion sensor. Enjoy total immersion with la dual vibration and une built-in 3.5mm audio jack.",
+    "shortDescription_es": "mando inalámbrico blanca pour PS4, Pro y Slim. Equipada con luces RGB ajustables, con una batería de alta capacidad de 1000 mAh y con un sensor de movimiento de 6 ejes. Disfruta de inmersión total con la doble vibración y une conector de audio de 3,5 mm integrado.",
+    "shortDescription_ar": "يد تحكم لاسلكية أبيض pour PS4, Pro وSlim. مزودة بأضواء RGB قابلة للتعديل, مع بطارية عالية السعة 1000 مللي أمبير و مع مستشعر حركة 6 محاور. استمتع بـ انغماس كامل مع la اهتزاز مزدوج و une مقبس صوت 3.5 مم مدمج.",
+    "shortDescription_zh": "无线手柄 白色 pour PS4, Pro和Slim. 配备可调节RGB灯光, 配有 1000毫安大容量电池 和 配有 6轴运动传感器. 享受 完全沉浸 配有 la 双振动 和 une 内置3.5毫米音频接口.",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CPSF6X3F?tag=prixmalin-20",
+    "category": "manettes",
+    "image": "/images/products/manette-ps4-sans-fil-rgb.webp",
+    "badge": "Nouveau",
+    "actif": true,
+    "prix": "39.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
