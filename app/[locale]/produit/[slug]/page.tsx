@@ -86,6 +86,9 @@ export default async function ProductPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      <div className="mb-6">
+        <a href={`/${locale}/produits`} className="text-sm text-blue-700 hover:underline">{t("produits.retour")}</a>
+      </div>
       <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
         {/* Image (auto-cadrée) */}
         <div className="w-full sm:w-64">
