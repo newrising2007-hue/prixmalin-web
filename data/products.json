@@ -794,5 +794,26 @@
     "prix": "109.96",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-21"
+  },
+  {
+    "slug": "playvital-coque-silicone-switch-2-pro",
+    "title": "PlayVital Coque Silicone Switch 2 Pro",
+    "shortDescription": "Coque de protection en silicone pour manette Nintendo Switch 2 Pro. Édition Samurai avec capuchons pour boutons arrière, poignées de pouce et autocollants inclus. Résistante aux chocs, grip amélioré. Disponible en plusieurs couleurs.",
+    "title_en": "PlayVital Coque Silicone Switch 2 Pro",
+    "title_es": "PlayVital Coque Silicone Switch 2 Pro",
+    "title_ar": "PlayVital Coque Silicone Switch 2 Pro",
+    "title_zh": "PlayVital Coque Silicone Switch 2 Pro",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": "",
+    "amazonUrl": "https://www.amazon.ca/dp/B0FH9NVHD3?tag=prixmalin-20",
+    "category": "accessoires",
+    "image": "/images/products/playvital-coque-silicone-switch-2-pro.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "20.89",
+    "prixBarre": "21.99",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
