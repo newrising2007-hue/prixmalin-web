@@ -815,5 +815,26 @@
     "prix": "20.89",
     "prixBarre": "21.99",
     "prixVerifieLe": "2026-03-21"
+  },
+  {
+    "slug": "playvital-coque-silicone-switch-pro",
+    "title": "PlayVital Coque Silicone Switch Pro",
+    "shortDescription": "Coque de protection en silicone pour manette Nintendo Switch Pro. Surface antidérapante avec lignes concaves 3D ergonomiques. Poignées de pouce incluses pour un meilleur confort. Légère et facile à installer, sans obstruction aux boutons et ports. Disponible en plusieurs couleurs.",
+    "title_en": "",
+    "title_es": "",
+    "title_ar": "",
+    "title_zh": "",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": "",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BS8ZRBB8?tag=prixmalin-20",
+    "category": "accessoires",
+    "image": "/images/products/playvital-coque-silicone-switch-pro.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "19.94",
+    "prixBarre": "20.99",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
