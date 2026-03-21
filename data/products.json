@@ -880,5 +880,28 @@
     "prix": "80.54",
     "prixBarre": "109.99",
     "prixVerifieLe": "2026-03-21"
+  },
+  {
+    "slug": "razer-deathadder-v3",
+    "title": "Razer DeathAdder V3",
+    "title_en": "Razer DeathAdder V3",
+    "title_es": "Razer DeathAdder V3",
+    "title_ar": "Razer DeathAdder V3",
+    "title_zh": "Razer DeathAdder V3",
+    "shortDescription": "Souris gaming filaire Razer DeathAdder V3. Ultra-légère de 59g avec capteur optique Focus Pro 30K DPI. Commutateurs optiques Gen-3 et HyperPolling 8K pour une précision maximale. 8 commandes programmables et câble Speedflex flexible. Ergonomique et confortable pour les longues sessions.",
+    "shortDescription_en": "Wired gaming mouse Razer DeathAdder V3. Ultra-lightweight at 59g with Focus Pro 30K DPI optical sensor. Gen-3 optical switches and HyperPolling 8K for a maximum precision. 8 programmable buttons and flexible Speedflex cable. Ergonomic and comfortable for long gaming sessions.",
+    "shortDescription_es": "Ratón gaming con cable Razer DeathAdder V3. Ultraligera de 59g con sensor óptico Focus Pro 30K DPI. Interruptores ópticos Gen-3 y HyperPolling 8K para una precisión máxima. 8 botones programables y cable Speedflex flexible. Ergonómico y cómodo para largas sesiones.",
+    "shortDescription_ar": "فأرة ألعاب سلكية Razer DeathAdder V3. خفيفة للغاية بوزن 59 جرام مع مستشعر بصري Focus Pro 30K DPI. مفاتيح بصرية الجيل الثالث و HyperPolling 8K لـ واحدة دقة قصوى. 8 أزرار قابلة للبرمجة و كابل Speedflex مرن. مريح وبيئي للجلسات الطويلة.",
+    "shortDescription_zh": "有线游戏鼠标 Razer DeathAdder V3. 超轻59克 配有 Focus Pro 30K DPI光学传感器. 第三代光学开关 和 HyperPolling 8K 用于 一个 最高精度. 8个可编程按键 和 Speedflex柔性线缆. 符合人体工学，长时间游戏舒适.",
+    "amazonUrl": "https://www.amazon.ca/dp/B0B6XTDJS1?tag=prixmalin-20",
+    "affiliateLink": "https://www.amazon.ca/dp/B0B6XTDJS1?tag=prixmalin-20",
+    "asin": "B0B6XTDJS1",
+    "category": "souris",
+    "image": "/images/products/razer-deathadder-v3.webp",
+    "badge": "Nouveau",
+    "actif": true,
+    "prix": "66.45",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
