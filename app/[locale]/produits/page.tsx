@@ -16,6 +16,7 @@ export default async function ProduitsPage({ params }: { params: Promise<{ local
     compteur_pluriel: t("compteur_pluriel"),
     voir_fiche: t("voir_fiche"),
     voir_amazon: t("voir_amazon"),
+    verifie_le: t("verifie_le"),
     image_bientot: t("image_bientot"),
     ...Object.fromEntries(CATEGORY_SLUGS.filter(s => s !== "toutes").map(s => [`cat_${s}`, t(`cat_${s}` as any)])),
   };
