@@ -903,5 +903,28 @@
     "prix": "66.45",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-21"
+  },
+  {
+    "slug": "steelseries-rival-3-gen-2-filaire",
+    "title": "SteelSeries Rival 3 Gen 2 — Filaire",
+    "title_en": "SteelSeries Rival 3 Gen 2 — Filaire",
+    "title_es": "SteelSeries Rival 3 Gen 2 — Filaire",
+    "title_ar": "SteelSeries Rival 3 Gen 2 — Filaire",
+    "title_zh": "SteelSeries Rival 3 Gen 2 — Filaire",
+    "shortDescription": "Souris gaming filaire SteelSeries Rival 3 Gen 2. Capteur optique TrueMove Core 8500 DPI pour un suivi précis. Durabilité de 60 millions de clics. Latence ultra-faible de 1,35 ms. Câble Super Mesh Paracord flexible et éclairage RVB 3 zones personnalisable.",
+    "shortDescription_en": "SteelSeries wired gaming mouse Rival 3 Gen 2. TrueMove Core 8500 DPI optical sensor for precise tracking. 60 million click durability. Ultra-low latency of 1.35ms. Flexible Super Mesh Paracord cable and customizable 3-zone RGB lighting.",
+    "shortDescription_es": "Ratón gaming con cable SteelSeries Rival 3 Gen 2. sensor óptico TrueMove Core 8500 DPI para un seguimiento preciso. Durabilidad de 60 millones de clics. Latencia ultrabaja de 1,35 ms. Cable Super Mesh Paracord flexible y iluminación RGB de 3 zonas personalizable.",
+    "shortDescription_ar": "فأرة ألعاب سلكية SteelSeries Rival 3 Gen 2. مستشعر بصري TrueMove Core 8500 DPI لتتبع دقيق. متانة 60 مليون نقرة. زمن استجابة منخفض جداً 1.35 مللي ثانية. كابل Super Mesh Paracord مرن و إضاءة RGB ثلاثية المناطق قابلة للتخصيص.",
+    "shortDescription_zh": "SteelSeries有线游戏鼠标 Rival 3 Gen 2. TrueMove Core 8500 DPI光学传感器 精准追踪. 6000万次点击耐用性. 超低延迟1.35毫秒. 柔性Super Mesh Paracord线缆 和 可定制3区RGB灯光.",
+    "amazonUrl": "SteelSeries Rival 3 Gen 2 ",
+    "affiliateLink": "",
+    "asin": "",
+    "category": "souris",
+    "image": "/images/products/steelseries-rival-3-gen-2-filaire.webp",
+    "badge": "Nouveau",
+    "actif": true,
+    "prix": "39.98",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
