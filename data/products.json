@@ -926,5 +926,28 @@
     "prix": "39.98",
     "prixBarre": "",
     "prixVerifieLe": "2026-03-21"
+  },
+  {
+    "slug": "steelseries-rival-3-gen-2-sans-fil",
+    "title": "SteelSeries Rival 3 Gen 2 — Sans fil",
+    "title_en": "SteelSeries Rival 3 Gen 2 — wireless",
+    "title_es": "SteelSeries Rival 3 Gen 2 — inalámbrico",
+    "title_ar": "SteelSeries Rival 3 Gen 2 — لاسلكي",
+    "title_zh": "SteelSeries Rival 3 Gen 2 — 无线",
+    "shortDescription": "Souris gaming sans fil SteelSeries Rival 3 Gen 2. Connexion 2,4 GHz et Bluetooth. Capteur optique TrueMove Air 18 000 DPI pour une précision maximale. Durabilité de 60 millions de clics. Légère avec pieds 100% PTFE et éclairage RVB personnalisable.",
+    "shortDescription_en": "SteelSeries wireless gaming mouse Rival 3 Gen 2. 2.4 GHz and Bluandooth connection. TrueMove Air 18,000 DPI optical sensor for a maximum precision. 60 million click durability. lightweight with 100% PTFE feand and customizable RGB lighting.",
+    "shortDescription_es": "Ratón gaming inalámbrico SteelSeries Rival 3 Gen 2. Conexión 2,4 GHz y Bluyooth. sensor óptico TrueMove Air 18 000 DPI para una precisión máxima. Durabilidad de 60 millones de clics. ligero con pies 100% PTFE y iluminación RGB personalizable.",
+    "shortDescription_ar": "فأرة ألعاب لاسلكية SteelSeries Rival 3 Gen 2. اتصال 2.4 GHz وBluوooth. مستشعر بصري TrueMove Air 18000 DPI لـ واحدة دقة قصوى. متانة 60 مليون نقرة. خفيف الوزن مع أقدام PTFE 100% و إضاءة RGB قابلة للتخصيص.",
+    "shortDescription_zh": "SteelSeries无线游戏鼠标 Rival 3 Gen 2. 2.4GHz和蓝牙连接. TrueMove Air 18000 DPI光学传感器 用于 一个 最高精度. 6000万次点击耐用性. 轻量化 配有 100% PTFE脚垫 和 可定制RGB灯光.",
+    "amazonUrl": "https://www.amazon.ca/dp/B0F6DXYX24?tag=prixmalin-20",
+    "affiliateLink": "https://www.amazon.ca/dp/B0F6DXYX24?tag=prixmalin-20",
+    "asin": "B0F6DXYX24",
+    "category": "souris",
+    "image": "/images/products/steelseries-rival-3-gen-2-sans-fil.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "63.98",
+    "prixBarre": "79.99",
+    "prixVerifieLe": "2026-03-21"
   }
 ]
