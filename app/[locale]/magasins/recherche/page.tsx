@@ -114,6 +114,7 @@ function RechercheContent() {
       setGpsStatus('denied');
     }
     } // fin if(!coordsOverride)
+    console.log('[loadLocal] coords:', loc, 'query:', q, 'cat:', cat, 'override:', coordsOverride);
     try {
       const res = await fetch(`${BACKEND_URL}/api/search-prices`, {
         method: 'POST',
@@ -121,11 +122,15 @@ function RechercheContent() {
         body: JSON.stringify({ query: q, category: cat, location: loc, radiusKm: 25 }),
       });
       const data = await res.json();
+      console.log('[loadLocal] résultats bruts:', data.count, 'résultats, types:', data.results?.map((r: Result) => r.type));
       const locals = (data.results || []).filter((r: Result) =>
         r.type === 'local_with_website' || r.type === 'local_no_website'
       );
+      console.log('[loadLocal] après filtre local:', locals.length, 'résultats');
       setLocalResults(locals);
-    } catch {}
+    } catch (err) {
+      console.error('[loadLocal] ERREUR:', err);
+    }
     setLoadingLocal(false);
   }
 
