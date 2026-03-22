@@ -77,7 +77,7 @@ function RechercheContent() {
     setOnlineResults([]);
     setLocalResults([]);
     loadOnline(query, category);
-    loadLocal(query, category);
+    loadLocal(query, category, villeCoords ?? undefined);
   }, [query, category]);
 
   async function loadOnline(q: string, cat: string) {
