@@ -19,7 +19,7 @@ const PROVINCES = [
 ];
 
 const VILLES_PAR_PROVINCE: Record<string, string[]> = {
-  QC: ["Alma","Amos","Baie-Comeau","Baie-Saint-Paul","Beauceville","Blainville","Boisbriand","Boucherville","Bromont","Brossard","Candiac","Châteauguay","Chicoutimi","Coaticook","Cowansville","Dollard-des-Ormeaux","Dorval","Drummondville","Farnham","Gaspé","Gatineau","Granby","Joliette","Kirkland","La Prairie","La Sarre","La Tuque","Lac-Mégantic","Lachute","Laval","Lévis","L'Assomption","Longueuil","Lorraine","Magog","Mascouche","Matane","Mirabel","Mont-Joli","Mont-Laurier","Mont-Royal","Mont-Saint-Hilaire","Montmagny","Montréal","Pincourt","Pointe-Claire","Pont-Rouge","Québec","Repentigny","Rimouski","Rivière-du-Loup","Roberval","Rosemère","Rouyn-Noranda","Saint-Basile-le-Grand","Saint-Bruno-de-Montarville","Saint-Constant","Saint-Eustache","Saint-Georges","Saint-Hyacinthe","Saint-Jean-sur-Richelieu","Saint-Jérôme","Saint-Lambert","Saint-Laurent","Saint-Lazare","Saint-Lin-Laurentides","Saint-Nicolas","Saint-Rémi","Saint-Sauveur","Sainte-Agathe-des-Monts","Sainte-Julie","Sainte-Marie","Sainte-Thérèse","Salaberry-de-Valleyfield","Sept-Îles","Shawinigan","Sherbrooke","Sorel-Tracy","Terrebonne","Thetford Mines","Trois-Rivières","Val-d'Or","Varennes","Vaudreuil-Dorion","Victoriaville","Ville-Marie","Waterloo"],
+  QC: ["Alma","Amos","Baie-Comeau","Baie-Saint-Paul","Beauceville","Blainville","Boisbriand","Boucherville","Bromont","Brossard","Candiac","Châteauguay","Chicoutimi","Coaticook","Cowansville","Dollard-des-Ormeaux","Dorval","Drummondville","Farnham","Gaspé","Gatineau","Granby","Joliette","Kirkland","La Prairie","La Sarre","La Tuque","Lac-Mégantic","Lachute","Laval","Lévis","L'Assomption","Longueuil","Lorraine","Magog","Mascouche","Matane","Mirabel","Mont-Joli","Mont-Laurier","Mont-Royal","Mont-Saint-Hilaire","Montmagny","Montréal","Pincourt","Pointe-Claire","Pont-Rouge","Québec","Repentigny","Rimouski","Rivière-du-Loup","Roberval","Rosemère","Rouyn-Noranda","Saint-Basile-le-Grand","Saint-Bruno-de-Montarville","Saint-Constant","Saint-Eustache","Saint-Georges","Saint-Hyacinthe","Saint-Jean-sur-Richelieu","Saint-Jérôme","Saint-Lambert","Saint-Laurent","Saint-Lazare","Saint-Lin-Laurentides","Saint-Nicolas","Saint-Rémi","Saint-Sauveur","Sainte-Agathe-des-Monts","Sainte-Julie","Sainte-Marie","Sainte-Thérèse","Salaberry-de-Valleyfield","Sept-Îles","Shawinigan","Sherbrooke","Sorel-Tracy","Terrebonne","Thetford Mines","Trois-Rivières","Val-d'Or","Varennes","Vaudreuil-Dorion","Victoriaville","Ville-Marie (Témiscamingue)","Waterloo"],
   ON: ["Ajax","Aurora","Barrie","Belleville","Brampton","Brantford","Burlington","Cambridge","Chatham","Clarington","Cobourg","Cornwall","Guelph","Halton Hills","Hamilton","Innisfil","Kingston","Kitchener","London","Markham","Milton","Mississauga","Newmarket","Niagara Falls","North Bay","Oakville","Oshawa","Ottawa","Peterborough","Pickering","Richmond Hill","Sarnia","Sault Ste. Marie","St. Catharines","Sudbury","Thunder Bay","Timmins","Toronto","Vaughan","Waterloo","Welland","Whitby","Windsor","Woodstock"],
   BC: ["Abbotsford","Armstrong","Burnaby","Campbell River","Castlegar","Chilliwack","Colwood","Comox","Coquitlam","Courtenay","Cranbrook","Delta","Fort St. John","Kamloops","Kelowna","Kimberley","Langford","Langley","Maple Ridge","Mission","Nanaimo","Nelson","New Westminster","North Vancouver","Penticton","Pitt Meadows","Port Coquitlam","Port Moody","Prince George","Richmond","Salmon Arm","Saanich","Surrey","Terrace","Trail","Vancouver","Vernon","Victoria","West Kelowna","White Rock"],
   AB: ["Airdrie","Beaumont","Brooks","Calgary","Camrose","Chestermere","Cold Lake","Edmonton","Fort McMurray","Fort Saskatchewan","Grande Prairie","Lacombe","Leduc","Lethbridge","Lloydminster","Medicine Hat","Okotoks","Red Deer","Spruce Grove","St. Albert","Sherwood Park","Sylvan Lake","Wetaskiwin"],
@@ -114,7 +114,6 @@ function RechercheContent() {
       setGpsStatus('denied');
     }
     } // fin if(!coordsOverride)
-    console.log('[loadLocal] coords:', loc, 'query:', q, 'cat:', cat, 'override:', coordsOverride);
     try {
       const res = await fetch(`${BACKEND_URL}/api/search-prices`, {
         method: 'POST',
@@ -122,15 +121,11 @@ function RechercheContent() {
         body: JSON.stringify({ query: q, category: cat, location: loc, radiusKm: 25 }),
       });
       const data = await res.json();
-      console.log('[loadLocal] résultats bruts:', data.count, 'résultats, types:', data.results?.map((r: Result) => r.type));
       const locals = (data.results || []).filter((r: Result) =>
         r.type === 'local_with_website' || r.type === 'local_no_website'
       );
-      console.log('[loadLocal] après filtre local:', locals.length, 'résultats');
       setLocalResults(locals);
-    } catch (err) {
-      console.error('[loadLocal] ERREUR:', err);
-    }
+    } catch {}
     setLoadingLocal(false);
   }
 
@@ -177,6 +172,7 @@ function RechercheContent() {
           setVilleActive(data.nom);
           setVilleInput('');
           setVilleCoords({ lat: data.lat, lng: data.lng });
+          setLocalResults([]);
           if (query.trim()) loadLocal(query, category, { lat: data.lat, lng: data.lng });
         }
         setVilleLoading(false);
@@ -194,6 +190,7 @@ function RechercheContent() {
         setVilleActive(data.nom);
         setVilleInput('');
         setVilleCoords({ lat: data.lat, lng: data.lng });
+        setLocalResults([]);
         if (query.trim()) loadLocal(query, category, { lat: data.lat, lng: data.lng });
       }
     } catch (e) {
@@ -269,6 +266,7 @@ function RechercheContent() {
               setVilleInput('');
               setVilleCoords(null);
               setProvince('QC');
+              setLocalResults([]);
               if (query.trim()) loadLocal(query, category);
             }}
             className={`rounded-full border text-sm font-semibold transition-all px-3 py-1 ${!modeVille ? 'bg-green-500 text-white border-green-500' : 'bg-green-50 text-green-700 border-green-200 hover:bg-green-100'}`}>
