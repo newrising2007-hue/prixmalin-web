@@ -20,6 +20,50 @@ export default function HomePage() {
         </p>
       </header>
 
+
+      {/* SECTION PARTENAIRES */}
+      <section className="relative z-10 mx-auto max-w-5xl px-6 py-8">
+        <p className="text-center text-xs font-semibold uppercase tracking-widest text-gray-400 mb-6">
+          🏅 {t("partenaires_titre")}
+        </p>
+        <div className="flex flex-wrap justify-center gap-6">
+
+          {/* Bergeron Électronique */}
+          <Link href="/partenaires/bergerons" className="group flex flex-col items-center">
+            <div className="relative">
+              <div className="absolute inset-0 rounded-full bg-red-400/30 blur-2xl opacity-60 animate-pulse group-hover:opacity-100 transition-opacity duration-300" />
+              <Image
+                src="/bergeron-logo.png"
+                alt="Bergeron Électronique — Circulaire"
+                width={140}
+                height={140}
+                className="relative transition-transform duration-300 group-hover:scale-105 drop-shadow-md"
+              />
+            </div>
+            <span className="mt-2 text-sm font-semibold text-red-700">Bergeron Électronique</span>
+
+          </Link>
+
+          {/* Bientôt 1 */}
+          <div className="flex flex-col items-center opacity-30 cursor-not-allowed">
+            <div className="w-[140px] h-[140px] rounded-full border-2 border-dashed border-gray-300 flex items-center justify-center">
+              <span className="text-3xl">🔜</span>
+            </div>
+            <span className="mt-2 text-sm text-gray-400">Bientôt</span>
+            <span className="text-xs text-gray-300">Partenaire local</span>
+          </div>
+
+          {/* Bientôt 2 */}
+          <div className="flex flex-col items-center opacity-30 cursor-not-allowed">
+            <div className="w-[140px] h-[140px] rounded-full border-2 border-dashed border-gray-300 flex items-center justify-center">
+              <span className="text-3xl">🔜</span>
+            </div>
+            <span className="mt-2 text-sm text-gray-400">Bientôt</span>
+            <span className="text-xs text-gray-300">Partenaire local</span>
+          </div>
+
+        </div>
+      </section>
       {/* SECTION GAMING */}
       <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-6">
         <div className="absolute inset-0 bg-gradient-to-br from-white/50 via-blue-50/40 to-blue-100/30" />

@@ -17,7 +17,8 @@
     "magasins_item3": "بحث سريع عن المنتجات",
     "magasins_cta": "➜ استكشاف متاجرك",
     "magasins_logo_alt": "الدخول إلى قسم المتاجر في PrixMalin",
-    "footer": "© {year} PrixMalin — روابط شركاء قد تؤدي إلى عمولة."
+    "footer": "© {year} PrixMalin — روابط شركاء قد تؤدي إلى عمولة.",
+    "partenaires_titre": "شركاؤنا المحليون"
   },
   "gaming": {
     "hero_titre": "PrixMalin — صفقات وأكواد الألعاب 🇨🇦",

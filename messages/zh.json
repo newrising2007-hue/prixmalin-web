@@ -17,7 +17,8 @@
     "magasins_item3": "快速搜索产品",
     "magasins_cta": "➜ 浏览您的商店",
     "magasins_logo_alt": "进入PrixMalin商店部分",
-    "footer": "© {year} PrixMalin — 可能产生佣金的合作伙伴链接。"
+    "footer": "© {year} PrixMalin — 可能产生佣金的合作伙伴链接。",
+    "partenaires_titre": "本地合作伙伴"
   },
   "gaming": {
     "hero_titre": "PrixMalin — 游戏优惠与代码 🇨🇦",
