@@ -22,10 +22,10 @@ export default function HomePage() {
 
 
       {/* SECTION PARTENAIRES */}
-      <section className="relative z-10 mx-auto max-w-5xl px-6 py-8">
-        <p className="text-center text-xs font-semibold uppercase tracking-widest text-gray-400 mb-6">
-          🏅 {t("partenaires_titre")}
-        </p>
+      <section className="relative z-10 mx-auto max-w-5xl px-6 py-4">
+        <h2 className="text-center text-2xl font-bold mb-6">
+          🏅 <span className="bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">{t("partenaires_titre")}</span>
+        </h2>
         <div className="flex flex-wrap justify-center gap-6">
 
           {/* Bergeron Électronique */}
@@ -35,33 +35,12 @@ export default function HomePage() {
               <Image
                 src="/bergeron-logo.png"
                 alt="Bergeron Électronique — Circulaire"
-                width={140}
-                height={140}
-                className="relative transition-transform duration-300 group-hover:scale-105 drop-shadow-md"
+                width={300}
+                height={100}
+                className="relative transition-transform duration-300 group-hover:scale-105 drop-shadow-md mix-blend-multiply"
               />
             </div>
-            <span className="mt-2 text-sm font-semibold text-red-700">Bergeron Électronique</span>
-
           </Link>
-
-          {/* Bientôt 1 */}
-          <div className="flex flex-col items-center opacity-30 cursor-not-allowed">
-            <div className="w-[140px] h-[140px] rounded-full border-2 border-dashed border-gray-300 flex items-center justify-center">
-              <span className="text-3xl">🔜</span>
-            </div>
-            <span className="mt-2 text-sm text-gray-400">Bientôt</span>
-            <span className="text-xs text-gray-300">Partenaire local</span>
-          </div>
-
-          {/* Bientôt 2 */}
-          <div className="flex flex-col items-center opacity-30 cursor-not-allowed">
-            <div className="w-[140px] h-[140px] rounded-full border-2 border-dashed border-gray-300 flex items-center justify-center">
-              <span className="text-3xl">🔜</span>
-            </div>
-            <span className="mt-2 text-sm text-gray-400">Bientôt</span>
-            <span className="text-xs text-gray-300">Partenaire local</span>
-          </div>
-
         </div>
       </section>
       {/* SECTION GAMING */}
