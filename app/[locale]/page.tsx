@@ -33,7 +33,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-red-400/30 blur-2xl opacity-60 animate-pulse group-hover:opacity-100 transition-opacity duration-300" />
               <Image
-                src="/bergeron-logo.png"
+                src="/partenaires/bergerons/logo.png"
                 alt="Bergeron Électronique — Circulaire"
                 width={300}
                 height={100}
