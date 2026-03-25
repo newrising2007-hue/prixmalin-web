@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-03-20",
+  "updated_at": "2026-03-24",
   "note": "Dictionnaire vivant — segments FR → EN/ES/AR/ZH. Toutes les entrées sont vérifiées manuellement. Les entrées générées par LM Studio sont marquées 'verified: false' jusqu'à approbation.",
   "segments": {
     "casque de jeu": {
@@ -2623,6 +2623,20 @@
       "es": "iluminación RGB personalizable",
       "ar": "إضاءة RGB قابلة للتخصيص",
       "zh": "可定制RGB灯光"
+    },
+    "solide les gamers qui veulent   performance sans payer  prix fort les interrupteurs  linéaires silencieux offrent frappe fluide  rapide sans fatiguer les doigts  étro  les  touches macro  font  outil aussi beau que pratique les touches abs doubleshot garantissent une durabilité à long terme": {
+      "en": "A solid mechanical keyboard for gamers who want performance without breaking the bank. The linear and silent yellow switches deliver smooth and fast keystrokes — ideal for long sessions without finger fatigue.",
+      "es": "Un teclado mecánico sólido para gamers que buscan rendimiento sin pagar de más. Los interruptores amarillos lineales y silenciosos ofrecen una pulsación fluida y rápida — ideal para largas sesiones sin fatigar los dedos.",
+      "ar": "لوحة مفاتيح ميكانيكية متينة للاعبين الذين يريدون الأداء دون دفع الكثير. المفاتيح الصفراء الخطية والصامتة توفر ضغطًا سلسًا وسريعًا — مثالية للجلسات الطويلة دون إرهاق الأصابع.",
+      "zh": "一款适合玩家的扎实机械键盘，性能出色且价格合理。线性静音黄轴提供流畅快速的按键体验——非常适合长时间游戏而不疲劳手指。",
+      "verified": false
+    },
+    "solide les gamers qui veulent   performance sans payer  prix fort les interrupteurs  linéaires silencieux offrent frappe fluide  rapide personnalisable  touches macro  touches abs doubleshot pour une durabilité à long terme": {
+      "en": "A solid mechanical keyboard for gamers who want performance without breaking the bank. Linear and silent switches deliver smooth and fast keystrokes, customizable RGB lighting, macro keys and ABS Doubleshot keycaps for long-term durability.",
+      "es": "Un teclado mecánico sólido para gamers que buscan rendimiento sin pagar de más. Interruptores lineales y silenciosos, iluminación RGB personalizable, teclas macro y teclas ABS Doubleshot para durabilidad a largo plazo.",
+      "ar": "لوحة مفاتيح ميكانيكية متينة للاعبين الذين يريدون الأداء دون دفع الكثير. مفاتيح خطية وصامتة، إضاءة RGB قابلة للتخصيص، مفاتيح ماكرو ومفاتيح ABS Doubleshot للمتانة طويلة الأمد.",
+      "zh": "一款适合玩家的扎实机械键盘，性能出色且价格合理。线性静音轴、可定制RGB灯光、宏键和ABS Doubleshot键帽，经久耐用。",
+      "verified": false
     }
   }
 }
