@@ -135,7 +135,11 @@ function HorairesAccordion({ horaires, phone, t }: { horaires?: Record<string, H
 
 function CarteRestaurant({ r, t, locale }: { r: Restaurant; t: (k: string) => string; locale: string }) {
   const ouvert = isOpenNow(r.horaires);
-  const mapsUrl = r.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.address)}` : undefined;
+  const mapsUrl = (r.latitude && r.longitude)
+    ? `https://www.google.com/maps/search/?api=1&query=${r.latitude},${r.longitude}`
+    : r.address
+    ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.address)}`
+    : undefined;
   const correctionSubject = encodeURIComponent(`Correction - ${r.name}`);
   const correctionBody = encodeURIComponent(`Bonjour,\n\nJe souhaite signaler une correction pour le restaurant ${r.name} :\n\n`);
   const isGoogle = r.source === "google";
