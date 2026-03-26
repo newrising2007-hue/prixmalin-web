@@ -18,7 +18,7 @@
     "magasins_cta": "➜ Explorer Vos Magasins",
     "magasins_logo_alt": "Accéder à la section magasins PrixMalin",
     "footer": "© {year} PrixMalin — Liens partenaires pouvant générer une commission.",
-    "partenaires_titre": "Fiers Partenaires Locaux"
+    "partenaires_titre": "Circulaire de nos fiers partenaires"
   },
   "gaming": {
     "hero_titre": "PrixMalin — Deals et codes gaming 🇨🇦",
@@ -406,5 +406,12 @@
   },
   "layout": {
     "footer_affiliation": "PrixMalin est une plateforme d'affiliation. Certains liens peuvent être rémunérés. Prix affichés seulement si certains."
+  },
+  "partenaires": {
+    "meta_titre": "Partenaire local PrixMalin",
+    "produits_a_venir": "Produits à venir",
+    "coupon_titre": "Coupon exclusif",
+    "coupon_rabais_label": "de rabais sur les produits désignés",
+    "footer_presente_par": "Fier partenaire local de"
   }
 }

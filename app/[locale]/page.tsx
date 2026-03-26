@@ -31,13 +31,13 @@ export default function HomePage() {
           {/* Bergeron Électronique */}
           <Link href="/partenaires/bergerons" className="group flex flex-col items-center">
             <div className="relative">
-              <div className="absolute inset-0 rounded-full bg-red-400/30 blur-2xl opacity-60 animate-pulse group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 rounded-full bg-cyan-400/20 blur-2xl opacity-60 animate-pulse group-hover:opacity-100 transition-opacity duration-300" />
               <Image
                 src="/partenaires/bergerons/logo.png"
                 alt="Bergeron Électronique — Circulaire"
-                width={300}
-                height={100}
-                className="relative transition-transform duration-300 group-hover:scale-105 drop-shadow-md mix-blend-multiply"
+                width={180}
+                height={60}
+                className="relative transition-transform duration-300 group-hover:scale-105 drop-shadow-md"
               />
             </div>
           </Link>

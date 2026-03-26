@@ -1,4 +1,3 @@
-import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import partenaire from "@/data/partenaires/bergerons.json";
@@ -20,6 +19,20 @@ export async function generateMetadata({
   };
 }
 
+const joursOrdre = [
+  "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"
+];
+
+const joursLabels: Record<string, string> = {
+  lundi: "Lun",
+  mardi: "Mar",
+  mercredi: "Mer",
+  jeudi: "Jeu",
+  vendredi: "Ven",
+  samedi: "Sam",
+  dimanche: "Dim",
+};
+
 export default async function PageBergerons({
   params,
 }: {
@@ -29,30 +42,116 @@ export default async function PageBergerons({
   const t = await getTranslations({ locale, namespace: "partenaires" });
 
   return (
-    <main className="min-h-screen bg-gray-100">
+    <main className="min-h-screen bg-gray-50 font-sans">
 
-      {/* HEADER */}
-      <header
-        className="py-10 px-6 text-white text-center"
-        style={{ backgroundColor: partenaire.couleurs.primaire }}
-      >
-        <Image
-          src={`/partenaires/${partenaire.slug}/logo.png`}
-          alt={partenaire.nom}
-          width={240}
-          height={80}
-          className="mx-auto mix-blend-multiply"
-        />
-        <p className="mt-3 text-sm opacity-80">{partenaire.slogan}</p>
+      {/* ── HEADER ─────────────────────────────────────────────── */}
+      <header className="bg-white border-b border-gray-100 shadow-sm">
+
+        {/* Bande accent turquoise top */}
+        <div className="h-1.5 w-full" style={{
+          background: "linear-gradient(90deg, #2eaabf 0%, #1d8fa3 40%, #6ec6d4 100%)"
+        }} />
+
+        <div className="max-w-4xl mx-auto px-6 py-8 flex flex-col items-center gap-4">
+
+          {/* Logo */}
+          <Image
+              src={`/partenaires/${partenaire.slug}/logo.png`}
+              alt={partenaire.nom}
+              width={320}
+              height={120}
+              className="object-contain"
+              priority
+            />
+
+          <p
+            className="text-xl sm:text-2xl font-bold text-center leading-snug"
+            style={{
+              background: "linear-gradient(90deg, #2eaabf 0%, #8b5cf6 35%, #f97316 65%, #10b981 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}
+          >
+            Un sourire implacable, pour un service impeccable.
+          </p>
+
+          {/* Boutons contact */}
+          <div className="flex flex-wrap justify-center gap-3 mt-2">
+            <a
+              href={`tel:${partenaire.contact.telephone.replace(/-/g, "")}`}
+              className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 bg-gray-50 hover:bg-gray-100 text-sm font-medium text-gray-700 transition-colors"
+            >
+              <span>📞</span>
+              <span>{partenaire.contact.telephone}</span>
+            </a>
+
+            <a
+              href={partenaire.contact.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 bg-gray-50 hover:bg-gray-100 text-sm font-medium text-gray-700 transition-colors"
+            >
+              <span>📘</span>
+              <span>Facebook</span>
+            </a>
+
+            {/* Horaire — accordéon simple */}
+            <details className="relative">
+              <summary className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 bg-gray-50 hover:bg-gray-100 text-sm font-medium text-gray-700 cursor-pointer transition-colors list-none">
+                <span>🕐</span>
+                <span>Horaires</span>
+                <span className="text-xs text-gray-400">▾</span>
+              </summary>
+              <div className="absolute z-10 top-full mt-2 left-1/2 -translate-x-1/2 bg-white border border-gray-100 shadow-lg rounded-xl p-4 min-w-[200px]">
+                {joursOrdre.map((jour) => {
+                  const heures = (partenaire.heures as Record<string, string>)[jour];
+                  const estFerme = heures === "Fermé";
+                  return (
+                    <div key={jour} className="flex justify-between gap-6 py-1 text-sm border-b border-gray-50 last:border-0">
+                      <span className="font-medium text-gray-600">{joursLabels[jour]}</span>
+                      <span className={estFerme ? "text-red-400" : "text-gray-700"}>{heures}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </details>
+          </div>
+        </div>
+
+        {/* Séparateur décoratif */}
+        <div className="max-w-4xl mx-auto px-6 pb-4">
+          <div className="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
+        </div>
       </header>
 
-      {/* PRODUITS */}
-      <section className="max-w-4xl mx-auto py-10 px-6">
+      {/* ── BADGE PARTENAIRE LOCAL ──────────────────────────────── */}
+      <div className="max-w-4xl mx-auto px-6 pt-6">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide"
+          style={{ backgroundColor: "#e8f8fb", color: "#1d8fa3" }}>
+          <span>🤝</span>
+          <span>PARTENAIRE LOCAL PRIXMALIN</span>
+        </div>
+      </div>
+
+      {/* ── PRODUITS ───────────────────────────────────────────── */}
+      <section className="max-w-4xl mx-auto py-8 px-6">
+        <h2 className="text-lg font-bold text-gray-800 mb-5 flex items-center gap-2">
+          <span style={{ color: "#2eaabf" }}>●</span>
+          Produits en vedette
+        </h2>
+
         {partenaire.produits.length === 0 ? (
-          <p className="text-center text-gray-400 italic">
-            {/* Produits à venir */}
-            {t("produits_a_venir")}
-          </p>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+            {[1, 2, 3, 4, 5, 6].map((i) => (
+              <div key={i} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 flex flex-col gap-3 animate-pulse">
+                <div className="bg-gray-100 rounded-xl h-32 w-full" />
+                <div className="bg-gray-100 rounded h-4 w-3/4" />
+                <div className="bg-gray-100 rounded h-4 w-1/2" />
+                <div className="bg-gray-100 rounded-full h-8 w-full mt-auto" />
+              </div>
+            ))}
+          </div>
         ) : (
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
             {/* TODO: itérer sur partenaire.produits */}
@@ -60,26 +159,42 @@ export default async function PageBergerons({
         )}
       </section>
 
-      {/* COUPON */}
+      {/* ── COUPON ─────────────────────────────────────────────── */}
       <section className="max-w-4xl mx-auto px-6 pb-10">
-        <div className="border-2 border-dashed border-gray-300 rounded-xl p-6 text-center">
-          <p className="text-lg font-bold">{t("coupon_titre")}</p>
-          <p className="mt-2 text-3xl font-black tracking-widest"
-             style={{ color: partenaire.couleurs.primaire }}>
+        <div className="relative overflow-hidden rounded-2xl border-2 border-dashed p-6 text-center"
+          style={{ borderColor: "#2eaabf", backgroundColor: "#f0fbfd" }}>
+
+          {/* Coins décoratifs */}
+          <div className="absolute top-0 left-0 w-8 h-8 border-t-4 border-l-4 rounded-tl-xl" style={{ borderColor: "#2eaabf" }} />
+          <div className="absolute top-0 right-0 w-8 h-8 border-t-4 border-r-4 rounded-tr-xl" style={{ borderColor: "#2eaabf" }} />
+          <div className="absolute bottom-0 left-0 w-8 h-8 border-b-4 border-l-4 rounded-bl-xl" style={{ borderColor: "#2eaabf" }} />
+          <div className="absolute bottom-0 right-0 w-8 h-8 border-b-4 border-r-4 rounded-br-xl" style={{ borderColor: "#2eaabf" }} />
+
+          <p className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-2">Coupon exclusif</p>
+          <p className="text-4xl font-black tracking-widest mb-1" style={{ color: "#2eaabf" }}>
             {partenaire.coupon.code}
           </p>
-          <p className="mt-1 text-sm text-gray-500">
-            {partenaire.coupon.rabais} {t("coupon_rabais_label")}
+          <p className="text-sm text-gray-500 mb-3">
+            {partenaire.coupon.rabais} de rabais sur les produits désignés
           </p>
+          <div className="inline-flex items-center gap-2 bg-white rounded-full px-4 py-2 text-xs font-medium text-gray-600 border border-gray-100 shadow-sm">
+            <span>📱</span>
+            <span>Montrez cet écran en caisse</span>
+          </div>
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer
-        className="py-6 text-center text-sm"
-        style={{ backgroundColor: partenaire.couleurs.secondaire, color: partenaire.couleurs.accent }}
-      >
-        {partenaire.nom} · {t("footer_presente_par")} PrixMalin.ca
+      {/* ── FOOTER ─────────────────────────────────────────────── */}
+      <footer className="bg-white border-t border-gray-100 py-8 text-center">
+        <div className="h-px max-w-xs mx-auto mb-6 bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
+        <p className="text-sm text-gray-500 mb-1">
+          📍 {partenaire.contact.adresse}
+        </p>
+        <p className="text-xs text-gray-400 mt-3">
+          Fier partenaire local de{" "}
+          <span className="font-semibold" style={{ color: "#2eaabf" }}>PrixMalin.ca</span>
+        </p>
+        <p className="text-xs text-gray-300 mt-1">Depuis 1983 — Ville-Marie</p>
       </footer>
 
     </main>

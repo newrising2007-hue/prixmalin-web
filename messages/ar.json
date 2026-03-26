@@ -406,5 +406,12 @@
   },
   "layout": {
     "footer_affiliation": "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تكون مدفوعة. الأسعار تُعرض فقط عند توفرها."
+  },
+  "partenaires": {
+    "meta_titre": "شريك محلي لـ PrixMalin",
+    "produits_a_venir": "المنتجات قادمة قريباً",
+    "coupon_titre": "كوبون حصري",
+    "coupon_rabais_label": "خصم على المنتجات المحددة",
+    "footer_presente_par": "شريك محلي فخور لـ"
   }
 }

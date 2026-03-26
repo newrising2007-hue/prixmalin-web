@@ -406,5 +406,12 @@
   },
   "layout": {
     "footer_affiliation": "PrixMalin is an affiliate platform. Some links may be compensated. Prices shown only when available."
+  },
+  "partenaires": {
+    "meta_titre": "Local PrixMalin Partner",
+    "produits_a_venir": "Products coming soon",
+    "coupon_titre": "Exclusive coupon",
+    "coupon_rabais_label": "off on designated products",
+    "footer_presente_par": "Proud local partner of"
   }
 }
