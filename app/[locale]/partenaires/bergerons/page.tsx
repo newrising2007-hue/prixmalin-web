@@ -60,7 +60,7 @@ export default async function PageBergerons({
             className="self-end flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors"
           >
             <span>←</span>
-            <span>Partenaires locaux</span>
+            <span>{t("retour_partenaires")}</span>
           </a>
 
           {/* Logo */}
@@ -102,24 +102,24 @@ export default async function PageBergerons({
               className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 bg-gray-50 hover:bg-gray-100 text-sm font-medium text-gray-700 transition-colors"
             >
               <span>📘</span>
-              <span>Facebook</span>
+              <span>{t("facebook")}</span>
             </a>
 
             {/* Horaire — accordéon simple */}
             <details className="relative">
               <summary className="flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 bg-gray-50 hover:bg-gray-100 text-sm font-medium text-gray-700 cursor-pointer transition-colors list-none">
                 <span>🕐</span>
-                <span>Horaires</span>
+                <span>{t("horaires")}</span>
                 <span className="text-xs text-gray-400">▾</span>
               </summary>
               <div className="absolute z-10 top-full mt-2 left-1/2 -translate-x-1/2 bg-white border border-gray-100 shadow-lg rounded-xl p-4 min-w-[200px]">
                 {joursOrdre.map((jour) => {
                   const heures = (partenaire.heures as Record<string, string>)[jour];
-                  const estFerme = heures === "Fermé";
+                  const estFerme = heures === t("ferme");
                   return (
                     <div key={jour} className="flex justify-between gap-6 py-1 text-sm border-b border-gray-50 last:border-0">
                       <span className="font-medium text-gray-600">{joursLabels[jour]}</span>
-                      <span className={estFerme ? "text-red-400" : "text-gray-700"}>{heures}</span>
+                      <span className={estFerme ? "text-red-400" : "text-gray-700"}>{estFerme ? t("ferme") : heures}</span>
                     </div>
                   );
                 })}
@@ -139,7 +139,7 @@ export default async function PageBergerons({
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide"
           style={{ backgroundColor: "#e8f8fb", color: "#1d8fa3" }}>
           <span>🤝</span>
-          <span>PARTENAIRE LOCAL PRIXMALIN</span>
+          <span>{t("badge_partenaire")}</span>
         </div>
       </div>
 
@@ -147,7 +147,7 @@ export default async function PageBergerons({
       <section className="max-w-4xl mx-auto py-8 px-6">
         <h2 className="text-lg font-bold text-gray-800 mb-5 flex items-center gap-2">
           <span style={{ color: "#2eaabf" }}>●</span>
-          Produits en vedette
+          {t("produits_vedette")}
         </h2>
 
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
@@ -182,7 +182,7 @@ export default async function PageBergerons({
                     />
                     <span className="text-white font-bold leading-none"
                       style={{ fontSize: "10px", whiteSpace: "nowrap" }}>
-                      -5% en plus
+                      {t("badge_moins5")}
                     </span>
                   </div>
                 )}
@@ -213,16 +213,16 @@ export default async function PageBergerons({
           <div className="absolute bottom-0 left-0 w-8 h-8 border-b-4 border-l-4 rounded-bl-xl" style={{ borderColor: "#2eaabf" }} />
           <div className="absolute bottom-0 right-0 w-8 h-8 border-b-4 border-r-4 rounded-br-xl" style={{ borderColor: "#2eaabf" }} />
 
-          <p className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-2">Coupon exclusif</p>
+          <p className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-2">{t("coupon_titre")}</p>
           <p className="text-4xl font-black tracking-widest mb-1" style={{ color: "#2eaabf" }}>
             {partenaire.coupon.code}
           </p>
           <p className="text-sm text-gray-500 mb-3">
-            {partenaire.coupon.rabais} de rabais sur les produits désignés
+            {partenaire.coupon.rabais} {t("coupon_rabais_label")}
           </p>
           <div className="inline-flex items-center gap-2 bg-white rounded-full px-4 py-2 text-xs font-medium text-gray-600 border border-gray-100 shadow-sm">
             <span>📱</span>
-            <span>Montrez cet écran en caisse</span>
+            <span>{t("montrer_ecran")}</span>
           </div>
         </div>
       </section>
@@ -234,7 +234,7 @@ export default async function PageBergerons({
           📍 {partenaire.contact.adresse}
         </p>
         <p className="text-xs text-gray-400 mt-3">
-          Fier partenaire local de{" "}
+          {t("footer_presente_par")}{" "}
           <span className="font-semibold" style={{ color: "#2eaabf" }}>PrixMalin.ca</span>
         </p>
         <p className="text-xs text-gray-300 mt-1">Depuis 1983 — Ville-Marie</p>

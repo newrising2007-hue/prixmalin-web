@@ -20,11 +20,11 @@ const NAV_TEXT: Record<Locale, {
 };
 
 const FOOTER_TEXT: Record<string, string> = {
-  fr: "PrixMalin est une plateforme d'affiliation. Certains liens peuvent être rémunérés. Prix affichés seulement si certains.",
-  en: "PrixMalin is an affiliate platform. Some links may be compensated. Prices shown only when available.",
-  es: "PrixMalin es una plataforma de afiliación. Algunos enlaces pueden ser remunerados. Precios mostrados solo si están disponibles.",
-  ar: "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تكون مدفوعة. الأسعار معروضة فقط عند توفرها.",
-  zh: "PrixMalin 是一个联盟营销平台。部分链接可能获得佣金。价格仅在有时显示。",
+  fr: "PrixMalin participe au programme Partenaires d'Amazon. En tant qu'associé Amazon, nous recevons une commission sur les achats qualifiés effectués via nos liens.",
+  en: "PrixMalin participates in the Amazon Associates Program. As an Amazon Associate, we earn from qualifying purchases made through our links.",
+  es: "PrixMalin participa en el Programa de Afiliados de Amazon. Como asociado de Amazon, ganamos comisiones por las compras realizadas a través de nuestros enlaces.",
+  ar: "يشارك PrixMalin في برنامج شركاء Amazon. بصفتنا شركاء في Amazon، نكسب عمولات على المشتريات المؤهلة عبر روابطنا.",
+  zh: "PrixMalin参与亚马逊联盟计划。作为亚马逊联盟会员，我们通过链接产生的合格购买获得佣金。",
 };
 
 export default function LayoutChrome({

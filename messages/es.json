@@ -412,6 +412,23 @@
     "produits_a_venir": "Productos próximamente",
     "coupon_titre": "Cupón exclusivo",
     "coupon_rabais_label": "de descuento en productos designados",
-    "footer_presente_par": "Orgulloso socio local de"
+    "footer_presente_par": "Orgulloso socio local de",
+    "retour_partenaires": "Socios locales",
+    "facebook": "Facebook",
+    "horaires": "Horarios",
+    "ferme": "Cerrado",
+    "badge_partenaire": "SOCIO LOCAL PRIXMALIN",
+    "produits_vedette": "Productos destacados",
+    "badge_moins5": "-5% adicional",
+    "montrer_ecran": "Muestre esta pantalla en caja",
+    "jours": {
+      "lun": "Lun",
+      "mar": "Mar",
+      "mer": "Mié",
+      "jeu": "Jue",
+      "ven": "Vie",
+      "sam": "Sáb",
+      "dim": "Dom"
+    }
   }
 }

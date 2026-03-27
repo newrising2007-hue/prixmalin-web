@@ -412,6 +412,23 @@
     "produits_a_venir": "产品即将上线",
     "coupon_titre": "专属优惠券",
     "coupon_rabais_label": "指定商品折扣",
-    "footer_presente_par": "PrixMalin 的骄傲本地合作伙伴"
+    "footer_presente_par": "PrixMalin 的骄傲本地合作伙伴",
+    "retour_partenaires": "本地合作商",
+    "facebook": "脸书",
+    "horaires": "营业时间",
+    "ferme": "休息",
+    "badge_partenaire": "PRIXMALIN本地合作商",
+    "produits_vedette": "特色产品",
+    "badge_moins5": "额外减5%",
+    "montrer_ecran": "在收银台出示此屏幕",
+    "jours": {
+      "lun": "周一",
+      "mar": "周二",
+      "mer": "周三",
+      "jeu": "周四",
+      "ven": "周五",
+      "sam": "周六",
+      "dim": "周日"
+    }
   }
 }

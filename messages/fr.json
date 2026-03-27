@@ -412,6 +412,23 @@
     "produits_a_venir": "Produits à venir",
     "coupon_titre": "Coupon exclusif",
     "coupon_rabais_label": "de rabais sur les produits désignés",
-    "footer_presente_par": "Fier partenaire local de"
+    "footer_presente_par": "Fier partenaire local de",
+    "retour_partenaires": "Partenaires locaux",
+    "facebook": "Facebook",
+    "horaires": "Horaires",
+    "ferme": "Fermé",
+    "badge_partenaire": "PARTENAIRE LOCAL PRIXMALIN",
+    "produits_vedette": "Produits en vedette",
+    "badge_moins5": "-5% en plus",
+    "montrer_ecran": "Montrez cet écran en caisse",
+    "jours": {
+      "lun": "Lun",
+      "mar": "Mar",
+      "mer": "Mer",
+      "jeu": "Jeu",
+      "ven": "Ven",
+      "sam": "Sam",
+      "dim": "Dim"
+    }
   }
 }

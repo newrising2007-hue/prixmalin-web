@@ -412,6 +412,23 @@
     "produits_a_venir": "المنتجات قادمة قريباً",
     "coupon_titre": "كوبون حصري",
     "coupon_rabais_label": "خصم على المنتجات المحددة",
-    "footer_presente_par": "شريك محلي فخور لـ"
+    "footer_presente_par": "شريك محلي فخور لـ",
+    "retour_partenaires": "الشركاء المحليون",
+    "facebook": "فيسبوك",
+    "horaires": "أوقات العمل",
+    "ferme": "مغلق",
+    "badge_partenaire": "شريك محلي بريكسمالان",
+    "produits_vedette": "المنتجات المميزة",
+    "badge_moins5": "خصم 5% إضافي",
+    "montrer_ecran": "أظهر هذه الشاشة عند الدفع",
+    "jours": {
+      "lun": "الإث",
+      "mar": "الثل",
+      "mer": "الأر",
+      "jeu": "الخم",
+      "ven": "الجم",
+      "sam": "السب",
+      "dim": "الأح"
+    }
   }
 }
