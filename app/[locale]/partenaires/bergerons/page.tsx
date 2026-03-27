@@ -141,22 +141,56 @@ export default async function PageBergerons({
           Produits en vedette
         </h2>
 
-        {partenaire.produits.length === 0 ? (
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
-            {[1, 2, 3, 4, 5, 6].map((i) => (
-              <div key={i} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 flex flex-col gap-3 animate-pulse">
-                <div className="bg-gray-100 rounded-xl h-32 w-full" />
-                <div className="bg-gray-100 rounded h-4 w-3/4" />
-                <div className="bg-gray-100 rounded h-4 w-1/2" />
-                <div className="bg-gray-100 rounded-full h-8 w-full mt-auto" />
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+          {partenaire.produits.map((produit: {
+            nom: string;
+            image: string;
+            prix_regulier: number;
+            prix_special: number;
+            prix_prixmalin: number;
+            badge: string;
+          }) => (
+            <div key={produit.nom} className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden flex flex-col">
+
+              {/* Image + badge */}
+              <div className="relative w-full h-36 bg-gray-50">
+                <Image
+                  src={`/partenaires/${partenaire.slug}/${produit.image}`}
+                  alt={produit.nom}
+                  fill
+                  className="object-contain p-3"
+                />
+                {/* Badge PrixMalin */}
+                {produit.badge !== "none" && (
+                  <div className="absolute bottom-2 left-2 flex items-center gap-1 px-2 py-1 rounded-full"
+                    style={{ backgroundColor: "#2eaabf" }}>
+                    <Image
+                      src="/icons/icon-192.png"
+                      alt="PrixMalin"
+                      width={14}
+                      height={14}
+                      className="object-contain"
+                    />
+                    <span className="text-white font-bold leading-none"
+                      style={{ fontSize: "10px", whiteSpace: "nowrap" }}>
+                      -5% en plus
+                    </span>
+                  </div>
+                )}
               </div>
-            ))}
-          </div>
-        ) : (
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
-            {/* TODO: itérer sur partenaire.produits */}
-          </div>
-        )}
+
+              {/* Infos */}
+              <div className="p-3 flex flex-col gap-1 flex-1">
+                <p className="text-sm font-semibold text-gray-800 leading-tight line-clamp-2">{produit.nom}</p>
+                <div className="flex items-center gap-2 mt-1">
+                  <span className="text-xs text-gray-400 line-through">{produit.prix_regulier.toFixed(2)}$</span>
+                  <span className="text-base font-black" style={{ color: "#2eaabf" }}>{produit.prix_special.toFixed(2)}$</span>
+                </div>
+              </div>
+
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* ── COUPON ─────────────────────────────────────────────── */}
