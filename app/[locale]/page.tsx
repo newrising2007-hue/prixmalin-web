@@ -20,6 +20,29 @@ export default function HomePage() {
         </p>
       </header>
 
+
+      {/* SECTION PARTENAIRES */}
+      <section className="relative z-10 mx-auto max-w-5xl px-6 py-4">
+        <h2 className="text-center text-2xl font-bold mb-6">
+          🏅 <span className="bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">{t("partenaires_titre")}</span>
+        </h2>
+        <div className="flex flex-wrap justify-center gap-6">
+
+          {/* Bergeron Électronique */}
+          <Link href="/partenaires/bergerons" className="group flex flex-col items-center">
+            <div className="relative">
+              <div className="absolute inset-0 rounded-full bg-cyan-400/20 blur-2xl opacity-60 animate-pulse group-hover:opacity-100 transition-opacity duration-300" />
+              <Image
+                src="/partenaires/bergerons/logo.png"
+                alt="Bergeron Électronique — Circulaire"
+                width={180}
+                height={60}
+                className="relative transition-transform duration-300 group-hover:scale-105 drop-shadow-md"
+              />
+            </div>
+          </Link>
+        </div>
+      </section>
       {/* SECTION GAMING */}
       <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden px-6">
         <div className="absolute inset-0 bg-gradient-to-br from-white/50 via-blue-50/40 to-blue-100/30" />

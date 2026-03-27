@@ -1,0 +1,79 @@
+{
+  "slug": "bergerons",
+  "nom": "Bergeron Électronique",
+  "slogan": "Depuis 1983 — Ville-Marie",
+  "couleurs": {
+    "primaire": "#d0011b",
+    "secondaire": "#a80016",
+    "accent": "#ffcc00"
+  },
+  "contact": {
+    "adresse": "26 Rue des Oblats N, Ville-Marie QC J9V 1H9",
+    "telephone": "819-629-3444",
+    "facebook": "https://www.facebook.com/bergelec"
+  },
+  "heures": {
+    "lundi": "9h – 17h30",
+    "mardi": "9h – 17h30",
+    "mercredi": "9h – 17h30",
+    "jeudi": "9h – 17h30",
+    "vendredi": "9h – 18h",
+    "samedi": "9h – 17h",
+    "dimanche": "Fermé"
+  },
+  "coupon": {
+    "code": "PRIXMALIN5",
+    "rabais": "5%",
+    "expiration": ""
+  },
+  "produits": [
+    {
+      "nom": "LOL le jeu",
+      "image": "LOL.png",
+      "prix_regulier": 29.99,
+      "prix_special": 24.99,
+      "prix_prixmalin": 23.74,
+      "badge": "plus"
+    },
+    {
+      "nom": "Professional Studio",
+      "image": "Professional-studio.png",
+      "prix_regulier": 69.99,
+      "prix_special": 59.99,
+      "prix_prixmalin": 56.99,
+      "badge": "plus"
+    },
+    {
+      "nom": "Sycomore Pirate",
+      "image": "sycomore pirate.png",
+      "prix_regulier": 36.99,
+      "prix_special": 29.99,
+      "prix_prixmalin": 28.49,
+      "badge": "plus"
+    },
+    {
+      "nom": "Dinosaure Lost Age",
+      "image": "Dinosaure-Lost-age.png",
+      "prix_regulier": 39.99,
+      "prix_special": 34.99,
+      "prix_prixmalin": 33.24,
+      "badge": "none"
+    },
+    {
+      "nom": "Sang Dragons 2",
+      "image": "SangDragons2.png",
+      "prix_regulier": 49.99,
+      "prix_special": 44.99,
+      "prix_prixmalin": 42.74,
+      "badge": "none"
+    },
+    {
+      "nom": "Fish & Cheat",
+      "image": "Fish&Cheat.png",
+      "prix_regulier": 34.99,
+      "prix_special": 29.99,
+      "prix_prixmalin": 28.49,
+      "badge": "none"
+    }
+  ]
+}
