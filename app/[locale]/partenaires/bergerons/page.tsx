@@ -54,6 +54,15 @@ export default async function PageBergerons({
 
         <div className="max-w-4xl mx-auto px-6 py-8 flex flex-col items-center gap-4">
 
+          {/* Retour partenaires */}
+          <a
+            href={`/${locale}`}
+            className="self-end flex items-center gap-1 text-xs text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            <span>←</span>
+            <span>Partenaires locaux</span>
+          </a>
+
           {/* Logo */}
           <Image
               src={`/partenaires/${partenaire.slug}/logo.png`}
