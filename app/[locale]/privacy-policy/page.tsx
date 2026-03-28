@@ -36,7 +36,25 @@ export default function PrivacyPolicy() {
         <em>The website uses standard cookies and Google Analytics to analyze traffic and improve user experience. No personally identifiable information is shared with third parties.</em>
       </p>
 
-      <h2 className="text-xl font-semibold mt-8 mb-4">5. Contact</h2>
+      <h2 className="text-xl font-semibold mt-8 mb-4">5. Rétention des données / Data Retention</h2>
+      <p className="mb-6">
+        Nous ne stockons aucune donnée personnelle sur nos serveurs. Les données de localisation sont utilisées uniquement en temps réel et immédiatement supprimées. Les recherches récentes sont stockées localement sur votre appareil et peuvent être effacées à tout moment via les paramètres de l'application.<br /><br />
+        <em>We do not store any personal data on our servers. Location data is used only in real time and immediately discarded. Recent searches are stored locally on your device and can be cleared at any time through the app settings.</em>
+      </p>
+
+      <h2 className="text-xl font-semibold mt-8 mb-4">6. Suppression des données / Data Deletion</h2>
+      <p className="mb-6">
+        Puisque nous ne collectons aucune donnée personnelle identifiable, il n'existe aucune donnée à supprimer sur nos serveurs. Pour effacer vos recherches récentes, désinstallez simplement l'application ou videz le cache dans les paramètres de votre appareil. Pour toute demande, contactez-nous à info@prixmalin.ca.<br /><br />
+        <em>Since we do not collect any personally identifiable data, there is no data to delete from our servers. To clear your recent searches, simply uninstall the app or clear the cache in your device settings. For any request, contact us at info@prixmalin.ca.</em>
+      </p>
+
+      <h2 className="text-xl font-semibold mt-8 mb-4">7. Partage avec des tiers / Third-Party Sharing</h2>
+      <p className="mb-6">
+        Aucune donnée personnelle n'est vendue, louée ou partagée avec des tiers, à l'exception de Google Analytics (trafic web anonymisé). Les liens d'affiliation (Amazon Associates, FlexOffers) peuvent déposer leurs propres cookies lors d'un clic — consultez leurs politiques respectives.<br /><br />
+        <em>No personal data is sold, rented, or shared with third parties, except Google Analytics (anonymized web traffic). Affiliate links (Amazon Associates, FlexOffers) may set their own cookies upon click — please refer to their respective policies.</em>
+      </p>
+
+      <h2 className="text-xl font-semibold mt-8 mb-4">8. Contact</h2>
       <p className="mb-6">
         Pour toute question concernant cette politique / For any questions regarding this policy:<br />
         <strong>Email:</strong> <a href="mailto:info@prixmalin.ca" className="text-green-700 hover:underline">info@prixmalin.ca</a>
