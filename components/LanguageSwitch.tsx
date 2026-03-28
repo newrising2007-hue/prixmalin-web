@@ -51,7 +51,7 @@ export default function LanguageSwitch() {
 
   function navigateTo(lang: Lang) {
     const href = buildHref(lang, rest);
-    document.cookie = "NEXT_LOCALE=; path=/; max-age=0";
+    document.cookie = `NEXT_LOCALE=${lang}; path=/; max-age=31536000`;
     router.push(href);
     setOpen(false);
   }
