@@ -4,6 +4,7 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 const nextConfig: NextConfig = {
+  images: { unoptimized: true },
   async redirects() {
     return [
       { source: "/deals/xbox-game-pass-ultimate-3m", destination: "/i/xbox-game-pass-ultimate-3-mois-canada", permanent: true },
