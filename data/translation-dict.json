@@ -2637,6 +2637,20 @@
       "ar": "لوحة مفاتيح ميكانيكية متينة للاعبين الذين يريدون الأداء دون دفع الكثير. مفاتيح خطية وصامتة، إضاءة RGB قابلة للتخصيص، مفاتيح ماكرو ومفاتيح ABS Doubleshot للمتانة طويلة الأمد.",
       "zh": "一款适合玩家的扎实机械键盘，性能出色且价格合理。线性静音轴、可定制RGB灯光、宏键和ABS Doubleshot键帽，经久耐用。",
       "verified": false
+    },
+    "jeu de société": {
+      "en": "board game",
+      "es": "juego de mesa",
+      "ar": "لعبة طاولة",
+      "zh": "桌游",
+      "verified": true
+    },
+    "jouet pour enfant": {
+      "en": "children's toy",
+      "es": "juguete para niños",
+      "ar": "لعبة أطفال",
+      "zh": "儿童玩具",
+      "verified": true
     }
   }
 }
