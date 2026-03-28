@@ -53,16 +53,16 @@ export default function LayoutChrome({
               </Link>
               <div className="flex items-center gap-2">
                 <Link
-                  href="/gaming"
+                  href={locale === "fr" ? "/gaming" : `/${locale}/gaming`}
                   className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-sm font-semibold text-blue-700 hover:bg-blue-100"
                 >
-                  🎮 Gaming
+                  🎮 {t.gaming}
                 </Link>
                 <Link
-                  href="/magasins"
+                  href={locale === "fr" ? "/magasins" : `/${locale}/magasins`}
                   className="rounded-full border border-green-200 bg-green-50 px-3 py-1 text-sm font-semibold text-green-700 hover:bg-green-100"
                 >
-                  🔍 Magasinage
+                  🔍 {t.shopping}
                 </Link>
               </div>
             </div>
