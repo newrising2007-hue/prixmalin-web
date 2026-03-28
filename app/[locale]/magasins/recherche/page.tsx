@@ -20,6 +20,7 @@ interface Result {
   affiliate_url?: string;
   url?: string;
   verified?: boolean;
+  partner?: string | null;
 }
 
 function RechercheContent() {
@@ -125,6 +126,7 @@ function RechercheContent() {
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
             <span className="font-bold text-gray-800 group-hover:text-green-700">{r.store}</span>
+            {r.partner && <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{background:'rgba(46,170,191,0.15)', color:'#2eaabf', border:'1px solid rgba(46,170,191,0.4)'}}>🤝 Fier Partenaire</span>}
             {!r.verified && <span className="text-xs font-semibold">via <span style={{color:"#4285F4"}}>G</span><span style={{color:"#EA4335"}}>o</span><span style={{color:"#FBBC05"}}>o</span><span style={{color:"#34A853"}}>g</span><span style={{color:"#EA4335"}}>l</span><span style={{color:"#4285F4"}}>e</span></span>}
           </div>
           {r.address && <div className="text-sm text-gray-500 truncate">{r.address}</div>}
