@@ -344,6 +344,9 @@ export default function RestaurantsPage() {
           setVilleActive(data.nom);
           setVilleInput("");
           setVilleCoords({ lat: data.lat, lng: data.lng });
+          setCuisine("all");
+          setServices([]);
+          setSearch("");
           fetchRestaurants(data.lat, data.lng, true);
         }
         setVilleLoading(false);
@@ -365,6 +368,9 @@ export default function RestaurantsPage() {
         setVilleActive(data.nom);
         setVilleInput("");
         setVilleCoords({ lat: data.lat, lng: data.lng });
+        setCuisine("all");
+        setServices([]);
+        setSearch("");
         fetchRestaurants(data.lat, data.lng, true);
       } else {
 
@@ -488,6 +494,9 @@ export default function RestaurantsPage() {
                 setProvince("QC");
                 setVilleCoords(null);
                 setRestaurants([]);
+                setCuisine("all");
+                setServices([]);
+                setSearch("");
                 const lat = userPos?.lat ?? 47.3340;
                 const lng = userPos?.lng ?? -79.4335;
                 fetchRestaurants(lat, lng, false);
@@ -496,7 +505,7 @@ export default function RestaurantsPage() {
               📍 Local
             </button>
             <button
-              onClick={() => setModeVille(true)}
+              onClick={() => { setModeVille(true); setCuisine("all"); setServices([]); setSearch(""); }}
               className={`rounded-full border text-sm font-semibold transition-all px-3 py-1 ${modeVille ? "bg-green-500 text-white border-green-500" : "bg-green-50 text-green-700 border-green-200 hover:bg-green-100"}`}>
               🗺️ Autre ville
             </button>
