@@ -82,7 +82,7 @@ export default async function PageBergerons({
               backgroundClip: "text",
             }}
           >
-            Un sourire implacable, pour un service impeccable.
+            {partenaire.slogan}
           </p>
 
           {/* Boutons contact */}
@@ -237,7 +237,7 @@ export default async function PageBergerons({
           {t("footer_presente_par")}{" "}
           <span className="font-semibold" style={{ color: "#2eaabf" }}>PrixMalin.ca</span>
         </p>
-        <p className="text-xs text-gray-300 mt-1">Depuis 1983 — Ville-Marie</p>
+        {partenaire.slogan && <p className="text-xs text-gray-300 mt-1">{partenaire.slogan}</p>}
       </footer>
 
     </main>
