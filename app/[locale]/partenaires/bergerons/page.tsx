@@ -49,7 +49,7 @@ export default async function PageBergerons({
 
         {/* Bande accent turquoise top */}
         <div className="h-1.5 w-full" style={{
-          background: "linear-gradient(90deg, #e01b24 0%, #924b4b 40%, #924b4b 100%)"
+          background: "linear-gradient(90deg, #2eaabf 0%, #1d8fa3 40%, #6ec6d4 100%)"
         }} />
 
         <div className="max-w-4xl mx-auto px-6 py-8 flex flex-col items-center gap-4">
@@ -76,13 +76,13 @@ export default async function PageBergerons({
           <p
             className="text-xl sm:text-2xl font-bold text-center leading-snug"
             style={{
-              background: "linear-gradient(90deg, #e01b24 0%, #8b5cf6 35%, #f97316 65%, #10b981 100%)",
+              background: "linear-gradient(90deg, #2eaabf 0%, #8b5cf6 35%, #f97316 65%, #10b981 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
             }}
           >
-            {partenaire.slogan}
+            Un sourire implacable, pour un service impeccable.
           </p>
 
           {/* Boutons contact */}
@@ -137,7 +137,7 @@ export default async function PageBergerons({
       {/* ── BADGE PARTENAIRE LOCAL ──────────────────────────────── */}
       <div className="max-w-4xl mx-auto px-6 pt-6">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide"
-          style={{ backgroundColor: "#924b4b20", color: "#924b4b" }}>
+          style={{ backgroundColor: "#e8f8fb", color: "#1d8fa3" }}>
           <span>🤝</span>
           <span>{t("badge_partenaire")}</span>
         </div>
@@ -146,7 +146,7 @@ export default async function PageBergerons({
       {/* ── PRODUITS ───────────────────────────────────────────── */}
       <section className="max-w-4xl mx-auto py-8 px-6">
         <h2 className="text-lg font-bold text-gray-800 mb-5 flex items-center gap-2">
-          <span style={{ color: "#e01b24" }}>●</span>
+          <span style={{ color: "#2eaabf" }}>●</span>
           {t("produits_vedette")}
         </h2>
 
@@ -172,7 +172,7 @@ export default async function PageBergerons({
                 {/* Badge PrixMalin */}
                 {produit.badge !== "none" && (
                   <div className="absolute bottom-2 left-2 flex items-center gap-1 px-2 py-1 rounded-full"
-                    style={{ backgroundColor: "#e01b24" }}>
+                    style={{ backgroundColor: "#2eaabf" }}>
                     <Image
                       src="/icons/icon-192.png"
                       alt="PrixMalin"
@@ -193,7 +193,7 @@ export default async function PageBergerons({
                 <p className="text-sm font-semibold text-gray-800 leading-tight line-clamp-2">{produit.nom}</p>
                 <div className="flex items-center gap-2 mt-1">
                   <span className="text-xs text-gray-400 line-through">{produit.prix_regulier.toFixed(2)}$</span>
-                  <span className="text-base font-black" style={{ color: "#e01b24" }}>{produit.prix_special.toFixed(2)}$</span>
+                  <span className="text-base font-black" style={{ color: "#2eaabf" }}>{produit.prix_special.toFixed(2)}$</span>
                 </div>
               </div>
 
@@ -205,16 +205,16 @@ export default async function PageBergerons({
       {/* ── COUPON ─────────────────────────────────────────────── */}
       <section className="max-w-4xl mx-auto px-6 pb-10">
         <div className="relative overflow-hidden rounded-2xl border-2 border-dashed p-6 text-center"
-          style={{ borderColor: "#e01b24", backgroundColor: "#924b4b15" }}>
+          style={{ borderColor: "#2eaabf", backgroundColor: "#f0fbfd" }}>
 
           {/* Coins décoratifs */}
-          <div className="absolute top-0 left-0 w-8 h-8 border-t-4 border-l-4 rounded-tl-xl" style={{ borderColor: "#e01b24" }} />
-          <div className="absolute top-0 right-0 w-8 h-8 border-t-4 border-r-4 rounded-tr-xl" style={{ borderColor: "#e01b24" }} />
-          <div className="absolute bottom-0 left-0 w-8 h-8 border-b-4 border-l-4 rounded-bl-xl" style={{ borderColor: "#e01b24" }} />
-          <div className="absolute bottom-0 right-0 w-8 h-8 border-b-4 border-r-4 rounded-br-xl" style={{ borderColor: "#e01b24" }} />
+          <div className="absolute top-0 left-0 w-8 h-8 border-t-4 border-l-4 rounded-tl-xl" style={{ borderColor: "#2eaabf" }} />
+          <div className="absolute top-0 right-0 w-8 h-8 border-t-4 border-r-4 rounded-tr-xl" style={{ borderColor: "#2eaabf" }} />
+          <div className="absolute bottom-0 left-0 w-8 h-8 border-b-4 border-l-4 rounded-bl-xl" style={{ borderColor: "#2eaabf" }} />
+          <div className="absolute bottom-0 right-0 w-8 h-8 border-b-4 border-r-4 rounded-br-xl" style={{ borderColor: "#2eaabf" }} />
 
           <p className="text-xs font-bold tracking-widest uppercase text-gray-400 mb-2">{t("coupon_titre")}</p>
-          <p className="text-4xl font-black tracking-widest mb-1" style={{ color: "#e01b24" }}>
+          <p className="text-4xl font-black tracking-widest mb-1" style={{ color: "#2eaabf" }}>
             {partenaire.coupon.code}
           </p>
           <p className="text-sm text-gray-500 mb-3">
@@ -235,9 +235,9 @@ export default async function PageBergerons({
         </p>
         <p className="text-xs text-gray-400 mt-3">
           {t("footer_presente_par")}{" "}
-          <span className="font-semibold" style={{ color: "#e01b24" }}>PrixMalin.ca</span>
+          <span className="font-semibold" style={{ color: "#2eaabf" }}>PrixMalin.ca</span>
         </p>
-        {partenaire.slogan && <p className="text-xs text-gray-300 mt-1">{partenaire.slogan}</p>}
+        <p className="text-xs text-gray-300 mt-1">Depuis 1983 — Ville-Marie</p>
       </footer>
 
     </main>
