@@ -35,8 +35,8 @@
       "nom": "LOL let's go",
       "image": "chum jessie.png",
       "prix_regulier": 100,
-      "prix_special": 24.99,
-      "prix_prixmalin": 23.74,
+      "prix_special": 10000,
+      "prix_prixmalin": 9500,
       "badge": "none"
     },
     {
