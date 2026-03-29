@@ -156,7 +156,6 @@ export default async function PageBergerons({
             image: string;
             prix_regulier: number;
             prix_special: number;
-            prix_prixmalin: number;
             badge: string;
           }) => (
             <div key={produit.nom} className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden flex flex-col">

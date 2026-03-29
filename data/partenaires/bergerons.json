@@ -32,7 +32,6 @@
       "image": "LOL.png",
       "prix_regulier": 29.99,
       "prix_special": 24.99,
-      "prix_prixmalin": 23.74,
       "badge": "plus"
     },
     {
@@ -40,7 +39,6 @@
       "image": "Professional-studio.png",
       "prix_regulier": 69.99,
       "prix_special": 59.99,
-      "prix_prixmalin": 56.99,
       "badge": "plus"
     },
     {
@@ -48,7 +46,6 @@
       "image": "sycomore pirate.png",
       "prix_regulier": 36.99,
       "prix_special": 29.99,
-      "prix_prixmalin": 28.49,
       "badge": "plus"
     },
     {
@@ -56,7 +53,6 @@
       "image": "Dinosaure-Lost-age.png",
       "prix_regulier": 39.99,
       "prix_special": 34.99,
-      "prix_prixmalin": 33.24,
       "badge": "none"
     },
     {
@@ -64,7 +60,6 @@
       "image": "SangDragons2.png",
       "prix_regulier": 49.99,
       "prix_special": 44.99,
-      "prix_prixmalin": 42.74,
       "badge": "none"
     },
     {
@@ -72,7 +67,6 @@
       "image": "Fish&Cheat.png",
       "prix_regulier": 34.99,
       "prix_special": 29.99,
-      "prix_prixmalin": 28.49,
       "badge": "none"
     }
   ]
