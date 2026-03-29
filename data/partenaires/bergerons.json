@@ -10,10 +10,7 @@
   "contact": {
     "adresse": "26 Rue des Oblats N, Ville-Marie QC J9V 1H9",
     "telephone": "819-629-3444",
-    "email": "",
-    "facebook": "https://www.facebook.com/bergelec",
-    "instagram": "",
-    "site_web": ""
+    "facebook": "https://www.facebook.com/bergelec"
   },
   "heures": {
     "lundi": "9h – 17h30",
@@ -78,7 +75,5 @@
       "prix_prixmalin": 28.49,
       "badge": "none"
     }
-  ],
-  "style": "epure",
-  "statut": "publie"
+  ]
 }
