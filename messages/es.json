@@ -419,7 +419,7 @@
     "ferme": "Cerrado",
     "badge_partenaire": "SOCIO LOCAL PRIXMALIN",
     "produits_vedette": "Productos destacados",
-    "badge_moins5": "-5% PrixMalin",
+    "badge_moins5": "-{rabais} PrixMalin",
     "montrer_ecran": "Muestre esta pantalla en caja",
     "jours": {
       "lun": "Lun",

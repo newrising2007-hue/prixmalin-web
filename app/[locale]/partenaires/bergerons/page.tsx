@@ -182,7 +182,7 @@ export default async function PageBergerons({
                     />
                     <span className="text-white font-bold leading-none"
                       style={{ fontSize: "10px", whiteSpace: "nowrap" }}>
-                      {t("badge_moins5")}
+                      {t("badge_moins5", { rabais: partenaire.coupon?.rabais || "5%" })}
                     </span>
                   </div>
                 )}

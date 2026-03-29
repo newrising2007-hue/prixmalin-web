@@ -419,7 +419,7 @@
     "ferme": "مغلق",
     "badge_partenaire": "شريك محلي بريكسمالان",
     "produits_vedette": "المنتجات المميزة",
-    "badge_moins5": "5%- PrixMalin",
+    "badge_moins5": "{rabais}- PrixMalin",
     "montrer_ecran": "أظهر هذه الشاشة عند الدفع",
     "jours": {
       "lun": "الإث",
