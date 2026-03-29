@@ -387,7 +387,7 @@ export default function RestaurantsPage() {
 
     setLoading(true);
     setRestaurants([]);
-    fetch(isVille ? `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=20` : `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=45`)
+    fetch(isVille ? `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=20&lang=${locale}` : `${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=45&lang=${locale}`)
       .then(r => r.json())
       .then(data => {
         setRestaurants(data.restaurants || []);
@@ -518,7 +518,7 @@ export default function RestaurantsPage() {
                 const lng = userPos?.lng ?? -79.4335;
                 setLoading(true);
                 setRestaurants([]);
-                fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=45`)
+                fetch(`${BACKEND}/api/restaurants/google?lat=${lat}&lng=${lng}&rayon=45&lang=${locale}`)
                   .then(r => r.json())
                   .then(d => { setRestaurants(d.restaurants || []); setLoading(false); })
                   .catch(() => setLoading(false));
