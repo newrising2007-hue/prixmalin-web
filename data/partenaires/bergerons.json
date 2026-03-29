@@ -1,19 +1,23 @@
 {
   "slug": "bergerons",
-  "nom": "Bergeron Électronique",
+  "nom": "la maison des jambons",
   "slogan": "Depuis 1983 — Ville-Marie",
   "couleurs": {
-    "primaire": "#d0011b",
-    "secondaire": "#a80016",
-    "accent": "#ffcc00"
+    "primaire": "#e01b24",
+    "secondaire": "#7766bb",
+    "accent": "#924b4b",
+    "body_bg": "#5a3131"
   },
   "contact": {
-    "adresse": "26 Rue des Oblats N, Ville-Marie QC J9V 1H9",
+    "adresse": "26 rue des bobnon",
     "telephone": "819-629-3444",
-    "facebook": "https://www.facebook.com/bergelec"
+    "email": "",
+    "facebook": "francois.boucher.ca",
+    "instagram": "",
+    "site_web": "www.google.ca"
   },
   "heures": {
-    "lundi": "9h – 17h30",
+    "lundi": "5h – 17h30",
     "mardi": "9h – 17h30",
     "mercredi": "9h – 17h30",
     "jeudi": "9h – 17h30",
@@ -23,17 +27,17 @@
   },
   "coupon": {
     "code": "PRIXMALIN5",
-    "rabais": "5%",
+    "rabais": "100%",
     "expiration": ""
   },
   "produits": [
     {
-      "nom": "LOL le jeu",
-      "image": "LOL.png",
-      "prix_regulier": 29.99,
+      "nom": "LOL let's go",
+      "image": "chum jessie.png",
+      "prix_regulier": 100,
       "prix_special": 24.99,
       "prix_prixmalin": 23.74,
-      "badge": "plus"
+      "badge": "none"
     },
     {
       "nom": "Professional Studio",
@@ -41,12 +45,12 @@
       "prix_regulier": 69.99,
       "prix_special": 59.99,
       "prix_prixmalin": 56.99,
-      "badge": "plus"
+      "badge": "none"
     },
     {
       "nom": "Sycomore Pirate",
       "image": "sycomore pirate.png",
-      "prix_regulier": 36.99,
+      "prix_regulier": 100,
       "prix_special": 29.99,
       "prix_prixmalin": 28.49,
       "badge": "plus"
@@ -75,5 +79,7 @@
       "prix_prixmalin": 28.49,
       "badge": "none"
     }
-  ]
+  ],
+  "style": "chaleureux",
+  "statut": "publie"
 }
