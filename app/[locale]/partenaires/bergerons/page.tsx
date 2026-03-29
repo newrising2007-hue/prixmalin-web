@@ -157,6 +157,7 @@ export default async function PageBergerons({
             prix_regulier: number;
             prix_special: number;
             badge: string;
+            badge_rabais?: string;
           }) => (
             <div key={produit.nom} className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden flex flex-col">
 
@@ -181,7 +182,7 @@ export default async function PageBergerons({
                     />
                     <span className="text-white font-bold leading-none"
                       style={{ fontSize: "10px", whiteSpace: "nowrap" }}>
-                      {t("badge_moins5", { rabais: partenaire.coupon?.rabais || "5%" })}
+                      {t("badge_moins5", { rabais: produit.badge_rabais || "5%" })}
                     </span>
                   </div>
                 )}
@@ -217,7 +218,7 @@ export default async function PageBergerons({
             {partenaire.coupon.code}
           </p>
           <p className="text-sm text-gray-500 mb-3">
-            {partenaire.coupon.rabais} {t("coupon_rabais_label")}
+            {partenaire.coupon.message}
           </p>
           <div className="inline-flex items-center gap-2 bg-white rounded-full px-4 py-2 text-xs font-medium text-gray-600 border border-gray-100 shadow-sm">
             <span>📱</span>

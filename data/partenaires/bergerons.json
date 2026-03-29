@@ -23,8 +23,8 @@
   },
   "coupon": {
     "code": "PRIXMALIN5",
-    "rabais": "5%",
-    "expiration": ""
+    "expiration": "",
+    "message": "Montrez cet écran en caisse pour obtenir la promotion PrixMalin"
   },
   "produits": [
     {
@@ -32,21 +32,24 @@
       "image": "LOL.png",
       "prix_regulier": 29.99,
       "prix_special": 24.99,
-      "badge": "plus"
+      "badge": "plus",
+      "badge_rabais": "5%"
     },
     {
       "nom": "Professional Studio",
       "image": "Professional-studio.png",
       "prix_regulier": 69.99,
       "prix_special": 59.99,
-      "badge": "plus"
+      "badge": "plus",
+      "badge_rabais": "5%"
     },
     {
       "nom": "Sycomore Pirate",
       "image": "sycomore pirate.png",
       "prix_regulier": 36.99,
       "prix_special": 29.99,
-      "badge": "plus"
+      "badge": "plus",
+      "badge_rabais": "5%"
     },
     {
       "nom": "Dinosaure Lost Age",
