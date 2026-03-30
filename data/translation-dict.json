@@ -2651,6 +2651,433 @@
       "ar": "لعبة أطفال",
       "zh": "儿童玩具",
       "verified": true
+    },
+    "tomate": {
+      "en": "tomato",
+      "es": "tomate",
+      "ar": "طماطم",
+      "zh": "番茄",
+      "verified": false
+    },
+    "laitue": {
+      "en": "lettuce",
+      "es": "lechuga",
+      "ar": "خس",
+      "zh": "生菜",
+      "verified": false
+    },
+    "concombre": {
+      "en": "cucumber",
+      "es": "pepino",
+      "ar": "خيار",
+      "zh": "黄瓜",
+      "verified": false
+    },
+    "poivron": {
+      "en": "bell pepper",
+      "es": "pimiento",
+      "ar": "فلفل حلو",
+      "zh": "甜椒",
+      "verified": false
+    },
+    "oignon": {
+      "en": "onion",
+      "es": "cebolla",
+      "ar": "بصل",
+      "zh": "洋葱",
+      "verified": false
+    },
+    "ail": {
+      "en": "garlic",
+      "es": "ajo",
+      "ar": "ثوم",
+      "zh": "大蒜",
+      "verified": false
+    },
+    "brocoli": {
+      "en": "broccoli",
+      "es": "brócoli",
+      "ar": "بروكلي",
+      "zh": "西兰花",
+      "verified": false
+    },
+    "céleri": {
+      "en": "celery",
+      "es": "apio",
+      "ar": "كرفس",
+      "zh": "芹菜",
+      "verified": false
+    },
+    "champignon": {
+      "en": "mushroom",
+      "es": "champiñón",
+      "ar": "فطر",
+      "zh": "蘑菇",
+      "verified": false
+    },
+    "courgette": {
+      "en": "zucchini",
+      "es": "calabacín",
+      "ar": "كوسا",
+      "zh": "西葫芦",
+      "verified": false
+    },
+    "épinard": {
+      "en": "spinach",
+      "es": "espinaca",
+      "ar": "سبانخ",
+      "zh": "菠菜",
+      "verified": false
+    },
+    "maïs": {
+      "en": "corn",
+      "es": "maíz",
+      "ar": "ذرة",
+      "zh": "玉米",
+      "verified": false
+    },
+    "pomme": {
+      "en": "apple",
+      "es": "manzana",
+      "ar": "تفاح",
+      "zh": "苹果",
+      "verified": false
+    },
+    "banane": {
+      "en": "banana",
+      "es": "plátano",
+      "ar": "موز",
+      "zh": "香蕉",
+      "verified": false
+    },
+    "fraise": {
+      "en": "strawberry",
+      "es": "fresa",
+      "ar": "فراولة",
+      "zh": "草莓",
+      "verified": false
+    },
+    "raisin": {
+      "en": "grape",
+      "es": "uva",
+      "ar": "عنب",
+      "zh": "葡萄",
+      "verified": false
+    },
+    "melon": {
+      "en": "melon",
+      "es": "melón",
+      "ar": "شمام",
+      "zh": "甜瓜",
+      "verified": false
+    },
+    "ananas": {
+      "en": "pineapple",
+      "es": "piña",
+      "ar": "أناناس",
+      "zh": "菠萝",
+      "verified": false
+    },
+    "poire": {
+      "en": "pear",
+      "es": "pera",
+      "ar": "كمثرى",
+      "zh": "梨",
+      "verified": false
+    },
+    "crème glacée": {
+      "en": "ice cream",
+      "es": "helado",
+      "ar": "آيس كريم",
+      "zh": "冰淇淋",
+      "verified": false
+    },
+    "yogourt": {
+      "en": "yogurt",
+      "es": "yogur",
+      "ar": "زبادي",
+      "zh": "酸奶",
+      "verified": false
+    },
+    "beurre": {
+      "en": "butter",
+      "es": "mantequilla",
+      "ar": "زبدة",
+      "zh": "黄油",
+      "verified": false
+    },
+    "fromage": {
+      "en": "cheese",
+      "es": "queso",
+      "ar": "جبن",
+      "zh": "奶酪",
+      "verified": false
+    },
+    "crème": {
+      "en": "cream",
+      "es": "crema",
+      "ar": "كريمة",
+      "zh": "奶油",
+      "verified": false
+    },
+    "lait": {
+      "en": "milk",
+      "es": "leche",
+      "ar": "حليب",
+      "zh": "牛奶",
+      "verified": false
+    },
+    "œuf": {
+      "en": "egg",
+      "es": "huevo",
+      "ar": "بيضة",
+      "zh": "鸡蛋",
+      "verified": false
+    },
+    "poulet": {
+      "en": "chicken",
+      "es": "pollo",
+      "ar": "دجاج",
+      "zh": "鸡肉",
+      "verified": false
+    },
+    "bœuf": {
+      "en": "beef",
+      "es": "carne de res",
+      "ar": "لحم بقري",
+      "zh": "牛肉",
+      "verified": false
+    },
+    "porc": {
+      "en": "pork",
+      "es": "cerdo",
+      "ar": "لحم خنزير",
+      "zh": "猪肉",
+      "verified": false
+    },
+    "saumon": {
+      "en": "salmon",
+      "es": "salmón",
+      "ar": "سلمون",
+      "zh": "三文鱼",
+      "verified": false
+    },
+    "crevette": {
+      "en": "shrimp",
+      "es": "camarón",
+      "ar": "روبيان",
+      "zh": "虾",
+      "verified": false
+    },
+    "pain": {
+      "en": "bread",
+      "es": "pan",
+      "ar": "خبز",
+      "zh": "面包",
+      "verified": false
+    },
+    "farine": {
+      "en": "flour",
+      "es": "harina",
+      "ar": "دقيق",
+      "zh": "面粉",
+      "verified": false
+    },
+    "sucre": {
+      "en": "sugar",
+      "es": "azúcar",
+      "ar": "سكر",
+      "zh": "糖",
+      "verified": false
+    },
+    "riz": {
+      "en": "rice",
+      "es": "arroz",
+      "ar": "أرز",
+      "zh": "大米",
+      "verified": false
+    },
+    "pâtes": {
+      "en": "pasta",
+      "es": "pasta",
+      "ar": "معكرونة",
+      "zh": "意大利面",
+      "verified": false
+    },
+    "céréales": {
+      "en": "cereal",
+      "es": "cereales",
+      "ar": "حبوب",
+      "zh": "谷物",
+      "verified": false
+    },
+    "biscuit": {
+      "en": "cookie",
+      "es": "galleta",
+      "ar": "بسكويت",
+      "zh": "饼干",
+      "verified": false
+    },
+    "conserve": {
+      "en": "canned food",
+      "es": "conserva",
+      "ar": "معلبات",
+      "zh": "罐头食品",
+      "verified": false
+    },
+    "sauce tomate": {
+      "en": "tomato sauce",
+      "es": "salsa de tomate",
+      "ar": "صلصة طماطم",
+      "zh": "番茄酱",
+      "verified": false
+    },
+    "huile": {
+      "en": "oil",
+      "es": "aceite",
+      "ar": "زيت",
+      "zh": "食用油",
+      "verified": false
+    },
+    "café": {
+      "en": "coffee",
+      "es": "café",
+      "ar": "قهوة",
+      "zh": "咖啡",
+      "verified": false
+    },
+    "thé": {
+      "en": "tea",
+      "es": "té",
+      "ar": "شاي",
+      "zh": "茶",
+      "verified": false
+    },
+    "jus": {
+      "en": "juice",
+      "es": "jugo",
+      "ar": "عصير",
+      "zh": "果汁",
+      "verified": false
+    },
+    "eau": {
+      "en": "water",
+      "es": "agua",
+      "ar": "ماء",
+      "zh": "水",
+      "verified": false
+    },
+    "boisson": {
+      "en": "beverage",
+      "es": "bebida",
+      "ar": "مشروب",
+      "zh": "饮料",
+      "verified": false
+    },
+    "savon": {
+      "en": "soap",
+      "es": "jabón",
+      "ar": "صابون",
+      "zh": "肥皂",
+      "verified": false
+    },
+    "shampoing": {
+      "en": "shampoo",
+      "es": "champú",
+      "ar": "شامبو",
+      "zh": "洗发水",
+      "verified": false
+    },
+    "détergent": {
+      "en": "detergent",
+      "es": "detergente",
+      "ar": "منظف",
+      "zh": "洗涤剂",
+      "verified": false
+    },
+    "papier toilette": {
+      "en": "toilet paper",
+      "es": "papel higiénico",
+      "ar": "ورق مرحاض",
+      "zh": "卫生纸",
+      "verified": false
+    },
+    "couche": {
+      "en": "diaper",
+      "es": "pañal",
+      "ar": "حفاضة",
+      "zh": "尿布",
+      "verified": false
+    },
+    "patate": {
+      "en": "potato",
+      "es": "papa",
+      "ar": "بطاطا",
+      "zh": "土豆",
+      "verified": false
+    },
+    "carotte": {
+      "en": "carrot",
+      "es": "zanahoria",
+      "ar": "جزرة",
+      "zh": "胡萝卜",
+      "verified": false
+    },
+    "épice": {
+      "en": "spice",
+      "es": "especia",
+      "ar": "بهار",
+      "zh": "香料",
+      "verified": false
+    },
+    "viande": {
+      "en": "meat",
+      "es": "carne",
+      "ar": "لحم",
+      "zh": "肉类",
+      "verified": false
+    },
+    "fruits": {
+      "en": "fruits",
+      "es": "frutas",
+      "ar": "فواكه",
+      "zh": "水果",
+      "verified": false
+    },
+    "légumes": {
+      "en": "vegetables",
+      "es": "verduras",
+      "ar": "خضروات",
+      "zh": "蔬菜",
+      "verified": false
+    },
+    "nourriture": {
+      "en": "food",
+      "es": "comida",
+      "ar": "طعام",
+      "zh": "食物",
+      "verified": false
+    },
+    "alimentation": {
+      "en": "food store",
+      "es": "alimentación",
+      "ar": "تغذية",
+      "zh": "食品",
+      "verified": false
+    },
+    "épicerie": {
+      "en": "grocery store",
+      "es": "tienda de comestibles",
+      "ar": "بقالة",
+      "zh": "杂货店",
+      "verified": false
+    },
+    "grocery": {
+      "en": "grocery",
+      "es": "comestibles",
+      "ar": "بقالة",
+      "zh": "杂货",
+      "verified": false
     }
   }
 }
