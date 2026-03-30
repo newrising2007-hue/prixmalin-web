@@ -3078,6 +3078,20 @@
       "ar": "بقالة",
       "zh": "杂货",
       "verified": false
+    },
+    "savon à linge": {
+      "en": "laundry detergent",
+      "es": "jabón para ropa",
+      "ar": "صابون غسيل",
+      "zh": "洗衣液",
+      "verified": false
+    },
+    "savon pour le corps": {
+      "en": "body wash",
+      "es": "gel de ducha",
+      "ar": "صابون الجسم",
+      "zh": "沐浴露",
+      "verified": false
     }
   }
 }
