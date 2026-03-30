@@ -216,7 +216,7 @@
     "actif": true,
     "prix": "94.00",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-19",
+    "prixVerifieLe": "2026-03-30",
     "shortDescription_en": "DualSense PlayStation controller wireless — haptic feedback, adaptive triggers, available in multiple colors.",
     "shortDescription_es": "mando DualSense PlayStation inalámbrico — retroalimentación háptica, gatillos adaptativos, disponible en varios colores.",
     "shortDescription_ar": "يد تحكم DualSense PlayStation لاسلكي — ردود فعل لمسية, زناد تكيفي, متوفر بألوان متعددة.",
@@ -300,7 +300,7 @@
     "actif": true,
     "prix": "44.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-19",
+    "prixVerifieLe": "2026-03-30",
     "shortDescription_en": "Bluetooth wireless controller — compatible with Switch, Android and PC, available in multiple colors.",
     "shortDescription_es": "mando inalámbrico Bluetooth — compatible con Switch, Android y PC, disponible en varios colores.",
     "shortDescription_ar": "يد تحكم لاسلكية بلوتوث — متوافق مع Switch وAndroid والحاسوب, متوفر بألوان متعددة.",
@@ -747,9 +747,9 @@
     "image": "/images/products/manette-ps4-sans-fil-rgb.webp",
     "badge": "Nouveau",
     "actif": true,
-    "prix": "39.99",
-    "prixBarre": "",
-    "prixVerifieLe": "2026-03-21"
+    "prix": "34.19",
+    "prixBarre": "37.99",
+    "prixVerifieLe": "2026-03-30"
   },
   {
     "slug": "nintendo-switch-pro-controller",
@@ -768,9 +768,9 @@
     "image": "/images/products/nintendo-switch-pro-controller.webp",
     "badge": "Nouveau",
     "actif": true,
-    "prix": "94.94",
-    "prixBarre": "99.99",
-    "prixVerifieLe": "2026-03-21"
+    "prix": "99.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-03-30"
   },
   {
     "slug": "nintendo-switch-2-pro-controller",
@@ -793,7 +793,7 @@
     "actif": true,
     "prix": "109.96",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-21"
+    "prixVerifieLe": "2026-03-30"
   },
   {
     "slug": "playvital-coque-silicone-switch-2-pro",
