@@ -164,7 +164,7 @@ export default async function PageBergerons({
               {/* Image + badge */}
               <div className="relative w-full h-36 bg-gray-50">
                 <Image
-                  src={`/partenaires/${partenaire.slug}/${produit.image}`}
+                  src={`/partenaires/${partenaire.slug}/produits/${produit.image}`}
                   alt={produit.nom}
                   fill
                   className="object-contain p-3"

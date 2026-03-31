@@ -3,9 +3,12 @@
   "nom": "Bergeron Électronique",
   "slogan": "Un sourire implacable, pour un service impeccable.",
   "couleurs": {
-    "primaire": "#d0011b",
-    "secondaire": "#a80016",
-    "accent": "#ffcc00"
+    "primaire": "#2eaabf",
+    "secondaire": "#1d8fa3",
+    "accent": "#2eaabf",
+    "header_bg": "#ffffff",
+    "body_bg": "#f9fafb",
+    "footer_bg": "#ffffff"
   },
   "contact": {
     "adresse": "26 Rue des Oblats N, Ville-Marie QC J9V 1H9",
