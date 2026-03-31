@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-03-24",
+  "updated_at": "2026-03-31",
   "note": "Dictionnaire vivant — segments FR → EN/ES/AR/ZH. Toutes les entrées sont vérifiées manuellement. Les entrées générées par LM Studio sont marquées 'verified: false' jusqu'à approbation.",
   "segments": {
     "casque de jeu": {
@@ -3091,6 +3091,20 @@
       "es": "gel de ducha",
       "ar": "صابون الجسم",
       "zh": "沐浴露",
+      "verified": false
+    },
+    "ecran": {
+      "en": "screen",
+      "es": "pantalla",
+      "ar": "شاشة",
+      "zh": "屏幕",
+      "verified": false
+    },
+    "ecran incurve 32\" fhd 240 hz, temps de reponse 1 ms, amd freesync premium — fluidite maximale pour le jeu.": {
+      "en": "Z-Edge 32\" Curved Gaming Monitor",
+      "es": "Monitor gaming curvo Z-Edge 32\"",
+      "ar": "شاشة ألعاب منحنية Z-Edge 32\"",
+      "zh": "Z-Edge 32英寸曲面游戏显示器",
       "verified": false
     }
   }
