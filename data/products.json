@@ -543,7 +543,7 @@
   },
   {
     "slug": "z-edge",
-    "title": "Z-Edge",
+    "title": "Moniteur gaming Z-Edge 27\" incurvé",
     "shortDescription": "Moniteur gaming incurvé 27 po Full HD — 300Hz, 1ms, sans cadre, AMD FreeSync Premium, ports HDMI et DisplayPort.",
     "amazonUrl": "https://www.amazon.ca/dp/B0DZLZX1GL?tag=prixmalin-20",
     "category": "ecrans",
@@ -949,5 +949,26 @@
     "prix": "63.98",
     "prixBarre": "79.99",
     "prixVerifieLe": "2026-03-30"
+  },
+  {
+    "slug": "moniteur-gaming-z-edge-32-incurve",
+    "title": "Moniteur gaming Z-Edge 32\" incurvé",
+    "shortDescription": "Écran incurvé 32\" FHD 240 Hz, temps de réponse 1 ms, AMD FreeSync Premium — fluidité maximale pour le jeu.",
+    "title_en": "",
+    "title_es": "",
+    "title_ar": "",
+    "title_zh": "",
+    "shortDescription_en": "Z-Edge 32\" Curved Gaming Monitor",
+    "shortDescription_es": "Monitor gaming curvo Z-Edge 32\"",
+    "shortDescription_ar": "شاشة ألعاب منحنية Z-Edge 32\"",
+    "shortDescription_zh": "Z-Edge 32英寸曲面游戏显示器",
+    "amazonUrl": "https://www.amazon.ca/dp/B0D7HS9VK4?tag=prixmalin-20",
+    "category": "ecrans",
+    "image": "/images/products/moniteur-gaming-z-edge-32-incurve.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "249.99",
+    "prixBarre": "279.99",
+    "prixVerifieLe": "2026-03-31"
   }
 ]
