@@ -13,7 +13,10 @@
   "contact": {
     "adresse": "26 Rue des Oblats N, Ville-Marie QC J9V 1H9",
     "telephone": "819-629-3444",
-    "facebook": "https://www.facebook.com/bergelec"
+    "email": "",
+    "facebook": "https://www.facebook.com/bergelec",
+    "instagram": "",
+    "site_web": ""
   },
   "heures": {
     "lundi": "9h – 17h30",
@@ -26,8 +29,8 @@
   },
   "coupon": {
     "code": "PRIXMALIN5",
-    "expiration": "",
-    "message": "Montrez cet écran en caisse pour obtenir la promotion PrixMalin"
+    "message": "Montrez cet écran en caisse pour obtenir la promotion PrixMalin",
+    "expiration": ""
   },
   "produits": [
     {
@@ -75,5 +78,13 @@
       "prix_special": 29.99,
       "badge": "none"
     }
-  ]
+  ],
+  "slogan_gradient": [
+    "#2eaabf",
+    "#8b5cf6",
+    "#f97316",
+    "#10b981"
+  ],
+  "style": "epure",
+  "statut": "brouillon"
 }

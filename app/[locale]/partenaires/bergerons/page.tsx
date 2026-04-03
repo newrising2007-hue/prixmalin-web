@@ -76,7 +76,15 @@ export default async function PageBergerons({
           <p
             className="text-xl sm:text-2xl font-bold text-center leading-snug"
             style={{
-              background: "linear-gradient(90deg, #2eaabf 0%, #8b5cf6 35%, #f97316 65%, #10b981 100%)",
+              background: (() => {
+                const g = partenaire.slogan_gradient;
+                if (!g || g.length < 2) return partenaire.couleurs?.primaire || '#2eaabf';
+                const stops = g.map((c: string, i: number) => {
+                  const pct = Math.round(i / (g.length - 1) * 100);
+                  return `${c} ${pct}%`;
+                }).join(', ');
+                return `linear-gradient(90deg, ${stops})`;
+              })(),
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
