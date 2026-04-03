@@ -459,7 +459,7 @@
   },
   {
     "slug": "kediers-boitier-c650",
-    "title": "KEDIERS C570",
+    "title": "KEDIERS C570 — Boîtier ATX Mid-Tower avec 5 Ventilateurs PWM ARGB, Blanc",
     "shortDescription": "Un boîtier gaming blanc avec 5 ventilateurs ARGB déjà installés dedans. Panneau en verre trempé sur le côté pour voir tes composants illuminés. Format ATX mid-tower, donc compatible avec la majorité des cartes mères du marché. Bon refroidissement de base sans avoir à acheter de fans supplémentaires.",
     "amazonUrl": "https://www.amazon.ca/dp/B0G1CC4YN7?tag=prixmalin-20",
     "category": "boitiers",
@@ -468,15 +468,15 @@
     "actif": true,
     "prix": "118.99",
     "prixBarre": "",
-    "prixVerifieLe": "2026-03-31",
-    "shortDescription_en": "tempered glass ATX tower with open frame pour gaming computer avec 7 fans RGB",
-    "shortDescription_es": "torre ATX con vidrio templado con marco abierto pour ordenador gaming avec 7 ventiladores RGB",
-    "shortDescription_ar": "هيكل ATX بزجاج مقسى مع هيكل مفتوح pour كمبيوتر ألعاب avec 7 مراوح RGB",
-    "shortDescription_zh": "钢化玻璃ATX机箱 配有 开放式框架 pour 游戏电脑 avec 7个风扇 RGB",
-    "title_en": "KEDIERS PC case C650",
-    "title_es": "KEDIERS caja PC C650",
-    "title_ar": "KEDIERS هيكل كمبيوتر C650",
-    "title_zh": "KEDIERS 机箱 C650"
+    "prixVerifieLe": "2026-04-03",
+    "shortDescription_en": "White ATX mid-tower case with 5 ARGB PWM fans pre-installed. Tempered glass side panel to show off your build. Compatible with most ATX motherboards. Good airflow out of the box — no extra fans needed.",
+    "shortDescription_es": "Gabinete ATX mid-tower blanco con 5 ventiladores PWM ARGB ya instalados. Panel lateral de vidrio templado para ver tus componentes iluminados. Compatible con la mayoría de tarjetas madre ATX. Buen flujo de aire sin necesidad de comprar más ventiladores.",
+    "shortDescription_ar": "هيكل كمبيوتر أبيض ATX mid-tower مع 5 مراوح PWM ARGB مثبتة مسبقاً. لوح جانبي من الزجاج المقسى لعرض مكوناتك المضيئة. متوافق مع معظم اللوحات الأم ATX. تبريد جيد من الصندوق دون الحاجة لشراء مراوح إضافية.",
+    "shortDescription_zh": "白色ATX中塔机箱，预装5个PWM ARGB风扇。钢化玻璃侧板展示你的发光组件。兼容大多数ATX主板。开箱即有良好散热，无需额外购买风扇。",
+    "title_en": "KEDIERS C570 — White ATX Mid-Tower Case with 5 PWM ARGB Fans",
+    "title_es": "KEDIERS C570 — Gabinete ATX Mid-Tower Blanco con 5 Ventiladores PWM ARGB",
+    "title_ar": "KEDIERS C570 — هيكل كمبيوتر ATX أبيض مع 5 مراوح PWM ARGB",
+    "title_zh": "KEDIERS C570 — 白色ATX中塔机箱 5个PWM ARGB风扇"
   },
   {
     "slug": "hyxn-atx-boitier",
