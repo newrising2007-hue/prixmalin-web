@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-03-31",
+  "updated_at": "2026-04-03",
   "note": "Dictionnaire vivant — segments FR → EN/ES/AR/ZH. Toutes les entrées sont vérifiées manuellement. Les entrées générées par LM Studio sont marquées 'verified: false' jusqu'à approbation.",
   "segments": {
     "casque de jeu": {
@@ -3106,6 +3106,482 @@
       "ar": "شاشة ألعاب منحنية Z-Edge 32\"",
       "zh": "Z-Edge 32英寸曲面游戏显示器",
       "verified": false
+    },
+    "fhd": {
+      "en": "FHD",
+      "es": "FHD",
+      "ar": "FHD",
+      "zh": "FHD",
+      "verified": true
+    },
+    "qhd": {
+      "en": "QHD",
+      "es": "QHD",
+      "ar": "QHD",
+      "zh": "QHD",
+      "verified": true
+    },
+    "uhd": {
+      "en": "UHD",
+      "es": "UHD",
+      "ar": "UHD",
+      "zh": "UHD",
+      "verified": true
+    },
+    "oled": {
+      "en": "OLED",
+      "es": "OLED",
+      "ar": "OLED",
+      "zh": "OLED",
+      "verified": true
+    },
+    "va": {
+      "en": "VA",
+      "es": "VA",
+      "ar": "VA",
+      "zh": "VA",
+      "verified": true
+    },
+    "tn": {
+      "en": "TN",
+      "es": "TN",
+      "ar": "TN",
+      "zh": "TN",
+      "verified": true
+    },
+    "hdmi": {
+      "en": "HDMI",
+      "es": "HDMI",
+      "ar": "HDMI",
+      "zh": "HDMI",
+      "verified": true
+    },
+    "hdmi 2.1": {
+      "en": "HDMI 2.1",
+      "es": "HDMI 2.1",
+      "ar": "HDMI 2.1",
+      "zh": "HDMI 2.1",
+      "verified": true
+    },
+    "usb-c": {
+      "en": "USB-C",
+      "es": "USB-C",
+      "ar": "USB-C",
+      "zh": "USB-C",
+      "verified": true
+    },
+    "usb-a": {
+      "en": "USB-A",
+      "es": "USB-A",
+      "ar": "USB-A",
+      "zh": "USB-A",
+      "verified": true
+    },
+    "usb 3.0": {
+      "en": "USB 3.0",
+      "es": "USB 3.0",
+      "ar": "USB 3.0",
+      "zh": "USB 3.0",
+      "verified": true
+    },
+    "usb 3.1": {
+      "en": "USB 3.1",
+      "es": "USB 3.1",
+      "ar": "USB 3.1",
+      "zh": "USB 3.1",
+      "verified": true
+    },
+    "thunderbolt": {
+      "en": "Thunderbolt",
+      "es": "Thunderbolt",
+      "ar": "Thunderbolt",
+      "zh": "Thunderbolt",
+      "verified": true
+    },
+    "displayport": {
+      "en": "DisplayPort",
+      "es": "DisplayPort",
+      "ar": "DisplayPort",
+      "zh": "DisplayPort",
+      "verified": true
+    },
+    "dp": {
+      "en": "DP",
+      "es": "DP",
+      "ar": "DP",
+      "zh": "DP",
+      "verified": true
+    },
+    "hz": {
+      "en": "Hz",
+      "es": "Hz",
+      "ar": "Hz",
+      "zh": "Hz",
+      "verified": true
+    },
+    "ghz": {
+      "en": "GHz",
+      "es": "GHz",
+      "ar": "GHz",
+      "zh": "GHz",
+      "verified": true
+    },
+    "mhz": {
+      "en": "MHz",
+      "es": "MHz",
+      "ar": "MHz",
+      "zh": "MHz",
+      "verified": true
+    },
+    "dpi": {
+      "en": "DPI",
+      "es": "DPI",
+      "ar": "DPI",
+      "zh": "DPI",
+      "verified": true
+    },
+    "fps": {
+      "en": "FPS",
+      "es": "FPS",
+      "ar": "FPS",
+      "zh": "FPS",
+      "verified": true
+    },
+    "ms": {
+      "en": "ms",
+      "es": "ms",
+      "ar": "ms",
+      "zh": "ms",
+      "verified": true
+    },
+    "amd": {
+      "en": "AMD",
+      "es": "AMD",
+      "ar": "AMD",
+      "zh": "AMD",
+      "verified": true
+    },
+    "intel": {
+      "en": "Intel",
+      "es": "Intel",
+      "ar": "Intel",
+      "zh": "Intel",
+      "verified": true
+    },
+    "nvidia": {
+      "en": "NVIDIA",
+      "es": "NVIDIA",
+      "ar": "NVIDIA",
+      "zh": "NVIDIA",
+      "verified": true
+    },
+    "atx": {
+      "en": "ATX",
+      "es": "ATX",
+      "ar": "ATX",
+      "zh": "ATX",
+      "verified": true
+    },
+    "micro-atx": {
+      "en": "Micro-ATX",
+      "es": "Micro-ATX",
+      "ar": "Micro-ATX",
+      "zh": "Micro-ATX",
+      "verified": true
+    },
+    "mini-itx": {
+      "en": "Mini-ITX",
+      "es": "Mini-ITX",
+      "ar": "Mini-ITX",
+      "zh": "Mini-ITX",
+      "verified": true
+    },
+    "gpu": {
+      "en": "GPU",
+      "es": "GPU",
+      "ar": "GPU",
+      "zh": "GPU",
+      "verified": true
+    },
+    "cpu": {
+      "en": "CPU",
+      "es": "CPU",
+      "ar": "CPU",
+      "zh": "CPU",
+      "verified": true
+    },
+    "ram": {
+      "en": "RAM",
+      "es": "RAM",
+      "ar": "RAM",
+      "zh": "RAM",
+      "verified": true
+    },
+    "ssd": {
+      "en": "SSD",
+      "es": "SSD",
+      "ar": "SSD",
+      "zh": "SSD",
+      "verified": true
+    },
+    "hdd": {
+      "en": "HDD",
+      "es": "HDD",
+      "ar": "HDD",
+      "zh": "HDD",
+      "verified": true
+    },
+    "ddr4": {
+      "en": "DDR4",
+      "es": "DDR4",
+      "ar": "DDR4",
+      "zh": "DDR4",
+      "verified": true
+    },
+    "ddr5": {
+      "en": "DDR5",
+      "es": "DDR5",
+      "ar": "DDR5",
+      "zh": "DDR5",
+      "verified": true
+    },
+    "pcie": {
+      "en": "PCIe",
+      "es": "PCIe",
+      "ar": "PCIe",
+      "zh": "PCIe",
+      "verified": true
+    },
+    "m.2": {
+      "en": "M.2",
+      "es": "M.2",
+      "ar": "M.2",
+      "zh": "M.2",
+      "verified": true
+    },
+    "samsung": {
+      "en": "Samsung",
+      "es": "Samsung",
+      "ar": "سامسونج",
+      "zh": "三星",
+      "verified": true
+    },
+    "asus": {
+      "en": "ASUS",
+      "es": "ASUS",
+      "ar": "أسوس",
+      "zh": "华硕",
+      "verified": true
+    },
+    "lg": {
+      "en": "LG",
+      "es": "LG",
+      "ar": "إل جي",
+      "zh": "LG",
+      "verified": true
+    },
+    "sony": {
+      "en": "Sony",
+      "es": "Sony",
+      "ar": "سوني",
+      "zh": "索尼",
+      "verified": true
+    },
+    "apple": {
+      "en": "Apple",
+      "es": "Apple",
+      "ar": "أبل",
+      "zh": "苹果",
+      "verified": true
+    },
+    "logitech": {
+      "en": "Logitech",
+      "es": "Logitech",
+      "ar": "لوجيتك",
+      "zh": "罗技",
+      "verified": true
+    },
+    "corsair": {
+      "en": "Corsair",
+      "es": "Corsair",
+      "ar": "كورسير",
+      "zh": "海盗船",
+      "verified": true
+    },
+    "razer": {
+      "en": "Razer",
+      "es": "Razer",
+      "ar": "رايزر",
+      "zh": "雷蛇",
+      "verified": true
+    },
+    "steelseries": {
+      "en": "SteelSeries",
+      "es": "SteelSeries",
+      "ar": "ستيل سيريز",
+      "zh": "赛睿",
+      "verified": true
+    },
+    "hyperx": {
+      "en": "HyperX",
+      "es": "HyperX",
+      "ar": "هايبر إكس",
+      "zh": "HyperX",
+      "verified": true
+    },
+    "msi": {
+      "en": "MSI",
+      "es": "MSI",
+      "ar": "MSI",
+      "zh": "微星",
+      "verified": true
+    },
+    "gigabyte": {
+      "en": "Gigabyte",
+      "es": "Gigabyte",
+      "ar": "جيجابايت",
+      "zh": "技嘉",
+      "verified": true
+    },
+    "acer": {
+      "en": "Acer",
+      "es": "Acer",
+      "ar": "أيسر",
+      "zh": "宏碁",
+      "verified": true
+    },
+    "dell": {
+      "en": "Dell",
+      "es": "Dell",
+      "ar": "ديل",
+      "zh": "戴尔",
+      "verified": true
+    },
+    "hp": {
+      "en": "HP",
+      "es": "HP",
+      "ar": "إتش بي",
+      "zh": "惠普",
+      "verified": true
+    },
+    "lenovo": {
+      "en": "Lenovo",
+      "es": "Lenovo",
+      "ar": "لينوفو",
+      "zh": "联想",
+      "verified": true
+    },
+    "z-edge": {
+      "en": "Z-Edge",
+      "es": "Z-Edge",
+      "ar": "Z-Edge",
+      "zh": "Z-Edge",
+      "verified": true
+    },
+    "kediers": {
+      "en": "KEDIERS",
+      "es": "KEDIERS",
+      "ar": "KEDIERS",
+      "zh": "KEDIERS",
+      "verified": true
+    },
+    "hyxn": {
+      "en": "HYXN",
+      "es": "HYXN",
+      "ar": "HYXN",
+      "zh": "HYXN",
+      "verified": true
+    },
+    "thx": {
+      "en": "THX",
+      "es": "THX",
+      "ar": "THX",
+      "zh": "THX",
+      "verified": true
+    },
+    "dts": {
+      "en": "DTS",
+      "es": "DTS",
+      "ar": "DTS",
+      "zh": "DTS",
+      "verified": true
+    },
+    "dolby": {
+      "en": "Dolby",
+      "es": "Dolby",
+      "ar": "دولبي",
+      "zh": "杜比",
+      "verified": true
+    },
+    "argb": {
+      "en": "ARGB",
+      "es": "ARGB",
+      "ar": "ARGB",
+      "zh": "ARGB",
+      "verified": true
+    },
+    "rgb": {
+      "en": "RGB",
+      "es": "RGB",
+      "ar": "RGB",
+      "zh": "RGB",
+      "verified": true
+    },
+    "pwm": {
+      "en": "PWM",
+      "es": "PWM",
+      "ar": "PWM",
+      "zh": "PWM",
+      "verified": true
+    },
+    "pwm argb": {
+      "en": "PWM ARGB",
+      "es": "PWM ARGB",
+      "ar": "PWM ARGB",
+      "zh": "PWM ARGB",
+      "verified": true
+    },
+    "wifi": {
+      "en": "Wi-Fi",
+      "es": "Wi-Fi",
+      "ar": "واي فاي",
+      "zh": "无线网络",
+      "verified": true
+    },
+    "wi-fi": {
+      "en": "Wi-Fi",
+      "es": "Wi-Fi",
+      "ar": "واي فاي",
+      "zh": "无线网络",
+      "verified": true
+    },
+    "gps": {
+      "en": "GPS",
+      "es": "GPS",
+      "ar": "نظام تحديد المواقع",
+      "zh": "GPS",
+      "verified": true
+    },
+    "led": {
+      "en": "LED",
+      "es": "LED",
+      "ar": "LED",
+      "zh": "LED",
+      "verified": true
+    },
+    "ip67": {
+      "en": "IP67",
+      "es": "IP67",
+      "ar": "IP67",
+      "zh": "IP67",
+      "verified": true
+    },
+    "ip68": {
+      "en": "IP68",
+      "es": "IP68",
+      "ar": "IP68",
+      "zh": "IP68",
+      "verified": true
     }
   }
 }
