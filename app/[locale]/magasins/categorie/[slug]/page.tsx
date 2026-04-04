@@ -190,6 +190,7 @@ const CATEGORIES: Record<string, {
 export default function CategoriePage() {
   const params = useParams();
   const router = useRouter();
+  const locale = (params?.locale as string) || "fr";
   const slug = params?.slug as string;
   const cat = CATEGORIES[slug];
   const [search, setSearch] = useState('');
@@ -200,7 +201,7 @@ export default function CategoriePage() {
         <div className="text-5xl mb-4">🔍</div>
         <h1 className="text-2xl font-bold text-gray-800 mb-2">Catégorie introuvable</h1>
         <p className="text-gray-500 mb-6">Cette catégorie n'existe pas encore.</p>
-        <Link href="/magasins" className="px-6 py-3 rounded-xl text-white font-semibold"
+        <Link href={locale === "fr" ? "/magasins" : `/${locale}/magasins`} className="px-6 py-3 rounded-xl text-white font-semibold"
           style={{ background: 'linear-gradient(135deg, #16a34a, #059669)' }}>
           ← Retour Magasinage
         </Link>
@@ -308,7 +309,7 @@ export default function CategoriePage() {
         )}
 
         <div className="mt-8 text-center">
-          <Link href="/magasins" className="text-sm text-gray-400 hover:text-green-600 transition-colors">
+          <Link href={locale === "fr" ? "/magasins" : `/${locale}/magasins`} className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-blue-300 text-blue-600 font-semibold text-sm hover:text-blue-400 hover:border-blue-400 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
             ← Toutes les catégories
           </Link>
         </div>
