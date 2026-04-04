@@ -86,19 +86,19 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
           <Link
-            href="/codes-bonus"
+            href={locale === "fr" ? "/codes-bonus" : `/${locale}/codes-bonus`}
             className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition hover:bg-emerald-100 hover:shadow-md hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
           >
             {t("retour_consoles")}
           </Link>
           <Link
-            href="/codes-bonus/pc"
+            href={locale === "fr" ? "/codes-bonus/pc" : `/${locale}/codes-bonus/pc`}
             className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm"
           >
             PC
           </Link>
           <Link
-            href="/codes-bonus/playstation"
+            href={locale === "fr" ? "/codes-bonus/playstation" : `/${locale}/codes-bonus/playstation`}
             className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm"
           >
             PlayStation
@@ -107,7 +107,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
             Xbox
           </span>
           <Link
-            href="/codes-bonus/nintendo"
+            href={locale === "fr" ? "/codes-bonus/nintendo" : `/${locale}/codes-bonus/nintendo`}
             className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm"
           >
             Nintendo
