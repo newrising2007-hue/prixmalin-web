@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default async function PrivacyPolicy({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return (
@@ -102,7 +103,7 @@ export default async function PrivacyPolicy({ params }: { params: Promise<{ loca
         <strong>Email:</strong> <a href="mailto:info@prixmalin.ca" className="text-green-700 hover:underline">info@prixmalin.ca</a>
       </p>
 
-      <a href={locale === "fr" ? "/" : `/${locale}`} className="text-green-700 hover:underline">← Back to Home / Retour à l'accueil</a>
+      <Link href={locale === "fr" ? "/" : `/${locale}`} className="text-green-700 hover:underline">← Back to Home / Retour à l'accueil</Link>
     </div>
   );
 }
