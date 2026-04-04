@@ -1,4 +1,5 @@
-export default function PrivacyPolicy() {
+export default async function PrivacyPolicy({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   return (
     <div className="max-w-4xl mx-auto p-8 text-gray-800 bg-white shadow-sm my-10 rounded-lg">
       <h1 className="text-3xl font-bold mb-6 border-b pb-4 text-green-700">Privacy Policy / Politique de confidentialité</h1>
@@ -101,7 +102,7 @@ export default function PrivacyPolicy() {
         <strong>Email:</strong> <a href="mailto:info@prixmalin.ca" className="text-green-700 hover:underline">info@prixmalin.ca</a>
       </p>
 
-      <a href="/" className="text-green-700 hover:underline">← Back to Home / Retour à l'accueil</a>
+      <a href={locale === "fr" ? "/" : `/${locale}`} className="text-green-700 hover:underline">← Back to Home / Retour à l'accueil</a>
     </div>
   );
 }
