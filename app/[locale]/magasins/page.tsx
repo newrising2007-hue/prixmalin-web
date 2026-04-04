@@ -4,9 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 export default function MagasinsPage() {
   const t = useTranslations("magasins");
+  const params = useParams();
+  const locale = (params?.locale as string) || "fr";
   const [search, setSearch] = useState("");
 
   const mainSections = [
@@ -14,7 +17,7 @@ export default function MagasinsPage() {
       icon: "📰",
       label: t("circulaires_label"),
       desc: t("circulaires_desc"),
-      href: "/magasins/circulaires",
+      href: locale === "fr" ? "/magasins/circulaires" : `/${locale}/magasins/circulaires`,
       glow: "rgba(16,185,129,0.5)",
       gradient: "from-emerald-400/20 to-teal-500/10",
       border: "border-emerald-200 hover:border-emerald-400",
@@ -23,7 +26,7 @@ export default function MagasinsPage() {
       icon: "✂️",
       label: t("coupons_label"),
       desc: t("coupons_desc"),
-      href: "/magasins/coupons",
+      href: locale === "fr" ? "/magasins/coupons" : `/${locale}/magasins/coupons`,
       glow: "rgba(52,211,153,0.5)",
       gradient: "from-green-300/20 to-emerald-400/10",
       border: "border-green-200 hover:border-green-400",
@@ -32,7 +35,7 @@ export default function MagasinsPage() {
       icon: "🍽️",
       label: t("restaurants_label"),
       desc: t("restaurants_desc"),
-      href: "/magasins/restaurants",
+      href: locale === "fr" ? "/magasins/restaurants" : `/${locale}/magasins/restaurants`,
       glow: "rgba(5,150,105,0.5)",
       gradient: "from-teal-400/20 to-green-500/10",
       border: "border-teal-200 hover:border-teal-400",
@@ -65,7 +68,8 @@ function detectCategory(q: string): string {
     e.preventDefault();
     if (search.trim()) {
       const cat = detectCategory(search.trim());
-      window.location.href = `/magasins/recherche?q=${encodeURIComponent(search.trim())}&cat=${cat}`;
+      const prefix = locale === "fr" ? "" : `/${locale}`;
+      window.location.href = `${prefix}/magasins/recherche?q=${encodeURIComponent(search.trim())}&cat=${cat}`;
     }
   };
 
@@ -95,7 +99,7 @@ function detectCategory(q: string): string {
 
       <section className="px-6 pb-10 max-w-3xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-          <Link href="/magasins/recherche"
+          <Link href={locale === "fr" ? "/magasins/recherche" : `/${locale}/magasins/recherche`}
             className="group relative flex flex-col items-center text-center p-8 rounded-2xl border-2 border-green-200 bg-white/70 backdrop-blur-sm shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-green-400">
             <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl -z-10"
               style={{ background: "radial-gradient(circle, rgba(34,197,94,0.4), transparent 70%)" }} />
@@ -109,7 +113,7 @@ function detectCategory(q: string): string {
               style={{ background: "linear-gradient(135deg, #16a34a, #059669)" }}>{t("recherche_btn")}</span>
           </Link>
 
-          <Link href="/magasins/categories"
+          <Link href={locale === "fr" ? "/magasins/categories" : `/${locale}/magasins/categories`}
             className="group relative flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-200 bg-white/70 backdrop-blur-sm shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-blue-400">
             <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl -z-10"
               style={{ background: "radial-gradient(circle, rgba(59,130,246,0.4), transparent 70%)" }} />
