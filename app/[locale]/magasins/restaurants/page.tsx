@@ -650,7 +650,7 @@ export default function RestaurantsPage() {
 
       {/* RETOUR */}
       <div className="pb-10 text-center">
-        <Link href="/magasins" className="text-sm text-gray-400 hover:text-green-600 transition-colors">
+        <Link href={locale === "fr" ? "/magasins" : `/${locale}/magasins`} className="text-sm text-gray-400 hover:text-green-600 transition-colors">
           {t("retour")}
         </Link>
       </div>
