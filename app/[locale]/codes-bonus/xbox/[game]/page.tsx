@@ -99,7 +99,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function Page({ params }: PageProps) {
-  const { game: gameSlug, locale = "fr" } = await params as any;
+  const { game: gameSlug, locale } = await params as any;
   function loc(it: any, field: string): string {
     if (locale !== "fr") {
       const k = `${field}_${locale}`;
