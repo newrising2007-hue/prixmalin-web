@@ -144,11 +144,11 @@ export default async function Page({ params }: PageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <nav className="mb-6 text-sm text-neutral-600">
-        <Link className="hover:underline" href="/codes-bonus">
+        <Link className="hover:underline" href={locale === "fr" ? "/codes-bonus" : `/${locale}/codes-bonus`}>
           {t("titre")}
         </Link>
         <span className="mx-2">/</span>
-        <Link className="hover:underline" href="/codes-bonus/nintendo">
+        <Link className="hover:underline" href={locale === "fr" ? "/codes-bonus/nintendo" : `/${locale}/codes-bonus/nintendo`}>
           Nintendo
         </Link>
         <span className="mx-2">/</span>
@@ -161,7 +161,7 @@ export default async function Page({ params }: PageProps) {
 
         <div className="mt-4 flex flex-wrap gap-2">
           <Link
-            href="/codes-bonus/nintendo"
+            href={locale === "fr" ? "/codes-bonus/nintendo" : `/${locale}/codes-bonus/nintendo`}
             className="relative rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition-all duration-200 hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
           >
             {t("retour_nintendo")}
@@ -214,7 +214,7 @@ export default async function Page({ params }: PageProps) {
             {game.relatedSlugs.map((s) => (
               <Link
                 key={s}
-                href={`/codes-bonus/nintendo/${s}`}
+                href={locale === "fr" ? `/codes-bonus/nintendo/${s}` : `/${locale}/codes-bonus/nintendo/${s}`}
                 className="relative rounded-full border border-emerald-200 bg-emerald-50 px-5 py-2 text-sm font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition-all duration-200 hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
               >
                 {titleCaseSlug(s)}
