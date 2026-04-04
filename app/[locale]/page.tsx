@@ -3,8 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 
 export default function HomePage() {
+  const params = useParams();
+  const locale = (params?.locale as string) || "fr";
   const t = useTranslations("accueil");
 
   return (
@@ -29,7 +32,7 @@ export default function HomePage() {
         <div className="flex flex-wrap justify-center gap-6">
 
           {/* Bergeron Électronique */}
-          <Link href="/partenaires/bergerons" className="group flex flex-col items-center">
+          <Link href={locale === "fr" ? "/partenaires/bergerons" : `/${locale}/partenaires/bergerons`} className="group flex flex-col items-center">
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-cyan-400/20 blur-2xl opacity-60 animate-pulse group-hover:opacity-100 transition-opacity duration-300" />
               <Image
@@ -58,7 +61,7 @@ export default function HomePage() {
             <li>• {t("gaming_item2")}</li>
             <li>• {t("gaming_item3")}</li>
           </ul>
-          <Link href="/gaming" className="group mt-10 inline-flex flex-col items-center">
+          <Link href={locale === "fr" ? "/gaming" : `/${locale}/gaming`} className="group mt-10 inline-flex flex-col items-center">
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-blue-400/40 blur-3xl opacity-70 animate-pulse group-hover:opacity-100" />
               <Image
@@ -92,7 +95,7 @@ export default function HomePage() {
             <li>• {t("magasins_item2")}</li>
             <li>• {t("magasins_item3")}</li>
           </ul>
-          <Link href="/magasins" className="group mt-10 inline-flex flex-col items-center">
+          <Link href={locale === "fr" ? "/magasins" : `/${locale}/magasins`} className="group mt-10 inline-flex flex-col items-center">
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-green-400/40 blur-3xl opacity-70 animate-pulse group-hover:opacity-100" />
               <Image
