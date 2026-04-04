@@ -97,7 +97,7 @@ function detectCategory(q: string): string {
         <p className="text-sm text-gray-400 mb-8">{t("hero_tags")}</p>
       </section>
 
-      <section className="px-6 pb-10 max-w-3xl mx-auto">
+      <section className="px-6 pb-14 max-w-3xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           <Link href={locale === "fr" ? "/magasins/recherche" : `/${locale}/magasins/recherche`}
             className="group relative flex flex-col items-center text-center p-8 rounded-2xl border-2 border-green-200 bg-white/70 backdrop-blur-sm shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-green-400">
@@ -112,35 +112,16 @@ function detectCategory(q: string): string {
             <span className="px-5 py-2 rounded-xl text-white text-sm font-semibold shadow-sm group-hover:scale-105 transition-transform"
               style={{ background: "linear-gradient(135deg, #16a34a, #059669)" }}>{t("recherche_btn")}</span>
           </Link>
-
-          <Link href={locale === "fr" ? "/magasins/categories" : `/${locale}/magasins/categories`}
-            className="group relative flex flex-col items-center text-center p-8 rounded-2xl border-2 border-blue-200 bg-white/70 backdrop-blur-sm shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-blue-400">
-            <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl -z-10"
-              style={{ background: "radial-gradient(circle, rgba(59,130,246,0.4), transparent 70%)" }} />
-            <div className="relative mb-4">
-              <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-400/20 to-indigo-500/10 flex items-center justify-center text-4xl shadow-sm group-hover:scale-110 transition-transform duration-300">🗂️</div>
-            </div>
-            <h3 className="font-bold text-gray-800 text-lg mb-2">{t("categorie_titre")}</h3>
-            <p className="text-sm text-gray-500 leading-relaxed mb-3">{t("categorie_desc")}</p>
-            <p className="text-xs text-blue-600 font-medium italic mb-4">{t("categorie_exemple")}</p>
-            <span className="px-5 py-2 rounded-xl text-white text-sm font-semibold shadow-sm group-hover:scale-105 transition-transform"
-              style={{ background: "linear-gradient(135deg, #2563eb, #1d4ed8)" }}>{t("categorie_btn")}</span>
-          </Link>
-        </div>
-      </section>
-
-      <section className="px-6 pb-14 max-w-5xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {mainSections.map((section) => (
             <Link key={section.label} href={section.href}
-              className={`group relative flex flex-col items-center text-center p-6 rounded-2xl border-2 bg-white/70 backdrop-blur-sm shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 ${section.border}`}>
+              className={`group relative flex flex-col items-center text-center p-8 rounded-2xl border-2 bg-white/70 backdrop-blur-sm shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 ${section.border}`}>
               <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl -z-10"
                 style={{ background: `radial-gradient(circle, ${section.glow}, transparent 70%)` }} />
-              <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${section.gradient} flex items-center justify-center text-3xl shadow-sm group-hover:scale-110 transition-transform duration-300 mb-3`}>
+              <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${section.gradient} flex items-center justify-center text-4xl shadow-sm group-hover:scale-110 transition-transform duration-300 mb-4`}>
                 {section.icon}
               </div>
-              <h3 className="font-bold text-gray-800 text-sm mb-1">{section.label}</h3>
-              <p className="text-xs text-gray-500 leading-relaxed hidden sm:block">{section.desc}</p>
+              <h3 className="font-bold text-gray-800 text-lg mb-2">{section.label}</h3>
+              <p className="text-sm text-gray-500 leading-relaxed mb-3">{section.desc}</p>
               <span className="mt-2 text-green-600 text-xs font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-200">{t("explorer")} →</span>
             </Link>
           ))}
