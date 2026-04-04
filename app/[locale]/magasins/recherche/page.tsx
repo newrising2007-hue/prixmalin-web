@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 const BACKEND_URL = 'https://prixmalin-backend.onrender.com';
@@ -25,6 +25,11 @@ interface Result {
 
 function RechercheContent() {
   const t = useTranslations('magasins.recherche');
+  const pathname = usePathname();
+  const localePrefix = pathname.startsWith('/en') ? '/en' :
+                       pathname.startsWith('/es') ? '/es' :
+                       pathname.startsWith('/ar') ? '/ar' :
+                       pathname.startsWith('/zh') ? '/zh' : '';
   const searchParams = useSearchParams();
   const query = searchParams.get('q') || '';
   const category = searchParams.get('cat') || 'divers';
@@ -122,7 +127,7 @@ function RechercheContent() {
     e.preventDefault();
     if (search.trim()) {
       const cat = detectCategory(search.trim());
-      window.location.href = `/magasins/recherche?q=${encodeURIComponent(search.trim())}&cat=${cat}`;
+      window.location.href = `${localePrefix}/magasins/recherche?q=${encodeURIComponent(search.trim())}&cat=${cat}`;
       setSearch('');
     }
   };
@@ -286,7 +291,7 @@ function RechercheContent() {
             <button
               type="button"
               onClick={() => {
-                window.location.href = '/magasins/recherche';
+                window.location.href = `${localePrefix}/magasins/recherche`;
               }}
               className="absolute right-3 top-1/2 -translate-y-1/2 px-4 py-2 rounded-xl text-white font-semibold text-lg transition-all duration-200"
               style={{ background: 'linear-gradient(135deg, #dc2626, #b91c1c)' }}
