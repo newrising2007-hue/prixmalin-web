@@ -86,7 +86,7 @@ export default function LayoutChrome({
                 PrixMalin
               </Link>
               <div className="flex items-center gap-2">
-                <Link href="/" className="rounded-lg px-2 py-1 text-sm hover:bg-gray-100">
+                <Link href={locale === "fr" ? "/" : `/${locale}`} className="rounded-lg px-2 py-1 text-sm hover:bg-gray-100">
                   {t.home}
                 </Link>
                 <Link href={locale === "fr" ? "/magasins" : `/${locale}/magasins`} className="rounded-lg px-2 py-1 text-sm font-semibold text-green-700 hover:bg-green-50">
@@ -132,7 +132,7 @@ export default function LayoutChrome({
                 PrixMalin
               </Link>
               <div className="flex items-center gap-2">
-                <Link href="/" className="rounded-lg px-2 py-1 text-sm hover:bg-gray-100">
+                <Link href={locale === "fr" ? "/" : `/${locale}`} className="rounded-lg px-2 py-1 text-sm hover:bg-gray-100">
                   {t.home}
                 </Link>
                 {/* ICI : Ajout de text-blue-700 pour le Gaming Header */}
