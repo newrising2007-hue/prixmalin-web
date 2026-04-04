@@ -41,7 +41,7 @@ export default function CategoriesPage() {
         {/* GRILLE */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {categoriesSlugs.map((cat) => (
-            <Link key={cat.slug} href={locale === "fr" ? `/magasins/categorie/${cat.slug}` : `/${locale}/magasins/categorie/${cat.slug}`}
+            <Link key={cat.slug} href={locale === "fr" ? `/magasins/recherche?cat=${cat.slug}` : `/${locale}/magasins/recherche?cat=${cat.slug}`}
               className="group flex flex-col items-center text-center p-5 rounded-2xl border-2 border-gray-100 bg-white/80 hover:bg-white hover:border-green-300 hover:shadow-lg transition-all duration-200">
               <span className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-200">{cat.icon}</span>
               <span className="font-bold text-gray-800 text-sm leading-tight mb-1">{t(`${cat.slug}.label`)}</span>
