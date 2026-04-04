@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 import circulairesData from "@/data/circulaires.json";
 
@@ -25,6 +27,8 @@ const CATEGORIE_CLES: Record<string, string> = {
 };
 
 export default function CirculairesPage() {
+  const params = useParams();
+  const locale = (params?.locale as string) || "fr";
   const t = useTranslations("magasins.circulaires");
   const [search, setSearch] = useState("");
   const [categorieActive, setCategorieActive] = useState<string | null>(null);
@@ -191,7 +195,7 @@ export default function CirculairesPage() {
         </div>
 
         <div className="mt-6 text-center">
-          <a href="/magasins" className="text-sm text-gray-400 hover:text-green-600 transition-colors">{t("retour")}</a>
+          <Link href={locale === "fr" ? "/magasins" : `/${locale}/magasins`} className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-blue-300 text-blue-600 font-semibold text-sm hover:text-blue-400 hover:border-blue-400 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">{t("retour")}</Link>
         </div>
 
       </div>
