@@ -367,7 +367,7 @@ function RechercheContent() {
         )}
 
         <div className="mt-10 text-center">
-          <a href="/magasins" className="text-sm text-gray-400 hover:text-green-600 transition-colors">
+          <a href={localePrefix ? `${localePrefix}/magasins` : "/magasins"} className="text-sm text-gray-400 hover:text-green-600 transition-colors">
             {t('retour')}
           </a>
         </div>
