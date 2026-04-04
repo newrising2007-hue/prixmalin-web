@@ -56,7 +56,7 @@ export default async function CodesBonusHub({ params }: { params: Promise<{ loca
         {consoles.map((console) => (
           <Link
             key={console.slug}
-            href={`/codes-bonus/${console.slug}`}
+            href={locale === "fr" ? `/codes-bonus/${console.slug}` : `/${locale}/codes-bonus/${console.slug}`}
             className="group relative overflow-hidden block rounded-2xl border border-neutral-200 bg-white/70 backdrop-blur-sm px-6 py-6 text-center font-semibold text-neutral-900 shadow-md shadow-blue-500/10 transition will-change-transform hover:-translate-y-0.5 hover:shadow-lg hover:shadow-blue-500/15 hover:ring-2 hover:ring-blue-200/60 hover:bg-white/80 active:translate-y-px active:shadow-sm"
           >
             <div className="relative z-10 flex flex-col items-start gap-1">
