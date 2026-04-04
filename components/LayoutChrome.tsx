@@ -193,7 +193,7 @@ export default function LayoutChrome({
               {FOOTER_TEXT[pathname.split("/")[1]] ?? FOOTER_TEXT.fr}
             </p>
             <a
-              href="/privacy-policy"
+              href={locale === "fr" ? "/privacy-policy" : `/${locale}/privacy-policy`}
               className="text-sm text-blue-600 hover:text-blue-800 transition-colors underline"
             >
               Privacy Policy
