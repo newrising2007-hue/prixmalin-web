@@ -16,7 +16,7 @@ export default async function ApplicationsHub({ params }: PageProps) {
       </p>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <Link
-          href="/applications/prixmalin"
+          href={locale === "fr" ? "/applications/prixmalin" : `/${locale}/applications/prixmalin`}
           className="relative overflow-hidden rounded-2xl border border-black/10 bg-white/70 backdrop-blur-sm p-6 shadow-sm shadow-blue-500/10 transition hover:shadow-md hover:shadow-blue-500/20"
         >
           <div className="pointer-events-none absolute inset-0">
