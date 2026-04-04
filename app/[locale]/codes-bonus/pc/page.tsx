@@ -35,12 +35,7 @@ type GameCard = {
   bullets: string[];
 };
 
-const cards: GameCard[] = pcGames.filter((g): g is NonNullable<typeof g> => Boolean(g)).map((g) => ({
-  title: g.name,
-  href: `/codes-bonus/pc/${g.slug}`,
-  description: g.seoDescription ?? `Codes ${g.name} sur PC.`,
-  bullets: ["codes_reels_bullet", "expiration_bullet", "source_bullet"],
-}));
+
 
 function buildFaqJsonLd() {
   return {
@@ -70,6 +65,13 @@ function buildFaqJsonLd() {
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "codes_bonus" });
+
+  const cards: GameCard[] = pcGames.filter((g): g is NonNullable<typeof g> => Boolean(g)).map((g) => ({
+    title: g.name,
+    href: locale === "fr" ? `/codes-bonus/pc/${g.slug}` : `/${locale}/codes-bonus/pc/${g.slug}`,
+    description: g.seoDescription ?? `Codes ${g.name} sur PC.`,
+    bullets: ["codes_reels_bullet", "expiration_bullet", "source_bullet"],
+  }));
   const faqJsonLd = buildFaqJsonLd();
 
   return (
@@ -84,7 +86,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
           <Link
-            href="/codes-bonus"
+            href={locale === "fr" ? "/codes-bonus" : `/${locale}/codes-bonus`}
             className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 font-semibold text-emerald-900 shadow-sm shadow-emerald-500/10 transition hover:bg-emerald-100 hover:shadow-md hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm"
           >
             {t("retour_consoles")}
@@ -95,21 +97,21 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
           </span>
 
           <Link
-            href="/codes-bonus/playstation"
+            href={locale === "fr" ? "/codes-bonus/playstation" : `/${locale}/codes-bonus/playstation`}
             className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm"
           >
             PlayStation
           </Link>
 
           <Link
-            href="/codes-bonus/xbox"
+            href={locale === "fr" ? "/codes-bonus/xbox" : `/${locale}/codes-bonus/xbox`}
             className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm"
           >
             Xbox
           </Link>
 
           <Link
-            href="/codes-bonus/nintendo"
+            href={locale === "fr" ? "/codes-bonus/nintendo" : `/${locale}/codes-bonus/nintendo`}
             className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 font-semibold text-blue-900 shadow-sm shadow-blue-500/10 transition hover:bg-blue-100 hover:shadow-md hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm"
           >
             Nintendo
