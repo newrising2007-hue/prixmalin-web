@@ -650,7 +650,7 @@ export default function RestaurantsPage() {
 
       {/* RETOUR */}
       <div className="pb-10 text-center">
-        <Link href={locale === "fr" ? "/magasins" : `/${locale}/magasins`} className="text-sm text-gray-400 hover:text-green-600 transition-colors">
+        <Link href={locale === "fr" ? "/magasins" : `/${locale}/magasins`} className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-blue-300 text-blue-600 font-semibold text-sm hover:text-blue-400 hover:border-blue-400 hover:shadow-lg hover:-translate-y-1 transition-all duration-200">
           {t("retour")}
         </Link>
       </div>
