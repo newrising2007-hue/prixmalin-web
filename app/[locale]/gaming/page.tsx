@@ -55,7 +55,8 @@ function pickLatestCards(): CodeCard[] {
 const CTA_GREEN = "relative inline-flex items-center justify-center overflow-hidden rounded-xl border border-emerald-200 bg-emerald-50 px-5 py-3 text-sm font-semibold text-emerald-950 shadow-sm shadow-emerald-500/10 transition-all duration-200 will-change-transform hover:bg-emerald-100 hover:shadow-md hover:shadow-emerald-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-emerald-200/60 active:translate-y-px active:shadow-sm";
 const CTA_BLUE = "relative inline-flex items-center justify-center overflow-hidden rounded-xl border border-blue-200 bg-blue-50 px-5 py-3 text-sm font-semibold text-blue-950 shadow-sm shadow-blue-500/10 transition-all duration-200 will-change-transform hover:bg-blue-100 hover:shadow-md hover:shadow-blue-500/20 hover:-translate-y-0.5 hover:ring-2 hover:ring-blue-200/60 active:translate-y-px active:shadow-sm";
 
-export default async function GamingPage() {
+export default async function GamingPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const t = await getTranslations("gaming");
   const cards = pickLatestCards();
 
@@ -72,7 +73,7 @@ export default async function GamingPage() {
         </div>
         <div className="relative px-6 pb-2 pt-1 sm:px-10">
           <div className="max-w-2xl">
-            <Link href="/codes-bonus" className="inline-block text-xs font-semibold tracking-widest text-blue-500/80 uppercase transition-all duration-200 hover:-translate-y-0.5 hover:text-blue-600">
+            <Link href={locale === "fr" ? "/codes-bonus" : `/${locale}/codes-bonus`} className="inline-block text-xs font-semibold tracking-widest text-blue-500/80 uppercase transition-all duration-200 hover:-translate-y-0.5 hover:text-blue-600">
               {t("codes_label")}
             </Link>
             <h2 className="mt-0 text-base font-bold tracking-tight text-gray-800 sm:text-lg">{t("codes_titre")}</h2>
@@ -98,7 +99,7 @@ export default async function GamingPage() {
         ) : null}
       </section>
       <section className="relative mb-10">
-        <Link href="/deals" className="group relative block w-full cursor-pointer" aria-label="Voir tous les deals gaming">
+        <Link href={locale === "fr" ? "/deals" : `/${locale}/deals`} className="group relative block w-full cursor-pointer" aria-label="Voir tous les deals gaming">
           <div className="relative flex flex-col items-center">
             <div className="relative z-10 mb-0 transition-transform duration-300 group-hover:-translate-y-2">
               <p className="text-[11px] font-bold tracking-[6px] text-blue-400/70 uppercase text-center mb-1">{t("slogan_label")}</p>
