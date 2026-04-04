@@ -151,16 +151,16 @@ export default function LayoutChrome({
               </div>
             </div>
             <nav className="flex items-center gap-3 text-sm">
-              <Link href="/deals" className="rounded-lg px-2 py-1 hover:bg-gray-100">
+              <Link href={locale === "fr" ? "/deals" : `/${locale}/deals`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 {t.deals}
               </Link>
-              <Link href="/produits" className="rounded-lg px-2 py-1 hover:bg-gray-100">
+              <Link href={locale === "fr" ? "/produits" : `/${locale}/produits`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 {t.products}
               </Link>
-              <Link href="/applications" className="rounded-lg px-2 py-1 hover:bg-gray-100">
+              <Link href={locale === "fr" ? "/applications" : `/${locale}/applications`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 {t.apps}
               </Link>
-              <Link href="/codes-bonus" className="rounded-lg px-2 py-1 hover:bg-gray-100">
+              <Link href={locale === "fr" ? "/codes-bonus" : `/${locale}/codes-bonus`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 {t.bonus}
               </Link>
               {process.env.NEXT_PUBLIC_DEV_MODE === "true" && (
