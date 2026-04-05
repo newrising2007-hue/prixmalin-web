@@ -12,6 +12,8 @@
   },
   "contact": {
     "adresse": "26 Rue des Oblats N, Ville-Marie QC J9V 1H9",
+    "lat": 47.334898,
+    "lng": -79.43645579999999,
     "telephone": "819-629-3444",
     "email": "",
     "facebook": "https://www.facebook.com/bergelec",

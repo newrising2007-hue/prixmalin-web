@@ -253,6 +253,29 @@ export default async function PageBergerons({
         >
           📍 {partenaire.contact.adresse}
         </a>
+        <div className="flex flex-wrap justify-center gap-3 mt-3">
+          {partenaire.contact?.facebook && (
+            <a href={partenaire.contact.facebook} target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-1 text-xs hover:underline transition-colors"
+              style={{ color: partenaire.couleurs.primaire }}>
+              <span>📘</span><span>Facebook</span>
+            </a>
+          )}
+          {partenaire.contact?.instagram && (
+            <a href={partenaire.contact.instagram} target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-1 text-xs hover:underline transition-colors"
+              style={{ color: partenaire.couleurs.primaire }}>
+              <span>📸</span><span>Instagram</span>
+            </a>
+          )}
+          {partenaire.contact?.site_web && (
+            <a href={partenaire.contact.site_web} target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-1 text-xs hover:underline transition-colors"
+              style={{ color: partenaire.couleurs.primaire }}>
+              <span>🌐</span><span>Site web</span>
+            </a>
+          )}
+        </div>
         <p className="text-xs text-gray-400 mt-3">
           {t("footer_presente_par")}{" "}
           <span className="font-semibold" style={{ color: "#2eaabf" }}>PrixMalin.ca</span>
