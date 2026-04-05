@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import partenaire from "@/data/partenaires/bergerons.json";
+import ClickTracker from "@/components/ClickTracker";
 
 export async function generateStaticParams() {
   const locales = ["fr", "en", "es", "ar", "zh"];
@@ -43,6 +44,7 @@ export default async function PageBergerons({
 
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
+      <ClickTracker slug={partenaire.slug} />
 
       {/* ── HEADER ─────────────────────────────────────────────── */}
       <header className="bg-white border-b border-gray-100 shadow-sm">
