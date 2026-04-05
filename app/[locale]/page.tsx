@@ -4,11 +4,29 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
+import { useEffect, useState } from "react";
+
+interface Partenaire {
+  slug: string;
+  nom: string;
+}
 
 export default function HomePage() {
   const params = useParams();
   const locale = (params?.locale as string) || "fr";
   const t = useTranslations("accueil");
+  const [partenaires, setPartenaires] = useState<Partenaire[]>([]);
+
+  useEffect(() => {
+    fetch("https://prixmalin-backend.onrender.com/api/partenaires")
+      .then((r) => r.json())
+      .then((data) => {
+        if (data.success && Array.isArray(data.partenaires)) {
+          setPartenaires(data.partenaires);
+        }
+      })
+      .catch(() => {});
+  }, []);
 
   return (
     <main className="relative min-h-screen overflow-hidden">
@@ -30,20 +48,24 @@ export default function HomePage() {
           🏅 <span className="bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent">{t("partenaires_titre")}</span>
         </h2>
         <div className="flex flex-wrap justify-center gap-6">
-
-          {/* Bergeron Électronique */}
-          <Link href={locale === "fr" ? "/partenaires/bergerons" : `/${locale}/partenaires/bergerons`} className="group flex flex-col items-center">
-            <div className="relative">
-              <div className="absolute inset-0 rounded-full bg-cyan-400/20 blur-2xl opacity-60 animate-pulse group-hover:opacity-100 transition-opacity duration-300" />
-              <Image
-                src="/partenaires/bergerons/logo.png"
-                alt="Bergeron Électronique — Circulaire"
-                width={180}
-                height={60}
-                className="relative transition-transform duration-300 group-hover:scale-105 drop-shadow-md"
-              />
-            </div>
-          </Link>
+          {partenaires.map((p) => (
+            <Link
+              key={p.slug}
+              href={locale === "fr" ? `/partenaires/${p.slug}` : `/${locale}/partenaires/${p.slug}`}
+              className="group flex flex-col items-center"
+            >
+              <div className="relative">
+                <div className="absolute inset-0 rounded-full bg-cyan-400/20 blur-2xl opacity-60 animate-pulse group-hover:opacity-100 transition-opacity duration-300" />
+                <Image
+                  src={`/partenaires/${p.slug}/logo.png`}
+                  alt={`${p.nom} — Circulaire`}
+                  width={180}
+                  height={60}
+                  className="relative transition-transform duration-300 group-hover:scale-105 drop-shadow-md"
+                />
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
       {/* SECTION GAMING */}
