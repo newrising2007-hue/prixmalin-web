@@ -18,7 +18,7 @@ export default function HomePage() {
   const [partenaires, setPartenaires] = useState<Partenaire[]>([]);
 
   useEffect(() => {
-    fetch("https://prixmalin-backend.onrender.com/api/partenaires")
+    fetch("/api/partenaires")
       .then((r) => r.json())
       .then((data) => {
         if (data.success && Array.isArray(data.partenaires)) {
