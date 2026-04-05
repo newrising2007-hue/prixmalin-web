@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import partenaire from "@/data/partenaires/bergerons.json";
 import ClickTracker from "@/components/ClickTracker";
+import CouponEmailButton from "@/components/CouponEmailButton";
 
 export async function generateStaticParams() {
   const locales = ["fr", "en", "es", "ar", "zh"];
@@ -206,6 +207,9 @@ export default async function PageBergerons({
                   <span className="text-base font-black" style={{ color: "#2eaabf" }}>{produit.prix_special.toFixed(2)}$</span>
                 </div>
               </div>
+              {produit.badge === "plus" && (
+                <CouponEmailButton slug={partenaire.slug} produit={produit} />
+              )}
 
             </div>
           ))}
