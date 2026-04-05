@@ -238,9 +238,15 @@ export default async function PageBergerons({
       {/* ── FOOTER ─────────────────────────────────────────────── */}
       <footer className="bg-white border-t border-gray-100 py-8 text-center">
         <div className="h-px max-w-xs mx-auto mb-6 bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
-        <p className="text-sm text-gray-500 mb-1">
+        <a
+          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(partenaire.contact.adresse)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 text-sm font-medium hover:underline transition-colors"
+          style={{ color: partenaire.couleurs.primaire }}
+        >
           📍 {partenaire.contact.adresse}
-        </p>
+        </a>
         <p className="text-xs text-gray-400 mt-3">
           {t("footer_presente_par")}{" "}
           <span className="font-semibold" style={{ color: "#2eaabf" }}>PrixMalin.ca</span>
