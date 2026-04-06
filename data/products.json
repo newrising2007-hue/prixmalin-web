@@ -69,7 +69,7 @@
     "image": "/images/products/hyperx-alloy-core.webp",
     "prix": "41.99",
     "prixBarre": "49.98",
-    "prixVerifieLe": "2026-04-03",
+    "prixVerifieLe": "2026-04-06",
     "shortDescription_en": "RGB keyboard comfortable and splash-resistant for gaming.",
     "shortDescription_es": "teclado RGB cómodo y resistente a salpicaduras para gaming.",
     "shortDescription_ar": "لوحة مفاتيح RGB مريح و مقاوم للرشاش للألعاب.",
@@ -128,11 +128,11 @@
     "amazonUrl": "https://www.amazon.ca/dp/B09FTNMT84?tag=prixmalin-20",
     "category": "claviers",
     "image": "/images/products/clavier-steelseries-apex-3-rgb.webp",
-    "badge": "Meilleur vendeur",
+    "badge": "Deal du jour",
     "actif": true,
     "prix": "59.98",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-04-03",
+    "prixVerifieLe": "2026-04-06",
     "shortDescription_en": "RGB gaming keyboard splash-resistant and dust resistant — silent switches, anti-ghosting, available in multiple colors.",
     "shortDescription_es": "teclado gaming RGB resistente a salpicaduras y resistente al polvo — interruptores silenciosos, anti-ghosting, disponible en varios colores.",
     "shortDescription_ar": "لوحة مفاتيح ألعاب RGB مقاوم للرشاش و مقاوم للغبار — مفاتيح صامتة, مانع الضغط الوهمي, متاح بألوان متعددة.",
@@ -279,7 +279,7 @@
     "actif": true,
     "prix": "49.99",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-04-03",
+    "prixVerifieLe": "2026-04-06",
     "shortDescription_en": "RGB gaming keyboard LIGHTSYNC — splash-resistant, customizable keys, RGB backlight.",
     "shortDescription_es": "teclado gaming RGB LIGHTSYNC — resistente a salpicaduras, teclas personalizables, retroiluminación RGB.",
     "shortDescription_ar": "لوحة مفاتيح ألعاب RGB LIGHTSYNC — مقاوم للرشاش, مفاتيح قابلة للتخصيص, إضاءة خلفية RGB.",
@@ -856,7 +856,7 @@
     "actif": true,
     "prix": "171.99",
     "prixBarre": "187.99",
-    "prixVerifieLe": "2026-04-03"
+    "prixVerifieLe": "2026-04-06"
   },
   {
     "slug": "razer-blackwidow-v3",
@@ -877,9 +877,9 @@
     "image": "/images/products/razer-blackwidow-v3.webp",
     "badge": "Meilleur vendeur",
     "actif": true,
-    "prix": "109.99",
+    "prix": "129.98",
     "prixBarre": "",
-    "prixVerifieLe": "2026-04-03"
+    "prixVerifieLe": "2026-04-06"
   },
   {
     "slug": "razer-deathadder-v3",
