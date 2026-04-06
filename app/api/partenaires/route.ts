@@ -6,7 +6,12 @@ export async function GET() {
   try {
     const dir = path.join(process.cwd(), "data", "partenaires");
     const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
-    const partenaires = files.map((file) => {
+    const partenaires = files
+      .filter((file) => {
+        const data = JSON.parse(fs.readFileSync(path.join(dir, file), "utf-8"));
+        return data.statut === "publie";
+      })
+      .map((file) => {
       const data = JSON.parse(fs.readFileSync(path.join(dir, file), "utf-8"));
       return {
         slug: data.slug,
