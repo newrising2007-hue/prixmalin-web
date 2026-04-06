@@ -991,5 +991,26 @@
     "prix": "169.99",
     "prixBarre": "199.99",
     "prixVerifieLe": "2026-04-06"
+  },
+  {
+    "slug": "casque-de-jeu-sans-fil-jbl-quantum-910",
+    "title": "Casque de jeu sans fil JBL Quantum 910 ",
+    "shortDescription": "Casque gaming sans fil — son surround 360°, ANC, faible latence 2,4 GHz, compatible PC et consoles.",
+    "title_en": "",
+    "title_es": "",
+    "title_ar": "",
+    "title_zh": "",
+    "shortDescription_en": "gaming headsand wireless — 360° surround sound, ANC, low latency 2.4 GHz compatible PC and consoles",
+    "shortDescription_es": "auriculares gaming inalámbrico — sonido surround 360°, ANC, baja latencia 2,4 GHz compatible PC y consolas",
+    "shortDescription_ar": "سماعة ألعاب لاسلكي —  صوت محيطي 360°، ANC، زمن استجابة منخفض 2.4 GHz متوافق كمبيوتر و أجهزة الألعاب",
+    "shortDescription_zh": "游戏耳机 无线 — 360°环绕声，ANC，低延迟2.4GHz 兼容 电脑 和 游戏机",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BQL6J6D2?tag=prixmalin-20",
+    "category": "audio",
+    "image": "/images/products/casque-de-jeu-sans-fil-jbl-quantum-910.webp",
+    "badge": "Meilleur vendeur",
+    "actif": true,
+    "prix": "399.98",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-04-06"
   }
 ]
