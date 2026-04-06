@@ -1012,5 +1012,26 @@
     "prix": "399.98",
     "prixBarre": "",
     "prixVerifieLe": "2026-04-06"
+  },
+  {
+    "slug": "hyperx-quadcast",
+    "title": "HyperX QuadCast",
+    "shortDescription": "Microphone USB à condensateur RGB — 4 modes de captation, mise en sourdine tactile, compatible PC, PS4, Mac, Discord et OBS.",
+    "title_en": "",
+    "title_es": "",
+    "title_ar": "",
+    "title_zh": "",
+    "shortDescription_en": "USB microphone à condenser RGB — 4 modes de capture, tap en tap-to-mute compatible PC PS4, Mac Discord and OBS",
+    "shortDescription_es": "micrófono USB à condensador RGB — 4 modos de captación, toque en silencio táctil compatible PC PS4, Mac Discord y OBS",
+    "shortDescription_ar": "ميكروفون USB à مكثف RGB — 4 أوضاع de التقاط، لمس en كتم الصوت باللمس متوافق PC PS4, Mac Discord و OBS",
+    "shortDescription_zh": "USB麦克风 à 电容 RGB — 4 模式 de 拾音，触控 en 触控静音 兼容 PC PS4, Mac Discord 和 OBS",
+    "amazonUrl": "https://www.amazon.ca/dp/B08G8WH435?tag=prixmalin-20",
+    "category": "audio",
+    "image": "/images/products/hyperx-quadcast.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "139.99",
+    "prixBarre": "209.99",
+    "prixVerifieLe": "2026-04-06"
   }
 ]
