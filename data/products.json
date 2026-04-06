@@ -970,5 +970,26 @@
     "prix": "279.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-04-06"
+  },
+  {
+    "slug": "logitech-g-733-lightspeed",
+    "title": "Logitech G – 733 LIGHTSPEED",
+    "shortDescription": "Casque gaming sans fil LIGHTSPEED — autonomie 29h, éclairage RGB 16,8M couleurs, compatible PC, PS4 et PS5.",
+    "title_en": "Logitech G – 733 LIGHTSPEED",
+    "title_es": "Logitech G – 733 LIGHTSPEED",
+    "title_ar": "لوجيتك G – 733 LIGHTSPEED",
+    "title_zh": "罗技 G – 733 LIGHTSPEED",
+    "shortDescription_en": "gaming headsand wireless LIGHTSPEED — autonomie 29h, éclairage RGB 16.8M colors compatible PC PS4 and PS5",
+    "shortDescription_es": "auriculares gaming inalámbrico LIGHTSPEED — autonomie 29h, éclairage RGB 16,8M colores compatible PC PS4 y PS5",
+    "shortDescription_ar": "سماعة ألعاب لاسلكي LIGHTSPEED — autonomie 29h, éclairage RGB 16.8 مليون لون متوافق PC PS4 و PS5",
+    "shortDescription_zh": "游戏耳机 无线 LIGHTSPEED — autonomie 29h, éclairage RGB 1680万色 兼容 PC PS4 和 PS5",
+    "amazonUrl": "https://www.amazon.ca/dp/B081415GCS?tag=prixmalin-20",
+    "category": "audio",
+    "image": "/images/products/logitech-g-733-lightspeed.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "169.99",
+    "prixBarre": "199.99",
+    "prixVerifieLe": "2026-04-06"
   }
 ]
