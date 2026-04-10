@@ -92,6 +92,18 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
                 <a href={p.amazonUrl} target="_blank" rel="nofollow sponsored noopener" className="block rounded-xl bg-orange-500 px-4 py-2 text-sm font-semibold text-white hover:bg-orange-600">
                   {labels["voir_amazon"]}
                 </a>
+                {p.badge && p.badge !== "Aucun" && (
+                  <div className="flex flex-col items-center gap-0.5 mt-8">
+                    <img
+                      src={"/images/badges/" + p.badge.toLowerCase().replace(/ /g, "-") + ".png"}
+                      alt={p.badge}
+                      className="w-12 h-12 object-contain drop-shadow-sm"
+                    />
+                    <span className="text-[10px] font-bold text-center text-gray-600">
+                      {labels["badge_" + p.badge.toLowerCase().replace(/ /g, "_")] || p.badge}
+                    </span>
+                  </div>
+                )}
               </div>
             </div>
           </article>

@@ -19,6 +19,9 @@ export default async function ProduitsPage({ params }: { params: Promise<{ local
     verifie_le: t("verifie_le"),
     image_bientot: t("image_bientot"),
     ...Object.fromEntries(CATEGORY_SLUGS.filter(s => s !== "toutes").map(s => [`cat_${s}`, t(`cat_${s}` as any)])),
+    badge_meilleur_vendeur: t("badge_meilleur_vendeur" as any),
+    badge_nouveau: t("badge_nouveau" as any),
+    badge_deal_du_jour: t("badge_deal_du_jour" as any),
   };
 
   return (

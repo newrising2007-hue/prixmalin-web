@@ -350,7 +350,10 @@
     "cat_video": "📹 Vídeo & Captura",
     "adblock": "🔊 Este sitio vive gracias a nuestros socios afiliados — desactivar Adblock en PrixMalin no cuesta nada y nos ayuda enormemente. ¡Gracias! 💙",
     "verifie_le": "✓ Precio verificado:",
-    "retour": "← Volver a productos"
+    "retour": "← Volver a productos",
+    "badge_meilleur_vendeur": "Más vendido",
+    "badge_nouveau": "Nuevo",
+    "badge_deal_du_jour": "Oferta del día"
   },
   "codes_bonus": {
     "titre": "Códigos bonus gaming",
