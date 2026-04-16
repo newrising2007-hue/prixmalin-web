@@ -28,9 +28,9 @@
     "category": "souris",
     "image": "/images/products/logitech-g203.webp",
     "badge": "Deal du jour",
-    "prix": "39.99",
+    "prix": "38.99",
     "prixBarre": "49.99",
-    "prixVerifieLe": "2026-04-15",
+    "prixVerifieLe": "2026-04-16",
     "shortDescription_en": "precise, lightweight and ideal for FPS at an affordable price. 3 colors available.",
     "shortDescription_es": "precisa, ligero y ideal para FPS a precio asequible. 3 colores disponibles.",
     "shortDescription_ar": "دقيقة, خفيف الوزن و مثالي لألعاب FPS بسعر معقول. 3 ألوان متاحة.",
@@ -88,10 +88,10 @@
     "category": "souris",
     "image": "/images/products/logitech-g-pro-x-superlight-2.webp",
     "badge": "Deal du jour",
-    "actif": true,
+    "actif": false,
     "prix": "178.99",
     "prixBarre": "239.99",
-    "prixVerifieLe": "2026-04-15",
+    "prixVerifieLe": "2026-04-16",
     "shortDescription_en": "ultra-lightweight wireless gaming mouse — professional quality, Amazon Renewed.",
     "shortDescription_es": "ratón gaming inalámbrico ultraligero — calidad profesional, Amazon Renewed.",
     "shortDescription_ar": "فأرة ألعاب لاسلكية خفيفة جداً — جودة احترافية, Amazon Renewed.",
@@ -108,11 +108,11 @@
     "amazonUrl": "https://www.amazon.ca/dp/B0FY45N1FQ?tag=prixmalin-20",
     "category": "souris",
     "image": "/images/products/logitech-g-pro-x-superlight-2-se.webp",
-    "badge": "Deal du jour",
+    "badge": "Meilleur vendeur",
     "actif": true,
-    "prix": "180.80",
-    "prixBarre": "199.99",
-    "prixVerifieLe": "2026-04-15",
+    "prix": "199.99",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-04-16",
     "shortDescription_en": "ultra-lightweight wireless gaming mouse 60 g — 5 programmable buttons, professional quality, available en red.",
     "shortDescription_es": "ratón gaming inalámbrico ultraligero 60 g — 5 botones programables, calidad profesional, disponible en rojo.",
     "shortDescription_ar": "فأرة ألعاب لاسلكية خفيفة جداً 60 g — 5 أزرار قابلة للبرمجة, جودة احترافية, متاح en أحمر.",
@@ -257,9 +257,9 @@
     "image": "/images/products/logitech-g305-lightspeed.webp",
     "badge": "Deal du jour",
     "actif": true,
-    "prix": "65.59",
+    "prix": "61.99",
     "prixBarre": "69.99",
-    "prixVerifieLe": "2026-04-15",
+    "prixVerifieLe": "2026-04-16",
     "shortDescription_en": "gaming mouse wireless lightweight — 6 programmable buttons, 250h battery life, built-in memory, optical sensors.",
     "shortDescription_es": "ratón gaming inalámbrico ligero — 6 botones programables, autonomía 250h, memoria integrada, sensores ópticos.",
     "shortDescription_ar": "فأرة الألعاب لاسلكي خفيف الوزن — 6 أزرار قابلة للبرمجة, عمر بطارية 250 ساعة, ذاكرة مدمجة, مستشعرات بصرية.",
@@ -903,7 +903,7 @@
     "actif": true,
     "prix": "73.98",
     "prixBarre": "",
-    "prixVerifieLe": "2026-04-15"
+    "prixVerifieLe": "2026-04-16"
   },
   {
     "slug": "steelseries-rival-3-gen-2-filaire",
@@ -926,7 +926,7 @@
     "actif": true,
     "prix": "39.98",
     "prixBarre": "49.99",
-    "prixVerifieLe": "2026-04-15"
+    "prixVerifieLe": "2026-04-16"
   },
   {
     "slug": "steelseries-rival-3-gen-2-sans-fil",
@@ -949,7 +949,7 @@
     "actif": true,
     "prix": "63.68",
     "prixBarre": "79.99",
-    "prixVerifieLe": "2026-04-15"
+    "prixVerifieLe": "2026-04-16"
   },
   {
     "slug": "moniteur-gaming-z-edge-32-incurve",
