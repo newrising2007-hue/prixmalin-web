@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-03",
+  "updated_at": "2026-04-16",
   "note": "Dictionnaire vivant — segments FR → EN/ES/AR/ZH. Toutes les entrées sont vérifiées manuellement. Les entrées générées par LM Studio sont marquées 'verified: false' jusqu'à approbation.",
   "segments": {
     "casque de jeu": {
@@ -3581,6 +3581,230 @@
       "es": "IP68",
       "ar": "IP68",
       "zh": "IP68",
+      "verified": true
+    },
+    "discord": {
+      "en": "Discord",
+      "es": "Discord",
+      "ar": "Discord",
+      "zh": "Discord",
+      "verified": false
+    },
+    "seiren  mini open box": {
+      "en": "Seiren Mini Open Box",
+      "es": "Seiren Mini Open Box",
+      "ar": "Seiren Mini Open Box",
+      "zh": "Seiren Mini Open Box",
+      "verified": false
+    },
+    "seiren v3 mini": {
+      "en": "Seiren V3 Mini",
+      "es": "Seiren V3 Mini",
+      "ar": "Seiren V3 Mini",
+      "zh": "Seiren V3 Mini",
+      "verified": false
+    },
+    "open box": {
+      "en": "Open box",
+      "es": "Open box",
+      "ar": "Open box",
+      "zh": "Open box",
+      "verified": false
+    },
+    "arctis nova pro": {
+      "en": "Arctis Nova Pro",
+      "es": "Arctis Nova Pro",
+      "ar": "Arctis Nova Pro",
+      "zh": "Arctis Nova Pro",
+      "verified": false
+    },
+    "733 lightspeed": {
+      "en": "733 LIGHTSPEED",
+      "es": "733 LIGHTSPEED",
+      "ar": "733 LIGHTSPEED",
+      "zh": "733 LIGHTSPEED",
+      "verified": false
+    },
+    "lightspeed": {
+      "en": "LIGHTSPEED",
+      "es": "LIGHTSPEED",
+      "ar": "LIGHTSPEED",
+      "zh": "LIGHTSPEED",
+      "verified": false
+    },
+    "autonomie 29h, eclairage": {
+      "en": "29h battery life, lighting",
+      "es": "autonomía 29h, iluminación",
+      "ar": "عمر بطارية 29 ساعة، إضاءة",
+      "zh": "29小时续航，灯光",
+      "verified": false
+    },
+    "16,8m couleurs,": {
+      "en": "16.8M colors",
+      "es": "16,8M colores",
+      "ar": "16.8 مليون لون",
+      "zh": "1680万色",
+      "verified": false
+    },
+    "pc,": {
+      "en": "PC",
+      "es": "PC",
+      "ar": "PC",
+      "zh": "PC",
+      "verified": false
+    },
+    "ps5.": {
+      "en": "PS5",
+      "es": "PS5",
+      "ar": "PS5",
+      "zh": "PS5",
+      "verified": false
+    },
+    "jbl quantum 910": {
+      "en": "JBL Quantum 910",
+      "es": "JBL Quantum 910",
+      "ar": "JBL Quantum 910",
+      "zh": "JBL Quantum 910",
+      "verified": false
+    },
+    "son surround 360°, anc, faible latence 2,4 ghz,": {
+      "en": "360° surround sound, ANC, low latency 2.4 GHz",
+      "es": "sonido surround 360°, ANC, baja latencia 2,4 GHz",
+      "ar": " صوت محيطي 360°، ANC، زمن استجابة منخفض 2.4 GHz",
+      "zh": "360°环绕声，ANC，低延迟2.4GHz",
+      "verified": false
+    },
+    "consoles.": {
+      "en": "consoles",
+      "es": "consolas",
+      "ar": "أجهزة الألعاب",
+      "zh": "游戏机",
+      "verified": false
+    },
+    "modes": {
+      "en": "modes",
+      "es": "modos",
+      "ar": "أوضاع",
+      "zh": "模式",
+      "verified": false
+    },
+    "captation, mise": {
+      "en": "capture, tap",
+      "es": "captación, toque",
+      "ar": "التقاط، لمس",
+      "zh": "拾音，触控",
+      "verified": false
+    },
+    "sourdine tactile,": {
+      "en": "tap-to-mute",
+      "es": "silencio táctil",
+      "ar": "كتم الصوت باللمس",
+      "zh": "触控静音",
+      "verified": false
+    },
+    "ps4, mac,": {
+      "en": "PS4, Mac",
+      "es": "PS4, Mac",
+      "ar": "PS4, Mac",
+      "zh": "PS4, Mac",
+      "verified": false
+    },
+    "obs.": {
+      "en": "OBS",
+      "es": "OBS",
+      "ar": "OBS",
+      "zh": "OBS",
+      "verified": false
+    },
+    "elgato": {
+      "en": "Elgato",
+      "es": "Elgato",
+      "ar": "Elgato",
+      "zh": "Elgato",
+      "verified": false
+    },
+    "x": {
+      "en": "X",
+      "es": "X",
+      "ar": "X",
+      "zh": "X",
+      "verified": false
+    },
+    "externe": {
+      "en": "external",
+      "es": "externa",
+      "ar": "خارجية",
+      "zh": "外置",
+      "verified": false
+    },
+    "jusqu'a 4k144,": {
+      "en": "up to 4K144",
+      "es": "hasta 4K144",
+      "ar": "حتى 4K144",
+      "zh": "高达4K144",
+      "verified": false
+    },
+    "ps5,": {
+      "en": "PS5",
+      "es": "PS5",
+      "ar": "PS5",
+      "zh": "PS5",
+      "verified": false
+    },
+    "series, switch 2,": {
+      "en": "Series, Switch 2",
+      "es": "Series, Switch 2",
+      "ar": "Series, Switch 2",
+      "zh": "Series, Switch 2",
+      "verified": false
+    },
+    "twitch,": {
+      "en": "Twitch",
+      "es": "Twitch",
+      "ar": "Twitch",
+      "zh": "Twitch",
+      "verified": false
+    },
+    "2.1.": {
+      "en": "2.1",
+      "es": "2.1",
+      "ar": "2.1",
+      "zh": "2.1",
+      "verified": false
+    },
+    "(60 g), capteur hero 2 44k dpi, autonomie 95 h, recharge usb-c. concue": {
+      "en": "(60 g), HERO 2 44K DPI sensor, 95 h battery life, USB-C charging. Designed",
+      "es": "(60 g), sensor HERO 2 44K DPI, autonomía 95 h, carga USB-C. Diseñada",
+      "ar": "(60 غ)، مستشعر HERO 2 44K DPI، عمر بطارية 95 ساعة، شحن USB-C. مصممة",
+      "zh": "(60克)，HERO 2 44K DPI传感器，续航95小时，USB-C充电。专为",
+      "verified": false
+    },
+    "les pros de l'esport.": {
+      "en": "esport professionals.",
+      "es": "los profesionales del esport.",
+      "ar": "محترفي الرياضات الإلكترونية.",
+      "zh": "电竞职业选手设计。",
+      "verified": false
+    },
+    "capteur": {
+      "en": "sensor",
+      "es": "sensor",
+      "ar": "مستشعر",
+      "zh": "传感器",
+      "verified": true
+    },
+    "autonomie": {
+      "en": "battery life",
+      "es": "autonomía",
+      "ar": "عمر البطارية",
+      "zh": "续航",
+      "verified": true
+    },
+    "recharge": {
+      "en": "charging",
+      "es": "carga",
+      "ar": "شحن",
+      "zh": "充电",
       "verified": true
     }
   }
