@@ -1108,5 +1108,32 @@
     "prixBarre": 319.99,
     "prixVerifieLe": "2026-04-18",
     "lienVerifieLe": "2026-04-18"
+  },
+  {
+    "actif": false,
+    "affiliateLink": "https://www.amazon.ca/dp/B0CXTJTJ62?tag=prixmalin-20",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CXTJTJ62?tag=prixmalin-20",
+    "asin": "B0CXTJTJ62",
+    "badge": "Nouveau",
+    "category": "boitiers",
+    "image": "/images/products/sama-2851a-boitier-atx-gaming-blanc.webp",
+    "lienVerifieLe": "2026-04-19",
+    "prix": 109.99,
+    "prixBarre": null,
+    "prixVerifieLe": "2026-04-19",
+    "shortDescription": "Boîtier PC blanc, panneau verre trempé, idéal pour PC gaming",
+    "shortDescription_ar": "\nهيكل كمبيوتر ATX أبيض مع 4 مراوح ARGB، ألواح زجاج مقسى منحنية ودعم مشعاع 360 ملم.",
+    "shortDescription_en": "White mid-tower ATX case with 4 ARGB fans, curved tempered glass panels and 360mm radiator support.",
+    "shortDescription_es": "Caja ATX torre media blanca con 4 ventiladores ARGB, paneles de vidrio templado curvo y soporte para radiador de 360mm.",
+    "shortDescription_fr": "Boîtier mi-tour ATX blanc avec 4 ventilateurs ARGB, panneaux en verre trempé incurvé et support radiateur 360mm.",
+    "shortDescription_zh": "白色中塔ATX机箱，配备4个ARGB风扇，弧形钢化玻璃侧板，支持360mm水冷排。",
+    "slug": "sama-2851a-boitier-atx-gaming-blanc",
+    "title": "Boîtier moyen SAMA blanc verre trempé",
+    "title_ar": "هيكل كمبيوتر gaming SAMA أبيض زجاج مقسى",
+    "title_en": "PC case gaming SAMA white tempered glass",
+    "title_es": "caja PC gaming SAMA blanco vidrio templado",
+    "title_zh": "机箱 gaming SAMA 白色 钢化玻璃",
+    "dateAjout": "2026-04-19",
+    "translationVerified": false
   }
 ]
