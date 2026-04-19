@@ -1110,7 +1110,7 @@
     "lienVerifieLe": "2026-04-18"
   },
   {
-    "actif": false,
+    "actif": true,
     "affiliateLink": "https://www.amazon.ca/dp/B0CXTJTJ62?tag=prixmalin-20",
     "amazonUrl": "https://www.amazon.ca/dp/B0CXTJTJ62?tag=prixmalin-20",
     "asin": "B0CXTJTJ62",
