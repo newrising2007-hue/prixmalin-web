@@ -12,7 +12,7 @@ import { AppSchema } from "@/components/apps/AppSchema";
 export const metadata: Metadata = {
   title: "PrixMalin — Application Android",
   description:
-    "PrixMalin est un outil de recherche de produits local et web au Canada. Version Google Play bientôt disponible.",
+    "PrixMalin est un outil de recherche de produits local et web au Canada. Disponible sur Google Play.",
   alternates: {
     canonical: absoluteUrl("/applications/prixmalin"),
     languages: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PrixMalin — Application Android",
     description:
-      "Outil de recherche de produits local et web au Canada. Google Play bientôt.",
+      "Outil de recherche de produits local et web au Canada. Disponible sur Google Play.",
     url: absoluteUrl("/applications/prixmalin"),
     type: "website",
   },

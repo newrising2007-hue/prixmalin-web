@@ -134,7 +134,7 @@ export function AppHero({ lang }: { lang: "fr" | "en" | "es" | "ar" | "zh" }) {
             </AppButton>
           </div>
 
-          <p className="mt-3 text-sm text-black/60">{c.googlePlaySoon}</p>
+          {release !== "play" && <p className="mt-3 text-sm text-black/60">{c.googlePlaySoon}</p>}
 
           <div className="mt-4 flex flex-wrap gap-3 text-xs text-black/70">
             <span className="rounded-lg border border-black/10 bg-white px-3 py-2">
