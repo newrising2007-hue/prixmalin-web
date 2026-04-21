@@ -81,7 +81,7 @@ export default function Page() {
             <div className="text-sm text-gray-500">Online + rétro NES/SNES</div>
             <div className="mt-2 text-lg font-bold text-gray-900">24,99 $</div>
             <a
-              href="https://www.amazon.ca/dp/B08VKL6C5H?tag=prixmalin-20"
+              href="https://www.amazon.ca/dp/B08VKL6C5H?tag=prixmalin20-20"
               target="_blank"
               rel="nofollow sponsored noopener"
               className={`mt-4 ${AFFILIATE_BTN}`}
@@ -98,7 +98,7 @@ export default function Page() {
             <div className="text-sm text-gray-500">N64 + GBA + DLC</div>
             <div className="mt-2 text-lg font-bold text-gray-900">59,99 $</div>
             <a
-              href="https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack+12+mois&tag=prixmalin-20"
+              href="https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack+12+mois&tag=prixmalin20-20"
               target="_blank"
               rel="nofollow sponsored noopener"
               className={`mt-4 ${AFFILIATE_BTN}`}
@@ -132,7 +132,7 @@ export default function Page() {
               <li>Sauvegarde cloud</li>
             </ul>
             <a
-              href="https://www.amazon.ca/dp/B08VKL6C5H?tag=prixmalin-20"
+              href="https://www.amazon.ca/dp/B08VKL6C5H?tag=prixmalin20-20"
               target="_blank"
               rel="nofollow sponsored noopener"
               className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
@@ -152,7 +152,7 @@ export default function Page() {
               <li>DLC bonus</li>
             </ul>
             <a
-              href="https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack&tag=prixmalin-20"
+              href="https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack&tag=prixmalin20-20"
               target="_blank"
               rel="nofollow sponsored noopener"
               className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700"
@@ -181,7 +181,7 @@ export default function Page() {
           <li>
             Tu peux aussi acheter une{" "}
             <a
-              href="https://www.amazon.ca/dp/B08M8LLCPT?tag=prixmalin-20"
+              href="https://www.amazon.ca/dp/B08M8LLCPT?tag=prixmalin20-20"
               target="_blank"
               rel="nofollow sponsored noopener"
               className="font-semibold underline underline-offset-4"

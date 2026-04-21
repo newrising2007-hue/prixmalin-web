@@ -6,7 +6,7 @@
     "currency": "CAD",
     "platform": "PlayStation",
     "image": "/images/deals/playstation.webp",
-    "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+Premium+12+mois&tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+Premium+12+mois&tag=prixmalin20-20",
     "availability": "OutOfStock"
   },
   {
@@ -16,7 +16,7 @@
     "currency": "CAD",
     "platform": "PlayStation",
     "image": "/images/deals/playstation.webp",
-    "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+3+mois&tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+3+mois&tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -26,7 +26,7 @@
     "currency": "CAD",
     "platform": "PlayStation",
     "image": "/images/deals/playstation.webp",
-    "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+1+mois&tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+1+mois&tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -36,7 +36,7 @@
     "currency": "CAD",
     "platform": "PlayStation",
     "image": "/images/deals/psn-gift-card-50.webp",
-    "affiliateUrl": "https://www.amazon.ca/dp/B00GAC1D2G?tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/dp/B00GAC1D2G?tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -46,7 +46,7 @@
     "currency": "CAD",
     "platform": "PlayStation",
     "image": "/images/deals/psn-gift-card-50.webp",
-    "affiliateUrl": "https://www.amazon.ca/dp/B08VKP158Q?tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/dp/B08VKP158Q?tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -56,7 +56,7 @@
     "currency": "CAD",
     "platform": "PlayStation",
     "image": "/images/deals/psn-gift-card-100.webp",
-    "affiliateUrl": "https://www.amazon.ca/dp/B08VLFW3M2?tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/dp/B08VLFW3M2?tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -66,7 +66,7 @@
     "currency": "CAD",
     "platform": "Xbox",
     "image": "/images/deals/xbox-game-pass-ultimate-3m.webp",
-    "affiliateUrl": "https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -76,7 +76,7 @@
     "currency": "CAD",
     "platform": "Xbox",
     "image": "/images/deals/xbox-game-pass-ultimate-1m.webp",
-    "affiliateUrl": "https://www.amazon.ca/dp/B08M8WSRX9?tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/dp/B08M8WSRX9?tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -86,7 +86,7 @@
     "currency": "CAD",
     "platform": "Xbox",
     "image": "/images/deals/xbox-gift-card-50.webp",
-    "affiliateUrl": "https://www.amazon.ca/dp/B08M7JPPQ2?tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/dp/B08M7JPPQ2?tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -96,7 +96,7 @@
     "currency": "CAD",
     "platform": "Xbox",
     "image": "/images/deals/xbox-gift-card-50.webp",
-    "affiliateUrl": "https://www.amazon.ca/s?k=carte+cadeau+xbox+25+canada&tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/s?k=carte+cadeau+xbox+25+canada&tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -106,7 +106,7 @@
     "currency": "CAD",
     "platform": "Nintendo",
     "image": "/images/deals/nintendo-switch-online-12m.webp",
-    "affiliateUrl": "https://www.amazon.ca/dp/B08VKL6C5H?tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/dp/B08VKL6C5H?tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -116,7 +116,7 @@
     "currency": "CAD",
     "platform": "Nintendo",
     "image": "/images/deals/nintendo-switch-online-12m.webp",
-    "affiliateUrl": "https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack+12+mois&tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/s?k=nintendo+switch+online+expansion+pack+12+mois&tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -126,7 +126,7 @@
     "currency": "CAD",
     "platform": "Nintendo",
     "image": "/images/deals/nintendo.webp",
-    "affiliateUrl": "https://www.amazon.ca/dp/B08M8LLCPT?tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/dp/B08M8LLCPT?tag=prixmalin20-20",
     "availability": "InStock"
   },
   {
@@ -136,7 +136,7 @@
     "currency": "CAD",
     "platform": "Nintendo",
     "image": "/images/deals/nintendo.webp",
-    "affiliateUrl": "https://www.amazon.ca/s?k=carte+nintendo+eshop+35+canada&tag=prixmalin-20",
+    "affiliateUrl": "https://www.amazon.ca/s?k=carte+nintendo+eshop+35+canada&tag=prixmalin20-20",
     "availability": "InStock"
   }
 ]

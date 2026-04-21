@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-16",
+  "updated_at": "2026-04-20",
   "note": "Dictionnaire vivant — segments FR → EN/ES/AR/ZH. Toutes les entrées sont vérifiées manuellement. Les entrées générées par LM Studio sont marquées 'verified: false' jusqu'à approbation.",
   "segments": {
     "casque de jeu": {
@@ -1526,6 +1526,24 @@
       "es": "torre ATX",
       "ar": "برج ATX",
       "zh": "ATX机箱"
+    },
+    "moyen": {
+      "en": "mid",
+      "es": "medio",
+      "ar": "متوسط",
+      "zh": "中塔"
+    },
+    "gaming": {
+      "en": "gaming",
+      "es": "gaming",
+      "ar": "gaming",
+      "zh": "gaming"
+    },
+    "panneau": {
+      "en": "panel",
+      "es": "panel",
+      "ar": "لوحة",
+      "zh": "面板"
     },
     "verre trempé": {
       "en": "tempered glass",
@@ -3806,6 +3824,20 @@
       "ar": "شحن",
       "zh": "充电",
       "verified": true
+    },
+    "preinstalles,": {
+      "en": "pre-installed",
+      "es": "preinstalados",
+      "ar": "مثبتة مسبقاً",
+      "zh": "预装",
+      "verified": false
+    },
+    "haute performance.": {
+      "en": "high performance",
+      "es": "alto rendimiento",
+      "ar": "أداء عالٍ",
+      "zh": "高性能",
+      "verified": false
     }
   }
 }

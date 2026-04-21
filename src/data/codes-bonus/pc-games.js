@@ -1,7 +1,7 @@
 // src/data/codes-bonus/pc-games.js
 
 const TODAY = "2026-02-21";
-const AMAZON_TAG = "prixmalin-20";
+const AMAZON_TAG = "prixmalin20-20";
 
 function amazonSearch(query) {
   return `https://www.amazon.ca/s?k=${encodeURIComponent(query)}&tag=${AMAZON_TAG}`;

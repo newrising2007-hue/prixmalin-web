@@ -57,7 +57,7 @@ export default function Page() {
             <div className="font-semibold">PS Plus — 1 mois</div>
             <div className="text-sm text-gray-500">Online + jeux mensuels</div>
             <div className="mt-2 text-lg font-bold text-gray-900">19,99 $</div>
-            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+1+mois&tag=prixmalin-20" target="_blank" rel="nofollow sponsored noopener" className={`mt-4 ${AFFILIATE_BTN}`}>
+            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+1+mois&tag=prixmalin20-20" target="_blank" rel="nofollow sponsored noopener" className={`mt-4 ${AFFILIATE_BTN}`}>
               Voir l&apos;offre →
             </a>
           </div>
@@ -66,7 +66,7 @@ export default function Page() {
             <div className="font-semibold">PS Plus — 3 mois</div>
             <div className="text-sm text-gray-500">Online + jeux mensuels</div>
             <div className="mt-2 text-lg font-bold text-gray-900">44,99 $</div>
-            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+3+mois&tag=prixmalin-20" target="_blank" rel="nofollow sponsored noopener" className={`mt-4 ${AFFILIATE_BTN}`}>
+            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+3+mois&tag=prixmalin20-20" target="_blank" rel="nofollow sponsored noopener" className={`mt-4 ${AFFILIATE_BTN}`}>
               Voir l&apos;offre →
             </a>
           </div>
@@ -78,7 +78,7 @@ export default function Page() {
             </div>
             <div className="text-sm text-gray-500">Cloud + rétro + catalogue</div>
             <div className="mt-2 text-lg font-bold text-gray-900">139,99 $</div>
-            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+Premium+12+mois&tag=prixmalin-20" target="_blank" rel="nofollow sponsored noopener" className={`mt-4 ${AFFILIATE_BTN}`}>
+            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+Premium+12+mois&tag=prixmalin20-20" target="_blank" rel="nofollow sponsored noopener" className={`mt-4 ${AFFILIATE_BTN}`}>
               Voir l&apos;offre →
             </a>
           </div>
@@ -103,7 +103,7 @@ export default function Page() {
               <li>Jeux mensuels</li>
               <li>Réductions PlayStation Store</li>
             </ul>
-            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+Essential&tag=prixmalin-20" target="_blank" rel="nofollow sponsored noopener"
+            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+Essential&tag=prixmalin20-20" target="_blank" rel="nofollow sponsored noopener"
               className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700">
               Voir sur Amazon.ca →
             </a>
@@ -117,7 +117,7 @@ export default function Page() {
               <li>Catalogue PS4/PS5</li>
               <li>Idéal si tu joues souvent</li>
             </ul>
-            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+Extra&tag=prixmalin-20" target="_blank" rel="nofollow sponsored noopener"
+            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+Extra&tag=prixmalin20-20" target="_blank" rel="nofollow sponsored noopener"
               className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700">
               Voir sur Amazon.ca →
             </a>
@@ -131,7 +131,7 @@ export default function Page() {
               <li>Cloud gaming</li>
               <li>Rétro / essais de jeux</li>
             </ul>
-            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+Premium+12+mois&tag=prixmalin-20" target="_blank" rel="nofollow sponsored noopener"
+            <a href="https://www.amazon.ca/s?k=PlayStation+Plus+Premium+12+mois&tag=prixmalin20-20" target="_blank" rel="nofollow sponsored noopener"
               className="mt-4 mt-auto inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700">
               Voir sur Amazon.ca →
             </a>

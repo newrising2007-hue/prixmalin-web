@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   const affiliateUrl =
-    "https://www.amazon.ca/dp/B0XXXX?tag=prixmalin-20";
+    "https://www.amazon.ca/dp/B0XXXX?tag=prixmalin20-20";
 
   const productSchema = {
     "@context": "https://schema.org",

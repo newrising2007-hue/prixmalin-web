@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   const affiliateUrl =
-    "https://www.amazon.ca/dp/B0XXXX?tag=prixmalin-20";
+    "https://www.amazon.ca/dp/B0XXXX?tag=prixmalin20-20";
 
   return (
     <main className="mx-auto max-w-3xl space-y-8 px-4 py-8">

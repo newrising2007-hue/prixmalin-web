@@ -15,7 +15,7 @@ export default function AmazonAffiliateBlock({
   max = 3,
   title = "🛒 Offres Amazon (liens affiliés)",
   subtitle = "Liens traçables Amazon. Aucun coût supplémentaire pour toi.",
-  tagLabel = "Tag : prixmalin-20",
+  tagLabel = "Tag : prixmalin20-20",
   className = "",
 }: Props) {
   const items = Array.isArray(deals) ? deals.filter(Boolean).slice(0, Math.max(0, max)) : [];

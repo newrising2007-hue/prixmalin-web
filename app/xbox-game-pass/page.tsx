@@ -84,7 +84,7 @@ export default function XboxGamePassPage() {
             <div className="text-sm text-gray-500">Console + PC + Cloud</div>
             <div className="mt-2 text-lg font-bold text-gray-900">49,99 $</div>
             <a
-              href="https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin-20"
+              href="https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin20-20"
               target="_blank"
               rel="nofollow sponsored noopener"
               className={`mt-4 ${AFFILIATE_BTN}`}
@@ -98,7 +98,7 @@ export default function XboxGamePassPage() {
             <div className="text-sm text-gray-500">Console + PC + Cloud</div>
             <div className="mt-2 text-lg font-bold text-gray-900">19,99 $</div>
             <a
-              href="https://www.amazon.ca/dp/B08M8WSRX9?tag=prixmalin-20"
+              href="https://www.amazon.ca/dp/B08M8WSRX9?tag=prixmalin20-20"
               target="_blank"
               rel="nofollow sponsored noopener"
               className={`mt-4 ${AFFILIATE_BTN}`}
@@ -124,7 +124,7 @@ export default function XboxGamePassPage() {
           <div className="rounded-xl border p-5 flex flex-col">
             <h3 className="text-base font-semibold">Ultimate</h3>
             <p className="mt-2 text-sm text-gray-600">L&apos;option la plus complète : console + PC + cloud, avec avantages inclus.</p>
-            <a href="https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin-20" target="_blank" rel="nofollow sponsored noopener"
+            <a href="https://www.amazon.ca/dp/B08M7HPLXS?tag=prixmalin20-20" target="_blank" rel="nofollow sponsored noopener"
               className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700">
               Voir sur Amazon.ca →
             </a>
@@ -132,7 +132,7 @@ export default function XboxGamePassPage() {
           <div className="rounded-xl border p-5 flex flex-col">
             <h3 className="text-base font-semibold">Core</h3>
             <p className="mt-2 text-sm text-gray-600">Pour jouer en ligne et accéder à une sélection de jeux (catalogue réduit).</p>
-            <a href="https://www.amazon.ca/s?k=xbox+game+pass+core+canada&tag=prixmalin-20" target="_blank" rel="nofollow sponsored noopener"
+            <a href="https://www.amazon.ca/s?k=xbox+game+pass+core+canada&tag=prixmalin20-20" target="_blank" rel="nofollow sponsored noopener"
               className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700">
               Voir sur Amazon.ca →
             </a>
@@ -140,7 +140,7 @@ export default function XboxGamePassPage() {
           <div className="rounded-xl border p-5 flex flex-col">
             <h3 className="text-base font-semibold">PC Game Pass</h3>
             <p className="mt-2 text-sm text-gray-600">Idéal si tu joues surtout sur PC. Catalogue dédié, souvent très bon rapport qualité/prix.</p>
-            <a href="https://www.amazon.ca/s?k=pc+game+pass+canada&tag=prixmalin-20" target="_blank" rel="nofollow sponsored noopener"
+            <a href="https://www.amazon.ca/s?k=pc+game+pass+canada&tag=prixmalin20-20" target="_blank" rel="nofollow sponsored noopener"
               className="mt-4 inline-flex text-sm font-semibold text-blue-700 underline decoration-blue-200 underline-offset-4 hover:decoration-blue-700">
               Voir sur Amazon.ca →
             </a>

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const AMAZON_TAG = 'prixmalin-20';
+const AMAZON_TAG = 'prixmalin20-20';
 
 // ── TRADUCTION FR → EN ──
 const FR_TO_EN: Record<string, string> = {

@@ -2,7 +2,7 @@
 import { SITE } from "@/lib/site";
 
 const AMAZON_CA_HOST = "www.amazon.ca";
-const AMAZON_TAG = "prixmalin-20";
+const AMAZON_TAG = "prixmalin20-20";
 
 function safeEncode(v: string): string {
   return encodeURIComponent(v).replace(/%20/g, "+");
