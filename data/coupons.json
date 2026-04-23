@@ -12,7 +12,7 @@
       "discount": "10%",
       "expiry": "2026-03-31",
       "verified": true,
-      "actif": true,
+      "actif": false,
       "description_es": "10% de descuento en electrónica",
       "description_ar": "خصم 10% على الإلكترونيات",
       "description_zh": "电子产品9折优惠"
@@ -67,6 +67,57 @@
       "description_es": "5% de descuento en tu primer pedido en línea",
       "description_ar": "خصم 5% على أول طلب عبر الإنترنت",
       "description_zh": "首次在线订单享受9.5折优惠"
+    },
+    {
+      "id": "sport-chek-newsletter",
+      "store": "Sport Chek",
+      "logo": "🏃",
+      "code": "NEWSLETTER10",
+      "description": "10% de rabais sur votre première commande — inscription infolettre requise",
+      "description_en": "10% off your first order — newsletter signup required",
+      "description_es": "10% de descuento en tu primer pedido — requiere registro",
+      "description_ar": "خصم 10% على أول طلب — يتطلب الاشتراك في النشرة",
+      "description_zh": "首次订单9折 — 需订阅电子报",
+      "url": "https://www.sportchek.ca",
+      "category": "sport",
+      "discount": "10%",
+      "expiry": "2026-12-31",
+      "verified": true,
+      "actif": true
+    },
+    {
+      "id": "fanatical-sitewide",
+      "store": "Fanatical",
+      "logo": "🎮",
+      "code": "FANATICAL15",
+      "description": "15% de rabais sur les jeux PC (clés Steam officielles)",
+      "description_en": "15% off PC games (official Steam keys)",
+      "description_es": "15% de descuento en juegos PC (claves Steam oficiales)",
+      "description_ar": "خصم 15% على ألعاب PC (مفاتيح Steam الرسمية)",
+      "description_zh": "PC游戏85折（官方Steam密钥）",
+      "url": "https://www.fanatical.com",
+      "category": "electro",
+      "discount": "15%",
+      "expiry": "2026-12-31",
+      "verified": true,
+      "actif": true
+    },
+    {
+      "id": "fanatical-omen",
+      "store": "Fanatical",
+      "logo": "🎮",
+      "code": "OMENVIP",
+      "description": "10% de rabais supplémentaire sur tous les jeux PC",
+      "description_en": "Extra 10% off all PC games",
+      "description_es": "10% adicional de descuento en todos los juegos PC",
+      "description_ar": "خصم إضافي 10% على جميع ألعاب PC",
+      "description_zh": "所有PC游戏额外9折",
+      "url": "https://www.fanatical.com",
+      "category": "electro",
+      "discount": "10%",
+      "expiry": "2026-05-31",
+      "verified": true,
+      "actif": true
     }
   ]
 }
