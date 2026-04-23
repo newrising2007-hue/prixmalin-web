@@ -211,7 +211,7 @@ export async function GET(request: NextRequest) {
   if (lat && lng) {
     try {
       const backendUrl = `https://prixmalin-backend.onrender.com/api/search?q=${encodeURIComponent(query)}&cat=${category}&lat=${lat}&lng=${lng}`;
-      const res = await fetch(backendUrl, { signal: AbortSignal.timeout(3000) });
+      const res = await fetch(backendUrl, { signal: AbortSignal.timeout(8000) });
       if (res.ok) {
         const data = await res.json();
         localResults = data.results || [];
