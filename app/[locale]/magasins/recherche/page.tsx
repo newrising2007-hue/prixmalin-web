@@ -42,6 +42,11 @@ function RechercheContent() {
   const [gpsStatus, setGpsStatus] = useState<'idle' | 'asking' | 'granted' | 'denied'>('idle');
   const [userCity, setUserCity] = useState<string>('');
 
+  // Wake-up ping — réveille Render dès l'arrivée sur la page
+  useEffect(() => {
+    fetch('https://prixmalin-backend.onrender.com/health').catch(() => {});
+  }, []);
+
   useEffect(() => {
     if (!query.trim()) return;
     setSearch(query);
