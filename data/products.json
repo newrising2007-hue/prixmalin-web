@@ -216,7 +216,7 @@
     "badge": "",
     "actif": true,
     "prix": 84.98,
-    "prixBarre": null,
+    "prixBarre": "",
     "prixVerifieLe": "2026-04-24",
     "shortDescription_en": "wireless Xbox Core controller — USB-C cable included, compatible Series X|S, Xbox One, Windows PC, Android and iOS.",
     "shortDescription_es": "mando Xbox Core inalámbrico — cable USB-C incluido, compatible Series X|S, Xbox One, Windows PC, Android y iOS.",
@@ -823,7 +823,7 @@
     "actif": true,
     "prix": 37.99,
     "prixBarre": "",
-    "prixVerifieLe": "2026-04-18",
+    "prixVerifieLe": "2026-04-24",
     "lienVerifieLe": "2026-04-24",
     "translationVerified": true
   },
@@ -844,8 +844,8 @@
     "image": "/images/products/nintendo-switch-pro-controller.webp",
     "badge": "Meilleur vendeur",
     "actif": true,
-    "prix": 94.99,
-    "prixBarre": 99.96,
+    "prix": "99.96",
+    "prixBarre": "",
     "prixVerifieLe": "2026-04-24",
     "lienVerifieLe": "2026-04-24",
     "translationVerified": true
@@ -871,7 +871,7 @@
     "actif": true,
     "prix": 109.96,
     "prixBarre": "",
-    "prixVerifieLe": "2026-04-18",
+    "prixVerifieLe": "2026-04-24",
     "lienVerifieLe": "2026-04-24",
     "translationVerified": true
   },
