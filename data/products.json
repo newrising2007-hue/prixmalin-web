@@ -492,7 +492,7 @@
     "badge": "Deal du jour",
     "actif": true,
     "prix": 143.97,
-    "prixBarre": 169.99,
+    "prixBarre": "259.99",
     "prixVerifieLe": "2026-04-25",
     "shortDescription_en": "ergonomic high back with adjustable lumbar support and headrest.",
     "shortDescription_es": "ergonómico respaldo alto con soporte lumbar ajustable y reposacabezas.",
