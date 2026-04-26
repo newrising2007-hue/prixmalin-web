@@ -375,7 +375,7 @@
     "category": "video",
     "image": "/images/products/elgato-game-capture-neo.webp",
     "badge": "Meilleur vendeur",
-    "actif": false,
+    "actif": true,
     "prix": 164.99,
     "prixBarre": "",
     "prixVerifieLe": "2026-04-26",
