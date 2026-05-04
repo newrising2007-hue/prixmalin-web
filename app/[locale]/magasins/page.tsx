@@ -22,15 +22,7 @@ export default function MagasinsPage() {
       gradient: "from-emerald-400/20 to-teal-500/10",
       border: "border-emerald-200 hover:border-emerald-400",
     },
-    {
-      icon: "✂️",
-      label: t("coupons_label"),
-      desc: t("coupons_desc"),
-      href: locale === "fr" ? "/magasins/coupons" : `/${locale}/magasins/coupons`,
-      glow: "rgba(52,211,153,0.5)",
-      gradient: "from-green-300/20 to-emerald-400/10",
-      border: "border-green-200 hover:border-green-400",
-    },
+
     {
       icon: "🍽️",
       label: t("restaurants_label"),
@@ -39,6 +31,15 @@ export default function MagasinsPage() {
       glow: "rgba(5,150,105,0.5)",
       gradient: "from-teal-400/20 to-green-500/10",
       border: "border-teal-200 hover:border-teal-400",
+    },
+    {
+      icon: "🛒",
+      label: t("epicerie_label"),
+      desc: t("epicerie_desc"),
+      href: locale === "fr" ? "/epicerie" : `/${locale}/epicerie`,
+      glow: "rgba(16,185,129,0.5)",
+      gradient: "from-green-400/20 to-emerald-500/10",
+      border: "border-green-200 hover:border-green-400",
     },
   ];
 

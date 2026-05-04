@@ -219,7 +219,9 @@
       "annuler": "✕",
       "voir_circulaire": "نشرة →"
     },
-    "adblock": "🔊 يعيش هذا الموقع بفضل شركائنا التابعين — تعطيل Adblock على PrixMalin لا يكلف شيئاً ويساعدنا كثيراً. شكراً! 💙"
+    "adblock": "🔊 يعيش هذا الموقع بفضل شركائنا التابعين — تعطيل Adblock على PrixMalin لا يكلف شيئاً ويساعدنا كثيراً. شكراً! 💙",
+    "epicerie_label": "البقالة",
+    "epicerie_desc": "أفضل أسعار البقالة هذا الأسبوع — IGA وMetro وWalmart والمزيد"
   },
   "restaurants": {
     "hero_titre": "المطاعم",
@@ -437,5 +439,20 @@
       "sam": "السب",
       "dim": "الأح"
     }
+  },
+  "epicerie": {
+    "titre": "عروض",
+    "accent": "هذا الأسبوع",
+    "desc": "أفضل الأسعار — IGA وMaxi وMetro وWalmart والمزيد",
+    "toutes_regions": "كل المناطق",
+    "region_label": "المنطقة",
+    "tous_marchands": "كل المتاجر",
+    "toutes_cats": "كل الفئات",
+    "mise_a_jour": "تم التحديث في",
+    "valide_jusqua": "صالح حتى",
+    "voir_tout": "عرض الكل",
+    "aucun_resultat": "لا نتائج لهذا الاختيار",
+    "retour": "→ العودة",
+    "adblock": "🔊 يعيش هذا الموقع بفضل شركائنا. شكراً! 💙"
   }
 }

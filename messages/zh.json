@@ -219,7 +219,9 @@
       "annuler": "✕",
       "voir_circulaire": "传单 →"
     },
-    "adblock": "🔊 本网站依靠联盟合作伙伴运营 — 在PrixMalin上禁用Adblock不花任何费用，对我们帮助极大。谢谢！💙"
+    "adblock": "🔊 本网站依靠联盟合作伙伴运营 — 在PrixMalin上禁用Adblock不花任何费用，对我们帮助极大。谢谢！💙",
+    "epicerie_label": "超市",
+    "epicerie_desc": "本周最佳超市价格 — IGA、Metro、Walmart 等"
   },
   "restaurants": {
     "hero_titre": "餐厅",
@@ -437,5 +439,20 @@
       "sam": "周六",
       "dim": "周日"
     }
+  },
+  "epicerie": {
+    "titre": "优惠",
+    "accent": "本周",
+    "desc": "最优惠价格 — IGA、Maxi、Metro、Walmart 等",
+    "toutes_regions": "所有地区",
+    "region_label": "地区",
+    "tous_marchands": "所有商店",
+    "toutes_cats": "所有分类",
+    "mise_a_jour": "更新于",
+    "valide_jusqua": "有效期至",
+    "voir_tout": "查看全部",
+    "aucun_resultat": "没有符合条件的结果",
+    "retour": "← 返回",
+    "adblock": "🔊 本站依靠联盟合作伙伴运营。谢谢支持！💙"
   }
 }

@@ -219,7 +219,9 @@
       "annuler": "✕",
       "voir_circulaire": "Flyer →"
     },
-    "adblock": "🔊 This site lives thanks to our affiliate partners — disabling Adblock on PrixMalin costs nothing and helps us enormously. Thank you! 💙"
+    "adblock": "🔊 This site lives thanks to our affiliate partners — disabling Adblock on PrixMalin costs nothing and helps us enormously. Thank you! 💙",
+    "epicerie_label": "Grocery",
+    "epicerie_desc": "Best grocery prices this week — IGA, Metro, Walmart and more"
   },
   "restaurants": {
     "hero_titre": "Restaurants",
@@ -437,5 +439,20 @@
       "sam": "Sat",
       "dim": "Sun"
     }
+  },
+  "epicerie": {
+    "titre": "Deals",
+    "accent": "This week",
+    "desc": "Best grocery prices — IGA, Maxi, Metro, Walmart and more",
+    "toutes_regions": "All regions",
+    "region_label": "Region",
+    "tous_marchands": "All stores",
+    "toutes_cats": "All categories",
+    "mise_a_jour": "Updated on",
+    "valide_jusqua": "Valid until",
+    "voir_tout": "See all",
+    "aucun_resultat": "No results for this selection",
+    "retour": "← Back to Shopping",
+    "adblock": "🔊 This site lives thanks to our affiliate partners — disabling Adblock on PrixMalin costs nothing and helps us enormously. Thank you! 💙"
   }
 }

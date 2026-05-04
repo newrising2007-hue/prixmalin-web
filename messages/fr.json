@@ -219,7 +219,9 @@
       "annuler": "✕",
       "voir_circulaire": "Circulaire →"
     },
-    "adblock": "🔊 Ce site vit grâce à nos partenaires affiliés — désactiver Adblock sur PrixMalin ne coûte rien et nous aide énormément. Merci! 💙"
+    "adblock": "🔊 Ce site vit grâce à nos partenaires affiliés — désactiver Adblock sur PrixMalin ne coûte rien et nous aide énormément. Merci! 💙",
+    "epicerie_label": "Épicerie",
+    "epicerie_desc": "Meilleurs prix épicerie cette semaine — IGA, Metro, Walmart et plus"
   },
   "restaurants": {
     "hero_titre": "Restaurants",
@@ -437,5 +439,20 @@
       "sam": "Sam",
       "dim": "Dim"
     }
+  },
+  "epicerie": {
+    "titre": "Aubaines",
+    "accent": "Cette semaine",
+    "desc": "Meilleurs prix épicerie — IGA, Maxi, Metro, Walmart et plus",
+    "toutes_regions": "Toutes les régions",
+    "region_label": "Région",
+    "tous_marchands": "Tous les marchands",
+    "toutes_cats": "Toutes les catégories",
+    "mise_a_jour": "Mis à jour le",
+    "valide_jusqua": "Valide jusqu'au",
+    "voir_tout": "Voir tout",
+    "aucun_resultat": "Aucun résultat pour cette sélection",
+    "retour": "← Retour Magasinage",
+    "adblock": "🔊 Ce site vit grâce à nos partenaires affiliés — désactiver Adblock sur PrixMalin ne coûte rien et nous aide énormément. Merci! 💙"
   }
 }

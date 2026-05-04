@@ -10,13 +10,13 @@ type Locale = "fr" | "en" | "es" | "ar" | "zh";
 const NAV_TEXT: Record<Locale, {
   home: string; gaming: string; shopping: string; deals: string; products: string;
   apps: string; bonus: string; contact: string;
-  search: string; flyers: string; restaurants: string; coupons: string; shopBtn: string;
+  search: string; flyers: string; restaurants: string; epicerie: string; shopBtn: string;
 }> = {
-  fr: { home: "Accueil", gaming: "Gaming", shopping: "Magasinage", deals: "Deals", products: "Produits", apps: "Applications", bonus: "Codes bonus", contact: "Contact", search: "Recherche", flyers: "Circulaires", restaurants: "Restaurants", coupons: "Coupons", shopBtn: "Magasiner" },
-  en: { home: "Home", gaming: "Gaming", shopping: "Shopping", deals: "Deals", products: "Products", apps: "Apps", bonus: "Bonus Codes", contact: "Contact", search: "Search", flyers: "Flyers", restaurants: "Restaurants", coupons: "Coupons", shopBtn: "Shop" },
-  es: { home: "Inicio", gaming: "Gaming", shopping: "Tiendas", deals: "Ofertas", products: "Productos", apps: "Aplicaciones", bonus: "Códigos bonus", contact: "Contacto", search: "Búsqueda", flyers: "Folletos", restaurants: "Restaurantes", coupons: "Cupones", shopBtn: "Comprar" },
-  ar: { home: "الرئيسية", gaming: "ألعاب", shopping: "تسوق", deals: "عروض", products: "منتجات", apps: "تطبيقات", bonus: "رموز المكافآت", contact: "اتصل", search: "بحث", flyers: "نشرات", restaurants: "مطاعم", coupons: "كوبونات", shopBtn: "تسوق" },
-  zh: { home: "首页", gaming: "游戏", shopping: "购物", deals: "优惠", products: "产品", apps: "应用", bonus: "奖励码", contact: "联系", search: "搜索", flyers: "传单", restaurants: "餐厅", coupons: "优惠券", shopBtn: "购物" },
+  fr: { home: "Accueil", gaming: "Gaming", shopping: "Magasinage", deals: "Deals", products: "Produits", apps: "Applications", bonus: "Codes bonus", contact: "Contact", search: "Recherche", flyers: "Circulaires", restaurants: "Restaurants", epicerie: "Épicerie", shopBtn: "Magasiner" },
+  en: { home: "Home", gaming: "Gaming", shopping: "Shopping", deals: "Deals", products: "Products", apps: "Apps", bonus: "Bonus Codes", contact: "Contact", search: "Search", flyers: "Flyers", restaurants: "Restaurants", epicerie: "Épicerie", shopBtn: "Shop" },
+  es: { home: "Inicio", gaming: "Gaming", shopping: "Tiendas", deals: "Ofertas", products: "Productos", apps: "Aplicaciones", bonus: "Códigos bonus", contact: "Contacto", search: "Búsqueda", flyers: "Folletos", restaurants: "Restaurantes", epicerie: "Epicería", shopBtn: "Comprar" },
+  ar: { home: "الرئيسية", gaming: "ألعاب", shopping: "تسوق", deals: "عروض", products: "منتجات", apps: "تطبيقات", bonus: "رموز المكافآت", contact: "اتصل", search: "بحث", flyers: "نشرات", restaurants: "مطاعم", epicerie: "البقالة", shopBtn: "تسوق" },
+  zh: { home: "首页", gaming: "游戏", shopping: "购物", deals: "优惠", products: "产品", apps: "应用", bonus: "奖励码", contact: "联系", search: "搜索", flyers: "传单", restaurants: "餐厅", epicerie: "杂货", shopBtn: "购物" },
 };
 
 const FOOTER_TEXT: Record<string, string> = {
@@ -110,8 +110,8 @@ export default function LayoutChrome({
               <Link href={locale === "fr" ? "/magasins/restaurants" : `/${locale}/magasins/restaurants`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
                 {t.restaurants}
               </Link>
-              <Link href={locale === "fr" ? "/magasins/coupons" : `/${locale}/magasins/coupons`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
-                {t.coupons}
+              <Link href={locale === "fr" ? "/epicerie" : `/${locale}/epicerie`} className="rounded-lg px-2 py-1 hover:bg-gray-100">
+                {t.epicerie}
               </Link>
               <a href="mailto:contact@prixmalin.ca" className="rounded-lg px-2 py-1 hover:bg-gray-100">{t.contact}</a>
               <LanguageSwitch />
