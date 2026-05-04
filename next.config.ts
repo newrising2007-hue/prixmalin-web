@@ -4,6 +4,12 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "f.wishabi.net" },
+      { protocol: "https", hostname: "dam.flippenterprise.net" },
+    ],
+  },
   async redirects() {
     return [
       { source: "/deals/xbox-game-pass-ultimate-3m", destination: "/i/xbox-game-pass-ultimate-3-mois-canada", permanent: true },
