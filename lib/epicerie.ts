@@ -30,7 +30,7 @@ function isEpicerieItem(value: any): value is EpicerieItem {
 }
 
 export function getEpicerie(): EpicerieItem[] {
-  const raw = epicerieData as unknown;
+  const raw = (epicerieData as any).aubaines ?? epicerieData as unknown;
   if (!Array.isArray(raw)) return [];
   return raw.filter(isEpicerieItem).filter(
     (item) => item.categorie && item.categorie !== "autres"
