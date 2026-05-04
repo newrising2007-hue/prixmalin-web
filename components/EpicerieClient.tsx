@@ -9,7 +9,7 @@ const CATEGORIES: Record<string, string> = {
   "fruits-legumes": "🥦 Fruits & Légumes",
   "produits-laitiers": "🧀 Produits Laitiers",
   "epicerie-seche": "🌾 Épicerie Sèche",
-  "condiments": "🧂 Condiments",
+  "condiments": "🧂 Condiments & Huiles",
   "conserves": "🥫 Conserves",
   "tartinades": "🍯 Tartinades",
   "surgeles": "❄️ Surgelés",
