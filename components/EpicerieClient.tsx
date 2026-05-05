@@ -48,6 +48,7 @@ export default function EpicerieClient({
   const [categorie, setCat]     = useState("toutes");
 
   const filtered = useMemo(() => {
+    if (region === "") return [];
     return items.filter(i => {
       if (region !== "" && i.region !== region) return false;
       if (marchand  !== "tous"   && i.marchand !== marchand) return false;
