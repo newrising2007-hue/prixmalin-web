@@ -43,13 +43,13 @@ export default function EpicerieClient({
   const regions  = useMemo(() => [...new Set(items.map(i => i.region))].sort(), [items]);
   const marchands = useMemo(() => [...new Set(items.map(i => i.marchand))].sort(), [items]);
 
-  const [region,   setRegion]   = useState("toutes");
+  const [region,   setRegion]   = useState("");
   const [marchand, setMarchand] = useState("tous");
   const [categorie, setCat]     = useState("toutes");
 
   const filtered = useMemo(() => {
     return items.filter(i => {
-      if (region    !== "toutes" && i.region   !== region)   return false;
+      if (region !== "" && i.region !== region) return false;
       if (marchand  !== "tous"   && i.marchand !== marchand) return false;
       if (categorie !== "toutes" && i.categorie !== categorie) return false;
       return true;
@@ -73,7 +73,7 @@ export default function EpicerieClient({
           value={region}
           onChange={e => { setRegion(e.target.value); setMarchand("tous"); }}
           className="px-3 py-2 rounded-xl border border-gray-200 bg-white text-sm font-medium shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400">
-          <option value="toutes">{labels.toutes_regions}</option>
+          <option value="" disabled>{labels.toutes_regions}</option>
           {regions.map(r => <option key={r} value={r}>{r}</option>)}
         </select>
 
