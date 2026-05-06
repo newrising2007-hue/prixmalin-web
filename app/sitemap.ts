@@ -76,7 +76,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/applications/prixmalin", "weekly", 0.8],
     ["/deals", "daily", 0.85],
     ["/produits", "weekly", 0.75],
-    ["/codes", "daily", 0.85],
   ];
 
   const staticEntries = staticPaths.map(([path, freq, pri]) =>
