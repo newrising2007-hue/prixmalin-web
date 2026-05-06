@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11",
+  "updatedAt": "2026-05-06",
   "currency": "CAD",
   "items": [
     {
@@ -32,7 +32,7 @@
       "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/dp/B08M8WSRX9?tag=prixmalin20-20",
       "image": "/images/deals/xbox-game-pass-ultimate-1m.webp",
-      "price": 33.99,
+      "price": 25.99,
       "actif": true,
       "title_en": "Xbox Game Pass Ultimate — 1 month",
       "title_es": "Xbox Game Pass Ultimate — 1 mes",
@@ -189,7 +189,7 @@
       "type": "abonnement",
       "affiliateUrl": "https://www.amazon.ca/dp/B0C7JRQ54Z?tag=prixmalin20-20",
       "image": "/images/deals/nintendo-switch-online-12m.webp",
-      "price": 29.99,
+      "price": 69.99,
       "actif": true,
       "title_en": "Nintendo Switch Online — 12 months",
       "title_es": "Nintendo Switch Online — 12 meses",
