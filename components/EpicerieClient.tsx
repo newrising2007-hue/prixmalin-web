@@ -29,6 +29,7 @@ type Labels = {
   voir_tout: string;
   aucun_resultat: string;
   retour: string;
+  deja_compare: string;
 };
 
 export default function EpicerieClient({
@@ -41,11 +42,14 @@ export default function EpicerieClient({
   locale: string;
 }) {
   const regions  = useMemo(() => [...new Set(items.map(i => i.region))].sort(), [items]);
-  const marchands = useMemo(() => [...new Set(items.map(i => i.marchand))].sort(), [items]);
-
   const [region,   setRegion]   = useState("");
   const [marchand, setMarchand] = useState("tous");
   const [categorie, setCat]     = useState("toutes");
+
+  const marchands = useMemo(() => {
+    const src = region ? items.filter(i => i.region === region) : items;
+    return [...new Set(src.map(i => i.marchand))].sort();
+  }, [items, region]);
 
   const filtered = useMemo(() => {
     if (region === "") return [];

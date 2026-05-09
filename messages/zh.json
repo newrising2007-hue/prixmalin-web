@@ -446,13 +446,13 @@
     "desc": "最优惠价格 — IGA、Maxi、Metro、Walmart 等",
     "toutes_regions": "选择您的地区",
     "region_label": "地区",
-    "tous_marchands": "所有商店",
+    "tous_marchands": "已比较商家",
     "toutes_cats": "所有分类",
     "mise_a_jour": "更新于",
     "valide_jusqua": "有效期至",
     "voir_tout": "查看全部",
     "aucun_resultat": "没有符合条件的结果",
     "retour": "← 返回",
-    "adblock": "🔊 本站依靠联盟合作伙伴运营。谢谢支持！💙"
+    "deja_compare": "已为您比较 — 每件商品只显示一个价格最低的赢家。"
   }
 }

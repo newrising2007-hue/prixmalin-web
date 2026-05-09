@@ -1,5 +1,4 @@
 import { getTranslations } from "next-intl/server";
-import AdblockBanner from "@/components/AdblockBanner";
 import EpicerieClient from "@/components/EpicerieClient";
 import { getEpicerie } from "@/lib/epicerie";
 
@@ -25,7 +24,7 @@ export default async function EpiceriePage({
     voir_tout:      t("voir_tout"),
     aucun_resultat: t("aucun_resultat"),
     retour:         t("retour"),
-    adblock:        t("adblock"),
+    deja_compare:   t("deja_compare"),
   };
 
   return (
@@ -39,7 +38,7 @@ export default async function EpiceriePage({
           </span>
         </h1>
         <p className="mt-2 text-black/70">{labels.desc}</p>
-        <AdblockBanner message={labels.adblock} />
+        <p className="mt-1 text-sm text-green-700 font-medium">{labels.deja_compare}</p>
       </header>
       <EpicerieClient items={items} labels={labels} locale={locale} />
     </main>

@@ -446,13 +446,13 @@
     "desc": "Best grocery prices — IGA, Maxi, Metro, Walmart and more",
     "toutes_regions": "Choose your region",
     "region_label": "Region",
-    "tous_marchands": "All stores",
+    "tous_marchands": "Compared stores",
     "toutes_cats": "All categories",
     "mise_a_jour": "Updated on",
     "valide_jusqua": "Valid until",
     "voir_tout": "See all",
     "aucun_resultat": "No results for this selection",
     "retour": "← Back to Shopping",
-    "adblock": "🔊 This site lives thanks to our affiliate partners — disabling Adblock on PrixMalin costs nothing and helps us enormously. Thank you! 💙"
+    "deja_compare": "Already compared for you — one winner per product, the lowest price in your region."
   }
 }

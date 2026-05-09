@@ -446,13 +446,13 @@
     "desc": "Meilleurs prix épicerie — IGA, Maxi, Metro, Walmart et plus",
     "toutes_regions": "Choisir ta région",
     "region_label": "Région",
-    "tous_marchands": "Tous les marchands",
+    "tous_marchands": "Marchands comparés",
     "toutes_cats": "Toutes les catégories",
     "mise_a_jour": "Mis à jour le",
     "valide_jusqua": "Valide jusqu'au",
     "voir_tout": "Voir tout",
     "aucun_resultat": "Aucun résultat pour cette sélection",
     "retour": "← Retour Magasinage",
-    "adblock": "🔊 Ce site vit grâce à nos partenaires affiliés — désactiver Adblock sur PrixMalin ne coûte rien et nous aide énormément. Merci! 💙"
+    "deja_compare": "Déjà comparé pour vous — un seul gagnant par produit, le moins cher de votre région."
   }
 }
