@@ -990,8 +990,8 @@
     "image": "/images/products/razer-deathadder-v3.webp",
     "badge": "Aucun",
     "actif": true,
-    "prix": 84.99,
-    "prixBarre": null,
+    "prix": "59.99",
+    "prixBarre": "69.98",
     "prixVerifieLe": "2026-05-14",
     "lienVerifieLe": "2026-05-14",
     "translationVerified": true
