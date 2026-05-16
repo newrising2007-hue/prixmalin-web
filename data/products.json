@@ -238,7 +238,7 @@
     "image": "/images/products/dualsense-wireless-controller-playstation.webp",
     "badge": "Meilleur vendeur",
     "actif": true,
-    "prix": 94,
+    "prix": "94.00",
     "prixBarre": null,
     "prixVerifieLe": "2026-05-15",
     "shortDescription_en": "DualSense PlayStation controller wireless — haptic feedback, adaptive triggers, available in multiple colors.",
