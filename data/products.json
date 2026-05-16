@@ -309,7 +309,7 @@
     "image": "/images/products/logitech-g213-prodigy-rgb.webp",
     "badge": "",
     "actif": true,
-    "prix": 79.1,
+    "prix": "79.10",
     "prixBarre": null,
     "prixVerifieLe": "2026-05-15",
     "shortDescription_en": "RGB gaming keyboard LIGHTSYNC — splash-resistant, customizable keys, RGB backlight.",
