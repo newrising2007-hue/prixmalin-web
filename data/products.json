@@ -517,7 +517,7 @@
     "badge": "Meilleur vendeur",
     "actif": true,
     "prix": 118.99,
-    "prixBarre": null,
+    "prixBarre": "",
     "prixVerifieLe": "2026-05-15",
     "shortDescription_en": "White ATX mid-tower case with 5 ARGB PWM fans pre-installed. Tempered glass side panel to show off your build. Compatible with most ATX motherboards. Good airflow out of the box — no extra fans needed.",
     "shortDescription_es": "Gabinete ATX mid-tower blanco con 5 ventiladores PWM ARGB ya instalados. Panel lateral de vidrio templado para ver tus componentes iluminados. Compatible con la mayoría de tarjetas madre ATX. Buen flujo de aire sin necesidad de comprar más ventiladores.",
