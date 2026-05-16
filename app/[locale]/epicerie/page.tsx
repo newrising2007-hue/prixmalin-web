@@ -10,6 +10,7 @@ export default async function EpiceriePage({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "epicerie" });
   const items = getEpicerie();
+// Récupère les articles d'épicerie
 
   const labels = {
     titre:          t("titre"),

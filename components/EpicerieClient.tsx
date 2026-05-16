@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { EpicerieItem } from "@/lib/epicerie";
 
 const CATEGORIES: Record<string, string> = {
+// Mapping des catégories d'épicerie avec leurs labels
   "viandes-poissons": "🥩 Viandes & Poissons",
   "fruits-legumes": "🥦 Fruits & Légumes",
   "produits-laitiers": "🧀 Produits Laitiers",
