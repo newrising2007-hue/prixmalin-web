@@ -6,10 +6,12 @@ import ProduitsClient from "@/components/ProduitsClient";
 const CATEGORY_SLUGS = ["toutes","audio","souris","claviers","manettes","accessoires","chaises","ecrans","boitiers","video"];
 
 export default async function ProduitsPage({ params }: { params: Promise<{ locale: string }> }) {
+// Fonction principale qui affiche la page des produits en récupérant les produits et les traductions
   const { locale } = await params;
   const products = getAllProducts();
   const t = await getTranslations({ locale, namespace: "produits" });
 
+// Initialisation des labels de traduction utilisés dans la page
   const labels: Record<string, string> = {
     toutes: t("toutes"),
     compteur: t("compteur"),
@@ -23,6 +25,7 @@ export default async function ProduitsPage({ params }: { params: Promise<{ local
     badge_nouveau: t("badge_nouveau" as any),
     badge_deal_du_jour: t("badge_deal_du_jour" as any),
   };
+// Rendu JSX principal de la page des produits, incluant l'en-tête et les produits filtrés
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">

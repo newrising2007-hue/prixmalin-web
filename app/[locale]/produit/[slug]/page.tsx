@@ -13,11 +13,13 @@ type Props = {
 };
 
 export async function generateStaticParams() {
+// Génération des paramètres statiques pour les pages de produits en fonction des slugs et des locales
   const slugs = getAllProductSlugs();
   const locales = ["fr", "en", "es", "ar", "zh"];
   return locales.flatMap((locale) => slugs.map((slug) => ({ locale, slug })));
 }
 
+// Génération des métadonnées de la page de produit en fonction du slug et de la locale
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const product = getProductBySlug(slug);
@@ -41,6 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 }
+// Fonction principale qui affiche la page d'un produit spécifique en récupérant les détails du produit et les traductions
 
 export default async function ProductPage({ params, searchParams }: Props & { searchParams: Promise<{ cat?: string }> }) {
   const { slug, locale } = await params;
@@ -56,7 +59,9 @@ export default async function ProductPage({ params, searchParams }: Props & { se
     : product.shortDescription;
   const localizedTitle = (locale !== 'fr' && product[`title_${locale}` as keyof typeof product])
     ? product[`title_${locale}` as keyof typeof product] as string
+// Construction de l'URL d'affiliation Amazon pour le produit
     : product.title;
+// Création de l'objet JSON-LD pour les données structurées du produit
   const t = await getTranslations();
   const affiliateUrl = buildAmazonLink(product.amazonUrl);
 
@@ -77,6 +82,7 @@ export default async function ProductPage({ params, searchParams }: Props & { se
 
   const imageSrc =
     (product as { image?: string }).image && (product as { image?: string }).image?.trim()
+// Rendu JSX principal de la page de produit, incluant les détails du produit et le bouton d'affiliation
       ? (product as { image?: string }).image
       : null;
 
