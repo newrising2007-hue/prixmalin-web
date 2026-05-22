@@ -110,17 +110,20 @@ function RechercheContent() {
 
   const CATEGORY_KEYWORDS: Record<string, string[]> = {
     vehicules: [
-      'voiture','auto','camion','moto','motocyclette','motoneige',
+      'voiture','auto','camion','concessionnaire',
+      'ford','toyota','chevrolet','dodge',
+      'gmc','ram','jeep','hyundai','kia','mazda','nissan','subaru',
+      'f-150','f-250','f-350','f150','f250','f350',
+      'ranger','escape','explorer','silverado','colorado',
+    ],
+    vehicule_loisir: [
+      'moto','motocyclette','motoneige','motomarine',
       'ski-doo','skidoo','vtt','quad','bateau','chaloupe','kayak',
       'canot','sea-doo','seadoo','can-am','canam','yamaha','honda',
       'kawasaki','suzuki','polaris','arctic cat','bombardier','brp',
-      'lynx','ktm','husqvarna','ford','toyota','chevrolet','dodge',
-      'gmc','ram','jeep','hyundai','kia','mazda','nissan','subaru',
-      'harley','ducati','triumph','rzr','maverick','outlander',
-      'mxz','summit','renegade','expedition','skandic',
-      'motoneige','motomarine','concessionnaire',
-      'f-150','f-250','f-350','f150','f250','f350',
-      'ranger','escape','explorer','silverado','colorado',
+      'lynx','ktm','husqvarna','harley','ducati','triumph',
+      'rzr','maverick','outlander','mxz','summit',
+      'renegade','expedition','skandic',
     ],
     pieces: [
       'pneu','pneus','pare-brise','freins','frein','filtre a huile',
