@@ -123,7 +123,7 @@
     "image": "/images/products/logitech-g-pro-x-superlight-2-se.webp",
     "badge": "",
     "actif": true,
-    "prixBarre": null,
+    "prixBarre": "",
     "prixVerifieLe": "2026-05-23",
     "shortDescription_en": "mouse pad de gaming mouse SteelSeries QcK — micro-textured surface optimized for optical and laser sensors. medium size, non-slip base.",
     "shortDescription_es": "alfombrilla de ratón gaming SteelSeries QcK — superficie microtexturizada optimizada para sensores ópticos y láser. tamaño mediano, base antideslizante.",
@@ -134,7 +134,8 @@
     "title_ar": "SteelSeries QcK Gaming Mouse Pad (متوسط)",
     "title_zh": "SteelSeries QcK Gaming Mouse Pad (中)",
     "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
+    "translationVerified": true,
+    "prix": "209.07"
   },
   {
     "slug": "new-bee-support-pour-casque-rgb",
