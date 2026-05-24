@@ -30,15 +30,9 @@
     "category": "souris",
     "image": "/images/products/logitech-g203.webp",
     "badge": "",
-<<<<<<< Updated upstream
-    "prix": 38.99,
-    "prixBarre": "",
-    "prixVerifieLe": "2026-05-20",
-=======
     "prix": 39.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "shortDescription_en": "precise, lightweight and ideal for FPS at an affordable price. 3 colors available.",
     "shortDescription_es": "precisa, ligero y ideal para FPS a precio asequible. 3 colores disponibles.",
     "shortDescription_ar": "دقيقة, خفيف الوزن و مثالي لألعاب FPS بسعر معقول. 3 ألوان متاحة.",
@@ -103,15 +97,9 @@
     "image": "/images/products/logitech-g-pro-x-superlight-2.webp",
     "badge": "Deal du jour",
     "actif": true,
-<<<<<<< Updated upstream
-    "prix": 209.99,
-    "prixBarre": "239.99",
-    "prixVerifieLe": "2026-05-20",
-=======
     "prix": 200.37,
     "prixBarre": 239.99,
     "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "shortDescription_en": "Ultra-lightweight wireless gaming mouse (60 g), HERO 2 44K DPI sensor, 95 h battery life, USB-C charging. Designed with esport professionals.",
     "shortDescription_es": "Ratón gaming inalámbrico ultraligero (60 g), sensor HERO 2 44K DPI, autonomía 95 h, carga USB-C. Diseñada con los profesionales del esport.",
     "shortDescription_ar": "فأرة ألعاب لاسلكية خفيفة جداً (60 غ)، مستشعر HERO 2 44K DPI، عمر بطارية 95 ساعة، شحن USB-C. مصممة مع محترفي الرياضات الإلكترونية.",
@@ -135,72 +123,8 @@
     "image": "/images/products/logitech-g-pro-x-superlight-2-se.webp",
     "badge": "",
     "actif": true,
-<<<<<<< HEAD
-    "prix": "234.65",
-    "prixBarre": "",
-=======
-<<<<<<< Updated upstream
-    "prix": 218.91,
-=======
-    "prix": 234.65,
->>>>>>> Stashed changes
     "prixBarre": null,
->>>>>>> dev
-    "prixVerifieLe": "2026-05-20",
-    "shortDescription_en": "ultra-lightweight wireless gaming mouse 60 g — 5 programmable buttons, professional quality, available en red.",
-    "shortDescription_es": "ratón gaming inalámbrico ultraligero 60 g — 5 botones programables, calidad profesional, disponible en rojo.",
-    "shortDescription_ar": "فأرة ألعاب لاسلكية خفيفة جداً 60 g — 5 أزرار قابلة للبرمجة, جودة احترافية, متاح en أحمر.",
-    "shortDescription_zh": "超轻无线游戏鼠标 60 g — 5 可编程按键, 专业品质, 可选 en 红色.",
-    "title_en": "Logitech G PRO X Superlight 2 SE ",
-    "title_es": "Logitech G PRO X Superlight 2 SE ",
-    "title_ar": "Logitech G PRO X Superlight 2 SE ",
-    "title_zh": "Logitech G PRO X Superlight 2 SE ",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "clavier-steelseries-apex-3-rgb",
-    "title": "Clavier SteelSeries Apex 3 ",
-    "shortDescription": "Clavier gaming RGB résistant aux éclaboussures et à la poussière — commutateurs silencieux, anti-ghosting, disponible en plusieurs couleurs.",
-    "amazonUrl": "https://www.amazon.ca/dp/B09FTNMT84?tag=prixmalin20-20",
-    "category": "claviers",
-    "image": "/images/products/clavier-steelseries-apex-3-rgb.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-    "prix": "55.00",
-    "prixBarre": 69.99,
     "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "RGB gaming keyboard splash-resistant and dust resistant — silent switches, anti-ghosting, available in multiple colors.",
-    "shortDescription_es": "teclado gaming RGB resistente a salpicaduras y resistente al polvo — interruptores silenciosos, anti-ghosting, disponible en varios colores.",
-    "shortDescription_ar": "لوحة مفاتيح ألعاب RGB مقاوم للرشاش و مقاوم للغبار — مفاتيح صامتة, مانع الضغط الوهمي, متاح بألوان متعددة.",
-    "shortDescription_zh": "RGB游戏键盘 防溅水 和 防尘 — 静音开关, 防鬼键, 可选 多色可选.",
-    "title_en": "keyboard SteelSeries Apex 3 ",
-    "title_es": "teclado SteelSeries Apex 3 ",
-    "title_ar": "لوحة مفاتيح SteelSeries Apex 3 ",
-    "title_zh": "键盘 SteelSeries Apex 3 ",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "steelseries-qck-gaming-mouse-pad-medium",
-    "title": "SteelSeries QcK Gaming Mouse Pad (Medium)",
-    "shortDescription": "Tapis de souris gaming SteelSeries QcK — surface microtexturée optimisée pour les capteurs optiques et laser. Format medium, base antidérapante.",
-    "amazonUrl": "https://www.amazon.ca/dp/B000UEZ36W?tag=prixmalin20-20",
-    "category": "accessoires",
-    "image": "/images/products/steelseries-qck-gaming-mouse-pad-medium.webp",
-    "badge": "Aucun",
-    "actif": true,
-    "prix": 14.98,
-<<<<<<< HEAD
-    "prixBarre": "",
-=======
-    "prixBarre": null,
-<<<<<<< Updated upstream
->>>>>>> dev
-    "prixVerifieLe": "2026-05-20",
-=======
-    "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "shortDescription_en": "mouse pad de gaming mouse SteelSeries QcK — micro-textured surface optimized for optical and laser sensors. medium size, non-slip base.",
     "shortDescription_es": "alfombrilla de ratón gaming SteelSeries QcK — superficie microtexturizada optimizada para sensores ópticos y láser. tamaño mediano, base antideslizante.",
     "shortDescription_ar": "لوحة الفأرة de فأرة الألعاب SteelSeries QcK — سطح دقيق الملمس محسّنة لـ مستشعرات بصرية وليزرية. حجم متوسط, قاعدة مانعة للانزلاق.",
@@ -222,17 +146,8 @@
     "badge": "Deal du jour",
     "actif": true,
     "prix": 19.99,
-<<<<<<< HEAD
-    "prixBarre": "21.99",
-=======
-<<<<<<< Updated upstream
-    "prixBarre": 25.99,
->>>>>>> dev
-    "prixVerifieLe": "2026-05-20",
-=======
     "prixBarre": 21.99,
     "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "shortDescription_en": "headset stand RGB New Bee — 2 USB ports smart, data transfer and charging, compatible phone, keyboard, mouse.",
     "shortDescription_es": "soporte para auriculares RGB New Bee — 2 puertos USB inteligentes, transferencia de datos y carga, compatible teléfono, teclado, ratón.",
     "shortDescription_ar": "حامل سماعة RGB New Bee — 2 منافذ USB ذكية, نقل البيانات والشحن, متوافق هاتف, لوحة مفاتيح, فأرة.",
@@ -254,104 +169,8 @@
     "badge": "",
     "actif": true,
     "prix": 84.98,
-<<<<<<< HEAD
-    "prixBarre": "",
-=======
-    "prixBarre": null,
-<<<<<<< Updated upstream
->>>>>>> dev
-    "prixVerifieLe": "2026-05-20",
-=======
-    "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
-    "shortDescription_en": "wireless Xbox Core controller — USB-C cable included, compatible Series X|S, Xbox One, Windows PC, Android and iOS.",
-    "shortDescription_es": "mando Xbox Core inalámbrico — cable USB-C incluido, compatible Series X|S, Xbox One, Windows PC, Android y iOS.",
-    "shortDescription_ar": "يد تحكم Xbox Core لاسلكي — كابل USB-C مرفق, متوافق Series X|S, Xbox One, Windows PC, Android و iOS.",
-    "shortDescription_zh": "Xbox Core无线手柄 — 含USB-C线, 兼容 Series X|S, Xbox One, Windows PC, Android 和 iOS.",
-    "title_en": "Xbox Core Wireless Gaming Controller",
-    "title_es": "Xbox Core Wireless Gaming Controller",
-    "title_ar": "Xbox Core Wireless Gaming Controller",
-    "title_zh": "Xbox Core Wireless Gaming Controller",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "dualsense-wireless-controller-playstation",
-    "title": "DualSense Wireless Controller Playstation",
-    "shortDescription": "Manette DualSense PlayStation sans fil — retour haptique, gâchettes adaptatives, offerte en plusieurs couleurs.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0CQKLS4RP?tag=prixmalin20-20",
-    "category": "manettes",
-    "image": "/images/products/dualsense-wireless-controller-playstation.webp",
-    "badge": "Meilleur vendeur",
-<<<<<<< HEAD
-    "actif": false,
-    "prix": 94,
-=======
-<<<<<<< Updated upstream
-    "actif": true,
-    "prix": 94.0,
-=======
-    "actif": false,
-    "prix": 89.99,
->>>>>>> Stashed changes
->>>>>>> dev
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "DualSense PlayStation controller wireless — haptic feedback, adaptive triggers, available in multiple colors.",
-    "shortDescription_es": "mando DualSense PlayStation inalámbrico — retroalimentación háptica, gatillos adaptativos, disponible en varios colores.",
-    "shortDescription_ar": "يد تحكم DualSense PlayStation لاسلكي — ردود فعل لمسية, زناد تكيفي, متوفر بألوان متعددة.",
-    "shortDescription_zh": "DualSense PlayStation手柄 无线 — 触觉反馈, 自适应扳机, 多色可选.",
-    "title_en": "DualSense Wireless Controller Playstation",
-    "title_es": "DualSense Wireless Controller Playstation",
-    "title_ar": "DualSense Wireless Controller Playstation",
-    "title_zh": "DualSense Wireless Controller Playstation",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "logitech-g-435-lightspeed",
-    "title": "Logitech G 435 Lightspeed",
-    "shortDescription": "Casque de jeu sans fil Bluetooth, Casque supra-auriculaire léger, micros intégrés, batterie 18h, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, mobile",
-    "amazonUrl": "https://www.amazon.ca/dp/B08R8DT7X6?tag=prixmalin20-20",
-    "category": "audio",
-    "image": "/images/products/logitech-g-435-lightspeed.webp",
-    "badge": "Aucun",
-    "actif": true,
-    "prix": 69.99,
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "wireless gaming headset Bluetooth, over-ear headset léger, built-in microphones, 18h battery life, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, mobile",
-    "shortDescription_es": "auriculares gaming inalámbricos Bluetooth, auriculares supraaurales léger, micrófonos integrados, batería de 18 horas, Dolby Atmos, PC, PS4, PS5, Nintendo Switch/Switch 2, móvil",
-    "shortDescription_ar": "سماعة ألعاب لاسلكية Bluetooth, سماعة فوق الأذن léger, ميكروفونات مدمجة, بطارية 18 ساعة, دولبي أتموس, كمبيوتر, PS4, PS5, Nintendo Switch/Switch 2, جوال",
-    "shortDescription_zh": "无线游戏耳机 Bluetooth, 头戴式耳机 léger, 内置麦克风, 18小时续航, 杜比全景声, 电脑, PS4, PS5, Nintendo Switch/Switch 2, 移动设备",
-    "title_en": "Logitech G 435 Lightspeed",
-    "title_es": "Logitech G 435 Lightspeed",
-    "title_ar": "Logitech G 435 Lightspeed",
-    "title_zh": "Logitech G 435 Lightspeed",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "logitech-g305-lightspeed",
-    "title": "Logitech G305 Lightspeed",
-    "shortDescription": "Souris gaming sans fil légère — 6 boutons programmables, autonomie 250h, mémoire intégrée, capteurs optiques.",
-    "amazonUrl": "https://www.amazon.ca/dp/B086PDW7BB?tag=prixmalin20-20",
-    "category": "souris",
-    "image": "/images/products/logitech-g305-lightspeed.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-<<<<<<< HEAD
-    "prix": "60.39",
-    "prixBarre": "63.39",
-=======
-<<<<<<< Updated upstream
-    "prix": 59.97,
-    "prixBarre": 64.0,
-=======
     "prix": 60.39,
     "prixBarre": 63.39,
->>>>>>> Stashed changes
->>>>>>> dev
     "prixVerifieLe": "2026-05-20",
     "shortDescription_en": "gaming mouse wireless lightweight — 6 programmable buttons, 250h battery life, built-in memory, optical sensors.",
     "shortDescription_es": "ratón gaming inalámbrico ligero — 6 botones programables, autonomía 250h, memoria integrada, sensores ópticos.",
@@ -376,403 +195,9 @@
     "badge": "",
     "actif": true,
     "prix": 79.1,
-<<<<<<< HEAD
-    "prixBarre": "",
-=======
-    "prixBarre": null,
-<<<<<<< Updated upstream
->>>>>>> dev
-    "prixVerifieLe": "2026-05-20",
-=======
-    "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
-    "shortDescription_en": "RGB gaming keyboard LIGHTSYNC — splash-resistant, customizable keys, RGB backlight.",
-    "shortDescription_es": "teclado gaming RGB LIGHTSYNC — resistente a salpicaduras, teclas personalizables, retroiluminación RGB.",
-    "shortDescription_ar": "لوحة مفاتيح ألعاب RGB LIGHTSYNC — مقاوم للرشاش, مفاتيح قابلة للتخصيص, إضاءة خلفية RGB.",
-    "shortDescription_zh": "RGB游戏键盘 LIGHTSYNC — 防溅水, 可自定义按键, RGB背光.",
-    "title_en": "Logitech G213 Prodigy RGB",
-    "title_es": "Logitech G213 Prodigy RGB",
-    "title_ar": "Logitech G213 Prodigy RGB",
-    "title_zh": "Logitech G213 Prodigy RGB",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "8bitdo-ultimate-wireless-controller",
-    "title": "8BitDo Ultimate Wireless Controller",
-    "shortDescription": "Manette sans fil Bluetooth — compatible Switch, Android et PC, offerte en plusieurs couleurs.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0DNM3VGGG?tag=prixmalin20-20",
-    "category": "manettes",
-    "image": "/images/products/8bitdo-ultimate-wireless-controller.webp",
-    "badge": "Aucun",
-    "actif": true,
-    "prix": 44.99,
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-20",
-    "shortDescription_en": "Bluetooth wireless controller — compatible with Switch, Android and PC, available in multiple colors.",
-    "shortDescription_es": "mando inalámbrico Bluetooth — compatible con Switch, Android y PC, disponible en varios colores.",
-    "shortDescription_ar": "يد تحكم لاسلكية بلوتوث — متوافق مع Switch وAndroid والحاسوب, متوفر بألوان متعددة.",
-    "shortDescription_zh": "蓝牙无线手柄 — 兼容Switch、安卓和PC, 多色可选.",
-    "title_en": "8BitDo Ultimate Wireless Controller",
-    "title_es": "8BitDo Ultimate Wireless Controller",
-    "title_ar": "8BitDo Ultimate Wireless Controller",
-    "title_zh": "8BitDo Ultimate Wireless Controller",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "razer-gigantus-v2-mouse-pad-large",
-    "title": "Razer Gigantus V2 Mouse Pad Large",
-    "shortDescription": "Tapis de souris gaming grand format — mousse haute densité, surface optimisée, base antidérapante.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0885NTLKJ?tag=prixmalin20-20",
-    "category": "accessoires",
-    "image": "/images/products/razer-gigantus-v2-mouse-pad-large.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-    "prix": 22.98,
-    "prixBarre": 24.99,
-    "prixVerifieLe": "2026-05-20",
-    "shortDescription_en": "mouse pad de gaming mouse large format — high density foam, optimized surface, non-slip base.",
-    "shortDescription_es": "alfombrilla de ratón gaming formato grande — espuma de alta densidad, superficie optimizada, base antideslizante.",
-    "shortDescription_ar": "لوحة الفأرة de فأرة الألعاب حجم كبير — إسفنج عالي الكثافة, سطح محسّن, قاعدة مانعة للانزلاق.",
-    "shortDescription_zh": "鼠标垫 de 游戏鼠标 大尺寸 — 高密度泡棉, 优化表面, 防滑底座.",
-    "title_en": "Razer Gigantus V2 Mouse Pad large",
-    "title_es": "Razer Gigantus V2 Mouse Pad grande",
-    "title_ar": "Razer Gigantus V2 Mouse Pad كبير",
-    "title_zh": "Razer Gigantus V2 Mouse Pad 大",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "elgato-game-capture-neo",
-    "title": "Elgato Game Capture Neo",
-    "shortDescription": "Carte de capture USB 4K60 HDR — enregistrement 1080p60, compatible PS5, Xbox, Nintendo Switch 2, Plug & Play.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0CVYKQNFH?tag=prixmalin20-20",
-    "category": "video",
-    "image": "/images/products/elgato-game-capture-neo.webp",
-    "badge": "",
-    "actif": true,
-    "prix": 149.99,
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "capture card USB 4K60 HDR — 1080p60 recording, compatible PS5, Xbox, Nintendo Switch 2, Plug & Play.",
-    "shortDescription_es": "tarjeta de captura USB 4K60 HDR — grabación 1080p60, compatible PS5, Xbox, Nintendo Switch 2, Plug & Play.",
-    "shortDescription_ar": "بطاقة التقاط USB 4K60 HDR — تسجيل 1080p60, متوافق PS5, Xbox, Nintendo Switch 2, تشغيل فوري بدون إعداد.",
-    "shortDescription_zh": "采集卡 USB 4K60 HDR — 1080p60录制, 兼容 PS5, Xbox, Nintendo Switch 2, 即插即用.",
-    "title_en": "Elgato Game Capture Neo",
-    "title_es": "Elgato Game Capture Neo",
-    "title_ar": "Elgato Game Capture Neo",
-    "title_zh": "Elgato Game Capture Neo",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "razer-firefly-v2-pro-tapis-de-souris",
-    "title": "Razer Firefly V2 Pro Tapis de souris",
-    "shortDescription": "Tapis de souris gaming RGB — éclairage Chroma 15 zones, surface microtexturée, câble USB-C détachable.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0CY6RJRBR?tag=prixmalin20-20",
-    "category": "accessoires",
-    "image": "/images/products/razer-firefly-v2-pro-tapis-de-souris.webp",
-    "badge": "Aucun",
-    "actif": true,
-    "prix": 134.99,
-<<<<<<< HEAD
-    "prixBarre": "",
-=======
-    "prixBarre": null,
-<<<<<<< Updated upstream
->>>>>>> dev
-    "prixVerifieLe": "2026-05-20",
-=======
-    "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
-    "shortDescription_en": "mouse pad de gaming mouse RGB — Chroma lighting 15 zones, micro-textured surface, detachable USB-C cable.",
-    "shortDescription_es": "alfombrilla de ratón gaming RGB — iluminación Chroma 15 zonas, superficie microtexturizada, cable USB-C desmontable.",
-    "shortDescription_ar": "لوحة الفأرة de فأرة الألعاب RGB — إضاءة Chroma 15 منطقة, سطح دقيق الملمس, كابل USB-C قابل للفصل.",
-    "shortDescription_zh": "鼠标垫 de 游戏鼠标 RGB — Chroma灯效 15区域, 微纹理表面, 可拆卸USB-C线.",
-    "title_en": "Razer Firefly V2 Pro mouse pad",
-    "title_es": "Razer Firefly V2 Pro alfombrilla",
-    "title_ar": "Razer Firefly V2 Pro لوحة الماوس",
-    "title_zh": "Razer Firefly V2 Pro 鼠标垫",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "microphone-razer-seiren-v3-chroma-rgb-usb",
-    "title": "Microphone Razer Seiren V3 Chroma RGB USB",
-    "shortDescription": "Microphone USB à condensateur RGB — coupure tactile, limiteur de gain, idéal pour streaming et gaming, offert en 3 couleurs.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0CT7D7JVR?tag=prixmalin20-20",
-    "category": "audio",
-    "image": "/images/products/microphone-razer-seiren-v3-chroma-rgb-usb.webp",
-    "badge": "",
-    "actif": true,
-    "prix": 149.99,
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "USB microphone à condenser RGB — tap-to-mute, gain limiter, ideal for streaming and gaming, available in 3 colors.",
-    "shortDescription_es": "micrófono USB à condensador RGB — silencio táctil, limitador de ganancia, ideal para streaming y gaming, disponible en 3 colores.",
-    "shortDescription_ar": "ميكروفون USB à مكثف RGB — قطع اللمس, محدد الكسب, مثالي لـ البث والألعاب, متوفر بـ 3 ألوان.",
-    "shortDescription_zh": "USB麦克风 à 电容 RGB — 触控静音, 增益限制器, 适合 直播和游戏, 3色可选.",
-    "title_en": "Microphone Razer Seiren V3 Chroma RGB USB",
-    "title_es": "Micrófono Razer Seiren V3 Chroma RGB USB",
-    "title_ar": "ميكروفون Razer Seiren V3 Chroma RGB USB",
-    "title_zh": "麦克风 Razer Seiren V3 Chroma RGB USB",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "dowinx-chaise-de-jeu-et-bureau",
-    "title": "Dowinx Chaise de jeu et  bureau",
-    "shortDescription": "Chaise gaming style vintage — cuir PU, support lombaire massant, inclinable, idéale pour les longues sessions.",
-    "amazonUrl": "https://www.amazon.ca/dp/B08C9W19YL?tag=prixmalin20-20",
-    "category": "chaises",
-    "image": "/images/products/dowinx-chaise-de-jeu-et-bureau.webp",
-    "badge": "Meilleur vendeur",
-    "actif": true,
-    "prix": 269.99,
-    "prixBarre": "",
-    "prixVerifieLe": "2026-05-20",
-    "shortDescription_en": "gaming chair vintage style — PU leather, massaging lumbar support, reclining, ideal for long sessions.",
-    "shortDescription_es": "silla gaming estilo vintage — cuero PU, soporte lumbar masajeador, reclinable, ideal para las largas sesiones.",
-    "shortDescription_ar": "كرسي ألعاب طراز كلاسيكي — جلد PU, دعم قطني مدلك, قابل للإمالة, مثالي لـ الجلسات الطويلة.",
-    "shortDescription_zh": "游戏椅 复古风格 — PU皮革, 按摩腰枕, 可倾斜, 适合 长时间使用.",
-    "title_en": "Dowinx gaming chair and  bureau",
-    "title_es": "Dowinx silla gaming y  bureau",
-    "title_ar": "Dowinx كرسي ألعاب و  bureau",
-    "title_zh": "Dowinx 游戏椅 和  bureau",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "chaise-de-jeu-avec-repose-pieds",
-    "title": "Chaise de jeu avec repose-pieds",
-    "shortDescription": "Chaise gaming ergonomique à dossier haut — cuir PVC, massage lombaire, inclinable, idéale pour les longues sessions",
-    "amazonUrl": "https://www.amazon.ca/dp/B0C656RSNC?tag=prixmalin20-20",
-    "category": "chaises",
-    "image": "/images/products/chaise-de-jeu-avec-repose-pieds.webp",
-    "badge": "Aucun",
-    "actif": true,
-    "prix": 109.99,
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "gaming chair ergonomic high back — PVC leather, lumbar massage, reclining, ideal for long sessions",
-    "shortDescription_es": "silla gaming ergonómico respaldo alto — cuero PVC, masaje lumbar, reclinable, ideal para las largas sesiones",
-    "shortDescription_ar": "كرسي ألعاب مريح ظهر مرتفع — جلد PVC, تدليك قطني, قابل للإمالة, مثالي لـ الجلسات الطويلة",
-    "shortDescription_zh": "游戏椅 人体工学 高背 — PVC皮革, 腰部按摩, 可倾斜, 适合 长时间使用",
-    "title_en": "gaming chair with footrest",
-    "title_es": "silla gaming con reposapiés",
-    "title_ar": "كرسي ألعاب مع مسند قدم",
-    "title_zh": "游戏椅 配有 脚踏板",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "chaise-de-bureau-mimoglad",
-    "title": "Chaise de bureau Mimoglad",
-    "shortDescription": "Ergonomique à dossier haut avec support lombaire réglable et appuie-tête.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0DJS81LPB?tag=prixmalin20-20",
-    "category": "chaises",
-    "image": "/images/products/chaise-de-bureau-mimoglad.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-    "prix": 143.97,
-    "prixBarre": 259.99,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "ergonomic high back with adjustable lumbar support and headrest.",
-    "shortDescription_es": "ergonómico respaldo alto con soporte lumbar ajustable y reposacabezas.",
-    "shortDescription_ar": "مريح ظهر مرتفع مع دعم قطني قابل للتعديل و مسند رأس.",
-    "shortDescription_zh": "人体工学 高背 配有 可调节腰部支撑 和 头枕.",
-    "title_en": "office chair Mimoglad",
-    "title_es": "silla de oficina Mimoglad",
-    "title_ar": "كرسي مكتب Mimoglad",
-    "title_zh": "办公椅 Mimoglad",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "kediers-boitier-c650",
-    "title": "KEDIERS C570 — Boîtier ATX Mid-Tower avec 5 Ventilateurs PWM ARGB, Blanc",
-    "shortDescription": "Un boîtier gaming blanc avec 5 ventilateurs ARGB déjà installés dedans. Panneau en verre trempé sur le côté pour voir tes composants illuminés. Format ATX mid-tower, donc compatible avec la majorité des cartes mères du marché. Bon refroidissement de base sans avoir à acheter de fans supplémentaires.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0G1CC4YN7?tag=prixmalin20-20",
-    "category": "boitiers",
-    "image": "/images/products/kediers-boitier-c650.webp",
-    "badge": "Meilleur vendeur",
-    "actif": true,
-    "prix": 118.99,
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "White ATX mid-tower case with 5 ARGB PWM fans pre-installed. Tempered glass side panel to show off your build. Compatible with most ATX motherboards. Good airflow out of the box — no extra fans needed.",
-    "shortDescription_es": "Gabinete ATX mid-tower blanco con 5 ventiladores PWM ARGB ya instalados. Panel lateral de vidrio templado para ver tus componentes iluminados. Compatible con la mayoría de tarjetas madre ATX. Buen flujo de aire sin necesidad de comprar más ventiladores.",
-    "shortDescription_ar": "هيكل كمبيوتر أبيض ATX mid-tower مع 5 مراوح PWM ARGB مثبتة مسبقاً. لوح جانبي من الزجاج المقسى لعرض مكوناتك المضيئة. متوافق مع معظم اللوحات الأم ATX. تبريد جيد من الصندوق دون الحاجة لشراء مراوح إضافية.",
-    "shortDescription_zh": "白色ATX中塔机箱，预装5个PWM ARGB风扇。钢化玻璃侧板展示你的发光组件。兼容大多数ATX主板。开箱即有良好散热，无需额外购买风扇。",
-    "title_en": "KEDIERS C570 — White ATX Mid-Tower Case with 5 PWM ARGB Fans",
-    "title_es": "KEDIERS C570 — Gabinete ATX Mid-Tower Blanco con 5 Ventiladores PWM ARGB",
-    "title_ar": "KEDIERS C570 — هيكل كمبيوتر ATX أبيض مع 5 مراوح PWM ARGB",
-    "title_zh": "KEDIERS C570 — 白色ATX中塔机箱 5个PWM ARGB风扇",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "hyxn-atx-boitier",
-    "title": "HYXN ATX Boîtier",
-    "shortDescription": "Grand boîtier PC gaming ATX double chambre — 8 ventilateurs PWM ARGB pré-installés, support radiateur 420 mm.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0G3511PGL?tag=prixmalin20-20",
-    "category": "boitiers",
-    "image": "/images/products/hyxn-atx-boitier.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-    "prix": 179.99,
-    "prixBarre": 229.99,
-    "prixVerifieLe": "2026-05-20",
-    "shortDescription_en": "large gaming PC case ATX dual-chamber — 8 pre-installed PWM ARGB fans, radiator support 420 mm.",
-    "shortDescription_es": "caja gaming PC grande ATX doble cámara — 8 ventiladores PWM ARGB preinstalados, soporte de radiador 420 mm.",
-    "shortDescription_ar": "صندوق كمبيوتر ألعاب كبير ATX غرفة مزدوجة — 8 مراوح PWM ARGB مثبتة مسبقاً, دعم المشعاع 420 mm.",
-    "shortDescription_zh": "大型游戏电脑机箱 ATX 双腔体设计 — 8 预装PWM ARGB风扇, 散热器支持 420 mm.",
-    "title_en": "HYXN ATX PC case",
-    "title_es": "HYXN ATX caja PC",
-    "title_ar": "HYXN ATX هيكل كمبيوتر",
-    "title_zh": "HYXN ATX 机箱",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "support-de-tour-d-ordinateur",
-    "title": "Support de tour d'ordinateur",
-    "shortDescription": "Support de processeur mobile réglable avec 4 roulettes, support de tour d'ordinateur PC convient à la plupart des PC sous le bureau",
-    "amazonUrl": "https://www.amazon.ca/dp/B08R1HKL16?tag=prixmalin20-20",
-    "category": "accessoires",
-    "image": "/images/products/support-de-tour-d-ordinateur.webp",
-    "badge": "Aucun",
-    "actif": true,
-    "prix": 16.99,
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "adjustable mobile CPU stand with 4 casters, computer tower stand PC fits most PCs under the desk",
-    "shortDescription_es": "soporte de CPU móvil ajustable con 4 ruedas, soporte de torre de ordenador PC compatible con la mayoría de PCs bajo el escritorio",
-    "shortDescription_ar": "حامل معالج متنقل قابل للتعديل مع 4 عجلات, حامل برج الكمبيوتر كمبيوتر يناسب معظم أجهزة الكمبيوتر تحت المكتب",
-    "shortDescription_zh": "可调节移动CPU支架 配有 4个脚轮, 电脑塔架 电脑 适合大多数电脑 桌下",
-    "title_en": "PC tower stand",
-    "title_es": "soporte torre PC",
-    "title_ar": "حامل برج الكمبيوتر",
-    "title_zh": "电脑塔架",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "corsair-3500x-lx-r",
-    "title": "CORSAIR 3500X LX-R",
-    "shortDescription": "Boîtier PC Tour moyenne, 3 ventilateurs LX120-R RVB pré-installés, comprend un concentrateur système iCUE Link, un bras anti-affaissement du GPU",
-    "amazonUrl": "https://www.amazon.ca/dp/B0FJ2V6VVP?tag=prixmalin20-20",
-    "category": "boitiers",
-    "image": "/images/products/corsair-3500x-lx-r.webp",
-    "badge": "Meilleur vendeur",
-    "actif": true,
-    "prix": 209.99,
-    "prixBarre": 249.99,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "PC case mid tower, 3 fans LX120-R RGB pre-installed, includes a system hub iCUE Link, un GPU anti-sag bracket",
-    "shortDescription_es": "caja PC torre mediana, 3 ventiladores LX120-R RGB preinstalados, incluye un concentrador del sistema iCUE Link, un soporte anti-pandeo de GPU",
-    "shortDescription_ar": "صندوق الكمبيوتر الشخصي برج متوسط, 3 مراوح LX120-R RGB مثبتة مسبقاً, يتضمن محور النظام iCUE Link, un دعامة GPU لمنع الترهل",
-    "shortDescription_zh": "电脑机箱 中塔, 3个风扇 LX120-R RGB 预装, 包含一个 系统集线器 iCUE Link, un GPU防下垂支架",
-    "title_en": "CORSAIR 3500X LX-R",
-    "title_es": "CORSAIR 3500X LX-R",
-    "title_ar": "CORSAIR 3500X LX-R",
-    "title_zh": "CORSAIR 3500X LX-R",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "z-edge",
-    "title": "Moniteur gaming Z-Edge 27\" incurvé",
-    "shortDescription": "Moniteur gaming incurvé 27 po Full HD — 300Hz, 1ms, sans cadre, AMD FreeSync Premium, ports HDMI et DisplayPort.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0DZLZX1GL?tag=prixmalin20-20",
-    "category": "ecrans",
-    "image": "/images/products/z-edge.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-    "prix": 199.99,
-    "prixBarre": 229.99,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription_en": "gaming monitor curved 27 in Full HD — 300Hz, 1ms, frameless, AMD FreeSync Premium, HDMI ports and DisplayPort.",
-    "shortDescription_es": "monitor gaming curvo 27 pulg Full HD — 300Hz, 1ms, sin marco, AMD FreeSync Premium, puertos HDMI y DisplayPort.",
-    "shortDescription_ar": "شاشة ألعاب منحني 27 بوصة دقة فائقة HD — 300Hz, 1 مللي ثانية, بدون إطار, AMD FreeSync Premium, منافذ HDMI و DisplayPort.",
-    "shortDescription_zh": "游戏显示器 曲面 27英寸 全高清 — 300Hz, 1毫秒, 无边框, AMD FreeSync Premium, HDMI接口 和 DisplayPort.",
-    "title_en": "Z-Edge 27\" Curved Gaming Monitor",
-    "title_es": "Monitor gaming curvo Z-Edge 27\"",
-    "title_ar": "شاشة ألعاب منحنية Z-Edge 27\"",
-    "title_zh": "Z-Edge 27英寸曲面游戏显示器",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "asus-tuf-gaming-31-5",
-    "title": "ASUS TUF Gaming 31,5’’ ",
-    "shortDescription": "Moniteur gaming incurvé 31,5 po QHD 1440p, 180Hz, 0,5ms, HDR, FreeSync, courbure 1500R, idéal pour le gaming compétitif et créatif. Garantie 3 ans.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0DQ9MMZVV?tag=prixmalin20-20",
-    "category": "ecrans",
-    "image": "/images/products/asus-tuf-gaming-31-5.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-    "prix": 278.33,
-    "prixBarre": "349.00",
-    "prixVerifieLe": "2026-05-20",
-    "shortDescription_en": "gaming monitor curved 31.5 in QHD 1440P, 180Hz, 0.5ms, HDR, FreeSync, curvature 1500R, ideal for competitive gaming and creative. Garantie 3 ans.",
-    "shortDescription_es": "monitor gaming curvo 31,5 pulg QHD 1440P, 180Hz, 0,5ms, HDR, FreeSync, curvatura 1500R, ideal para gaming competitivo y creativo. Garantie 3 ans.",
-    "shortDescription_ar": "شاشة ألعاب منحني 31.5 بوصة QHD 1440P, 180Hz, 0.5 مللي ثانية, HDR, FreeSync, انحناء 1500R, مثالي للألعاب التنافسية والإبداعي. Garantie 3 ans.",
-    "shortDescription_zh": "游戏显示器 曲面 31.5英寸 QHD 1440P, 180Hz, 0.5毫秒, HDR, FreeSync, 曲率 1500R, 适合竞技游戏 和创意. Garantie 3 ans.",
-    "title_en": "ASUS TUF Gaming 31,5’’ ",
-    "title_es": "ASUS TUF Gaming 31,5’’ ",
-    "title_ar": "ASUS TUF Gaming 31,5’’ ",
-    "title_zh": "ASUS TUF Gaming 31,5’’ ",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "gigabyte-gs27qa",
-    "title": "GIGABYTE GS27QA",
-    "shortDescription": "Moniteur gaming 27 po QHD 2K 1440p 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, idéal pour le gaming compétitif.",
-    "amazonUrl": "https://www.newegg.ca/gigabyte-gs27qa-sa-27-qhd-180-hz-super-speed-ips-black/p/N82E16824012083",
-    "category": "ecrans",
-    "image": "/images/products/gigabyte-gs27qa.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-    "prix": 219.99,
-    "prixBarre": 339.99,
-    "prixVerifieLe": "2026-05-15",
-    "shortDescription_en": "gaming monitor 27 in QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, ideal for competitive gaming.",
-    "shortDescription_es": "monitor gaming 27 pulg QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, ideal para gaming competitivo.",
-    "shortDescription_ar": "شاشة ألعاب 27 بوصة QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1 مللي ثانية, HDR, مثالي للألعاب التنافسية.",
-    "shortDescription_zh": "游戏显示器 27英寸 QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1毫秒, HDR, 适合竞技游戏.",
-    "title_en": "GIGABYTE GS27QA",
-    "title_es": "GIGABYTE GS27QA",
-    "title_ar": "GIGABYTE GS27QA",
-    "title_zh": "GIGABYTE GS27QA",
-    "lienVerifieLe": "2026-05-23",
-    "translationVerified": true
-  },
-  {
-    "slug": "samsung-odyssey-g5",
-    "title": "Samsung Odyssey G5",
-    "shortDescription": "Moniteur gaming incurvé 27 po QHD 1440p — 165Hz, 1ms, HDR10, FreeSync, courbure 1000R, mode Eye Saver.",
-    "amazonUrl": "https://www.amazon.ca/dp/B0CRGR6KLN?tag=prixmalin20-20",
-    "category": "ecrans",
-    "image": "/images/products/samsung-odyssey-g5.webp",
-    "badge": "Meilleur vendeur",
-    "actif": true,
-<<<<<<< HEAD
-    "prix": "228.00",
-    "prixBarre": "",
-=======
-<<<<<<< Updated upstream
-    "prix": 228.0,
-    "prixBarre": null,
->>>>>>> dev
-    "prixVerifieLe": "2026-05-20",
-=======
     "prix": 349.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "shortDescription_en": "gaming monitor curved 27 in QHD 1440P — 165Hz, 1ms, HDR10, FreeSync, 1000R curvature, Eye Saver mode.",
     "shortDescription_es": "monitor gaming curvo 27 pulg QHD 1440P — 165Hz, 1ms, HDR10, FreeSync, curvatura 1000R, modo Eye Saver.",
     "shortDescription_ar": "شاشة ألعاب منحني 27 بوصة QHD 1440P — 165Hz, 1 مللي ثانية, HDR10, FreeSync, انحناء 1000R, وضع Eye Saver لحماية العينين.",
@@ -1010,21 +435,10 @@
     "image": "/images/products/playvital-coque-silicone-switch-pro.webp",
     "badge": "",
     "actif": true,
-<<<<<<< HEAD
-    "prix": "20.99",
-=======
-<<<<<<< Updated upstream
-    "prix": 19.94,
->>>>>>> dev
-    "prixBarre": 20.99,
-    "prixVerifieLe": "2026-05-20",
-    "lienVerifieLe": "2026-05-20",
-=======
     "prix": 20.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -1044,21 +458,10 @@
     "image": "/images/products/logitech-g915-tkl-sans-fil-rgb.webp",
     "badge": "",
     "actif": true,
-<<<<<<< HEAD
-    "prix": "173.99",
-=======
-<<<<<<< Updated upstream
-    "prix": 171.99,
->>>>>>> dev
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-20",
-    "lienVerifieLe": "2026-05-20",
-=======
     "prix": 173.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -1107,17 +510,8 @@
     "actif": true,
     "prix": 58.5,
     "prixBarre": 69.98,
-<<<<<<< HEAD
-    "prixVerifieLe": "2026-05-20",
-=======
-<<<<<<< Updated upstream
-    "prixVerifieLe": "2026-05-14",
->>>>>>> dev
-    "lienVerifieLe": "2026-05-14",
-=======
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -1189,17 +583,8 @@
     "actif": true,
     "prix": 279.99,
     "prixBarre": null,
-<<<<<<< HEAD
-    "prixVerifieLe": "2026-05-20",
-=======
-<<<<<<< Updated upstream
-    "prixVerifieLe": "2026-05-15",
->>>>>>> dev
-    "lienVerifieLe": "2026-05-20",
-=======
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -1243,55 +628,10 @@
     "badge": "",
     "actif": true,
     "prix": 399.98,
-<<<<<<< HEAD
-    "prixBarre": "",
-    "prixVerifieLe": "2026-05-20",
-=======
-    "prixBarre": null,
-<<<<<<< Updated upstream
-    "prixVerifieLe": "2026-05-14",
->>>>>>> dev
-    "lienVerifieLe": "2026-05-20",
-=======
-    "prixVerifieLe": "2026-05-23",
-    "lienVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
-    "translationVerified": true
-  },
-  {
-    "slug": "hyperx-quadcast",
-    "title": "Microphone HyperX QuadCast",
-    "shortDescription": "Microphone USB à condensateur RGB — 4 modes de captation, mise en sourdine tactile, compatible PC, PS4, Mac, Discord et OBS.",
-    "title_en": "Microphone HyperX QuadCast",
-    "title_es": "Micrófono HyperX QuadCast",
-    "title_ar": "ميكروفون هايبر إكس QuadCast",
-    "title_zh": "麦克风 HyperX QuadCast",
-    "shortDescription_en": "USB microphone à condenser RGB — 4 modes de capture, tap en tap-to-mute compatible PC PS4, Mac Discord and OBS",
-    "shortDescription_es": "micrófono USB à condensador RGB — 4 modos de captación, toque en silencio táctil compatible PC PS4, Mac Discord y OBS",
-    "shortDescription_ar": "ميكروفون USB à مكثف RGB — 4 أوضاع de التقاط، لمس en كتم الصوت باللمس متوافق PC PS4, Mac Discord و OBS",
-    "shortDescription_zh": "USB麦克风 à 电容 RGB — 4 模式 de 拾音，触控 en 触控静音 兼容 PC PS4, Mac Discord 和 OBS",
-    "amazonUrl": "https://www.amazon.ca/dp/B08G8WH435?tag=prixmalin20-20",
-    "category": "audio",
-    "image": "/images/products/hyperx-quadcast.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-<<<<<<< HEAD
-    "prix": "199.98",
-    "prixBarre": "209.99",
-    "prixVerifieLe": "2026-05-20",
-=======
-<<<<<<< Updated upstream
-    "prix": 209.99,
-    "prixBarre": null,
-    "prixVerifieLe": "2026-05-14",
->>>>>>> dev
-    "lienVerifieLe": "2026-05-20",
-=======
     "prix": 179.0,
     "prixBarre": 209.99,
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -1312,180 +652,9 @@
     "badge": "Aucun",
     "actif": true,
     "prix": 319.99,
-<<<<<<< HEAD
-    "prixBarre": "",
-    "prixVerifieLe": "2026-05-20",
-=======
-    "prixBarre": null,
-<<<<<<< Updated upstream
-    "prixVerifieLe": "2026-05-15",
->>>>>>> dev
-    "lienVerifieLe": "2026-05-20",
-=======
-    "prixVerifieLe": "2026-05-23",
-    "lienVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
-    "translationVerified": true
-  },
-  {
-    "actif": true,
-    "affiliateLink": "https://www.amazon.ca/dp/B0CXTJTJ62?tag=prixmalin20-20",
-    "amazonUrl": "https://www.amazon.ca/dp/B0CXTJTJ62?tag=prixmalin20-20",
-    "asin": "B0CXTJTJ62",
-    "badge": "",
-    "category": "boitiers",
-    "image": "/images/products/sama-2851a-boitier-atx-gaming-blanc.webp",
-    "lienVerifieLe": "2026-05-23",
-    "prix": 109.99,
-<<<<<<< HEAD
-    "prixBarre": "",
-=======
-    "prixBarre": null,
-<<<<<<< Updated upstream
->>>>>>> dev
-    "prixVerifieLe": "2026-05-20",
-=======
-    "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
-    "shortDescription": "Boîtier PC blanc, panneau verre trempé, idéal pour PC gaming",
-    "shortDescription_ar": "\nهيكل كمبيوتر ATX أبيض مع 4 مراوح ARGB، ألواح زجاج مقسى منحنية ودعم مشعاع 360 ملم.",
-    "shortDescription_en": "White mid-tower ATX case with 4 ARGB fans, curved tempered glass panels and 360mm radiator support.",
-    "shortDescription_es": "Caja ATX torre media blanca con 4 ventiladores ARGB, paneles de vidrio templado curvo y soporte para radiador de 360mm.",
-    "shortDescription_fr": "Boîtier mi-tour ATX blanc avec 4 ventilateurs ARGB, panneaux en verre trempé incurvé et support radiateur 360mm.",
-    "shortDescription_zh": "白色中塔ATX机箱，配备4个ARGB风扇，弧形钢化玻璃侧板，支持360mm水冷排。",
-    "slug": "sama-2851a-boitier-atx-gaming-blanc",
-    "title": "Boîtier moyen SAMA blanc verre trempé",
-    "title_ar": "هيكل كمبيوتر gaming SAMA أبيض زجاج مقسى",
-    "title_en": "PC case gaming SAMA white tempered glass",
-    "title_es": "caja PC gaming SAMA blanco vidrio templado",
-    "title_zh": "机箱 gaming SAMA 白色 钢化玻璃",
-    "dateAjout": "2026-04-19",
-    "translationVerified": true,
-    "translationVerifiedLe": "2026-04-21"
-  },
-  {
-    "actif": true,
-    "affiliateLink": "https://www.amazon.ca/dp/B0BDMLY69R?tag=prixmalin20-20",
-    "amazonUrl": "https://www.amazon.ca/dp/B0BDMLY69R?tag=prixmalin20-20",
-    "asin": "B0BDMLY69R",
-    "badge": "Deal du jour",
-    "category": "claviers",
-    "dateAjout": "2026-04-20",
-    "image": "/images/products/corsair-k100-air-clavier-mecanique-sans-fil-gaming.webp",
-    "lienVerifieLe": "2026-05-23",
-    "prix": 189.99,
-    "prixBarre": 354.99,
-    "prixVerifieLe": "2026-05-20",
-    "shortDescription": "Un clavier sans fil haut de gamme qui ne fait aucun compromis sur la réactivité. Connexion ultra-rapide, design ultra-mince en aluminium et touches mécaniques Cherry MX",
-    "shortDescription_ar": "لوحة مفاتيح لاسلكية فاخرة لا تضحي بأي شيء من حيث الاستجابة. اتصال فائق السرعة، تصميم رفيع جداً من الألمنيوم، وأزرار ميكانيكية Cherry MX",
-    "shortDescription_en": "A premium wireless keyboard that makes no compromises on responsiveness. Ultra-fast connection, ultra-thin aluminum design, and mechanical Cherry MX keys",
-    "shortDescription_es": "Un teclado inalámbrico de gama alta que no hace ningún compromiso en cuanto a la reactividad. Conexión ultrarrápida, diseño ultradelgado de aluminio y teclas mecánicas Cherry MX",
-    "shortDescription_fr": "Clavier gaming sans fil ultra-mince, connexion rapide, rétroéclairage RGB, touches mécaniques profil bas.",
-    "shortDescription_zh": "一款高端无线键盘，在响应速度上绝不妥协。超快连接、超薄铝制设计和机械Cherry MX按键",
-    "slug": "corsair-k100-air-clavier-mecanique-sans-fil-gaming",
-    "title": "Corsair K100 AIR ",
-    "title_ar": "كورسير K100 AIR ",
-    "title_en": "Corsair K100 AIR ",
-    "title_es": "Corsair K100 AIR ",
-    "title_zh": "Corsair K100 AIR ",
-    "translationVerified": true,
-    "translationVerifiedLe": "2026-04-21"
-  },
-  {
-    "actif": true,
-    "affiliateLink": "https://www.amazon.ca/dp/B0G352NFTR?tag=prixmalin20-20",
-    "amazonUrl": "https://www.amazon.ca/dp/B0G352NFTR?tag=prixmalin20-20",
-    "asin": "B0G352NFTR",
-    "badge": "Deal du jour",
-    "category": "boitiers",
-    "dateAjout": "2026-04-20",
-    "image": "/images/products/boitier-atx-blanc-hyxn-h2-argb.webp",
-    "lienVerifieLe": "2026-05-23",
-    "prix": 209.99,
-    "prixBarre": 259.99,
-<<<<<<< HEAD
-    "prixVerifieLe": "2026-05-20",
-=======
-<<<<<<< Updated upstream
-    "prixVerifieLe": "2026-05-15",
-=======
-    "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
->>>>>>> dev
-    "shortDescription": "Boîtier blanc double chambre, 8 ventilateurs ARGB, idéal pour PC gaming haute performance.",
-    "shortDescription_ar": "علبة بيضاء ذات غرفتين مزدوجتين، 8 مراوح ARGB، مثالية لأجهزة الكمبيوتر عالية الأداء للألعاب.",
-    "shortDescription_en": "White dual-chamber case, 8 ARGB fans, ideal for high-performance gaming PCs.",
-    "shortDescription_es": "Caja blanca de doble cámara, 8 ventiladores ARGB, ideal para ordenadores de juegos de alto rendimiento.",
-    "shortDescription_fr": "Boîtier blanc double chambre, 8 ventilateurs ARGB préinstallés, idéal pour PC gaming haute performance.",
-    "shortDescription_zh": "白色双室机箱，配备8个ARGB风扇，适合高性能游戏PC。",
-    "slug": "boitier-atx-blanc-hyxn-h2-argb",
-    "title": "Boîtier ATX blanc HYXN H2",
-    "title_ar": "هيكل كمبيوتر ATX أبيض HYXN H2",
-    "title_en": "PC case ATX white HYXN H2",
-    "title_es": "caja PC ATX blanco HYXN H2",
-    "title_zh": "机箱 ATX 白色 HYXN H2",
-    "translationVerified": true,
-    "translationVerifiedLe": "2026-04-21"
-  },
-  {
-    "actif": true,
-    "affiliateLink": "https://www.amazon.ca/dp/B0DBGYLVQ8?tag=prixmalin20-20",
-    "amazonUrl": "https://www.amazon.ca/dp/B0DBGYLVQ8?tag=prixmalin20-20",
-    "asin": "B0DBGYLVQ8",
-    "badge": "Deal du jour",
-    "category": "chaises",
-    "dateAjout": "2026-04-20",
-    "image": "/images/products/chaise-gaming-massage-repose-pieds-ergonomique.webp",
-    "lienVerifieLe": "2026-05-23",
-    "prix": 123.49,
-    "prixBarre": 129.99,
-    "prixVerifieLe": "2026-05-23",
-    "shortDescription": "Chaise gaming ergonomique avec massage lombaire intégré et repose-pieds rétractable — idéale pour les longues sessions de jeu ou de travail.",
-    "shortDescription_ar": "كرسي ألعاب مريح مع تدليك لومبي مدمج ووحدة قدم قابلة للطي — مثالي لفترات اللعب أو العمل الطويلة.",
-    "shortDescription_en": "Ergonomic gaming chair with integrated lumbar massage and retractable footrest — ideal for long gaming or work sessions.",
-    "shortDescription_es": "Silla gaming ergonómica con masaje lumbar integrado y reposapiés retráctil — ideal para largas sesiones de juego o trabajo.",
-    "shortDescription_fr": "Chaise gaming ergonomique, fonction massage intégrée, repose-pieds rétractable, idéale pour longues sessions.",
-    "shortDescription_zh": "人体工学游戏椅，内置腰部按摩和可伸缩脚踏板——适合长时间游戏或工作。",
-    "slug": "chaise-gaming-massage-repose-pieds-ergonomique",
-    "title": "Chaise Gaming SUKIDA — Massage & Repose-pieds",
-    "title_ar": "كرسي ألعاب تدليك مع وسادة قدم",
-    "title_en": "[EN] Chaise Gaming Massage Repose-Pieds",
-    "title_es": "[ES] Chaise Gaming Massage Repose-Pieds",
-    "title_zh": "[ZH] Chaise Gaming Massage Repose-Pieds",
-    "translationVerified": true,
-    "translationVerifiedLe": "2026-04-21"
-  },
-  {
-    "slug": "fractal-design-torrent",
-    "title": "Fractal Design Torrent",
-    "shortDescription": "Le Fractal Design Torrent est conçu pour ceux qui ne font pas de compromis. Cinq ventilateurs silencieux inclus, une ventilation généreuse et une finition soignée — tout ce qu'il faut pour une tour performante qui dure.",
-    "title_en": "Fractal Design Torrent",
-    "title_es": "Fractal Design Torrent",
-    "title_ar": "تصميم فركتال تورنت",
-    "title_zh": "Fractal Design Torrent",
-    "shortDescription_en": "The Fractal Design Torrent is designed for those who make no compromises. Five silent fans included, generous airflow, and a refined finish — everything needed for a high-performance tower that lasts.",
-    "shortDescription_es": "El Fractal Design Torrent está diseñado para quienes no hacen concesiones. Incluye cinco ventiladores silenciosos, un flujo de aire generoso y una terminación refinada; todo lo necesario para una torre de alto rendimiento que perdura.",
-    "shortDescription_ar": "يُصمم Fractal Design Torrent لمن لا يتنازل عن أي شيء. يتضمن خمسة مراوح صامتة، وتدفق هواء وفير، وإنهاء دقيق — كل ما تحتاجه لبرج عالي الأداء يدوم طويلاً.",
-    "shortDescription_zh": "Fractal Design Torrent 专为不愿妥协的用户打造。配备五个静音风扇、出色的风道和精致的做工——一切皆为实现持久高性能塔式机箱所需。",
-    "amazonUrl": "https://www.amazon.ca/dp/B08699B69Z?tag=prixmalin20-20",
-    "category": "boitiers",
-    "image": "/images/products/fractal-design-torrent.webp",
-    "badge": "Meilleur vendeur",
-    "actif": true,
-<<<<<<< HEAD
-    "prix": "327.46",
-    "prixBarre": "",
-=======
-<<<<<<< Updated upstream
-    "prix": 318.89,
-    "prixBarre": null,
->>>>>>> dev
-    "prixVerifieLe": "2026-05-20",
-=======
     "prix": 342.04,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
->>>>>>> Stashed changes
     "translationVerified": true,
     "translationVerifiedLe": "2026-04-21",
     "lienVerifieLe": "2026-05-23"
