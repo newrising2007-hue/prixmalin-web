@@ -13,13 +13,21 @@
     "shortDescription_es": "auriculares gaming con cable — marco de aluminio, altavoces dobles, micrófono desmontable, compatible PC, PS4, PS5, Xbox y Nintendo Switch.",
     "shortDescription_ar": "سماعة ألعاب سلكية — إطار ألومينيوم, مكبرات صوت مزدوجة, ميكروفون قابل للفصل, متوافق كمبيوتر, PS4, PS5, Xbox و Nintendo Switch.",
     "shortDescription_zh": "有线游戏耳机 — 铝制框架, 双扬声器, 可拆卸麦克风, 兼容 电脑, PS4, PS5, Xbox 和 Nintendo Switch.",
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "actif": true,
     "title_en": "gaming headset HyperX Cloud",
     "title_es": "auriculares gaming HyperX Cloud",
     "title_ar": "سماعة ألعاب HyperX Cloud",
     "title_zh": "游戏耳机 HyperX Cloud",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -31,6 +39,7 @@
     "image": "/images/products/logitech-g203.webp",
     "badge": "",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prix": 38.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-20",
@@ -38,6 +47,11 @@
     "prix": 39.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prix": 39.99,
+    "prixBarre": null,
+    "prixVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "shortDescription_en": "precise, lightweight and ideal for FPS at an affordable price. 3 colors available.",
     "shortDescription_es": "precisa, ligero y ideal para FPS a precio asequible. 3 colores disponibles.",
@@ -47,7 +61,11 @@
     "title_es": "ratón gaming Logitech G203 Lightsync RGB",
     "title_ar": "فأرة الألعاب Logitech G203 Lightsync RGB",
     "title_zh": "游戏鼠标 Logitech G203 Lightsync RGB",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -60,7 +78,11 @@
     "badge": "",
     "prix": 349.99,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "gaming headsand multi-system — 360° spatial audio, randractable microphone, compatible PC, PS4, PS5, Xbox and Nintendo Switch.",
     "shortDescription_es": "auriculares gaming multi-sistema — audio espacial 360°, micrófono ryráctil, compatible PC, PS4, PS5, Xbox y Nintendo Switch.",
     "shortDescription_ar": "سماعة ألعاب متعدد الأنظمة — صوت مكاني 360°, ميكروفون قابل للسحب, متوافق كمبيوتر, PS4, PS5, Xbox و Nintendo Switch.",
@@ -69,7 +91,11 @@
     "title_es": "auriculares gaming SteelSeries Arctis Nova Pro Open box",
     "title_ar": "سماعة ألعاب ستيل سيريز Arctis Nova Pro Open box",
     "title_zh": "游戏耳机 赛睿 Arctis Nova Pro Open box",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -81,7 +107,11 @@
     "image": "/images/products/hyperx-alloy-core.webp",
     "prix": 54.99,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "RGB keyboard comfortable and splash-resistant for gaming.",
     "shortDescription_es": "teclado RGB cómodo y resistente a salpicaduras para gaming.",
     "shortDescription_ar": "لوحة مفاتيح RGB مريح و مقاوم للرشاش للألعاب.",
@@ -91,7 +121,11 @@
     "title_ar": "لوحة مفاتيح Gaming HyperX Alloy Core RGB",
     "title_zh": "键盘 Gaming HyperX Alloy Core RGB",
     "badge": "",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -104,6 +138,7 @@
     "badge": "",
     "actif": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prix": 209.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-20",
@@ -111,6 +146,11 @@
     "prix": 200.37,
     "prixBarre": 239.99,
     "prixVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prix": 200.37,
+    "prixBarre": 239.99,
+    "prixVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "shortDescription_en": "Ultra-lightweight wireless gaming mouse (60 g), HERO 2 44K DPI sensor, 95 h battery life, USB-C charging. Designed with esport professionals.",
     "shortDescription_es": "Ratón gaming inalámbrico ultraligero (60 g), sensor HERO 2 44K DPI, autonomía 95 h, carga USB-C. Diseñada con los profesionales del esport.",
@@ -123,7 +163,11 @@
     "asin": "B09NBWL8J5",
     "affiliateLink": "https://www.amazon.ca/dp/B09NBWL8J5?tag=prixmalin20-20",
     "shortDescription_fr": "Souris gaming sans fil ultra-légère (60 g), capteur HERO 2 44K DPI, autonomie 95 h, recharge USB-C. Conçue avec les pros de l'esport.",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -136,12 +180,18 @@
     "badge": "",
     "actif": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prix": 218.91,
 =======
     "prix": 234.65,
 >>>>>>> Stashed changes
     "prixBarre": null,
     "prixVerifieLe": "2026-05-20",
+=======
+    "prix": 209.07,
+    "prixBarre": null,
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "ultra-lightweight wireless gaming mouse 60 g — 5 programmable buttons, professional quality, available en red.",
     "shortDescription_es": "ratón gaming inalámbrico ultraligero 60 g — 5 botones programables, calidad profesional, disponible en rojo.",
     "shortDescription_ar": "فأرة ألعاب لاسلكية خفيفة جداً 60 g — 5 أزرار قابلة للبرمجة, جودة احترافية, متاح en أحمر.",
@@ -150,7 +200,11 @@
     "title_es": "Logitech G PRO X Superlight 2 SE ",
     "title_ar": "Logitech G PRO X Superlight 2 SE ",
     "title_zh": "Logitech G PRO X Superlight 2 SE ",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -164,7 +218,11 @@
     "actif": true,
     "prix": 55.0,
     "prixBarre": 69.99,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "RGB gaming keyboard splash-resistant and dust resistant — silent switches, anti-ghosting, available in multiple colors.",
     "shortDescription_es": "teclado gaming RGB resistente a salpicaduras y resistente al polvo — interruptores silenciosos, anti-ghosting, disponible en varios colores.",
     "shortDescription_ar": "لوحة مفاتيح ألعاب RGB مقاوم للرشاش و مقاوم للغبار — مفاتيح صامتة, مانع الضغط الوهمي, متاح بألوان متعددة.",
@@ -173,7 +231,11 @@
     "title_es": "teclado SteelSeries Apex 3 ",
     "title_ar": "لوحة مفاتيح SteelSeries Apex 3 ",
     "title_zh": "键盘 SteelSeries Apex 3 ",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -188,6 +250,9 @@
     "prix": 14.98,
     "prixBarre": null,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
     "prixVerifieLe": "2026-05-20",
 =======
     "prixVerifieLe": "2026-05-23",
@@ -200,7 +265,11 @@
     "title_es": "SteelSeries QcK Gaming Mouse Pad (mediano)",
     "title_ar": "SteelSeries QcK Gaming Mouse Pad (متوسط)",
     "title_zh": "SteelSeries QcK Gaming Mouse Pad (中)",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -214,11 +283,16 @@
     "actif": true,
     "prix": 19.99,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prixBarre": 25.99,
     "prixVerifieLe": "2026-05-20",
 =======
     "prixBarre": 21.99,
     "prixVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prixBarre": 21.99,
+    "prixVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "shortDescription_en": "headset stand RGB New Bee — 2 USB ports smart, data transfer and charging, compatible phone, keyboard, mouse.",
     "shortDescription_es": "soporte para auriculares RGB New Bee — 2 puertos USB inteligentes, transferencia de datos y carga, compatible teléfono, teclado, ratón.",
@@ -228,7 +302,11 @@
     "title_es": "New bee soporte para auriculares RGB",
     "title_ar": "New bee حامل سماعة RGB",
     "title_zh": "New bee 耳机支架 RGB",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -243,9 +321,13 @@
     "prix": 84.98,
     "prixBarre": null,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-20",
 =======
     "prixVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prixVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "shortDescription_en": "wireless Xbox Core controller — USB-C cable included, compatible Series X|S, Xbox One, Windows PC, Android and iOS.",
     "shortDescription_es": "mando Xbox Core inalámbrico — cable USB-C incluido, compatible Series X|S, Xbox One, Windows PC, Android y iOS.",
@@ -255,7 +337,11 @@
     "title_es": "Xbox Core Wireless Gaming Controller",
     "title_ar": "Xbox Core Wireless Gaming Controller",
     "title_zh": "Xbox Core Wireless Gaming Controller",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -271,10 +357,16 @@
     "prix": 94.0,
 =======
     "actif": false,
+<<<<<<< Updated upstream
     "prix": 89.99,
 >>>>>>> Stashed changes
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
+=======
+    "prix": 85.33,
+    "prixBarre": null,
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "DualSense PlayStation controller wireless — haptic feedback, adaptive triggers, available in multiple colors.",
     "shortDescription_es": "mando DualSense PlayStation inalámbrico — retroalimentación háptica, gatillos adaptativos, disponible en varios colores.",
     "shortDescription_ar": "يد تحكم DualSense PlayStation لاسلكي — ردود فعل لمسية, زناد تكيفي, متوفر بألوان متعددة.",
@@ -283,7 +375,11 @@
     "title_es": "DualSense Wireless Controller Playstation",
     "title_ar": "DualSense Wireless Controller Playstation",
     "title_zh": "DualSense Wireless Controller Playstation",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -306,7 +402,11 @@
     "title_es": "Logitech G 435 Lightspeed",
     "title_ar": "Logitech G 435 Lightspeed",
     "title_zh": "Logitech G 435 Lightspeed",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -319,8 +419,13 @@
     "badge": "Deal du jour",
     "actif": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prix": 59.97,
     "prixBarre": 64.0,
+=======
+    "prix": 60.39,
+    "prixBarre": 63.39,
+>>>>>>> Stashed changes
 =======
     "prix": 60.39,
     "prixBarre": 63.39,
@@ -334,7 +439,11 @@
     "title_es": "Logitech G305 Lightspeed",
     "title_ar": "Logitech G305 Lightspeed",
     "title_zh": "Logitech G305 Lightspeed",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true,
     "raisonDesactivation": "indisponible",
     "desactiveLe": "2026-04-28"
@@ -351,9 +460,13 @@
     "prix": 79.1,
     "prixBarre": null,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-20",
 =======
     "prixVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prixVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "shortDescription_en": "RGB gaming keyboard LIGHTSYNC — splash-resistant, customizable keys, RGB backlight.",
     "shortDescription_es": "teclado gaming RGB LIGHTSYNC — resistente a salpicaduras, teclas personalizables, retroiluminación RGB.",
@@ -363,7 +476,11 @@
     "title_es": "Logitech G213 Prodigy RGB",
     "title_ar": "Logitech G213 Prodigy RGB",
     "title_zh": "Logitech G213 Prodigy RGB",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -377,7 +494,7 @@
     "actif": true,
     "prix": 44.99,
     "prixBarre": null,
-    "prixVerifieLe": "2026-05-20",
+    "prixVerifieLe": "2026-05-24",
     "shortDescription_en": "Bluetooth wireless controller — compatible with Switch, Android and PC, available in multiple colors.",
     "shortDescription_es": "mando inalámbrico Bluetooth — compatible con Switch, Android y PC, disponible en varios colores.",
     "shortDescription_ar": "يد تحكم لاسلكية بلوتوث — متوافق مع Switch وAndroid والحاسوب, متوفر بألوان متعددة.",
@@ -386,7 +503,11 @@
     "title_es": "8BitDo Ultimate Wireless Controller",
     "title_ar": "8BitDo Ultimate Wireless Controller",
     "title_zh": "8BitDo Ultimate Wireless Controller",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -400,7 +521,7 @@
     "actif": true,
     "prix": 22.98,
     "prixBarre": 24.99,
-    "prixVerifieLe": "2026-05-20",
+    "prixVerifieLe": "2026-05-24",
     "shortDescription_en": "mouse pad de gaming mouse large format — high density foam, optimized surface, non-slip base.",
     "shortDescription_es": "alfombrilla de ratón gaming formato grande — espuma de alta densidad, superficie optimizada, base antideslizante.",
     "shortDescription_ar": "لوحة الفأرة de فأرة الألعاب حجم كبير — إسفنج عالي الكثافة, سطح محسّن, قاعدة مانعة للانزلاق.",
@@ -409,7 +530,11 @@
     "title_es": "Razer Gigantus V2 Mouse Pad grande",
     "title_ar": "Razer Gigantus V2 Mouse Pad كبير",
     "title_zh": "Razer Gigantus V2 Mouse Pad 大",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -423,7 +548,11 @@
     "actif": true,
     "prix": 149.99,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "capture card USB 4K60 HDR — 1080p60 recording, compatible PS5, Xbox, Nintendo Switch 2, Plug & Play.",
     "shortDescription_es": "tarjeta de captura USB 4K60 HDR — grabación 1080p60, compatible PS5, Xbox, Nintendo Switch 2, Plug & Play.",
     "shortDescription_ar": "بطاقة التقاط USB 4K60 HDR — تسجيل 1080p60, متوافق PS5, Xbox, Nintendo Switch 2, تشغيل فوري بدون إعداد.",
@@ -432,7 +561,11 @@
     "title_es": "Elgato Game Capture Neo",
     "title_ar": "Elgato Game Capture Neo",
     "title_zh": "Elgato Game Capture Neo",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -447,9 +580,13 @@
     "prix": 134.99,
     "prixBarre": null,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-20",
 =======
     "prixVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prixVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "shortDescription_en": "mouse pad de gaming mouse RGB — Chroma lighting 15 zones, micro-textured surface, detachable USB-C cable.",
     "shortDescription_es": "alfombrilla de ratón gaming RGB — iluminación Chroma 15 zonas, superficie microtexturizada, cable USB-C desmontable.",
@@ -459,7 +596,11 @@
     "title_es": "Razer Firefly V2 Pro alfombrilla",
     "title_ar": "Razer Firefly V2 Pro لوحة الماوس",
     "title_zh": "Razer Firefly V2 Pro 鼠标垫",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -472,8 +613,13 @@
     "badge": "",
     "actif": true,
     "prix": 149.99,
+<<<<<<< Updated upstream
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixBarre": 165.05,
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "USB microphone à condenser RGB — tap-to-mute, gain limiter, ideal for streaming and gaming, available in 3 colors.",
     "shortDescription_es": "micrófono USB à condensador RGB — silencio táctil, limitador de ganancia, ideal para streaming y gaming, disponible en 3 colores.",
     "shortDescription_ar": "ميكروفون USB à مكثف RGB — قطع اللمس, محدد الكسب, مثالي لـ البث والألعاب, متوفر بـ 3 ألوان.",
@@ -482,7 +628,11 @@
     "title_es": "Micrófono Razer Seiren V3 Chroma RGB USB",
     "title_ar": "ميكروفون Razer Seiren V3 Chroma RGB USB",
     "title_zh": "麦克风 Razer Seiren V3 Chroma RGB USB",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -505,7 +655,11 @@
     "title_es": "Dowinx silla gaming y  bureau",
     "title_ar": "Dowinx كرسي ألعاب و  bureau",
     "title_zh": "Dowinx 游戏椅 和  bureau",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -519,7 +673,11 @@
     "actif": true,
     "prix": 109.99,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "gaming chair ergonomic high back — PVC leather, lumbar massage, reclining, ideal for long sessions",
     "shortDescription_es": "silla gaming ergonómico respaldo alto — cuero PVC, masaje lumbar, reclinable, ideal para las largas sesiones",
     "shortDescription_ar": "كرسي ألعاب مريح ظهر مرتفع — جلد PVC, تدليك قطني, قابل للإمالة, مثالي لـ الجلسات الطويلة",
@@ -528,7 +686,11 @@
     "title_es": "silla gaming con reposapiés",
     "title_ar": "كرسي ألعاب مع مسند قدم",
     "title_zh": "游戏椅 配有 脚踏板",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -542,7 +704,11 @@
     "actif": true,
     "prix": 143.97,
     "prixBarre": 259.99,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "ergonomic high back with adjustable lumbar support and headrest.",
     "shortDescription_es": "ergonómico respaldo alto con soporte lumbar ajustable y reposacabezas.",
     "shortDescription_ar": "مريح ظهر مرتفع مع دعم قطني قابل للتعديل و مسند رأس.",
@@ -551,7 +717,11 @@
     "title_es": "silla de oficina Mimoglad",
     "title_ar": "كرسي مكتب Mimoglad",
     "title_zh": "办公椅 Mimoglad",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -565,7 +735,11 @@
     "actif": true,
     "prix": 118.99,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "White ATX mid-tower case with 5 ARGB PWM fans pre-installed. Tempered glass side panel to show off your build. Compatible with most ATX motherboards. Good airflow out of the box — no extra fans needed.",
     "shortDescription_es": "Gabinete ATX mid-tower blanco con 5 ventiladores PWM ARGB ya instalados. Panel lateral de vidrio templado para ver tus componentes iluminados. Compatible con la mayoría de tarjetas madre ATX. Buen flujo de aire sin necesidad de comprar más ventiladores.",
     "shortDescription_ar": "هيكل كمبيوتر أبيض ATX mid-tower مع 5 مراوح PWM ARGB مثبتة مسبقاً. لوح جانبي من الزجاج المقسى لعرض مكوناتك المضيئة. متوافق مع معظم اللوحات الأم ATX. تبريد جيد من الصندوق دون الحاجة لشراء مراوح إضافية.",
@@ -574,7 +748,11 @@
     "title_es": "KEDIERS C570 — Gabinete ATX Mid-Tower Blanco con 5 Ventiladores PWM ARGB",
     "title_ar": "KEDIERS C570 — هيكل كمبيوتر ATX أبيض مع 5 مراوح PWM ARGB",
     "title_zh": "KEDIERS C570 — 白色ATX中塔机箱 5个PWM ARGB风扇",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -586,9 +764,9 @@
     "image": "/images/products/hyxn-atx-boitier.webp",
     "badge": "Deal du jour",
     "actif": true,
-    "prix": 179.99,
+    "prix": 209.99,
     "prixBarre": 229.99,
-    "prixVerifieLe": "2026-05-20",
+    "prixVerifieLe": "2026-05-24",
     "shortDescription_en": "large gaming PC case ATX dual-chamber — 8 pre-installed PWM ARGB fans, radiator support 420 mm.",
     "shortDescription_es": "caja gaming PC grande ATX doble cámara — 8 ventiladores PWM ARGB preinstalados, soporte de radiador 420 mm.",
     "shortDescription_ar": "صندوق كمبيوتر ألعاب كبير ATX غرفة مزدوجة — 8 مراوح PWM ARGB مثبتة مسبقاً, دعم المشعاع 420 mm.",
@@ -597,7 +775,11 @@
     "title_es": "HYXN ATX caja PC",
     "title_ar": "HYXN ATX هيكل كمبيوتر",
     "title_zh": "HYXN ATX 机箱",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -611,7 +793,11 @@
     "actif": true,
     "prix": 16.99,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "adjustable mobile CPU stand with 4 casters, computer tower stand PC fits most PCs under the desk",
     "shortDescription_es": "soporte de CPU móvil ajustable con 4 ruedas, soporte de torre de ordenador PC compatible con la mayoría de PCs bajo el escritorio",
     "shortDescription_ar": "حامل معالج متنقل قابل للتعديل مع 4 عجلات, حامل برج الكمبيوتر كمبيوتر يناسب معظم أجهزة الكمبيوتر تحت المكتب",
@@ -620,7 +806,11 @@
     "title_es": "soporte torre PC",
     "title_ar": "حامل برج الكمبيوتر",
     "title_zh": "电脑塔架",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -634,7 +824,11 @@
     "actif": true,
     "prix": 209.99,
     "prixBarre": 249.99,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "PC case mid tower, 3 fans LX120-R RGB pre-installed, includes a system hub iCUE Link, un GPU anti-sag bracket",
     "shortDescription_es": "caja PC torre mediana, 3 ventiladores LX120-R RGB preinstalados, incluye un concentrador del sistema iCUE Link, un soporte anti-pandeo de GPU",
     "shortDescription_ar": "صندوق الكمبيوتر الشخصي برج متوسط, 3 مراوح LX120-R RGB مثبتة مسبقاً, يتضمن محور النظام iCUE Link, un دعامة GPU لمنع الترهل",
@@ -643,7 +837,11 @@
     "title_es": "CORSAIR 3500X LX-R",
     "title_ar": "CORSAIR 3500X LX-R",
     "title_zh": "CORSAIR 3500X LX-R",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -657,7 +855,11 @@
     "actif": true,
     "prix": 199.99,
     "prixBarre": 229.99,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "gaming monitor curved 27 in Full HD — 300Hz, 1ms, frameless, AMD FreeSync Premium, HDMI ports and DisplayPort.",
     "shortDescription_es": "monitor gaming curvo 27 pulg Full HD — 300Hz, 1ms, sin marco, AMD FreeSync Premium, puertos HDMI y DisplayPort.",
     "shortDescription_ar": "شاشة ألعاب منحني 27 بوصة دقة فائقة HD — 300Hz, 1 مللي ثانية, بدون إطار, AMD FreeSync Premium, منافذ HDMI و DisplayPort.",
@@ -666,7 +868,11 @@
     "title_es": "Monitor gaming curvo Z-Edge 27\"",
     "title_ar": "شاشة ألعاب منحنية Z-Edge 27\"",
     "title_zh": "Z-Edge 27英寸曲面游戏显示器",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -689,7 +895,11 @@
     "title_es": "ASUS TUF Gaming 31,5’’ ",
     "title_ar": "ASUS TUF Gaming 31,5’’ ",
     "title_zh": "ASUS TUF Gaming 31,5’’ ",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -703,7 +913,7 @@
     "actif": true,
     "prix": 219.99,
     "prixBarre": 339.99,
-    "prixVerifieLe": "2026-05-15",
+    "prixVerifieLe": "2026-05-24",
     "shortDescription_en": "gaming monitor 27 in QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, ideal for competitive gaming.",
     "shortDescription_es": "monitor gaming 27 pulg QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, ideal para gaming competitivo.",
     "shortDescription_ar": "شاشة ألعاب 27 بوصة QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1 مللي ثانية, HDR, مثالي للألعاب التنافسية.",
@@ -712,7 +922,11 @@
     "title_es": "GIGABYTE GS27QA",
     "title_ar": "GIGABYTE GS27QA",
     "title_zh": "GIGABYTE GS27QA",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -725,6 +939,7 @@
     "badge": "Meilleur vendeur",
     "actif": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prix": 228.0,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-20",
@@ -732,6 +947,11 @@
     "prix": 349.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prix": 349.99,
+    "prixBarre": null,
+    "prixVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "shortDescription_en": "gaming monitor curved 27 in QHD 1440P — 165Hz, 1ms, HDR10, FreeSync, 1000R curvature, Eye Saver mode.",
     "shortDescription_es": "monitor gaming curvo 27 pulg QHD 1440P — 165Hz, 1ms, HDR10, FreeSync, curvatura 1000R, modo Eye Saver.",
@@ -741,7 +961,11 @@
     "title_es": "Samsung Odyssey G5",
     "title_ar": "Samsung Odyssey G5",
     "title_zh": "Samsung Odyssey G5",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -755,7 +979,11 @@
     "actif": true,
     "prix": 59.99,
     "prixBarre": 84.99,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "USB microphone ultra compact — condenser supercardioid, tap-to-mute LED, compatible PC, Discord and OBS.",
     "shortDescription_es": "micrófono USB ultracompacto — condensador supercardioide, silencio táctil LED, compatible PC, Discord y OBS.",
     "shortDescription_ar": "ميكروفون USB صغير الحجم للغاية — مكثف فائق القلب, قطع اللمس LED, متوافق كمبيوتر, Discord و OBS.",
@@ -764,7 +992,11 @@
     "title_es": "Micrófono Razer Seiren V3 Mini USB",
     "title_ar": "ميكروفون رايزر Seiren V3 Mini USB",
     "title_zh": "麦克风 雷蛇 Seiren V3 Mini USB",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -778,7 +1010,11 @@
     "actif": true,
     "prix": 139.99,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription_en": "9 pre-installed fans, computer case type C de mid-size with dual tempered glass full view.",
     "shortDescription_es": "9 ventiladores preinstalados, caja de ordenador tipo C de tamaño mediano con doble vidrio templado vista completa.",
     "shortDescription_ar": "9 مراوح مثبتة مسبقاً, صندوق الكمبيوتر نوع C de حجم متوسط مع زجاج مزدوج مقسى رؤية كاملة.",
@@ -787,7 +1023,11 @@
     "title_es": "KEDIERS caja de ordenador ATX - Midium Tower",
     "title_ar": "KEDIERS هيكل الكمبيوتر ATX - Midium Tower",
     "title_zh": "KEDIERS 电脑机箱 ATX - Midium Tower",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -810,7 +1050,11 @@
     "title_es": "EMEy PIXY cámara PTZ",
     "title_ar": "EMEو PIXY كاميرا PTZ",
     "title_zh": "EME和 PIXY 摄像头 PTZ",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -826,14 +1070,24 @@
     "image": "/images/products/logitech-webcam-pro-stream-c922.webp",
     "badge": "",
     "actif": true,
+<<<<<<< Updated upstream
     "prix": 149.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
+=======
+    "prix": 118.99,
+    "prixBarre": 129.99,
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "title_en": "LOGITECH Webcam Pro Stream C922 ",
     "title_es": "LOGITECH Webcam Pro Stream C922 ",
     "title_ar": "LOGITECH Webcam Pro Stream C922 ",
     "title_zh": "LOGITECH Webcam Pro Stream C922 ",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -851,12 +1105,20 @@
     "actif": true,
     "prix": 144.99,
     "prixBarre": 179.99,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "title_en": "Elgato Facecam MK.2",
     "title_es": "Elgato Facecam MK.2",
     "title_ar": "Elgato Facecam MK.2",
     "title_zh": "Elgato Facecam MK.2",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -878,8 +1140,13 @@
     "actif": true,
     "prix": 37.99,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -901,8 +1168,13 @@
     "actif": true,
     "prix": 99.96,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -926,8 +1198,13 @@
     "actif": true,
     "prix": 109.96,
     "prixBarre": null,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -945,12 +1222,12 @@
     "amazonUrl": "https://www.amazon.ca/dp/B0FH9NVHD3?tag=prixmalin20-20",
     "category": "accessoires",
     "image": "/images/products/playvital-coque-silicone-switch-2-pro.webp",
-    "badge": "Deal du jour",
+    "badge": "",
     "actif": true,
-    "prix": 20.89,
-    "prixBarre": 21.99,
-    "prixVerifieLe": "2026-05-20",
-    "lienVerifieLe": "2026-05-20",
+    "prix": 21.99,
+    "prixBarre": null,
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
     "translationVerified": true
   },
   {
@@ -971,6 +1248,7 @@
     "badge": "",
     "actif": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prix": 19.94,
     "prixBarre": 20.99,
     "prixVerifieLe": "2026-05-15",
@@ -980,6 +1258,12 @@
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prix": 20.99,
+    "prixBarre": null,
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "translationVerified": true
   },
@@ -1001,6 +1285,7 @@
     "badge": "",
     "actif": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prix": 171.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-15",
@@ -1010,6 +1295,12 @@
     "prixBarre": null,
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prix": 173.99,
+    "prixBarre": null,
+    "prixVerifieLe": "2026-05-20",
+    "lienVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "translationVerified": true
   },
@@ -1032,10 +1323,15 @@
     "image": "/images/products/razer-blackwidow-v3.webp",
     "badge": "Meilleur vendeur",
     "actif": true,
-    "prix": 100.54,
+    "prix": 70.54,
     "prixBarre": 109.99,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-20",
     "lienVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -1060,11 +1356,16 @@
     "prix": 58.5,
     "prixBarre": 69.98,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-14",
     "lienVerifieLe": "2026-05-14",
 =======
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "translationVerified": true
   },
@@ -1090,7 +1391,11 @@
     "prix": 39.98,
     "prixBarre": 49.99,
     "prixVerifieLe": "2026-05-20",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -1114,8 +1419,13 @@
     "actif": true,
     "prix": 63.68,
     "prixBarre": 79.99,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-20",
     "lienVerifieLe": "2026-05-23",
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -1138,11 +1448,16 @@
     "prix": 279.99,
     "prixBarre": null,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-15",
     "lienVerifieLe": "2026-05-20",
 =======
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "translationVerified": true
   },
@@ -1163,10 +1478,15 @@
     "image": "/images/products/logitech-g-733-lightspeed.webp",
     "badge": "Deal du jour",
     "actif": true,
-    "prix": 184.99,
+    "prix": 184.0,
     "prixBarre": 199.99,
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-14",
     "lienVerifieLe": "2026-05-20",
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "translationVerified": true
   },
   {
@@ -1189,11 +1509,16 @@
     "prix": 399.98,
     "prixBarre": null,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-14",
     "lienVerifieLe": "2026-05-20",
 =======
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "translationVerified": true
   },
@@ -1215,6 +1540,7 @@
     "badge": "",
     "actif": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prix": 209.99,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-14",
@@ -1224,6 +1550,12 @@
     "prixBarre": 209.99,
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prix": 179.0,
+    "prixBarre": 209.99,
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "translationVerified": true
   },
@@ -1247,11 +1579,16 @@
     "prix": 319.99,
     "prixBarre": null,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-15",
     "lienVerifieLe": "2026-05-20",
 =======
     "prixVerifieLe": "2026-05-23",
     "lienVerifieLe": "2026-05-23",
+>>>>>>> Stashed changes
+=======
+    "prixVerifieLe": "2026-05-24",
+    "lienVerifieLe": "2026-05-24",
 >>>>>>> Stashed changes
     "translationVerified": true
   },
@@ -1263,10 +1600,16 @@
     "badge": "",
     "category": "boitiers",
     "image": "/images/products/sama-2851a-boitier-atx-gaming-blanc.webp",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
     "prix": 109.99,
     "prixBarre": null,
 <<<<<<< Updated upstream
+=======
+    "lienVerifieLe": "2026-05-24",
+    "prix": 109.99,
+    "prixBarre": null,
+>>>>>>> Stashed changes
     "prixVerifieLe": "2026-05-20",
 =======
     "prixVerifieLe": "2026-05-23",
@@ -1296,10 +1639,17 @@
     "category": "claviers",
     "dateAjout": "2026-04-20",
     "image": "/images/products/corsair-k100-air-clavier-mecanique-sans-fil-gaming.webp",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
     "prix": 189.99,
     "prixBarre": 354.99,
     "prixVerifieLe": "2026-05-15",
+=======
+    "lienVerifieLe": "2026-05-24",
+    "prix": 189.99,
+    "prixBarre": 354.99,
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription": "Un clavier sans fil haut de gamme qui ne fait aucun compromis sur la réactivité. Connexion ultra-rapide, design ultra-mince en aluminium et touches mécaniques Cherry MX",
     "shortDescription_ar": "لوحة مفاتيح لاسلكية فاخرة لا تضحي بأي شيء من حيث الاستجابة. اتصال فائق السرعة، تصميم رفيع جداً من الألمنيوم، وأزرار ميكانيكية Cherry MX",
     "shortDescription_en": "A premium wireless keyboard that makes no compromises on responsiveness. Ultra-fast connection, ultra-thin aluminum design, and mechanical Cherry MX keys",
@@ -1324,8 +1674,13 @@
     "category": "boitiers",
     "dateAjout": "2026-04-20",
     "image": "/images/products/boitier-atx-blanc-hyxn-h2-argb.webp",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
     "prix": 209.99,
+=======
+    "lienVerifieLe": "2026-05-24",
+    "prix": 179.99,
+>>>>>>> Stashed changes
     "prixBarre": 259.99,
 <<<<<<< Updated upstream
     "prixVerifieLe": "2026-05-15",
@@ -1356,10 +1711,17 @@
     "category": "chaises",
     "dateAjout": "2026-04-20",
     "image": "/images/products/chaise-gaming-massage-repose-pieds-ergonomique.webp",
+<<<<<<< Updated upstream
     "lienVerifieLe": "2026-05-23",
     "prix": 123.49,
     "prixBarre": 129.99,
     "prixVerifieLe": "2026-05-23",
+=======
+    "lienVerifieLe": "2026-05-24",
+    "prix": 123.49,
+    "prixBarre": 129.99,
+    "prixVerifieLe": "2026-05-24",
+>>>>>>> Stashed changes
     "shortDescription": "Chaise gaming ergonomique avec massage lombaire intégré et repose-pieds rétractable — idéale pour les longues sessions de jeu ou de travail.",
     "shortDescription_ar": "كرسي ألعاب مريح مع تدليك لومبي مدمج ووحدة قدم قابلة للطي — مثالي لفترات اللعب أو العمل الطويلة.",
     "shortDescription_en": "Ergonomic gaming chair with integrated lumbar massage and retractable footrest — ideal for long gaming or work sessions.",
@@ -1393,6 +1755,7 @@
     "badge": "Meilleur vendeur",
     "actif": true,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "prix": 318.89,
     "prixBarre": null,
     "prixVerifieLe": "2026-05-20",
@@ -1404,5 +1767,13 @@
     "translationVerified": true,
     "translationVerifiedLe": "2026-04-21",
     "lienVerifieLe": "2026-05-23"
+=======
+    "prix": 342.04,
+    "prixBarre": null,
+    "prixVerifieLe": "2026-05-24",
+    "translationVerified": true,
+    "translationVerifiedLe": "2026-04-21",
+    "lienVerifieLe": "2026-05-24"
+>>>>>>> Stashed changes
   }
 ]
