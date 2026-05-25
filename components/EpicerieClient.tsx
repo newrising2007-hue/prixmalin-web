@@ -119,7 +119,8 @@ export default function EpicerieClient({
               <div className="relative w-full aspect-square bg-gray-50">
                 {item.image ? (
                   <Image src={item.image} alt={item.nom} fill
-                    className="object-contain p-2" sizes="(max-width: 640px) 50vw, 25vw" />
+                    className="object-contain p-2" sizes="(max-width: 640px) 50vw, 25vw"
+                    unoptimized />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-4xl">🛒</div>
                 )}
