@@ -1301,10 +1301,10 @@
     "slug": "elgato-stream-deck",
     "title": "Elgato Stream Deck",
     "shortDescription": "Prenez le contrôle total de votre setup avec le Stream Deck + d'Elgato. Ses 8 touches LCD personnalisables et ses 4 cadrans tactiles vous permettent de gérer le volume, changer de scène OBS, contrôler Spotify ou déclencher n'importe quelle action en un seul geste. Parfait pour les streamers, créateurs de contenu et producteurs qui veulent arrêter de jongler entre les fenêtres et se concentrer sur ce qui compte.",
-    "title_en": "",
-    "title_es": "",
-    "title_ar": "",
-    "title_zh": "",
+    "title_en": "Elgato Stream Deck",
+    "title_es": "Elgato Stream Deck",
+    "title_ar": "Elgato Stream Deck",
+    "title_zh": "Elgato Stream Deck",
     "shortDescription_en": "Take total control of your setup with the Elgato Stream Deck +. Its 8 customizable LCD keys and 4 tactile dials allow you to manage volume, change OBS scenes, control Spotify, or trigger any action in a single gesture. Perfect for streamers, content creators, and producers who want to stop juggling windows and focus on what matters.",
     "shortDescription_es": "Toma el control total de tu setup con el Elgato Stream Deck +. Sus 8 teclas LCD personalizables y sus 4 diales táctiles te permiten gestionar el volumen, cambiar escenas de OBS, controlar Spotify o activar cualquier acción con un solo gesto. Perfecto para streamers, creadores de contenido y productores que quieran dejar de alternar entre ventanas y centrarse en lo importante.",
     "shortDescription_ar": "تحكم بالكامل في إعداداتك مع Elgato Stream Deck +. تتيح لك مفاتيحه الـ LCD الثمانية القابلة للتخصيص وأقراعه الأربعة التي تعمل باللمس إدارة مستوى الصوت، أو تغيير مشاهد OBS، أو التحكم في Spotify، أو تنفيذ أي إجراء بلمسة واحدة. مثالي لمنشئي المحتوى والبث المباشر والمنتجين الذين يرغبون في التوقف عن التنقل بين النوافذ والتركيز على ما يهم.",
@@ -1317,6 +1317,7 @@
     "prix": "279.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-06-03",
-    "translationVerified": false
+    "translationVerified": true,
+    "translationVerifiedLe": "2026-06-04"
   }
 ]
