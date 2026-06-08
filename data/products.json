@@ -344,7 +344,8 @@
     "title_ar": "8BitDo Ultimate Wireless Controller",
     "title_zh": "8BitDo Ultimate Wireless Controller",
     "lienVerifieLe": "2026-06-06",
-    "translationVerified": false
+    "translationVerified": true,
+    "translationVerifiedLe": "2026-06-08"
   },
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
@@ -647,8 +648,8 @@
   },
   {
     "slug": "gigabyte-gs27qa",
-    "title": "GIGABYTE GS27QA",
-    "shortDescription": "Moniteur gaming 27 po QHD 2K 1440p 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, idéal pour le gaming compétitif.",
+    "title": "Gigabyte GS27QA 27\" ",
+    "shortDescription": "Du QHD 2560x1440 sur dalle IPS à 180 Hz et 1 ms — une image nette, des couleurs fidèles à 100% sRGB et une fluidité sans accroc grâce au FreeSync Premium. Compatible montage mural VESA, deux HDMI 2.0 et un DisplayPort 1.4 pour brancher ce que tu veux. Un écran gaming sérieux qui ne te ruine pas.",
     "amazonUrl": "https://www.newegg.ca/gigabyte-gs27qa-sa-27-qhd-180-hz-super-speed-ips-black/p/N82E16824012083",
     "category": "ecrans",
     "image": "/images/products/gigabyte-gs27qa.webp",
@@ -657,21 +658,22 @@
     "prix": 219.99,
     "prixBarre": 339.99,
     "prixVerifieLe": "2026-06-06",
-    "shortDescription_en": "gaming monitor 27 in QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, ideal for competitive gaming.",
-    "shortDescription_es": "monitor gaming 27 pulg QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1ms, HDR, ideal para gaming competitivo.",
-    "shortDescription_ar": "شاشة ألعاب 27 بوصة QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1 مللي ثانية, HDR, مثالي للألعاب التنافسية.",
-    "shortDescription_zh": "游戏显示器 27英寸 QHD 2K 1440P 180Hz IPS — AMD FreeSync Premium, 1毫秒, HDR, 适合竞技游戏.",
-    "title_en": "GIGABYTE GS27QA",
-    "title_es": "GIGABYTE GS27QA",
-    "title_ar": "GIGABYTE GS27QA",
-    "title_zh": "GIGABYTE GS27QA",
+    "shortDescription_en": "QHD 2560x1440 on an IPS panel at 180 Hz and 1 ms — sharp images, 100% sRGB color accuracy, and seamless fluidity thanks to FreeSync Premium. VESA wall mount compatible, two HDMI 2.0 and one DisplayPort 1.4 to connect whatever you want. A serious gaming monitor that won't break the bank.",
+    "shortDescription_es": "QHD 2560x1440 en panel IPS a 180 Hz y 1 ms — imagen nítida, colores fieles al 100% sRGB y fluidez sin interrupciones gracias a FreeSync Premium. Compatible con montaje de pared VESA, dos HDMI 2.0 y un DisplayPort 1.4 para conectar lo que quieras. Un monitor gaming serio que no te arruinará.",
+    "shortDescription_ar": "دقة QHD 2560x1440 على لوحة IPS بتردد 180 هرتز واستجابة 1 مللي ثانية — صورة حادة، ألوان دقيقة بنسبة 100% sRGB وسلاسة تامة بفضل FreeSync Premium. متوافق مع تركيب VESA على الحائط، يحتوي على منفذي HDMI 2.0 ومنفذ DisplayPort 1.4 لتوصيل كل ما تريد. شاشة ألعاب حقيقية بسعر مناسب.",
+    "shortDescription_zh": "QHD 2560x1440 IPS 面板，180 Hz 和 1 ms — 画面清晰，100% sRGB 色彩准确度，得益于 FreeSync Premium 实现流畅无卡顿体验。支持 VESA 壁挂安装，配备两个 HDMI 2.0 和一个 DisplayPort 1.4，随心连接各种设备。一款高性价比的专业游戏显示器。",
+    "title_en": "Gigabyte GS27QA 27\" ",
+    "title_es": "Gigabyte GS27QA 27\" ",
+    "title_ar": "Gigabyte GS27QA 27\" ",
+    "title_zh": "Gigabyte GS27QA 27\" ",
     "lienVerifieLe": "2026-06-06",
-    "translationVerified": true
+    "translationVerified": true,
+    "translationVerifiedLe": "2026-06-08"
   },
   {
     "slug": "samsung-odyssey-g5",
-    "title": "Samsung Odyssey G5",
-    "shortDescription": "Moniteur gaming incurvé 27 po QHD 1440p — 165Hz, 1ms, HDR10, FreeSync, courbure 1000R, mode Eye Saver.",
+    "title": "Samsung Odyssey G5 27\"",
+    "shortDescription": "Un écran incurvé 1000R qui t'embarque vraiment dans le jeu — la courbure plus prononcée remplit ton champ de vision naturellement, sans forcer. La dalle QHD 165 Hz avec 1 ms de temps de réponse garde les images nettes même dans l'action la plus rapide. Le mode Eye Saver réduit la lumière bleue pour les longues sessions sans fatiguer les yeux. FreeSync intégré, une image sans accroc du début à la fin.",
     "amazonUrl": "https://www.amazon.ca/dp/B0CRGR6KLN?tag=prixmalin20-20",
     "category": "ecrans",
     "image": "/images/products/samsung-odyssey-g5.webp",
@@ -680,16 +682,17 @@
     "prix": 349.99,
     "prixBarre": "",
     "prixVerifieLe": "2026-06-06",
-    "shortDescription_en": "gaming monitor curved 27 in QHD 1440P — 165Hz, 1ms, HDR10, FreeSync, 1000R curvature, Eye Saver mode.",
-    "shortDescription_es": "monitor gaming curvo 27 pulg QHD 1440P — 165Hz, 1ms, HDR10, FreeSync, curvatura 1000R, modo Eye Saver.",
-    "shortDescription_ar": "شاشة ألعاب منحني 27 بوصة QHD 1440P — 165Hz, 1 مللي ثانية, HDR10, FreeSync, انحناء 1000R, وضع Eye Saver لحماية العينين.",
-    "shortDescription_zh": "游戏显示器 曲面 27英寸 QHD 1440P — 165Hz, 1毫秒, HDR10, FreeSync, 1000R曲率, 护眼模式.",
-    "title_en": "Samsung Odyssey G5",
-    "title_es": "Samsung Odyssey G5",
-    "title_ar": "Samsung Odyssey G5",
-    "title_zh": "Samsung Odyssey G5",
+    "shortDescription_en": "A 1000R curved monitor that truly immerses you in the game — the more pronounced curvature naturally fills your field of view without strain. The 165 Hz QHD panel with 1 ms response time keeps images sharp even in the fastest action. Eye Saver mode reduces blue light for long sessions without eye fatigue. Integrated FreeSync, a seamless image from start to finish.",
+    "shortDescription_es": "Un monitor curvo 1000R que realmente te sumerge en el juego — la curvatura más pronunciada llena tu campo de visión de forma natural, sin esfuerzo. El panel QHD 165 Hz con 1 ms de tiempo de respuesta mantiene las imágenes nítidas incluso en la acción más rápida. El modo Eye Saver reduce la luz azul para sesiones largas sin fatigar la vista. FreeSync integrado, una imagen fluida de principio a fin.",
+    "shortDescription_ar": "شاشة منحنية 1000R تغمرك حقاً في اللعبة — الانحناء الأكثر وضوحاً يملأ مجال رؤيتك بشكل طبيعي دون إجهاد. لوحة QHD بتردد 165 هرتز مع زمن استجابة 1 مللي ثانية تحافظ على وضوح الصور حتى في أسرع لحظات الحركة. وضع Eye Saver يقلل الضوء الأزرق لجلسات اللعب الطويلة دون إجهاد العين. تقنية FreeSync مدمجة، لصورة سلسة من البداية إلى النهاية.",
+    "shortDescription_zh": "一款让你身临其境的 1000R 曲面显示器 — 更明显的弧度自然地填满你的视野，无需费力。165 Hz QHD 面板配合 1 ms 响应时间，即使在最激烈的动作中也能保持画面清晰。Eye Saver 模式可减少蓝光，让长时间游戏也不易造成眼睛疲劳。内置 FreeSync，带来从头到尾流畅无阻的画面体验。",
+    "title_en": "Samsung Odyssey G5 27\"",
+    "title_es": "Samsung Odyssey G5 27\"",
+    "title_ar": "Samsung Odyssey G5 27\"",
+    "title_zh": "Samsung Odyssey G5 27\"",
     "lienVerifieLe": "2026-06-02",
-    "translationVerified": true
+    "translationVerified": true,
+    "translationVerifiedLe": "2026-06-08"
   },
   {
     "slug": "microphone-razer-seiren-v3-mini-usb",
@@ -1048,16 +1051,16 @@
   },
   {
     "slug": "moniteur-gaming-z-edge-32-incurve",
-    "title": "Moniteur gaming Z-Edge 32\" incurvé",
-    "shortDescription": "Écran incurvé 32\" FHD 240 Hz, temps de réponse 1 ms, AMD FreeSync Premium — fluidité maximale pour le jeu.",
-    "title_en": "Z-Edge 32\" Curved Gaming Monitor",
-    "title_es": "Monitor gaming curvo Z-Edge 32\"",
-    "title_ar": "شاشة ألعاب منحنية Z-Edge 32\"",
-    "title_zh": "Z-Edge 32英寸曲面游戏显示器",
-    "shortDescription_en": "32\" curved screen FHD 240 Hz, 1ms response time, AMD FreeSync Premium — maximum fluidity for gaming.",
-    "shortDescription_es": "Pantalla curva 32\" FHD 240 Hz, tiempo de respuesta 1ms, AMD FreeSync Premium — fluidez máxima para jugar.",
-    "shortDescription_ar": "شاشة منحنية 32\" FHD 240 Hz، وقت استجابة 1 ملي ثانية، AMD FreeSync Premium — سلاسة قصوى للألعاب.",
-    "shortDescription_zh": "32英寸曲面屏 FHD 240 Hz，响应时间1毫秒，AMD FreeSync Premium — 游戏极致流畅体验。",
+    "title": "Z-Edge UG32P 32\" Full HD",
+    "shortDescription": "Un écran incurvé 1500R de 32 pouces qui remplit ton champ de vision sans effort — la courbure suit naturellement la forme de l'œil pour une immersion totale. Avec 240 Hz et 1 ms de temps de réponse, les mouvements rapides restent nets et l'image colle à l'action sans accroc. Sans cadre sur trois côtés et compatible montage mural VESA — propre et discret sur n'importe quel bureau.",
+    "title_en": "Z-Edge UG32P 32\" Full HD",
+    "title_es": "Z-Edge UG32P 32\" Full HD",
+    "title_ar": "Z-Edge UG32P 32\" Full HD",
+    "title_zh": "Z-Edge UG32P 32\" Full HD",
+    "shortDescription_en": "A 32-inch 1500R curved screen that effortlessly fills your field of view — the curvature naturally follows the shape of the eye for total immersion. With 240 Hz and 1 ms response time, fast movements stay sharp and the image sticks to the action without glitching. Three-sided frameless design and VESA wall mount compatible — clean and discreet on any desk.",
+    "shortDescription_es": "Una pantalla curva 1500R de 32 pulgadas que llena tu campo de visión sin esfuerzo — la curvatura sigue naturalmente la forma del ojo para una inmersión total. Con 240 Hz y 1 ms de tiempo de respuesta, los movimientos rápidos se mantienen nítidos y la imagen sigue la acción sin interrupciones. Diseño sin marcos en tres lados y compatible con montaje de pared VESA — limpio y discreto en cualquier escritorio.",
+    "shortDescription_ar": "شاشة منحنية 1500R مقاس 32 بوصة تملأ مجال رؤيتك دون مجهود — يتبع الانحناء شكل العين بشكل طبيعي لانغماس كامل. مع معدل تحديث 240 Hz وزمن استجابة 1 ms، تظل الحركات السريعة حادة وتلتصق الصورة بالحدث دون انقطاع. تصميم بدون إطار من ثلاثة جوانب ومتوافق مع تركيب VESA على الحائط — نظيف وغير ملحوظ على أي مكتب.",
+    "shortDescription_zh": "32英寸1500R曲面屏，轻松填满您的视野 — 曲率自然贴合眼睛形状，带来沉浸式体验。凭借240 Hz刷新率和1 ms响应时间，快速动作依然清晰，画面紧跟动作无卡顿。三边无边框设计并兼容VESA壁挂 — 在任何桌面上都显得整洁且低调。",
     "amazonUrl": "https://www.amazon.ca/dp/B0D7HS9VK4?tag=prixmalin20-20",
     "category": "ecrans",
     "image": "/images/products/moniteur-gaming-z-edge-32-incurve.webp",
@@ -1067,7 +1070,8 @@
     "prixBarre": 279.99,
     "prixVerifieLe": "2026-06-06",
     "lienVerifieLe": "2026-06-06",
-    "translationVerified": true
+    "translationVerified": true,
+    "translationVerifiedLe": "2026-06-08"
   },
   {
     "slug": "logitech-g-733-lightspeed",
@@ -1347,7 +1351,8 @@
     "title_es": "Herman Miller Aeron Renovada Talla B",
     "title_zh": "Herman Miller Aeron 更新版 B码",
     "url_amazon": "https://www.amazon.ca/dp/B0BSJHCQYN?tag=prixmalin20-20",
-    "translationVerified": false
+    "translationVerified": true,
+    "translationVerifiedLe": "2026-06-08"
   },
   {
     "actif": true,
@@ -1375,6 +1380,7 @@
     "title_es": "Monitor LG 27\" 4K UHD Ultrafine",
     "title_zh": "LG 27\" 4K UHD Ultrafine 显示器",
     "url_amazon": "https://www.amazon.ca/dp/B0DNKLJ5SX?tag=prixmalin20-20",
-    "translationVerified": false
+    "translationVerified": true,
+    "translationVerifiedLe": "2026-06-08"
   }
 ]
