@@ -1121,29 +1121,6 @@
     "translationVerified": true
   },
   {
-    "slug": "hyperx-quadcast",
-    "title": "Microphone HyperX QuadCast",
-    "shortDescription": "Microphone USB à condensateur RGB — 4 modes de captation, mise en sourdine tactile, compatible PC, PS4, Mac, Discord et OBS.",
-    "title_en": "Microphone HyperX QuadCast",
-    "title_es": "Micrófono HyperX QuadCast",
-    "title_ar": "ميكروفون هايبر إكس QuadCast",
-    "title_zh": "麦克风 HyperX QuadCast",
-    "shortDescription_en": "USB microphone à condenser RGB — 4 modes de capture, tap en tap-to-mute compatible PC PS4, Mac Discord and OBS",
-    "shortDescription_es": "micrófono USB à condensador RGB — 4 modos de captación, toque en silencio táctil compatible PC PS4, Mac Discord y OBS",
-    "shortDescription_ar": "ميكروفون USB à مكثف RGB — 4 أوضاع de التقاط، لمس en كتم الصوت باللمس متوافق PC PS4, Mac Discord و OBS",
-    "shortDescription_zh": "USB麦克风 à 电容 RGB — 4 模式 de 拾音，触控 en 触控静音 兼容 PC PS4, Mac Discord 和 OBS",
-    "amazonUrl": "https://www.amazon.ca/dp/B08G8WH435?tag=prixmalin20-20",
-    "category": "audio",
-    "image": "/images/products/hyperx-quadcast.webp",
-    "badge": "Deal du jour",
-    "actif": true,
-    "prix": 189.97,
-    "prixBarre": 209.99,
-    "prixVerifieLe": "2026-06-06",
-    "lienVerifieLe": "2026-06-06",
-    "translationVerified": true
-  },
-  {
     "slug": "elgato-4k-x",
     "title": "Elgato 4K X",
     "shortDescription": "Carte de capture externe 4K — capture jusqu'à 4K144, compatible PS5, Xbox Series, Switch 2, OBS et Twitch, HDMI 2.10.",
@@ -1383,5 +1360,26 @@
     "url_amazon": "https://www.amazon.ca/dp/B0DNKLJ5SX?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-08"
+  },
+  {
+    "slug": "hyperx-quadcast-s-microphone-usb-rgb",
+    "title": "HyperX QuadCast S Microphone USB RGB",
+    "shortDescription": "\nUn micro qui s'entend autant qu'il se voit — l'éclairage RGB dynamique attire l'œil pendant que la qualité audio fait le reste. Ses 4 modes polaires (stéréo, omnidirectionnel, cardioïde, bidirectionnel) s'adaptent à tous les contextes, que ce soit pour le streaming, le podcast ou les appels. La mise en sourdine par tapotement avec indicateur LED évite les accidents audio en direct. Support antichoc intégré, filtre anti-pop inclus et compatible PC, PS4 et Mac sans logiciel supplémentaire.",
+    "title_en": "HyperX QuadCast S USB RGB Microphone",
+    "title_es": "Micrófono USB RGB HyperX QuadCast S",
+    "title_ar": "ميكروفون HyperX QuadCast S USB RGB",
+    "title_zh": "HyperX QuadCast S USB RGB 麦克风",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": "",
+    "amazonUrl": "https://www.amazon.ca/dp/B08G8WH435?tag=prixmalin20-20",
+    "category": "audio",
+    "image": "/images/products/hyperx-quadcast-s-microphone-usb-rgb.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "189.97",
+    "prixBarre": "209.99",
+    "prixVerifieLe": "2026-06-08"
   }
 ]
