@@ -1369,10 +1369,10 @@
     "title_es": "Micrófono USB RGB HyperX QuadCast S",
     "title_ar": "ميكروفون HyperX QuadCast S USB RGB",
     "title_zh": "HyperX QuadCast S USB RGB 麦克风",
-    "shortDescription_en": "",
-    "shortDescription_es": "",
-    "shortDescription_ar": "",
-    "shortDescription_zh": "",
+    "shortDescription_en": "A microphone that is as heard as it is seen — dynamic RGB lighting catches the eye while audio quality does the rest. Its 4 polar patterns (stereo, omnidirectional, cardioid, bidirectional) adapt to all contexts, whether for streaming, podcasting, or calls. Tap-to-mute with LED indicator prevents live audio accidents. Integrated shock mount, pop filter included, and compatible with PC, PS4, and Mac without additional software.",
+    "shortDescription_es": "Un micrófono que se escucha tanto como se ve — la iluminación RGB dinámica atrae las miradas mientras la calidad de audio hace el resto. Sus 4 patrones polares (estéreo, omnidireccional, cardioide, bidireccional) se adaptan a todos los contextos, ya sea para streaming, podcast o llamadas. El silencio con toque mediante indicador LED evita accidentes de audio en vivo. Soporte antichoque integrado, filtro antipop incluido y compatible con PC, PS4 y Mac sin software adicional.",
+    "shortDescription_ar": "ميكروفون مسموع بقدر ما هو مرئي — تجذب إضاءة RGB الديناميكية الأنظار بينما تتولى جودة الصوت الباقي. أنماطه القطبية الـ 4 (ستيريو، شامل الاتجاهات، قلبي، ثنائي الاتجاه) تتكيف مع جميع السياقات، سواء للبث المباشر أو البودكاست أو المكالمات. خاصية الكتم باللمس مع مؤشر LED تمنع حوادث الصوت أثناء البث المباشر. حامل مضاد للصدمات مدمج، مرشح صوت (pop filter) متضمن، ومتوافق مع PC و PS4 و Mac بدون برامج إضافية.",
+    "shortDescription_zh": "一款不仅好听而且好看的麦克风 — 动态 RGB 灯效吸引眼球，而音频质量则表现卓越。其 4 种指向模式（立体声、全向、心形、双向）可适应所有场景，无论是直播、播客还是通话。带 LED 指示器的轻触静音功能可避免直播中的音频意外。内置防震支架，附带防喷罩，无需额外软件即可兼容 PC、PS4 和 Mac。",
     "amazonUrl": "https://www.amazon.ca/dp/B08G8WH435?tag=prixmalin20-20",
     "category": "audio",
     "image": "/images/products/hyperx-quadcast-s-microphone-usb-rgb.webp",
@@ -1380,6 +1380,7 @@
     "actif": true,
     "prix": "189.97",
     "prixBarre": "209.99",
-    "prixVerifieLe": "2026-06-08"
+    "prixVerifieLe": "2026-06-08",
+    "translationVerified": false
   }
 ]
