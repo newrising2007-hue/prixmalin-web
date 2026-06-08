@@ -325,8 +325,8 @@
   },
   {
     "slug": "8bitdo-ultimate-wireless-controller",
-    "title": "8BitDo Ultimate Wireless Controller",
-    "shortDescription": "Manette sans fil Bluetooth — compatible Switch, Android et PC, offerte en plusieurs couleurs.",
+    "title": "8Bitdo Ultimate 2C Wireless Controller",
+    "shortDescription": "Les joysticks à effet Hall, ça ne s'use pas et ça ne dérive pas — fini le stick drift qui ruine tes parties. Avec une réactivité quasi instantanée en 2,4 G, chaque mouvement est capté avec une précision chirurgicale. Les boutons supplémentaires L4/R4 se reprogramment à ton goût sans aucun logiciel, et elle passe sans friction entre Windows et Android. Une manette sérieuse à un prix qui l'est moins.",
     "amazonUrl": "https://www.amazon.ca/dp/B0DNM3VGGG?tag=prixmalin20-20",
     "category": "manettes",
     "image": "/images/products/8bitdo-ultimate-wireless-controller.webp",
@@ -335,16 +335,16 @@
     "prix": 44.99,
     "prixBarre": "",
     "prixVerifieLe": "2026-06-06",
-    "shortDescription_en": "Bluetooth wireless controller — compatible with Switch, Android and PC, available in multiple colors.",
-    "shortDescription_es": "mando inalámbrico Bluetooth — compatible con Switch, Android y PC, disponible en varios colores.",
-    "shortDescription_ar": "يد تحكم لاسلكية بلوتوث — متوافق مع Switch وAndroid والحاسوب, متوفر بألوان متعددة.",
-    "shortDescription_zh": "蓝牙无线手柄 — 兼容Switch、安卓和PC, 多色可选.",
+    "shortDescription_en": "Hall effect joysticks do not wear out or drift — no more stick drift ruining your games. With near-instant 2.4 G responsiveness, every movement is captured with surgical precision. The extra L4/R4 buttons can be reprogrammed to your liking without any software, and it switches seamlessly between Windows and Android. A serious controller at a less serious price.",
+    "shortDescription_es": "Los joysticks de efecto Hall no se desgastan ni tienen deriva — se acabó el stick drift que arruina tus partidas. Con una reactividad casi instantánea en 2,4 G, cada movimiento se captura con precisión quirúrgica. Los botones adicionales L4/R4 se pueden reprogramar a tu gusto sin necesidad de software, y cambia sin fricciones entre Windows y Android. Un mando serio a un precio menos serio.",
+    "shortDescription_ar": "عصي التحكم بتأثير هول لا تستهلك ولا تعاني من الانحراف — وداعاً لمشكلة انحراف العصا التي تفسد ألعابك. مع استجابة شبه فورية بتردد 2.4 G، يتم التقاط كل حركة بدقة جراحية. يمكن إعادة برمجة الأزرار الإضافية L4/R4 حسب رغبتك دون أي برنامج، وتنتقل بسلاسة بين Windows و Android. وحدة تحكم احترافية بسعر غير مكلف.",
+    "shortDescription_zh": "霍尔效应摇杆不会磨损也不会漂移 — 再也没有毁掉你游戏的摇杆漂移问题。凭借 2.4 G 的近乎瞬时的响应速度，每一个动作都能以手术级的精度被捕捉。额外的 L4/R4 按键无需任何软件即可根据你的喜好进行重新编程，并可在 Windows 和 Android 之间无缝切换。一款性能专业但价格亲民的手柄。",
     "title_en": "8BitDo Ultimate Wireless Controller",
     "title_es": "8BitDo Ultimate Wireless Controller",
     "title_ar": "8BitDo Ultimate Wireless Controller",
     "title_zh": "8BitDo Ultimate Wireless Controller",
     "lienVerifieLe": "2026-06-06",
-    "translationVerified": true
+    "translationVerified": false
   },
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
@@ -625,7 +625,7 @@
   {
     "slug": "asus-tuf-gaming-31-5",
     "title": "ASUS TUF Gaming 31,5’’ ",
-    "shortDescription": "Moniteur gaming incurvé 31,5 po QHD 1440p, 180Hz, 0,5ms, HDR, FreeSync, courbure 1500R, idéal pour le gaming compétitif et créatif. Garantie 3 ans.",
+    "shortDescription": "Un écran incurvé de 31,5 pouces qui t'enveloppe dans l'action — la dalle QHD 1500R avec ses 180 Hz et son temps de réponse de 0,5 ms élimine tout flou de mouvement, même dans les scènes les plus intenses. Shadow Boost révèle les détails cachés dans les zones sombres sans surexposer le reste — un avantage réel autant en jeu qu'au bureau. FreeSync Premium intégré, une image sans accroc. Trois ans de garantie inclus.",
     "amazonUrl": "https://www.amazon.ca/dp/B0DQ9MMZVV?tag=prixmalin20-20",
     "category": "ecrans",
     "image": "/images/products/asus-tuf-gaming-31-5.webp",
