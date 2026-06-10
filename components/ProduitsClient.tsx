@@ -72,7 +72,7 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
                     {labels[`cat_${p.category}`] || p.category}
                   </span>
                 )}
-                <p className="mt-2 text-black/70">{p[`shortDescription_${locale}`] || p.shortDescription}</p>
+                <p className="mt-2 text-black/70">{locale !== 'fr' && p[`shortDescription_${locale}`] ? p[`shortDescription_${locale}`] : p.shortDescription}</p>
                 {p.prix && (
                   <div className="mt-2 flex items-center gap-2">
                     <span className="text-lg font-bold text-orange-600">{p.prix}$</span>
