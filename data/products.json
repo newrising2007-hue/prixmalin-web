@@ -1536,6 +1536,7 @@
     "prix": "189.99",
     "prixBarre": "",
     "prixVerifieLe": "2026-06-14",
-    "translationVerified": false
+    "translationVerified": true,
+    "translationVerifiedLe": "2026-06-14"
   }
 ]
