@@ -9,6 +9,10 @@ import { AppSchema } from "@/components/apps/AppSchema";
 
 const app = getApp("machshop");
 
+const ogTitle = "MachShop — L’outil de référence du machiniste";
+const ogDesc =
+  "Six modules de référence pour l’atelier, entièrement hors-ligne. Disponible sur Google Play.";
+
 export const metadata: Metadata = {
   title: "MachShop — Application Android pour machinistes",
   description:
@@ -20,11 +24,16 @@ export const metadata: Metadata = {
     ),
   },
   openGraph: {
-    title: "MachShop — L’outil de référence du machiniste",
-    description:
-      "Six modules de référence pour l’atelier, entièrement hors-ligne. Disponible sur Google Play.",
+    title: ogTitle,
+    description: ogDesc,
     url: absoluteUrl(appPath(app, "fr")),
     type: "website",
+    images: [absoluteUrl(app.logo)],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: ogTitle,
+    description: ogDesc,
     images: [absoluteUrl(app.logo)],
   },
 };

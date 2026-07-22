@@ -1,3 +1,4 @@
+import { formatPrice } from "@/lib/appRelease";
 import type { AppDef, AppId, Lang } from "@/lib/appRelease";
 
 type Copy = { title: string; play: string; soon: string; apk: string; note: string };
@@ -84,7 +85,7 @@ export function AppSafety({ app, lang }: { app: AppDef; lang: Lang }) {
 
   const note = c.note
     .replace("{days}", String(app.trialDays ?? 0))
-    .replace("{price}", app.price.toFixed(2));
+    .replace("{price}", formatPrice(app, lang));
 
   return (
     <section className="mx-auto max-w-5xl px-4 py-10">

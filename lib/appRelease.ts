@@ -109,3 +109,9 @@ const LANG_LABEL: Record<Lang, string> = {
 export function languagesLabel(app: AppDef): string {
   return app.languages.map((l) => LANG_LABEL[l]).join(", ");
 }
+
+/** Prix formaté selon la locale — virgule décimale en fr/es, point ailleurs. */
+export function formatPrice(app: AppDef, lang: Lang): string {
+  const n = app.price.toFixed(2);
+  return lang === "fr" || lang === "es" ? n.replace(".", ",") : n;
+}

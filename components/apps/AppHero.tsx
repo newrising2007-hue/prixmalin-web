@@ -6,6 +6,7 @@ import { AppButton } from "./AppButton";
 import {
   getPrimaryDownloadUrl,
   languagesLabel,
+  formatPrice,
   type AppDef,
   type AppId,
   type Lang,
@@ -128,7 +129,7 @@ export function AppHero({ app, lang }: { app: AppDef; lang: Lang }) {
       ? c.free
       : c.trial
           .replace("{days}", String(app.trialDays ?? 0))
-          .replace("{price}", app.price.toFixed(2));
+          .replace("{price}", formatPrice(app, lang));
 
   return (
     <section className="mx-auto max-w-5xl px-4 pt-10 pb-6">

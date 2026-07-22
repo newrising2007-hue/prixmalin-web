@@ -12,6 +12,10 @@ import { AppSchema } from "@/components/apps/AppSchema";
 
 const app = getApp("prixmalin");
 
+const ogTitle = "PrixMalin — Application Android";
+const ogDesc =
+  "Outil de recherche de produits local et web au Canada. Gratuit sur Google Play.";
+
 export const metadata: Metadata = {
   title: "PrixMalin — Application Android",
   description:
@@ -23,11 +27,16 @@ export const metadata: Metadata = {
     ),
   },
   openGraph: {
-    title: "PrixMalin — Application Android",
-    description:
-      "Outil de recherche de produits local et web au Canada. Gratuit sur Google Play.",
+    title: ogTitle,
+    description: ogDesc,
     url: absoluteUrl(appPath(app, "fr")),
     type: "website",
+    images: [absoluteUrl(app.logo)],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: ogTitle,
+    description: ogDesc,
     images: [absoluteUrl(app.logo)],
   },
 };
