@@ -30,7 +30,7 @@ const COPY: Record<AppId, Record<Lang, Copy>> = {
       subtitle: "Recherche de produits et offres au Canada. Simple, rapide, pensée mobile.",
       comingSoon: "La version publique sera disponible sur Google Play très bientôt.",
       apkTest: "Télécharger l’APK (version test)",
-      sizeLabel: "Taille", languagesLabel: "Langues", cta: "Voir les bons plans",
+      sizeLabel: "Taille", languagesLabel: "Langues", cta: "Toutes nos applications",
       free: "Gratuit", trial: "",
     },
     en: {
@@ -38,7 +38,7 @@ const COPY: Record<AppId, Record<Lang, Copy>> = {
       subtitle: "Product and deal discovery in Canada. Fast, simple, mobile-first.",
       comingSoon: "The public release will be available on Google Play very soon.",
       apkTest: "Download APK (test build)",
-      sizeLabel: "Size", languagesLabel: "Languages", cta: "Browse deals",
+      sizeLabel: "Size", languagesLabel: "Languages", cta: "All our apps",
       free: "Free", trial: "",
     },
     es: {
@@ -46,7 +46,7 @@ const COPY: Record<AppId, Record<Lang, Copy>> = {
       subtitle: "Descubre productos y ofertas en Canadá. Rápido, simple, pensado para móvil.",
       comingSoon: "La versión pública estará disponible en Google Play muy pronto.",
       apkTest: "Descargar APK (versión de prueba)",
-      sizeLabel: "Tamaño", languagesLabel: "Idiomas", cta: "Ver ofertas",
+      sizeLabel: "Tamaño", languagesLabel: "Idiomas", cta: "Todas nuestras apps",
       free: "Gratis", trial: "",
     },
     ar: {
@@ -54,7 +54,7 @@ const COPY: Record<AppId, Record<Lang, Copy>> = {
       subtitle: "اكتشف المنتجات والعروض في كندا. سريع وبسيط.",
       comingSoon: "سيتوفر الإصدار العام على Google Play قريباً.",
       apkTest: "تنزيل APK (إصدار تجريبي)",
-      sizeLabel: "الحجم", languagesLabel: "اللغات", cta: "تصفح العروض",
+      sizeLabel: "الحجم", languagesLabel: "اللغات", cta: "جميع تطبيقاتنا",
       free: "مجاني", trial: "",
     },
     zh: {
@@ -62,7 +62,7 @@ const COPY: Record<AppId, Record<Lang, Copy>> = {
       subtitle: "在加拿大发现产品和优惠。快速、简单、移动优先。",
       comingSoon: "公开版本即将在 Google Play 上发布。",
       apkTest: "下载 APK（测试版）",
-      sizeLabel: "大小", languagesLabel: "语言", cta: "浏览优惠",
+      sizeLabel: "大小", languagesLabel: "语言", cta: "查看全部应用",
       free: "免费", trial: "",
     },
   },
@@ -156,7 +156,7 @@ export function AppHero({ app, lang }: { app: AppDef; lang: Lang }) {
               </AppButton>
             )}
 
-            {app.apkUrl && c.apkTest ? (
+            {app.release !== "play" && app.apkUrl && c.apkTest ? (
               <AppButton href={app.apkUrl} external variant="secondary" ariaLabel="Download APK">
                 {c.apkTest}
               </AppButton>

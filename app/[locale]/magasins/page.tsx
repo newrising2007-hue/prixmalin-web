@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
+import { getApp, getPrimaryDownloadUrl } from "@/lib/appRelease";
 
 export default function MagasinsPage() {
   const t = useTranslations("magasins");
@@ -129,26 +130,6 @@ function detectCategory(q: string): string {
         </div>
       </section>
 
-      <section className="px-6 pb-14 max-w-3xl mx-auto">
-        <div className="relative rounded-3xl border-2 border-dashed border-amber-200 bg-amber-50/50 backdrop-blur-sm p-8 text-center overflow-hidden">
-          <div className="absolute top-4 right-4">
-            <span className="px-3 py-1 rounded-full bg-amber-400 text-white text-xs font-bold shadow-sm">🚀 {t("alertes_badge")}</span>
-          </div>
-          <div className="text-4xl mb-3">🔔</div>
-          <h2 className="text-xl font-bold text-gray-800 mb-2">{t("alertes_titre")}</h2>
-          <p className="text-gray-600 text-sm mb-6 max-w-md mx-auto">{t("alertes_desc")}</p>
-          <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto opacity-60 cursor-not-allowed">
-            <input type="text" disabled placeholder={t("alertes_placeholder_produit")}
-              className="flex-1 px-4 py-3 rounded-xl border-2 border-amber-200 bg-white text-gray-400 text-sm cursor-not-allowed" />
-            <input type="text" disabled placeholder={t("alertes_placeholder_prix")}
-              className="w-32 px-4 py-3 rounded-xl border-2 border-amber-200 bg-white text-gray-400 text-sm cursor-not-allowed" />
-            <button disabled className="px-5 py-3 rounded-xl font-semibold text-white text-sm cursor-not-allowed"
-              style={{ background: "linear-gradient(135deg, #f59e0b, #d97706)" }}>{t("alertes_btn")}</button>
-          </div>
-          <p className="text-xs text-amber-600 mt-4 font-medium">⚡ {t("alertes_soon")}</p>
-        </div>
-      </section>
-
       <section className="px-6 pb-16 max-w-3xl mx-auto text-center">
         <div className="relative rounded-3xl border border-green-100 bg-white/60 backdrop-blur-sm p-10 shadow-sm overflow-hidden">
           <div className="absolute top-0 left-0 w-32 h-32 rounded-br-full opacity-10" style={{ background: "linear-gradient(135deg, #3b82f6, #16a34a)" }} />
@@ -177,9 +158,14 @@ function detectCategory(q: string): string {
             <Image src="/prixmalin-logo.webp" alt="App PrixMalin" width={70} height={70} className="mx-auto mb-4 drop-shadow-lg" />
             <h3 className="text-xl font-bold mb-2">{t("app_titre")}</h3>
             <p className="text-white/80 text-sm mb-4">{t("app_desc")}</p>
-            <span className="inline-block px-6 py-2.5 rounded-xl bg-white/20 border border-white/30 text-white font-semibold text-sm backdrop-blur-sm">
+            <a
+              href={getPrimaryDownloadUrl(getApp("prixmalin")) ?? "/applications/prixmalin"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-2.5 rounded-xl bg-white/20 border border-white/30 text-white font-semibold text-sm backdrop-blur-sm transition hover:bg-white/30"
+            >
               {t("app_btn")}
-            </span>
+            </a>
           </div>
         </div>
       </section>

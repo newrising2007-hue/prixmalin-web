@@ -44,7 +44,7 @@ export const APPS: Record<AppId, AppDef> = {
       process.env.NEXT_PUBLIC_PRIXMALIN_PLAY_URL ||
       "https://play.google.com/store/apps/details?id=com.neosmarthing.prixmalin",
     apkUrl: process.env.NEXT_PUBLIC_PRIXMALIN_APK_URL || "",
-    ctaUrl: process.env.NEXT_PUBLIC_DEALS_URL || "/",
+    ctaUrl: "/applications",
     sizeMb: 25,
     languages: ["fr", "en", "es", "zh", "ar"],
     price: 0,

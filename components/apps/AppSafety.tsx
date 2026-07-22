@@ -93,7 +93,7 @@ export function AppSafety({ app, lang }: { app: AppDef; lang: Lang }) {
         <p className="mt-3 text-sm text-black/70">
           {app.release === "play" ? c.play : c.soon}
         </p>
-        {app.apkUrl && c.apk ? (
+        {app.release !== "play" && app.apkUrl && c.apk ? (
           <p className="mt-3 text-sm text-black/70">
             {c.apk}
             {app.sizeMb !== null ? <> (<strong>{app.sizeMb} MB</strong>)</> : null}.
