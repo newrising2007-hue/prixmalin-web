@@ -327,10 +327,14 @@
   },
   "applications": {
     "titre": "Applications",
-    "description": "Nos logiciels gratuits. Android maintenant, Windows & Linux plus tard.",
+    "description": "Nos logiciels. Android maintenant, iOS plus tard.",
     "prixmalin_titre": "PrixMalin (Android)",
     "prixmalin_description": "Outil de recherche de produits local et web au Canada.",
-    "voir_page": "Voir la page →"
+    "voir_page": "Voir la page →",
+    "prixmalin_badge": "Gratuit",
+    "machshop_titre": "MachShop (Android)",
+    "machshop_description": "Outil de référence du machiniste — mèches, filetage, trigo, métallurgie. Hors-ligne.",
+    "machshop_badge": "Essai 10 jours · 4,99 $ CAD"
   },
   "produits": {
     "titre": "Produits gaming recommandés",

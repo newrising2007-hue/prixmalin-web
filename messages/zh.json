@@ -327,10 +327,14 @@
   },
   "applications": {
     "titre": "应用程序",
-    "description": "我们的免费软件。Android现在可用，Windows & Linux稍后推出。",
+    "description": "我们的软件。现在支持 Android，iOS 稍后推出。",
     "prixmalin_titre": "PrixMalin (Android)",
     "prixmalin_description": "加拿大本地和网络产品搜索工具。",
-    "voir_page": "查看页面 →"
+    "voir_page": "查看页面 →",
+    "prixmalin_badge": "免费",
+    "machshop_titre": "MachShop (Android)",
+    "machshop_description": "机械师的参考工具 — 丝锥钻头、螺纹、三角函数、金属学。离线可用。",
+    "machshop_badge": "10 天试用 · 4.99 加元"
   },
   "produits": {
     "titre": "推荐游戏产品",

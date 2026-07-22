@@ -74,6 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/codes-bonus/pc/call-of-duty-warzone", "daily", 0.85],
     ["/applications", "weekly", 0.6],
     ["/applications/prixmalin", "weekly", 0.8],
+    ["/applications/machshop", "weekly", 0.8],
     ["/deals", "daily", 0.85],
     ["/produits", "weekly", 0.75],
   ];

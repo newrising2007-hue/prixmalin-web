@@ -327,10 +327,14 @@
   },
   "applications": {
     "titre": "Applications",
-    "description": "Our free software. Android now, Windows & Linux later.",
+    "description": "Our software. Android now, iOS later.",
     "prixmalin_titre": "PrixMalin (Android)",
     "prixmalin_description": "Local and web product search tool in Canada.",
-    "voir_page": "See the page →"
+    "voir_page": "See the page →",
+    "prixmalin_badge": "Free",
+    "machshop_titre": "MachShop (Android)",
+    "machshop_description": "The machinist's reference tool — tap & drill, threading, trig, metallurgy. Offline.",
+    "machshop_badge": "10-day trial · CAD 4.99"
   },
   "produits": {
     "titre": "Recommended Gaming Products",
