@@ -166,6 +166,14 @@ function detectCategory(q: string): string {
             >
               {t("app_btn")}
             </a>
+            <div className="mt-3">
+              <Link
+                href={locale === "fr" ? "/applications" : `/${locale}/applications`}
+                className="text-white/90 text-sm font-semibold underline underline-offset-4 decoration-white/40 hover:decoration-white transition"
+              >
+                {t("app_toutes")}
+              </Link>
+            </div>
           </div>
         </div>
       </section>
