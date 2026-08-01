@@ -25,6 +25,7 @@ export type Deal = {
   vendor?: string;
   image?: string;
   category?: string;
+  actif?: boolean;
 };
 
 function asNumber(v: unknown): number | undefined {
@@ -61,6 +62,7 @@ export function getDealBySlug(slug: string): Deal | undefined {
     vendor: raw.platform ?? undefined,
     image: raw.image ?? undefined,
     category: raw.type ?? raw.platform,
+    actif: raw.actif !== false,
   };
 }
 

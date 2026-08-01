@@ -26,6 +26,10 @@ function getFaq(page: { faq?: {q:string,a:string}[], faq_en?: {q:string,a:string
   return (localized && localized.length > 0) ? localized : (page.faq ?? []);
 }
 
+function toSchemaAvailability(actif?: boolean) {
+  return actif === false ? "https://schema.org/OutOfStock" : "https://schema.org/InStock";
+}
+
 function formatPrice(price?: number, currency = "CAD") {
   if (!price || !Number.isFinite(price)) return null;
   try {
@@ -164,7 +168,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
             url: primary.affiliateUrl,
             priceCurrency: primary.currency ?? "CAD",
             ...(primary.price ? { price: String(primary.price) } : {}),
-            availability: "https://schema.org/InStock",
+            availability: toSchemaAvailability(primary.actif),
           },
         }
       : null;
