@@ -157,6 +157,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
           "@context": "https://schema.org",
           "@type": "Product",
           name: primary.title,
+          image: primary.image ? `${BASE_URL}${primary.image}` : undefined,
           brand: primary.vendor ? { "@type": "Brand", name: primary.vendor } : undefined,
           offers: {
             "@type": "Offer",
