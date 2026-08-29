@@ -1647,5 +1647,32 @@
     "translationVerifiedLe": "2026-08-03",
     "raisonDesactivation": "indisponible",
     "desactiveLe": "2026-08-25"
+  },
+  {
+    "slug": "boitier-gaming-rouge-hyte-x50-atx",
+    "title": "Boîtier Gaming Rouge Hyte X50",
+    "title_en": "Hyte X50 Red Gaming Case",
+    "title_es": "Caja Gaming Roja Hyte X50",
+    "title_ar": "هيكل ألعاب أحمر Hyte X50",
+    "title_zh": "Hyte X50 红色游戏机箱",
+    "shortDescription": "Démarquez-vous avec le Hyte X50, un boîtier PC gaming tour moyenne qui allie style audacieux et performance sérieuse dans un rouge qui en impose. Conçu pour les gamers qui veulent un setup à la fois beau et fonctionnel, il offre une gestion optimisée du flux d'air et une construction soignée qui met en valeur vos composants. Avec une note de 4,8/5, il fait l'unanimité auprès des passionnés qui ne veulent pas choisir entre l'esthétique et l'efficacité. Un investissement qui transforme votre tour en véritable pièce maîtresse de votre espace jeu.",
+    "shortDescription_en": "Stand out with the Hyte X50, a mid-tower gaming PC case that combines bold style and serious performance in an imposing red. Designed for gamers who want a setup that is both beautiful and functional, it offers optimized airflow management and meticulous construction that showcases your components. With a rating of 4.8/5, it is a favorite among enthusiasts who refuse to choose between aesthetics and efficiency. An investment that transforms your tower into a true centerpiece of your gaming space.",
+    "shortDescription_es": "Destaca con el Hyte X50, una caja de PC gaming mid-tower que combina un estilo audaz y un rendimiento serio en un rojo imponente. Diseñada para gamers que buscan un setup tanto estético como funcional, ofrece una gestión de flujo de aire optimizada y una construcción cuidada que resalta sus componentes. Con una puntuación de 4,8/5, es la elección predilecta de los entusiastas que no quieren elegir entre estética y eficiencia. Una inversión que transforma su torre en la verdadera pieza central de su espacio de juego.",
+    "shortDescription_ar": "تميز مع Hyte X50، وهو هيكل PC gaming mid-tower يجمع بين التصميم الجريء والأداء القوي بلون أحمر مهيب. صُمم للاعبين الذين يرغبون في إعداد يجمع بين الجمال والوظائف، حيث يوفر إدارة محسّنة لتدفق الهواء وبناءً متقناً يبرز مكوناتك. مع تقييم 4.8/5، يحظى بإجماع الهواة الذين لا يريدون الاختيار بين المظهر والكفاءة. إنه استثمار يحول برجك إلى قطعة مركزية حقيقية في مساحة الألعاب الخاصة بك.",
+    "shortDescription_zh": "使用 Hyte X50 脱颖而出，这款中塔式游戏 PC 机箱以醒目的红色将大胆的设计风格与强劲的性能完美结合。专为追求美观与实用兼备的玩家设计，它提供优化的风道管理和精细的结构工艺，充分展示您的硬件组件。凭借 4.8/5 的评分，它深受那些不愿在美学与效率之间做选择的爱好者青睐。这是一项能将您的机箱变为游戏空间核心视觉焦点的投资。",
+    "amazonUrl": "https://www.amazon.ca/dp/B0FQV73P79?tag=prixmalin20-20",
+    "affiliateLink": "https://www.amazon.ca/dp/B0FQV73P79?tag=prixmalin20-20",
+    "asin": "B0FQV73P79",
+    "category": "boitiers",
+    "image": "/images/products/boitier-gaming-rouge-hyte-x50-atx.webp",
+    "badge": "Nouveau",
+    "actif": true,
+    "prix": "206.63",
+    "prixBarre": "",
+    "prixVerifieLe": "2026-08-29",
+    "dateAjout": "2026-08-29",
+    "lienVerifieLe": "2026-08-29",
+    "url_amazon": "https://www.amazon.ca/dp/B0FQV73P79?tag=prixmalin20-20",
+    "translationVerified": false
   }
 ]
