@@ -3,6 +3,13 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 
+// Format canonique d'affichage des prix — toujours 2 decimales.
+// Le JSON stocke des strings "N.NN" ; sans ce helper, "325.00" s'affiche "325".
+function fmtPrix(v?: string | number | null): string | null {
+  if (v === null || v === undefined || v === "") return null;
+  const n = typeof v === "number" ? v : parseFloat(String(v).replace(",", "."));
+  return Number.isFinite(n) ? n.toFixed(2) : null;
+}
 type Props = {
   products: any[];
   categorySlugs: string[];
@@ -75,8 +82,8 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
                 <p className="mt-2 text-black/70">{locale !== 'fr' && p[`shortDescription_${locale}`] ? p[`shortDescription_${locale}`] : p.shortDescription}</p>
                 {p.prix && (
                   <div className="mt-2 flex items-center gap-2">
-                    <span className="text-lg font-bold text-orange-600">{p.prix}$</span>
-                    {p.prixBarre && <span className="text-sm line-through text-black/40">{p.prixBarre}$</span>}
+                    <span className="text-lg font-bold text-orange-600">{fmtPrix(p.prix)}$</span>
+                    {p.prixBarre && <span className="text-sm line-through text-black/40">{fmtPrix(p.prixBarre)}$</span>}
                   </div>
                 )}
                 <p className="mt-3">
