@@ -165,7 +165,8 @@
     "description_en": "50 Primogems + 3 Hero's Wit. Permanent code valid for new accounts.",
     "description_es": "50 Gemas Primarias + 3 Sabiduría del Héroe. Código permanente válido para cuentas nuevas.",
     "description_zh": "50 原石 + 3 英雄经验。永久代码适用于新账户。",
-    "description_ar": "50 برايموجيم + 3 حكمة البطل. رمز دائم صالح للحسابات الجديدة."
+    "description_ar": "50 برايموجيم + 3 حكمة البطل. رمز دائم صالح للحسابات الجديدة.",
+    "permanent": true
   },
   {
     "id": "ps-dbd-happyhorseyear2026",
@@ -501,7 +502,8 @@
     "description_en": "50 Stellar Jades and consumables. Permanent code.",
     "description_es": "50 Stellar Jades y consumibles. Código permanente.",
     "description_zh": "50 星琼和消耗品。永久代码。",
-    "description_ar": "50 Stellar Jades والعناصر القابلة للاستهلاك. كود دائم."
+    "description_ar": "50 Stellar Jades والعناصر القابلة للاستهلاك. كود دائم.",
+    "permanent": true
   },
   {
     "id": "pc-honkai-star-rail-kbj8",
@@ -690,7 +692,8 @@
     "description_en": "50 Stellar Jades and consumables. Permanent code.",
     "description_es": "50 Jades Estelares y consumibles. Código permanente.",
     "description_zh": "50 星琼和消耗品。永久代码。",
-    "description_ar": "50 Stellar Jades والمستهلكات. رمز دائم."
+    "description_ar": "50 Stellar Jades والمستهلكات. رمز دائم.",
+    "permanent": true
   },
   {
     "id": "ps-destiny-2-yrc",
@@ -753,7 +756,8 @@
     "description_en": "Popcorn car boost. Permanent code.",
     "description_es": "Impulso de coche Palomitas. Código permanente.",
     "description_zh": "爆米花汽车加速。永久代码。",
-    "description_ar": "معزز سيارة الفشار. رمز دائم."
+    "description_ar": "معزز سيارة الفشار. رمز دائم.",
+    "permanent": true
   },
   {
     "id": "xbox-rocket-league-live",
@@ -764,7 +768,7 @@
     "method": "redeem",
     "code": "RocketLeagueLive",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-03-15",
     "updatedAtISO": "2026-03-15",
     "title_en": "Rocket League — Anthem Theme + Wheels + Banner",
@@ -785,7 +789,7 @@
     "method": "redeem",
     "code": "wrestlemania",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-03-15",
     "updatedAtISO": "2026-03-15",
     "title_en": "Rocket League — 2 Random WWE Items",
@@ -816,7 +820,8 @@
     "description_en": "50 Stellar Jades and consumables. Permanent code.",
     "description_es": "50 Gemas Estelares y consumibles. Código permanente.",
     "description_zh": "50 星琼及消耗品。永久代码。",
-    "description_ar": "50 جواهر نجمية واستهلاكيات. رمز دائم."
+    "description_ar": "50 جواهر نجمية واستهلاكيات. رمز دائم.",
+    "permanent": true
   },
   {
     "id": "nintendo-pokemon-sv-stracksu1t",
@@ -900,7 +905,8 @@
     "description_en": "50 Stellar Jades and consumables. Permanent code.",
     "description_es": "50 Gemas Estelares y consumibles. Código permanente.",
     "description_zh": "50 星琼和消耗品。永久代码。",
-    "description_ar": "50 جواهر نجمية والعناصر الاستهلاكية. رمز دائم."
+    "description_ar": "50 جواهر نجمية والعناصر الاستهلاكية. رمز دائم.",
+    "permanent": true
   },
   {
     "id": "pc-genshin-psca8nl4zspd",
