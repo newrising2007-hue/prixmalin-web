@@ -1022,9 +1022,9 @@
     "method": "redeem",
     "code": "ANDROID-QV4RX",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-04-23",
-    "updatedAtISO": "2026-04-23",
+    "updatedAtISO": "2026-09-19",
     "title_en": "Warframe — 3-Day Affinity Booster + Zylok + Wolf Howl",
     "title_es": "Warframe — Potenciador de Afinidad 3 días + Zylok + Wolf Howl",
     "title_zh": "Warframe — 3天亲和力加成 + Zylok + Wolf Howl",
@@ -1032,7 +1032,9 @@
     "description_en": "3-Day Affinity Booster + Zylok weapon + Wolf Howl Glyph.",
     "description_es": "Potenciador de Afinidad de 3 días + Arma Zylok + Glifo Wolf Howl.",
     "description_zh": "3天亲和力加成 + Zylok武器 + Wolf Howl字形。",
-    "description_ar": "معزز الألفة لمدة 3 أيام + سلاح Zylok + رمز Wolf Howl."
+    "description_ar": "معزز الألفة لمدة 3 أيام + سلاح Zylok + رمز Wolf Howl.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-19"
   },
   {
     "id": "ps-warframe-android-qv4rx",
@@ -1043,9 +1045,9 @@
     "method": "redeem",
     "code": "ANDROID-QV4RX",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-04-23",
-    "updatedAtISO": "2026-04-23",
+    "updatedAtISO": "2026-09-19",
     "title_en": "Warframe — 3-Day Affinity Booster + Zylok + Wolf Howl",
     "title_es": "Warframe — Potenciador de Afinidad 3 días + Zylok + Wolf Howl",
     "title_zh": "Warframe — 3天亲和力加成 + Zylok + Wolf Howl",
@@ -1053,7 +1055,9 @@
     "description_en": "3-Day Affinity Booster + Zylok weapon + Wolf Howl Glyph.",
     "description_es": "Potenciador de Afinidad de 3 días + Arma Zylok + Glifo Wolf Howl.",
     "description_zh": "3天亲和力加成 + Zylok武器 + Wolf Howl字形。",
-    "description_ar": "معزز الألفة لمدة 3 أيام + سلاح Zylok + رمز Wolf Howl."
+    "description_ar": "معزز الألفة لمدة 3 أيام + سلاح Zylok + رمز Wolf Howl.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-19"
   },
   {
     "id": "xbox-warframe-android-qv4rx",
@@ -1064,9 +1068,9 @@
     "method": "redeem",
     "code": "ANDROID-QV4RX",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-04-23",
-    "updatedAtISO": "2026-04-23",
+    "updatedAtISO": "2026-09-19",
     "title_en": "Warframe — 3-Day Affinity Booster + Zylok + Wolf Howl",
     "title_es": "Warframe — Potenciador de Afinidad 3 días + Zylok + Wolf Howl",
     "title_zh": "Warframe — 3天亲和力加成 + Zylok + Wolf Howl",
@@ -1074,7 +1078,9 @@
     "description_en": "3-Day Affinity Booster + Zylok weapon + Wolf Howl Glyph.",
     "description_es": "Potenciador de Afinidad de 3 días + Arma Zylok + Glifo Wolf Howl.",
     "description_zh": "3天亲和力加成 + Zylok武器 + Wolf Howl字形。",
-    "description_ar": "معزز الألفة لمدة 3 أيام + سلاح Zylok + رمز Wolf Howl."
+    "description_ar": "معزز الألفة لمدة 3 أيام + سلاح Zylok + رمز Wolf Howl.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-19"
   },
   {
     "id": "nintendo-warframe-android-qv4rx",
@@ -1085,9 +1091,9 @@
     "method": "redeem",
     "code": "ANDROID-QV4RX",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-04-23",
-    "updatedAtISO": "2026-04-23",
+    "updatedAtISO": "2026-09-19",
     "title_en": "Warframe — 3-Day Affinity Booster + Zylok + Wolf Howl",
     "title_es": "Warframe — Potenciador de Afinidad 3 días + Zylok + Wolf Howl",
     "title_zh": "Warframe — 3天亲和力加成 + Zylok + Wolf Howl",
@@ -1095,7 +1101,9 @@
     "description_en": "3-Day Affinity Booster + Zylok weapon + Wolf Howl Glyph.",
     "description_es": "Potenciador de Afinidad de 3 días + Arma Zylok + Glifo Wolf Howl.",
     "description_zh": "3天亲和力加成 + Zylok武器 + Wolf Howl字形。",
-    "description_ar": "معزز الألفة لمدة 3 أيام + سلاح Zylok + رمز Wolf Howl."
+    "description_ar": "معزز الألفة لمدة 3 أيام + سلاح Zylok + رمز Wolf Howl.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-19"
   },
   {
     "id": "ps-warframe-golden",
