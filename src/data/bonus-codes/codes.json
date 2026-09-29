@@ -50,9 +50,9 @@
     "method": "redeem",
     "code": "FIGHT2WIN",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-03-15",
-    "updatedAtISO": "2026-03-15",
+    "updatedAtISO": "2026-09-29",
     "title_en": "World of Tanks — 2D Battlefield Style",
     "title_es": "World of Tanks — Estilo Battlefield 2D",
     "title_zh": "坦克世界 — 2D 战地风格",
@@ -60,7 +60,9 @@
     "description_en": "2D \"Battlefield\" style for your tank.",
     "description_es": "Estilo 2D \"Battlefield\" para tu tanque.",
     "description_zh": "为你的坦克设计的 2D \"战地\" 风格。",
-    "description_ar": "نمط \"ساحة المعركة\" ثنائي الأبعاد لدبابتك."
+    "description_ar": "نمط \"ساحة المعركة\" ثنائي الأبعاد لدبابتك.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "pc-roblox-spidercola",
