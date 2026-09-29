@@ -177,9 +177,9 @@
     "method": "redeem",
     "code": "HAPPYHORSEYEAR2026",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-03-15",
-    "updatedAtISO": "2026-03-15",
+    "updatedAtISO": "2026-09-29",
     "title_en": "Dead by Daylight — 168,888 Bloodpoints + Horse Charm",
     "title_es": "Dead by Daylight — 168 888 Puntos de sangre + Amuleto Caballo",
     "title_zh": "黎明杀机 — 168,888 血点 + 马匹护符",
@@ -187,7 +187,9 @@
     "description_en": "168,888 Bloodpoints + Lunar Horse Charm.",
     "description_es": "168 888 Puntos de sangre + Amuleto Caballo Lunar.",
     "description_zh": "168,888 血点 + 月球马匹护符。",
-    "description_ar": "168,888 نقاط دم + تعويذة حصان قمري."
+    "description_ar": "168,888 نقاط دم + تعويذة حصان قمري.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "ps-dbd-jokerswild",
@@ -198,9 +200,9 @@
     "method": "redeem",
     "code": "JOKERSWILD",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-03-15",
-    "updatedAtISO": "2026-03-15",
+    "updatedAtISO": "2026-09-29",
     "title_en": "Dead by Daylight — The Unknown Cosmetic",
     "title_es": "Dead by Daylight — Cosmético The Unknown",
     "title_zh": "黎明杀机 — 未知者美化包",
@@ -208,7 +210,9 @@
     "description_en": "Head accessory for the \"The Unknown\" character.",
     "description_es": "Accesorio de cabeza para el personaje \"The Unknown\".",
     "description_zh": "\"未知者\"角色的头部配饰。",
-    "description_ar": "ملحق الرأس لشخصية \"The Unknown\"."
+    "description_ar": "ملحق الرأس لشخصية \"The Unknown\".",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "ps-dbd-reddit1mil",
