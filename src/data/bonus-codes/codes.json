@@ -475,9 +475,9 @@
     "method": "redeem",
     "code": "ALETTERFORYOU",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-03-15",
-    "updatedAtISO": "2026-03-15",
+    "updatedAtISO": "2026-09-29",
     "title_en": "Honkai: Star Rail — Progression Resources",
     "title_es": "Honkai: Star Rail — Recursos de Progresión",
     "title_zh": "崩坏：星穹铁道 — 进度资源",
@@ -485,7 +485,9 @@
     "description_en": "Varied progression resources.",
     "description_es": "Recursos de progresión variados.",
     "description_zh": "多样化的进度资源。",
-    "description_ar": "موارد تقدم متنوعة."
+    "description_ar": "موارد تقدم متنوعة.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "pc-honkai-star-rail-gift",
@@ -984,9 +986,9 @@
     "method": "redeem",
     "code": "ACEDETECTIVE",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-04-23",
-    "updatedAtISO": "2026-04-23",
+    "updatedAtISO": "2026-09-29",
     "title_en": "Honkai: Star Rail — Traveler's Guide + Cold Joke",
     "title_es": "Honkai: Star Rail — Guía del Viajero + Cold Joke",
     "title_zh": "崩坏：星穹铁道 — 旅行者指南 + 冷笑话",
@@ -994,7 +996,9 @@
     "description_en": "3× Traveler's Guide + 2× Cold Joke.",
     "description_es": "3× Guía del Viajero + 2× Cold Joke.",
     "description_zh": "3× 旅行者指南 + 2× 冷笑话。",
-    "description_ar": "3× دليل المسافر + 2× Cold Joke."
+    "description_ar": "3× دليل المسافر + 2× Cold Joke.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "pc-honkai-star-rail-4tksx",
@@ -1517,9 +1521,9 @@
     "method": "redeem",
     "code": "8SMSVJWJM7ZT",
     "sourceLabel": "Game8",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-09-16",
-    "updatedAtISO": "2026-09-21",
+    "updatedAtISO": "2026-09-29",
     "title_en": "",
     "title_es": "",
     "title_zh": "",
@@ -1527,7 +1531,9 @@
     "description_en": "",
     "description_es": "",
     "description_zh": "",
-    "description_ar": ""
+    "description_ar": "",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "xbox-honkai-star-rail-8smsvjwjm7zt",
@@ -1538,9 +1544,9 @@
     "method": "redeem",
     "code": "8SMSVJWJM7ZT",
     "sourceLabel": "Game8",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-09-16",
-    "updatedAtISO": "2026-09-21",
+    "updatedAtISO": "2026-09-29",
     "title_en": "",
     "title_es": "",
     "title_zh": "",
@@ -1548,7 +1554,9 @@
     "description_en": "",
     "description_es": "",
     "description_zh": "",
-    "description_ar": ""
+    "description_ar": "",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "ps-honkai-star-rail-sunsweptrobi",
