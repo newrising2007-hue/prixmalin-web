@@ -923,9 +923,9 @@
     "method": "redeem",
     "code": "PSCA8NL4ZSPD",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-04-23",
-    "updatedAtISO": "2026-04-23",
+    "updatedAtISO": "2026-09-29",
     "title_en": "Genshin Impact — 60 Primogems + 5 Adventurer EXP",
     "title_es": "Genshin Impact — 60 Gemas Primordiales + 5 EXP Aventurero",
     "title_zh": "原神 — 60 原石 + 5 冒险家经验",
@@ -933,7 +933,9 @@
     "description_en": "60 Primogems + 5 Adventurer EXP.",
     "description_es": "60 Gemas Primordiales + 5 EXP Aventurero.",
     "description_zh": "60 原石 + 5 冒险家经验。",
-    "description_ar": "60 بريموجيم + 5 خبرة المستكشف."
+    "description_ar": "60 بريموجيم + 5 خبرة المستكشف.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "pc-genshin-uampgjaseczh",
@@ -965,9 +967,9 @@
     "method": "redeem",
     "code": "PSCA8NL4ZSPD",
     "sourceLabel": "Officiel",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-04-23",
-    "updatedAtISO": "2026-04-23",
+    "updatedAtISO": "2026-09-29",
     "title_en": "Genshin Impact — 60 Primogems + 5 Adventurer EXP",
     "title_es": "Genshin Impact — 60 Gemas Primordiales + 5 EXP Aventurero",
     "title_zh": "原神 — 60 原石 + 5 冒险家经验",
@@ -975,7 +977,9 @@
     "description_en": "60 Primogems + 5 Adventurer EXP.",
     "description_es": "60 Gemas Primordiales + 5 EXP Aventurero.",
     "description_zh": "60 原石 + 5 冒险家经验。",
-    "description_ar": "60 بريموجيم + 5 خبرة المستكشف."
+    "description_ar": "60 بريموجيم + 5 خبرة المستكشف.",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "pc-honkai-star-rail-acedetective",
@@ -1437,9 +1441,9 @@
     "method": "redeem",
     "code": "BALLETCOLLAB",
     "sourceLabel": "Game8",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-09-16",
-    "updatedAtISO": "2026-09-21",
+    "updatedAtISO": "2026-09-29",
     "title_en": "",
     "title_es": "",
     "title_zh": "",
@@ -1447,7 +1451,9 @@
     "description_en": "",
     "description_es": "",
     "description_zh": "",
-    "description_ar": ""
+    "description_ar": "",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "xbox-genshin-impact-balletcollab",
@@ -1458,9 +1464,9 @@
     "method": "redeem",
     "code": "BALLETCOLLAB",
     "sourceLabel": "Game8",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-09-16",
-    "updatedAtISO": "2026-09-21",
+    "updatedAtISO": "2026-09-29",
     "title_en": "",
     "title_es": "",
     "title_zh": "",
@@ -1468,7 +1474,9 @@
     "description_en": "",
     "description_es": "",
     "description_zh": "",
-    "description_ar": ""
+    "description_ar": "",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "ps-genshin-impact-yoal3v36xhs7",
@@ -1479,9 +1487,9 @@
     "method": "redeem",
     "code": "YOAL3V36XHS7",
     "sourceLabel": "Pocket Tactics",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-09-16",
-    "updatedAtISO": "2026-09-21",
+    "updatedAtISO": "2026-09-29",
     "title_en": "",
     "title_es": "",
     "title_zh": "",
@@ -1489,7 +1497,9 @@
     "description_en": "",
     "description_es": "",
     "description_zh": "",
-    "description_ar": ""
+    "description_ar": "",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "xbox-genshin-impact-yoal3v36xhs7",
@@ -1500,9 +1510,9 @@
     "method": "redeem",
     "code": "YOAL3V36XHS7",
     "sourceLabel": "Pocket Tactics",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-09-16",
-    "updatedAtISO": "2026-09-21",
+    "updatedAtISO": "2026-09-29",
     "title_en": "",
     "title_es": "",
     "title_zh": "",
@@ -1510,7 +1520,9 @@
     "description_en": "",
     "description_es": "",
     "description_zh": "",
-    "description_ar": ""
+    "description_ar": "",
+    "raisonDesactivation": "expire_source",
+    "desactiveLe": "2026-09-29"
   },
   {
     "id": "ps-honkai-star-rail-8smsvjwjm7zt",
