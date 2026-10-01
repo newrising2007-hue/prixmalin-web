@@ -32,6 +32,8 @@ const nextConfig: NextConfig = {
       { source: "/xbox-game-pass-prix-canada", destination: "/i/xbox-game-pass-ultimate-3-mois-canada", permanent: true },
       { source: "/codes", destination: "/codes-bonus", permanent: true },
       { source: "/codes/:platform", destination: "/codes-bonus/:platform", permanent: true },
+      { source: "/magasins/coupons", destination: "/magasins/circulaires", permanent: true },
+      { source: "/:locale(fr|en|es|ar|zh)/magasins/coupons", destination: "/:locale/magasins/circulaires", permanent: true },
     ];
   },
 };
