@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 import { getApp, getPrimaryDownloadUrl } from "@/lib/appRelease";
+import { detectCategory } from "@/lib/categoryKeywords";
 
 export default function MagasinsPage() {
   const t = useTranslations("magasins");
@@ -45,27 +46,6 @@ export default function MagasinsPage() {
   ];
 
 
-function normalizeQ(s: string): string {
-  return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-}
-const CATEGORY_KEYWORDS: Record<string, string[]> = {
-  bijoux: ['bijou','bijoux','bague','collier','bracelet','jonc','or','argent','diamant','pendentif','alliance','medaille','bijouterie','joaillerie','montre','horlogerie'],
-  vehicules: ['voiture','auto','camion','moto','motoneige','vtt','quad','bateau','ski-doo','sea-doo','can-am'],
-  pieces: ['pneu','frein','filtre a huile','piece auto','amortisseur','courroie','batterie auto'],
-  boucherie: ['viande','boeuf','poulet','porc','steak','saucisse','bacon','boucherie','charcuterie'],
-  epicerie: ['pain','lait','beurre','fromage','oeuf','yaourt','farine','sucre','epicerie','alimentation'],
-  electro: ['telephone','cellulaire','ordinateur','laptop','tablette','television','tele','console','playstation','xbox','nintendo'],
-  quincaillerie: ['marteau','tournevis','perceuse','vis','clou','peinture','quincaillerie','hardware'],
-  sport: ['velo','ski','raquette','hockey','sport','randonnee','camping'],
-  vetements: ['manteau','pantalon','chemise','robe','vetement','chaussure','mode'],
-};
-function detectCategory(q: string): string {
-  const norm = normalizeQ(q);
-  for (const [cat, kws] of Object.entries(CATEGORY_KEYWORDS)) {
-    if (kws.some(kw => norm.includes(normalizeQ(kw)))) return cat;
-  }
-  return 'divers';
-}
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (search.trim()) {
