@@ -3723,9 +3723,9 @@
     "method": "redeem",
     "code": "HTTPS://WWW.AMDGAMING.COM/PROMOTIONS/WORLD-OF-TANKS",
     "sourceLabel": "HoKx",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-11-05",
-    "updatedAtISO": "2026-11-05",
+    "updatedAtISO": "2026-11-06",
     "title_en": "",
     "title_es": "",
     "title_zh": "",
@@ -3733,7 +3733,9 @@
     "description_en": "",
     "description_es": "",
     "description_zh": "",
-    "description_ar": ""
+    "description_ar": "",
+    "raisonDesactivation": "manuel",
+    "desactiveLe": "2026-11-06"
   },
   {
     "id": "pc-world-of-tanks-httpswwwoper",
@@ -3744,9 +3746,9 @@
     "method": "redeem",
     "code": "HTTPS://WWW.OPERA.COM/DE/GX/WORLDOFTANKS",
     "sourceLabel": "HoKx",
-    "isActive": true,
+    "isActive": false,
     "addedAtISO": "2026-11-05",
-    "updatedAtISO": "2026-11-05",
+    "updatedAtISO": "2026-11-06",
     "title_en": "",
     "title_es": "",
     "title_zh": "",
@@ -3754,6 +3756,8 @@
     "description_en": "",
     "description_es": "",
     "description_zh": "",
-    "description_ar": ""
+    "description_ar": "",
+    "raisonDesactivation": "manuel",
+    "desactiveLe": "2026-11-06"
   }
 ]
