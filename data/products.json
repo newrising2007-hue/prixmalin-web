@@ -21,7 +21,8 @@
     "title_zh": "HyperX Cloud Alpha",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B074NBSF9N"
   },
   {
     "slug": "logitech-g203",
@@ -45,7 +46,8 @@
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-08",
-    "actif": true
+    "actif": true,
+    "asin": "B07YN73XN6"
   },
   {
     "slug": "steelseries-arctis-nova-1",
@@ -69,7 +71,8 @@
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-09",
-    "actif": true
+    "actif": true,
+    "asin": "B09ZWF9BCJ"
   },
   {
     "slug": "logitech-g-pro-x-superlight-2",
@@ -92,7 +95,6 @@
     "title_ar": "لوجيتك G PRO X Superlight 2",
     "title_zh": "罗技 G PRO X Superlight 2",
     "asin": "B09NBWL8J5",
-    "affiliateLink": "https://www.amazon.ca/dp/B09NBWL8J5?tag=prixmalin20-20",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-08"
@@ -110,8 +112,7 @@
     "shortDescription_ar": "60 grammes, capteur HERO 2 à 44 000 DPI et une connexion LIGHTSPEED sans fil fiable — c'est la souris que les pros utilisent en tournoi, rendue accessible. La glisse est impeccable grâce aux patins PTFE sans additif, l'autonomie tient 88 heures, et elle se recharge en USB-C. Légère comme une plume, précise comme un scalpel. Si t'es sérieux dans ton jeu, c'est difficile de faire mieux.",
     "shortDescription_zh": "60 grammes, capteur HERO 2 à 44 000 DPI et une connexion LIGHTSPEED sans fil fiable — c'est la souris que les pros utilisent en tournoi, rendue accessible. La glisse est impeccable grâce aux patins PTFE sans additif, l'autonomie tient 88 heures, et elle se recharge en USB-C. Légère comme une plume, précise comme un scalpel. Si t'es sérieux dans ton jeu, c'est difficile de faire mieux.",
     "amazonUrl": "https://www.amazon.ca/dp/B0FY45N1FQ?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B0FY45N1FQ",
     "category": "souris",
     "image": "/images/products/logitech-g-pro-x-superlight-2-se.webp",
     "badge": "",
@@ -122,8 +123,8 @@
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-08",
-    "raisonDesactivation": "indisponible",
-    "desactiveLe": "2026-11-10"
+    "raisonDesactivation": null,
+    "desactiveLe": null
   },
   {
     "slug": "clavier-steelseries-apex-3-rgb",
@@ -138,8 +139,7 @@
     "shortDescription_ar": "تنسيق TKL بدون لوحة أرقام — مساحة أكبر للماوس، ووضعية أكثر راحة للجلسات الطويلة. مفاتيح anti-ghosting صامتة تتحمل 20 مليون نقرة، وتوفر شهادة IP32 حماية ضد الرذاذ والغبار. إضاءة PrismSync RGB المكونة من 8 مناطق سريعة الاستجابة وقابلة للتخصيص حسب الرغبة. بكرة تحكم في الصوت ومفاتيح وسائط مخصصة للحفاظ على التحكم دون مغادرة اللعبة. متوافق مع PC و Mac و Xbox و PS4. لوحة TKL متينة بسعر مناسب.",
     "shortDescription_zh": "TKL 布局，无数字键盘 — 为鼠标腾出更多空间，为长时间游戏提供更自然的姿势。静音 anti-ghosting 轴支持 2000 万次敲击，IP32 认证可防止溅水和灰尘。8 区 PrismSync RGB 灯效响应迅速且高度可自定义。音量滚轮和专用多媒体按键，让您无需离开游戏即可掌控全局。兼容 PC、Mac、Xbox 和 PS4。一款价格实惠且坚固耐用的 TKL 键盘。",
     "amazonUrl": "https://www.amazon.ca/dp/B09FTNMT84?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B09FTNMT84",
     "category": "claviers",
     "image": "/images/products/clavier-steelseries-apex-3-rgb.webp",
     "badge": "Deal du jour",
@@ -164,8 +164,7 @@
     "shortDescription_ar": "سطح قماشي ناعم محسن للمستشعرات الضوئية والليزر - قاعدة مطاطية غير قابلة للانزلاق وقابلة للغسل - يقوم QcK بما يجب أن تفعله لوحة الماوس الجيدة تماماً، دون زيادة. متوفر في حوالي عشرة أحجام وعدة أنماط تشمل RGB وحواف مخيطة. لوحة الماوس المرجعية التي يستخدمها اللاعبون منذ 20 عاماً لسبب وجيه.",
     "shortDescription_zh": "针对光学和激光传感器优化的光滑织物表面 - 防滑且可清洗的橡胶底座 - QcK 只做优秀鼠标垫该做的事，不多不少。提供约十种尺寸和多种款式，包括 RGB 和缝边设计。玩家 20 年来一直使用的标杆级鼠标垫，实至名归。",
     "amazonUrl": "https://www.amazon.ca/dp/B000UEZ36W?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B000UEZ36W",
     "category": "accessoires",
     "image": "/images/products/steelseries-qck-gaming-mouse-pad-medium.webp",
     "badge": "Aucun",
@@ -201,7 +200,8 @@
     "title_zh": "New Bee — RGB电竞耳机支架",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B09TSZ1G7N"
   },
   {
     "slug": "xbox-core-wireless-gaming-controller",
@@ -211,13 +211,12 @@
     "title_ar": "Xbox Core — وحدة تحكم ألعاب لاسلكية",
     "title_zh": "Xbox Core — 无线游戏手柄",
     "shortDescription": "Design ergonomique raffiné, D-Pad hybride et gâchettes texturées — la manette Xbox Core est confortable dès la première session. Elle fonctionne sans fil ou filaire via le câble USB-C 2,7 m inclus, se connecte au PC, Android et iOS sans tracas, et les boutons se remappent via l'application Xbox Accessories. Prise audio 3,5 mm intégrée pour brancher ton casque directement. Disponible dans une tonne de couleurs. La référence Xbox à prix honnête.",
-    "shortDescription_en": "Refined ergonomic design, hybrid D-Pad and textured triggers — the Xbox Core controller is comfortable from the very first session. It works wirelessly or wired via the included 2.70 m USB-C cable, connects effortlessly to PC, Android and iOS, and buttons can be remapped via the Xbox Accessories app. Integrated 3.50 mm audio jack to plug your headset in directly. Available in a ton of colors. The Xbox standard at an honest price.",
+    "shortDescription_en": "Refined ergonomic design, hybrid D-Pad and textured triggers — the Xbox Core controller is comfortable from the very first session. It works wirelessly or wired via the included 2.7 m USB-C cable, connects effortlessly to PC, Android and iOS, and buttons can be remapped via the Xbox Accessories app. Integrated 3.5 mm audio jack to plug your headset in directly. Available in a ton of colors. The Xbox standard at an honest price.",
     "shortDescription_es": "Diseño ergonómico refinado, D-Pad híbrido y gatillos texturizados — el mando Xbox Core es cómodo desde la primera sesión. Funciona de forma inalámbrica o por cable mediante el cable USB-C de 2,7 m incluido, se conecta sin problemas a PC, Android e iOS, y los botones se pueden remapear a través de la aplicación Xbox Accessories. Toma de audio de 3,5 mm integrada para conectar tus auriculares directamente. Disponible en una gran variedad de colores. El referente de Xbox a un precio honesto.",
-    "shortDescription_ar": "تصميم مريح وراقي، لوحة اتجاهات (D-Pad) هجينة وزناد ذو ملمس بارز — وحدة تحكم Xbox Core مريحة منذ الجلسة الأولى. تعمل لاسلكياً أو سلكياً عبر كابل USB-C بطول 2.70 متر المرفق، وتتصل بسهولة بأجهزة PC وAndroid وiOS، ويمكن إعادة تعيين الأزرار عبر تطبيق Xbox Accessories. منفذ صوت 3.50 مم مدمج لتوصيل سماعة الرأس مباشرة. متوفرة بمجموعة كبيرة من الألوان. معيار Xbox بسعر مناسب.",
-    "shortDescription_zh": "精致的人体工程学设计、混合 D-Pad 和纹理扳机 — Xbox Core 手柄从第一次使用起就非常舒适。可通过附带的 2.70 m USB-C 线缆进行无线或有线连接，可轻松连接至 PC、Android 和 iOS，并可通过 Xbox Accessories 应用重新映射按键。内置 3.50 mm 音频插孔，可直接连接耳机。提供多种颜色选择。价格实惠的 Xbox 标准之选。",
+    "shortDescription_ar": "تصميم مريح وراقي، لوحة اتجاهات (D-Pad) هجينة وزناد ذو ملمس بارز — وحدة تحكم Xbox Core مريحة منذ الجلسة الأولى. تعمل لاسلكياً أو سلكياً عبر كابل USB-C بطول 2.7 متر المرفق، وتتصل بسهولة بأجهزة PC وAndroid وiOS، ويمكن إعادة تعيين الأزرار عبر تطبيق Xbox Accessories. منفذ صوت 3.5 مم مدمج لتوصيل سماعة الرأس مباشرة. متوفرة بمجموعة كبيرة من الألوان. معيار Xbox بسعر مناسب.",
+    "shortDescription_zh": "精致的人体工程学设计、混合 D-Pad 和纹理扳机 — Xbox Core 手柄从第一次使用起就非常舒适。可通过附带的 2.7 m USB-C 线缆进行无线或有线连接，可轻松连接至 PC、Android 和 iOS，并可通过 Xbox Accessories 应用重新映射按键。内置 3.5 mm 音频插孔，可直接连接耳机。提供多种颜色选择。价格实惠的 Xbox 标准之选。",
     "amazonUrl": "https://www.amazon.ca/dp/B0FLB2TQ5Y?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B0FLB2TQ5Y",
     "category": "manettes",
     "image": "/images/products/xbox-core-wireless-gaming-controller.webp",
     "badge": "",
@@ -237,13 +236,12 @@
     "title_ar": "وحدة تحكم لاسلكية DualSense — Chroma Pearl",
     "title_zh": "DualSense 无线手柄 — Chroma Pearl",
     "shortDescription": "La DualSense dans sa finition Chroma Pearl : un blanc nacré aux reflets changeants qui accroche la lumière, pour une manette qui se démarque autant sur ton bureau que dans tes mains. Le retour haptique te fait sentir chaque pas, chaque impact et chaque texture du terrain, et les gâchettes adaptatives offrent une vraie résistance quand tu tends un arc ou que tu freines à fond. Le micro intégré, la prise casque 3,5 mm et le bouton muet te gardent connecté à ton escouade sans accessoire de plus. Branche-la en USB-C ou jumelle-la en Bluetooth : elle passe de la PS5 au PC, au Mac, et même à ton téléphone Android ou iOS. Vendue et expédiée par Amazon.ca. Le look premium, sans compromis sur le jeu.",
-    "shortDescription_en": "The DualSense in its Chroma Pearl finish: a pearlescent white with shifting reflections that catch the light, for a controller that stands out as much on your desk as in your hands. Haptic feedback lets you feel every step, every impact, and every terrain texture, while adaptive triggers provide real resistance when drawing a bow or braking hard. The built-in microphone, 3.50 mm headphone jack, and mute button keep you connected to your squad without extra accessories. Plug it in via USB-C or pair it via Bluetooth: it switches from PS5 to PC, Mac, and even your Android or iOS phone. Sold and shipped by Amazon.ca. Premium look, no compromise on gameplay.",
+    "shortDescription_en": "The DualSense in its Chroma Pearl finish: a pearlescent white with shifting reflections that catch the light, for a controller that stands out as much on your desk as in your hands. Haptic feedback lets you feel every step, every impact, and every terrain texture, while adaptive triggers provide real resistance when drawing a bow or braking hard. The built-in microphone, 3.5 mm headphone jack, and mute button keep you connected to your squad without extra accessories. Plug it in via USB-C or pair it via Bluetooth: it switches from PS5 to PC, Mac, and even your Android or iOS phone. Sold and shipped by Amazon.ca. Premium look, no compromise on gameplay.",
     "shortDescription_es": "La DualSense en su acabado Chroma Pearl: un blanco perlado con reflejos cambiantes que captan la luz, para un mando que destaca tanto en tu escritorio como en tus manos. La retroalimentación háptica te permite sentir cada paso, cada impacto y cada textura del terreno, mientras que los gatillos adaptativos ofrecen una resistencia real al tensar un arco o frenar a fondo. El micrófono integrado, el conector de auriculares de 3,5 mm y el botón de silencio te mantienen conectado con tu escuadrón sin accesorios adicionales. Conéctala mediante USB-C o emparéjala por Bluetooth: pasa de PS5 a PC, Mac e incluso a tu teléfono Android o iOS. Vendido y enviado por Amazon.ca. Aspecto premium, sin compromisos en el juego.",
     "shortDescription_ar": "جهاز DualSense بلمسة Chroma Pearl: أبيض لؤلؤي مع انعكاسات متغيرة تلتقط الضوء، لتمنحك وحدة تحكم تبرز على مكتبك بقدر ما تبرز في يديك. تجعلك ردود الفعل اللمسية تشعر بكل خطوة، وكل اصطدام، وكل ملمس للأرض، وتوفر الزناد التكيفي مقاومة حقيقية عند شد القوس أو الكبح بقوة. يضمن لك الميكروفون المدمج، ومقبس سماعة الرأس 3,5 mm، وزر كتم الصوت البقاء على اتصال مع فرقتك دون الحاجة إلى ملحقات إضافية. قم بتوصيله عبر USB-C أو اقترنه عبر Bluetooth: ينتقل من PS5 إلى PC، و Mac، وحتى هاتفك Android أو iOS. يُباع ويُشحن بواسطة Amazon.ca. مظهر فاخر، دون أي تنازل عن تجربة اللعب.",
-    "shortDescription_zh": "Chroma Pearl 版 DualSense：珍珠白色的外观带有变幻的光泽，捕捉光影流转，让这款手柄无论是在桌面上还是在手中都格外引人注目。触觉反馈让你感受每一步、每一次冲击以及地形的纹理，而自适应扳机在你拉弓或全力刹车时提供真实的阻力。内置麦克风、3.50 mm 耳机插孔和静音按钮让你无需额外配件即可与队友保持联系。通过 USB-C 连接或通过 Bluetooth 配对：它可在 PS5、PC、Mac 甚至你的 Android 或 iOS 手机之间轻松切换。由 Amazon.ca 销售并配送。高级外观，游戏体验绝不妥协。",
+    "shortDescription_zh": "Chroma Pearl 版 DualSense：珍珠白色的外观带有变幻的光泽，捕捉光影流转，让这款手柄无论是在桌面上还是在手中都格外引人注目。触觉反馈让你感受每一步、每一次冲击以及地形的纹理，而自适应扳机在你拉弓或全力刹车时提供真实的阻力。内置麦克风、3.5 mm 耳机插孔和静音按钮让你无需额外配件即可与队友保持联系。通过 USB-C 连接或通过 Bluetooth 配对：它可在 PS5、PC、Mac 甚至你的 Android 或 iOS 手机之间轻松切换。由 Amazon.ca 销售并配送。高级外观，游戏体验绝不妥协。",
     "amazonUrl": "https://www.amazon.ca/dp/B0FY6X8VFS?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B0FY6X8VFS",
     "category": "manettes",
     "image": "/images/products/dualsense-wireless-controller-playstation.webp",
     "badge": "Meilleur vendeur",
@@ -268,8 +266,7 @@
     "shortDescription_ar": "99 جرامًا، 250 ساعة من عمر البطارية ببطارية AA واحدة — تتحرك G305 لاسلكيًا دون أن تخذلك أبدًا في منتصف اللعبة. يوفر مستشعر HERO 12K دقة عالية وتوفر تقنية LIGHTSPEED استجابة بدون أي تأخير ملحوظ. مدمجة وخفيفة الوزن وسهلة الحمل مع مستقبل USB المدمج. متوفرة بألوان متعددة. ماوس لاسلكي موثوق بسعر مناسب.",
     "shortDescription_zh": "99克，单节AA电池可续航250小时 — G305实现无线自由移动，绝不会在游戏关键时刻掉链子。HERO 12K传感器提供扎实的精准度，LIGHTSPEED连接响应无感知延迟。设计紧凑轻便，自带USB接收器，易于携带。多种颜色可选。一款价格合理的可靠无线鼠标。",
     "amazonUrl": "https://www.amazon.ca/dp/B086PDW7BB?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B086PDW7BB",
     "category": "souris",
     "image": "/images/products/logitech-g305-lightspeed.webp",
     "badge": "Deal du jour",
@@ -279,8 +276,8 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "raisonDesactivation": "indisponible",
-    "desactiveLe": "2026-04-28",
+    "raisonDesactivation": null,
+    "desactiveLe": null,
     "translationVerifiedLe": "2026-06-08"
   },
   {
@@ -305,7 +302,8 @@
     "title_zh": "Logitech G213 Prodigy — 薄膜游戏键盘",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B07QGHK6Q8"
   },
   {
     "slug": "8bitdo-ultimate-wireless-controller",
@@ -315,13 +313,12 @@
     "title_ar": "8BitDo Ultimate Wireless Controller",
     "title_zh": "8BitDo Ultimate Wireless Controller",
     "shortDescription": "Les joysticks à effet Hall, ça ne s'use pas et ça ne dérive pas — fini le stick drift qui ruine tes parties. Avec une réactivité quasi instantanée en 2,4 G, chaque mouvement est capté avec une précision chirurgicale. Les boutons supplémentaires L4/R4 se reprogramment à ton goût sans aucun logiciel, et elle passe sans friction entre Windows et Android. Une manette sérieuse à un prix qui l'est moins.",
-    "shortDescription_en": "Hall effect joysticks do not wear out or drift — no more stick drift ruining your games. With near-instant 2.40 G responsiveness, every movement is captured with surgical precision. The extra L4/R4 buttons can be reprogrammed to your liking without any software, and it switches seamlessly between Windows and Android. A serious controller at a less serious price.",
+    "shortDescription_en": "Hall effect joysticks do not wear out or drift — no more stick drift ruining your games. With near-instant 2.4 G responsiveness, every movement is captured with surgical precision. The extra L4/R4 buttons can be reprogrammed to your liking without any software, and it switches seamlessly between Windows and Android. A serious controller at a less serious price.",
     "shortDescription_es": "Los joysticks de efecto Hall no se desgastan ni tienen deriva — se acabó el stick drift que arruina tus partidas. Con una reactividad casi instantánea en 2,4 G, cada movimiento se captura con precisión quirúrgica. Los botones adicionales L4/R4 se pueden reprogramar a tu gusto sin necesidad de software, y cambia sin fricciones entre Windows y Android. Un mando serio a un precio menos serio.",
-    "shortDescription_ar": "عصي التحكم بتأثير هول لا تستهلك ولا تعاني من الانحراف — وداعاً لمشكلة انحراف العصا التي تفسد ألعابك. مع استجابة شبه فورية بتردد 2.40 G، يتم التقاط كل حركة بدقة جراحية. يمكن إعادة برمجة الأزرار الإضافية L4/R4 حسب رغبتك دون أي برنامج، وتنتقل بسلاسة بين Windows و Android. وحدة تحكم احترافية بسعر غير مكلف.",
-    "shortDescription_zh": "霍尔效应摇杆不会磨损也不会漂移 — 再也没有毁掉你游戏的摇杆漂移问题。凭借 2.40 G 的近乎瞬时的响应速度，每一个动作都能以手术级的精度被捕捉。额外的 L4/R4 按键无需任何软件即可根据你的喜好进行重新编程，并可在 Windows 和 Android 之间无缝切换。一款性能专业但价格亲民的手柄。",
+    "shortDescription_ar": "عصي التحكم بتأثير هول لا تستهلك ولا تعاني من الانحراف — وداعاً لمشكلة انحراف العصا التي تفسد ألعابك. مع استجابة شبه فورية بتردد 2.4 G، يتم التقاط كل حركة بدقة جراحية. يمكن إعادة برمجة الأزرار الإضافية L4/R4 حسب رغبتك دون أي برنامج، وتنتقل بسلاسة بين Windows و Android. وحدة تحكم احترافية بسعر غير مكلف.",
+    "shortDescription_zh": "霍尔效应摇杆不会磨损也不会漂移 — 再也没有毁掉你游戏的摇杆漂移问题。凭借 2.4 G 的近乎瞬时的响应速度，每一个动作都能以手术级的精度被捕捉。额外的 L4/R4 按键无需任何软件即可根据你的喜好进行重新编程，并可在 Windows 和 Android 之间无缝切换。一款性能专业但价格亲民的手柄。",
     "amazonUrl": "https://www.amazon.ca/dp/B0DNM3VGGG?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B0DNM3VGGG",
     "category": "manettes",
     "image": "/images/products/8bitdo-ultimate-wireless-controller.webp",
     "badge": "Aucun",
@@ -332,8 +329,8 @@
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-08",
-    "raisonDesactivation": "indisponible",
-    "desactiveLe": "2026-06-30"
+    "raisonDesactivation": null,
+    "desactiveLe": null
   },
   {
     "slug": "razer-gigantus-v2-mouse-pad-large",
@@ -357,12 +354,13 @@
     "title_zh": "Razer Gigantus V2 — 大尺寸游戏鼠标垫",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0885NTLKJ"
   },
   {
     "slug": "razer-firefly-v2-pro-tapis-de-souris",
     "title": "Razer Firefly V2 Pro — Tapis de souris gaming RGB",
-    "shortDescription": "Rétroéclairage LED de bord à bord sur 15 zones Chroma, surface micro-texturée calibrée pour tous les capteurs et port USB 2.00 intégré pour brancher ta souris sans fil directement sur le tapis — le Firefly V2 Pro est le tapis pour ceux qui veulent que leur bureau brille autant que leur setup. Le câble USB-C amovible facilite le rangement, et la base caoutchoutée tient en place même pendant les sessions intenses. Pour ceux qui veulent du RGB partout — y compris sous la souris.",
+    "shortDescription": "Rétroéclairage LED de bord à bord sur 15 zones Chroma, surface micro-texturée calibrée pour tous les capteurs et port USB 2.0 intégré pour brancher ta souris sans fil directement sur le tapis — le Firefly V2 Pro est le tapis pour ceux qui veulent que leur bureau brille autant que leur setup. Le câble USB-C amovible facilite le rangement, et la base caoutchoutée tient en place même pendant les sessions intenses. Pour ceux qui veulent du RGB partout — y compris sous la souris.",
     "amazonUrl": "https://www.amazon.ca/dp/B0CY6RJRBR?tag=prixmalin20-20",
     "category": "accessoires",
     "image": "/images/products/razer-firefly-v2-pro-tapis-de-souris.webp",
@@ -371,9 +369,9 @@
     "prix": "140.58",
     "prixBarre": null,
     "prixVerifieLe": "2026-11-17",
-    "shortDescription_en": "Edge-to-edge LED backlighting with 15 Chroma zones - micro-textured surface calibrated for all sensors - integrated USB 2.00 port to plug your wireless mouse directly into the pad - the Firefly V2 Pro is the pad for those who want their desk to shine as much as their setup. Removable USB-C cable makes storage easy, and the rubberized base stays in place even during intense sessions. For those who want RGB everywhere - including under the mouse.",
-    "shortDescription_es": "Retroiluminación LED de borde a borde con 15 zonas Chroma - superficie microtexturizada calibrada para todos los sensores - puerto USB 2.00 integrado para conectar tu ratón inalámbrico directamente al tapete - el Firefly V2 Pro es la alfombrilla para quienes quieren que su escritorio brille tanto como su setup. El cable USB-C extraíble facilita el almacenamiento y la base de goma se mantiene en su lugar incluso durante sesiones intensas. Para quienes quieren RGB por todas partes, incluso debajo del ratón.",
-    "shortDescription_ar": "إضاءة LED خلفية من الحافة إلى الحافة مع 15 منطقة Chroma - سطح ذو ملمس دقيق تمت معايرته لجميع المستشعرات - منفذ USB 2.00 مدمج لتوصيل الماوس اللاسلكي مباشرة بالبساط - Firefly V2 Pro هي البساط لمن يريدون أن يلمع مكتبهم بقدر لمعان إعداداتهم. كابل USB-C القابل للفصل يسهل التخزين، والقاعدة المطاطية تثبت في مكانها حتى أثناء الجلسات المكثفة. لأولئك الذين يريدون RGB في كل مكان - بما في ذلك أسفل الماوس.",
+    "shortDescription_en": "Edge-to-edge LED backlighting with 15 Chroma zones - micro-textured surface calibrated for all sensors - integrated USB 2.0 port to plug your wireless mouse directly into the pad - the Firefly V2 Pro is the pad for those who want their desk to shine as much as their setup. Removable USB-C cable makes storage easy, and the rubberized base stays in place even during intense sessions. For those who want RGB everywhere - including under the mouse.",
+    "shortDescription_es": "Retroiluminación LED de borde a borde con 15 zonas Chroma - superficie microtexturizada calibrada para todos los sensores - puerto USB 2.0 integrado para conectar tu ratón inalámbrico directamente al tapete - el Firefly V2 Pro es la alfombrilla para quienes quieren que su escritorio brille tanto como su setup. El cable USB-C extraíble facilita el almacenamiento y la base de goma se mantiene en su lugar incluso durante sesiones intensas. Para quienes quieren RGB por todas partes, incluso debajo del ratón.",
+    "shortDescription_ar": "إضاءة LED خلفية من الحافة إلى الحافة مع 15 منطقة Chroma - سطح ذو ملمس دقيق تمت معايرته لجميع المستشعرات - منفذ USB 2.0 مدمج لتوصيل الماوس اللاسلكي مباشرة بالبساط - Firefly V2 Pro هي البساط لمن يريدون أن يلمع مكتبهم بقدر لمعان إعداداتهم. كابل USB-C القابل للفصل يسهل التخزين، والقاعدة المطاطية تثبت في مكانها حتى أثناء الجلسات المكثفة. لأولئك الذين يريدون RGB في كل مكان - بما في ذلك أسفل الماوس.",
     "shortDescription_zh": "15区Chroma边缘到边缘LED背光 - 针对所有传感器校准的微纹理表面 - 内置USB 2.0端口，可将无线鼠标直接连接到垫子上 - Firefly V2 Pro是为那些希望桌面像其配置一样闪耀的人设计的鼠标垫。可拆卸的USB-C线缆便于收纳，橡胶底座即使在激烈游戏期间也能保持稳固。适合想要到处都有RGB效果的人——包括鼠标下方。",
     "title_en": "Razer Firefly V2 Pro — RGB gaming mouse pad",
     "title_es": "Razer Firefly V2 Pro — alfombrilla para ratón gaming RGB",
@@ -381,7 +379,8 @@
     "title_zh": "Razer Firefly V2 Pro — RGB游戏鼠标垫",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0CY6RJRBR"
   },
   {
     "slug": "microphone-razer-seiren-v3-chroma-rgb-usb",
@@ -396,7 +395,6 @@
     "shortDescription_ar": "مكثف فائق الاتجاهية، محدد كسب مدمج وإضاءة RGB متفاعلة مع الألعاب — Seiren V3 Chroma جاهز للبث بمجرد توصيله، دون الحاجة إلى برامج إلزامية. نمط الالتقاط الضيق يعزل صوتك ويتجاهل لوحة المفاتيح والماوس المحيطة. خاصية كتم الصوت باللمس تمنع الحوادث أثناء البث المباشر، ويقوم محدد الكسب بإدارة ذروات الصوت تلقائيًا. متوفر بعدة ألوان لتناسب إعدادك. توصيل وتشغيل مع Discord و OBS و XSplit.",
     "shortDescription_zh": "超心形电容麦克风、内置增益限制器和游戏响应式 RGB 灯效 — Seiren V3 Chroma 插上即可开始直播，无需强制安装软件。紧凑的拾音模式可隔离你的声音并忽略周围的键盘和鼠标。轻触静音功能可避免直播事故，增益限制器可自动处理音频峰值。提供多种颜色以匹配你的配置。即插即用，支持 Discord、OBS 和 XSplit。",
     "amazonUrl": "https://www.amazon.ca/dp/B0CTJ5F2FB?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0CTJ5F2FB?tag=prixmalin20-20",
     "asin": "B0CTJ5F2FB",
     "category": "audio",
     "image": "/images/products/microphone-razer-seiren-v3-chroma-rgb-usb.webp",
@@ -408,8 +406,8 @@
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-09",
-    "raisonDesactivation": "indisponible",
-    "desactiveLe": "2026-08-31"
+    "raisonDesactivation": null,
+    "desactiveLe": null
   },
   {
     "slug": "dowinx-chaise-de-jeu-et-bureau",
@@ -433,7 +431,8 @@
     "title_zh": "Dowinx — 带按摩腰部支撑的游戏椅",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B08C9W19YL"
   },
   {
     "slug": "chaise-de-jeu-avec-repose-pieds",
@@ -457,7 +456,8 @@
     "title_zh": "WOTSTA — 带脚托的游戏椅",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0C656RSNC"
   },
   {
     "slug": "chaise-de-bureau-mimoglad",
@@ -481,12 +481,13 @@
     "title_zh": "Mimoglad — 高背人体工学办公椅",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0DJS81LPB"
   },
   {
     "slug": "hyxn-atx-boitier",
     "title": "HYXN H2 Boîtier ATX Noir",
-    "shortDescription": "Un boîtier qui fait autant parler qu'il performe — le design double chambre sépare l'alimentation et le stockage du reste, pour un câblage propre et un airflow optimisé. Les 8 ventilateurs ARGB pré-installés (6 x 140 mm + 2 x 120 mm) donnent de la couleur sans effort supplémentaire. Support radiateur jusqu'à 420 mm pour un watercooling sérieux, USB-C 3.20 en façade. Blanc ou noir, il va faire jaser ton entourage.",
+    "shortDescription": "Un boîtier qui fait autant parler qu'il performe — le design double chambre sépare l'alimentation et le stockage du reste, pour un câblage propre et un airflow optimisé. Les 8 ventilateurs ARGB pré-installés (6 x 140 mm + 2 x 120 mm) donnent de la couleur sans effort supplémentaire. Support radiateur jusqu'à 420 mm pour un watercooling sérieux, USB-C 3.2 en façade. Blanc ou noir, il va faire jaser ton entourage.",
     "amazonUrl": "https://www.amazon.ca/dp/B0G3511PGL?tag=prixmalin20-20",
     "category": "boitiers",
     "image": "/images/products/hyxn-atx-boitier.webp",
@@ -495,17 +496,18 @@
     "prix": "179.99",
     "prixBarre": null,
     "prixVerifieLe": "2026-11-17",
-    "shortDescription_en": "A case that makes as much noise as it performs — the dual-chamber design separates the power supply and storage from the rest, for clean cabling and optimized airflow. The 8 pre-installed ARGB fans (6 x 140 mm + 2 x 120 mm) add color without extra effort. Radiator support up to 420 mm for serious water cooling, front-panel USB-C 3.20. Available in white or black, it will definitely turn heads.",
-    "shortDescription_es": "Una caja que destaca tanto por su diseño como por su rendimiento — el diseño de doble cámara separa la fuente de alimentación y el almacenamiento del resto, para un cableado limpio y un flujo de aire optimizado. Los 8 ventiladores ARGB preinstalados (6 x 140 mm + 2 x 120 mm) aportan color sin esfuerzo adicional. Soporte para radiador de hasta 420 mm para refrigeración líquida avanzada, USB-C 3.20 en el panel frontal. Blanco o negro, atraerá todas las miradas.",
-    "shortDescription_ar": "صندوق يجمع بين التصميم المبهر والأداء العالي — يفصل التصميم ذو الغرف المزدوجة مزود الطاقة ووحدات التخزين عن بقية المكونات، لضمان تنظيم الكابلات وتحسين تدفق الهواء. 8 مراوح ARGB مثبتة مسبقاً (6 × 140 مم + 2 × 120 مم) تضفي ألواناً دون جهد إضافي. يدعم مبردًا حتى 420 مم لتبريد مائي احترافي، ومنفذ USB-C 3.20 في المقدمة. متوفر باللونين الأبيض أو الأسود، وسيكون محط الأنظار بالتأكيد.",
-    "shortDescription_zh": "一款兼具颜值与性能的机箱 — 双舱设计将电源和存储空间与其余部分分离，实现整洁的走线和优化的风道。预装的 8 个 ARGB 风扇（6 x 140 mm + 2 x 120 mm）无需额外努力即可增添色彩。支持高达 420 mm 的散热器以实现强力水冷，前置 USB-C 3.20 接口。白色或黑色可选，定会让周围人侧目。",
+    "shortDescription_en": "A case that makes as much noise as it performs — the dual-chamber design separates the power supply and storage from the rest, for clean cabling and optimized airflow. The 8 pre-installed ARGB fans (6 x 140 mm + 2 x 120 mm) add color without extra effort. Radiator support up to 420 mm for serious water cooling, front-panel USB-C 3.2. Available in white or black, it will definitely turn heads.",
+    "shortDescription_es": "Una caja que destaca tanto por su diseño como por su rendimiento — el diseño de doble cámara separa la fuente de alimentación y el almacenamiento del resto, para un cableado limpio y un flujo de aire optimizado. Los 8 ventiladores ARGB preinstalados (6 x 140 mm + 2 x 120 mm) aportan color sin esfuerzo adicional. Soporte para radiador de hasta 420 mm para refrigeración líquida avanzada, USB-C 3.2 en el panel frontal. Blanco o negro, atraerá todas las miradas.",
+    "shortDescription_ar": "صندوق يجمع بين التصميم المبهر والأداء العالي — يفصل التصميم ذو الغرف المزدوجة مزود الطاقة ووحدات التخزين عن بقية المكونات، لضمان تنظيم الكابلات وتحسين تدفق الهواء. 8 مراوح ARGB مثبتة مسبقاً (6 × 140 مم + 2 × 120 مم) تضفي ألواناً دون جهد إضافي. يدعم مبردًا حتى 420 مم لتبريد مائي احترافي، ومنفذ USB-C 3.2 في المقدمة. متوفر باللونين الأبيض أو الأسود، وسيكون محط الأنظار بالتأكيد.",
+    "shortDescription_zh": "一款兼具颜值与性能的机箱 — 双舱设计将电源和存储空间与其余部分分离，实现整洁的走线和优化的风道。预装的 8 个 ARGB 风扇（6 x 140 mm + 2 x 120 mm）无需额外努力即可增添色彩。支持高达 420 mm 的散热器以实现强力水冷，前置 USB-C 3.2 接口。白色或黑色可选，定会让周围人侧目。",
     "title_en": "HYXN H2 ATX Case Black",
     "title_es": "Caja HYXN H2 ATX Negra",
     "title_ar": "صندوق HYXN H2 ATX أسود",
     "title_zh": "HYXN H2 ATX 机箱 黑色",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-08"
+    "translationVerifiedLe": "2026-06-08",
+    "asin": "B0G3511PGL"
   },
   {
     "slug": "support-de-tour-d-ordinateur",
@@ -519,17 +521,18 @@
     "prix": "17.99",
     "prixBarre": null,
     "prixVerifieLe": "2026-11-17",
-    "shortDescription_en": "Adjustable in width from 9 to 14.50 inches and in length from 17 to 22.50 inches — this stand fits most desktop towers. The 4 universal casters allow the PC to be moved easily for cleaning or repositioning, and the open bottom maintains good airflow while keeping the tower off the floor. Sturdy steel and ABS, supports up to 60 lb, no tools required for assembly. A small, practical purchase that changes daily life.",
+    "shortDescription_en": "Adjustable in width from 9 to 14.5 inches and in length from 17 to 22.5 inches — this stand fits most desktop towers. The 4 universal casters allow the PC to be moved easily for cleaning or repositioning, and the open bottom maintains good airflow while keeping the tower off the floor. Sturdy steel and ABS, supports up to 60 lb, no tools required for assembly. A small, practical purchase that changes daily life.",
     "shortDescription_es": "Ajustable en anchura de 9 a 14,5 pulgadas y en longitud de 17 a 22,5 pulgadas — este soporte se adapta a la mayoría de las torres de escritorio. Las 4 ruedas universales permiten mover el PC fácilmente para la limpieza o el reposicionamiento, y el fondo abierto mantiene una buena circulación de aire mientras mantiene la torre fuera del suelo. Acero y ABS resistentes, soporta hasta 60 lb, no requiere herramientas para el montaje. Una pequeña compra práctica que cambia la vida cotidiana.",
-    "shortDescription_ar": "قابل للتعديل في العرض من 9 إلى 14.50 بوصة وفي الطول من 17 إلى 22.50 بوصة - يتناسب هذا الحامل مع معظم أبراج الكمبيوتر المكتبية. تسمح العجلات الأربع الشاملة بنقل الـ PC بسهولة للتنظيف أو إعادة التموضع، ويحافظ التصميم المفتوح من الأسفل على تدفق جيد للهواء مع إبقاء البرج بعيدًا عن الأرض. مصنوع من الفولاذ وABS المتين، يتحمل ما يصل إلى 60 lb، ولا يتطلب أدوات للتجميع. شراء صغير وعملي يغير الحياة اليومية.",
-    "shortDescription_zh": "宽度可在 9 至 14.50 英寸之间调节，长度可在 17 至 22.50 英寸之间调节 — 此支架适用于大多数台式机机箱。4 个万向轮可方便地移动 PC 进行清洁或重新定位，开放式底部在保持机箱远离地面时确保良好的空气流通。坚固的钢材和 ABS 材质，承重高达 60 lb，组装无需工具。一个改变日常生活的实用小物件。",
+    "shortDescription_ar": "قابل للتعديل في العرض من 9 إلى 14.5 بوصة وفي الطول من 17 إلى 22.5 بوصة - يتناسب هذا الحامل مع معظم أبراج الكمبيوتر المكتبية. تسمح العجلات الأربع الشاملة بنقل الـ PC بسهولة للتنظيف أو إعادة التموضع، ويحافظ التصميم المفتوح من الأسفل على تدفق جيد للهواء مع إبقاء البرج بعيدًا عن الأرض. مصنوع من الفولاذ وABS المتين، يتحمل ما يصل إلى 60 lb، ولا يتطلب أدوات للتجميع. شراء صغير وعملي يغير الحياة اليومية.",
+    "shortDescription_zh": "宽度可在 9 至 14.5 英寸之间调节，长度可在 17 至 22.5 英寸之间调节 — 此支架适用于大多数台式机机箱。4 个万向轮可方便地移动 PC 进行清洁或重新定位，开放式底部在保持机箱远离地面时确保良好的空气流通。坚固的钢材和 ABS 材质，承重高达 60 lb，组装无需工具。一个改变日常生活的实用小物件。",
     "title_en": "Hmseng — Rolling stand for computer tower",
     "title_es": "Hmseng — Soporte con ruedas para torre de ordenador",
     "title_ar": "Hmseng — حامل بعجلات لصندوق الكمبيوتر",
     "title_zh": "Hmseng — 电脑主机滚轮支架",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B08R1HKL16"
   },
   {
     "slug": "corsair-3500x-lx-r",
@@ -553,7 +556,8 @@
     "title_zh": "Corsair 3500X LX-R ATX 中塔机箱",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-08"
+    "translationVerifiedLe": "2026-06-08",
+    "asin": "B0FJ2V6VVP"
   },
   {
     "slug": "z-edge",
@@ -577,7 +581,8 @@
     "title_zh": "Z-Edge 27英寸曲面游戏显示器",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-08"
+    "translationVerifiedLe": "2026-06-08",
+    "asin": "B0DZLZX1GL"
   },
   {
     "slug": "asus-tuf-gaming-31-5",
@@ -587,13 +592,12 @@
     "title_ar": "ASUS TUF Gaming 31,5’’ ",
     "title_zh": "ASUS TUF Gaming 31,5’’ ",
     "shortDescription": "Un écran incurvé de 31,5 pouces qui t'enveloppe dans l'action — la dalle QHD 1500R avec ses 180 Hz et son temps de réponse de 0,5 ms élimine tout flou de mouvement, même dans les scènes les plus intenses. Shadow Boost révèle les détails cachés dans les zones sombres sans surexposer le reste — un avantage réel autant en jeu qu'au bureau. FreeSync Premium intégré, une image sans accroc. Trois ans de garantie inclus.",
-    "shortDescription_en": "gaming monitor curved 31.50 in QHD 1440P, 180Hz, 0.5ms, HDR, FreeSync, curvature 1500R, ideal for competitive gaming and creative. Garantie 3 ans.",
+    "shortDescription_en": "gaming monitor curved 31.5 in QHD 1440P, 180Hz, 0.5ms, HDR, FreeSync, curvature 1500R, ideal for competitive gaming and creative. Garantie 3 ans.",
     "shortDescription_es": "monitor gaming curvo 31,5 pulg QHD 1440P, 180Hz, 0,5ms, HDR, FreeSync, curvatura 1500R, ideal para gaming competitivo y creativo. Garantie 3 ans.",
-    "shortDescription_ar": "شاشة ألعاب منحني 31.50 بوصة QHD 1440P, 180Hz, 0.50 مللي ثانية, HDR, FreeSync, انحناء 1500R, مثالي للألعاب التنافسية والإبداعي. Garantie 3 ans.",
+    "shortDescription_ar": "شاشة ألعاب منحني 31.5 بوصة QHD 1440P, 180Hz, 0.5 مللي ثانية, HDR, FreeSync, انحناء 1500R, مثالي للألعاب التنافسية والإبداعي. Garantie 3 ans.",
     "shortDescription_zh": "游戏显示器 曲面 31.5英寸 QHD 1440P, 180Hz, 0.5毫秒, HDR, FreeSync, 曲率 1500R, 适合竞技游戏 和创意. Garantie 3 ans.",
     "amazonUrl": "https://www.amazon.ca/dp/B0DQ9MMZVV?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B0DQ9MMZVV",
     "category": "ecrans",
     "image": "/images/products/asus-tuf-gaming-31-5.webp",
     "badge": "Deal du jour",
@@ -603,8 +607,8 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "raisonDesactivation": "indisponible",
-    "desactiveLe": "2026-11-03"
+    "raisonDesactivation": null,
+    "desactiveLe": null
   },
   {
     "slug": "samsung-odyssey-g5",
@@ -619,8 +623,7 @@
     "shortDescription_ar": "شاشة منحنية 1000R تغمرك حقاً في اللعبة — الانحناء الأكثر وضوحاً يملأ مجال رؤيتك بشكل طبيعي دون إجهاد. لوحة QHD بتردد 165 هرتز مع زمن استجابة 1 مللي ثانية تحافظ على وضوح الصور حتى في أسرع لحظات الحركة. وضع Eye Saver يقلل الضوء الأزرق لجلسات اللعب الطويلة دون إجهاد العين. تقنية FreeSync مدمجة، لصورة سلسة من البداية إلى النهاية.",
     "shortDescription_zh": "一款让你身临其境的 1000R 曲面显示器 — 更明显的弧度自然地填满你的视野，无需费力。165 Hz QHD 面板配合 1 ms 响应时间，即使在最激烈的动作中也能保持画面清晰。Eye Saver 模式可减少蓝光，让长时间游戏也不易造成眼睛疲劳。内置 FreeSync，带来从头到尾流畅无阻的画面体验。",
     "amazonUrl": "https://www.amazon.ca/dp/B0CRGR6KLN?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B0CRGR6KLN",
     "category": "ecrans",
     "image": "/images/products/samsung-odyssey-g5.webp",
     "badge": "Aucun",
@@ -656,7 +659,8 @@
     "title_zh": "Razer Seiren V3 Mini — 便携式 USB 麦克风",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0CT6DFXRH"
   },
   {
     "slug": "kediers-boitier-d-ordinateur-atx-midium-tower",
@@ -665,14 +669,13 @@
     "title_es": "Caja ATX Mid Tower KEDIERS H9",
     "title_ar": "صندوق KEDIERS H9 ATX Mid Tower",
     "title_zh": "KEDIERS H9 ATX 中塔机箱",
-    "shortDescription": "Tout en verre trempé double face, le H9 met ton attiraille en valeur sous tous les angles. La double chambre sépare l'alimentation du reste pour un câblage propre et un airflow efficace. Les 8 ventilateurs ARGB PWM pré-installés sont prêts à tourner dès le premier démarrage. Support radiateur jusqu'à 420 mm, gestion des câbles avec sangles Velcro intégrées et USB-C 3.20 en façade. Disponible en plusieurs couleurs pour matcher ton setup.",
-    "shortDescription_en": "Featuring dual-sided tempered glass, the H9 showcases your components from every angle. The dual-chamber design separates the PSU from the rest for clean cabling and efficient airflow. 8 pre-installed ARGB PWM fans are ready to run right out of the box. Supports up to 420 mm radiators, integrated Velcro strap cable management, and front-panel USB-C 3.20. Available in multiple colors to match your setup.",
-    "shortDescription_es": "Con doble panel de vidrio templado, el H9 destaca tus componentes desde todos los ángulos. La doble cámara separa la fuente de alimentación del resto para un cableado limpio y un flujo de aire eficiente. Los 8 ventiladores ARGB PWM preinstalados están listos para funcionar desde el primer momento. Soporta radiadores de hasta 420 mm, gestión de cables con correas Velcro integradas y USB-C 3.20 en el panel frontal. Disponible en varios colores para combinar con tu setup.",
-    "shortDescription_ar": "يتميز H9 بزجاج مقسى مزدوج الجوانب، مما يبرز مكوناتك من جميع الزوايا. يفصل التصميم ثنائي الغرف وحدة إمداد الطاقة عن البقية لضمان كابلات نظيفة وتدفق هواء فعال. 8 مراوح ARGB PWM مثبتة مسبقاً وجاهزة للعمل فور التشغيل. يدعم المبردات حتى 420 مم، مع إدارة الكابلات باستخدام أربطة Velcro مدمجة ومنفذ USB-C 3.20 في اللوحة الأمامية. متوفر بألوان متعددة لتناسب إعدادك.",
+    "shortDescription": "Tout en verre trempé double face, le H9 met ton attiraille en valeur sous tous les angles. La double chambre sépare l'alimentation du reste pour un câblage propre et un airflow efficace. Les 8 ventilateurs ARGB PWM pré-installés sont prêts à tourner dès le premier démarrage. Support radiateur jusqu'à 420 mm, gestion des câbles avec sangles Velcro intégrées et USB-C 3.2 en façade. Disponible en plusieurs couleurs pour matcher ton setup.",
+    "shortDescription_en": "Featuring dual-sided tempered glass, the H9 showcases your components from every angle. The dual-chamber design separates the PSU from the rest for clean cabling and efficient airflow. 8 pre-installed ARGB PWM fans are ready to run right out of the box. Supports up to 420 mm radiators, integrated Velcro strap cable management, and front-panel USB-C 3.2. Available in multiple colors to match your setup.",
+    "shortDescription_es": "Con doble panel de vidrio templado, el H9 destaca tus componentes desde todos los ángulos. La doble cámara separa la fuente de alimentación del resto para un cableado limpio y un flujo de aire eficiente. Los 8 ventiladores ARGB PWM preinstalados están listos para funcionar desde el primer momento. Soporta radiadores de hasta 420 mm, gestión de cables con correas Velcro integradas y USB-C 3.2 en el panel frontal. Disponible en varios colores para combinar con tu setup.",
+    "shortDescription_ar": "يتميز H9 بزجاج مقسى مزدوج الجوانب، مما يبرز مكوناتك من جميع الزوايا. يفصل التصميم ثنائي الغرف وحدة إمداد الطاقة عن البقية لضمان كابلات نظيفة وتدفق هواء فعال. 8 مراوح ARGB PWM مثبتة مسبقاً وجاهزة للعمل فور التشغيل. يدعم المبردات حتى 420 مم، مع إدارة الكابلات باستخدام أربطة Velcro مدمجة ومنفذ USB-C 3.2 في اللوحة الأمامية. متوفر بألوان متعددة لتناسب إعدادك.",
     "shortDescription_zh": "H9采用双面钢化玻璃设计，从各个角度完美展示您的硬件。双舱设计将电源与其余部件分离，实现整洁的走线和高效的气流。预装的8个ARGB PWM风扇开箱即用。支持高达420 mm的冷排，配备内置魔术贴扎带的理线系统，以及前置USB-C 3.2接口。提供多种颜色选择，完美匹配您的配置。",
     "amazonUrl": "https://www.amazon.ca/dp/B0FGJ4CKHJ?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B0FGJ4CKHJ",
     "category": "boitiers",
     "image": "/images/products/kediers-boitier-d-ordinateur-atx-midium-tower.webp",
     "badge": "Aucun",
@@ -690,10 +693,10 @@
     "slug": "emeet-pixy-camera-ptz",
     "title": "EMEET PIXY — Webcam 4K double caméra IA",
     "shortDescription": "Double objectif 4K, suivi IA fluide à 3 pieds, autofocus PDAF en 0,2 seconde et 3 micros intégrés — la PIXY fait le travail d'un caméraman sans que t'aies à t'en occuper. La caméra PTZ pivote automatiquement pour garder les sujets dans le cadre, le mode tableau blanc détecte et redresse automatiquement, et le contrôle gestuel active le zoom d'une simple paume. Compatible OBS, Teams, Discord, Zoom et XSplit, plug and play sans logiciel supplémentaire. Pour les créateurs et les professionnels qui veulent une image soignée sans équipe technique.",
-    "shortDescription_en": "Dual 4K lens, smooth AI tracking at 3 feet, 0.20-second PDAF autofocus, and 3 built-in mics — the PIXY does the cameraman's job so you don't have to. The PTZ camera automatically pans to keep subjects in frame, whiteboard mode detects and straightens automatically, and gesture control activates zoom with a simple palm. Compatible with OBS, Teams, Discord, Zoom, and XSplit, plug and play without additional software. For creators and professionals who want a polished image without a technical crew.",
+    "shortDescription_en": "Dual 4K lens, smooth AI tracking at 3 feet, 0.2-second PDAF autofocus, and 3 built-in mics — the PIXY does the cameraman's job so you don't have to. The PTZ camera automatically pans to keep subjects in frame, whiteboard mode detects and straightens automatically, and gesture control activates zoom with a simple palm. Compatible with OBS, Teams, Discord, Zoom, and XSplit, plug and play without additional software. For creators and professionals who want a polished image without a technical crew.",
     "shortDescription_es": "Doble lente 4K, seguimiento por IA fluido a 3 pies, enfoque automático PDAF en 0,2 segundos y 3 micrófonos integrados — la PIXY hace el trabajo de un camarógrafo sin que tengas que preocuparte. La cámara PTZ gira automáticamente para mantener a los sujetos en el encuadre, el modo pizarra detecta y endereza automáticamente, y el control gestual activa el zoom con una simple palma. Compatible con OBS, Teams, Discord, Zoom y XSplit, plug and play sin software adicional. Para creadores y profesionales que buscan una imagen impecable sin un equipo técnico.",
-    "shortDescription_ar": "عدسة مزدوجة 4K، تتبع ذكي سلس على مسافة 3 أقدام، تركيز تلقائي PDAF في 0.20 ثانية و3 ميكروفونات مدمجة — تقوم PIXY بعمل المصور دون أن تضطر للقيام بذلك. تدور كاميرا PTZ تلقائياً لإبقاء الأشخاص داخل الإطار، ويقوم وضع السبورة بالكشف والتعديل تلقائياً، كما يتيح التحكم بالإيماءات تفعيل الزوم براحة اليد فقط. متوافقة مع OBS وTeams وDiscord وZoom وXSplit، تعمل بنظام plug and play دون الحاجة لبرامج إضافية. للمبدعين والمحترفين الذين يريدون صورة احترافية دون الحاجة لفريق تقني.",
-    "shortDescription_zh": "双 4K 镜头，3 英尺流畅 AI 追踪，0.20 秒 PDAF 自动对焦及 3 个内置麦克风 — PIXY 能像摄像师一样完成工作，让你无需操心。PTZ 摄像头可自动旋转以确保主体保持在画面内，白板模式可自动检测并校正，手势控制可通过简单的手掌动作激活变焦。兼容 OBS、Teams、Discord、Zoom 和 XSplit，即插即用，无需额外软件。专为追求专业画质且无需技术团队的创作者和专业人士打造。",
+    "shortDescription_ar": "عدسة مزدوجة 4K، تتبع ذكي سلس على مسافة 3 أقدام، تركيز تلقائي PDAF في 0.2 ثانية و3 ميكروفونات مدمجة — تقوم PIXY بعمل المصور دون أن تضطر للقيام بذلك. تدور كاميرا PTZ تلقائياً لإبقاء الأشخاص داخل الإطار، ويقوم وضع السبورة بالكشف والتعديل تلقائياً، كما يتيح التحكم بالإيماءات تفعيل الزوم براحة اليد فقط. متوافقة مع OBS وTeams وDiscord وZoom وXSplit، تعمل بنظام plug and play دون الحاجة لبرامج إضافية. للمبدعين والمحترفين الذين يريدون صورة احترافية دون الحاجة لفريق تقني.",
+    "shortDescription_zh": "双 4K 镜头，3 英尺流畅 AI 追踪，0.2 秒 PDAF 自动对焦及 3 个内置麦克风 — PIXY 能像摄像师一样完成工作，让你无需操心。PTZ 摄像头可自动旋转以确保主体保持在画面内，白板模式可自动检测并校正，手势控制可通过简单的手掌动作激活变焦。兼容 OBS、Teams、Discord、Zoom 和 XSplit，即插即用，无需额外软件。专为追求专业画质且无需技术团队的创作者和专业人士打造。",
     "amazonUrl": "https://www.amazon.ca/dp/B06X99NFRS?tag=prixmalin20-20",
     "category": "video",
     "image": "/images/products/emeet-pixy-camera-ptz.webp",
@@ -708,16 +711,17 @@
     "title_zh": "EMEET PIXY — 4K 双 AI 摄像头网络摄像头",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B06X99NFRS"
   },
   {
     "slug": "elgato-facecam-mk-2",
     "title": "Elgato Facecam MK.2 — Webcam Full HD premium",
-    "shortDescription": "Capteur Sony, ouverture f/2.80, HDR activé et contrôle PTZ via Camera Hub — la Facecam MK.2 capture des images nettes et naturelles même en faible luminosité, là où les autres webcams peinent. Les options de personnalisation de l'image rivalisent avec les appareils photo reflex, et le volet coulissant intégré couvre l'objectif d'une main pour ta vie privée. Compatible OBS, Zoom, Teams et plus. Pour les créateurs qui veulent une image professionnelle sans investir dans un vrai appareil photo.",
-    "shortDescription_en": "Sony sensor, f/2.80 aperture, HDR enabled and PTZ control via Camera Hub — the Facecam MK.2 captures sharp and natural images even in low light, where other webcams struggle. Image customization options rival DSLR cameras, and the integrated sliding shutter covers the lens with one hand for your privacy. Compatible with OBS, Zoom, Teams and more. For creators who want a professional image without investing in a real camera.",
-    "shortDescription_es": "Sensor Sony, apertura f/2.80, HDR activado y control PTZ mediante Camera Hub — la Facecam MK.2 captura imágenes nítidas y naturales incluso con poca luz, donde otras webcams tienen dificultades. Las opciones de personalización de imagen compiten con las cámaras réflex, y la tapa deslizante integrada cubre el objetivo con una mano para tu privacidad. Compatible con OBS, Zoom, Teams y más. Para creadores que desean una imagen profesional sin invertir en una cámara real.",
-    "shortDescription_ar": "مستشعر Sony، فتحة عدسة f/2.80، تقنية HDR مفعلة وتحكم PTZ عبر Camera Hub — تلتقط Facecam MK.2 صورًا حادة وطبيعية حتى في الإضاءة المنخفضة، حيث تعاني كاميرات الويب الأخرى. تضاهي خيارات تخصيص الصورة الكاميرات الاحترافية DSLR، ويغطي الغالق المنزلق المدمج العدسة بيد واحدة لخصوصيتك. متوافقة مع OBS وZoom وTeams والمزيد. للمبدعين الذين يريدون صورة احترافية دون الاستثمار في كاميرا حقيقية.",
-    "shortDescription_zh": "索尼传感器，f/2.80 光圈，启用 HDR 并通过 Camera Hub 进行 PTZ 控制 — Facecam MK.2 即使在低光照环境下也能捕捉清晰自然的图像，而其他网络摄像头则难以应对。图像自定义选项可媲美单反相机，内置滑动遮盖盖板可用单手覆盖镜头以保护隐私。兼容 OBS、Zoom、Teams 等。专为想要获得专业图像效果而无需投资真实相机的创作者打造。",
+    "shortDescription": "Capteur Sony, ouverture f/2.8, HDR activé et contrôle PTZ via Camera Hub — la Facecam MK.2 capture des images nettes et naturelles même en faible luminosité, là où les autres webcams peinent. Les options de personnalisation de l'image rivalisent avec les appareils photo reflex, et le volet coulissant intégré couvre l'objectif d'une main pour ta vie privée. Compatible OBS, Zoom, Teams et plus. Pour les créateurs qui veulent une image professionnelle sans investir dans un vrai appareil photo.",
+    "shortDescription_en": "Sony sensor, f/2.8 aperture, HDR enabled and PTZ control via Camera Hub — the Facecam MK.2 captures sharp and natural images even in low light, where other webcams struggle. Image customization options rival DSLR cameras, and the integrated sliding shutter covers the lens with one hand for your privacy. Compatible with OBS, Zoom, Teams and more. For creators who want a professional image without investing in a real camera.",
+    "shortDescription_es": "Sensor Sony, apertura f/2.8, HDR activado y control PTZ mediante Camera Hub — la Facecam MK.2 captura imágenes nítidas y naturales incluso con poca luz, donde otras webcams tienen dificultades. Las opciones de personalización de imagen compiten con las cámaras réflex, y la tapa deslizante integrada cubre el objetivo con una mano para tu privacidad. Compatible con OBS, Zoom, Teams y más. Para creadores que desean una imagen profesional sin invertir en una cámara real.",
+    "shortDescription_ar": "مستشعر Sony، فتحة عدسة f/2.8، تقنية HDR مفعلة وتحكم PTZ عبر Camera Hub — تلتقط Facecam MK.2 صورًا حادة وطبيعية حتى في الإضاءة المنخفضة، حيث تعاني كاميرات الويب الأخرى. تضاهي خيارات تخصيص الصورة الكاميرات الاحترافية DSLR، ويغطي الغالق المنزلق المدمج العدسة بيد واحدة لخصوصيتك. متوافقة مع OBS وZoom وTeams والمزيد. للمبدعين الذين يريدون صورة احترافية دون الاستثمار في كاميرا حقيقية.",
+    "shortDescription_zh": "索尼传感器，f/2.8 光圈，启用 HDR 并通过 Camera Hub 进行 PTZ 控制 — Facecam MK.2 即使在低光照环境下也能捕捉清晰自然的图像，而其他网络摄像头则难以应对。图像自定义选项可媲美单反相机，内置滑动遮盖盖板可用单手覆盖镜头以保护隐私。兼容 OBS、Zoom、Teams 等。专为想要获得专业图像效果而无需投资真实相机的创作者打造。",
     "amazonUrl": "https://www.amazon.ca/dp/B0CW1S7XP5?tag=prixmalin20-20",
     "category": "video",
     "image": "/images/products/elgato-facecam-mk-2.webp",
@@ -732,7 +736,8 @@
     "title_zh": "Elgato Facecam MK.2 — 高端 Full HD 网络摄像头",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0CW1S7XP5"
   },
   {
     "slug": "manette-ps4-sans-fil-rgb",
@@ -742,10 +747,10 @@
     "title_es": "CHENGDAO — Mando inalámbrico para PS4",
     "title_ar": "CHENGDAO — وحدة تحكم لاسلكية لجهاز PS4",
     "title_zh": "CHENGDAO — PS4 无线手柄",
-    "shortDescription_en": "Compatible PS4, PS4 Pro, PS4 Slim, PC, iOS and Android — this wireless controller covers a lot of ground at a low price. The 1000 mAh battery lasts 8 to 12 hours, dual vibration and 6-axis sensor are included, and the 3.50 mm jack allows for direct headset connection. RGB lighting with 5 modes adds personality to your setup. USB charging cable included. An affordable option that gets the job done without any hassle.",
+    "shortDescription_en": "Compatible PS4, PS4 Pro, PS4 Slim, PC, iOS and Android — this wireless controller covers a lot of ground at a low price. The 1000 mAh battery lasts 8 to 12 hours, dual vibration and 6-axis sensor are included, and the 3.5 mm jack allows for direct headset connection. RGB lighting with 5 modes adds personality to your setup. USB charging cable included. An affordable option that gets the job done without any hassle.",
     "shortDescription_es": "Compatible con PS4, PS4 Pro, PS4 Slim, PC, iOS y Android — este mando inalámbrico ofrece mucho por un precio bajo. La batería de 1000 mAh dura entre 8 y 12 horas, incluye doble vibración y sensor de 6 ejes, y el conector de 3,5 mm permite conectar auriculares directamente. La iluminación RGB con 5 modos añade personalidad a tu setup. Cable de carga USB incluido. Una opción económica que cumple su función sin complicaciones.",
-    "shortDescription_ar": "متوافق مع PS4 و PS4 Pro و PS4 Slim و PC و iOS و Android — توفر وحدة التحكم اللاسلكية هذه الكثير من الميزات بسعر منخفض. تدوم البطارية سعة 1000 مللي أمبير لمدة تتراوح بين 8 إلى 12 ساعة، وتتضمن الاهتزاز المزدوج ومستشعر 6 محاور، كما يتيح منفذ 3.50 مم توصيل سماعة الرأس مباشرة. تضيف إضاءة RGB مع 5 أنماط لمسة شخصية على إعدادك. كابل شحن USB متضمن. خيار ميسور التكلفة يؤدي المهمة دون تعقيد.",
-    "shortDescription_zh": "兼容 PS4, PS4 Pro, PS4 Slim, PC, iOS 和 Android — 这款无线手柄以低廉的价格提供了丰富的功能。1000 mAh 电池续航 8 至 12 小时，配备双重振动和六轴传感器，3.50 mm 插孔可直接连接耳机。具有 5 种模式的 RGB 灯效为您的配置增添个性。包含 USB 充电线。一个无需复杂操作即可满足需求的实惠选择。",
+    "shortDescription_ar": "متوافق مع PS4 و PS4 Pro و PS4 Slim و PC و iOS و Android — توفر وحدة التحكم اللاسلكية هذه الكثير من الميزات بسعر منخفض. تدوم البطارية سعة 1000 مللي أمبير لمدة تتراوح بين 8 إلى 12 ساعة، وتتضمن الاهتزاز المزدوج ومستشعر 6 محاور، كما يتيح منفذ 3.5 مم توصيل سماعة الرأس مباشرة. تضيف إضاءة RGB مع 5 أنماط لمسة شخصية على إعدادك. كابل شحن USB متضمن. خيار ميسور التكلفة يؤدي المهمة دون تعقيد.",
+    "shortDescription_zh": "兼容 PS4, PS4 Pro, PS4 Slim, PC, iOS 和 Android — 这款无线手柄以低廉的价格提供了丰富的功能。1000 mAh 电池续航 8 至 12 小时，配备双重振动和六轴传感器，3.5 mm 插孔可直接连接耳机。具有 5 种模式的 RGB 灯效为您的配置增添个性。包含 USB 充电线。一个无需复杂操作即可满足需求的实惠选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0CPSF6X3F?tag=prixmalin20-20",
     "category": "manettes",
     "image": "/images/products/manette-ps4-sans-fil-rgb.webp",
@@ -756,7 +761,8 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0CPSF6X3F"
   },
   {
     "slug": "nintendo-switch-pro-controller",
@@ -780,7 +786,8 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B01NAWKYZ0"
   },
   {
     "slug": "nintendo-switch-2-pro-controller",
@@ -795,7 +802,6 @@
     "shortDescription_ar": "وحدة تحكم Pro Controller لجهاز Switch 2 — نفس التصميم المريح الذي نعرفه، محسّن لجهاز الكونسول الجديد. منتج رسمي من Nintendo، مصمم لتحقيق أقصى استفادة من Switch 2 في وضعي التلفزيون والمحمول. متوفر بالإصدار القياسي والإصدار الخاص. الترقية الطبيعية لأولئك الذين ينتقلون إلى Switch 2.",
     "shortDescription_zh": "Switch 2 Pro Controller — 延续了广为人知的舒适人体工程学设计，并针对新主机进行了优化。任天堂官方产品，旨在让 Switch 2 在电视模式和掌机模式下都能发挥最佳性能。提供标准版和特别版。是转向 Switch 2 用户的自然升级选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0F3VTFD6J?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0F3VTFD6J?tag=prixmalin20-20",
     "asin": "B0F3VTFD6J",
     "category": "manettes",
     "image": "/images/products/nintendo-switch-2-pro-controller.webp",
@@ -830,7 +836,8 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0FH9NVHD3"
   },
   {
     "slug": "playvital-coque-silicone-switch-pro",
@@ -854,7 +861,8 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0BS8ZRBB8"
   },
   {
     "slug": "logitech-g915-tkl-sans-fil-rgb",
@@ -869,8 +877,7 @@
     "shortDescription_ar": "تصميم نحيف للغاية، هيكل من الألومنيوم المستخدم في الطيران واتصال مزدوج لاسلكي LIGHTSPEED شبه معدوم التأخير + Bluetooth — يعد G915 TKL الأفضل في فئة لوحات مفاتيح الألعاب اللاسلكية. توفر مفاتيح GL الميكانيكية ذات التصميم النحيف شعوراً دقيقاً بنصف ارتفاع المفاتيح التقليدية، وتدوم البطارية لمدة 40 ساعة بشحنة واحدة. تكتمل الحزمة الفاخرة بدون تنازلات بعجلة تحكم في الصوت بدون حواف ومفاتيح وسائط مخصصة. متوفر بـ 3 أنواع من المفاتيح حسب تفضيلك. لوحة المفاتيح لمن يرفضون الاختيار بين الأداء والأناقة.",
     "shortDescription_zh": "超薄设计，航空级铝制外壳以及近乎零延迟的 LIGHTSPEED 无线 + 蓝牙双重连接 — G915 TKL 是无线游戏键盘中的佼佼者。低剖面 GL 机械轴提供精准的手感，高度仅为传统轴体的一半，续航时间单次充电可达 40 小时。无边框音量滚轮和专用多媒体键打造出毫不妥协的高端配置。可根据您的喜好选择 3 种类型的轴体。这款键盘专为拒绝在性能与优雅之间做选择的人士打造。",
     "amazonUrl": "https://www.amazon.ca/dp/B0DB1X3LLT?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B0DB1X3LLT",
     "category": "claviers",
     "image": "/images/products/logitech-g915-tkl-sans-fil-rgb.webp",
     "badge": "Deal du jour",
@@ -897,7 +904,6 @@
     "shortDescription_ar": "مفاتيح Green ميكانيكية لمسية وصوتية، لوحة علوية معدنية من الدرجة العسكرية وضمان 80 مليون نقرة — تم تصميم BlackWidow V3 TKL ليدوم طويلاً. يوفر تنسيق TKL مساحة للفأرة، وتسمح ماكرو Razer Hypershift بإعادة برمجة كل مفتاح، وتتزامن إضاءة Chroma RGB مع الألعاب والمعدات المتوافقة. متوفر بمفاتيح Green لمسية أو Yellow صامتة حسب تفضيلك. لوحة مفاتيح ميكانيكية جادة لأولئك الذين يحبون الشعور بكل نقرة وسماعها.",
     "shortDescription_zh": "触感清晰且有声响的 Green 机械轴，军用级金属顶板，并保证 8000 万次按键寿命 — BlackWidow V3 TKL 专为持久耐用而打造。TKL 布局为鼠标腾出了更多空间，Razer Hypershift 宏允许你重新编程每个按键，Chroma RGB 灯效可与兼容的游戏和设备同步。根据你的喜好，可选触感型的 Green 轴或静音型的 Yellow 轴。专为喜爱感受并聆听每一次敲击的玩家打造的硬核机械键盘。",
     "amazonUrl": "https://www.amazon.ca/dp/B08D68NP7G?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B08D68NP7G?tag=prixmalin20-20",
     "asin": "B08D68NP7G",
     "category": "claviers",
     "image": "/images/products/razer-blackwidow-v3.webp",
@@ -923,7 +929,6 @@
     "shortDescription_ar": "59 جرام وشكل مريح تم تحسينه من قبل أفضل اللاعبين في العالم — DeathAdder V3 مصممة لجلسات اللعب الطويلة دون تعب. يعمل مستشعر Focus Pro 30K على جميع الأسطح تقريبًا، وتلغي المفاتيح الضوئية Gen-3 النقرات المزدوجة، كما أن كابل Speedflex يكاد لا يجر على المكتب. معدل الاستجابة 8000 Hz متاح إذا كنت بحاجة إليه، وإلا فإنه يعمل بشكل مثالي في الاستخدام العادي. ماوس احترافي لأولئك الذين يريدون الأفضل دون تنازلات.",
     "shortDescription_zh": "59克重量及由世界顶尖玩家优化的符合人体工程学的外形 — DeathAdder V3 为长时间无疲劳使用而设计。Focus Pro 30K 传感器几乎适用于所有表面，Gen-3 光学微动消除了双击问题，Speedflex 线缆在桌面上几乎没有拖拽感。如果您需要，8000 Hz 的轮询率随时待命，否则在常规使用中也能表现完美。一款为追求极致、不妥协的用户打造的专业鼠标。",
     "amazonUrl": "https://www.amazon.ca/dp/B0B6XTDJS1?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0B6XTDJS1?tag=prixmalin20-20",
     "asin": "B0B6XTDJS1",
     "category": "souris",
     "image": "/images/products/razer-deathadder-v3.webp",
@@ -949,8 +954,7 @@
     "shortDescription_ar": "77 جرامًا، مستشعر TrueMove Core 8500 DPI وزمن استجابة 1.35 مللي ثانية — تستجيب Rival 3 Gen 2 بسرعة ودون تردد. تتحمل المفاتيح 60 مليون نقرة، وتنزلق وسادات PTFE بسلاسة، ويقلل كابل paracord من الاحتكاك على المكتب. يقوم RGB SteelSeries بالمهمة إذا كنت تحب بعض الحيوية على مكتبك. متينة، خفيفة الوزن وبسعر مناسب — خيار ممتاز للفئة الاقتصادية لا يخيب الآمال.",
     "shortDescription_zh": "77克，TrueMove Core 8500 DPI传感器和1.35 ms延迟 — Rival 3 Gen 2响应迅速且毫不犹豫。按键寿命达6000万次点击，PTFE脚贴滑动顺畅，Paracord线缆减少了桌面拖拽感。如果你喜欢桌面上多一点色彩，SteelSeries RGB灯效也能满足需求。坚固、轻巧且价格亲民 — 一款不会让你失望的优秀入门级产品。",
     "amazonUrl": "https://www.amazon.ca/dp/B0F6F7GB8S?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B0F6F7GB8S",
     "category": "souris",
     "image": "/images/products/steelseries-rival-3-gen-2-filaire.webp",
     "badge": "",
@@ -970,12 +974,11 @@
     "title_ar": "SteelSeries Rival 3 Gen 2 — لاسلكي",
     "title_zh": "SteelSeries Rival 3 Gen 2 — 无线",
     "shortDescription": "Double connexion 2,4 GHz et Bluetooth, 200 heures d'autonomie sur une pile AAA, et seulement 11 grammes de plus qu'avec un fil — la Rival 3 sans fil ne fait pratiquement aucun compromis. Le capteur TrueMove Air 18K est précis, les switches tiennent 60 millions de clics, et les patins PTFE glissent sans accroc. Disponible en plusieurs couleurs. Tout ce qu'on aime de la filaire, sans le câble.",
-    "shortDescription_en": "Dual 2.40 GHz and Bluetooth connectivity, 200 hours of battery life on a single AAA battery, and only 11 grams heavier than wired — the Rival 3 wireless makes virtually no compromises. The TrueMove Air 18K sensor is precise, the switches are rated for 60 million clicks, and the PTFE feet glide smoothly. Available in multiple colors. Everything we love about wired, without the cable.",
+    "shortDescription_en": "Dual 2.4 GHz and Bluetooth connectivity, 200 hours of battery life on a single AAA battery, and only 11 grams heavier than wired — the Rival 3 wireless makes virtually no compromises. The TrueMove Air 18K sensor is precise, the switches are rated for 60 million clicks, and the PTFE feet glide smoothly. Available in multiple colors. Everything we love about wired, without the cable.",
     "shortDescription_es": "Doble conexión de 2,4 GHz y Bluetooth, 200 horas de autonomía con una pila AAA, y solo 11 gramos más que la versión con cable — la Rival 3 inalámbrica no hace prácticamente ningún compromiso. El sensor TrueMove Air 18K es preciso, los interruptores soportan 60 millones de clics y los pies de PTFE se deslizan sin problemas. Disponible en varios colores. Todo lo que nos gusta de la conexión por cable, sin el cable.",
-    "shortDescription_ar": "اتصال مزدوج بتردد 2.40 جيجاهرتز وبلوتوث، و200 ساعة من عمر البطارية باستخدام بطارية AAA واحدة، وأثقل بـ 11 جرامًا فقط من النسخة السلكية — إن Rival 3 اللاسلكية لا تقدم أي تنازلات تقريبًا. مستشعر TrueMove Air 18K دقيق، والمفاتيح تتحمل 60 مليون نقرة، وزلاجات PTFE تنزلق بسلاسة. متوفرة بألوان متعددة. كل ما نحبه في الماوس السلكي، ولكن بدون كابل.",
-    "shortDescription_zh": "2.40 GHz 和蓝牙双重连接，单节 AAA 电池续航 200 小时，且仅比有线版本重 11 克 — Rival 3 无线版几乎没有任何妥协。TrueMove Air 18K 传感器精准，开关寿命达 6000 万次点击，PTFE 脚垫滑动顺畅。提供多种颜色可选。拥有我们喜爱有线鼠标的一切优点，却无需电缆。",
+    "shortDescription_ar": "اتصال مزدوج بتردد 2.4 جيجاهرتز وبلوتوث، و200 ساعة من عمر البطارية باستخدام بطارية AAA واحدة، وأثقل بـ 11 جرامًا فقط من النسخة السلكية — إن Rival 3 اللاسلكية لا تقدم أي تنازلات تقريبًا. مستشعر TrueMove Air 18K دقيق، والمفاتيح تتحمل 60 مليون نقرة، وزلاجات PTFE تنزلق بسلاسة. متوفرة بألوان متعددة. كل ما نحبه في الماوس السلكي، ولكن بدون كابل.",
+    "shortDescription_zh": "2.4 GHz 和蓝牙双重连接，单节 AAA 电池续航 200 小时，且仅比有线版本重 11 克 — Rival 3 无线版几乎没有任何妥协。TrueMove Air 18K 传感器精准，开关寿命达 6000 万次点击，PTFE 脚垫滑动顺畅。提供多种颜色可选。拥有我们喜爱有线鼠标的一切优点，却无需电缆。",
     "amazonUrl": "https://www.amazon.ca/dp/B0F6DXYX24?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0F6DXYX24?tag=prixmalin20-20",
     "asin": "B0F6DXYX24",
     "category": "souris",
     "image": "/images/products/steelseries-rival-3-gen-2-sans-fil.webp",
@@ -1010,7 +1013,8 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-08"
+    "translationVerifiedLe": "2026-06-08",
+    "asin": "B0D7HS9VK4"
   },
   {
     "slug": "logitech-g-733-lightspeed",
@@ -1034,7 +1038,8 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B081415GCS"
   },
   {
     "slug": "casque-de-jeu-sans-fil-jbl-quantum-910",
@@ -1044,10 +1049,10 @@
     "title_es": "JBL Quantum 910 — Auriculares gaming inalámbricos",
     "title_ar": "JBL Quantum 910 — سماعة ألعاب لاسلكية",
     "title_zh": "JBL Quantum 910 — 无线游戏耳机",
-    "shortDescription_en": "QuantumSPHERE 360 spatial audio with head tracking, active noise cancellation and low-latency 2.40 GHz wireless connection — the Quantum 910 is in a league of its own. Hi-Res certified 50 mm neodymium drivers reproduce every scene with precision, and QuantumENGINE calibrates the sound to your ear shape. Active noise cancellation keeps the outside world at bay while you're in your game. Compatible PC and console via USB-C dongle. JBL knows how to make a headset — and this one proves it.",
+    "shortDescription_en": "QuantumSPHERE 360 spatial audio with head tracking, active noise cancellation and low-latency 2.4 GHz wireless connection — the Quantum 910 is in a league of its own. Hi-Res certified 50 mm neodymium drivers reproduce every scene with precision, and QuantumENGINE calibrates the sound to your ear shape. Active noise cancellation keeps the outside world at bay while you're in your game. Compatible PC and console via USB-C dongle. JBL knows how to make a headset — and this one proves it.",
     "shortDescription_es": "Audio espacial QuantumSPHERE 360 con seguimiento de cabeza, cancelación activa de ruido y conexión inalámbrica de 2,4 GHz de baja latencia — el Quantum 910 está al nivel de los mejores. Los controladores de neodimio de 50 mm certificados Hi-Res reproducen cada escena con precisión, y QuantumENGINE calibra el sonido según la forma de tus oídos. La cancelación activa de ruido mantiene el mundo exterior alejado mientras estás en tu partida. Compatible con PC y consolas mediante dongle USB-C. JBL sabe fabricar auriculares — y este lo demuestra.",
-    "shortDescription_ar": "صوت مكاني QuantumSPHERE 360 مع تتبع حركة الرأس، وخاصية إلغاء الضوضاء النشطة، واتصال لاسلكي بتردد 2.40 جيجاهرتز بزمن انتقال منخفض — سماعة Quantum 910 تنافس الكبار. تقوم محركات النيوديميوم مقاس 50 مم المعتمدة بتقنية Hi-Res بإعادة إنتاج كل مشهد بدقة، ويقوم QuantumENGINE بمعايرة الصوت وفقًا لشكل أذنيك. يعمل إلغاء الضوضاء النشط على إبعاد العالم الخارجي أثناء انغماسك في اللعبة. متوافقة مع PC والمنصات عبر محول USB-C. JBL تتقن صناعة السماعات — وهذا الطراز يثبت ذلك.",
-    "shortDescription_zh": "带有头部追踪功能的 QuantumSPHERE 360 空间音频、主动降噪和低延迟 2.40 GHz 无线连接 — Quantum 910 表现卓越。经过 Hi-Res 认证的 50 mm 钕磁铁驱动单元精准还原每个场景，QuantumENGINE 可根据你的耳型校准声音。主动降噪功能让你在游戏时远离外界干扰。兼容 PC 和主机，通过 USB-C 适配器连接。JBL 深谙耳机之道 — 这款产品便能证明这一点。",
+    "shortDescription_ar": "صوت مكاني QuantumSPHERE 360 مع تتبع حركة الرأس، وخاصية إلغاء الضوضاء النشطة، واتصال لاسلكي بتردد 2.4 جيجاهرتز بزمن انتقال منخفض — سماعة Quantum 910 تنافس الكبار. تقوم محركات النيوديميوم مقاس 50 مم المعتمدة بتقنية Hi-Res بإعادة إنتاج كل مشهد بدقة، ويقوم QuantumENGINE بمعايرة الصوت وفقًا لشكل أذنيك. يعمل إلغاء الضوضاء النشط على إبعاد العالم الخارجي أثناء انغماسك في اللعبة. متوافقة مع PC والمنصات عبر محول USB-C. JBL تتقن صناعة السماعات — وهذا الطراز يثبت ذلك.",
+    "shortDescription_zh": "带有头部追踪功能的 QuantumSPHERE 360 空间音频、主动降噪和低延迟 2.4 GHz 无线连接 — Quantum 910 表现卓越。经过 Hi-Res 认证的 50 mm 钕磁铁驱动单元精准还原每个场景，QuantumENGINE 可根据你的耳型校准声音。主动降噪功能让你在游戏时远离外界干扰。兼容 PC 和主机，通过 USB-C 适配器连接。JBL 深谙耳机之道 — 这款产品便能证明这一点。",
     "amazonUrl": "https://www.amazon.ca/dp/B0BQL6J6D2?tag=prixmalin20-20",
     "category": "audio",
     "image": "/images/products/casque-de-jeu-sans-fil-jbl-quantum-910.webp",
@@ -1058,20 +1063,21 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0BQL6J6D2"
   },
   {
     "slug": "elgato-4k-x",
     "title": "Elgato 4K X — Carte de capture 4K144 ultra-faible latence",
-    "shortDescription": "4K à 144 fps, HDMI 2.10, VRR et USB 3.20 Gen 2 — la 4K X capture tout ce que les consoles et PC modernes peuvent produire sans perdre une image. La passerelle VRR élimine les déchirures d'écran pendant la capture, et la latence ultra-faible garde le jeu et la diffusion parfaitement synchronisés. Compatible PS5, Xbox Series X/S, Nintendo Switch 2 et PC. Fonctionne avec OBS, Twitch Studio, Streamlabs, Teams et plus. Pour les créateurs sérieux qui refusent de compromettre la qualité de leur contenu.",
+    "shortDescription": "4K à 144 fps, HDMI 2.1, VRR et USB 3.2 Gen 2 — la 4K X capture tout ce que les consoles et PC modernes peuvent produire sans perdre une image. La passerelle VRR élimine les déchirures d'écran pendant la capture, et la latence ultra-faible garde le jeu et la diffusion parfaitement synchronisés. Compatible PS5, Xbox Series X/S, Nintendo Switch 2 et PC. Fonctionne avec OBS, Twitch Studio, Streamlabs, Teams et plus. Pour les créateurs sérieux qui refusent de compromettre la qualité de leur contenu.",
     "title_en": "Elgato 4K X — Ultra-low latency 4K144 capture card",
     "title_es": "Elgato 4K X — Tarjeta de captura 4K144 de ultra baja latencia",
     "title_ar": "Elgato 4K X — بطاقة التقاط 4K144 بزمن انتقال منخفض للغاية",
     "title_zh": "Elgato 4K X — 超低延迟 4K144 采集卡",
-    "shortDescription_en": "4K at 144 fps, HDMI 2.10, VRR and USB 3.20 Gen 2 — the 4K X captures everything modern consoles and PC can produce without losing a single frame. The VRR gateway eliminates screen tearing during capture, and ultra-low latency keeps gameplay and streaming perfectly synchronized. Compatible with PS5, Xbox Series X/S, Nintendo Switch 2 and PC. Works with OBS, Twitch Studio, Streamlabs, Teams and more. For serious creators who refuse to compromise on content quality.",
-    "shortDescription_es": "4K a 144 fps, HDMI 2.10, VRR y USB 3.20 Gen 2 — la 4K X captura todo lo que las consolas y PC modernos pueden producir sin perder ni una sola imagen. La pasarela VRR elimina el desgarro de pantalla durante la captura, y la latencia ultra baja mantiene el juego y la transmisión perfectamente sincronizados. Compatible con PS5, Xbox Series X/S, Nintendo Switch 2 y PC. Funciona con OBS, Twitch Studio, Streamlabs, Teams y más. Para creadores serios que se niegan a comprometer la calidad de su contenido.",
-    "shortDescription_ar": "4K بمعدل 144 إطارًا في الثانية، HDMI 2.10، VRR و USB 3.20 Gen 2 — يلتقط 4K X كل ما يمكن لأجهزة الكونسول وأجهزة PC الحديثة إنتاجه دون فقدان أي إطار. تقنية VRR تمنع تمزق الشاشة أثناء الالتقاط، ويحافظ زمن الاستجابة المنخفض للغاية على تزامن اللعب والبث بشكل مثالي. متوافق مع PS5 و Xbox Series X/S و Nintendo Switch 2 و PC. يعمل مع OBS و Twitch Studio و Streamlabs و Teams والمزيد. للمبدعين الجادين الذين يرفضون المساومة على جودة محتواهم.",
-    "shortDescription_zh": "4K @ 144 fps，HDMI 2.10，VRR 和 USB 3.20 Gen 2 — 4K X 可以捕捉现代主机和 PC 所能产生的一切，且不丢失任何帧。VRR 网关消除了采集过程中的画面撕裂，超低延迟使游戏与直播保持完美同步。兼容 PS5、Xbox Series X/S、Nintendo Switch 2 和 PC。支持 OBS、Twitch Studio、Streamlabs、Teams 等软件。专为拒绝在内容质量上妥协的专业创作者打造。",
+    "shortDescription_en": "4K at 144 fps, HDMI 2.1, VRR and USB 3.2 Gen 2 — the 4K X captures everything modern consoles and PC can produce without losing a single frame. The VRR gateway eliminates screen tearing during capture, and ultra-low latency keeps gameplay and streaming perfectly synchronized. Compatible with PS5, Xbox Series X/S, Nintendo Switch 2 and PC. Works with OBS, Twitch Studio, Streamlabs, Teams and more. For serious creators who refuse to compromise on content quality.",
+    "shortDescription_es": "4K a 144 fps, HDMI 2.1, VRR y USB 3.2 Gen 2 — la 4K X captura todo lo que las consolas y PC modernos pueden producir sin perder ni una sola imagen. La pasarela VRR elimina el desgarro de pantalla durante la captura, y la latencia ultra baja mantiene el juego y la transmisión perfectamente sincronizados. Compatible con PS5, Xbox Series X/S, Nintendo Switch 2 y PC. Funciona con OBS, Twitch Studio, Streamlabs, Teams y más. Para creadores serios que se niegan a comprometer la calidad de su contenido.",
+    "shortDescription_ar": "4K بمعدل 144 إطارًا في الثانية، HDMI 2.1، VRR و USB 3.2 Gen 2 — يلتقط 4K X كل ما يمكن لأجهزة الكونسول وأجهزة PC الحديثة إنتاجه دون فقدان أي إطار. تقنية VRR تمنع تمزق الشاشة أثناء الالتقاط، ويحافظ زمن الاستجابة المنخفض للغاية على تزامن اللعب والبث بشكل مثالي. متوافق مع PS5 و Xbox Series X/S و Nintendo Switch 2 و PC. يعمل مع OBS و Twitch Studio و Streamlabs و Teams والمزيد. للمبدعين الجادين الذين يرفضون المساومة على جودة محتواهم.",
+    "shortDescription_zh": "4K @ 144 fps，HDMI 2.1，VRR 和 USB 3.2 Gen 2 — 4K X 可以捕捉现代主机和 PC 所能产生的一切，且不丢失任何帧。VRR 网关消除了采集过程中的画面撕裂，超低延迟使游戏与直播保持完美同步。兼容 PS5、Xbox Series X/S、Nintendo Switch 2 和 PC。支持 OBS、Twitch Studio、Streamlabs、Teams 等软件。专为拒绝在内容质量上妥协的专业创作者打造。",
     "amazonUrl": "https://www.amazon.ca/dp/B0CPFWXMBL?tag=prixmalin20-20",
     "category": "video",
     "image": "/images/products/elgato-4k-x.webp",
@@ -1082,11 +1088,11 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
-    "translationVerifiedLe": "2026-06-09"
+    "translationVerifiedLe": "2026-06-09",
+    "asin": "B0CPFWXMBL"
   },
   {
     "actif": true,
-    "affiliateLink": "https://www.amazon.ca/dp/B0BDMLY69R?tag=prixmalin20-20",
     "amazonUrl": "https://www.amazon.ca/dp/B0BDMLY69R?tag=prixmalin20-20",
     "asin": "B0BDMLY69R",
     "badge": "Aucun",
@@ -1118,13 +1124,12 @@
     "title_es": "Caja HYXN H2 ATX Blanca",
     "title_ar": "صندوق HYXN H2 ATX أبيض",
     "title_zh": "HYXN H2 ATX 机箱 白色",
-    "shortDescription": "Un boîtier qui fait autant parler qu'il performe — le design double chambre sépare l'alimentation et le stockage du reste, pour un câblage propre et un airflow optimisé. Les 8 ventilateurs ARGB pré-installés (6 x 140 mm + 2 x 120 mm) donnent de la couleur sans effort supplémentaire. Support radiateur jusqu'à 420 mm pour un watercooling sérieux, USB-C 3.20 en façade. Blanc ou noir, il va faire jaser ton entourage.",
-    "shortDescription_en": "A case that makes as much noise as it performs — the dual-chamber design separates the power supply and storage from the rest, for clean cabling and optimized airflow. The 8 pre-installed ARGB fans (6 x 140 mm + 2 x 120 mm) add color without extra effort. Radiator support up to 420 mm for serious water cooling, front-panel USB-C 3.20. Available in white or black, it will definitely turn heads.",
-    "shortDescription_es": "Una caja que destaca tanto por su diseño como por su rendimiento — el diseño de doble cámara separa la fuente de alimentación y el almacenamiento del resto, para un cableado limpio y un flujo de aire optimizado. Los 8 ventiladores ARGB preinstalados (6 x 140 mm + 2 x 120 mm) aportan color sin esfuerzo adicional. Soporte para radiador de hasta 420 mm para refrigeración líquida avanzada, USB-C 3.20 en el panel frontal. Blanco o negro, llamará la atención de todos.",
-    "shortDescription_ar": "صندوق يجمع بين التصميم المبهر والأداء العالي — يفصل التصميم ثنائي الغرف وحدة إمداد الطاقة والتخزين عن بقية المكونات، لضمان تنظيم الكابلات وتحسين تدفق الهواء. 8 مراوح ARGB مثبتة مسبقاً (6 × 140 مم + 2 × 120 مم) تضفي ألواناً دون جهد إضافي. يدعم مبردًا حتى 420 مم لتبريد مائي احترافي، ومنفذ USB-C 3.20 في الواجهة الأمامية. متوفر باللونين الأبيض أو الأسود، وسيكون محط الأنظار بالتأكيد.",
-    "shortDescription_zh": "一款兼具颜值与性能的机箱 — 双舱设计将电源和存储空间与其余部件分离，实现整洁的走线和优化的风道。预装的 8 个 ARGB 风扇（6 x 140 mm + 2 x 120 mm）无需额外努力即可增添色彩。支持高达 420 mm 的散热器，满足专业水冷需求，前置 USB-C 3.20 接口。黑色或白色可选，定会让周围的人侧目。",
+    "shortDescription": "Un boîtier qui fait autant parler qu'il performe — le design double chambre sépare l'alimentation et le stockage du reste, pour un câblage propre et un airflow optimisé. Les 8 ventilateurs ARGB pré-installés (6 x 140 mm + 2 x 120 mm) donnent de la couleur sans effort supplémentaire. Support radiateur jusqu'à 420 mm pour un watercooling sérieux, USB-C 3.2 en façade. Blanc ou noir, il va faire jaser ton entourage.",
+    "shortDescription_en": "A case that makes as much noise as it performs — the dual-chamber design separates the power supply and storage from the rest, for clean cabling and optimized airflow. The 8 pre-installed ARGB fans (6 x 140 mm + 2 x 120 mm) add color without extra effort. Radiator support up to 420 mm for serious water cooling, front-panel USB-C 3.2. Available in white or black, it will definitely turn heads.",
+    "shortDescription_es": "Una caja que destaca tanto por su diseño como por su rendimiento — el diseño de doble cámara separa la fuente de alimentación y el almacenamiento del resto, para un cableado limpio y un flujo de aire optimizado. Los 8 ventiladores ARGB preinstalados (6 x 140 mm + 2 x 120 mm) aportan color sin esfuerzo adicional. Soporte para radiador de hasta 420 mm para refrigeración líquida avanzada, USB-C 3.2 en el panel frontal. Blanco o negro, llamará la atención de todos.",
+    "shortDescription_ar": "صندوق يجمع بين التصميم المبهر والأداء العالي — يفصل التصميم ثنائي الغرف وحدة إمداد الطاقة والتخزين عن بقية المكونات، لضمان تنظيم الكابلات وتحسين تدفق الهواء. 8 مراوح ARGB مثبتة مسبقاً (6 × 140 مم + 2 × 120 مم) تضفي ألواناً دون جهد إضافي. يدعم مبردًا حتى 420 مم لتبريد مائي احترافي، ومنفذ USB-C 3.2 في الواجهة الأمامية. متوفر باللونين الأبيض أو الأسود، وسيكون محط الأنظار بالتأكيد.",
+    "shortDescription_zh": "一款兼具颜值与性能的机箱 — 双舱设计将电源和存储空间与其余部件分离，实现整洁的走线和优化的风道。预装的 8 个 ARGB 风扇（6 x 140 mm + 2 x 120 mm）无需额外努力即可增添色彩。支持高达 420 mm 的散热器，满足专业水冷需求，前置 USB-C 3.2 接口。黑色或白色可选，定会让周围的人侧目。",
     "amazonUrl": "https://www.amazon.ca/dp/B0G352NFTR?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0G352NFTR?tag=prixmalin20-20",
     "asin": "B0G352NFTR",
     "category": "boitiers",
     "image": "/images/products/boitier-atx-blanc-hyxn-h2-argb.webp",
@@ -1137,12 +1142,11 @@
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-08",
-    "raisonDesactivation": "indisponible",
-    "desactiveLe": "2026-06-30"
+    "raisonDesactivation": null,
+    "desactiveLe": null
   },
   {
     "actif": true,
-    "affiliateLink": "https://www.amazon.ca/dp/B0DBGYLVQ8?tag=prixmalin20-20",
     "amazonUrl": "https://www.amazon.ca/dp/B0DBGYLVQ8?tag=prixmalin20-20",
     "asin": "B0DBGYLVQ8",
     "badge": "",
@@ -1191,11 +1195,11 @@
     "prixVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-04",
-    "lienVerifieLe": "2026-11-17"
+    "lienVerifieLe": "2026-11-17",
+    "asin": "B0BJL8SJ59"
   },
   {
     "actif": true,
-    "affiliateLink": "https://www.amazon.ca/dp/B0DNKLJ5SX?tag=prixmalin20-20",
     "amazonUrl": "https://www.amazon.ca/dp/B0DNKLJ5SX?tag=prixmalin20-20",
     "asin": "B0DNKLJ5SX",
     "badge": "Deal du jour",
@@ -1217,7 +1221,6 @@
     "title_en": "LG 27\" 4K UHD Ultrafine monitor",
     "title_es": "Monitor LG 27\" 4K UHD Ultrafine",
     "title_zh": "LG 27\" 4K UHD Ultrafine 显示器",
-    "url_amazon": "https://www.amazon.ca/dp/B0DNKLJ5SX?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-08"
   },
@@ -1234,7 +1237,6 @@
     "shortDescription_ar": "ميكروفون يتميز بأداء عالٍ ومظهر لافت. مع أكثر من 100 مصباح LED aRGB قابلة للتخصيص بشكل فردي وأكثر من 16 مليون لون، تجذب الإضاءة الديناميكية لـ QuadCast 2 S الأنظار بينما تقوم دقة الصوت الرائدة في فئتها بالباقي. تتكيف أنماطه القطبية الأربعة (القلبي، والشامل، والثنائي الاتجاه، والاستريو) مع جميع السياقات: البث المباشر، أو البودكاست، أو الألعاب، أو المكالمات. تمنع خاصية كتم الصوت بلمسة واحدة مع مؤشر LED وقوع حوادث صوتية أثناء البث المباشر، ويقوم الزر متعدد الوظائف بضبط الكسب (gain)، ومستوى صوت سماعة الرأس، والمزج في حركة واحدة. حامل مضاد للصدمات قابل للإزالة، اتصال USB-C، ومتوافق مع PC و Mac. تخصيص متقدم عبر برنامج HyperX NGENUITY.",
     "shortDescription_zh": "一款性能卓越且出众的麦克风。QuadCast 2 S 的动态照明拥有超过 100 个可单独自定义的 aRGB LED 和超过 1600 万种颜色，在吸引眼球的同时，其同类产品中领先的音频分辨率则提供了卓越的听觉体验。其 4 种指向模式（心形、全向、双向和立体声）可适应各种场景：直播、播客、游戏或通话。带 LED 指示器的单键静音功能可避免直播中的音频意外，多功能按钮可通过一个动作调节增益、耳机音量和混音。可拆卸防震支架，USB-C 连接，兼容 PC 和 Mac。通过 HyperX NGENUITY 软件进行高级自定义。",
     "amazonUrl": "https://www.amazon.ca/dp/B0DG9X4WHW?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0DG9X4WHW?tag=prixmalin20-20",
     "asin": "B0DG9X4WHW",
     "category": "audio",
     "image": "/images/products/hyperx-quadcast-s-microphone-usb-rgb.webp",
@@ -1251,12 +1253,12 @@
   },
   {
     "slug": "cherry-mx-board-3-0-s-clavier-mecanique-filaire",
-    "title": "Cherry MX Board 3.00 S — Clavier mécanique filaire",
+    "title": "Cherry MX Board 3.0 S — Clavier mécanique filaire",
     "shortDescription": "Switches Cherry MX Red Silent fabriqués en Allemagne — la référence du genre. Le boîtier en aluminium texturé avec pieds en métal vissés ne bouge pas d'un millimètre sur le bureau, et le câble amovible mini USB-B facilite le transport et le rangement. Les touches rétroéclairées offrent 16 millions de couleurs, et la frappe linéaire silencieuse est aussi agréable au bureau qu'en gaming. Quand Cherry fait un clavier, le reste de l'industrie prend des notes.",
-    "title_en": "Cherry MX Board 3.00 S — Wired mechanical keyboard",
-    "title_es": "Cherry MX Board 3.00 S — Teclado mecánico con cable",
-    "title_ar": "Cherry MX Board 3.00 S — لوحة مفاتيح ميكانيكية سلكية",
-    "title_zh": "Cherry MX Board 3.00 S — 有线机械键盘",
+    "title_en": "Cherry MX Board 3.0 S — Wired mechanical keyboard",
+    "title_es": "Cherry MX Board 3.0 S — Teclado mecánico con cable",
+    "title_ar": "Cherry MX Board 3.0 S — لوحة مفاتيح ميكانيكية سلكية",
+    "title_zh": "Cherry MX Board 3.0 S — 有线机械键盘",
     "shortDescription_en": "German-made Cherry MX Red Silent switches — the industry standard. The textured aluminum housing with screw-in metal feet does not move a single millimeter on your desk, and the detachable mini USB-B cable makes transport and storage easy. The backlit keys offer 16 million colors, and the silent linear typing is as pleasant for office work as it is for gaming. When Cherry makes a keyboard, the rest of the industry takes notes.",
     "shortDescription_es": "Switches Cherry MX Red Silent fabricados en Alemania — la referencia del sector. La carcasa de aluminio texturizado con patas de metal atornilladas no se mueve ni un milímetro sobre el escritorio, y el cable mini USB-B extraíble facilita el transporte y el almacenamiento. Las teclas retroiluminadas ofrecen 16 millones de colores, y la pulsación lineal silenciosa es tan agradable en la oficina como en el gaming. Cuando Cherry fabrica un teclado, el resto de la industria toma nota.",
     "shortDescription_ar": "مفاتيح Cherry MX Red Silent المصنوعة في ألمانيا — المعيار المرجعي في هذا المجال. الهيكل المصنوع من الألمنيوم المحكم مع أرجل معدنية مثبتة ببراغي لا يتحرك ميليمترًا واحدًا على المكتب، ويسهل كابل mini USB-B القابل للفصل عملية النقل والتخزين. توفر المفاتيح ذات الإضاءة الخلفية 16 مليون لون، كما أن الكتابة الخطية الصامتة ممتعة في المكتب تمامًا كما هي في الألعاب. عندما تصنع Cherry لوحة مفاتيح، فإن بقية الصناعة تتعلم منها.",
@@ -1271,7 +1273,8 @@
     "prixVerifieLe": "2026-11-17",
     "lienVerifieLe": "2026-11-17",
     "raisonDesactivation": null,
-    "desactiveLe": null
+    "desactiveLe": null,
+    "asin": "B08YRRLV25"
   },
   {
     "slug": "ugreen-nexode-chargeur",
@@ -1286,7 +1289,6 @@
     "shortDescription_ar": "قطعة واحدة تغني عن كومة الشواحن المبعثرة في الدرج. بفضل قدرتها التي تصل إلى 100W، يمكنها شحن MacBook Air إلى أكثر من النصف في حوالي ثلاثين دقيقة، وتسمح منافذها الأربعة (3 USB-C و1 USB-A) بشحن الكمبيوتر المحمول والهاتف والجهاز اللوحي وسماعات الرأس في نفس الوقت. تحافظ تقنية GaN على صغر حجمها وعدم ارتفاع حرارتها: فهي تستقر في راحة اليد مع قابسها القابل للطي، مما يجعلها مثالية لحقيبة السفر أو ركن المكتب. تعمل مستشعرات الحرارة والرقاقة الذكية على ضبط الطاقة لحماية أجهزتك. متوافقة مع كل ما يتم شحنه عبر USB-C تقريباً: MacBook وiPhone وiPad وGalaxy وSteam Deck والمزيد. متوفرة باللون الأسود أو الأبيض.",
     "shortDescription_zh": "一个充电头即可取代抽屉里乱堆的一堆充电器。凭借其 100W 的功率，它可在约 30 分钟内为 MacBook Air 充电至一半以上，其 4 个端口（3 个 USB-C 和 1 个 USB-A）可同时为笔记本电脑、手机、平板电脑和耳机充电。GaN 技术使其保持紧凑且不发烫：配有折叠式插脚，可握在掌心，非常适合旅行包或桌面角落。温度传感器和智能芯片会自动调节功率以保护您的设备。兼容几乎所有通过 USB-C 充电的设备：MacBook、iPhone、iPad、Galaxy、Steam Deck 等。提供黑色或白色可选。",
     "amazonUrl": "https://www.amazon.ca/dp/B091Z6JNX4?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B091Z6JNX4?tag=prixmalin20-20",
     "asin": "B091Z6JNX4",
     "category": "accessoires",
     "image": "/images/products/ugreen-nexode-chargeur.webp",
@@ -1312,8 +1314,7 @@
     "shortDescription_ar": "بساط ماوس يحقق هدفين بضربة واحدة: الراحة والمظهر. يدعم مسند المعصم المصنوع من رغوة الذاكرة الزاوية الطبيعية للمعصم، مما يصنع فارقاً كبيراً خلال جلسات اللعب أو العمل الطويلة. مع سطحه فائق الاتساع بمقاس 12 × 10 بوصة، ستحصل على مساحة أكبر بنسبة 20% تقريباً من البساط القياسي لتحريك الماوس بحرية. تسمح قماش Lycra فائق النعومة بانزلاق أي ماوس بدقة، بينما يحافظ القاعدة المطاطية المحكمة على ثبات البساط في مكانه حتى في اللحظات الحماسية. ومن حيث الأجواء، يمكن التحكم في عشرة أنماط إضاءة RGB بزر واحد فقط - ويتذكر البساط آخر إعداد لك، فلا داعي لإعادة برمجته في كل مرة. إضافة رائعة تعزز مظهر المكتب دون تكلفة باهظة.",
     "shortDescription_zh": "一款兼顾舒适度与外观的鼠标垫。其记忆海绵腕垫支撑手腕的自然角度，在长时间的游戏或工作过程中带来显著差异。凭借 12 x 10 英寸的超大表面积，您比标准鼠标垫多出约 20% 的空间，让鼠标移动更加自如。超光滑的 Lycra 布料确保任何鼠标都能精准滑动，而纹理橡胶底座即使在激烈操作时也能保持鼠标垫稳固不动。氛围方面，可通过单个按钮控制十种 RGB 灯效模式——且鼠标垫会记住您的上次设置，无需每次重新编程。这是一个提升桌面格调且性价比极高的绝佳配件。",
     "amazonUrl": "https://www.amazon.ca/dp/B09TP5RG9L?tag=prixmalin20-20",
-    "affiliateLink": "",
-    "asin": "",
+    "asin": "B09TP5RG9L",
     "category": "accessoires",
     "image": "/images/products/gimars-tapis-de-souris-rgb.webp",
     "badge": "",
@@ -1347,7 +1348,8 @@
     "prixVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-14",
-    "lienVerifieLe": "2026-11-17"
+    "lienVerifieLe": "2026-11-17",
+    "asin": "B0CCZQTF73"
   },
   {
     "slug": "asus-rog-strix",
@@ -1357,10 +1359,10 @@
     "title_es": "Teclado mecánico inalámbrico para juegos ASUS ROG Strix Scope II 96",
     "title_ar": "لوحة مفاتيح الألعاب الميكانيكية اللاسلكية ASUS ROG Strix Scope II 96",
     "title_zh": "ASUS ROG Strix Scope II 96 无线机械游戏键盘",
-    "shortDescription_en": "Premium typing enthusiasts are in for a treat. ASUS has gone all out on comfort with this wireless mechanical keyboard: a dampening pad structure to absorb \"ping\" noises, factory-lubricated NX Snow switches for perfect glide, and enhanced stabilizers. Its multifunction knob allows you to manage sound and RGB backlight with a single swipe of your finger. Whether via Bluetooth, 2.40 GHz wireless, or wired, it is pure tactile pleasure under your fingertips.",
+    "shortDescription_en": "Premium typing enthusiasts are in for a treat. ASUS has gone all out on comfort with this wireless mechanical keyboard: a dampening pad structure to absorb \"ping\" noises, factory-lubricated NX Snow switches for perfect glide, and enhanced stabilizers. Its multifunction knob allows you to manage sound and RGB backlight with a single swipe of your finger. Whether via Bluetooth, 2.4 GHz wireless, or wired, it is pure tactile pleasure under your fingertips.",
     "shortDescription_es": "Los entusiastas de la escritura premium estarán encantados. ASUS ha apostado todo por el confort con este teclado mecánico inalámbrico: estructura de almohadilla amortiguadora para absorber los ruidos de \"ping\", switches NX Snow lubricados de fábrica para un deslizamiento perfecto y estabilizadores mejorados. Su rueda multifunción te permite gestionar el sonido y la retroiluminación RGB con un solo movimiento de dedo. Ya sea mediante Bluetooth, inalámbrico de 2,4 GHz o por cable, es puro placer táctil bajo tus dedos.",
     "shortDescription_ar": "سيتم إرضاء عشاق الكتابة الفاخرة. لقد بذلت ASUS قصارى جهدها لتوفير الراحة مع لوحة المفاتيح الميكانيكية اللاسلكية هذه: هيكل وسادة تخميد لامتصاص أصوات الـ \"ping\"، ومفاتيح NX Snow مشحمة مسبقاً من المصنع لانزلاق مثالي، ومثبتات محسنة. تتيح لك بكرة الوظائف المتعددة التحكم في الصوت وإضاءة RGB الخلفية بلمسة إصبع واحدة. سواء عبر Bluetooth، أو لاسلكي 2,4 GHz، أو سلكي، فهي متعة لمسية خالصة تحت أصابعك.",
-    "shortDescription_zh": "高端打字爱好者将大饱口福。ASUS 在这款无线机械键盘上倾注了大量舒适设计：用于吸收“ping”声的缓冲垫结构、出厂自带润滑的 NX Snow 轴以实现完美顺滑感，以及增强型稳定器。其多功能旋钮让你只需轻轻一拨即可控制声音和 RGB 背光。无论是通过 Bluetooth、2.40 GHz 无线还是有线连接，它都能为你的指尖带来纯粹的触觉享受。",
+    "shortDescription_zh": "高端打字爱好者将大饱口福。ASUS 在这款无线机械键盘上倾注了大量舒适设计：用于吸收“ping”声的缓冲垫结构、出厂自带润滑的 NX Snow 轴以实现完美顺滑感，以及增强型稳定器。其多功能旋钮让你只需轻轻一拨即可控制声音和 RGB 背光。无论是通过 Bluetooth、2.4 GHz 无线还是有线连接，它都能为你的指尖带来纯粹的触觉享受。",
     "amazonUrl": "https://www.amazon.ca/dp/B0C7KFZ5TL?tag=prixmalin20-20",
     "category": "claviers",
     "image": "/images/products/asus-rog-strix.webp",
@@ -1371,7 +1373,8 @@
     "prixVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-06-14",
-    "lienVerifieLe": "2026-11-17"
+    "lienVerifieLe": "2026-11-17",
+    "asin": "B0C7KFZ5TL"
   },
   {
     "slug": "boitier-tour-thermaltake-tower-600-snow",
@@ -1386,7 +1389,6 @@
     "shortDescription_ar": "يعتبر Thermaltake Tower 600 Snow الهيكل المثالي لأولئك الذين يرغبون في بناء PC أنيق وعملي في آن واحد. تبرز ألواحه الثلاثة من الزجاج المقسّى مكونات جهازك من جميع الزوايا، بينما تمنحك فتحات PCIe الدوارة حرية كاملة لتوجيه بطاقة الرسوميات حسب رغبتك. يحافظ نظام إدارة الكابلات المزود بموصلات مخفية على نظافة التصميم الداخلي، مما يجعله مثاليًا لعشاق التجميعات الأنيقة. خيار قوي لكل من يريد بناء برج ATX متوسط الحجم يبهر بقدر ما يقدم من أداء.",
     "shortDescription_zh": "Thermaltake Tower 600 Snow 是追求优雅与功能兼备的 PC 装机用户的理想机箱。其三面钢化玻璃侧板让您的组件全方位展示，而旋转式 PCIe 插槽则为您提供了根据喜好调整显卡方向的完全自由。采用隐藏式连接器的理线系统可保持内部整洁，非常适合追求极致走线美感的玩家。对于想要打造一款既令人惊艳又兼具性能的 ATX 中塔机箱的用户来说，这是一个可靠的选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0DF6RTR5W?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0DF6RTR5W?tag=prixmalin20-20",
     "asin": "B0DF6RTR5W",
     "category": "boitiers",
     "image": "/images/products/boitier-tour-thermaltake-tower-600-snow.webp",
@@ -1412,7 +1414,6 @@
     "shortDescription_ar": "اجذب الأنظار مع Lian Li O11 Vision Compact، وهو هيكل يحول جهازك إلى تحفة فنية حقيقية. يبرز تصميمه الجريء المزود بلوح زجاج مقسّى مكوناتك كما لم تفعل من قبل، بينما يضفي اللون الأبيض الناصع لمسة فاخرة على مكتبك. صُمم للمصممين الذين يرفضون الاختيار بين الأداء والجماليات، وهو يستوعب تكوينات ATX الأكثر طموحاً. إنه استثمار يصنع الفارق، سواء لعينيك أو لنتائج اختبارات الأداء الخاصة بك.",
     "shortDescription_zh": "使用 Lian Li O11 Vision Compact 让众人瞩目，这款机箱将您的配置变为真正的艺术品。其带有钢化玻璃侧板的大胆设计以前所未有的方式展示您的组件，而纯净的白色为您的桌面增添了高级感。专为不愿在性能与美学之间妥协的装机玩家打造，它可容纳最具野心的 ATX 配置。这是一项既能赏心悦目又能提升跑分表现的投资。",
     "amazonUrl": "https://www.amazon.ca/dp/B0DJPY63XL?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0DJPY63XL?tag=prixmalin20-20",
     "asin": "B0DJPY63XL",
     "category": "boitiers",
     "image": "/images/products/boitier-gaming-lian-li-o11-vision-compact-blanc.webp",
@@ -1423,7 +1424,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-08-03",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0DJPY63XL?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-08-03",
     "raisonDesactivation": null,
@@ -1442,22 +1442,20 @@
     "shortDescription_ar": "يعيد HYTE Y70 Touch Infinite تعريف ما يمكن توقعه من هيكل PC فائق الأداء. تعرض شاشته التي تعمل باللمس LCD مقاس 14.9 بوصة بدقة 2.5K المدمجة في البرج إحصائيات النظام أو الوسائط أو الرسوم المتحركة، ويمكن التحكم بها بلمسة من أصابعك. بفضل تصميمه البانورامي من الزجاج المقسى ولمساته السوداء الخاطفة للأنظار، فقد صُمم لأولئك الذين يريدون أن يلفت إعدادهم الأنظار. استثمار جاد للهواة الذين لا يقبلون بأنصاف الحلول.",
     "shortDescription_zh": "HYTE Y70 Touch Infinite 重新定义了高端 PC 机箱的标准。其内置的 14.9 英寸 2.5K LCD 触摸屏可显示系统状态、媒体或动画，并可通过指尖轻松操控。凭借全景钢化玻璃设计和引人注目的黑色外观，它专为追求极致视觉效果的用户打造。对于不愿妥协的发烧友来说，这是一项值得的专业投资。",
     "amazonUrl": "https://www.amazon.ca/dp/B0DKJKGPYZ?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0DKJKGPYZ?tag=prixmalin20-20",
     "asin": "B0DKJKGPYZ",
     "category": "boitiers",
     "image": "/images/products/hyte-y70-touch-infinite-boitier-atx-ecran-lcd-noir-rouge.webp",
     "badge": "",
     "actif": true,
     "prix": "468.63",
-    "prixBarre": "",
+    "prixBarre": null,
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-08-03",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0DKJLXLZJ?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-11-17",
-    "raisonDesactivation": "indisponible",
-    "desactiveLe": "2026-11-10"
+    "raisonDesactivation": null,
+    "desactiveLe": null
   },
   {
     "slug": "boitier-gaming-rouge-hyte-x50-atx",
@@ -1472,7 +1470,6 @@
     "shortDescription_ar": "إن Hyte X50 لا يمر مرور الكرام: لون أحمر مهيب على هيكل متوسط الحجم مصمم ليلفت الأنظار. تدفق هواء محسن، بناء متقن، ومكونات بارزة خلف اللوح. إذا كان جهازك قطعة عرض بقدر ما هو آلة ألعاب، فهذا هو الهيكل المناسب.",
     "shortDescription_zh": "Hyte X50 绝不平庸：这款中塔机箱采用引人注目的红色设计，旨在成为视觉焦点。优化气流、精湛工艺，并通过侧板完美展示内部组件。如果你的配置既是展示品又是游戏机器，那么这就是理想的选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0FQV73P79?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0FQV73P79?tag=prixmalin20-20",
     "asin": "B0FQV73P79",
     "category": "boitiers",
     "image": "/images/products/boitier-gaming-rouge-hyte-x50-atx.webp",
@@ -1483,7 +1480,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-08-29",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0FQV73P79?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-09-08"
   },
@@ -1500,7 +1496,6 @@
     "shortDescription_ar": "إن Lian Li V100 هو هيكل mid-tower يجذب الأنظار دون مبالغة — فتصميمه الأبيض الناصع وخطوطه الأنيقة تجعل منه قطعة مركزية في أي إعداد. صُمم لعشاق التجميعات النظيفة والمؤثرة بصريًا، حيث يوفر إدارة ممتازة للكابلات وتوافقًا سخيًا مع المكونات الحديثة. سواء كنت تقوم ببناء أول PC لك أو تضفي لمسة جمالية جديدة على محطتك، فإن V100 يلبي جميع معايير الهيكل الجذاب دون التضحية بالعملية. خيار قوي لأولئك الذين يريدون أن تكون أجهزتهم جميلة بقدر ما هي عالية الأداء.",
     "shortDescription_zh": "Lian Li V100 是一款引人注目却又不显张扬的中塔机箱 — 其纯净的白色设计和精致的线条使其成为任何配置中的视觉焦点。该机箱专为追求整洁且具有视觉冲击力的装机爱好者设计，提供卓越的走线管理能力以及对现代组件的广泛兼容性。无论您是在组装第一台 PC，还是想为您的工作站增添时尚感，V100 都能在不牺牲实用性的前提下，满足您对一款吸睛机箱的所有需求。对于那些希望机器既美观又高性能的用户来说，这是一个可靠的选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0F2T9777V?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0F2T9777V?tag=prixmalin20-20",
     "asin": "B0F2T9777V",
     "category": "boitiers",
     "image": "/images/products/lian-li-v100-boitier-mid-tower-blanc.webp",
@@ -1511,7 +1506,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-09-08",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0F2T9777V?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-09-08"
   },
@@ -1528,7 +1522,6 @@
     "shortDescription_ar": "إن Phanteks Eclipse G400A هو الهيكل المثالي لأولئك الذين يريدون أن يكون مظهر جهازهم بجمال أدائه. يبرز لوح الجانب المصنوع من الزجاج المقسى كل مكون وكل تأثير RGB في الداخل - ليتحول جهازك إلى واجهة عرض حقيقية. صُمم بتنسيق ATX mid-tower، وهو يوفر إدارة ممتازة للكابلات وتدفق هواء مدروس للحفاظ على الأداء العالي. خيار مثالي لعشاق PC الذين يرفضون التضحية بالأناقة من أجل الوظائف.",
     "shortDescription_zh": "Phanteks Eclipse G400A 是为那些追求外观与使用体验兼具的玩家打造的机箱。其钢化玻璃侧板能够完美展示内部的每一个组件和 RGB 灯效——让您的装机作品成为真正的展示橱窗。该机箱采用 ATX mid-tower 规格设计，提供出色的走线管理和精细的风道设计，以确保整体性能稳定。对于拒绝在风格与功能之间做妥协的 PC 爱好者来说，这是一个绝佳的选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0DXLD49DL?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0DXLD49DL?tag=prixmalin20-20",
     "asin": "B0DXLD49DL",
     "category": "boitiers",
     "image": "/images/products/phanteks-eclipse-g400a-boitier-atx-verre-trempe-noir.webp",
@@ -1539,7 +1532,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-09-08",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0DXLD49DL?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-09-08"
   },
@@ -1556,7 +1548,6 @@
     "shortDescription_ar": "تعد HyperX Alloy Origins Core لوحة المفاتيح الميكانيكية المدمجة التي نوصي بها بشدة للاعبين الذين يريدون الأداء دون التضحية بمساحة سطح المكتب. يمنحك تخطيط TKL (بدون لوحة أرقام) مساحة أكبر لحركات الماوس، بينما توفر مفاتيح HyperX الميكانيكية نقرات دقيقة وسريعة الاستجابة، ضغطة تلو الأخرى. الإضاءة الخلفية RGB قابلة للتخصيص بالكامل عبر البرامج، وتمنحك الماكرو القابلة للبرمجة ميزة ملموسة في ألعابك المفضلة. خيار قوي لكل من يأخذ إعداد الألعاب الخاص به على محمل الجد.",
     "shortDescription_zh": "HyperX Alloy Origins Core 是一款我们强烈推荐给追求性能且不想牺牲桌面空间的玩家的紧凑型机械键盘。其 TKL 布局（无数字小键盘）为您的鼠标移动腾出了空间，而 HyperX 机械轴则提供了精准且响应迅速的敲击体验，每一次按键都表现出色。RGB 背光可通过软件完全自定义，可编程宏能在您喜爱的游戏中为您提供实实在在的优势。对于任何认真对待其游戏配置的人来说，这都是一个可靠的选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B07YMHGP86?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B07YMHGP86?tag=prixmalin20-20",
     "asin": "B07YMHGP86",
     "category": "claviers",
     "image": "/images/products/hyperx-alloy-origins-core-clavier-mecanique-gaming-tkl-rgb.webp",
@@ -1567,7 +1558,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-09-08",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B07YMHGP86?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-09-08"
   },
@@ -1584,7 +1574,6 @@
     "shortDescription_ar": "تعد Logitech MX Brio كاميرا الويب المثالية لأولئك الذين يرفضون المساومة على جودة صورتهم. بفضل دقة Ultra HD 4K ومستشعراتها ذات الجودة الاحترافية، توفر فيديو حاداً ومشرقاً وجذاباً — سواء كنت في اجتماع، أو تقوم بالبث المباشر (streaming)، أو إنشاء المحتوى. يندمج تصميمها الهادئ باللون الرمادي الفاتح بأناقة في أي مساحة عمل. خيار جاد للمحترفين والمبدعين والعاملين عن بُعد الذين يريدون أخيراً الظهور بأفضل مظهر لهم.",
     "shortDescription_zh": "Logitech MX Brio 是为那些拒绝在图像质量上妥协的用户打造的网络摄像头。凭借其 Ultra HD 4K 分辨率和专业级传感器，无论您是在开会、直播还是创作内容，它都能提供清晰、明亮且讨喜的视频效果。其简约的浅灰色设计可优雅地融入任何工作空间。对于希望展现最佳状态的专业人士、创作者和远程办公者来说，这是一个值得信赖的高品质选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0BFH21BPX?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0BFH21BPX?tag=prixmalin20-20",
     "asin": "B0BFH21BPX",
     "category": "video",
     "image": "/images/products/logitech-mx-brio-webcam-ultra-hd-4k-gris-pale.webp",
@@ -1595,7 +1584,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-09-08",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0BFH21BPX?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-09-08"
   },
@@ -1612,7 +1600,6 @@
     "shortDescription_ar": " شاشة مقاس 32 بوصة تغيّر طريقة عملك. تمنحك Acer EB321HQ مساحة كافية لوضع مستندين جنبًا إلى جنب دون إجهاد عينيك، في هيكل أبيض يندمج بسلاسة مع المكتب. تحافظ لوحة IPS بدقة Full HD على ثبات الألوان حتى عند النظر إلى الشاشة من زاوية جانبية، وتعمل تقنيتا Flicker-less و ComfyView على تقليل إجهاد العين خلال أيام العمل الطويلة. ومع وقت استجابة 4 مللي ثانية، تظل الصورة حادة سواء كنت تستخدم جداول البيانات أو تلعب في المساء. حجم كبير وعملي بسعر معقول.",
     "shortDescription_zh": "一款改变工作方式的 32 英寸显示器。Acer EB321HQ 为您提供足够的空间，让您可以并排放置两个文档而无需费力眯眼，其白色外壳设计能完美融入桌面环境。Full HD 分辨率的 IPS 面板即使在侧视时也能保持色彩稳定，Flicker-less 和 ComfyView 技术可减轻长时间工作的眼部疲劳。凭借 4 毫秒的响应时间，无论是在处理电子表格还是在晚间游戏时，图像都能保持清晰。一款价格合理的实用大尺寸显示器。",
     "amazonUrl": "https://www.amazon.ca/dp/B0797M3SVG?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0797M3SVG?tag=prixmalin20-20",
     "asin": "B0797M3SVG",
     "category": "ecrans",
     "image": "/images/products/acer-ecran-32-pouces-ips-blanc-eb321hq.webp",
@@ -1623,7 +1610,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-09-14",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0797M3SVG?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-09-14"
   },
@@ -1640,7 +1626,6 @@
     "shortDescription_ar": "أضف لمسة من الأناقة إلى مكتبك مع هذه الشاشة المنحنية البيضاء ذات التصميم العصري والأنيق. تحيط انحناءة 1800R بمجال رؤيتك لتجربة أكثر غامرة، سواء كنت تعمل أو تتصفح الإنترنت أو تشاهد مسلسلاتك المفضلة. تجعل لوحة VA بدقة Full HD بتردد 100 هرتز، مع مرشح الضوء الأزرق وتقنية منع الوميض، هذا الخيار مثاليًا لمن يقضون ساعات طويلة أمام الشاشة. مثالية للمكتب المنزلي أو للمحترفين الذين يرغبون في الجمع بين الأداء والجماليات الراقية.",
     "shortDescription_zh": "这款白色曲面显示器设计时尚现代，能为您的桌面增添格调。其 1800R 曲率贴合您的视野，无论是在工作、浏览网页还是观看您喜爱的剧集，都能带来更具沉浸感的体验。Full HD VA 面板搭配 100 赫兹刷新率、防蓝光滤镜及无闪烁技术，是长时间面对屏幕用户的理想选择。非常适合居家办公或追求性能与精致美学结合的专业人士。",
     "amazonUrl": "https://www.amazon.ca/dp/B0BYP9SFJK?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0BYP9SFJK?tag=prixmalin20-20",
     "asin": "B0BYP9SFJK",
     "category": "ecrans",
     "image": "/images/products/moniteur-incurve-blanc-27-pouces-crua-full-hd-100hz.webp",
@@ -1651,7 +1636,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-09-14",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0BYP9SFJK?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-09-14"
   },
@@ -1668,7 +1652,6 @@
     "shortDescription_ar": "إن Logitech G PRO X 2 Lightspeed هي السماعة التي يضعها اللاعبون الجادون الذين يرفضون تقديم أي تنازلات في حقائبهم. تضمن تقنية الاتصال اللاسلكي Lightspeed زمن انتقال شبه معدوم —حتى أثناء اللعب المكثف— بينما تتولى ميكروفوناته الاحترافية المزودة بخاصية تقليل الضوضاء جعل صوتك واضحًا تمامًا لفريقك. تم تصميمه بالتعاون مع لاعبين محترفين، وهو يوفر راحة طويلة الأمد بفضل وسادات الأذن المصنوعة من الذاكرة وطوق الرأس القابل للتعديل. خيار قوي لكل من يريد اللعب لاسلكيًا دون التضحية بجودة الصوت.",
     "shortDescription_zh": "Logitech G PRO X 2 Lightspeed 是那些拒绝妥协的资深玩家随身必备的耳机。其无线 Lightspeed 连接确保了极低的延迟——即使在激烈的比赛中也是如此——同时，其带有降噪功能的专业麦克风可确保您的声音在团队沟通中清晰无比。该耳机与职业选手共同设计，凭借记忆海绵耳垫和可调节头带提供持久的舒适感。对于想要无线游戏且不愿牺牲音质的人来说，这是一个可靠的选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0B3F8V4JG?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0B3F8V4JG?tag=prixmalin20-20",
     "asin": "B0B3F8V4JG",
     "category": "audio",
     "image": "/images/products/casque-gaming-sans-fil-logitech-g-pro-x-2-lightspeed.webp",
@@ -1679,7 +1662,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-10-17",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0B3F8V4JG?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-10-17"
   },
@@ -1696,20 +1678,18 @@
     "shortDescription_ar": "",
     "shortDescription_zh": "",
     "amazonUrl": "https://www.amazon.ca/dp/B09SJ3S7JG?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B09SJ3S7JG?tag=prixmalin20-20",
     "asin": "B09SJ3S7JG",
     "category": "claviers",
     "image": "/images/products/clavier-gaming-steelseries-apex-3-tkl-rgb.webp",
     "badge": "Nouveau",
     "actif": true,
     "prix": "48.99",
-    "prixBarre": "",
+    "prixBarre": null,
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-10-17",
     "lienVerifieLe": "2026-11-13",
-    "url_amazon": "https://www.amazon.ca/dp/B09SJ3S7JG?tag=prixmalin20-20",
-    "raisonDesactivation": "indisponible",
-    "desactiveLe": "2026-11-17"
+    "raisonDesactivation": null,
+    "desactiveLe": null
   },
   {
     "slug": "avermedia-carte-capture-hdmi-4k-usb",
@@ -1724,7 +1704,6 @@
     "shortDescription_ar": "التقط ألعابك بجودة 4K باستخدام بطاقة التقاط HDMI من AVerMedia، العلامة التجارية المرجعية في عالم البث وإنشاء الفيديو. يتم توصيلها عبر USB، وتتميز بسهولة التركيب وتعمل مع OBS أو Streamlabs أو أي برنامج التقاط شائع. مثالية للمذيعين وصناع المحتوى واللاعبين الذين يرغبون في تسجيل جلسات الكونسول أو PC دون المساومة على الجودة. خيار قوي للارتقاء بمعدات الإنشاء الخاصة بك إلى المستوى التالي.",
     "shortDescription_zh": "使用这款来自 AVerMedia（流媒体和视频创作领域的标杆品牌）的 HDMI 采集卡，以 4K 画质捕捉您的游戏画面。通过 USB 连接，安装简单快捷，并兼容 OBS、Streamlabs 或任何流行的采集软件。非常适合想要在不牺牲画质的情况下记录主机或 PC 游戏环节的主播、内容创作者和玩家。是提升您创作配置水平的可靠选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0F93KM854?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0F93KM854?tag=prixmalin20-20",
     "asin": "B0F93KM854",
     "category": "video",
     "image": "/images/products/avermedia-carte-capture-hdmi-4k-usb.webp",
@@ -1735,7 +1714,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-10-17",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0F93KM854?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-10-17"
   },
@@ -1752,7 +1730,6 @@
     "shortDescription_ar": "هل ترغب في بث ألعابك على Switch 2 أو PS5 أو Xbox دون إنفاق الكثير من المال؟ تلتقط بطاقة الالتقاط UGREEN إشارتك بدقة 4K وتبثها بدقة 2K @ 30 Hz مع زمن انتقال شبه معدوم، لكي لا تفوت أي لحظة من الإثارة. يتم توصيلها عبر USB، وتثبيتها في ثوانٍ معدودة على PC أو Mac أو حتى الهاتف، وتتكامل تمامًا مع OBS أو Discord. إنها نقطة الانطلاق المثالية للمبتدئين في البث أو صناع المحتوى الذين يرغبون في الارتقاء بمستواهم دون عناء الإعدادات المعقدة.",
     "shortDescription_zh": "想在不花大钱的情况下直播您的 Switch 2、PS5 或 Xbox 游戏吗？UGREEN 采集卡可捕捉 4K 信号并以 2K @ 30 Hz 进行传输，延迟几乎为零，让您不错过任何精彩瞬间。通过 USB 连接，可在几秒钟内安装在 PC、Mac 甚至手机上，并能完美集成到 OBS 或 Discord 中。这是初级主播或想要提升水平且不想被复杂设置困扰的内容创作者的理想入门选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0DGXJS6BF?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0DGXJS6BF?tag=prixmalin20-20",
     "asin": "B0DGXJS6BF",
     "category": "video",
     "image": "/images/products/carte-capture-hdmi-4k-ugreen-streaming-jeux.webp",
@@ -1763,7 +1740,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-10-17",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0DGXJS6BF?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-10-17"
   },
@@ -1780,7 +1756,6 @@
     "shortDescription_ar": "تصبح ساعات العمل الطويلة أمام الشاشة أكثر احتمالاً مع كرسي يهتم بظهرك. يتميز هذا الطراز المريح بدعمه القطني القابل للتعديل، ومسند الرأس القابل للتعديل، ومساند الذراع القابلة للتكيف، لكي يجد كل جزء من جسمك وضعيته المثالية. إنه مخصص لكل من العاملين عن بعد والطلاب الذين يقضون أيامهم جالسين، مع قدرة تحمل قوية تصل إلى 150 kg ومسند ظهر مرتفع يدعم العمود الفقري بالكامل. استثمار حقيقي للراحة في مساحة عملك المنزلية.",
     "shortDescription_zh": "长时间面对屏幕工作，如果有一把关注您背部健康的椅子，将会变得轻松许多。这款人体工学椅凭借其可调节腰部支撑、可调节头枕和可自适应扶手而尤为突出，让身体的每个部位都能找到理想的位置。它既适合远程办公人员，也适合整天坐着的学生，拥有 150 kg 的强劲承重能力和支撑整个脊柱的高靠背。是您居家工作空间中一项真正的舒适投资。   ",
     "amazonUrl": "https://www.amazon.ca/dp/B0G5WPY7FM?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0G5WPY7FM?tag=prixmalin20-20",
     "asin": "B0G5WPY7FM",
     "category": "chaises",
     "image": "/images/products/chaise-ergonomique-bureau-support-lombaire-reglable.webp",
@@ -1791,7 +1766,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-11-12",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0G5WPY7FM?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-11-13"
   },
@@ -1808,7 +1782,6 @@
     "shortDescription_ar": "",
     "shortDescription_zh": "",
     "amazonUrl": "https://www.amazon.ca/dp/B0H1BSH24G?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0H1BSH24G?tag=prixmalin20-20",
     "asin": "B0H1BSH24G",
     "category": "chaises",
     "image": "/images/products/sihoo-b100-pro-chaise-bureau-ergonomique-repose-pieds.webp",
@@ -1818,8 +1791,7 @@
     "prixBarre": null,
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-11-12",
-    "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0H1BSH24G?tag=prixmalin20-20"
+    "lienVerifieLe": "2026-11-17"
   },
   {
     "slug": "hinomi-x2-pro-chaise-bureau-ergonomique",
@@ -1834,7 +1806,6 @@
     "shortDescription_ar": "إن Hinomi X2 Pro هو كرسي مكتب فاخر مصمم لأولئك الذين يقضون ساعات طويلة في الجلوس دون الرغبة في التضحية بالراحة أو وضعية الجسم. يتكيف مسند الظهر المكون من 4 ألواح بدقة مع حركات الظهر لتوفير دعم قطني مخصص حقًا. مثالي للمحترفين المتطلبين، والعاملين عن بعد، وكل من يسعى للاستثمار بجدية في مساحة عمله. إذا كنت تعاني من آلام الظهر في نهاية اليوم، فهذا الكرسي صُنع خصيصًا لك.",
     "shortDescription_zh": "Hinomi X2 Pro 是一款高端办公椅，专为长时间久坐且不愿牺牲舒适度或坐姿的人士设计。其四片式背靠能够精准贴合背部动作，提供真正个性化的腰部支撑。它是追求卓越的专业人士、远程办公人员以及任何希望认真投资工作空间的人士的理想选择。如果您厌倦了在一天结束时感到背部疼痛，这款椅子正是为您量身定制的。",
     "amazonUrl": "https://www.amazon.ca/dp/B0FKGR6QHZ?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0FKGR6QHZ?tag=prixmalin20-20",
     "asin": "B0FKGR6QHZ",
     "category": "chaises",
     "image": "/images/products/hinomi-x2-pro-chaise-bureau-ergonomique.webp",
@@ -1845,7 +1816,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-11-12",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0FKGR6QHZ?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-11-13"
   },
@@ -1862,7 +1832,6 @@
     "shortDescription_ar": "إن FLEXISPOT ErgoX هي كرسي المكتب المصمم لأولئك الذين يقضون ساعات طويلة في الجلوس دون الرغبة في التضحية براحتهم أو بصحة ظهرهم. يتبع تصميمها المريح عالي الجودة منحنى العمود الفقري بشكل طبيعي، مع إعدادات دقيقة لتناسب جميع بنيات الجسم. سواء كنت تعمل من المنزل، أو في المكتب، أو تلعب في المساء، فهي توفر الدعم القطني والاستقرار الذي غالباً ما نبحث عنه دون جدوى في الكراسي العادية. إنها استثمار جدي لكل من يريد الجمع بين الإنتاجية والرفاهية اليومية.",
     "shortDescription_zh": "FLEXISPOT ErgoX 是专为长时间久坐且不想牺牲舒适度或背部健康的人士设计的办公椅。其高端人体工学设计能够自然贴合脊柱曲线，并提供精确的调节功能以适应各种体型。无论您是在居家办公、在办公室工作还是在晚上玩游戏，它都能提供普通椅子往往难以提供的腰部支撑和稳定性。对于任何想要兼顾日常生产力与身心健康的人来说，这都是一项值得的投资。",
     "amazonUrl": "https://www.amazon.ca/dp/B0DT93JWJP?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0DT93JWJP?tag=prixmalin20-20",
     "asin": "B0DT93JWJP",
     "category": "chaises",
     "image": "/images/products/flexispot-ergox-chaise-bureau-ergonomique-premium.webp",
@@ -1873,7 +1842,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-11-12",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0DT93JWJP?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-11-13"
   },
@@ -1890,7 +1858,6 @@
     "shortDescription_ar": "تم تصميم Flexispot ErgoX لأولئك الذين يقضون ساعات طويلة في الجلوس ويرفضون التضحية براحتهم. يتكيف الدعم القطني الديناميكي مع حركاتك، بينما تسمح مساند الذراع 3D القابلة للتعديل ومسند القدم المدمج بتخصيص الوضعية وفقًا لبنية جسمك. مثالية للمكتب المنزلي أو محطات العمل المتطلبة، فهي تجمع بين المقعد الشبكي الذي يسمح بمرور الهواء وحرية الحركة بفضل وظيفة الإمالة. خيار قوي إذا كنت تبحث عن كرسي فاخر يهتم حقًا بظهرك.",
     "shortDescription_zh": "Flexispot ErgoX 专为长时间久坐且不愿牺牲舒适度的人士打造。其动态腰部支撑可随您的动作而调整，而 3D 可调扶手和内置脚托则允许您根据体型定制坐姿。无论是居家办公还是高强度工作站，它都能通过透气网状座垫和倾斜功能实现运动自由。如果您正在寻找一款真正呵护背部的优质座椅，这是一个可靠的选择。",
     "amazonUrl": "https://www.amazon.ca/dp/B0H261PTLT?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0H261PTLT?tag=prixmalin20-20",
     "asin": "B0H261PTLT",
     "category": "chaises",
     "image": "/images/products/flexispot-ergox-chaise-ergonomique-creme.webp",
@@ -1901,7 +1868,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-11-12",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0H261PTLT?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-11-13"
   },
@@ -1918,7 +1884,6 @@
     "shortDescription_ar": "تعد Razer DeathAdder V3 HyperSpeed الخيار الأمثل للاعبين الذين يرغبون في الأداء دون قيود السلك. بوزن 55 غرام فقط، تختفي في اليد وتسمح بجلسات لعب طويلة دون تعب — مع ما يصل إلى 100 ساعة من عمر البطارية بشحنة واحدة. يضمن مستشعرها البصري 26K ومفاتيحها الضوئية من الجيل الثالث دقة هائلة، سواء كنت تلعب ألعاب FPS التنافسية أو ألعاب العالم المفتوح. فأرة مصممة لأولئك الذين يرفضون المساومة بين خفة الوزن والموثوقية وحرية الحركة.",
     "shortDescription_zh": "Razer DeathAdder V3 HyperSpeed 是追求高性能且不愿受线缆束缚的游戏玩家的明智之选。仅重 55g，握感轻盈如无物，可进行长时间游戏而不会感到疲劳 — 单次充电续航时间长达 100 小时。其 26K 光学传感器和第三代光学开关确保了极高的精准度，无论您是在玩竞技类 FPS 还是开放世界游戏。这款鼠标专为拒绝在轻量化、可靠性和移动自由度之间做出妥协的用户而打造。",
     "amazonUrl": "https://www.amazon.ca/dp/B0D4RF55QK?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0D4RF55QK?tag=prixmalin20-20",
     "asin": "B0D4RF55QK",
     "category": "souris",
     "image": "/images/products/souris-gaming-sans-fil-razer-deathadder-v3-hyperspeed.webp",
@@ -1929,7 +1894,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-11-14",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0D4RF55QK?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-11-15"
   },
@@ -1946,7 +1910,6 @@
     "shortDescription_ar": "إن G PRO X2 SUPERSTRIKE هي الفأرة التي ينتظرها اللاعبون المحترفون: خفيفة الوزن، دقيقة، ولاسلكية بالكامل بفضل تقنية LIGHTSPEED لاتصال بدون أي تأخير ملحوظ. يستجيب مستشعرها عالي الأداء لأقل حركة بدقة فائقة، سواء كنت تلعب في المنافسات أو في جلسات اللعب الطويلة. يتناسب التصميم الهادئ باللونين الأبيض والأسود مع الإعدادات البسيطة أو محطات الألعاب المتكاملة. باختصار، إنها الأداة المصممة لأولئك الذين لا يريدون تقديم أي تنازلات فيما يتعلق بأدائهم.",
     "shortDescription_zh": "G PRO X2 SUPERSTRIKE 是资深玩家梦寐以求的鼠标：轻量化、精准，并凭借 LIGHTSPEED 技术实现完全无线连接，确保无感知延迟。其高性能传感器能够以极高的忠实度响应最细微的动作，无论你是进行竞技比赛还是长时间游戏。简约的黑白设计既适合极简主义配置，也适合功能齐全的游戏站。总之，它是为那些不愿在性能上做任何妥协的人士量身打造的工具。",
     "amazonUrl": "https://www.amazon.ca/dp/B0G12HGHGM?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0G12HGHGM?tag=prixmalin20-20",
     "asin": "B0G12HGHGM",
     "category": "souris",
     "image": "/images/products/logitech-g-pro-x2-superstrike-souris-gaming-sans-fil-noir-blanc.webp",
@@ -1957,7 +1920,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-11-14",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0G12HGHGM?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-11-15"
   },
@@ -1974,7 +1936,6 @@
     "shortDescription_ar": "يستهدف ROG Falcata اللاعبين الجادين الذين يرغبون في تجاوز حدود الراحة وسرعة الاستجابة في إعداد واحد. يتيح تنسيق 75% المدمج وضعية أكثر طبيعية خلال الجلسات الطويلة، بينما توفر ميزة الاتصال ثلاثي الأوضاع (trimode) حرية اللعب لاسلكيًا أو سلكيًا حسب الرغبة. توفر مفاتيح ROG HFX V2 المغناطيسية القابلة للتبديل السريع (hot-swap) دقة مذهلة بفضل تقنية Hall Effect، ويضمن معدل الاستطلاع 8,000 Hz استجابة فورية تقريبًا مع كل ضغطة. يتوفر باللونين الأسود والأبيض، حيث يجمع بين التصميم الجريء والأداء العالي لأولئك الذين لا يقبلون المساومة على مكاتبهم.",
     "shortDescription_zh": "ROG Falcata 专为希望在单一配置中挑战舒适度与响应速度极限的资深玩家打造。其 75% 紧凑布局可在长时间游戏时提供更自然的姿势，而三模连接功能则让玩家可以根据需求自由选择无线或有线模式。热插拔 ROG HFX V2 磁轴凭借 Hall Effect 技术带来惊人的精准度，8,000 Hz 的轮询率确保每次按键都能获得近乎瞬时的响应。该产品提供黑色和白色可选，将大胆的设计风格与顶尖性能完美结合，满足那些在桌面配置上绝不妥协的用户。",
     "amazonUrl": "https://www.amazon.ca/dp/B0H7ZVK15D?tag=prixmalin20-20",
-    "affiliateLink": "https://www.amazon.ca/dp/B0H7ZVK15D?tag=prixmalin20-20",
     "asin": "B0H7ZVK15D",
     "category": "claviers",
     "image": "/images/products/asus-rog-falcata-clavier-fractionne-sans-fil-75.webp",
@@ -1985,7 +1946,6 @@
     "prixVerifieLe": "2026-11-17",
     "dateAjout": "2026-11-14",
     "lienVerifieLe": "2026-11-17",
-    "url_amazon": "https://www.amazon.ca/dp/B0H7ZVK15D?tag=prixmalin20-20",
     "translationVerified": true,
     "translationVerifiedLe": "2026-11-15"
   }
