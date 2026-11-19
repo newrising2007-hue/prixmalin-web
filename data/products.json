@@ -1948,5 +1948,31 @@
     "lienVerifieLe": "2026-11-17",
     "translationVerified": true,
     "translationVerifiedLe": "2026-11-15"
+  },
+  {
+    "slug": "razer-barracuda-x-chroma-casque-gaming-sans-fil-multiplateforme",
+    "title": "Razer Barracuda X Chroma — Casque gaming sans fil multiplateforme",
+    "title_en": "",
+    "title_es": "",
+    "title_ar": "",
+    "title_zh": "",
+    "shortDescription": "Le Razer Barracuda X Chroma est fait pour les joueurs qui ne veulent pas choisir entre la maison et les déplacements : avec 70 heures d'autonomie et une connexion SmartSwitch Dual sans fil, il passe en un clin d'œil de ton PC ou ta console à ton téléphone via Bluetooth. Ses drivers Triforce 40 mm délivrent un son détaillé sur toute la plage de fréquences, pendant que l'éclairage RGB en 6 zones sur les oreillettes s'intègre parfaitement à ton setup Chroma. Léger à 285 g avec des coussinets en mousse à mémoire de forme, il reste confortable même lors des longues sessions. Le micro cardioïde HyperClear détachable complète le tout : tu le retires quand tu n'en as plus besoin, et ta voix reste claire et nette pour les parties en équipe.",
+    "shortDescription_en": "",
+    "shortDescription_es": "",
+    "shortDescription_ar": "",
+    "shortDescription_zh": "",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DJDZG9KJ?tag=prixmalin20-20",
+    "asin": "B0DJDZG9KJ",
+    "category": "audio",
+    "image": "/images/products/razer-barracuda-x-chroma-casque-gaming-sans-fil-multiplateforme.webp",
+    "badge": "Deal du jour",
+    "actif": true,
+    "prix": "138.99",
+    "prixBarre": "174.62",
+    "prixVerifieLe": "2026-11-18",
+    "dateAjout": "2026-11-18",
+    "lienVerifieLe": "2026-11-18",
+    "raisonDesactivation": null,
+    "desactiveLe": null
   }
 ]
