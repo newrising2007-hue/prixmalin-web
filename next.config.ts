@@ -38,6 +38,23 @@ const nextConfig: NextConfig = {
       { source: "/carte-psn-canada", destination: "/i/carte-psn-25-canada", permanent: true },
       { source: "/nintendo-switch-online-prix-canada", destination: "/i/nintendo-switch-online-12-mois-canada", permanent: true },
       { source: "/xbox-game-pass-prix-canada", destination: "/i/xbox-game-pass-ultimate-3-mois-canada", permanent: true },
+      // 20 nov. 2026 — 15 vieilles pages gaming à la racine (hors [locale]) : 404 depuis l'arrivée du
+      // middleware des langues ; dossiers retirés, adresses redirigées vers la page vivante équivalente
+      { source: "/xbox-game-pass", destination: "/i/xbox-game-pass-ultimate-3-mois-canada", permanent: true },
+      { source: "/xbox-game-pass-pas-cher-canada", destination: "/i/xbox-game-pass-ultimate-3-mois-canada", permanent: true },
+      { source: "/xbox-game-pass-ultimate-canada", destination: "/i/xbox-game-pass-ultimate-3-mois-canada", permanent: true },
+      { source: "/xbox-game-pass-ultimate-prix-canada", destination: "/i/xbox-game-pass-ultimate-3-mois-canada", permanent: true },
+      { source: "/playstation-plus", destination: "/i/playstation-plus-prix-canada", permanent: true },
+      { source: "/playstation-plus-pas-cher-canada", destination: "/i/playstation-plus-prix-canada", permanent: true },
+      { source: "/playstation-plus-premium-prix-canada", destination: "/i/playstation-plus-prix-canada", permanent: true },
+      { source: "/carte-playstation-plus-canada", destination: "/i/playstation-plus-prix-canada", permanent: true },
+      { source: "/carte-psn-pas-cher-canada", destination: "/i/carte-psn-25-canada", permanent: true },
+      { source: "/nintendo-switch-online", destination: "/i/nintendo-switch-online-12-mois-canada", permanent: true },
+      { source: "/nintendo-switch-online-carte-canada", destination: "/i/nintendo-switch-online-12-mois-canada", permanent: true },
+      { source: "/nintendo-switch-online-pas-cher-canada", destination: "/i/nintendo-switch-online-12-mois-canada", permanent: true },
+      { source: "/abonnement-gaming-pas-cher", destination: "/gaming", permanent: true },
+      { source: "/abonnements-gaming", destination: "/gaming", permanent: true },
+      { source: "/abonnements-gaming-prix-canada", destination: "/gaming", permanent: true },
       // 17 nov. 2026 — codes gaming retirés : toutes les anciennes adresses → /gaming (301)
       { source: "/codes/:path*", destination: "/gaming", permanent: true },
       { source: "/codes-bonus/:path*", destination: "/gaming", permanent: true },
