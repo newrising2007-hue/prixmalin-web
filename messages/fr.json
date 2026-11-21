@@ -319,7 +319,12 @@
     "retour": "← Retour aux produits",
     "badge_meilleur_vendeur": "Meilleur vendeur",
     "badge_nouveau": "Nouveau",
-    "badge_deal_du_jour": "Deal du jour"
+    "badge_deal_du_jour": "Deal du jour",
+    "badge_coupon": "Coupon",
+    "badge_coupon_info": "Coupon à appliquer sur la page Amazon — non déduit du prix affiché",
+    "badge_prime": "Prix Prime",
+    "badge_prime_info": "Prix réservé aux membres Amazon Prime",
+    "badge_reconditionne": "Reconditionné"
   },
   "layout": {
     "footer_affiliation": "PrixMalin est une plateforme d'affiliation. Certains liens peuvent être rémunérés. Prix affichés seulement si certains."

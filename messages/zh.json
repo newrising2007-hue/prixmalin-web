@@ -319,7 +319,12 @@
     "retour": "← 返回产品",
     "badge_meilleur_vendeur": "畅销",
     "badge_nouveau": "新品",
-    "badge_deal_du_jour": "今日特惠"
+    "badge_deal_du_jour": "今日特惠",
+    "badge_coupon": "优惠券",
+    "badge_coupon_info": "需在 Amazon 页面领取的优惠券 — 未从显示价格中扣除",
+    "badge_prime": "Prime 价",
+    "badge_prime_info": "仅限 Amazon Prime 会员的价格",
+    "badge_reconditionne": "翻新"
   },
   "layout": {
     "footer_affiliation": "PrixMalin 是一个联盟营销平台。某些链接可能获得佣金。仅在有价格时显示。"

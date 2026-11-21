@@ -319,7 +319,12 @@
     "retour": "العودة إلى المنتجات →",
     "badge_meilleur_vendeur": "الأكثر مبيعاً",
     "badge_nouveau": "جديد",
-    "badge_deal_du_jour": "عرض اليوم"
+    "badge_deal_du_jour": "عرض اليوم",
+    "badge_coupon": "قسيمة",
+    "badge_coupon_info": "قسيمة تُطبَّق على صفحة Amazon — غير مخصومة من السعر المعروض",
+    "badge_prime": "سعر Prime",
+    "badge_prime_info": "سعر حصري لأعضاء Amazon Prime",
+    "badge_reconditionne": "مُجدَّد"
   },
   "layout": {
     "footer_affiliation": "PrixMalin منصة تسويق بالعمولة. بعض الروابط قد تكون مدفوعة. الأسعار تُعرض فقط عند توفرها."
