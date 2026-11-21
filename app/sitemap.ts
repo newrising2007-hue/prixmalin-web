@@ -1,11 +1,9 @@
 import { MetadataRoute } from "next";
-import dealsData from "@/data/deals.json";
 import productsData from "@/data/products.json";
 import intentPages from "@/data/intent-pages.json";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://prixmalin.ca";
 
-type DealsJson = { updatedAt?: string; items?: Array<{ slug: string }> };
 type ProductItem = { slug: string };
 type IntentPageItem = { slug: string };
 
@@ -17,12 +15,6 @@ const HREFLANG_MAP: Record<string, string> = {
   "ar": "ar",
   "zh": "zh",
 };
-
-function safeDateFromYYYYMMDD(input?: string): Date {
-  if (!input) return new Date();
-  const d = new Date(`${input}T00:00:00.000Z`);
-  return Number.isFinite(d.getTime()) ? d : new Date();
-}
 
 function urlForLocale(basePath: string, locale: string): string {
   return locale ? `${SITE_URL}/${locale}${basePath}` : `${SITE_URL}${basePath}`;
@@ -66,15 +58,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     buildEntry(path, now, freq, pri)
   );
 
-  const dealsRoot = (dealsData as unknown) as DealsJson;
-  const dealEntries: MetadataRoute.Sitemap = (dealsRoot.items ?? []).map((d) =>
-    buildEntry(
-      `/deals/${String(d?.slug ?? "").trim()}`,
-      safeDateFromYYYYMMDD(dealsRoot.updatedAt),
-      "weekly",
-      0.8
-    )
-  );
+  // 20 nov. 2026 — plus d'entrées /deals/<slug> : la route était morte (gaming-codes.json vide).
+  // Les vraies pages sont /i/<slug> (intentEntries) ; les vieilles adresses redirigent (next.config.ts).
 
   const productEntries: MetadataRoute.Sitemap = (productsData as unknown as ProductItem[]).map((p) =>
     buildEntry(
@@ -94,5 +79,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     )
   );
 
-  return [...staticEntries, ...dealEntries, ...productEntries, ...intentEntries];
+  return [...staticEntries, ...productEntries, ...intentEntries];
 }
