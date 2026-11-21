@@ -24,6 +24,11 @@ export default async function ProduitsPage({ params }: { params: Promise<{ local
     badge_meilleur_vendeur: t("badge_meilleur_vendeur" as any),
     badge_nouveau: t("badge_nouveau" as any),
     badge_deal_du_jour: t("badge_deal_du_jour" as any),
+    badge_coupon: t("badge_coupon" as any),
+    badge_coupon_info: t("badge_coupon_info" as any),
+    badge_prime: t("badge_prime" as any),
+    badge_prime_info: t("badge_prime_info" as any),
+    badge_reconditionne: t("badge_reconditionne" as any),
   };
 // Rendu JSX principal de la page des produits, incluant l'en-tête et les produits filtrés
 

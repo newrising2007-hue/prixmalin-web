@@ -319,7 +319,12 @@
     "retour": "← Back to products",
     "badge_meilleur_vendeur": "Best seller",
     "badge_nouveau": "New",
-    "badge_deal_du_jour": "Deal of the day"
+    "badge_deal_du_jour": "Deal of the day",
+    "badge_coupon": "Coupon",
+    "badge_coupon_info": "Coupon to apply on the Amazon page — not deducted from the price shown",
+    "badge_prime": "Prime price",
+    "badge_prime_info": "Price for Amazon Prime members only",
+    "badge_reconditionne": "Renewed"
   },
   "layout": {
     "footer_affiliation": "PrixMalin is an affiliate platform. Some links may be compensated. Prices shown only when available."

@@ -11,6 +11,10 @@ export type Product = {
   prixBarre?: string;
   prixVerifieLe?: string;
   actif?: boolean;
+  coupon?: string | null;
+  couponType?: "$" | "%" | null;
+  prime?: boolean;
+  reconditionne?: boolean;
 };
 function isProduct(value: any): value is Product {
   const baseOk =

@@ -10,6 +10,12 @@ function fmtPrix(v?: string | number | null): string | null {
   const n = typeof v === "number" ? v : parseFloat(String(v).replace(",", "."));
   return Number.isFinite(n) ? n.toFixed(2) : null;
 }
+// Coupon Amazon : "37.77" + "$" → "37.77$" ; "10.00" + "%" → "10 %". Rien si vide.
+function fmtCoupon(v?: string | null, type?: string | null): string | null {
+  const n = parseFloat(String(v ?? ""));
+  if (!Number.isFinite(n) || n <= 0) return null;
+  return type === "%" ? `${Number(n.toFixed(2))} %` : `${n.toFixed(2)}$`;
+}
 type Props = {
   products: any[];
   categorySlugs: string[];
@@ -81,9 +87,26 @@ export default function ProduitsClient({ products, categorySlugs, labels, locale
                 )}
                 <p className="mt-2 text-black/70">{locale !== 'fr' && p[`shortDescription_${locale}`] ? p[`shortDescription_${locale}`] : p.shortDescription}</p>
                 {p.prix && (
-                  <div className="mt-2 flex items-center gap-2">
+                  <div className="mt-2 flex flex-wrap items-center gap-2">
                     <span className="text-lg font-bold text-orange-600">{fmtPrix(p.prix)}$</span>
                     {p.prixBarre && <span className="text-sm line-through text-black/40">{fmtPrix(p.prixBarre)}$</span>}
+                    {/* Étiquettes lues par NeoAgent sur la page Amazon (20 nov. 2026).
+                        Le coupon n'est jamais soustrait du prix affiché. */}
+                    {p.prime && (
+                      <span title={labels["badge_prime_info"]} className="rounded-full bg-sky-100 px-2 py-0.5 text-xs font-semibold text-sky-800">
+                        {labels["badge_prime"]}
+                      </span>
+                    )}
+                    {fmtCoupon(p.coupon, p.couponType) && (
+                      <span title={labels["badge_coupon_info"]} className="rounded-full bg-green-100 px-2 py-0.5 text-xs font-semibold text-green-800">
+                        {labels["badge_coupon"]} {fmtCoupon(p.coupon, p.couponType)}
+                      </span>
+                    )}
+                    {p.reconditionne && (
+                      <span className="rounded-full bg-gray-200 px-2 py-0.5 text-xs font-semibold text-gray-700">
+                        {labels["badge_reconditionne"]}
+                      </span>
+                    )}
                   </div>
                 )}
                 <p className="mt-3">
