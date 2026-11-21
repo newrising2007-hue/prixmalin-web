@@ -109,7 +109,7 @@
       },
       {
         "q": "C'est moins cher que l'abonnement 3 mois?",
-        "a": "Non, le 3 mois est plus avantageux à long terme. Le 1 mois coûte 19,99$ vs 49,99$ pour 3 mois."
+        "a": "Ça dépend des prix du moment. Divise le prix du 3 mois par 3 et compare-le au prix du 1 mois : les deux sont affichés à jour sur cette page. Le 3 mois t'évite aussi de renouveler chaque mois."
       }
     ],
     "faq_en": [
@@ -119,7 +119,7 @@
       },
       {
         "q": "Is it cheaper than the 3-month subscription?",
-        "a": "No, the 3-month plan is more cost-effective. 1 month costs $19.99 vs $49.99 for 3 months."
+        "a": "It depends on current prices. Divide the 3-month price by 3 and compare it with the 1-month price — both are shown, up to date, on this page. The 3-month plan also saves you from renewing every month."
       }
     ],
     "faq_es": [
@@ -129,7 +129,7 @@
       },
       {
         "q": "Es mas barato que la suscripcion de 3 meses?",
-        "a": "No, el plan de 3 meses es mas rentable. 1 mes cuesta $19.99 vs $49.99 por 3 meses."
+        "a": "Depende de los precios del momento. Divide el precio del plan de 3 meses entre 3 y compáralo con el precio de 1 mes: ambos aparecen actualizados en esta página. El plan de 3 meses también te evita renovar cada mes."
       }
     ],
     "faq_ar": [
@@ -139,7 +139,7 @@
       },
       {
         "q": "هل هو أرخص من اشتراك 3 أشهر؟",
-        "a": "لا، خطة 3 أشهر أكثر فائدة. شهر واحد يكلف 19.99$ مقابل 49.99$ لـ 3 أشهر."
+        "a": "يعتمد ذلك على الأسعار الحالية. اقسم سعر خطة 3 أشهر على 3 وقارنه بسعر الشهر الواحد، فكلاهما معروض ومحدَّث في هذه الصفحة. كما أن خطة 3 أشهر تغنيك عن التجديد كل شهر."
       }
     ],
     "faq_zh": [
@@ -149,7 +149,7 @@
       },
       {
         "q": "比 3 个月订阅便宜吗？",
-        "a": "不，3 个月计划更划算。1 个月花费 $19.99，3 个月为 $49.99。"
+        "a": "这取决于当前价格。将 3 个月的价格除以 3，再与 1 个月的价格比较——两者都在本页实时显示。3 个月计划还能免去每月续订的麻烦。"
       }
     ]
   },
@@ -487,7 +487,7 @@
       },
       {
         "q": "C'est avantageux par rapport au 12 mois?",
-        "a": "Non, le 12 mois revient à environ 11,67$/mois vs 19,99$ pour 1 mois seul."
+        "a": "Rarement sur une année complète : chez Sony, le 12 mois revient généralement moins cher par mois. Le 1 mois est utile pour essayer ou pour un besoin ponctuel."
       }
     ],
     "faq_en": [
@@ -497,7 +497,7 @@
       },
       {
         "q": "Is it worth it compared to 12 months?",
-        "a": "No, the 12-month plan works out to about $11.67/month vs $19.99 for 1 month alone."
+        "a": "Rarely over a full year: with Sony, the 12-month plan usually works out cheaper per month. The 1-month plan is useful for trying it out or for a short-term need."
       }
     ],
     "faq_es": [
@@ -507,7 +507,7 @@
       },
       {
         "q": "Vale la pena comparado con 12 meses?",
-        "a": "No, el plan de 12 meses sale a unos $11.67/mes vs $19.99 por 1 solo mes."
+        "a": "Pocas veces en un año completo: con Sony, el plan de 12 meses suele salir más barato por mes. El plan de 1 mes sirve para probarlo o para una necesidad puntual."
       }
     ],
     "faq_ar": [
@@ -517,7 +517,7 @@
       },
       {
         "q": "هل يستحق مقارنةً بـ 12 شهراً؟",
-        "a": "لا، خطة 12 شهراً تكلف حوالي 11.67$/شهر مقابل 19.99$ لشهر واحد فقط."
+        "a": "نادراً على مدار سنة كاملة: لدى Sony، تكون خطة 12 شهراً عادةً أرخص شهرياً. خطة الشهر الواحد مفيدة للتجربة أو لحاجة مؤقتة."
       }
     ],
     "faq_zh": [
@@ -527,7 +527,7 @@
       },
       {
         "q": "与 12 个月相比值得吗？",
-        "a": "不，12 个月计划约为 $11.67/月，而单独 1 个月为 $19.99。"
+        "a": "按全年算很少划算：在 Sony，12 个月计划通常每月更便宜。1 个月计划适合试用或短期需要。"
       }
     ]
   },
@@ -844,7 +844,7 @@
       },
       {
         "q": "Ça vaut le prix par rapport au standard?",
-        "a": "Si tu joues aux classiques N64/GBA, oui. Sinon le standard à 24,99$ suffit."
+        "a": "Si tu joues aux classiques N64/GBA, oui. Sinon, l'abonnement standard suffit et coûte moins cher. Les deux prix à jour sont affichés sur cette page."
       }
     ],
     "faq_en": [
@@ -854,7 +854,7 @@
       },
       {
         "q": "Is it worth it compared to standard?",
-        "a": "If you play N64/GBA classics, yes. Otherwise the standard at $24.99 is sufficient."
+        "a": "If you play N64/GBA classics, yes. Otherwise the standard membership is enough and costs less. Both up-to-date prices are shown on this page."
       }
     ],
     "faq_es": [
@@ -864,7 +864,7 @@
       },
       {
         "q": "Vale la pena comparado con el estandar?",
-        "a": "Si juegas a los clasicos de N64/GBA, si. De lo contrario, el estandar a $24.99 es suficiente."
+        "a": "Si juegas a los clásicos de N64/GBA, sí. Si no, la membresía estándar es suficiente y cuesta menos. Ambos precios actualizados aparecen en esta página."
       }
     ],
     "faq_ar": [
@@ -874,7 +874,7 @@
       },
       {
         "q": "هل يستحق مقارنةً بالعادي؟",
-        "a": "إذا كنت تلعب كلاسيكيات N64/GBA، نعم. وإلا فالعادي بـ24.99$ كافٍ."
+        "a": "إذا كنت تلعب كلاسيكيات N64/GBA، نعم. وإلا فالاشتراك العادي كافٍ وأقل سعراً. السعران المحدَّثان معروضان في هذه الصفحة."
       }
     ],
     "faq_zh": [
@@ -884,7 +884,7 @@
       },
       {
         "q": "与标准版相比值得吗？",
-        "a": "如果您玩 N64/GBA 经典游戏，值得。否则 $24.99 的标准版已足够。"
+        "a": "如果您玩 N64/GBA 经典游戏，值得。否则标准版就足够了，而且更便宜。两者的最新价格都显示在本页。"
       }
     ]
   },
