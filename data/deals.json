@@ -94,7 +94,9 @@
       "image": "/images/deals/playstation.webp",
       "price": 139.99,
       "badge": "Meilleur choix",
-      "actif": false
+      "actif": false,
+      "raisonDesactivation": "manuel",
+      "desactiveLe": "2026-11-21"
     },
     {
       "slug": "playstation-plus-3-mois",
@@ -106,7 +108,9 @@
       "affiliateUrl": "https://www.amazon.ca/s?k=PlayStation+Plus+3+mois&tag=prixmalin20-20",
       "image": "/images/deals/playstation.webp",
       "price": 44.99,
-      "actif": false
+      "actif": false,
+      "raisonDesactivation": "manuel",
+      "desactiveLe": "2026-11-21"
     },
     {
       "slug": "playstation-plus-1-mois",
