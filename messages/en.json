@@ -283,7 +283,11 @@
     "checkmark_3": "Secure purchase at vendor",
     "offres_gaming": "Gaming Deals",
     "voir_toutes_offres": "← See all gaming deals",
-    "offre_introuvable": "Main deal not found — slug:"
+    "offre_introuvable": "Main deal not found — slug:",
+    "indisponible": "Temporarily unavailable",
+    "indisponible_texte": "This offer isn't available on Amazon.ca right now. We check prices regularly — it will be back here as soon as it's available again.",
+    "voir_offres_dispo": "See available offers →",
+    "meme_plateforme": "Available offers on the same platform"
   },
   "applications": {
     "titre": "Applications",

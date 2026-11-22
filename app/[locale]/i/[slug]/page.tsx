@@ -26,10 +26,6 @@ function getFaq(page: { faq?: {q:string,a:string}[], faq_en?: {q:string,a:string
   return (localized && localized.length > 0) ? localized : (page.faq ?? []);
 }
 
-function toSchemaAvailability(actif?: boolean) {
-  return actif === false ? "https://schema.org/OutOfStock" : "https://schema.org/InStock";
-}
-
 function formatPrice(price?: number, currency = "CAD") {
   if (!price || !Number.isFinite(price)) return null;
   try {
@@ -45,6 +41,46 @@ function formatPrice(price?: number, currency = "CAD") {
 
 function DealCard({ deal, featured = false, t }: { deal: Deal; featured?: boolean; t: (key: string) => string }) {
   const price = formatPrice(deal.price, deal.currency);
+
+  // Deal inactif (retiré par NeoAgent ou « manuel ») : jamais de prix ni de lien affilié.
+  if (deal.actif === false) {
+    return (
+      <div className="overflow-hidden rounded-2xl border border-black/10 bg-white shadow-sm">
+        {deal.image ? (
+          <div className="flex items-center justify-center bg-gradient-to-b from-gray-50 to-white px-8 pt-8 pb-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={deal.image}
+              alt={deal.title}
+              className="h-44 w-full object-contain opacity-50 grayscale"
+              loading={featured ? "eager" : "lazy"}
+            />
+          </div>
+        ) : null}
+
+        <div className="p-5">
+          <p className="text-xs font-medium uppercase tracking-wider text-black/40">
+            {deal.vendor ?? t("vendeur")}
+          </p>
+          <h2 className="mt-1 text-lg font-bold leading-snug text-gray-500">
+            {deal.title}
+          </h2>
+
+          <p className="mt-3 inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-sm font-semibold text-gray-700">
+            {t("indisponible")}
+          </p>
+          <p className="mt-3 text-sm leading-relaxed text-black/60">{t("indisponible_texte")}</p>
+
+          <Link
+            href="/deals"
+            className="mt-5 inline-flex w-full items-center justify-center rounded-xl border border-gray-200 bg-white px-4 py-3.5 text-center text-sm font-bold text-gray-700 shadow-sm transition hover:bg-gray-50"
+          >
+            {t("voir_offres_dispo")}
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className={`overflow-hidden rounded-2xl border bg-white shadow-sm transition hover:shadow-md ${featured ? "border-blue-200 ring-1 ring-blue-100" : "border-black/10"}`}>
@@ -153,10 +189,14 @@ export default async function IntentPageRoute({ params }: PageProps) {
   const page = getIntentPageBySlug(slug);
   if (!page) notFound();
 
-  const { primary, secondary } = getIntentDeals(page);
+  const { primary, secondary, repli } = getIntentDeals(page);
+  const primaryActif = Boolean(primary && primary.actif !== false);
+  const autresOffres = secondary.length > 0 ? secondary : repli;
+  const titreAutres = secondary.length > 0 ? t("autres_options") : t("meme_plateforme");
 
+  // Deal inactif → pas de JSON-LD Product : Google ne doit pas voir un prix absent de la page.
   const productJsonLd =
-    primary && primary.affiliateUrl
+    primary && primaryActif && primary.affiliateUrl
       ? {
           "@context": "https://schema.org",
           "@type": "Product",
@@ -168,7 +208,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
             url: primary.affiliateUrl,
             priceCurrency: primary.currency ?? "CAD",
             ...(primary.price ? { price: String(primary.price) } : {}),
-            availability: toSchemaAvailability(primary.actif),
+            availability: "https://schema.org/InStock",
           },
         }
       : null;
@@ -232,16 +272,16 @@ export default async function IntentPageRoute({ params }: PageProps) {
           )}
         </section>
 
-        {/* {t("autres_options")} */}
-        {secondary.length > 0 ? (
+        {/* Autres options actives — ou, si tout est inactif, offres de la même plateforme */}
+        {autresOffres.length > 0 ? (
           <section className="mb-10">
             <h2 className="mb-4 flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gray-500">
               <span className="h-px flex-1 bg-gray-200" />
-              {t("autres_options")}
+              {titreAutres}
               <span className="h-px flex-1 bg-gray-200" />
             </h2>
             <div className="grid gap-4 sm:grid-cols-2">
-              {secondary.map((d) => (
+              {autresOffres.map((d) => (
                 <DealCard key={d.slug} deal={d} t={t} />
               ))}
             </div>
@@ -285,7 +325,7 @@ export default async function IntentPageRoute({ params }: PageProps) {
       </div>
 
       {/* Bouton fixe mobile */}
-      {primary?.affiliateUrl ? (
+      {primary?.affiliateUrl && primaryActif ? (
         <div className="fixed bottom-0 left-0 right-0 border-t border-black/10 bg-white/95 backdrop-blur-sm p-4 md:hidden">
           <a
             href={primary.affiliateUrl}

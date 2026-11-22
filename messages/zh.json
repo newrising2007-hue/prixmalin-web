@@ -283,7 +283,11 @@
     "checkmark_3": "在卖家处安全购买",
     "offres_gaming": "游戏优惠",
     "voir_toutes_offres": "← 查看所有游戏优惠",
-    "offre_introuvable": "未找到主要优惠 — slug:"
+    "offre_introuvable": "未找到主要优惠 — slug:",
+    "indisponible": "暂时无货",
+    "indisponible_texte": "此优惠目前在 Amazon.ca 上暂不可用。我们会定期核实价格，一旦恢复供应，就会重新显示在这里。",
+    "voir_offres_dispo": "查看可用优惠 →",
+    "meme_plateforme": "同一平台的可用优惠"
   },
   "applications": {
     "titre": "应用程序",

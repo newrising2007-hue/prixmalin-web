@@ -283,7 +283,11 @@
     "checkmark_3": "شراء آمن عند البائع",
     "offres_gaming": "عروض الألعاب",
     "voir_toutes_offres": "← عرض جميع صفقات الألعاب",
-    "offre_introuvable": "العرض الرئيسي غير موجود — slug:"
+    "offre_introuvable": "العرض الرئيسي غير موجود — slug:",
+    "indisponible": "غير متوفر مؤقتًا",
+    "indisponible_texte": "هذا العرض غير متوفر حاليًا على Amazon.ca. نتحقق من الأسعار بانتظام، وسيعود إلى هنا فور توفره من جديد.",
+    "voir_offres_dispo": "عرض العروض المتاحة →",
+    "meme_plateforme": "عروض متاحة على المنصة نفسها"
   },
   "applications": {
     "titre": "التطبيقات",

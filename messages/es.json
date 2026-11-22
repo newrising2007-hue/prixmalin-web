@@ -283,7 +283,11 @@
     "checkmark_3": "Compra segura en el vendedor",
     "offres_gaming": "Ofertas Gaming",
     "voir_toutes_offres": "← Ver todas las ofertas gaming",
-    "offre_introuvable": "Oferta principal no encontrada — slug:"
+    "offre_introuvable": "Oferta principal no encontrada — slug:",
+    "indisponible": "Temporalmente no disponible",
+    "indisponible_texte": "Esta oferta no está disponible en Amazon.ca por el momento. Revisamos los precios regularmente: volverá aquí en cuanto vuelva a estar disponible.",
+    "voir_offres_dispo": "Ver las ofertas disponibles →",
+    "meme_plateforme": "Ofertas disponibles en la misma plataforma"
   },
   "applications": {
     "titre": "Aplicaciones",
