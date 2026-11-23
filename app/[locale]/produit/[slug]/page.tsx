@@ -2,8 +2,10 @@ import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import AffiliateButton from "@/components/AffiliateButton";
-import { getProductBySlug, getAllProductSlugs } from "@/lib/products";
+import { getProductBySlug, getAllProductSlugs, type Product } from "@/lib/products";
 import { buildAmazonLink } from "@/lib/affiliate";
+import { absoluteUrl } from "@/lib/site";
+import { routing } from "@/i18n/routing";
 
 type Props = {
   params: Promise<{
@@ -19,27 +21,53 @@ export async function generateStaticParams() {
   return locales.flatMap((locale) => slugs.map((slug) => ({ locale, slug })));
 }
 
+// 22 nov. 2026 — SEO multilingue : titre / description dans la langue de la page
+// (repli sur le français), canonical de la page elle-même, hreflang des 5 langues
+// (mêmes URL que app/sitemap.ts : français sans préfixe, localePrefix "as-needed").
+function texteLocalise(product: Product, champ: "title" | "shortDescription", locale: string): string {
+  if (locale === routing.defaultLocale) return product[champ];
+  const valeur = (product as Record<string, unknown>)[`${champ}_${locale}`];
+  return typeof valeur === "string" && valeur.trim() ? valeur : product[champ];
+}
+
+function urlProduit(slug: string, locale: string): string {
+  return locale === routing.defaultLocale
+    ? absoluteUrl(`/produit/${slug}`)
+    : absoluteUrl(`/${locale}/produit/${slug}`);
+}
+
 // Génération des métadonnées de la page de produit en fonction du slug et de la locale
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug, locale } = await params;
   const product = getProductBySlug(slug);
 
   if (!product) {
     return {
-      title: "Produit introuvable | PrixMalin",
+      title: "Produit introuvable",
       robots: { index: false, follow: false },
     };
   }
 
+  const titre = texteLocalise(product, "title", locale);
+  const description = texteLocalise(product, "shortDescription", locale);
+  const url = urlProduit(product.slug, locale);
+
   return {
-    title: `${product.title} | PrixMalin`,
-    description: product.shortDescription,
+    title: titre,
+    description,
     alternates: {
-      canonical: `https://prixmalin.ca/produit/${product.slug}`,
+      canonical: url,
       languages: {
-        fr: `https://prixmalin.ca/produit/${product.slug}`,
-        "x-default": `https://prixmalin.ca/produit/${product.slug}`,
+        ...Object.fromEntries(routing.locales.map((l) => [l, urlProduit(product.slug, l)])),
+        "x-default": urlProduit(product.slug, routing.defaultLocale),
       },
+    },
+    openGraph: {
+      title: titre,
+      description,
+      url,
+      type: "website",
+      ...(product.image?.trim() ? { images: [absoluteUrl(product.image)] } : {}),
     },
   };
 }
@@ -69,8 +97,8 @@ export default async function ProductPage({ params, searchParams }: Props & { se
     "@context": "https://schema.org",
     "@type": "Product",
     name: localizedTitle,
-    description: product.shortDescription,
-    url: `/produit/${product.slug}`,
+    description: localizedDescription,
+    url: urlProduit(product.slug, locale),
     category: product.category ?? "gaming",
     offers: {
       "@type": "Offer",
