@@ -4,6 +4,7 @@ export type Product = {
   title: string;
   shortDescription: string;
   amazonUrl: string;
+  asin?: string;
   category?: string;
   image?: string;
   badge?: string;

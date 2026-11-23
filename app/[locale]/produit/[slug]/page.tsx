@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import AffiliateButton from "@/components/AffiliateButton";
 import { getProductBySlug, getAllProductSlugs, type Product } from "@/lib/products";
 import { buildAmazonLink } from "@/lib/affiliate";
+import { fmtPrix, fmtCoupon } from "@/lib/prix";
 import { absoluteUrl } from "@/lib/site";
 import { routing } from "@/i18n/routing";
 
@@ -93,6 +94,18 @@ export default async function ProductPage({ params, searchParams }: Props & { se
   const t = await getTranslations();
   const affiliateUrl = buildAmazonLink(product.amazonUrl);
 
+  const imageSrc = product.image?.trim() ? product.image.trim() : null;
+
+  // 22 nov. 2026 — prix affiché sur la fiche (même rendu que les cartes de /produits)
+  // et repris tel quel dans le JSON-LD : Google exige que le prix des données
+  // structurées soit celui affiché sur la page.
+  const prix = fmtPrix(product.prix);
+  const prixBarre = fmtPrix(product.prixBarre);
+  const coupon = fmtCoupon(product.coupon, product.couponType);
+  const dateVerif = product.prixVerifieLe
+    ? new Date(product.prixVerifieLe + "T12:00:00").toLocaleDateString(locale, { year: "numeric", month: "long", day: "numeric" })
+    : null;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -100,19 +113,24 @@ export default async function ProductPage({ params, searchParams }: Props & { se
     description: localizedDescription,
     url: urlProduit(product.slug, locale),
     category: product.category ?? "gaming",
-    offers: {
-      "@type": "Offer",
-      url: affiliateUrl,
-      priceCurrency: "CAD",
-      availability: "https://schema.org/InStock",
-    },
+    ...(imageSrc ? { image: absoluteUrl(imageSrc) } : {}),
+    ...(product.asin ? { sku: product.asin } : {}),
+    // Sans prix, pas d'offre : une offre sans prix est une erreur critique pour Google.
+    ...(prix
+      ? {
+          offers: {
+            "@type": "Offer",
+            url: affiliateUrl,
+            price: prix,
+            priceCurrency: "CAD",
+            availability: "https://schema.org/InStock",
+            itemCondition: product.reconditionne
+              ? "https://schema.org/RefurbishedCondition"
+              : "https://schema.org/NewCondition",
+          },
+        }
+      : {}),
   };
-
-  const imageSrc =
-    (product as { image?: string }).image && (product as { image?: string }).image?.trim()
-// Rendu JSX principal de la page de produit, incluant les détails du produit et le bouton d'affiliation
-      ? (product as { image?: string }).image
-      : null;
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
@@ -137,7 +155,7 @@ export default async function ProductPage({ params, searchParams }: Props & { se
               />
             ) : (
               <div className="h-full w-full flex items-center justify-center text-sm text-black/50">
-                Image bientôt disponible
+                {t("produits.image_bientot")}
               </div>
             )}
           </div>
@@ -148,9 +166,32 @@ export default async function ProductPage({ params, searchParams }: Props & { se
 
           <p className="mt-4 text-black/70">{localizedDescription}</p>
 
-          {(product as { prixVerifieLe?: string }).prixVerifieLe && (
-            <p className="mt-3 text-xs text-black/40">
-              ✓ {new Date((product as { prixVerifieLe?: string }).prixVerifieLe! + "T12:00:00").toLocaleDateString(locale, { year: "numeric", month: "long", day: "numeric" })}
+          {prix && (
+            <div className="mt-4 flex flex-wrap items-center gap-2">
+              <span className="text-2xl font-bold text-orange-600">{prix}$</span>
+              {prixBarre && <span className="text-base line-through text-black/40">{prixBarre}$</span>}
+              {/* Étiquettes lues par NeoAgent — le coupon n'est jamais soustrait du prix affiché. */}
+              {product.prime && (
+                <span title={t("produits.badge_prime_info")} className="rounded-full bg-sky-100 px-2 py-0.5 text-xs font-semibold text-sky-800">
+                  {t("produits.badge_prime")}
+                </span>
+              )}
+              {coupon && (
+                <span title={t("produits.badge_coupon_info")} className="rounded-full bg-green-100 px-2 py-0.5 text-xs font-semibold text-green-800">
+                  {t("produits.badge_coupon")} {coupon}
+                </span>
+              )}
+              {product.reconditionne && (
+                <span className="rounded-full bg-gray-200 px-2 py-0.5 text-xs font-semibold text-gray-700">
+                  {t("produits.badge_reconditionne")}
+                </span>
+              )}
+            </div>
+          )}
+
+          {dateVerif && (
+            <p className="mt-2 text-xs text-black/40">
+              {t("produits.verifie_le")} {dateVerif}
             </p>
           )}
           <div className="mt-6">
