@@ -4,7 +4,7 @@ import intentPages from "@/data/intent-pages.json";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://prixmalin.ca";
 
-type ProductItem = { slug: string };
+type ProductItem = { slug: string; actif?: boolean };
 type IntentPageItem = { slug: string };
 
 const LOCALES = ["", "en", "es", "ar", "zh"] as const;
@@ -61,7 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // 20 nov. 2026 — plus d'entrées /deals/<slug> : la route était morte (gaming-codes.json vide).
   // Les vraies pages sont /i/<slug> (intentEntries) ; les vieilles adresses redirigent (next.config.ts).
 
-  const productEntries: MetadataRoute.Sitemap = (productsData as unknown as ProductItem[]).map((p) =>
+  const productEntries: MetadataRoute.Sitemap = (productsData as unknown as ProductItem[]).filter((p) => p?.actif !== false).map((p) =>
     buildEntry(
       `/produit/${String(p?.slug ?? "").trim()}`,
       now,
