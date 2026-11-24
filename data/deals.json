@@ -22,7 +22,7 @@
       "description_es": "Acceso a cientos de juegos de Xbox y PC con EA Play incluido.",
       "description_ar": "الوصول إلى مئات ألعاب Xbox والكمبيوتر مع EA Play مدرج.",
       "description_zh": "畅玩数百款Xbox和PC游戏，含EA Play。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "xbox-game-pass-ultimate-1m",
@@ -43,7 +43,7 @@
       "description_es": "Suscripción mensual Game Pass Ultimate para Xbox, PC y cloud gaming.",
       "description_ar": "اشتراك شهري Game Pass Ultimate لـ Xbox والكمبيوتر والألعاب السحابية.",
       "description_zh": "Xbox、PC和云游戏的月度Game Pass Ultimate订阅。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "xbox-gift-card-50",
@@ -64,7 +64,7 @@
       "description_es": "Tarjeta de regalo digital Xbox, válida en Microsoft Store.",
       "description_ar": "بطاقة هدية Xbox الرقمية، صالحة في متجر Microsoft.",
       "description_zh": "Xbox数字礼品卡，适用于Microsoft Store。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "xbox-gift-card-25",
@@ -85,7 +85,7 @@
       "description_es": "Tarjeta de regalo digital Xbox, válida en Microsoft Store.",
       "description_ar": "بطاقة هدية Xbox الرقمية، صالحة في متجر Microsoft.",
       "description_zh": "Xbox数字礼品卡，适用于Microsoft Store。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "ps-plus-premium-12m",
@@ -148,7 +148,7 @@
       "description_es": "Agrega fondos a tu billetera PlayStation.",
       "description_ar": "أضف رصيداً إلى محفظة PlayStation الخاصة بك.",
       "description_zh": "为您的PlayStation钱包充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "psn-gift-card-200",
@@ -168,7 +168,7 @@
       "description_es": "Agrega fondos a tu billetera PlayStation.",
       "description_ar": "أضف رصيداً إلى محفظة PlayStation الخاصة بك.",
       "description_zh": "为您的PlayStation钱包充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "psn-gift-card-150",
@@ -188,7 +188,7 @@
       "description_es": "Agrega fondos a tu billetera PlayStation.",
       "description_ar": "أضف رصيداً إلى محفظة PlayStation الخاصة بك.",
       "description_zh": "为您的PlayStation钱包充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "psn-gift-card-100",
@@ -209,7 +209,7 @@
       "description_es": "Agrega fondos a tu billetera PlayStation.",
       "description_ar": "أضف رصيداً إلى محفظة PlayStation الخاصة بك.",
       "description_zh": "为您的PlayStation钱包充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "psn-gift-card-50",
@@ -230,7 +230,7 @@
       "description_es": "Agrega fondos a tu billetera PlayStation.",
       "description_ar": "أضف رصيداً إلى محفظة PlayStation الخاصة بك.",
       "description_zh": "为您的PlayStation钱包充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "psn-gift-card-25",
@@ -251,7 +251,7 @@
       "description_es": "Agrega fondos a tu billetera PlayStation.",
       "description_ar": "أضف رصيداً إلى محفظة PlayStation الخاصة بك.",
       "description_zh": "为您的PlayStation钱包充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "nintendo-switch-online-12m",
@@ -273,7 +273,7 @@
       "description_ar": "لعب متعدد اللاعبين مع مكتبة ألعاب NES وSNES وGame Boy الكلاسيكية.",
       "description_zh": "在线多人游戏，含NES、SNES和Game Boy复古游戏库。",
       "availability": "InStock",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "nintendo-switch-online-expansion-12m",
@@ -296,7 +296,7 @@
       "description_ar": "الاشتراك الكامل + N64 وGBA ومحتوى DLC حصري مدرج.",
       "description_zh": "完整订阅 + N64、GBA及独家DLC。",
       "availability": "InStock",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "nintendo-eshop-35",
@@ -317,7 +317,7 @@
       "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
       "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
       "description_zh": "为您的Nintendo eShop账户充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "nintendo-eshop-20",
@@ -338,7 +338,7 @@
       "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
       "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
       "description_zh": "为您的Nintendo eShop账户充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "xbox-gift-card-15",
@@ -359,7 +359,7 @@
       "description_es": "Tarjeta de regalo digital Xbox, válida en Microsoft Store.",
       "description_ar": "بطاقة هدية Xbox الرقمية، صالحة في متجر Microsoft.",
       "description_zh": "Xbox数字礼品卡，适用于Microsoft Store。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "nintendo-eshop-5",
@@ -380,7 +380,7 @@
       "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
       "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
       "description_zh": "为您的Nintendo eShop账户充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "nintendo-eshop-10",
@@ -402,7 +402,7 @@
       "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
       "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
       "description_zh": "为您的Nintendo eShop账户充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "nintendo-eshop-25",
@@ -423,7 +423,7 @@
       "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
       "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
       "description_zh": "为您的Nintendo eShop账户充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "nintendo-eshop-50",
@@ -444,7 +444,7 @@
       "description_es": "Agrega fondos a tu cuenta Nintendo eShop.",
       "description_ar": "أضف رصيداً إلى حساب Nintendo eShop الخاص بك.",
       "description_zh": "为您的Nintendo eShop账户充值。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "xbox-game-pass-essential-3-month-membership",
@@ -465,7 +465,7 @@
       "description_es": "Acceso a una selección de juegos gratuitos y descuentos exclusivos.",
       "description_ar": "الوصول إلى مجموعة من الألعاب المجانية والخصومات الحصرية.",
       "description_zh": "访问精选免费游戏和独家折扣。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     },
     {
       "slug": "xbox-game-pass-essential-1-month-membership",
@@ -486,7 +486,7 @@
       "description_es": "Acceso a una selección de juegos gratuitos y descuentos exclusivos.",
       "description_ar": "الوصول إلى مجموعة من الألعاب المجانية والخصومات الحصرية.",
       "description_zh": "访问精选免费游戏和独家折扣。",
-      "prixVerifieLe": "2026-11-22"
+      "prixVerifieLe": "2026-11-24"
     }
   ]
 }
